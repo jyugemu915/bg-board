@@ -6,6 +6,6 @@
     { "name": "ブルーフィンチゲームズ", "site": "", "rss": "", "x": "" }
   ],
   "news": [
-    { "name": "Table Games in the World", "site": "https://tgiw.info/", "rss": "" }
+    { "name": "Table Games in the World", "site": "https://tgiw.info/", "rss": "https://tgiw.info/feed" }
   ]
 }

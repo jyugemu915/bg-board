@@ -1,7 +1,7 @@
 // 情報源からRSSを取得して data/news.json に書き出す(GitHub Actions で定期実行)
 import { readFile, writeFile } from "node:fs/promises";
 
-const UA = "Mozilla/5.0 (bg-board personal reader)";
+const UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1";
 const MAX_PER_SOURCE = 20;
 
 async function get(url) {
