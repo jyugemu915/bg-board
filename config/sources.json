@@ -1,0 +1,11 @@
+{
+  "_note": "追いたいメーカーの一覧。site を入れると RSS を自動で探します。rss が分かっていれば直接指定できます。x は Xのユーザー名(@なし)。",
+  "makers": [
+    { "name": "ホヌゲームズ", "site": "", "rss": "", "x": "" },
+    { "name": "うちばこや", "site": "", "rss": "", "x": "uchibacoya" },
+    { "name": "ブルーフィンチゲームズ", "site": "", "rss": "", "x": "" }
+  ],
+  "news": [
+    { "name": "Table Games in the World", "site": "https://tgiw.info/", "rss": "" }
+  ]
+}
