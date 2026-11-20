@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T06:29:09.117Z",
+ "updatedAt": "2026-11-20T06:29:47.555Z",
  "sources": [
   {
    "name": "ホヌゲームズ",
@@ -25,10 +25,91 @@
   {
    "name": "Table Games in the World",
    "kind": "news",
-   "ok": false,
-   "error": "403 https://tgiw.info/",
-   "feed": ""
+   "ok": true,
+   "error": "",
+   "feed": "https://tgiw.info/feed"
   }
  ],
- "items": []
+ "items": [
+  {
+   "title": "ボードゲーム紹介：MFG（MFG）",
+   "url": "https://tgiw.info/2026/11/mfg.html",
+   "date": "2026-11-19T08:12:05.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news"
+  },
+  {
+   "title": "デザインリニューアル『カタン 航海者5-6人拡張版』12月11日発売",
+   "url": "https://tgiw.info/2026/11/catan-seafarers5-6j.html",
+   "date": "2026-11-17T22:48:27.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news"
+  },
+  {
+   "title": "リアルタイムで注文達成『コーヒーラッシュ：テイクアウト』日本語版、11月27日発売",
+   "url": "https://tgiw.info/2026/11/coffee-rush-grab-goj.html",
+   "date": "2026-11-17T00:14:50.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news"
+  },
+  {
+   "title": "京都インディーボドゲ祭2026、11月21日開催",
+   "url": "https://tgiw.info/2026/11/kyoto-indie-bgfes2026.html",
+   "date": "2026-11-16T23:41:20.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news"
+  },
+  {
+   "title": "冬バージョン『コーヒーラッシュ：ウィンター』日本語版、11月27日発売",
+   "url": "https://tgiw.info/2026/11/coffee-rushwinterj.html",
+   "date": "2026-11-16T04:31:55.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news"
+  },
+  {
+   "title": "東大阪で第2回「布施ボドゲフリマ」11月21日開催",
+   "url": "https://tgiw.info/2026/11/fuse-bgflm2.html",
+   "date": "2026-11-16T03:18:39.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news"
+  },
+  {
+   "title": "宇宙ステーションの人材マッチング『スペースラボ』日本語版、11月27日発売",
+   "url": "https://tgiw.info/2026/11/space-labj.html",
+   "date": "2026-11-14T23:39:07.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news"
+  },
+  {
+   "title": "3種のダイスを追加『パンダロイヤル：メイヘム拡張セット』日本語版、11月24日発売",
+   "url": "https://tgiw.info/2026/11/panda-royale-mayhemj.html",
+   "date": "2026-11-14T13:09:29.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news"
+  },
+  {
+   "title": "縦横上の投影パズル『シャドウ・ブロック』日本語版、10月下旬発売",
+   "url": "https://tgiw.info/2026/11/shadow-blocksj.html",
+   "date": "2026-11-14T02:29:01.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news"
+  },
+  {
+   "title": "バランス協力ゲーム『ファイナルファンタジーVII 神羅ビルを登れ』11月6日発売",
+   "url": "https://tgiw.info/2026/11/ascend-the-shinra-tower.html",
+   "date": "2026-11-13T08:37:07.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news"
+  }
+ ]
 }
