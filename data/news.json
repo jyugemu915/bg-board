@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T05:01:38.319Z",
+ "updatedAt": "2026-11-20T06:29:09.117Z",
  "sources": [
   {
    "name": "ホヌゲームズ",
@@ -26,7 +26,7 @@
    "name": "Table Games in the World",
    "kind": "news",
    "ok": false,
-   "error": "fetch failed",
+   "error": "403 https://tgiw.info/",
    "feed": ""
   }
  ],
