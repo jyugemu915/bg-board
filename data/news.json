@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T01:39:18.290Z",
+ "updatedAt": "2026-11-21T01:52:03.723Z",
  "sources": [
   {
    "name": "ホヌゲームズ",
@@ -44,487 +44,14 @@
  ],
  "items": [
   {
-   "title": "大阪京橋でボードゲーム即売イベント「遊盤会2026」11月22日開催",
-   "url": "https://tgiw.info/2026/11/asobankai2026.html",
-   "date": "2026-11-20T08:10:19.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事"
-  },
-  {
-   "title": "ボードゲーム紹介：MFG（MFG）",
-   "url": "https://tgiw.info/2026/11/mfg.html",
-   "date": "2026-11-19T08:12:05.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事"
-  },
-  {
-   "title": "ボードゲームの体験版を作ってみた話",
-   "url": "https://note.com/uchibacoya/n/nbf805757ac81",
-   "date": "2026-11-18T02:54:47.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "デザインリニューアル『カタン 航海者5-6人拡張版』12月11日発売",
-   "url": "https://tgiw.info/2026/11/catan-seafarers5-6j.html",
-   "date": "2026-11-17T22:48:27.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事"
-  },
-  {
-   "title": "リアルタイムで注文達成『コーヒーラッシュ：テイクアウト』日本語版、11月27日発売",
-   "url": "https://tgiw.info/2026/11/coffee-rush-grab-goj.html",
-   "date": "2026-11-17T00:14:50.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事"
-  },
-  {
-   "title": "京都インディーボドゲ祭2026、11月21日開催",
-   "url": "https://tgiw.info/2026/11/kyoto-indie-bgfes2026.html",
-   "date": "2026-11-16T23:41:20.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事"
-  },
-  {
-   "title": "冬バージョン『コーヒーラッシュ：ウィンター』日本語版、11月27日発売",
-   "url": "https://tgiw.info/2026/11/coffee-rushwinterj.html",
-   "date": "2026-11-16T04:31:55.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事"
-  },
-  {
-   "title": "東大阪で第2回「布施ボドゲフリマ」11月21日開催",
-   "url": "https://tgiw.info/2026/11/fuse-bgflm2.html",
-   "date": "2026-11-16T03:18:39.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事"
-  },
-  {
-   "title": "宇宙ステーションの人材マッチング『スペースラボ』日本語版、11月27日発売",
-   "url": "https://tgiw.info/2026/11/space-labj.html",
-   "date": "2026-11-14T23:39:07.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事"
-  },
-  {
-   "title": "3種のダイスを追加『パンダロイヤル：メイヘム拡張セット』日本語版、11月24日発売",
-   "url": "https://tgiw.info/2026/11/panda-royale-mayhemj.html",
-   "date": "2026-11-14T13:09:29.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事"
-  },
-  {
-   "title": "縦横上の投影パズル『シャドウ・ブロック』日本語版、10月下旬発売",
-   "url": "https://tgiw.info/2026/11/shadow-blocksj.html",
-   "date": "2026-11-14T02:29:01.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事"
-  },
-  {
-   "title": "Garden Trilogy エラッタ情報",
-   "url": "https://note.com/uchibacoya/n/na7d8acad1a48",
-   "date": "2026-11-13T11:52:45.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "甘い蜜か、ハチの群れか。自分が積んで相手が選ぶ『ハニーポット』",
-   "url": "https://note.com/bluefinchgames/n/ne3ceb02fbca0",
-   "date": "2026-10-23T08:29:09.000Z",
-   "image": "https://assets.st-note.com/img/1794464532-ruwmKhJybpXe0ScMxo5PsABY.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "息を合わせて本を積もう！本棚を作る協力ゲーム『ブックシェルフ』",
-   "url": "https://note.com/bluefinchgames/n/n2825229b16a7",
-   "date": "2026-10-20T10:06:25.000Z",
-   "image": "",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "その色、言葉だけで伝えられる？『ヒューズアンドキューズ』",
-   "url": "https://note.com/bluefinchgames/n/nc71b044a68e0",
-   "date": "2026-10-20T07:33:10.000Z",
-   "image": "https://assets.st-note.com/img/1792564273-TPKfhldCpxuGW9jQMNe2oErc.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "テーブルいっぱいに広がる陣取りゲーム『タクタ』",
-   "url": "https://note.com/bluefinchgames/n/nc48d13cfefbb",
-   "date": "2026-10-20T06:10:45.000Z",
-   "image": "https://assets.st-note.com/img/1792491084-1RoYWksdXz0nPu3xH2VmawAK.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "カードの穴から動物を覗いて撮影！『パーフェクトショット』",
-   "url": "https://note.com/bluefinchgames/n/na70d77f644e2",
-   "date": "2026-09-29T04:07:58.000Z",
-   "image": "https://assets.st-note.com/img/1790844436-AKHqf9jl3sBMvuN412Q08CgZ.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "道をつないで市場へ届けろ！全員同時に線を引く紙ペンゲーム『テラヴィスタ』",
-   "url": "https://note.com/bluefinchgames/n/ndc41a78db9a5",
-   "date": "2026-09-29T04:06:06.000Z",
-   "image": "https://assets.st-note.com/img/1790847887-gHpDBjNqQURVk1KZtOfvTXoC.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "カギとサイコロで運試し！ドイツ年間キッズゲーム大賞受賞作『マジックキーズ』",
-   "url": "https://note.com/bluefinchgames/n/naaa9daca8ef2",
-   "date": "2026-09-17T08:19:54.000Z",
-   "image": "https://assets.st-note.com/img/1789631484-Jb7HBoEkzqOVXPZaT5r1RQ6N.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "ペンギンを弾いて魔法学校を駆け回れ！『アイスクール・ウィザーズ』",
-   "url": "https://note.com/bluefinchgames/n/nf5398b98e7e8",
-   "date": "2026-09-15T09:38:41.000Z",
-   "image": "https://assets.st-note.com/img/1789460590-BdcSbj45yHFtP3KemsrDgqTX.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "砂時計を維持せよ！ リアルタイム協力花火ショー『スカイロケッツ』",
-   "url": "https://note.com/bluefinchgames/n/nf528ca0b94fa",
-   "date": "2026-09-03T07:13:40.000Z",
-   "image": "https://assets.st-note.com/img/1788341531-z4Q5fbCsxNuJUvRE8FoXlPK7.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "資源の失われた世界でドロイドを作ろう『ラストドロイド』",
-   "url": "https://note.com/bluefinchgames/n/n865df763e98b",
-   "date": "2026-09-02T07:46:49.000Z",
-   "image": "https://assets.st-note.com/img/1788326218-9e0gWThkjmOLAxXiMI6G125D.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "神の力を借りてローマを手中に！『クオラム』",
-   "url": "https://note.com/bluefinchgames/n/n429b02a29864",
-   "date": "2026-08-28T09:43:06.000Z",
-   "image": "https://assets.st-note.com/img/1787903902-TNF1Gpl3fzXkyohHBVbScO8E.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "奇才フリーゼ作の鬼ごっこが復活！『フィアサム・フロアーズ』",
-   "url": "https://note.com/bluefinchgames/n/n009a5cec2ad3",
-   "date": "2026-08-25T10:53:25.000Z",
-   "image": "https://assets.st-note.com/img/1787650382-w6htn2qFZCPEVzAJo4eKg7bf.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "今夜はどの屋敷へ？読み合いが白熱する泥棒ゲーム『ピンチド！』",
-   "url": "https://note.com/bluefinchgames/n/nb6ebd5187ee8",
-   "date": "2026-08-14T09:01:30.000Z",
-   "image": "https://assets.st-note.com/img/1786513650-ZQbI4TNze756csGvLBYhiwWl.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "ボードが回るたび、チーズが熟成する『フォルマッジオ』",
-   "url": "https://note.com/bluefinchgames/n/na2cd526791ad",
-   "date": "2026-08-14T09:00:29.000Z",
-   "image": "https://assets.st-note.com/img/1786440043-G2lFBSCo8k6Hq1wU3zndfTWJ.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "ゼロは悪魔か救世主か『ゼロヒーロー』",
-   "url": "https://note.com/bluefinchgames/n/n990deef17aee",
-   "date": "2026-08-13T10:48:32.000Z",
-   "image": "https://assets.st-note.com/img/1786612037-tQjADkNfUcBwvX2KRlp94W5E.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "能力を駆使して塔から脱獄せよ！協力パズル『マジックメイズタワー』",
-   "url": "https://note.com/bluefinchgames/n/n7c0aeb3cbe9e",
-   "date": "2026-08-07T09:04:05.000Z",
-   "image": "https://assets.st-note.com/img/1786090536-E6LplnNSAr45VGFP3esabhvg.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "20世紀の出来事で最高の展覧会を作ろう！『エキシビション 20thセンチュリー』",
-   "url": "https://note.com/bluefinchgames/n/n86db48a12c97",
-   "date": "2026-08-07T07:33:30.000Z",
-   "image": "https://assets.st-note.com/img/1786008027-YfL3kM68eIvDpU5VtBwaZzl9.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "絶滅危惧種を保護する公園を作ろう！『スペクタキュラー』",
-   "url": "https://note.com/bluefinchgames/n/n9a7624598399",
-   "date": "2026-08-05T08:58:33.000Z",
-   "image": "https://assets.st-note.com/img/1785916315-zSa0AL1ykRJMsVrO4WePYCph.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "現在の実績と、チームメンバーの紹介",
-   "url": "https://note.com/uchibacoya/n/nad6c0b4bc833",
-   "date": "2026-08-05T06:18:44.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "How to Receive Your Promo Box / プロモボックスのお受け取り方法",
-   "url": "https://note.com/uchibacoya/n/nd566713635bc",
-   "date": "2026-07-31T10:32:14.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "繋げるほどに美しい。石畳を作るタイル配置ゲーム『カルサーダ』",
-   "url": "https://note.com/bluefinchgames/n/n6d3bdaf2d8a9",
-   "date": "2026-07-29T05:59:29.000Z",
-   "image": "https://assets.st-note.com/img/1784627112-ZrMGOAWQSpKTnYNw6vE9yf0C.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "【日本語版】Rosalie kickstarterページ",
-   "url": "https://note.com/uchibacoya/n/neb20d5377397",
-   "date": "2026-07-24T14:05:01.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "ネコと一緒に衣類を編もう！『ニッティングサークル』",
-   "url": "https://note.com/bluefinchgames/n/n3e45d06f112d",
-   "date": "2026-07-23T11:17:14.000Z",
-   "image": "https://assets.st-note.com/img/1784802222-x1reiNmbGyML0c4IWUzdFg3l.jpg",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "Rosalie🌹デザイナーズノート : 戸塚中央 Higabito",
-   "url": "https://note.com/uchibacoya/n/n68260b166186",
-   "date": "2026-07-18T11:00:49.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "Rosalie🌹 開発ノート: アートワーク",
-   "url": "https://note.com/uchibacoya/n/n036eb616bc8a",
-   "date": "2026-06-21T03:25:00.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "ロザリー 情報がまとめて見れる記事",
-   "url": "https://note.com/uchibacoya/n/nae0786974e46",
-   "date": "2026-05-21T16:13:10.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "【翻訳記事】 戸塚中央 インタビュー",
-   "url": "https://note.com/uchibacoya/n/ndfa911c7a4c6",
-   "date": "2026-05-04T10:58:37.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "日記 ゲームデザインにおける「顕在化したもの」と「潜在的なもの」",
-   "url": "https://note.com/uchibacoya/n/n0e123a5aeb63",
-   "date": "2026-04-26T04:11:34.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "出力メカニクスを構成する二つの要素",
-   "url": "https://note.com/uchibacoya/n/nb8d11aa78d7d",
-   "date": "2026-03-21T10:18:03.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "日記 漫画について",
-   "url": "https://note.com/uchibacoya/n/n9e828cefad0a",
-   "date": "2026-03-02T07:15:31.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "日記 体験全体をイメージしてみる",
-   "url": "https://note.com/uchibacoya/n/n770af28e771c",
-   "date": "2026-02-27T18:49:47.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "インタラクションをコントロールする-財の帰属と個数の限定",
-   "url": "https://note.com/uchibacoya/n/n61cc352f15a3",
-   "date": "2026-02-22T02:05:21.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "テーマナイズが最高なゲームを見つけたから聞いてほしい",
-   "url": "https://note.com/uchibacoya/n/n70dbd3f1242b",
-   "date": "2026-01-19T08:59:51.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "2025.11月 現在製作中のゲームについて",
-   "url": "https://note.com/uchibacoya/n/n64616e664c5f",
-   "date": "2025-11-26T08:23:45.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "連続的ボードゲームのモデル化と、「探索可能性」の定義とその考察",
-   "url": "https://note.com/uchibacoya/n/n5ba081bc70af",
-   "date": "2025-10-05T03:28:49.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "【日本語ページ】Garden Trilogy - Paradise of Dinosaurs, Birds, and Fish",
-   "url": "https://note.com/uchibacoya/n/n3a9f09077de1",
-   "date": "2025-09-16T11:50:02.000Z",
-   "image": "https://assets.st-note.com/img/1757913959-7104tnoAW3GuCN5rwJckTldF.png",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "Kickstarterでボードゲームをバックする方法【2026年最新版】",
-   "url": "https://note.com/uchibacoya/n/nd375defc20e8",
-   "date": "2025-09-09T02:02:37.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
-   "title": "「浮動点」とインタラクションの定量化についての考察",
-   "url": "https://note.com/uchibacoya/n/n0d0dd3d21ebf",
-   "date": "2025-07-29T21:34:14.000Z",
-   "image": "",
-   "source": "うちばこや",
-   "kind": "maker",
-   "label": "記事"
-  },
-  {
    "title": "ダイスタック 日本語版",
    "url": "https://honugames.thebase.in/items/133659222",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/526e7d8704d0f7acb922e3aede586384.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "4,620円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
-   "source": "ホヌゲームズ",
-   "kind": "maker",
-   "label": "ショップ"
-  },
-  {
-   "title": "マニラ",
-   "url": "https://honugames.thebase.in/items/164281545",
-   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/773058c81494c2055960da1ffcaf36fc.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
-   "price": "4,400円",
-   "soldOut": true,
-   "date": null,
-   "seenAt": "first",
-   "source": "ホヌゲームズ",
-   "kind": "maker",
-   "label": "ショップ"
-  },
-  {
-   "title": "ザ・キング・イズ・デッド",
-   "url": "https://honugames.thebase.in/items/164281231",
-   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/2428a24f215f426ebca2ce1fc1954be5.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
-   "price": "3,960円",
-   "soldOut": true,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ホヌゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -534,21 +61,10 @@
    "url": "https://honugames.thebase.in/items/164281258",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/391ca8a776e31a7c4ce964f16b0befc7.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "3,630円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
-   "source": "ホヌゲームズ",
-   "kind": "maker",
-   "label": "ショップ"
-  },
-  {
-   "title": "ロミオとジュリエットIFストーリー",
-   "url": "https://honugames.thebase.in/items/164448198",
-   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/d330efc46adab3859aee54bbb8fbf9ec.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
-   "price": "2,530円",
-   "soldOut": true,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ホヌゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -558,9 +74,10 @@
    "url": "https://honugames.thebase.in/items/164449406",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/acf5cf6b2b6deba619f84825135e9454.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "3,300円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ホヌゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -570,9 +87,10 @@
    "url": "https://honugames.thebase.in/items/164447044",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/c0e72987c3bb41a622b3023e2d9b13df.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "2,530円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ホヌゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -582,9 +100,10 @@
    "url": "https://honugames.thebase.in/items/164218537",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/69b03847ea0338140e417e9adfff91a6.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "2,530円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ホヌゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -594,9 +113,10 @@
    "url": "https://honugames.thebase.in/items/135124229",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/3d18ba80143d51515149022253535a3c.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "2,860円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ホヌゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -606,9 +126,10 @@
    "url": "https://honugames.thebase.in/items/138860409",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/16d0c86ca40272c2a15fc67cd49f6996.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "3,960円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ホヌゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -618,9 +139,10 @@
    "url": "https://honugames.thebase.in/items/75779058",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/29fc6053572ac6f95bbc1bc6122b7eb2.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "4,620円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ホヌゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -630,9 +152,10 @@
    "url": "https://honugames.thebase.in/items/128836114",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/7d2eebe115955636e8454f00409b2e11.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "4,620円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ホヌゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -642,9 +165,10 @@
    "url": "https://honugames.thebase.in/items/155328248",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/71a2c134daa066c45a29e34d3cf15e3a.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "2,530円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ホヌゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -654,9 +178,10 @@
    "url": "https://honugames.thebase.in/items/155530548",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/949d83f2012eaf9bbf22e0f1e9081667.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "2,530円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ホヌゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -666,9 +191,10 @@
    "url": "https://honugames.thebase.in/items/102803931",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/fb3084605e5edc1e1e641d2607ee5f21.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "2,420円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ホヌゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -678,9 +204,10 @@
    "url": "https://honugames.thebase.in/items/164109855",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/445394b41b03a5d4b511e7e7dcb5561c.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "3,520円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ホヌゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -690,9 +217,10 @@
    "url": "https://honugames.thebase.in/items/164109843",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/57bc067e5484ee547408a66e4a01eaa0.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "2,970円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ホヌゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -702,21 +230,10 @@
    "url": "https://honugames.thebase.in/items/164109835",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/e3f10b6d8e2033311511fecc981ac406.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "2,970円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
-   "source": "ホヌゲームズ",
-   "kind": "maker",
-   "label": "ショップ"
-  },
-  {
-   "title": "ローナーズ 和訳ルール付き",
-   "url": "https://honugames.thebase.in/items/164109814",
-   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/0db11ca86a79e2fb857701e897c9df72.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
-   "price": "3,630円",
-   "soldOut": true,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ホヌゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -726,9 +243,62 @@
    "url": "https://honugames.thebase.in/items/159055082",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/9aaad3bc379bec115d1499ca2014da4a.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "3,850円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "カリベ 和訳ルール付き",
+   "url": "https://honugames.thebase.in/items/158992809",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/c0c5e3cd934e59bed79c0981b0140bb1.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "price": "7,480円",
+   "status": "sale",
+   "firstSeen": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "デルフォス 和訳ルール付き",
+   "url": "https://honugames.thebase.in/items/158992827",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/f009a902da09a538ccd496a5d84a9df9.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "price": "4,620円",
+   "status": "sale",
+   "firstSeen": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ドラゴナリウム 和訳ルール付き",
+   "url": "https://honugames.thebase.in/items/154709670",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/6094541ee4b6ab76fb186658d78f3818.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "price": "7,150円",
+   "status": "sale",
+   "firstSeen": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "キャッスルレイザーズ 和訳ルール付き",
+   "url": "https://honugames.thebase.in/items/109024465",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/3a586cbb4706cd77399f574e3a80a21c.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "price": "8,250円",
+   "status": "sold",
+   "firstSeen": "2026-11-21T01:52:03.723Z",
+   "saleAt": null,
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ホヌゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -738,9 +308,10 @@
    "url": "https://bluefinch.base.shop/items/155280641",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/54ca8f984998112ff55874fcc6f6333e.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "7,700円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -750,9 +321,10 @@
    "url": "https://bluefinch.base.shop/items/149789709",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/18120c5e1b7bd5fe5ceb17713e7f3aec.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "7,810円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -762,33 +334,10 @@
    "url": "https://bluefinch.base.shop/items/149789121",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/9a1a346bf8ad2a043f45516fb61376d4.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "5,500円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "ショップ"
-  },
-  {
-   "title": "サンタズワークショップ 2ndエディション【ELF CREEK GAMES】",
-   "url": "https://bluefinch.base.shop/items/165742608",
-   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/2fa288a0289843ec123e10f58bacbc70.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
-   "price": "9,570円",
-   "soldOut": true,
-   "date": null,
-   "seenAt": "first",
-   "source": "ブルーフィンチゲームズ",
-   "kind": "maker",
-   "label": "ショップ"
-  },
-  {
-   "title": "ファウンデイション・オブ・メトロポリス【ARCANE WONDERS】",
-   "url": "https://bluefinch.base.shop/items/165742565",
-   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/48511622628a7a21c7dd070552aaab10.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
-   "price": "11,000円",
-   "soldOut": true,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -798,9 +347,10 @@
    "url": "https://bluefinch.base.shop/items/165742505",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/d96c168bc87e4363c9ffff3f98dfc9a6.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "2,860円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -810,9 +360,10 @@
    "url": "https://bluefinch.base.shop/items/165898539",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/0e62d0273bc80de19d9f98cb336b69cc.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "4,400円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -822,9 +373,10 @@
    "url": "https://bluefinch.base.shop/items/149788614",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/0194a7719ba37666898e7db388c49700.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "6,930円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -834,9 +386,10 @@
    "url": "https://bluefinch.base.shop/items/165734059",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/58807fa5d3cb740f37af91f38406454e.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "6,930円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -846,9 +399,10 @@
    "url": "https://bluefinch.base.shop/items/160081336",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/2fd9dc08e92dded3fe77e1c3f1ac796c.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "2,860円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -858,9 +412,10 @@
    "url": "https://bluefinch.base.shop/items/165733580",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/0adb9486c1764b05c27f94ce5547b4f9.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "2,860円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -870,9 +425,10 @@
    "url": "https://bluefinch.base.shop/items/165733689",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/365a4ee44994b71378169fe7d25c3cc8.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "2,860円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -882,9 +438,10 @@
    "url": "https://bluefinch.base.shop/items/165129706",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/a7b026feab6a6597ad24ae72897b93ab.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "4,950円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -894,9 +451,10 @@
    "url": "https://bluefinch.base.shop/items/165128806",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/aee5ecfc27291eddb263dd8a22499121.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "5,500円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -906,9 +464,10 @@
    "url": "https://bluefinch.base.shop/items/165130642",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/cf2320cdc99ba00a0a410ae264d2e955.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "5,500円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -918,9 +477,10 @@
    "url": "https://bluefinch.base.shop/items/165130303",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/8d978ec4e20dc18ccae5cef78c153f89.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "4,400円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -930,9 +490,10 @@
    "url": "https://bluefinch.base.shop/items/165129471",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/68ece901c11a8b86100b49b820ac2354.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "5,500円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -942,9 +503,10 @@
    "url": "https://bluefinch.base.shop/items/165129239",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/c09c2aa4f7cf04032ce075af501ed6d9.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "5,500円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -954,9 +516,10 @@
    "url": "https://bluefinch.base.shop/items/165128546",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/b6180e88bc630bd491e44545786e37fc.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "3,520円",
-   "soldOut": false,
-   "date": null,
-   "seenAt": "first",
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
@@ -966,54 +529,1711 @@
    "url": "https://bluefinch.base.shop/items/165129018",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/00568c8b9f027a47882cf277e515cfe3.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "3,520円",
-   "soldOut": false,
+   "status": "sale",
+   "firstSeen": null,
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ニッポン：財閥 エンペラーズエディション+メタルコイン【CROWD GAMES】",
+   "url": "https://bluefinch.base.shop/items/160604002",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/0591fbbe0d588b3d4045a09db75878c5.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "price": "20,000円",
+   "status": "sale",
+   "firstSeen": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "【本体のみ】ニッポン：財閥 エンペラーズエディション【CROWD GAMES】",
+   "url": "https://bluefinch.base.shop/items/160458554",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/bf166e22e676273ba277cc7ac25c0feb.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "price": "17,600円",
+   "status": "sale",
+   "firstSeen": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "【ゲーム備品】ニッポン：財閥 専用メタルコイン【CROWD GAMES】",
+   "url": "https://bluefinch.base.shop/items/160603795",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/f431ab7c51bf1bc41795ebb6e9c2a5b3.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "price": "3,300円",
+   "status": "sale",
+   "firstSeen": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "フォレージ【FLATOUT GAMES / AEG】",
+   "url": "https://bluefinch.base.shop/items/160459206",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/043df33ae95c1219fc939f1b14334054.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "price": "5,940円",
+   "status": "sale",
+   "firstSeen": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z",
+   "date": "2026-11-21T01:52:03.723Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "大阪京橋でボードゲーム即売イベント「遊盤会2026」11月22日開催",
+   "url": "https://tgiw.info/2026/11/asobankai2026.html",
+   "date": "2026-11-20T08:10:19.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "ボードゲーム紹介：MFG（MFG）",
+   "url": "https://tgiw.info/2026/11/mfg.html",
+   "date": "2026-11-19T08:12:05.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "ボードゲームの体験版を作ってみた話",
+   "url": "https://note.com/uchibacoya/n/nbf805757ac81",
+   "date": "2026-11-18T02:54:47.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "デザインリニューアル『カタン 航海者5-6人拡張版』12月11日発売",
+   "url": "https://tgiw.info/2026/11/catan-seafarers5-6j.html",
+   "date": "2026-11-17T22:48:27.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": {
+    "date": "2026-12-11",
+    "label": "12月11日",
+    "exact": true,
+    "kind": "発売"
+   }
+  },
+  {
+   "title": "リアルタイムで注文達成『コーヒーラッシュ：テイクアウト』日本語版、11月27日発売",
+   "url": "https://tgiw.info/2026/11/coffee-rush-grab-goj.html",
+   "date": "2026-11-17T00:14:50.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": {
+    "date": "2026-11-27",
+    "label": "11月27日",
+    "exact": true,
+    "kind": "発売"
+   }
+  },
+  {
+   "title": "京都インディーボドゲ祭2026、11月21日開催",
+   "url": "https://tgiw.info/2026/11/kyoto-indie-bgfes2026.html",
+   "date": "2026-11-16T23:41:20.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "冬バージョン『コーヒーラッシュ：ウィンター』日本語版、11月27日発売",
+   "url": "https://tgiw.info/2026/11/coffee-rushwinterj.html",
+   "date": "2026-11-16T04:31:55.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": {
+    "date": "2026-11-27",
+    "label": "11月27日",
+    "exact": true,
+    "kind": "発売"
+   }
+  },
+  {
+   "title": "東大阪で第2回「布施ボドゲフリマ」11月21日開催",
+   "url": "https://tgiw.info/2026/11/fuse-bgflm2.html",
+   "date": "2026-11-16T03:18:39.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "宇宙ステーションの人材マッチング『スペースラボ』日本語版、11月27日発売",
+   "url": "https://tgiw.info/2026/11/space-labj.html",
+   "date": "2026-11-14T23:39:07.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": {
+    "date": "2026-11-27",
+    "label": "11月27日",
+    "exact": true,
+    "kind": "発売"
+   }
+  },
+  {
+   "title": "3種のダイスを追加『パンダロイヤル：メイヘム拡張セット』日本語版、11月24日発売",
+   "url": "https://tgiw.info/2026/11/panda-royale-mayhemj.html",
+   "date": "2026-11-14T13:09:29.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": {
+    "date": "2026-11-24",
+    "label": "11月24日",
+    "exact": true,
+    "kind": "発売"
+   }
+  },
+  {
+   "title": "縦横上の投影パズル『シャドウ・ブロック』日本語版、10月下旬発売",
+   "url": "https://tgiw.info/2026/11/shadow-blocksj.html",
+   "date": "2026-11-14T02:29:01.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": {
+    "date": "2026-10-25",
+    "label": "10月下旬",
+    "exact": false,
+    "kind": "発売"
+   }
+  },
+  {
+   "title": "Garden Trilogy エラッタ情報",
+   "url": "https://note.com/uchibacoya/n/na7d8acad1a48",
+   "date": "2026-11-13T11:52:45.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "甘い蜜か、ハチの群れか。自分が積んで相手が選ぶ『ハニーポット』",
+   "url": "https://note.com/bluefinchgames/n/ne3ceb02fbca0",
+   "date": "2026-10-23T08:29:09.000Z",
+   "image": "https://assets.st-note.com/img/1794464532-ruwmKhJybpXe0ScMxo5PsABY.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "息を合わせて本を積もう！本棚を作る協力ゲーム『ブックシェルフ』",
+   "url": "https://note.com/bluefinchgames/n/n2825229b16a7",
+   "date": "2026-10-20T10:06:25.000Z",
+   "image": "",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "その色、言葉だけで伝えられる？『ヒューズアンドキューズ』",
+   "url": "https://note.com/bluefinchgames/n/nc71b044a68e0",
+   "date": "2026-10-20T07:33:10.000Z",
+   "image": "https://assets.st-note.com/img/1792564273-TPKfhldCpxuGW9jQMNe2oErc.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "テーブルいっぱいに広がる陣取りゲーム『タクタ』",
+   "url": "https://note.com/bluefinchgames/n/nc48d13cfefbb",
+   "date": "2026-10-20T06:10:45.000Z",
+   "image": "https://assets.st-note.com/img/1792491084-1RoYWksdXz0nPu3xH2VmawAK.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "カードの穴から動物を覗いて撮影！『パーフェクトショット』",
+   "url": "https://note.com/bluefinchgames/n/na70d77f644e2",
+   "date": "2026-09-29T04:07:58.000Z",
+   "image": "https://assets.st-note.com/img/1790844436-AKHqf9jl3sBMvuN412Q08CgZ.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "道をつないで市場へ届けろ！全員同時に線を引く紙ペンゲーム『テラヴィスタ』",
+   "url": "https://note.com/bluefinchgames/n/ndc41a78db9a5",
+   "date": "2026-09-29T04:06:06.000Z",
+   "image": "https://assets.st-note.com/img/1790847887-gHpDBjNqQURVk1KZtOfvTXoC.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "カギとサイコロで運試し！ドイツ年間キッズゲーム大賞受賞作『マジックキーズ』",
+   "url": "https://note.com/bluefinchgames/n/naaa9daca8ef2",
+   "date": "2026-09-17T08:19:54.000Z",
+   "image": "https://assets.st-note.com/img/1789631484-Jb7HBoEkzqOVXPZaT5r1RQ6N.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "ペンギンを弾いて魔法学校を駆け回れ！『アイスクール・ウィザーズ』",
+   "url": "https://note.com/bluefinchgames/n/nf5398b98e7e8",
+   "date": "2026-09-15T09:38:41.000Z",
+   "image": "https://assets.st-note.com/img/1789460590-BdcSbj45yHFtP3KemsrDgqTX.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "砂時計を維持せよ！ リアルタイム協力花火ショー『スカイロケッツ』",
+   "url": "https://note.com/bluefinchgames/n/nf528ca0b94fa",
+   "date": "2026-09-03T07:13:40.000Z",
+   "image": "https://assets.st-note.com/img/1788341531-z4Q5fbCsxNuJUvRE8FoXlPK7.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "資源の失われた世界でドロイドを作ろう『ラストドロイド』",
+   "url": "https://note.com/bluefinchgames/n/n865df763e98b",
+   "date": "2026-09-02T07:46:49.000Z",
+   "image": "https://assets.st-note.com/img/1788326218-9e0gWThkjmOLAxXiMI6G125D.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "神の力を借りてローマを手中に！『クオラム』",
+   "url": "https://note.com/bluefinchgames/n/n429b02a29864",
+   "date": "2026-08-28T09:43:06.000Z",
+   "image": "https://assets.st-note.com/img/1787903902-TNF1Gpl3fzXkyohHBVbScO8E.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "奇才フリーゼ作の鬼ごっこが復活！『フィアサム・フロアーズ』",
+   "url": "https://note.com/bluefinchgames/n/n009a5cec2ad3",
+   "date": "2026-08-25T10:53:25.000Z",
+   "image": "https://assets.st-note.com/img/1787650382-w6htn2qFZCPEVzAJo4eKg7bf.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "今夜はどの屋敷へ？読み合いが白熱する泥棒ゲーム『ピンチド！』",
+   "url": "https://note.com/bluefinchgames/n/nb6ebd5187ee8",
+   "date": "2026-08-14T09:01:30.000Z",
+   "image": "https://assets.st-note.com/img/1786513650-ZQbI4TNze756csGvLBYhiwWl.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "ボードが回るたび、チーズが熟成する『フォルマッジオ』",
+   "url": "https://note.com/bluefinchgames/n/na2cd526791ad",
+   "date": "2026-08-14T09:00:29.000Z",
+   "image": "https://assets.st-note.com/img/1786440043-G2lFBSCo8k6Hq1wU3zndfTWJ.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "ゼロは悪魔か救世主か『ゼロヒーロー』",
+   "url": "https://note.com/bluefinchgames/n/n990deef17aee",
+   "date": "2026-08-13T10:48:32.000Z",
+   "image": "https://assets.st-note.com/img/1786612037-tQjADkNfUcBwvX2KRlp94W5E.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "能力を駆使して塔から脱獄せよ！協力パズル『マジックメイズタワー』",
+   "url": "https://note.com/bluefinchgames/n/n7c0aeb3cbe9e",
+   "date": "2026-08-07T09:04:05.000Z",
+   "image": "https://assets.st-note.com/img/1786090536-E6LplnNSAr45VGFP3esabhvg.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "20世紀の出来事で最高の展覧会を作ろう！『エキシビション 20thセンチュリー』",
+   "url": "https://note.com/bluefinchgames/n/n86db48a12c97",
+   "date": "2026-08-07T07:33:30.000Z",
+   "image": "https://assets.st-note.com/img/1786008027-YfL3kM68eIvDpU5VtBwaZzl9.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "絶滅危惧種を保護する公園を作ろう！『スペクタキュラー』",
+   "url": "https://note.com/bluefinchgames/n/n9a7624598399",
+   "date": "2026-08-05T08:58:33.000Z",
+   "image": "https://assets.st-note.com/img/1785916315-zSa0AL1ykRJMsVrO4WePYCph.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "現在の実績と、チームメンバーの紹介",
+   "url": "https://note.com/uchibacoya/n/nad6c0b4bc833",
+   "date": "2026-08-05T06:18:44.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "How to Receive Your Promo Box / プロモボックスのお受け取り方法",
+   "url": "https://note.com/uchibacoya/n/nd566713635bc",
+   "date": "2026-07-31T10:32:14.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "繋げるほどに美しい。石畳を作るタイル配置ゲーム『カルサーダ』",
+   "url": "https://note.com/bluefinchgames/n/n6d3bdaf2d8a9",
+   "date": "2026-07-29T05:59:29.000Z",
+   "image": "https://assets.st-note.com/img/1784627112-ZrMGOAWQSpKTnYNw6vE9yf0C.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "【日本語版】Rosalie kickstarterページ",
+   "url": "https://note.com/uchibacoya/n/neb20d5377397",
+   "date": "2026-07-24T14:05:01.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "ネコと一緒に衣類を編もう！『ニッティングサークル』",
+   "url": "https://note.com/bluefinchgames/n/n3e45d06f112d",
+   "date": "2026-07-23T11:17:14.000Z",
+   "image": "https://assets.st-note.com/img/1784802222-x1reiNmbGyML0c4IWUzdFg3l.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "Rosalie🌹デザイナーズノート : 戸塚中央 Higabito",
+   "url": "https://note.com/uchibacoya/n/n68260b166186",
+   "date": "2026-07-18T11:00:49.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "Rosalie🌹 開発ノート: アートワーク",
+   "url": "https://note.com/uchibacoya/n/n036eb616bc8a",
+   "date": "2026-06-21T03:25:00.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "ロザリー 情報がまとめて見れる記事",
+   "url": "https://note.com/uchibacoya/n/nae0786974e46",
+   "date": "2026-05-21T16:13:10.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "【翻訳記事】 戸塚中央 インタビュー",
+   "url": "https://note.com/uchibacoya/n/ndfa911c7a4c6",
+   "date": "2026-05-04T10:58:37.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "日記 ゲームデザインにおける「顕在化したもの」と「潜在的なもの」",
+   "url": "https://note.com/uchibacoya/n/n0e123a5aeb63",
+   "date": "2026-04-26T04:11:34.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "出力メカニクスを構成する二つの要素",
+   "url": "https://note.com/uchibacoya/n/nb8d11aa78d7d",
+   "date": "2026-03-21T10:18:03.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "日記 漫画について",
+   "url": "https://note.com/uchibacoya/n/n9e828cefad0a",
+   "date": "2026-03-02T07:15:31.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "日記 体験全体をイメージしてみる",
+   "url": "https://note.com/uchibacoya/n/n770af28e771c",
+   "date": "2026-02-27T18:49:47.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "インタラクションをコントロールする-財の帰属と個数の限定",
+   "url": "https://note.com/uchibacoya/n/n61cc352f15a3",
+   "date": "2026-02-22T02:05:21.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "テーマナイズが最高なゲームを見つけたから聞いてほしい",
+   "url": "https://note.com/uchibacoya/n/n70dbd3f1242b",
+   "date": "2026-01-19T08:59:51.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "2025.11月 現在製作中のゲームについて",
+   "url": "https://note.com/uchibacoya/n/n64616e664c5f",
+   "date": "2025-11-26T08:23:45.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "連続的ボードゲームのモデル化と、「探索可能性」の定義とその考察",
+   "url": "https://note.com/uchibacoya/n/n5ba081bc70af",
+   "date": "2025-10-05T03:28:49.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "【日本語ページ】Garden Trilogy - Paradise of Dinosaurs, Birds, and Fish",
+   "url": "https://note.com/uchibacoya/n/n3a9f09077de1",
+   "date": "2025-09-16T11:50:02.000Z",
+   "image": "https://assets.st-note.com/img/1757913959-7104tnoAW3GuCN5rwJckTldF.png",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "Kickstarterでボードゲームをバックする方法【2026年最新版】",
+   "url": "https://note.com/uchibacoya/n/nd375defc20e8",
+   "date": "2025-09-09T02:02:37.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "「浮動点」とインタラクションの定量化についての考察",
+   "url": "https://note.com/uchibacoya/n/n0d0dd3d21ebf",
+   "date": "2025-07-29T21:34:14.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "マニラ",
+   "url": "https://honugames.thebase.in/items/164281545",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/773058c81494c2055960da1ffcaf36fc.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "price": "4,400円",
+   "status": "sold",
+   "firstSeen": null,
+   "saleAt": null,
    "date": null,
-   "seenAt": "first",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ザ・キング・イズ・デッド",
+   "url": "https://honugames.thebase.in/items/164281231",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/2428a24f215f426ebca2ce1fc1954be5.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "price": "3,960円",
+   "status": "sold",
+   "firstSeen": null,
+   "saleAt": null,
+   "date": null,
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ロミオとジュリエットIFストーリー",
+   "url": "https://honugames.thebase.in/items/164448198",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/d330efc46adab3859aee54bbb8fbf9ec.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "price": "2,530円",
+   "status": "sold",
+   "firstSeen": null,
+   "saleAt": null,
+   "date": null,
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ローナーズ 和訳ルール付き",
+   "url": "https://honugames.thebase.in/items/164109814",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/0db11ca86a79e2fb857701e897c9df72.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "price": "3,630円",
+   "status": "sold",
+   "firstSeen": null,
+   "saleAt": null,
+   "date": null,
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "サンタズワークショップ 2ndエディション【ELF CREEK GAMES】",
+   "url": "https://bluefinch.base.shop/items/165742608",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/2fa288a0289843ec123e10f58bacbc70.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "price": "9,570円",
+   "status": "sold",
+   "firstSeen": null,
+   "saleAt": null,
+   "date": null,
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ファウンデイション・オブ・メトロポリス【ARCANE WONDERS】",
+   "url": "https://bluefinch.base.shop/items/165742565",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/48511622628a7a21c7dd070552aaab10.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "price": "11,000円",
+   "status": "sold",
+   "firstSeen": null,
+   "saleAt": null,
+   "date": null,
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
   }
  ],
- "seen": {
-  "https://honugames.thebase.in/items/133659222": "first",
-  "https://honugames.thebase.in/items/164281545": "first",
-  "https://honugames.thebase.in/items/164281231": "first",
-  "https://honugames.thebase.in/items/164281258": "first",
-  "https://honugames.thebase.in/items/164448198": "first",
-  "https://honugames.thebase.in/items/164449406": "first",
-  "https://honugames.thebase.in/items/164447044": "first",
-  "https://honugames.thebase.in/items/164218537": "first",
-  "https://honugames.thebase.in/items/135124229": "first",
-  "https://honugames.thebase.in/items/138860409": "first",
-  "https://honugames.thebase.in/items/75779058": "first",
-  "https://honugames.thebase.in/items/128836114": "first",
-  "https://honugames.thebase.in/items/155328248": "first",
-  "https://honugames.thebase.in/items/155530548": "first",
-  "https://honugames.thebase.in/items/102803931": "first",
-  "https://honugames.thebase.in/items/164109855": "first",
-  "https://honugames.thebase.in/items/164109843": "first",
-  "https://honugames.thebase.in/items/164109835": "first",
-  "https://honugames.thebase.in/items/164109814": "first",
-  "https://honugames.thebase.in/items/159055082": "first",
-  "https://bluefinch.base.shop/items/155280641": "first",
-  "https://bluefinch.base.shop/items/149789709": "first",
-  "https://bluefinch.base.shop/items/149789121": "first",
-  "https://bluefinch.base.shop/items/165742608": "first",
-  "https://bluefinch.base.shop/items/165742565": "first",
-  "https://bluefinch.base.shop/items/165742505": "first",
-  "https://bluefinch.base.shop/items/165898539": "first",
-  "https://bluefinch.base.shop/items/149788614": "first",
-  "https://bluefinch.base.shop/items/165734059": "first",
-  "https://bluefinch.base.shop/items/160081336": "first",
-  "https://bluefinch.base.shop/items/165733580": "first",
-  "https://bluefinch.base.shop/items/165733689": "first",
-  "https://bluefinch.base.shop/items/165129706": "first",
-  "https://bluefinch.base.shop/items/165128806": "first",
-  "https://bluefinch.base.shop/items/165130642": "first",
-  "https://bluefinch.base.shop/items/165130303": "first",
-  "https://bluefinch.base.shop/items/165129471": "first",
-  "https://bluefinch.base.shop/items/165129239": "first",
-  "https://bluefinch.base.shop/items/165128546": "first",
-  "https://bluefinch.base.shop/items/165129018": "first"
+ "releases": [
+  {
+   "key": "a:シャドウ・ブロック:2026-10-25",
+   "game": "シャドウ・ブロック",
+   "date": "2026-10-25",
+   "label": "10月下旬",
+   "exact": false,
+   "type": "発売",
+   "links": [
+    {
+     "source": "Table Games in the World",
+     "url": "https://tgiw.info/2026/11/shadow-blocksj.html",
+     "title": "縦横上の投影パズル『シャドウ・ブロック』日本語版、10月下旬発売"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/133659222",
+   "game": "ダイスタック 日本語版",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "4,620円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/133659222",
+     "title": "ダイスタック 日本語版"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/164281258",
+   "game": "カール大帝",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "3,630円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/164281258",
+     "title": "カール大帝"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/164449406",
+   "game": "メモリーチ",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "3,300円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/164449406",
+     "title": "メモリーチ"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/164447044",
+   "game": "モールキング",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "2,530円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/164447044",
+     "title": "モールキング"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/164218537",
+   "game": "ヴァンパイアクイーン 新版",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "2,530円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/164218537",
+     "title": "ヴァンパイアクイーン 新版"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/135124229",
+   "game": "ペントリーニ",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "2,860円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/135124229",
+     "title": "ペントリーニ"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/138860409",
+   "game": "エイダの図書館(エイダの書庫) Iボード版",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "3,960円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/138860409",
+     "title": "エイダの図書館(エイダの書庫) Iボード版"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/75779058",
+   "game": "チェスレース 和訳ルール付き",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "4,620円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/75779058",
+     "title": "チェスレース 和訳ルール付き"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/128836114",
+   "game": "ローリー",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "4,620円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/128836114",
+     "title": "ローリー"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/155328248",
+   "game": "ディコリー",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "2,530円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/155328248",
+     "title": "ディコリー"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/155530548",
+   "game": "走れ、ラバ！新版",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "2,530円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/155530548",
+     "title": "走れ、ラバ！新版"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/102803931",
+   "game": "エクスプレスクロス 和訳ルール付き",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "2,420円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/102803931",
+     "title": "エクスプレスクロス 和訳ルール付き"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/164109855",
+   "game": "サンドアート 和訳ルール付き",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "3,520円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/164109855",
+     "title": "サンドアート 和訳ルール付き"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/164109843",
+   "game": "ドリアン密輸人 和訳ルール付き",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "2,970円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/164109843",
+     "title": "ドリアン密輸人 和訳ルール付き"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/164109835",
+   "game": "ティック・タック・トゥンバ 和訳ルール付き",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "2,970円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/164109835",
+     "title": "ティック・タック・トゥンバ 和訳ルール付き"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/159055082",
+   "game": "カフェ 〜豆から一杯まで〜 日本語版",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "3,850円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/159055082",
+     "title": "カフェ 〜豆から一杯まで〜 日本語版"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/158992809",
+   "game": "カリベ 和訳ルール付き",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "7,480円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/158992809",
+     "title": "カリベ 和訳ルール付き"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/158992827",
+   "game": "デルフォス 和訳ルール付き",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "4,620円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/158992827",
+     "title": "デルフォス 和訳ルール付き"
+    }
+   ]
+  },
+  {
+   "key": "s:https://honugames.thebase.in/items/154709670",
+   "game": "ドラゴナリウム 和訳ルール付き",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "7,150円",
+   "links": [
+    {
+     "source": "ホヌゲームズ",
+     "url": "https://honugames.thebase.in/items/154709670",
+     "title": "ドラゴナリウム 和訳ルール付き"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/155280641",
+   "game": "フィアサム・フロアーズ（暗黒の大広間）新版【2F-Spiele】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "7,700円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/155280641",
+     "title": "フィアサム・フロアーズ（暗黒の大広間）新版【2F-Spiele】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/149789709",
+   "game": "スペクタキュラー【Chilifox Games】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "7,810円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/149789709",
+     "title": "スペクタキュラー【Chilifox Games】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/149789121",
+   "game": "アイスクール・ウィザーズ【Brain Games】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "5,500円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/149789121",
+     "title": "アイスクール・ウィザーズ【Brain Games】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/165742505",
+   "game": "タップ4【THE OP GAMES】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "2,860円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/165742505",
+     "title": "タップ4【THE OP GAMES】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/165898539",
+   "game": "ダイスクリーム【SKELLIG GAMES】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "4,400円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/165898539",
+     "title": "ダイスクリーム【SKELLIG GAMES】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/149788614",
+   "game": "フォーミダブルファーム【2F-Spiele】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "6,930円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/149788614",
+     "title": "フォーミダブルファーム【2F-Spiele】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/165734059",
+   "game": "フリップタウン【WRITE STUFF GAMES】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "6,930円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/165734059",
+     "title": "フリップタウン【WRITE STUFF GAMES】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/160081336",
+   "game": "フリップ7：ウィズ・ア・ベンジェンス【THE OP GAMES】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "2,860円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/160081336",
+     "title": "フリップ7：ウィズ・ア・ベンジェンス【THE OP GAMES】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/165733580",
+   "game": "フリップ7：ナショナルパークス【THE OP GAMES】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "2,860円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/165733580",
+     "title": "フリップ7：ナショナルパークス【THE OP GAMES】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/165733689",
+   "game": "フリップ7：12デイズ・オブ・フリップマス【THE OP GAMES】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "2,860円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/165733689",
+     "title": "フリップ7：12デイズ・オブ・フリップマス【THE OP GAMES】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/165129706",
+   "game": "17ダイスベッツ【Mandoo Games】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "4,950円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/165129706",
+     "title": "17ダイスベッツ【Mandoo Games】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/165128806",
+   "game": "ブラッドハント【Mandoo Games】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "5,500円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/165128806",
+     "title": "ブラッドハント【Mandoo Games】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/165130642",
+   "game": "ザ・クルーレス・クラブ【Mandoo Games】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "5,500円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/165130642",
+     "title": "ザ・クルーレス・クラブ【Mandoo Games】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/165130303",
+   "game": "ザ・グッド・ザ・バッド・アンド・ザ・ゴート【Mandoo Games】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "4,400円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/165130303",
+     "title": "ザ・グッド・ザ・バッド・アンド・ザ・ゴート【Mandoo Games】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/165129471",
+   "game": "下田ペリーロード【Mandoo Games】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "5,500円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/165129471",
+     "title": "下田ペリーロード【Mandoo Games】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/165129239",
+   "game": "リストア【Mandoo Games】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "5,500円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/165129239",
+     "title": "リストア【Mandoo Games】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/165128546",
+   "game": "ジャスト・チリン【Mandoo Games】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "3,520円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/165128546",
+     "title": "ジャスト・チリン【Mandoo Games】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/165129018",
+   "game": "ライトナウ【Mandoo Games】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "3,520円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/165129018",
+     "title": "ライトナウ【Mandoo Games】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/160604002",
+   "game": "ニッポン：財閥 エンペラーズエディション+メタルコイン【CROWD GAMES】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "20,000円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/160604002",
+     "title": "ニッポン：財閥 エンペラーズエディション+メタルコイン【CROWD GAMES】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/160458554",
+   "game": "【本体のみ】ニッポン：財閥 エンペラーズエディション【CROWD GAMES】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "17,600円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/160458554",
+     "title": "【本体のみ】ニッポン：財閥 エンペラーズエディション【CROWD GAMES】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/160603795",
+   "game": "【ゲーム備品】ニッポン：財閥 専用メタルコイン【CROWD GAMES】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "3,300円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/160603795",
+     "title": "【ゲーム備品】ニッポン：財閥 専用メタルコイン【CROWD GAMES】"
+    }
+   ]
+  },
+  {
+   "key": "s:https://bluefinch.base.shop/items/160459206",
+   "game": "フォレージ【FLATOUT GAMES / AEG】",
+   "date": "2026-11-21",
+   "label": null,
+   "exact": true,
+   "type": "販売開始",
+   "price": "5,940円",
+   "links": [
+    {
+     "source": "ブルーフィンチゲームズ",
+     "url": "https://bluefinch.base.shop/items/160459206",
+     "title": "フォレージ【FLATOUT GAMES / AEG】"
+    }
+   ]
+  },
+  {
+   "key": "a:パンダロイヤル：メイヘム拡張セット:2026-11-24",
+   "game": "パンダロイヤル：メイヘム拡張セット",
+   "date": "2026-11-24",
+   "label": "11月24日",
+   "exact": true,
+   "type": "発売",
+   "links": [
+    {
+     "source": "Table Games in the World",
+     "url": "https://tgiw.info/2026/11/panda-royale-mayhemj.html",
+     "title": "3種のダイスを追加『パンダロイヤル：メイヘム拡張セット』日本語版、11月24日発売"
+    }
+   ]
+  },
+  {
+   "key": "a:コーヒーラッシュ：テイクアウト:2026-11-27",
+   "game": "コーヒーラッシュ：テイクアウト",
+   "date": "2026-11-27",
+   "label": "11月27日",
+   "exact": true,
+   "type": "発売",
+   "links": [
+    {
+     "source": "Table Games in the World",
+     "url": "https://tgiw.info/2026/11/coffee-rush-grab-goj.html",
+     "title": "リアルタイムで注文達成『コーヒーラッシュ：テイクアウト』日本語版、11月27日発売"
+    }
+   ]
+  },
+  {
+   "key": "a:コーヒーラッシュ：ウィンター:2026-11-27",
+   "game": "コーヒーラッシュ：ウィンター",
+   "date": "2026-11-27",
+   "label": "11月27日",
+   "exact": true,
+   "type": "発売",
+   "links": [
+    {
+     "source": "Table Games in the World",
+     "url": "https://tgiw.info/2026/11/coffee-rushwinterj.html",
+     "title": "冬バージョン『コーヒーラッシュ：ウィンター』日本語版、11月27日発売"
+    }
+   ]
+  },
+  {
+   "key": "a:スペースラボ:2026-11-27",
+   "game": "スペースラボ",
+   "date": "2026-11-27",
+   "label": "11月27日",
+   "exact": true,
+   "type": "発売",
+   "links": [
+    {
+     "source": "Table Games in the World",
+     "url": "https://tgiw.info/2026/11/space-labj.html",
+     "title": "宇宙ステーションの人材マッチング『スペースラボ』日本語版、11月27日発売"
+    }
+   ]
+  },
+  {
+   "key": "a:カタン 航海者5-6人拡張版:2026-12-11",
+   "game": "カタン 航海者5-6人拡張版",
+   "date": "2026-12-11",
+   "label": "12月11日",
+   "exact": true,
+   "type": "発売",
+   "links": [
+    {
+     "source": "Table Games in the World",
+     "url": "https://tgiw.info/2026/11/catan-seafarers5-6j.html",
+     "title": "デザインリニューアル『カタン 航海者5-6人拡張版』12月11日発売"
+    }
+   ]
+  }
+ ],
+ "shopState": {
+  "https://honugames.thebase.in/items/133659222": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/164281545": {
+   "firstSeen": null,
+   "status": "sold",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": null
+  },
+  "https://honugames.thebase.in/items/164281231": {
+   "firstSeen": null,
+   "status": "sold",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": null
+  },
+  "https://honugames.thebase.in/items/164281258": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/164448198": {
+   "firstSeen": null,
+   "status": "sold",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": null
+  },
+  "https://honugames.thebase.in/items/164449406": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/164447044": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/164218537": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/135124229": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/138860409": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/75779058": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/128836114": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/155328248": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/155530548": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/102803931": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/164109855": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/164109843": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/164109835": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/164109814": {
+   "firstSeen": null,
+   "status": "sold",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": null
+  },
+  "https://honugames.thebase.in/items/159055082": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/155280641": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/149789709": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/149789121": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/165742608": {
+   "firstSeen": null,
+   "status": "sold",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": null
+  },
+  "https://bluefinch.base.shop/items/165742565": {
+   "firstSeen": null,
+   "status": "sold",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": null
+  },
+  "https://bluefinch.base.shop/items/165742505": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/165898539": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/149788614": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/165734059": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/160081336": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/165733580": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/165733689": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/165129706": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/165128806": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/165130642": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/165130303": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/165129471": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/165129239": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/165128546": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/165129018": {
+   "firstSeen": null,
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/158992809": {
+   "firstSeen": "2026-11-21T01:52:03.723Z",
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/158992827": {
+   "firstSeen": "2026-11-21T01:52:03.723Z",
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/154709670": {
+   "firstSeen": "2026-11-21T01:52:03.723Z",
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://honugames.thebase.in/items/109024465": {
+   "firstSeen": "2026-11-21T01:52:03.723Z",
+   "status": "sold",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": null
+  },
+  "https://bluefinch.base.shop/items/160604002": {
+   "firstSeen": "2026-11-21T01:52:03.723Z",
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/160458554": {
+   "firstSeen": "2026-11-21T01:52:03.723Z",
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/160603795": {
+   "firstSeen": "2026-11-21T01:52:03.723Z",
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  },
+  "https://bluefinch.base.shop/items/160459206": {
+   "firstSeen": "2026-11-21T01:52:03.723Z",
+   "status": "sale",
+   "since": "2026-11-21T01:52:03.723Z",
+   "saleAt": "2026-11-21T01:52:03.723Z"
+  }
  }
 }
