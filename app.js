@@ -365,10 +365,10 @@ function shopBox(b) {
   el.appendChild(chips);
   if (!shown.length) el.insertAdjacentHTML("beforeend", `<div class="empty">${st.f === "新入荷" ? "この7日間の新入荷はありません。新しく並んだ商品や、販売が始まった商品がここに出ます。" : "該当する商品がありません。"}</div>`);
   for (const i of shown.slice(0, st.n)) {
-    const when = i.saleAt ? `${md(i.saleAt)} 販売開始` : i.firstSeen ? `${md(i.firstSeen)} 掲載` : "";
+    const when = i.saleAt ? `${md(i.saleAt)} ${i.restock ? "再入荷" : "販売開始"}` : i.firstSeen ? `${md(i.firstSeen)} 掲載` : "";
     el.insertAdjacentHTML("beforeend", `<a class="row${read.has(i.url) ? " read" : ""}" data-u="${esc(i.url)}" href="${esc(i.url)}" target="_blank" rel="noopener">
       <div class="thumb" ${i.image ? `style="background-image:url('${esc(i.image)}')"` : ""}>${i.image ? "" : "🛒"}</div>
-      <div class="rt"><div class="t">${esc(i.title)}</div><div class="s">${esc(i.source)}${i.price ? " ・ " + esc(i.price) : ""}<span class="tag st-${i.status}">${STATUS[i.status] || ""}</span></div></div>
+      <div class="rt"><div class="t">${esc(i.title)}</div><div class="s">${esc(i.source)}${i.price ? " ・ " + esc(i.price) : ""}<span class="tag st-${i.status}">${STATUS[i.status] || ""}</span>${i.restock ? `<span class="tag new">再入荷</span>` : ""}</div></div>
       <div class="rd">${when}</div></a>`);
   }
   if (shown.length > st.n) {

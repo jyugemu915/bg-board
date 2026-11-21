@@ -22,6 +22,11 @@
     {
       "name": "Table Games in the World",
       "rss": "https://tgiw.info/feed"
+    },
+    {
+      "name": "BGG Store",
+      "shopify": "https://boardgamegeekstore.com",
+      "rss": "https://boardgamegeekstore.com/blogs/news.atom"
     }
   ],
   "places": [

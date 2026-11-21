@@ -145,6 +145,49 @@ async function collectShop(src, kind, state) {
   } catch (e) { out.error = String(e.message || e); return { status: out, items: [] }; }
 }
 
+// ---- Shopify のストア（BGG Store など）：商品データ一覧から新入荷・再入荷を拾う ----
+async function collectShopify(src, kind, state) {
+  const out = { name: src.name, channel: "ショップ", kind, ok: false, error: "", feed: src.shopify };
+  try {
+    const base = src.shopify.replace(/\/$/, "");
+    const host = new URL(base).host;
+    const firstRun = !Object.keys(state).some((u) => u.includes(host));
+    const all = [];
+    for (let page = 1; page <= 6; page++) {
+      const j = JSON.parse(await get(`${base}/products.json?limit=250&page=${page}`));
+      if (!j.products?.length) break;
+      all.push(...j.products);
+      if (j.products.length < 250) break;
+    }
+    const recent = new Date(Date.now() - 45 * 864e5).toISOString();
+    const items = [];
+    for (const p of all) {
+      const url = `${base}/products/${p.handle}`;
+      const avail = (p.variants || []).some((v) => v.available);
+      const status = avail ? "sale" : "sold";
+      const published = p.published_at ? new Date(p.published_at).toISOString() : null;
+      const prev = state[url];
+      const st = prev ? { ...prev } : { firstSeen: published, status: null, since: null, saleAt: null };
+      if (st.status !== status) {
+        // 売切→販売中（再入荷）を記録。初回以外で新しく現れたものも
+        if (status === "sale" && (prev?.status === "sold" || (!prev && !firstRun && (!published || published < recent)))) st.saleAt = nowIso;
+        st.status = status; st.since = prev ? nowIso : null;
+      }
+      state[url] = st;
+      const restock = st.saleAt && st.saleAt >= recent;
+      if (!(published && published >= recent) && !restock) continue;
+      const price = p.variants?.[0]?.price;
+      items.push({ title: p.title, url, image: p.images?.[0]?.src || "", price: price ? "$" + price : "", status,
+        firstSeen: published, saleAt: st.saleAt, restock: !!restock, date: (restock ? st.saleAt : published),
+        source: src.name, kind, label: "ショップ", vendor: p.vendor || "" });
+    }
+    out.ok = all.length > 0;
+    out.total = all.length;
+    if (!out.ok) out.error = "商品が見つかりません";
+    return { status: out, items };
+  } catch (e) { out.error = String(e.message || e); return { status: out, items: [] }; }
+}
+
 // ---- 実行 ----
 const cfg = JSON.parse(await readFile(new URL("../config/sources.json", import.meta.url)));
 const dataUrl = new URL("../data/news.json", import.meta.url);
@@ -157,7 +200,8 @@ for (const [kind, list] of [["maker", cfg.makers], ["news", cfg.news]]) {
   for (const s of list) {
     if (s.rss || s.site) jobs.push(collectFeed(s, kind));
     if (s.shop) jobs.push(collectShop(s, kind, shopState));
-    if (!s.rss && !s.site && !s.shop) jobs.push(Promise.resolve({ status: { name: s.name, kind, ok: false, error: "サイト未設定" }, items: [] }));
+    if (s.shopify) jobs.push(collectShopify(s, kind, shopState));
+    if (!s.rss && !s.site && !s.shop && !s.shopify) jobs.push(Promise.resolve({ status: { name: s.name, kind, ok: false, error: "サイト未設定" }, items: [] }));
   }
 }
 const results = await Promise.all(jobs);
@@ -211,7 +255,7 @@ for (const i of items) {
     addRelease({ key: "s:" + i.url, game: i.title, date: null, label: "近日発売", exact: false, type: "近日", price: i.price, image: i.image || "",
       links: [{ source: i.source, url: i.url, title: i.title }] });
   }
-  if (i.label === "ショップ" && i.saleAt) {
+  if (i.label === "ショップ" && i.saleAt && !i.restock) {
     addRelease({ key: "s:" + i.url, game: i.title, date: i.saleAt.slice(0, 10), label: null, exact: true, type: "販売開始", price: i.price, image: i.image || "",
       links: [{ source: i.source, url: i.url, title: i.title }] });
   }
