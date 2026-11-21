@@ -163,22 +163,34 @@ for (const [kind, list] of [["maker", cfg.makers], ["news", cfg.news]]) {
 const results = await Promise.all(jobs);
 const items = results.flatMap((r) => r.items).sort((a, b) => (b.date || "").localeCompare(a.date || ""));
 
-// 画像がない記事は、記事ページの og:image を取りに行く（前回取得分は再利用）
+// 画像がない記事は、記事ページの代表画像を取りに行く（前回取得分は再利用。失敗したものは翌日以降に再挑戦）
+function pageImage(h, base) {
+  const metas = h.match(/<meta[^>]+>/gi) || [];
+  for (const key of ["og:image", "twitter:image", "og:image:url"]) {
+    const m = metas.find((x) => new RegExp(`(?:property|name)=["']${key}["']`, "i").test(x));
+    const c = m && m.match(/content=["']([^"']+)["']/i);
+    if (c) return new URL(c[1].replace(/&amp;/g, "&"), base).href;
+  }
+  const art = h.match(/<(?:article|div[^>]+class=["'][^"']*(?:entry-content|post-content|article-body)[^"']*["'])[\s\S]*$/i)?.[0] || h;
+  const img = art.match(/<img[^>]+(?:data-src|src)=["']([^"']+\.(?:jpe?g|png|webp)[^"']*)["']/i);
+  return img ? new URL(img[1].replace(/&amp;/g, "&"), base).href : "";
+}
 const oldImg = new Map((old.items || []).filter((i) => i.image).map((i) => [i.url, i.image]));
 const imgCache = old.imgCache || {};
-let fetched = 0;
+let fetched = 0, debugShown = false;
 for (const i of items) {
   if (i.image) continue;
   const c = oldImg.get(i.url) || imgCache[i.url];
-  if (c !== undefined) { i.image = c; continue; }
+  if (typeof c === "string" && c) { i.image = c; continue; }
+  if (c && c.failedAt && Date.now() - Date.parse(c.failedAt) < 864e5) continue;
   if (fetched >= 40) continue;
   fetched++;
   try {
     const h = await get(i.url);
-    const m = h.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i) || h.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
-    i.image = m ? m[1].replace(/&amp;/g, "&") : "";
-  } catch { i.image = ""; }
-  imgCache[i.url] = i.image;
+    i.image = pageImage(h, i.url);
+    if (!i.image && !debugShown) { debugShown = true; console.log("no image:", i.url, (h.match(/<meta[^>]+>/gi) || []).slice(0, 25).join(" ").slice(0, 1500)); }
+  } catch (e) { i.image = ""; if (!debugShown) { debugShown = true; console.log("image fetch error:", i.url, e.message); } }
+  imgCache[i.url] = i.image || { failedAt: nowIso };
 }
 console.log("og:image fetched:", fetched);
 
