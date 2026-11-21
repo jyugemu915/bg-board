@@ -1,21 +1,8 @@
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36";
-const urls = [
-  "https://bodofun.hoobby.net/",
-  "https://www.kickstarter.com/projects/nerdgear/stoneforge-tcg-backpack-by-nerd-gear",
-  "https://www.kickstarter.com/projects/nerdgear/stoneforge-tcg-backpack-by-nerd-gear/stats.json?v=1",
-  "https://gamefound.com/en/projects/roxley/brass-pittsburgh",
-  "https://gamefound.com/en/projects/ludic-dragon-games/space-universalis",
-];
-for (const u of urls) {
-  try {
-    const r = await fetch(u, { headers: { "User-Agent": UA, Accept: "text/html,application/json,*/*", "Accept-Language": "ja,en" } });
-    const t = await r.text();
-    console.log("==", r.status, u, t.length);
-    const metas = (t.match(/<meta[^>]+(og:|twitter:)[^>]+>/gi) || []).slice(0, 8).join("\n");
-    console.log(metas.slice(0, 1200));
-    for (const k of ["backers", "pledged", "fundsGathered", "backerCount", "goal", "deadline", "endDate", "campaignEnd", "percent", "達成", "支援者", "残り", "/projects/"]) {
-      const i = t.indexOf(k); if (i >= 0) console.log(`[${k}]`, t.slice(Math.max(0, i - 120), i + 160).replace(/\s+/g, " "));
-    }
-    if (u.includes("stats.json")) console.log(t.slice(0, 500));
-  } catch (e) { console.log("ERR", u, e.message); }
+for (const u of ["https://bodofun.hoobby.net/", "https://bodofun.hoobby.net/projects", "https://bodofun.hoobby.net/projects/majority-magicgirl-darkside"]) {
+  const r = await fetch(u, { headers: { "User-Agent": UA } }); const t = await r.text();
+  console.log("==", r.status, u, t.length);
+  const i = t.indexOf("project-block-cassette"); if (i >= 0) console.log(t.slice(i - 300, i + 2500).replace(/\s+/g, " "));
+  console.log("slugs:", [...new Set([...t.matchAll(/href="\/projects\/([\w-]+)"/g)].map((m) => m[1]))].join(","));
+  if (u.endsWith("darkside")) { for (const k of ["目標", "終了", "支援者", "達成率", "残り", "開始"]) { const j = t.indexOf(k); if (j >= 0) console.log(`[${k}]`, t.slice(j - 100, j + 250).replace(/\s+/g, " ")); } console.log((t.match(/<meta[^>]+og:[^>]+>/gi)||[]).join("\n")); }
 }
