@@ -9,6 +9,7 @@ const TYPES = {
   calendar: { title: "発売カレンダー" },
   events:   { title: "イベント" },
   funding:  { title: "クラファン" },
+  crowd:    { title: "注目クラファン" },
   shop:     { title: "ショップ入荷" },
   maker:    { title: "メーカー記事", filter: (i) => i.kind === "maker" && i.label === "記事" },
   news:     { title: "ニュース", filter: (i) => i.kind === "news" },
@@ -22,6 +23,7 @@ const DEFAULT_LAYOUT = [
   { id: "b2", type: "maker", col: 0 },
   { id: "b3", type: "news", col: 0 },
   { id: "bf", type: "funding", col: 1 },
+  { id: "bc", type: "crowd", col: 1 },
   { id: "b4", type: "shop", col: 1 },
   { id: "b5", type: "owned", col: 1 },
   { id: "b6", type: "xlinks", col: 1 },
@@ -51,6 +53,11 @@ if (!layout.some((b) => b.type === "funding") && !store.get("bgb.added.funding",
   layout.splice(i < 0 ? layout.length : i, 0, { id: "bf", type: "funding", col: 1 });
   store.set("bgb.added.funding", true);
 }
+if (!layout.some((b) => b.type === "crowd") && !store.get("bgb.added.crowd", false)) {
+  const i = layout.findIndex((b) => b.type === "funding");
+  layout.splice(i < 0 ? layout.length : i + 1, 0, { id: "bc", type: "crowd", col: 1 });
+  store.set("bgb.added.crowd", true);
+}
 if (!layout.some((b) => b.type === "events") && !store.get("bgb.added.events", false)) {
   const i = layout.findIndex((b) => b.type === "calendar");
   layout.splice(i + 1, 0, { id: "be", type: "events", col: 0 });
@@ -58,7 +65,8 @@ if (!layout.some((b) => b.type === "events") && !store.get("bgb.added.events", f
 }
 for (const b of layout) if (b.unreadOnly === undefined) b.unreadOnly = b.type === "maker" || b.type === "news";
 let editing = false;
-let news = null, sources = null, events = null, bgg = null;
+let news = null, sources = null, events = null, bgg = null, crowd = null;
+fetch("data/crowd.json?" + Date.now()).then((r) => r.json()).then((d) => { crowd = d; render(); }).catch(() => {});
 fetch("data/bgg.json?" + Date.now()).then((r) => r.json()).then((d) => { bgg = d; render(); }).catch(() => {});
 // BGGの箱絵：名前（または「：」の前）で引く
 function art(name) {
@@ -140,6 +148,7 @@ function renderInner(b) {
   if (b.type === "watch") return watchBox(b);
   if (b.type === "events") return eventsBox(b);
   if (b.type === "funding") return fundingBox(b);
+  if (b.type === "crowd") return crowdBox(b);
   if (b.type === "shop") return shopBox(b);
   return newsBox(b);
 }
@@ -630,6 +639,63 @@ function fundingBox(b) {
       row.appendChild(det);
     }
     el.appendChild(row);
+  }
+  if (list.length > st.n) {
+    const m = document.createElement("button");
+    m.className = "more"; m.textContent = `さらに表示（全 ${list.length} 件）`;
+    m.onclick = () => { st.n += 10; render(); };
+    el.appendChild(m);
+  }
+  return el;
+}
+
+// ---- 注目クラファン（ボドファン一覧＋登録したKickstarter）----
+let crowdStar = new Set(store.get("bgb.crowdstar.v1", []));
+const yen = (n, c = "¥") => n == null ? "" : c + Number(n).toLocaleString();
+function leftText(end) {
+  if (!end) return "";
+  const ms = new Date(end) - Date.now();
+  if (ms <= 0) return "終了";
+  const d = Math.floor(ms / 864e5);
+  return d >= 1 ? `残り${d}日` : `残り${Math.ceil(ms / 36e5)}時間`;
+}
+const KS_STATE = { live: "募集中", successful: "成功", failed: "不成立", canceled: "中止", suspended: "停止" };
+function crowdBox(b) {
+  const st = (ui[b.id] ||= { tab: "注目", n: 6 });
+  const bodo = (crowd?.bodofun || []).filter((p) => !p.end || new Date(p.end) > Date.now() - 3 * 864e5)
+    .sort((a, c) => (a.end || "9").localeCompare(c.end || "9"));
+  const watched = [...(crowd?.watch || []), ...bodo.filter((p) => crowdStar.has(p.id))];
+  const tabs = { 注目: watched, ボドファン: bodo };
+  const el = boxShell(b, TYPES.crowd.title, watched.length);
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  for (const k of Object.keys(tabs)) {
+    const c = document.createElement("button");
+    c.className = "chip" + (st.tab === k ? " on" : "");
+    c.textContent = `${k === "ボドファン" ? "ボドファン募集中" : k} ${tabs[k].length}`;
+    c.onclick = () => { st.tab = k; st.n = 6; render(); };
+    chips.appendChild(c);
+  }
+  el.appendChild(chips);
+  const list = tabs[st.tab];
+  if (!list.length) el.insertAdjacentHTML("beforeend", `<div class="empty">${st.tab === "注目" ? "ボドファンのプロジェクトは☆で注目に追加できます。KickstarterやGamefoundのプロジェクトは、URLを教えてもらえれば登録します。" : "取得できていません。"}</div>`);
+  for (const p of list.slice(0, st.n)) {
+    const img = p.image || art(p.title);
+    const starred = crowdStar.has(p.id);
+    const facts = [p.site, p.rate != null ? `${p.rate}%` : "", p.total != null ? yen(p.total, p.site === "Kickstarter" ? "$" : "¥") : "",
+      p.backers != null ? `${p.backers}人` : "", p.state ? KS_STATE[p.state] || p.state : "", leftText(p.end), p.delivery ? `お届け ${p.delivery}` : ""].filter(Boolean);
+    const r = document.createElement("div");
+    r.className = "row" + (starred ? " starred" : "");
+    r.innerHTML = `<div class="thumb big" ${img ? `style="background-image:url('${esc(img)}')"` : ""}>${img ? "" : "💡"}</div>
+      <a class="rt" href="${esc(p.url)}" target="_blank" rel="noopener"><div class="t">${esc(p.title)}</div>
+      <div class="s wrap">${esc(facts.join(" ・ "))}</div>
+      ${p.rate != null ? `<div class="bar"><i style="width:${Math.min(100, p.rate)}%"></i></div>` : ""}</a>
+      ${p.site === "ボドファン" ? `<div class="acts"><button class="${starred ? "on" : ""}" title="注目">${starred ? "★" : "☆"}</button></div>` : ""}`;
+    r.querySelector(".acts button")?.addEventListener("click", () => {
+      starred ? crowdStar.delete(p.id) : crowdStar.add(p.id);
+      store.set("bgb.crowdstar.v1", [...crowdStar]); render();
+    });
+    el.appendChild(r);
   }
   if (list.length > st.n) {
     const m = document.createElement("button");

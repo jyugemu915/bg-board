@@ -1,0 +1,5 @@
+{
+  "_note": "注目しているクラファン。kickstarter=プロジェクトURL（支援者数・支援額・状態を取得）。other=Gamefoundなど自動取得できないもの（タイトル・URL・締切を手で記入）。",
+  "kickstarter": [],
+  "other": []
+}

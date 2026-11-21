@@ -86,3 +86,5 @@ a.x{text-decoration:none}
 .thumb.big{width:56px;height:56px;border-radius:8px}
 .credit{text-align:center;font-size:11px;color:var(--muted);margin-top:24px}
 .credit a{text-decoration:underline}
+.bar{height:4px;background:#ece7db;border-radius:2px;margin-top:5px;overflow:hidden}
+.bar i{display:block;height:100%;background:#d7a43b}
