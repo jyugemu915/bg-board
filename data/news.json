@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T10:06:00.427Z",
+ "updatedAt": "2026-11-21T13:55:30.085Z",
  "sources": [
   {
    "name": "ホヌゲームズ",
@@ -43,6 +43,16 @@
   }
  ],
  "items": [
+  {
+   "title": "ゲームマーケット2026秋：新作評価アンケート結果、1位は『天才書家ボン』",
+   "url": "https://tgiw.info/2026/11/gm2026f-enq-result.html",
+   "date": "2026-11-21T11:34:16.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": null
+  },
   {
    "title": "大阪京橋でボードゲーム即売イベント「遊盤会2026」11月22日開催",
    "url": "https://tgiw.info/2026/11/asobankai2026.html",
@@ -165,21 +175,6 @@
     "date": "2026-11-24",
     "label": "11月24日",
     "exact": true,
-    "kind": "発売"
-   }
-  },
-  {
-   "title": "縦横上の投影パズル『シャドウ・ブロック』日本語版、10月下旬発売",
-   "url": "https://tgiw.info/2026/11/shadow-blocksj.html",
-   "date": "2026-11-14T02:29:01.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事",
-   "release": {
-    "date": "2026-10-25",
-    "label": "10月下旬",
-    "exact": false,
     "kind": "発売"
    }
   },

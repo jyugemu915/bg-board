@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T10:06:02.711Z",
+ "updatedAt": "2026-11-21T13:55:32.607Z",
  "status": [
   {
    "name": "ゲームマーケット公式",
@@ -92,6 +92,65 @@
    "kind": "local"
   },
   {
+   "kind": "manual",
+   "source": "ひよこの杜",
+   "pref": "宮城県",
+   "end": "2026-12-02",
+   "title": "推理部",
+   "date": "2026-12-02",
+   "tag": "その他",
+   "place": "ひよこの杜",
+   "url": "https://x.com/hiyoko__forest"
+  },
+  {
+   "kind": "manual",
+   "source": "ひよこの杜",
+   "pref": "宮城県",
+   "end": "2026-12-05",
+   "title": "ひよ杜クイズイベント（初心者向け）",
+   "date": "2026-12-05",
+   "time": "18:30〜",
+   "tag": "クイズ",
+   "note": "5F特別会場",
+   "place": "ひよこの杜",
+   "url": "https://x.com/hiyoko__forest"
+  },
+  {
+   "kind": "manual",
+   "source": "ひよこの杜",
+   "pref": "宮城県",
+   "end": "2026-12-06",
+   "title": "謎解きDAY",
+   "date": "2026-12-06",
+   "tag": "謎解き",
+   "place": "ひよこの杜",
+   "url": "https://x.com/hiyoko__forest"
+  },
+  {
+   "kind": "manual",
+   "source": "ひよこの杜",
+   "pref": "宮城県",
+   "end": "2026-12-09",
+   "title": "推理部",
+   "date": "2026-12-09",
+   "tag": "その他",
+   "place": "ひよこの杜",
+   "url": "https://x.com/hiyoko__forest"
+  },
+  {
+   "kind": "manual",
+   "source": "ひよこの杜",
+   "pref": "宮城県",
+   "end": "2026-12-12",
+   "title": "マジックアワーの残響",
+   "date": "2026-12-12",
+   "time": "11:30〜／16:30〜",
+   "tag": "ストプレ",
+   "note": "ひよ小部屋",
+   "place": "ひよこの杜",
+   "url": "https://x.com/hiyoko__forest"
+  },
+  {
    "title": "【告知用⚠️】12/13(日)小牛田おんべこバラージ会〜ひたすらダムで発電して遊ぼう♪〜#28【開催場所注意⚠️】",
    "date": "2026-12-13",
    "end": "2026-12-13",
@@ -104,6 +163,39 @@
    "kind": "local"
   },
   {
+   "kind": "manual",
+   "source": "ひよこの杜",
+   "pref": "宮城県",
+   "end": "2026-12-16",
+   "title": "推理部",
+   "date": "2026-12-16",
+   "tag": "その他",
+   "place": "ひよこの杜",
+   "url": "https://x.com/hiyoko__forest"
+  },
+  {
+   "kind": "manual",
+   "source": "ひよこの杜",
+   "pref": "宮城県",
+   "end": "2026-12-20",
+   "title": "謎解きDAY",
+   "date": "2026-12-20",
+   "tag": "謎解き",
+   "place": "ひよこの杜",
+   "url": "https://x.com/hiyoko__forest"
+  },
+  {
+   "kind": "manual",
+   "source": "ひよこの杜",
+   "pref": "宮城県",
+   "end": "2026-12-23",
+   "title": "推理部",
+   "date": "2026-12-23",
+   "tag": "その他",
+   "place": "ひよこの杜",
+   "url": "https://x.com/hiyoko__forest"
+  },
+  {
    "title": "12/26(土)小牛田おんべこボードゲーム会〜エンジョイして遊ぼう♪〜#29",
    "date": "2026-12-26",
    "end": "2026-12-26",
@@ -114,6 +206,29 @@
    "source": "ボドゲーマ",
    "url": "https://bodoge.hoobby.net/events/33646",
    "kind": "local"
+  },
+  {
+   "kind": "manual",
+   "source": "ひよこの杜",
+   "pref": "宮城県",
+   "end": "2027-01-01",
+   "title": "年末年始休業",
+   "date": "2026-12-30",
+   "tag": "休業",
+   "place": "ひよこの杜",
+   "url": "https://x.com/hiyoko__forest"
+  },
+  {
+   "kind": "manual",
+   "source": "ひよこの杜",
+   "pref": "宮城県",
+   "end": "2027-01-03",
+   "title": "特殊営業日（12:00〜21:00）",
+   "date": "2027-01-02",
+   "time": "12:00〜21:00",
+   "tag": "営業",
+   "place": "ひよこの杜",
+   "url": "https://x.com/hiyoko__forest"
   },
   {
    "title": "ゲームマーケット2027春",
