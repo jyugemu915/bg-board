@@ -295,7 +295,8 @@ function calendarBox(b) {
     const starred = isWatched(r.game);
     const row = document.createElement("div");
     row.className = "row" + (starred ? " starred" : "");
-    row.innerHTML = `${dayBadge(r)}${r.image ? `<div class="thumb" style="background-image:url('${esc(r.image)}')"></div>` : ""}
+    const rimg = r.image || (news?.items || []).find((i) => i.image && norm(r.game).length > 2 && norm(i.title).includes(norm(r.game)))?.image;
+    row.innerHTML = `${dayBadge(r)}${rimg ? `<div class="thumb" style="background-image:url('${esc(rimg)}')"></div>` : ""}
       <a class="rt" href="${esc(l.url)}" target="_blank" rel="noopener"><div class="t">${esc(r.game)}${typ}</div><div class="s">${daysLeft(r) ? daysLeft(r) + " ・ " : ""}${esc(srcs)}${r.price ? " ・ " + esc(r.price) : ""}</div></a>
       <div class="acts">${st.tab === "非表示"
         ? `<button data-a="show" title="表示に戻す">↩︎</button>`
