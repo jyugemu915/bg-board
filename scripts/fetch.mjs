@@ -9,7 +9,7 @@ const NOW = new Date();
 const nowIso = NOW.toISOString();
 
 async function get(url) {
-  const res = await fetch(url, { headers: { "User-Agent": UA }, redirect: "follow", signal: AbortSignal.timeout(20000) });
+  const res = await fetch(url, { headers: { "User-Agent": UA, "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "ja,en;q=0.8" }, redirect: "follow", signal: AbortSignal.timeout(20000) });
   if (!res.ok) throw new Error(`${res.status} ${url}`);
   return await res.text();
 }
