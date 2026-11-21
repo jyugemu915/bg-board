@@ -519,6 +519,7 @@ const CF_DONE = ["発送済み"];
 const CF_RECV = ["到着", "受け取り済み"];
 const CF_STAGES = ["支援中", "支払い済み", "製造中", "発送済み", "受け取り済み"];
 let cfOver = store.get("bgb.cfover.v1", {});
+let cfHidePromo = new Set(store.get("bgb.cfpromo.v1", []));
 // 手動で変えた状態：手動の後に新しい状態メールが来たらメールを優先
 function cfApply(p) {
   const o = cfOver[p.name];
@@ -538,6 +539,7 @@ function fundingBox(b) {
     進行中: ps.filter((p) => !CF_DONE.includes(p.stage) && !CF_RECV.includes(p.stage)),
     発送済み: ps.filter((p) => CF_DONE.includes(p.stage)),
     受け取り済み: ps.filter((p) => CF_RECV.includes(p.stage)),
+    おすすめ: (funding?.promos || []).filter((x) => !cfHidePromo.has(x.url)),
   };
   const el = boxShell(b, TYPES.funding.title, ps.length, tabs.要対応.length, "要対応");
   if (!url || st.setting) {
@@ -570,13 +572,32 @@ function fundingBox(b) {
   if (fundingErr) el.insertAdjacentHTML("beforeend", `<div class="warn">${esc(fundingErr)}</div>`);
   else if (!funding) el.insertAdjacentHTML("beforeend", `<div class="empty">メールから集計中…（初回は10秒ほどかかります）</div>`);
   const list = tabs[st.tab] || [];
-  if (funding && !list.length) el.insertAdjacentHTML("beforeend", `<div class="empty">${st.tab === "要対応" ? "対応が必要なものはありません。" : "該当するプロジェクトはありません。"}</div>`);
+  if (funding && !list.length) el.insertAdjacentHTML("beforeend", `<div class="empty">${st.tab === "要対応" ? "対応が必要なものはありません。" : st.tab === "おすすめ" ? "支援したクリエイターの新作や、締切が近いプロジェクトのお知らせがここに集まります。" : "該当するプロジェクトはありません。"}</div>`);
+  if (st.tab === "おすすめ") {
+    for (const x of list.slice(0, st.n)) {
+      const r = document.createElement("div");
+      r.className = "row";
+      r.innerHTML = `<div class="thumb" ${x.image ? `style="background-image:url('${esc(x.image)}')"` : ""}>${x.image ? "" : "✨"}</div>
+        <a class="rt" href="${esc(x.url)}" target="_blank" rel="noopener"><div class="t">${esc(x.title)}<span class="tag ${x.kind === "締切間近" ? "new" : "rel"}">${esc(x.kind)}</span></div>
+        <div class="s">${esc(x.from)} ・ ${md(x.date)}</div></a>
+        <div class="acts"><button title="表示しない">✕</button></div>`;
+      r.querySelector(".acts button").onclick = () => { cfHidePromo.add(x.url); store.set("bgb.cfpromo.v1", [...cfHidePromo]); render(); };
+      el.appendChild(r);
+    }
+    if (list.length > st.n) {
+      const m = document.createElement("button");
+      m.className = "more"; m.textContent = `さらに表示（全 ${list.length} 件）`;
+      m.onclick = () => { st.n += 10; render(); };
+      el.appendChild(m);
+    }
+    return el;
+  }
   for (const p of list.slice(0, st.n)) {
     const row = document.createElement("div");
     row.className = "wrow";
     const act = p.needsAction && p.actions[0];
-    const upd = p.lastUpdate ? `更新#${p.lastUpdate.n}（${md(p.lastUpdate.date)}）` : "";
-    row.innerHTML = `<div class="row"><div class="thumb">${p.platform === "Kickstarter" ? "🟢" : p.platform === "Gamefound" ? "🟣" : "🔵"}</div>
+    const upd = p.lastUpdate ? `更新#${p.lastUpdate.n}（${md(p.lastUpdate.date)}）${p.lastUpdate.title && !(p.needsAction && p.actions[0]?.text === p.lastUpdate.title) ? "：" + p.lastUpdate.title : ""}` : "";
+    row.innerHTML = `<div class="row"><div class="thumb big" ${p.image ? `style="background-image:url('${esc(p.image)}')"` : ""}>${p.image ? "" : p.platform === "Kickstarter" ? "🟢" : p.platform === "Gamefound" ? "🟣" : "🔵"}</div>
       <div class="rt"><div class="t">${esc(p.name)}<span class="tag cf-${CF_DONE.includes(p.stage) || CF_RECV.includes(p.stage) ? "done" : "on"}">${esc(p.stage)}${p.manual ? "✎" : ""}</span>${act ? `<span class="tag new">要対応</span>` : ""}</div>
       <div class="s wrap">${esc([p.platform, upd].filter(Boolean).join(" ・ "))}${act ? `<br><span class="hl" style="color:var(--accent)">${esc(act.text)}（${md(act.date)}）</span>` : ""}</div></div>
       ${p.url ? `<a class="x" href="${esc(p.url)}" target="_blank" rel="noopener" title="ページを開く">↗</a>` : ""}</div>`;
