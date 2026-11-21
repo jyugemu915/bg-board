@@ -1,18 +1,22 @@
 // ボドゲ情報ボード：ボックスの配置と中身の表示
-const LS_LAYOUT = "bgb.layout.v1";
+const LS_LAYOUT = "bgb.layout.v2";
 const LS_OWNED = "bgb.owned.v1";
 
 const TYPES = {
-  news:   { title: "新着", filter: null },
-  maker:  { title: "メーカー新着", filter: "maker" },
-  owned:  { title: "所持ゲーム" },
-  xlinks: { title: "メーカーのX" },
+  calendar: { title: "発売カレンダー" },
+  shop:     { title: "ショップ入荷" },
+  maker:    { title: "メーカー記事", filter: (i) => i.kind === "maker" && i.label === "記事" },
+  news:     { title: "ニュース", filter: (i) => i.kind === "news" },
+  owned:    { title: "所持ゲーム" },
+  xlinks:   { title: "メーカーのX" },
 };
 const DEFAULT_LAYOUT = [
-  { id: "b1", type: "maker", col: 0 },
-  { id: "b2", type: "news", col: 0 },
-  { id: "b3", type: "owned", col: 1 },
-  { id: "b4", type: "xlinks", col: 1 },
+  { id: "b1", type: "calendar", col: 0 },
+  { id: "b2", type: "maker", col: 0 },
+  { id: "b3", type: "news", col: 0 },
+  { id: "b4", type: "shop", col: 1 },
+  { id: "b5", type: "owned", col: 1 },
+  { id: "b6", type: "xlinks", col: 1 },
 ];
 
 const store = {
@@ -64,13 +68,15 @@ function boxShell(b, title, count) {
 function renderBox(b) {
   if (b.type === "owned") return ownedBox(b);
   if (b.type === "xlinks") return xBox(b);
+  if (b.type === "calendar") return calendarBox(b);
+  if (b.type === "shop") return shopBox(b);
   return newsBox(b);
 }
 
 function newsBox(b) {
   const t = TYPES[b.type];
   const st = (ui[b.id] ||= { src: "すべて", n: 8 });
-  let items = (news?.items || []).filter((i) => !t.filter || i.kind === t.filter);
+  let items = (news?.items || []).filter(t.filter);
   const names = [...new Set(items.map((i) => i.source))];
   const shown = st.src === "すべて" ? items : items.filter((i) => i.source === st.src);
   const el = boxShell(b, t.title, items.length);
@@ -91,7 +97,7 @@ function newsBox(b) {
   for (const i of shown.slice(0, st.n)) {
     el.insertAdjacentHTML("beforeend", `<a class="row" href="${esc(i.url)}" target="_blank" rel="noopener">
       <div class="thumb" ${i.image ? `style="background-image:url('${esc(i.image)}')"` : ""}>${i.image ? "" : "📰"}</div>
-      <div class="rt"><div class="t">${esc(i.title)}</div><div class="s">${esc(i.source)}${i.label === "ショップ" ? `<span class="tag">${i.date ? "新入荷" : "ショップ"}</span>` : ""}${i.price ? ` ・ ${esc(i.price)}` : ""}${i.soldOut ? `<span class="tag">売切</span>` : ""}</div></div>
+      <div class="rt"><div class="t">${esc(i.title)}</div><div class="s">${esc(i.source)}${i.release ? `<span class="tag rel">${esc(i.release.label)}${esc(i.release.kind)}</span>` : ""}</div></div>
       <div class="rd">${md(i.date)}</div></a>`);
   }
   if (shown.length > st.n) {
@@ -100,7 +106,7 @@ function newsBox(b) {
     m.onclick = () => { st.n += 10; render(); };
     el.appendChild(m);
   }
-  const ng = (news?.sources || []).filter((s) => !s.ok && (!t.filter || s.kind === t.filter));
+  const ng = (news?.sources || []).filter((s) => !s.ok && s.channel !== "ショップ" && s.kind === (b.type === "news" ? "news" : "maker"));
   if (ng.length) el.insertAdjacentHTML("beforeend", `<div class="warn">取得できなかった情報源：${ng.map((s) => `${esc(s.name)}${s.channel ? "・" + esc(s.channel) : ""}（${esc(s.error)}）`).join("、")}</div>`);
   return el;
 }
@@ -172,6 +178,99 @@ function xBox(b) {
     el.insertAdjacentHTML("beforeend", `<a class="row" href="https://x.com/${esc(m.x)}" target="_blank" rel="noopener">
       <div class="thumb">𝕏</div><div class="rt"><div class="t">${esc(m.name)}</div><div class="s">@${esc(m.x)}</div></div><div class="rd">開く ↗</div></a>`);
   }
+  return el;
+}
+
+// ---- 発売カレンダー ----
+const WD = "日月火水木金土";
+const todayStr = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; };
+function dayBadge(r) {
+  if (!r.date) return `<div class="db soon">近日</div>`;
+  const [y, m, d] = r.date.split("-").map(Number);
+  if (!r.exact && r.label) return `<div class="db"><b>${m}月</b><small>${esc(r.label.replace(/^.*月/, "")) || "予定"}</small></div>`;
+  const wd = WD[new Date(y, m - 1, d).getDay()];
+  return `<div class="db"><b>${m}/${d}</b><small>${wd}</small></div>`;
+}
+function daysLeft(r) {
+  if (!r.date) return "";
+  const diff = Math.round((new Date(r.date + "T00:00:00") - new Date(todayStr() + "T00:00:00")) / 864e5);
+  if (diff === 0) return `<span class="today">今日</span>`;
+  if (diff > 0) return `あと${diff}日`;
+  return `${-diff}日前`;
+}
+function calendarBox(b) {
+  const st = (ui[b.id] ||= { tab: "予定", n: 10 });
+  const t = todayStr();
+  const all = news?.releases || [];
+  const upcoming = all.filter((r) => !r.date || r.date >= t).sort((a, b2) => (a.date || "9999").localeCompare(b2.date || "9999"));
+  const past = all.filter((r) => r.date && r.date < t).sort((a, b2) => b2.date.localeCompare(a.date));
+  const list = st.tab === "予定" ? upcoming : past;
+  const el = boxShell(b, TYPES.calendar.title, upcoming.length);
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  for (const [k, n] of [["予定", upcoming.length], ["発売済み", past.length]]) {
+    const c = document.createElement("button");
+    c.className = "chip" + (st.tab === k ? " on" : "");
+    c.textContent = `${k === "予定" ? "発売予定" : k} ${n}`;
+    c.onclick = () => { st.tab = k; st.n = 10; render(); };
+    chips.appendChild(c);
+  }
+  el.appendChild(chips);
+  if (!list.length) el.insertAdjacentHTML("beforeend", `<div class="empty">${st.tab === "予定" ? "記事やショップから発売日が見つかると、ここに並びます。" : "まだ記録がありません。発売日を過ぎたものがここに残ります。"}</div>`);
+  for (const r of list.slice(0, st.n)) {
+    const l = r.links[0];
+    const srcs = [...new Set(r.links.map((x) => x.source))].join("・");
+    const typ = r.type === "販売開始" ? `<span class="tag">販売開始</span>` : r.type === "近日" ? `<span class="tag">予約前</span>` : r.type !== "発売" ? `<span class="tag">${esc(r.type)}</span>` : "";
+    el.insertAdjacentHTML("beforeend", `<a class="row" href="${esc(l.url)}" target="_blank" rel="noopener">
+      ${dayBadge(r)}
+      <div class="rt"><div class="t">${esc(r.game)}${typ}</div><div class="s">${esc(srcs)}${r.price ? " ・ " + esc(r.price) : ""}</div></div>
+      <div class="rd">${daysLeft(r)}</div></a>`);
+  }
+  if (list.length > st.n) {
+    const m = document.createElement("button");
+    m.className = "more"; m.textContent = `さらに表示（全 ${list.length} 件）`;
+    m.onclick = () => { st.n += 10; render(); };
+    el.appendChild(m);
+  }
+  return el;
+}
+
+// ---- ショップ入荷 ----
+const STATUS = { soon: "予約前・近日", sale: "販売中", sold: "売切" };
+function shopBox(b) {
+  const st = (ui[b.id] ||= { f: "新入荷", src: "すべて", n: 8 });
+  const week = new Date(Date.now() - 7 * 864e5).toISOString();
+  let items = (news?.items || []).filter((i) => i.label === "ショップ");
+  const isNew = (i) => (i.saleAt && i.saleAt >= week) || (i.firstSeen && i.firstSeen >= week);
+  const filters = { "新入荷": isNew, "予約前・近日": (i) => i.status === "soon", "販売中": (i) => i.status === "sale", "売切": (i) => i.status === "sold", "すべて": () => true };
+  const shown = items.filter(filters[st.f]).sort((a, c) => (c.date || "").localeCompare(a.date || ""));
+  const el = boxShell(b, TYPES.shop.title, items.length);
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  for (const k of Object.keys(filters)) {
+    const c = document.createElement("button");
+    c.className = "chip" + (st.f === k ? " on" : "");
+    c.textContent = `${k} ${items.filter(filters[k]).length}`;
+    c.onclick = () => { st.f = k; st.n = 8; render(); };
+    chips.appendChild(c);
+  }
+  el.appendChild(chips);
+  if (!shown.length) el.insertAdjacentHTML("beforeend", `<div class="empty">${st.f === "新入荷" ? "この7日間の新入荷はありません。新しく並んだ商品や、販売が始まった商品がここに出ます。" : "該当する商品がありません。"}</div>`);
+  for (const i of shown.slice(0, st.n)) {
+    const when = i.saleAt ? `${md(i.saleAt)} 販売開始` : i.firstSeen ? `${md(i.firstSeen)} 掲載` : "";
+    el.insertAdjacentHTML("beforeend", `<a class="row" href="${esc(i.url)}" target="_blank" rel="noopener">
+      <div class="thumb" ${i.image ? `style="background-image:url('${esc(i.image)}')"` : ""}>${i.image ? "" : "🛒"}</div>
+      <div class="rt"><div class="t">${esc(i.title)}</div><div class="s">${esc(i.source)}${i.price ? " ・ " + esc(i.price) : ""}<span class="tag st-${i.status}">${STATUS[i.status] || ""}</span></div></div>
+      <div class="rd">${when}</div></a>`);
+  }
+  if (shown.length > st.n) {
+    const m = document.createElement("button");
+    m.className = "more"; m.textContent = `さらに表示（全 ${shown.length} 件）`;
+    m.onclick = () => { st.n += 10; render(); };
+    el.appendChild(m);
+  }
+  const ng = (news?.sources || []).filter((s) => !s.ok && s.channel === "ショップ");
+  if (ng.length) el.insertAdjacentHTML("beforeend", `<div class="warn">取得できなかったショップ：${ng.map((s) => esc(s.name)).join("、")}</div>`);
   return el;
 }
 
