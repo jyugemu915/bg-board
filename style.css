@@ -70,3 +70,9 @@ form.add button{border:0;background:var(--dark);color:#fff;border-radius:8px;pad
 .wdet{background:#f6f3ec;padding-left:20px}
 .wdet .row{padding:8px 16px}
 .trips{font-size:12px;color:#3b5b8a;padding:4px 16px 8px;line-height:1.6}
+
+a.rt{display:block;min-width:0;flex:1}
+.acts{flex:none;display:flex;gap:4px}
+.acts button{border:1px solid var(--line);background:#fff;border-radius:8px;width:32px;height:32px;font-size:15px;color:var(--muted);padding:0}
+.acts button.on{color:#d79b00;border-color:#f0d58a;background:#fff8e1}
+.row.starred{background:#fffaeb}

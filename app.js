@@ -35,6 +35,9 @@ let owned = store.get(LS_OWNED, []);
 let read = new Set(store.get(LS_READ, []));
 let watch = store.get(LS_WATCH, []);
 let myEvents = store.get("bgb.myevents.v1", []);
+let hiddenRel = new Set(store.get("bgb.hiddenrel.v1", []));
+const saveHidden = () => store.set("bgb.hiddenrel.v1", [...hiddenRel]);
+const isWatched = (name) => watch.some((w) => norm(name).includes(norm(w.q)) || norm(w.q).includes(norm(name)));
 function markRead(urls) { urls.forEach((u) => read.add(u)); store.set(LS_READ, [...read].slice(-4000)); }
 // 既存の配置に新しいボックスを一度だけ足す
 if (!layout.some((b) => b.type === "watch") && !store.get("bgb.added.watch", false)) {
@@ -256,29 +259,50 @@ function calendarBox(b) {
   const st = (ui[b.id] ||= { tab: "予定", n: 5 });
   const t = todayStr();
   const all = news?.releases || [];
-  const upcoming = all.filter((r) => !r.date || r.date >= t).sort((a, b2) => (a.date || "9999").localeCompare(b2.date || "9999"));
-  const past = all.filter((r) => r.date && r.date < t).sort((a, b2) => b2.date.localeCompare(a.date));
-  const list = st.tab === "予定" ? upcoming : past;
+  const visible = all.filter((r) => !hiddenRel.has(r.key));
+  const upcoming = visible.filter((r) => !r.date || r.date >= t).sort((a, c) => (a.date || "9999").localeCompare(c.date || "9999"));
+  const past = visible.filter((r) => r.date && r.date < t).sort((a, c) => c.date.localeCompare(a.date));
+  const hidden = all.filter((r) => hiddenRel.has(r.key));
+  const tabs = { 予定: upcoming, 気になる: upcoming.filter((r) => isWatched(r.game)), 発売済み: past, 非表示: hidden };
+  const list = tabs[st.tab] || [];
   const el = boxShell(b, TYPES.calendar.title, upcoming.length);
   const chips = document.createElement("div");
   chips.className = "chips";
-  for (const [k, n] of [["予定", upcoming.length], ["発売済み", past.length]]) {
+  for (const k of Object.keys(tabs)) {
+    if (k === "非表示" && !hidden.length) continue;
     const c = document.createElement("button");
-    c.className = "chip" + (st.tab === k ? " on" : "");
-    c.textContent = `${k === "予定" ? "発売予定" : k} ${n}`;
+    c.className = "chip" + (st.tab === k ? " on" : "") + (k === "非表示" ? " ghost" : "");
+    c.textContent = `${k === "予定" ? "発売予定" : k === "気になる" ? "⭐気になる" : k} ${tabs[k].length}`;
     c.onclick = () => { st.tab = k; st.n = 5; render(); };
     chips.appendChild(c);
   }
   el.appendChild(chips);
-  if (!list.length) el.insertAdjacentHTML("beforeend", `<div class="empty">${st.tab === "予定" ? "記事やショップから発売日が見つかると、ここに並びます。" : "まだ記録がありません。発売日を過ぎたものがここに残ります。"}</div>`);
+  const msg = { 予定: "記事やショップから発売日が見つかると、ここに並びます。", 気になる: "⭐を押したゲームや、気になるゲームに登録した名前に合うものがここに出ます。",
+    発売済み: "まだ記録がありません。発売日を過ぎたものがここに残ります。", 非表示: "" };
+  if (!list.length) el.insertAdjacentHTML("beforeend", `<div class="empty">${msg[st.tab]}</div>`);
   for (const r of list.slice(0, st.n)) {
     const l = r.links[0];
     const srcs = [...new Set(r.links.map((x) => x.source))].join("・");
     const typ = r.type === "販売開始" ? `<span class="tag">販売開始</span>` : r.type === "近日" ? `<span class="tag">予約前</span>` : r.type !== "発売" ? `<span class="tag">${esc(r.type)}</span>` : "";
-    el.insertAdjacentHTML("beforeend", `<a class="row" href="${esc(l.url)}" target="_blank" rel="noopener">
-      ${dayBadge(r)}
-      <div class="rt"><div class="t">${esc(r.game)}${typ}</div><div class="s">${esc(srcs)}${r.price ? " ・ " + esc(r.price) : ""}</div></div>
-      <div class="rd">${daysLeft(r)}</div></a>`);
+    const starred = isWatched(r.game);
+    const row = document.createElement("div");
+    row.className = "row" + (starred ? " starred" : "");
+    row.innerHTML = `${dayBadge(r)}
+      <a class="rt" href="${esc(l.url)}" target="_blank" rel="noopener"><div class="t">${esc(r.game)}${typ}</div><div class="s">${daysLeft(r) ? daysLeft(r) + " ・ " : ""}${esc(srcs)}${r.price ? " ・ " + esc(r.price) : ""}</div></a>
+      <div class="acts">${st.tab === "非表示"
+        ? `<button data-a="show" title="表示に戻す">↩︎</button>`
+        : `<button data-a="star" class="${starred ? "on" : ""}" title="気になる">${starred ? "★" : "☆"}</button><button data-a="hide" title="興味なし">✕</button>`}</div>`;
+    row.querySelectorAll("[data-a]").forEach((btn) => btn.onclick = () => {
+      const a = btn.dataset.a;
+      if (a === "star") {
+        if (starred) watch = watch.filter((w) => !(norm(r.game).includes(norm(w.q)) || norm(w.q).includes(norm(r.game))));
+        else watch.unshift({ q: r.game, added: new Date().toISOString() });
+        store.set(LS_WATCH, watch);
+      } else if (a === "hide") { hiddenRel.add(r.key); saveHidden(); }
+      else if (a === "show") { hiddenRel.delete(r.key); saveHidden(); }
+      render();
+    });
+    el.appendChild(row);
   }
   if (list.length > st.n) {
     const m = document.createElement("button");
