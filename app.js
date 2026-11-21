@@ -91,7 +91,7 @@ function newsBox(b) {
   for (const i of shown.slice(0, st.n)) {
     el.insertAdjacentHTML("beforeend", `<a class="row" href="${esc(i.url)}" target="_blank" rel="noopener">
       <div class="thumb" ${i.image ? `style="background-image:url('${esc(i.image)}')"` : ""}>${i.image ? "" : "📰"}</div>
-      <div class="rt"><div class="t">${esc(i.title)}</div><div class="s">${esc(i.source)}${i.label === "ショップ" ? `<span class="tag">新入荷</span>` : ""}</div></div>
+      <div class="rt"><div class="t">${esc(i.title)}</div><div class="s">${esc(i.source)}${i.label === "ショップ" ? `<span class="tag">${i.date ? "新入荷" : "ショップ"}</span>` : ""}${i.price ? ` ・ ${esc(i.price)}` : ""}${i.soldOut ? `<span class="tag">売切</span>` : ""}</div></div>
       <div class="rd">${md(i.date)}</div></a>`);
   }
   if (shown.length > st.n) {

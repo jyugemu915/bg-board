@@ -101,9 +101,17 @@ async function collectShop(src, kind, firstSeen) {
   const out = { name: src.name, channel: "ショップ", kind, ok: false, error: "", feed: src.shop };
   try {
     const now = new Date().toISOString();
-    const items = (await scrapeShop(src.shop)).slice(0, MAX_PER_SOURCE).map((i) => ({
-      ...i, date: firstSeen.get(i.url) || now, source: src.name, kind, label: "ショップ",
-    }));
+    const host = new URL(src.shop).host;
+    const firstRun = ![...firstSeen.keys()].some((u) => u.includes(host));
+    const items = (await scrapeShop(src.shop)).slice(0, MAX_PER_SOURCE).map((i) => {
+      // 「商品名 JPY 4,620(USD …) SOLD OUT 原題タイトル:…」を分ける
+      const [name, rest = ""] = i.title.split(/\s+JPY\s+/);
+      const price = rest.match(/^([\d,]+)/)?.[1];
+      const soldOut = /SOLD OUT/i.test(rest);
+      const seenAt = firstSeen.get(i.url) || (firstRun ? "first" : now);
+      return { ...i, title: name.trim(), price: price ? price + "円" : "", soldOut,
+        date: seenAt === "first" ? null : seenAt, seenAt, source: src.name, kind, label: "ショップ" };
+    });
     out.ok = items.length > 0;
     if (!out.ok) out.error = "商品が見つかりません";
     return { status: out, items };
@@ -126,7 +134,7 @@ const results = await Promise.all(jobs);
 const items = results.flatMap((r) => r.items)
   .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
 const seen = Object.fromEntries(firstSeen);
-for (const i of items) if (i.label === "ショップ" && !seen[i.url]) seen[i.url] = i.date;
+for (const i of items) if (i.label === "ショップ" && !seen[i.url]) seen[i.url] = i.seenAt;
 const data = { updatedAt: new Date().toISOString(), sources: results.map((r) => r.status), items, seen };
 await writeFile(dataUrl, JSON.stringify(data, null, 1));
 for (const s of data.sources) console.log(`${s.ok ? "OK " : "NG "} ${s.name}/${s.channel || ""} ${s.feed || ""} ${s.error} n=${results.find((r) => r.status === s).items.length}`);
