@@ -30,7 +30,9 @@ export function guessPref(s = "") {
 // ---- ゲームマーケット ----
 async function gameMarket() {
   const url = "https://gamemarket.jp/access";
-  const t = strip(await get(url));
+  const html = await get(url);
+  const og = ((html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i) || [])[1] || "").replace(/&amp;/g, "&");
+  const t = strip(html);
   const out = [];
   const re = /ゲームマーケット\s*(\d{4})\s*(春|秋|冬|大阪|神戸|関西)?[\s\S]{0,60}?開催日([\s\S]{0,200}?)会場([\s\S]{0,120}?)住所([\s\S]{0,120}?)(?:交通|入場|$)/g;
   for (const m of t.matchAll(re)) {
@@ -40,7 +42,7 @@ async function gameMarket() {
     const clean = (x) => x.replace(/\(.*?\)|[|]/g, " ").replace(/\s+/g, " ").trim();
     const venue = clean(m[4]), addr = clean(m[5]);
     out.push({ title: `ゲームマーケット${m[1]}${m[2] || ""}`, date: dates[0], end: dates[dates.length - 1],
-      place: [venue, addr].filter(Boolean).join(" / "), pref: guessPref(venue + addr), source: "ゲームマーケット公式", url, kind: "gm" });
+      place: [venue, addr].filter(Boolean).join(" / "), pref: guessPref(venue + addr), source: "ゲームマーケット公式", url, kind: "gm", image: og });
   }
   if (!out.length) throw new Error("日程が読み取れません");
   return [...new Map(out.map((e) => [e.title, e])).values()];
@@ -55,6 +57,7 @@ async function bodogema(prefId, max = 25) {
   for (const id of ids) {
     try {
       const html = await get(`https://bodoge.hoobby.net/events/${id}`);
+      const og = (html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i) || [])[1] || "";
       for (const m of html.matchAll(/<script[^>]*application\/ld\+json[^>]*>([\s\S]*?)<\/script>/gi)) {
         let j; try { j = JSON.parse(m[1]); } catch { continue; }
         for (const ev of [].concat(j)) {
@@ -65,7 +68,7 @@ async function bodogema(prefId, max = 25) {
             time: `${ev.startDate.slice(11, 16)}${ev.endDate ? "〜" + ev.endDate.slice(11, 16) : ""}`,
             place: [loc.name, a.streetAddress].filter(Boolean).filter((v, i, arr) => arr.indexOf(v) === i).join(" / "),
             pref: a.addressRegion || pref, price: ev.offers?.price ? `${ev.offers.price}円` : "",
-            source: "ボドゲーマ", url: `https://bodoge.hoobby.net/events/${id}`, kind: "local" });
+            source: "ボドゲーマ", url: `https://bodoge.hoobby.net/events/${id}`, kind: "local", image: og.replace(/&amp;/g, "&") });
         }
       }
     } catch (e) { console.log("  skip", id, e.message); }
@@ -88,7 +91,7 @@ async function fromNews() {
     const date = ymd(y, m[2], m[3]);
     const name = i.title.match(/[「『]([^」』]+)[」』]/)?.[1] || i.title.replace(/[、,]?\s*\d{1,2}月.*$/, "");
     out.push({ title: name, date, end: m[4] ? ymd(y, m[2], m[4]) : date, place: "", pref: guessPref(i.title),
-      source: i.source, url: i.url, kind: "news", note: i.title });
+      source: i.source, url: i.url, kind: "news", note: i.title, image: i.image || "" });
   }
   return out;
 }

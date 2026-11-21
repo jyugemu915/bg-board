@@ -163,24 +163,44 @@ for (const [kind, list] of [["maker", cfg.makers], ["news", cfg.news]]) {
 const results = await Promise.all(jobs);
 const items = results.flatMap((r) => r.items).sort((a, b) => (b.date || "").localeCompare(a.date || ""));
 
+// 画像がない記事は、記事ページの og:image を取りに行く（前回取得分は再利用）
+const oldImg = new Map((old.items || []).filter((i) => i.image).map((i) => [i.url, i.image]));
+const imgCache = old.imgCache || {};
+let fetched = 0;
+for (const i of items) {
+  if (i.image) continue;
+  const c = oldImg.get(i.url) || imgCache[i.url];
+  if (c !== undefined) { i.image = c; continue; }
+  if (fetched >= 40) continue;
+  fetched++;
+  try {
+    const h = await get(i.url);
+    const m = h.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i) || h.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
+    i.image = m ? m[1].replace(/&amp;/g, "&") : "";
+  } catch { i.image = ""; }
+  imgCache[i.url] = i.image;
+}
+console.log("og:image fetched:", fetched);
+
 // 発売カレンダー：記事の発売日＋ショップの近日/販売開始 を、過去分も含めて蓄積
 const releases = new Map((old.releases || []).map((r) => [r.key, r]));
 const addRelease = (r) => {
   const prev = releases.get(r.key);
+  if (prev?.image && !r.image) r.image = prev.image;
   releases.set(r.key, prev ? { ...prev, ...r, links: [...new Map([...prev.links, ...r.links].map((l) => [l.url, l])).values()] } : r);
 };
 for (const i of items) {
   if (i.label === "記事" && i.release && /発売|再販|販売開始|入荷|出荷|発送/.test(i.release.kind)) {
     const g = gameName(i.title);
     addRelease({ key: "a:" + g + ":" + i.release.date, game: g, date: i.release.date, label: i.release.label,
-      exact: i.release.exact, type: i.release.kind, links: [{ source: i.source, url: i.url, title: i.title }] });
+      exact: i.release.exact, type: i.release.kind, image: i.image || "", links: [{ source: i.source, url: i.url, title: i.title }] });
   }
   if (i.label === "ショップ" && i.status === "soon") {
-    addRelease({ key: "s:" + i.url, game: i.title, date: null, label: "近日発売", exact: false, type: "近日", price: i.price,
+    addRelease({ key: "s:" + i.url, game: i.title, date: null, label: "近日発売", exact: false, type: "近日", price: i.price, image: i.image || "",
       links: [{ source: i.source, url: i.url, title: i.title }] });
   }
   if (i.label === "ショップ" && i.saleAt) {
-    addRelease({ key: "s:" + i.url, game: i.title, date: i.saleAt.slice(0, 10), label: null, exact: true, type: "販売開始", price: i.price,
+    addRelease({ key: "s:" + i.url, game: i.title, date: i.saleAt.slice(0, 10), label: null, exact: true, type: "販売開始", price: i.price, image: i.image || "",
       links: [{ source: i.source, url: i.url, title: i.title }] });
   }
 }
@@ -188,7 +208,9 @@ const cutoff = new Date(NOW - KEEP_RELEASE_DAYS * 864e5).toISOString().slice(0, 
 const releaseList = [...releases.values()].filter((r) => !r.date || r.date >= cutoff)
   .sort((a, b) => (a.date || "9999").localeCompare(b.date || "9999"));
 
-const data = { updatedAt: nowIso, sources: results.map((r) => r.status), items, releases: releaseList, shopState };
+const keepUrls = new Set(items.map((i) => i.url));
+const data = { updatedAt: nowIso, sources: results.map((r) => r.status), items, releases: releaseList, shopState,
+  imgCache: Object.fromEntries(Object.entries(imgCache).filter(([u]) => keepUrls.has(u))) };
 await writeFile(dataUrl, JSON.stringify(data, null, 1));
 for (const r of results) console.log(`${r.status.ok ? "OK " : "NG "} ${r.status.name}/${r.status.channel || ""} n=${r.items.length} ${r.status.error}`);
 console.log("releases:", releaseList.length);

@@ -295,7 +295,7 @@ function calendarBox(b) {
     const starred = isWatched(r.game);
     const row = document.createElement("div");
     row.className = "row" + (starred ? " starred" : "");
-    row.innerHTML = `${dayBadge(r)}
+    row.innerHTML = `${dayBadge(r)}${r.image ? `<div class="thumb" style="background-image:url('${esc(r.image)}')"></div>` : ""}
       <a class="rt" href="${esc(l.url)}" target="_blank" rel="noopener"><div class="t">${esc(r.game)}${typ}</div><div class="s">${daysLeft(r) ? daysLeft(r) + " ・ " : ""}${esc(srcs)}${r.price ? " ・ " + esc(r.price) : ""}</div></a>
       <div class="acts">${st.tab === "非表示"
         ? `<button data-a="show" title="表示に戻す">↩︎</button>`
@@ -404,7 +404,8 @@ function watchBox(b) {
     if (!bits.length) bits.push("まだ情報なし");
     const row = document.createElement("div");
     row.className = "wrow";
-    row.innerHTML = `<div class="row"><div class="thumb">⭐</div>
+    const wimg = [...r.items, ...r.rels].map((x) => x.image).find(Boolean);
+    row.innerHTML = `<div class="row"><div class="thumb" ${wimg ? `style="background-image:url('${esc(wimg)}')"` : ""}>${wimg ? "" : "⭐"}</div>
       <div class="rt"><div class="t">${esc(r.w.q)}${fresh ? `<span class="tag new">新着 ${fresh}</span>` : ""}</div><div class="s wrap">${bits.join(" ・ ")}</div></div>
       <button class="x" title="削除">✕</button></div>`;
     row.querySelector(".rt").onclick = () => { st.open = st.open === r.w.q ? null : r.w.q; render(); };
@@ -488,7 +489,7 @@ function eventsBox(b) {
       continue;
     }
     el.insertAdjacentHTML("beforeend", `<a class="row" href="${esc(e.url || "#")}" target="_blank" rel="noopener">
-      ${evBadge(e)}
+      ${evBadge(e)}${e.image ? `<div class="thumb" style="background-image:url('${esc(e.image)}')"></div>` : ""}
       <div class="rt"><div class="t">${esc(e.title)}${k ? `<span class="tag">${k}</span>` : ""}</div>
       <div class="s">${esc([e.time, e.pref && !home.includes(e.pref) ? e.pref : "", (e.place || "").split(" / ")[0], e.note, e.price, e.source !== e.place ? e.source : ""].filter(Boolean).join(" ・ "))}</div></div>
       <div class="rd">${daysLeft({ date: e.date })}</div></a>`);
