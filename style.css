@@ -76,3 +76,7 @@ a.rt{display:block;min-width:0;flex:1}
 .acts button{border:1px solid var(--line);background:#fff;border-radius:8px;width:32px;height:32px;font-size:15px;color:var(--muted);padding:0}
 .acts button.on{color:#d79b00;border-color:#f0d58a;background:#fff8e1}
 .row.starred{background:#fffaeb}
+
+.tag.cf-on{background:#e6eef7;color:#3b5b8a}
+.tag.cf-done{background:#e4f0e2;color:#3d6b36}
+a.x{text-decoration:none}

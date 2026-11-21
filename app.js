@@ -8,6 +8,7 @@ const TYPES = {
   watch:    { title: "気になるゲーム" },
   calendar: { title: "発売カレンダー" },
   events:   { title: "イベント" },
+  funding:  { title: "クラファン" },
   shop:     { title: "ショップ入荷" },
   maker:    { title: "メーカー記事", filter: (i) => i.kind === "maker" && i.label === "記事" },
   news:     { title: "ニュース", filter: (i) => i.kind === "news" },
@@ -20,6 +21,7 @@ const DEFAULT_LAYOUT = [
   { id: "be", type: "events", col: 0 },
   { id: "b2", type: "maker", col: 0 },
   { id: "b3", type: "news", col: 0 },
+  { id: "bf", type: "funding", col: 1 },
   { id: "b4", type: "shop", col: 1 },
   { id: "b5", type: "owned", col: 1 },
   { id: "b6", type: "xlinks", col: 1 },
@@ -43,6 +45,11 @@ function markRead(urls) { urls.forEach((u) => read.add(u)); store.set(LS_READ, [
 if (!layout.some((b) => b.type === "watch") && !store.get("bgb.added.watch", false)) {
   layout.unshift({ id: "bw", type: "watch", col: 1 });
   store.set("bgb.added.watch", true);
+}
+if (!layout.some((b) => b.type === "funding") && !store.get("bgb.added.funding", false)) {
+  const i = layout.findIndex((b) => b.type === "shop");
+  layout.splice(i < 0 ? layout.length : i, 0, { id: "bf", type: "funding", col: 1 });
+  store.set("bgb.added.funding", true);
 }
 if (!layout.some((b) => b.type === "events") && !store.get("bgb.added.events", false)) {
   const i = layout.findIndex((b) => b.type === "calendar");
@@ -79,10 +86,10 @@ function render() {
   for (const b of layout) cols[b.col]?.appendChild(renderBox(b));
 }
 
-function boxShell(b, title, count, unread) {
+function boxShell(b, title, count, unread, unreadLabel = "未読") {
   const el = document.createElement("section");
   el.className = "box";
-  el.innerHTML = `<div class="bh"><h2><span class="arw">${b.collapsed ? "▸" : "▾"}</span>${esc(title)}</h2>${count != null ? `<span class="count">${count}</span>` : ""}${unread ? `<span class="unread">未読 ${unread}</span>` : ""}
+  el.innerHTML = `<div class="bh"><h2><span class="arw">${b.collapsed ? "▸" : "▾"}</span>${esc(title)}</h2>${count != null ? `<span class="count">${count}</span>` : ""}${unread ? `<span class="unread">${unreadLabel} ${unread}</span>` : ""}
     ${editing ? `<div class="tools">
       <button data-mv="up" title="上へ">↑</button><button data-mv="down" title="下へ">↓</button>
       <button data-mv="side" title="反対の列へ">⇄</button><button data-mv="del" title="削除">✕</button></div>` : ""}</div>`;
@@ -123,6 +130,7 @@ function renderInner(b) {
   if (b.type === "calendar") return calendarBox(b);
   if (b.type === "watch") return watchBox(b);
   if (b.type === "events") return eventsBox(b);
+  if (b.type === "funding") return fundingBox(b);
   if (b.type === "shop") return shopBox(b);
   return newsBox(b);
 }
@@ -496,6 +504,86 @@ function eventsBox(b) {
   return el;
 }
 
+// ---- クラファン（Apps Script から取得）----
+let funding = null, fundingErr = "";
+async function loadFunding(refresh) {
+  const url = store.get("bgb.cfurl.v1", "");
+  if (!url) return;
+  try {
+    const r = await fetch(url + (refresh ? (url.includes("?") ? "&" : "?") + "refresh=1" : ""));
+    funding = await r.json(); fundingErr = "";
+  } catch (e) { fundingErr = "読み込めませんでした（URLや公開設定を確認してください）"; }
+  render();
+}
+const CF_DONE = ["発送済み", "到着"];
+function fundingBox(b) {
+  const st = (ui[b.id] ||= { tab: "進行中", open: null, n: 6 });
+  const url = store.get("bgb.cfurl.v1", "");
+  const ps = funding?.projects || [];
+  const tabs = {
+    要対応: ps.filter((p) => p.needsAction),
+    進行中: ps.filter((p) => !CF_DONE.includes(p.stage)),
+    発送済み: ps.filter((p) => CF_DONE.includes(p.stage)),
+  };
+  const el = boxShell(b, TYPES.funding.title, ps.length, tabs.要対応.length, "要対応");
+  if (!url || st.setting) {
+    const f = document.createElement("form");
+    f.className = "add";
+    f.innerHTML = `<div class="s" style="font-size:12px;color:var(--muted)">Apps Script をデプロイしたときに表示された「ウェブアプリのURL」を貼り付けてください。</div>
+      <div class="r"><input name="u" placeholder="https://script.google.com/macros/s/…/exec" value="${esc(url)}" required><button>保存</button></div>`;
+    f.onsubmit = (e) => { e.preventDefault(); store.set("bgb.cfurl.v1", new FormData(f).get("u").trim()); st.setting = false; funding = null; render(); loadFunding(); };
+    el.appendChild(f);
+    if (!url) return el;
+  }
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  for (const k of Object.keys(tabs)) {
+    const c = document.createElement("button");
+    c.className = "chip" + (st.tab === k ? " on" : "");
+    c.textContent = `${k} ${tabs[k].length}`;
+    c.onclick = () => { st.tab = k; st.n = 6; render(); };
+    chips.appendChild(c);
+  }
+  const rf = document.createElement("button");
+  rf.className = "chip ghost"; rf.textContent = "更新";
+  rf.onclick = () => { rf.textContent = "更新中…"; loadFunding(true); };
+  chips.appendChild(rf);
+  const sb = document.createElement("button");
+  sb.className = "chip ghost"; sb.textContent = "設定";
+  sb.onclick = () => { st.setting = !st.setting; render(); };
+  chips.appendChild(sb);
+  el.appendChild(chips);
+  if (fundingErr) el.insertAdjacentHTML("beforeend", `<div class="warn">${esc(fundingErr)}</div>`);
+  else if (!funding) el.insertAdjacentHTML("beforeend", `<div class="empty">メールから集計中…（初回は10秒ほどかかります）</div>`);
+  const list = tabs[st.tab] || [];
+  if (funding && !list.length) el.insertAdjacentHTML("beforeend", `<div class="empty">${st.tab === "要対応" ? "対応が必要なものはありません。" : "該当するプロジェクトはありません。"}</div>`);
+  for (const p of list.slice(0, st.n)) {
+    const row = document.createElement("div");
+    row.className = "wrow";
+    const act = p.needsAction && p.actions[0];
+    const upd = p.lastUpdate ? `更新#${p.lastUpdate.n}（${md(p.lastUpdate.date)}）` : "";
+    row.innerHTML = `<div class="row"><div class="thumb">${p.platform === "Kickstarter" ? "🟢" : p.platform === "Gamefound" ? "🟣" : "🔵"}</div>
+      <div class="rt"><div class="t">${esc(p.name)}<span class="tag cf-${CF_DONE.includes(p.stage) ? "done" : "on"}">${esc(p.stage)}</span>${act ? `<span class="tag new">要対応</span>` : ""}</div>
+      <div class="s wrap">${esc([p.platform, upd].filter(Boolean).join(" ・ "))}${act ? `<br><span class="hl" style="color:var(--accent)">${esc(act.text)}（${md(act.date)}）</span>` : ""}</div></div>
+      ${p.url ? `<a class="x" href="${esc(p.url)}" target="_blank" rel="noopener" title="ページを開く">↗</a>` : ""}</div>`;
+    row.querySelector(".rt").onclick = () => { st.open = st.open === p.name ? null : p.name; render(); };
+    if (st.open === p.name) {
+      const det = document.createElement("div");
+      det.className = "wdet";
+      det.innerHTML = p.log.map((l) => `<a class="row" href="${esc(l.link)}" target="_blank" rel="noopener"><div class="rt"><div class="t">${esc(l.text)}</div><div class="s">${md(l.date)} ・ メールを開く</div></div></a>`).join("");
+      row.appendChild(det);
+    }
+    el.appendChild(row);
+  }
+  if (list.length > st.n) {
+    const m = document.createElement("button");
+    m.className = "more"; m.textContent = `さらに表示（全 ${list.length} 件）`;
+    m.onclick = () => { st.n += 10; render(); };
+    el.appendChild(m);
+  }
+  return el;
+}
+
 function move(id, how) {
   const i = layout.findIndex((b) => b.id === id);
   const b = layout[i];
@@ -526,3 +614,4 @@ document.querySelectorAll("[data-add]").forEach((btn) => btn.onclick = () => {
 });
 
 loadData();
+loadFunding();
