@@ -1,11 +1,34 @@
 {
   "_note": "追いたいメーカーの一覧。rss=記事の配信URL、site=公式サイト(RSSを自動で探す)、shop=BASEなどの通販トップ(新入荷を拾う)、x=Xのユーザー名(@なし)。",
   "makers": [
-    { "name": "ホヌゲームズ", "shop": "https://honugames.thebase.in/", "x": "Honu_Games" },
-    { "name": "うちばこや", "rss": "https://note.com/uchibacoya/rss", "x": "uchibacoya" },
-    { "name": "ブルーフィンチゲームズ", "rss": "https://note.com/bluefinchgames/rss", "shop": "https://bluefinch.base.shop/", "x": "bluefinchgames" }
+    {
+      "name": "ホヌゲームズ",
+      "shop": "https://honugames.thebase.in/",
+      "x": "Honu_Games"
+    },
+    {
+      "name": "うちばこや",
+      "rss": "https://note.com/uchibacoya/rss",
+      "x": "uchibacoya"
+    },
+    {
+      "name": "ブルーフィンチゲームズ",
+      "rss": "https://note.com/bluefinchgames/rss",
+      "shop": "https://bluefinch.base.shop/",
+      "x": "bluefinchgames"
+    }
   ],
   "news": [
-    { "name": "Table Games in the World", "rss": "https://tgiw.info/feed" }
+    {
+      "name": "Table Games in the World",
+      "rss": "https://tgiw.info/feed"
+    }
+  ],
+  "places": [
+    {
+      "name": "ひよこの杜",
+      "x": "hiyoko__forest",
+      "note": "月間予定をXで公開"
+    }
   ]
 }
