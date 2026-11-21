@@ -27,7 +27,7 @@ async function bodofun() {
       const goal = num(h.match(/目標\s*<span class="font-number">([^<]+)</)?.[1]);
       const rate = num(h.match(/目標達成率<\/span>\s*<div>\s*<span class="font-number emphasis">([\d,]+)</)?.[1]);
       const end = +(h.match(/data-target="jsCountDown" data-time="(\d+)"/)?.[1] || 0);
-      const delivery = dec(h.match(/ご提供予定時期[：:]\s*([^<]+)</)?.[1]?.trim() || "");
+      const delivery = dec(h.match(/ご提供予定時期[：:]\s*([^<]+)</)?.[1]?.trim() || "").replace(/^ご提供予定時期[：:]\s*/, "");
       const owner = dec(h.match(/project-owner[^>]*>[\s\S]{0,400}?<(?:a|span|div)[^>]*class="[^"]*name[^"]*"[^>]*>\s*([^<]+)</)?.[1]?.trim() || "");
       out.push({ site: "ボドファン", id: "bodofun:" + slug, title, url: `${base}/projects/${slug}`, image: og("image"),
         total, goal, rate, currency: "¥", end: end ? new Date(end * 1000).toISOString() : null, delivery, owner });
