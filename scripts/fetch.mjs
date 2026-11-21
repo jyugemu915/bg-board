@@ -132,7 +132,7 @@ async function collectShop(src, kind, state) {
       const s = prev ? { ...prev } : { firstSeen: firstRun ? null : nowIso, status: null, since: null, saleAt: null };
       if (s.status !== status) {
         // 近日→販売中 になった時、または初回以外で新しく販売中で現れた時を「発売（入荷）日」として記録
-        if (status === "sale" && (s.status === "soon" || (s.status === null && !firstRun))) s.saleAt = nowIso;
+        if (status === "sale" && (prev?.status === "soon" || (!prev && !firstRun))) s.saleAt = nowIso;
         s.status = status; s.since = prev || !firstRun ? nowIso : null;
       }
       state[i.url] = s;
