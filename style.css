@@ -10,6 +10,7 @@ main{max-width:1160px;margin:0 auto;padding:0 12px 60px}
 .pagehead h1{font-size:24px;margin:14px 0 2px;font-weight:600}
 .muted{color:var(--muted);font-size:12px;margin:0}
 .addbar[hidden]{display:none}
+form.add input[type=date]{flex:1}
 .addbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:12px 0;padding:10px;border:1px dashed var(--muted);border-radius:12px}
 .addbar button{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-size:13px}
 .addbar .ghost{color:var(--muted)}

@@ -34,6 +34,7 @@ let layout = store.get(LS_LAYOUT, DEFAULT_LAYOUT);
 let owned = store.get(LS_OWNED, []);
 let read = new Set(store.get(LS_READ, []));
 let watch = store.get(LS_WATCH, []);
+let myEvents = store.get("bgb.myevents.v1", []);
 function markRead(urls) { urls.forEach((u) => read.add(u)); store.set(LS_READ, [...read].slice(-4000)); }
 // 既存の配置に新しいボックスを一度だけ足す
 if (!layout.some((b) => b.type === "watch") && !store.get("bgb.added.watch", false)) {
@@ -403,7 +404,8 @@ function eventsBox(b) {
   const st = (ui[b.id] ||= { tab: "地元", n: 5 });
   const t = todayStr();
   const home = events?.homePrefs || ["宮城県"];
-  const up = (events?.events || []).filter((e) => (e.end || e.date) >= t);
+  const mine = myEvents.map((e, idx) => ({ ...e, kind: "mine", idx, pref: e.pref || home[0] }));
+  const up = [...(events?.events || []), ...mine].filter((e) => (e.end || e.date) >= t).sort((a, c) => a.date.localeCompare(c.date));
   const trips = (events?.trips || []).filter((x) => (x.to || x.from) >= t);
   const inTrip = (e) => trips.some((x) => e.pref === x.pref && (e.end || e.date) >= x.from && e.date <= (x.to || x.from));
   const tabs = {
@@ -423,14 +425,40 @@ function eventsBox(b) {
     chips.appendChild(c);
   }
   el.appendChild(chips);
+  if (st.adding) {
+    const f = document.createElement("form");
+    f.className = "add";
+    f.innerHTML = `<div class="r"><input name="date" type="date" required value="${todayStr()}"><input name="time" placeholder="時間（任意）"></div>
+      <input name="title" placeholder="イベント名" required><div class="r"><input name="place" placeholder="場所（任意）"><button>登録</button></div>`;
+    f.onsubmit = (ev) => {
+      ev.preventDefault();
+      const d = Object.fromEntries(new FormData(f));
+      myEvents.push({ title: d.title.trim(), date: d.date, time: d.time.trim(), place: d.place.trim(), source: "自分で登録" });
+      store.set("bgb.myevents.v1", myEvents); st.adding = false; render();
+    };
+    el.appendChild(f);
+  }
+  const addBtn = document.createElement("button");
+  addBtn.className = "chip ghost"; addBtn.textContent = st.adding ? "閉じる" : "＋手で追加";
+  addBtn.onclick = () => { st.adding = !st.adding; render(); };
+  chips.appendChild(addBtn);
   if (st.tab === "旅行・出張" && trips.length) el.insertAdjacentHTML("beforeend", `<div class="trips">${trips.map((x) => `✈️ ${esc(x.name || "予定")}：${esc(x.from.slice(5).replace("-", "/"))}${x.to && x.to !== x.from ? "〜" + esc(x.to.slice(5).replace("-", "/")) : ""} ${esc(x.pref)}`).join("<br>")}</div>`);
   if (!list.length) el.insertAdjacentHTML("beforeend", `<div class="empty">${st.tab === "旅行・出張" ? "旅行や出張の予定（日付と行き先）を教えてもらえれば、その期間・その地域のイベントをここに集めます。" : "予定されているイベントは見つかっていません。"}</div>`);
   for (const e of list.slice(0, st.n)) {
-    const k = KIND[e.kind];
+    const k = e.tag || KIND[e.kind];
+    if (e.kind === "mine") {
+      const r = document.createElement("div");
+      r.className = "row";
+      r.innerHTML = `${evBadge(e)}<div class="rt"><div class="t">${esc(e.title)}<span class="tag">自分で登録</span></div>
+        <div class="s">${esc([e.time, e.place].filter(Boolean).join(" ・ "))}</div></div><button class="x" title="削除">✕</button>`;
+      r.querySelector(".x").onclick = () => { if (confirm(`「${e.title}」を削除しますか？`)) { myEvents.splice(e.idx, 1); store.set("bgb.myevents.v1", myEvents); render(); } };
+      el.appendChild(r);
+      continue;
+    }
     el.insertAdjacentHTML("beforeend", `<a class="row" href="${esc(e.url || "#")}" target="_blank" rel="noopener">
       ${evBadge(e)}
       <div class="rt"><div class="t">${esc(e.title)}${k ? `<span class="tag">${k}</span>` : ""}</div>
-      <div class="s">${esc([e.time, e.pref && !home.includes(e.pref) ? e.pref : "", (e.place || "").split(" / ")[0], e.price, e.source].filter(Boolean).join(" ・ "))}</div></div>
+      <div class="s">${esc([e.time, e.pref && !home.includes(e.pref) ? e.pref : "", (e.place || "").split(" / ")[0], e.note, e.price, e.source !== e.place ? e.source : ""].filter(Boolean).join(" ・ "))}</div></div>
       <div class="rd">${daysLeft({ date: e.date })}</div></a>`);
   }
   if (list.length > st.n) {
