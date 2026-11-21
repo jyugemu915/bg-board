@@ -7,15 +7,17 @@ const LS_WATCH = "bgb.watch.v1";
 const TYPES = {
   watch:    { title: "気になるゲーム" },
   calendar: { title: "発売カレンダー" },
+  events:   { title: "イベント" },
   shop:     { title: "ショップ入荷" },
   maker:    { title: "メーカー記事", filter: (i) => i.kind === "maker" && i.label === "記事" },
   news:     { title: "ニュース", filter: (i) => i.kind === "news" },
   owned:    { title: "所持ゲーム" },
-  xlinks:   { title: "メーカーのX" },
+  xlinks:   { title: "Xアカウント" },
 };
 const DEFAULT_LAYOUT = [
   { id: "bw", type: "watch", col: 1 },
   { id: "b1", type: "calendar", col: 0 },
+  { id: "be", type: "events", col: 0 },
   { id: "b2", type: "maker", col: 0 },
   { id: "b3", type: "news", col: 0 },
   { id: "b4", type: "shop", col: 1 },
@@ -38,9 +40,14 @@ if (!layout.some((b) => b.type === "watch") && !store.get("bgb.added.watch", fal
   layout.unshift({ id: "bw", type: "watch", col: 1 });
   store.set("bgb.added.watch", true);
 }
+if (!layout.some((b) => b.type === "events") && !store.get("bgb.added.events", false)) {
+  const i = layout.findIndex((b) => b.type === "calendar");
+  layout.splice(i + 1, 0, { id: "be", type: "events", col: 0 });
+  store.set("bgb.added.events", true);
+}
 for (const b of layout) if (b.unreadOnly === undefined) b.unreadOnly = b.type === "maker" || b.type === "news";
 let editing = false;
-let news = null, sources = null;
+let news = null, sources = null, events = null;
 const ui = {}; // ボックスごとの表示状態（絞り込み・件数）
 
 const esc = (s = "") => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -50,7 +57,8 @@ async function loadData() {
   const [n, s] = await Promise.all([
     fetch("data/news.json?" + Date.now()).then((r) => r.json()).catch(() => null),
     fetch("config/sources.json?" + Date.now()).then((r) => r.json()).catch(() => null),
-  ]);
+    fetch("data/events.json?" + Date.now()).then((r) => r.json()).catch(() => null),
+  ]).then((x) => { events = x[2]; return x; });
   news = n; sources = s;
   const d = new Date();
   const upd = news?.updatedAt ? new Date(news.updatedAt) : null;
@@ -110,6 +118,7 @@ function renderInner(b) {
   if (b.type === "xlinks") return xBox(b);
   if (b.type === "calendar") return calendarBox(b);
   if (b.type === "watch") return watchBox(b);
+  if (b.type === "events") return eventsBox(b);
   if (b.type === "shop") return shopBox(b);
   return newsBox(b);
 }
@@ -215,12 +224,12 @@ function ownedBox(b) {
 }
 
 function xBox(b) {
-  const makers = (sources?.makers || []).filter((m) => m.x);
+  const makers = [...(sources?.makers || []), ...(sources?.places || [])].filter((m) => m.x);
   const el = boxShell(b, TYPES.xlinks.title, makers.length);
   if (!makers.length) el.insertAdjacentHTML("beforeend", `<div class="empty">config/sources.json に X のユーザー名を入れると、ここから開けます。</div>`);
   for (const m of makers) {
     el.insertAdjacentHTML("beforeend", `<a class="row" href="https://x.com/${esc(m.x)}" target="_blank" rel="noopener">
-      <div class="thumb">𝕏</div><div class="rt"><div class="t">${esc(m.name)}</div><div class="s">@${esc(m.x)}</div></div><div class="rd">開く ↗</div></a>`);
+      <div class="thumb">𝕏</div><div class="rt"><div class="t">${esc(m.name)}</div><div class="s">@${esc(m.x)}${m.note ? " ・ " + esc(m.note) : ""}</div></div><div class="rd">開く ↗</div></a>`);
   }
   return el;
 }
@@ -378,6 +387,60 @@ function watchBox(b) {
     }
     el.appendChild(row);
   }
+  return el;
+}
+
+// ---- イベント ----
+function evBadge(e) {
+  const [, m, d] = e.date.split("-").map(Number);
+  const wd = WD[new Date(e.date + "T00:00:00").getDay()];
+  let sub = wd;
+  if (e.end && e.end !== e.date) { const [, m2, d2] = e.end.split("-").map(Number); sub = `〜${m2 !== m ? m2 + "/" : ""}${d2}`; }
+  return `<div class="db"><b>${m}/${d}</b><small>${sub}</small></div>`;
+}
+const KIND = { gm: "ゲムマ", news: "全国", local: "", manual: "" };
+function eventsBox(b) {
+  const st = (ui[b.id] ||= { tab: "地元", n: 5 });
+  const t = todayStr();
+  const home = events?.homePrefs || ["宮城県"];
+  const up = (events?.events || []).filter((e) => (e.end || e.date) >= t);
+  const trips = (events?.trips || []).filter((x) => (x.to || x.from) >= t);
+  const inTrip = (e) => trips.some((x) => e.pref === x.pref && (e.end || e.date) >= x.from && e.date <= (x.to || x.from));
+  const tabs = {
+    地元: up.filter((e) => home.includes(e.pref)),
+    全国: up.filter((e) => e.kind === "gm" || e.kind === "news" || (e.kind === "manual" && !home.includes(e.pref))),
+    旅行・出張: up.filter(inTrip),
+  };
+  const list = tabs[st.tab] || [];
+  const el = boxShell(b, TYPES.events.title, up.length);
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  for (const k of Object.keys(tabs)) {
+    const c = document.createElement("button");
+    c.className = "chip" + (st.tab === k ? " on" : "");
+    c.textContent = `${k === "地元" ? home.map((p) => p.replace(/[都府県]$/, "")).join("・") : k} ${tabs[k].length}`;
+    c.onclick = () => { st.tab = k; st.n = 5; render(); };
+    chips.appendChild(c);
+  }
+  el.appendChild(chips);
+  if (st.tab === "旅行・出張" && trips.length) el.insertAdjacentHTML("beforeend", `<div class="trips">${trips.map((x) => `✈️ ${esc(x.name || "予定")}：${esc(x.from.slice(5).replace("-", "/"))}${x.to && x.to !== x.from ? "〜" + esc(x.to.slice(5).replace("-", "/")) : ""} ${esc(x.pref)}`).join("<br>")}</div>`);
+  if (!list.length) el.insertAdjacentHTML("beforeend", `<div class="empty">${st.tab === "旅行・出張" ? "旅行や出張の予定（日付と行き先）を教えてもらえれば、その期間・その地域のイベントをここに集めます。" : "予定されているイベントは見つかっていません。"}</div>`);
+  for (const e of list.slice(0, st.n)) {
+    const k = KIND[e.kind];
+    el.insertAdjacentHTML("beforeend", `<a class="row" href="${esc(e.url || "#")}" target="_blank" rel="noopener">
+      ${evBadge(e)}
+      <div class="rt"><div class="t">${esc(e.title)}${k ? `<span class="tag">${k}</span>` : ""}</div>
+      <div class="s">${esc([e.time, e.pref && !home.includes(e.pref) ? e.pref : "", (e.place || "").split(" / ")[0], e.price, e.source].filter(Boolean).join(" ・ "))}</div></div>
+      <div class="rd">${daysLeft({ date: e.date })}</div></a>`);
+  }
+  if (list.length > st.n) {
+    const m = document.createElement("button");
+    m.className = "more"; m.textContent = `さらに表示（全 ${list.length} 件）`;
+    m.onclick = () => { st.n += 10; render(); };
+    el.appendChild(m);
+  }
+  const ng = (events?.status || []).filter((x) => !x.ok);
+  if (ng.length) el.insertAdjacentHTML("beforeend", `<div class="warn">取得できなかった情報源：${ng.map((x) => esc(x.name)).join("、")}</div>`);
   return el;
 }
 

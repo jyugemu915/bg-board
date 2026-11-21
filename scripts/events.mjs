@@ -30,16 +30,20 @@ export function guessPref(s = "") {
 // ---- ゲームマーケット ----
 async function gameMarket() {
   const url = "https://gamemarket.jp/access";
-  const html = await get(url);
-  const t = strip(html);
-  const name = t.match(/ゲームマーケット\s*\d{4}\s*(?:春|秋|冬|大阪|神戸|関西)?/)?.[0]?.replace(/\s+/g, "") || "ゲームマーケット";
-  const dates = [...t.matchAll(/(\d{4})年\s*(\d{1,2})月\s*(\d{1,2})日/g)].map((m) => ymd(m[1], m[2], m[3]));
-  const venue = t.match(/会場\s*(?:\(Venue\))?\s*\|?\s*([^|]{2,60}?)\s*(?:\||住所)/)?.[1]?.trim() || "";
-  const addr = t.match(/住所\s*(?:\(Address\))?\s*\|?\s*([^|]{2,80}?)\s*(?:\||交通)/)?.[1]?.trim() || "";
-  if (!dates.length) throw new Error("日程が読み取れません");
-  const uniq = [...new Set(dates)].sort();
-  return [{ title: name, date: uniq[0], end: uniq[uniq.length - 1], place: [venue, addr].filter(Boolean).join(" / "),
-    pref: guessPref(venue + addr), source: "ゲームマーケット公式", url, kind: "gm" }];
+  const t = strip(await get(url));
+  const out = [];
+  const re = /ゲームマーケット\s*(\d{4})\s*(春|秋|冬|大阪|神戸|関西)?[\s\S]{0,60}?開催日([\s\S]{0,200}?)会場([\s\S]{0,120}?)住所([\s\S]{0,120}?)(?:交通|入場|$)/g;
+  for (const m of t.matchAll(re)) {
+    let year = +m[1];
+    const dates = [...m[3].matchAll(/(?:(\d{4})年\s*)?(\d{1,2})月\s*(\d{1,2})日/g)].map((d) => { if (d[1]) year = +d[1]; return ymd(year, d[2], d[3]); }).sort();
+    if (!dates.length) continue;
+    const clean = (x) => x.replace(/\(.*?\)|[|]/g, " ").replace(/\s+/g, " ").trim();
+    const venue = clean(m[4]), addr = clean(m[5]);
+    out.push({ title: `ゲームマーケット${m[1]}${m[2] || ""}`, date: dates[0], end: dates[dates.length - 1],
+      place: [venue, addr].filter(Boolean).join(" / "), pref: guessPref(venue + addr), source: "ゲームマーケット公式", url, kind: "gm" });
+  }
+  if (!out.length) throw new Error("日程が読み取れません");
+  return [...new Map(out.map((e) => [e.title, e])).values()];
 }
 
 // ---- ボドゲーマ ----
