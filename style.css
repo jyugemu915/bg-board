@@ -80,3 +80,6 @@ a.rt{display:block;min-width:0;flex:1}
 .tag.cf-on{background:#e6eef7;color:#3b5b8a}
 .tag.cf-done{background:#e4f0e2;color:#3d6b36}
 a.x{text-decoration:none}
+.cfctrl{background:#f6f3ec;padding:8px 0 4px 20px}
+.cfctrl>.s{font-size:11.5px;color:var(--muted);padding:0 16px}
+.cfctrl .chips{flex-wrap:wrap}

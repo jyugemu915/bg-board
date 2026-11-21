@@ -515,15 +515,29 @@ async function loadFunding(refresh) {
   } catch (e) { fundingErr = "読み込めませんでした（URLや公開設定を確認してください）"; }
   render();
 }
-const CF_DONE = ["発送済み", "到着"];
+const CF_DONE = ["発送済み"];
+const CF_RECV = ["到着", "受け取り済み"];
+const CF_STAGES = ["支援中", "支払い済み", "製造中", "発送済み", "受け取り済み"];
+let cfOver = store.get("bgb.cfover.v1", {});
+// 手動で変えた状態：手動の後に新しい状態メールが来たらメールを優先
+function cfApply(p) {
+  const o = cfOver[p.name];
+  const q = { ...p };
+  if (o?.stage && (!p.stageDate || o.date >= p.stageDate)) { q.stage = o.stage; q.manual = true; }
+  if (q.needsAction && o?.doneAt && o.doneAt >= (p.actions[0]?.date || "")) q.needsAction = false;
+  if (CF_DONE.includes(q.stage) || CF_RECV.includes(q.stage)) q.needsAction = false;
+  return q;
+}
+function cfSet(name, patch) { cfOver[name] = { ...(cfOver[name] || {}), ...patch }; store.set("bgb.cfover.v1", cfOver); render(); }
 function fundingBox(b) {
   const st = (ui[b.id] ||= { tab: "進行中", open: null, n: 6 });
   const url = store.get("bgb.cfurl.v1", "");
-  const ps = funding?.projects || [];
+  const ps = (funding?.projects || []).map(cfApply);
   const tabs = {
     要対応: ps.filter((p) => p.needsAction),
-    進行中: ps.filter((p) => !CF_DONE.includes(p.stage)),
+    進行中: ps.filter((p) => !CF_DONE.includes(p.stage) && !CF_RECV.includes(p.stage)),
     発送済み: ps.filter((p) => CF_DONE.includes(p.stage)),
+    受け取り済み: ps.filter((p) => CF_RECV.includes(p.stage)),
   };
   const el = boxShell(b, TYPES.funding.title, ps.length, tabs.要対応.length, "要対応");
   if (!url || st.setting) {
@@ -563,13 +577,22 @@ function fundingBox(b) {
     const act = p.needsAction && p.actions[0];
     const upd = p.lastUpdate ? `更新#${p.lastUpdate.n}（${md(p.lastUpdate.date)}）` : "";
     row.innerHTML = `<div class="row"><div class="thumb">${p.platform === "Kickstarter" ? "🟢" : p.platform === "Gamefound" ? "🟣" : "🔵"}</div>
-      <div class="rt"><div class="t">${esc(p.name)}<span class="tag cf-${CF_DONE.includes(p.stage) ? "done" : "on"}">${esc(p.stage)}</span>${act ? `<span class="tag new">要対応</span>` : ""}</div>
+      <div class="rt"><div class="t">${esc(p.name)}<span class="tag cf-${CF_DONE.includes(p.stage) || CF_RECV.includes(p.stage) ? "done" : "on"}">${esc(p.stage)}${p.manual ? "✎" : ""}</span>${act ? `<span class="tag new">要対応</span>` : ""}</div>
       <div class="s wrap">${esc([p.platform, upd].filter(Boolean).join(" ・ "))}${act ? `<br><span class="hl" style="color:var(--accent)">${esc(act.text)}（${md(act.date)}）</span>` : ""}</div></div>
       ${p.url ? `<a class="x" href="${esc(p.url)}" target="_blank" rel="noopener" title="ページを開く">↗</a>` : ""}</div>`;
     row.querySelector(".rt").onclick = () => { st.open = st.open === p.name ? null : p.name; render(); };
     if (st.open === p.name) {
       const det = document.createElement("div");
       det.className = "wdet";
+      const now = new Date().toISOString();
+      const ctrl = document.createElement("div");
+      ctrl.className = "cfctrl";
+      ctrl.innerHTML = `<div class="s">状態を変更：</div><div class="chips">${CF_STAGES.map((x) => `<button class="chip${p.stage === x ? " on" : ""}" data-st="${x}">${x}</button>`).join("")}
+        ${p.manual ? `<button class="chip ghost" data-st="">メールの状態に戻す</button>` : ""}</div>
+        ${p.needsAction ? `<button class="more" data-done="1">対応済みにする（要対応を外す）</button>` : ""}`;
+      ctrl.querySelectorAll("[data-st]").forEach((x) => x.onclick = () => cfSet(p.name, { stage: x.dataset.st || null, date: now }));
+      ctrl.querySelector("[data-done]")?.addEventListener("click", () => cfSet(p.name, { doneAt: now }));
+      row.appendChild(ctrl);
       det.innerHTML = p.log.map((l) => `<a class="row" href="${esc(l.link)}" target="_blank" rel="noopener"><div class="rt"><div class="t">${esc(l.text)}</div><div class="s">${md(l.date)} ・ メールを開く</div></div></a>`).join("");
       row.appendChild(det);
     }
