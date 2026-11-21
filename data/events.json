@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T14:58:20.884Z",
+ "updatedAt": "2026-11-21T15:00:27.327Z",
  "status": [
   {
    "name": "ゲームマーケット公式",
@@ -14,7 +14,7 @@
   {
    "name": "ボドゲーマ（宮城県）",
    "ok": true,
-   "n": 5
+   "n": 4
   }
  ],
  "trips": [],
@@ -45,19 +45,6 @@
    "kind": "news",
    "note": "東大阪で第2回「布施ボドゲフリマ」11月21日開催",
    "image": ""
-  },
-  {
-   "title": "【11/21】ボードゲーム・テストプレイ会 第6回【ACB仙台】",
-   "date": "2026-11-21",
-   "end": "2026-11-21",
-   "time": "13:30〜21:00",
-   "place": "宮城県仙台市宮城野区新田2丁目11-30 / 仙台市宮城野区新田２丁目１１−３０ 新田コミュニティーセンター",
-   "pref": "宮城県",
-   "price": "0円",
-   "source": "ボドゲーマ",
-   "url": "https://bodoge.hoobby.net/events/33808",
-   "kind": "local",
-   "image": "https://image-bodoge.cdn-hoobby.net/small_light(dw=1200,dh=630,cw=1200,ch=630,da=s,ds=s,q=90,cc=FFFFFF)/event_image_83b610f9-03eb-44e6-82b0-c6ade56095a9.jpg"
   },
   {
    "title": "遊盤会2026",
