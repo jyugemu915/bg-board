@@ -54,3 +54,17 @@ form.add button{border:0;background:var(--dark);color:#fff;border-radius:8px;pad
 .tag.st-soon{background:#fbe9e3;color:var(--accent)}
 .tag.st-sale{background:#e4f0e2;color:#3d6b36}
 .tag.st-sold{background:#eee;color:#999}
+
+.bh h2{cursor:pointer;user-select:none}
+.arw{display:inline-block;width:16px;font-size:12px;color:var(--muted)}
+.box.collapsed .bh{border-bottom:0}
+.unread{font-size:11px;background:var(--accent);color:#fff;border-radius:999px;padding:1px 8px}
+.row.read{opacity:.5}
+.chip.ghost{color:var(--muted);border-style:dashed}
+.tag.new{background:var(--accent);color:#fff}
+.hl{color:#3b5b8a;font-weight:600}
+.s.wrap{white-space:normal}
+.wrow{border-top:1px solid var(--line)}
+.wrow>.row{border-top:0}
+.wdet{background:#f6f3ec;padding-left:20px}
+.wdet .row{padding:8px 16px}

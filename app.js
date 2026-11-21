@@ -1,8 +1,11 @@
 // ボドゲ情報ボード：ボックスの配置と中身の表示
 const LS_LAYOUT = "bgb.layout.v2";
 const LS_OWNED = "bgb.owned.v1";
+const LS_READ = "bgb.read.v1";
+const LS_WATCH = "bgb.watch.v1";
 
 const TYPES = {
+  watch:    { title: "気になるゲーム" },
   calendar: { title: "発売カレンダー" },
   shop:     { title: "ショップ入荷" },
   maker:    { title: "メーカー記事", filter: (i) => i.kind === "maker" && i.label === "記事" },
@@ -11,6 +14,7 @@ const TYPES = {
   xlinks:   { title: "メーカーのX" },
 };
 const DEFAULT_LAYOUT = [
+  { id: "bw", type: "watch", col: 1 },
   { id: "b1", type: "calendar", col: 0 },
   { id: "b2", type: "maker", col: 0 },
   { id: "b3", type: "news", col: 0 },
@@ -26,6 +30,15 @@ const store = {
 
 let layout = store.get(LS_LAYOUT, DEFAULT_LAYOUT);
 let owned = store.get(LS_OWNED, []);
+let read = new Set(store.get(LS_READ, []));
+let watch = store.get(LS_WATCH, []);
+function markRead(urls) { urls.forEach((u) => read.add(u)); store.set(LS_READ, [...read].slice(-4000)); }
+// 既存の配置に新しいボックスを一度だけ足す
+if (!layout.some((b) => b.type === "watch") && !store.get("bgb.added.watch", false)) {
+  layout.unshift({ id: "bw", type: "watch", col: 1 });
+  store.set("bgb.added.watch", true);
+}
+for (const b of layout) if (b.unreadOnly === undefined) b.unreadOnly = b.type === "maker" || b.type === "news";
 let editing = false;
 let news = null, sources = null;
 const ui = {}; // ボックスごとの表示状態（絞り込み・件数）
@@ -54,10 +67,10 @@ function render() {
   for (const b of layout) cols[b.col]?.appendChild(renderBox(b));
 }
 
-function boxShell(b, title, count) {
+function boxShell(b, title, count, unread) {
   const el = document.createElement("section");
   el.className = "box";
-  el.innerHTML = `<div class="bh"><h2>${esc(title)}</h2>${count != null ? `<span class="count">${count}</span>` : ""}
+  el.innerHTML = `<div class="bh"><h2><span class="arw">${b.collapsed ? "▸" : "▾"}</span>${esc(title)}</h2>${count != null ? `<span class="count">${count}</span>` : ""}${unread ? `<span class="unread">未読 ${unread}</span>` : ""}
     ${editing ? `<div class="tools">
       <button data-mv="up" title="上へ">↑</button><button data-mv="down" title="下へ">↓</button>
       <button data-mv="side" title="反対の列へ">⇄</button><button data-mv="del" title="削除">✕</button></div>` : ""}</div>`;
@@ -66,36 +79,67 @@ function boxShell(b, title, count) {
 }
 
 function renderBox(b) {
+  const el = renderInner(b);
+  el.querySelector(".bh h2").onclick = () => { b.collapsed = !b.collapsed; saveLayout(); render(); };
+  if (b.collapsed) { [...el.children].slice(1).forEach((c) => c.remove()); el.classList.add("collapsed"); }
+  el.addEventListener("click", (e) => {
+    const a = e.target.closest("a.row[data-u]");
+    if (a) { markRead([a.dataset.u]); a.classList.add("read"); }
+  });
+  return el;
+}
+
+// 未読のみ・すべて既読 の操作列
+function readControls(b, items, chips) {
+  const u = items.filter((i) => !read.has(i.url));
+  const t = document.createElement("button");
+  t.className = "chip" + (b.unreadOnly ? " on" : "");
+  t.textContent = "未読のみ";
+  t.onclick = () => { b.unreadOnly = !b.unreadOnly; saveLayout(); render(); };
+  chips.prepend(t);
+  if (u.length) {
+    const r = document.createElement("button");
+    r.className = "chip ghost"; r.textContent = "すべて既読";
+    r.onclick = () => { markRead(u.map((i) => i.url)); render(); };
+    chips.appendChild(r);
+  }
+}
+
+function renderInner(b) {
   if (b.type === "owned") return ownedBox(b);
   if (b.type === "xlinks") return xBox(b);
   if (b.type === "calendar") return calendarBox(b);
+  if (b.type === "watch") return watchBox(b);
   if (b.type === "shop") return shopBox(b);
   return newsBox(b);
 }
 
 function newsBox(b) {
   const t = TYPES[b.type];
-  const st = (ui[b.id] ||= { src: "すべて", n: 8 });
-  let items = (news?.items || []).filter(t.filter);
-  const names = [...new Set(items.map((i) => i.source))];
+  const st = (ui[b.id] ||= { src: "すべて", n: 5 });
+  const all = (news?.items || []).filter(t.filter);
+  const unreadN = all.filter((i) => !read.has(i.url)).length;
+  let items = b.unreadOnly ? all.filter((i) => !read.has(i.url)) : all;
+  const names = [...new Set(all.map((i) => i.source))];
   const shown = st.src === "すべて" ? items : items.filter((i) => i.source === st.src);
-  const el = boxShell(b, t.title, items.length);
+  const el = boxShell(b, t.title, all.length, unreadN);
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  readControls(b, all, chips);
+  el.appendChild(chips);
   if (names.length > 1) {
-    const chips = document.createElement("div");
-    chips.className = "chips";
     for (const name of ["すべて", ...names]) {
       const c = document.createElement("button");
       c.className = "chip" + (st.src === name ? " on" : "");
       c.textContent = name === "すべて" ? `すべて ${items.length}` : `${name} ${items.filter((i) => i.source === name).length}`;
-      c.onclick = () => { st.src = name; st.n = 8; render(); };
-      chips.appendChild(c);
+      c.onclick = () => { st.src = name; st.n = 5; render(); };
+      chips.insertBefore(c, chips.querySelector(".ghost"));
     }
-    el.appendChild(chips);
   }
   if (!news) el.insertAdjacentHTML("beforeend", `<div class="empty">まだデータがありません。自動取得が動くと、ここに新着が並びます。</div>`);
-  else if (!shown.length) el.insertAdjacentHTML("beforeend", `<div class="empty">表示できる記事がありません。</div>`);
+  else if (!shown.length) el.insertAdjacentHTML("beforeend", `<div class="empty">${b.unreadOnly ? "未読の記事はありません。" : "表示できる記事がありません。"}</div>`);
   for (const i of shown.slice(0, st.n)) {
-    el.insertAdjacentHTML("beforeend", `<a class="row" href="${esc(i.url)}" target="_blank" rel="noopener">
+    el.insertAdjacentHTML("beforeend", `<a class="row${read.has(i.url) ? " read" : ""}" data-u="${esc(i.url)}" href="${esc(i.url)}" target="_blank" rel="noopener">
       <div class="thumb" ${i.image ? `style="background-image:url('${esc(i.image)}')"` : ""}>${i.image ? "" : "📰"}</div>
       <div class="rt"><div class="t">${esc(i.title)}</div><div class="s">${esc(i.source)}${i.release ? `<span class="tag rel">${esc(i.release.label)}${esc(i.release.kind)}</span>` : ""}</div></div>
       <div class="rd">${md(i.date)}</div></a>`);
@@ -199,7 +243,7 @@ function daysLeft(r) {
   return `${-diff}日前`;
 }
 function calendarBox(b) {
-  const st = (ui[b.id] ||= { tab: "予定", n: 10 });
+  const st = (ui[b.id] ||= { tab: "予定", n: 5 });
   const t = todayStr();
   const all = news?.releases || [];
   const upcoming = all.filter((r) => !r.date || r.date >= t).sort((a, b2) => (a.date || "9999").localeCompare(b2.date || "9999"));
@@ -212,7 +256,7 @@ function calendarBox(b) {
     const c = document.createElement("button");
     c.className = "chip" + (st.tab === k ? " on" : "");
     c.textContent = `${k === "予定" ? "発売予定" : k} ${n}`;
-    c.onclick = () => { st.tab = k; st.n = 10; render(); };
+    c.onclick = () => { st.tab = k; st.n = 5; render(); };
     chips.appendChild(c);
   }
   el.appendChild(chips);
@@ -238,27 +282,29 @@ function calendarBox(b) {
 // ---- ショップ入荷 ----
 const STATUS = { soon: "予約前・近日", sale: "販売中", sold: "売切" };
 function shopBox(b) {
-  const st = (ui[b.id] ||= { f: "新入荷", src: "すべて", n: 8 });
+  const st = (ui[b.id] ||= { f: "新入荷", src: "すべて", n: 5 });
   const week = new Date(Date.now() - 7 * 864e5).toISOString();
-  let items = (news?.items || []).filter((i) => i.label === "ショップ");
+  const allShop = (news?.items || []).filter((i) => i.label === "ショップ");
+  let items = b.unreadOnly ? allShop.filter((i) => !read.has(i.url)) : allShop;
   const isNew = (i) => (i.saleAt && i.saleAt >= week) || (i.firstSeen && i.firstSeen >= week);
   const filters = { "新入荷": isNew, "予約前・近日": (i) => i.status === "soon", "販売中": (i) => i.status === "sale", "売切": (i) => i.status === "sold", "すべて": () => true };
   const shown = items.filter(filters[st.f]).sort((a, c) => (c.date || "").localeCompare(a.date || ""));
-  const el = boxShell(b, TYPES.shop.title, items.length);
+  const el = boxShell(b, TYPES.shop.title, allShop.length, allShop.filter((i) => !read.has(i.url)).length);
   const chips = document.createElement("div");
   chips.className = "chips";
   for (const k of Object.keys(filters)) {
     const c = document.createElement("button");
     c.className = "chip" + (st.f === k ? " on" : "");
     c.textContent = `${k} ${items.filter(filters[k]).length}`;
-    c.onclick = () => { st.f = k; st.n = 8; render(); };
+    c.onclick = () => { st.f = k; st.n = 5; render(); };
     chips.appendChild(c);
   }
+  readControls(b, allShop, chips);
   el.appendChild(chips);
   if (!shown.length) el.insertAdjacentHTML("beforeend", `<div class="empty">${st.f === "新入荷" ? "この7日間の新入荷はありません。新しく並んだ商品や、販売が始まった商品がここに出ます。" : "該当する商品がありません。"}</div>`);
   for (const i of shown.slice(0, st.n)) {
     const when = i.saleAt ? `${md(i.saleAt)} 販売開始` : i.firstSeen ? `${md(i.firstSeen)} 掲載` : "";
-    el.insertAdjacentHTML("beforeend", `<a class="row" href="${esc(i.url)}" target="_blank" rel="noopener">
+    el.insertAdjacentHTML("beforeend", `<a class="row${read.has(i.url) ? " read" : ""}" data-u="${esc(i.url)}" href="${esc(i.url)}" target="_blank" rel="noopener">
       <div class="thumb" ${i.image ? `style="background-image:url('${esc(i.image)}')"` : ""}>${i.image ? "" : "🛒"}</div>
       <div class="rt"><div class="t">${esc(i.title)}</div><div class="s">${esc(i.source)}${i.price ? " ・ " + esc(i.price) : ""}<span class="tag st-${i.status}">${STATUS[i.status] || ""}</span></div></div>
       <div class="rd">${when}</div></a>`);
@@ -271,6 +317,67 @@ function shopBox(b) {
   }
   const ng = (news?.sources || []).filter((s) => !s.ok && s.channel === "ショップ");
   if (ng.length) el.insertAdjacentHTML("beforeend", `<div class="warn">取得できなかったショップ：${ng.map((s) => esc(s.name)).join("、")}</div>`);
+  return el;
+}
+
+// ---- 気になるゲーム ----
+const norm = (s) => (s || "").normalize("NFKC").toLowerCase().replace(/[\s・:：\-－〜~!！?？「」『』【】()（）\[\]、。,.]/g, "");
+function watchMatches(q) {
+  const k = norm(q);
+  if (!k) return { items: [], rels: [] };
+  const items = (news?.items || []).filter((i) => norm(i.title).includes(k));
+  const rels = (news?.releases || []).filter((r) => norm(r.game).includes(k) || r.links.some((l) => norm(l.title).includes(k)));
+  return { items, rels };
+}
+function watchBox(b) {
+  const st = (ui[b.id] ||= { open: null });
+  const t = todayStr();
+  const rows = watch.map((w, idx) => ({ w, idx, ...watchMatches(w.q) }));
+  const newN = rows.filter((r) => r.items.some((i) => !read.has(i.url))).length;
+  const el = boxShell(b, TYPES.watch.title, watch.length, newN);
+  const form = document.createElement("form");
+  form.className = "add";
+  form.innerHTML = `<div class="r"><input name="q" placeholder="ゲーム名・キーワードを追加" required><button>追加</button></div>`;
+  form.onsubmit = (e) => {
+    e.preventDefault();
+    const q = new FormData(form).get("q").trim();
+    if (q && !watch.some((w) => w.q === q)) { watch.unshift({ q, added: new Date().toISOString() }); store.set(LS_WATCH, watch); }
+    render();
+  };
+  el.appendChild(form);
+  if (!watch.length) el.insertAdjacentHTML("beforeend", `<div class="empty">気になるゲームの名前を入れておくと、記事・ショップ・発売日から関係する情報を集めます。名前の一部（例：コーヒーラッシュ）でも大丈夫です。</div>`);
+  // 新しい情報があるものを上に
+  rows.sort((a, c) => (c.items.some((i) => !read.has(i.url)) - a.items.some((i) => !read.has(i.url))));
+  for (const r of rows) {
+    const next = r.rels.filter((x) => !x.date || x.date >= t).sort((a, c) => (a.date || "9999").localeCompare(c.date || "9999"))[0];
+    const last = r.rels.filter((x) => x.date && x.date < t).sort((a, c) => c.date.localeCompare(a.date))[0];
+    const shop = r.items.filter((i) => i.label === "ショップ");
+    const arts = r.items.filter((i) => i.label === "記事");
+    const fresh = r.items.filter((i) => !read.has(i.url)).length;
+    const bits = [];
+    if (next) bits.push(next.date ? `<span class="hl">${esc(next.label || md(next.date))}${next.type === "販売開始" ? "販売開始" : "発売"}・${daysLeft(next)}</span>` : `<span class="hl">近日発売</span>`);
+    else if (last) bits.push(`${esc(last.label || md(last.date))} 発売済み`);
+    for (const sh of shop.slice(0, 2)) bits.push(`${esc(sh.source)} <span class="tag st-${sh.status}">${STATUS[sh.status]}</span>${sh.price ? " " + esc(sh.price) : ""}`);
+    if (arts.length) bits.push(`記事 ${arts.length}件`);
+    if (!bits.length) bits.push("まだ情報なし");
+    const row = document.createElement("div");
+    row.className = "wrow";
+    row.innerHTML = `<div class="row"><div class="thumb">⭐</div>
+      <div class="rt"><div class="t">${esc(r.w.q)}${fresh ? `<span class="tag new">新着 ${fresh}</span>` : ""}</div><div class="s wrap">${bits.join(" ・ ")}</div></div>
+      <button class="x" title="削除">✕</button></div>`;
+    row.querySelector(".rt").onclick = () => { st.open = st.open === r.w.q ? null : r.w.q; render(); };
+    row.querySelector(".x").onclick = () => { if (confirm(`「${r.w.q}」を気になるリストから外しますか？`)) { watch.splice(r.idx, 1); store.set(LS_WATCH, watch); render(); } };
+    if (st.open === r.w.q) {
+      const det = document.createElement("div");
+      det.className = "wdet";
+      const list = [...r.rels.map((x) => ({ url: x.links[0].url, t: `${x.date ? md(x.date) : "近日"} ${x.type}：${x.game}`, s: x.links.map((l) => l.source).join("・") })),
+        ...r.items.map((i) => ({ url: i.url, t: i.title, s: `${i.source}・${i.label}${i.date ? "・" + md(i.date) : ""}` }))];
+      det.innerHTML = list.length ? list.map((x) => `<a class="row${read.has(x.url) ? " read" : ""}" data-u="${esc(x.url)}" href="${esc(x.url)}" target="_blank" rel="noopener"><div class="rt"><div class="t">${esc(x.t)}</div><div class="s">${esc(x.s)}</div></div></a>`).join("")
+        : `<div class="empty">今のところ、取得している情報源に該当がありません。情報が出たらここに集まります。</div>`;
+      row.appendChild(det);
+    }
+    el.appendChild(row);
+  }
   return el;
 }
 
