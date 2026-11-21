@@ -1,29 +1,41 @@
 {
- "updatedAt": "2026-11-20T22:06:26.785Z",
+ "updatedAt": "2026-11-21T01:37:55.386Z",
  "sources": [
   {
    "name": "ホヌゲームズ",
+   "channel": "ショップ",
    "kind": "maker",
-   "ok": false,
-   "error": "サイト未設定",
-   "feed": ""
+   "ok": true,
+   "error": "",
+   "feed": "https://honugames.thebase.in/"
   },
   {
    "name": "うちばこや",
+   "channel": "記事",
    "kind": "maker",
-   "ok": false,
-   "error": "サイト未設定",
-   "feed": ""
+   "ok": true,
+   "error": "",
+   "feed": "https://note.com/uchibacoya/rss"
   },
   {
    "name": "ブルーフィンチゲームズ",
+   "channel": "記事",
    "kind": "maker",
-   "ok": false,
-   "error": "サイト未設定",
-   "feed": ""
+   "ok": true,
+   "error": "",
+   "feed": "https://note.com/bluefinchgames/rss"
+  },
+  {
+   "name": "ブルーフィンチゲームズ",
+   "channel": "ショップ",
+   "kind": "maker",
+   "ok": true,
+   "error": "",
+   "feed": "https://bluefinch.base.shop/"
   },
   {
    "name": "Table Games in the World",
+   "channel": "記事",
    "kind": "news",
    "ok": true,
    "error": "",
@@ -32,12 +44,373 @@
  ],
  "items": [
   {
+   "title": "フィアサム・フロアーズ（暗黒の大広間）新版【2F-Spiele】 JPY 7,700(USD 48.41)",
+   "url": "https://bluefinch.base.shop/items/155280641",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/54ca8f984998112ff55874fcc6f6333e.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "スペクタキュラー【Chilifox Games】 JPY 7,810(USD 49.10)",
+   "url": "https://bluefinch.base.shop/items/149789709",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/18120c5e1b7bd5fe5ceb17713e7f3aec.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "アイスクール・ウィザーズ【Brain Games】 JPY 5,500(USD 34.58)",
+   "url": "https://bluefinch.base.shop/items/149789121",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/9a1a346bf8ad2a043f45516fb61376d4.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "サンタズワークショップ 2ndエディション【ELF CREEK GAMES】 JPY 9,570(USD 60.17) SOLD OUT",
+   "url": "https://bluefinch.base.shop/items/165742608",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/2fa288a0289843ec123e10f58bacbc70.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ファウンデイション・オブ・メトロポリス【ARCANE WONDERS】 JPY 11,000(USD 69.16) SOLD OUT",
+   "url": "https://bluefinch.base.shop/items/165742565",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/48511622628a7a21c7dd070552aaab10.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "タップ4【THE OP GAMES】 JPY 2,860(USD 17.98)",
+   "url": "https://bluefinch.base.shop/items/165742505",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/d96c168bc87e4363c9ffff3f98dfc9a6.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ダイスクリーム【SKELLIG GAMES】 JPY 4,400(USD 27.66)",
+   "url": "https://bluefinch.base.shop/items/165898539",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/0e62d0273bc80de19d9f98cb336b69cc.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "フォーミダブルファーム【2F-Spiele】 JPY 6,930(USD 43.57)",
+   "url": "https://bluefinch.base.shop/items/149788614",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/0194a7719ba37666898e7db388c49700.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "フリップタウン【WRITE STUFF GAMES】 JPY 6,930(USD 43.57)",
+   "url": "https://bluefinch.base.shop/items/165734059",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/58807fa5d3cb740f37af91f38406454e.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "フリップ7：ウィズ・ア・ベンジェンス【THE OP GAMES】 JPY 2,860(USD 17.98)",
+   "url": "https://bluefinch.base.shop/items/160081336",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/2fd9dc08e92dded3fe77e1c3f1ac796c.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "フリップ7：ナショナルパークス【THE OP GAMES】 JPY 2,860(USD 17.98)",
+   "url": "https://bluefinch.base.shop/items/165733580",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/0adb9486c1764b05c27f94ce5547b4f9.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "フリップ7：12デイズ・オブ・フリップマス【THE OP GAMES】 JPY 2,860(USD 17.98)",
+   "url": "https://bluefinch.base.shop/items/165733689",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/365a4ee44994b71378169fe7d25c3cc8.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "17ダイスベッツ【Mandoo Games】 JPY 4,950(USD 31.12)",
+   "url": "https://bluefinch.base.shop/items/165129706",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/a7b026feab6a6597ad24ae72897b93ab.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ブラッドハント【Mandoo Games】 JPY 5,500(USD 34.58)",
+   "url": "https://bluefinch.base.shop/items/165128806",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/aee5ecfc27291eddb263dd8a22499121.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ザ・クルーレス・クラブ【Mandoo Games】 JPY 5,500(USD 34.58)",
+   "url": "https://bluefinch.base.shop/items/165130642",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/cf2320cdc99ba00a0a410ae264d2e955.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ザ・グッド・ザ・バッド・アンド・ザ・ゴート【Mandoo Games】 JPY 4,400(USD 27.66)",
+   "url": "https://bluefinch.base.shop/items/165130303",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/8d978ec4e20dc18ccae5cef78c153f89.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "下田ペリーロード【Mandoo Games】 JPY 5,500(USD 34.58)",
+   "url": "https://bluefinch.base.shop/items/165129471",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/68ece901c11a8b86100b49b820ac2354.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "リストア【Mandoo Games】 JPY 5,500(USD 34.58)",
+   "url": "https://bluefinch.base.shop/items/165129239",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/c09c2aa4f7cf04032ce075af501ed6d9.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ジャスト・チリン【Mandoo Games】 JPY 3,520(USD 22.13)",
+   "url": "https://bluefinch.base.shop/items/165128546",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/b6180e88bc630bd491e44545786e37fc.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ライトナウ【Mandoo Games】 JPY 3,520(USD 22.13)",
+   "url": "https://bluefinch.base.shop/items/165129018",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/00568c8b9f027a47882cf277e515cfe3.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.826Z",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ダイスタック 日本語版 JPY 4,620(USD 29.05) 原題タイトル:Dicetack プレイ人数:2〜4人 プレイ時間:15〜30分 対象年齢:8歳以上 デザイナー:Taewon Moon メーカー:Boardboom inc./ Honu Games 様々な種類のダイスを積み上げていくバランスゲームです。 手番では山札からカードを1枚引いて、そのカードに描かれている指示に従います。 例えば、数字が書かれていたら足し算・引き算・掛け算・割り算をして出目がその数字になるようにダイスを取って自分のタワーに積み上げます。 これを繰り返して、誰かのタワーが崩れたらラウンド終了です。同じプレイヤーのタワーが2回崩れたらゲーム終了で、そのプレイヤーが敗北します。 自分のタワーが崩れたプレイヤーから脱落していき、勝者を決定するモードが追加されました。 このゲームの紹介記事はこちら https://honugames-post.fanbox.cc/posts/11317765",
+   "url": "https://honugames.thebase.in/items/133659222",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/526e7d8704d0f7acb922e3aede586384.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "マニラ JPY 4,400(USD 27.66) SOLD OUT 原題タイトル:Manila プレイ人数:3〜5人 プレイ時間:60分 対象年齢:10歳以上 デザイナー:Franz-Benno Delonge メーカー:playte 舞台は19世紀のフィリピン・マニラ。プレイヤーは港を行き交う商人となり、ナツメグ・絹・高麗人参・翡翠を積んだ小舟の行方に資金を投じます。 毎ラウンド、競りで港湾長を決めるところからゲームは始まります。港湾長は積み荷の銘柄を選び、船のスタート位置を決める強力な役職。その後、各プレイヤーは手下を船の乗組員、港、造船所、水先案内人、保険屋、さらには海賊へと送り込んでいきます。 船の進み具合を決めるのはサイコロ。無事に港へ着けば大儲け、届かなければ大損…。手堅く稼ぐか、一発逆転を狙うか。全員がサイコロの出目に一喜一憂するボードゲームです。 各プレイヤーは30ペソを受け取ってスタートします。 競りで港湾長を決め、港湾長が株の購入・積み荷の選択・船の配置を行います。 順番に手下を各所へ配置（配置にはお金がかかります）します。 サイコロを振って船を進めます。（配置とサイコロを3回繰り返し） 結果に応じて報酬を受け取り、入港した積み荷の株価が上昇します。 いずれかの株価が最高値に達したらゲーム終了です。所持金と株の価値の合計が最も多いプレイヤーの勝利となります。 日本語ルールの作成にホヌゲームズは関わっておりませんので、恐れ入りますがルールに関するお問い合わせはplayte社へお願いいたします。日本語にて問い合わせいただけます。 [email protected] このゲームの紹介記事はこちら https://honugames-post.fanbox.cc/posts/12801910",
+   "url": "https://honugames.thebase.in/items/164281545",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/773058c81494c2055960da1ffcaf36fc.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ザ・キング・イズ・デッド JPY 3,960(USD 24.90) SOLD OUT 原題タイトル:The King Is Dead プレイ人数:2〜4人 プレイ時間:30〜45分 対象年齢:14歳以上 デザイナー:Peer Sylvester メーカー:playte 王は死んだ。次の王冠は、誰の手に。 舞台は王を失った中世ブリテン。スコットランド、ウェールズ、イングランドの三勢力が覇権を争い、海の向こうではフランスが混乱に乗じて侵攻の機会をうかがっています。 あなたはどの勢力の人間でもありません。三勢力のあいだで巧みに立ち回り、最終的に王国を制する勢力を見極めて、その勢力の支持者を自分の宮廷に集めておく――それがこのゲームの目的です。 ゲームの流れ 手番では、手札の行動カードを1枚使って各地域に追随者を送り込んだり、追随者を入れ替えたり、権力闘争が起きる地域の順番を入れ替えたりします。カードを使ったあとは、必ずどこかの地域から追随者を1個、自分の宮廷へ召喚します。 全員が続けてパスをすると権力闘争が発生し、その地域で最も多くの追随者を持つ勢力が支配を確立します。勢力が拮抗すれば、王国は不安定へと傾いていきます。 勝利の行方は2通り 統治者の戴冠式：8回の権力闘争をすべて終えたら、最も多くの地域を支配した勢力の追随者を、最も多く宮廷に集めたプレイヤーの勝利です。 フランスの侵攻：不安定な地域が3つになると、フランスが攻め込んできてゲーム終了。三勢力の追随者をバランスよく揃えたプレイヤーが勝者となります。 行動カードは全8枚で、一度使ったら戻ってきません。いつ動き、いつパスするか、手札の使いどころが勝負を分けます。 自分で置いた追随者が、ライバルの勝利を後押しすることも。どの勢力に肩入れしているかを読み合う、駆け引きの濃いゲームです。 ルールはシンプルながら奥深く、上級ルールでは策略カードを使った非対称なプレイも楽しめます。 日本語ルールの作成にホヌゲームズは関わっておりませんので、恐れ入りますがルールに関するお問い合わせはplayte社へお願いいたします。日本語にて問い合わせいただけます。 [email protected] このゲームの紹介記事はこちら https://honugames-post.fanbox.cc/posts/12815071",
+   "url": "https://honugames.thebase.in/items/164281231",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/2428a24f215f426ebca2ce1fc1954be5.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "カール大帝 JPY 3,630(USD 22.82) 原題タイトル:Carolus Magnus プレイ人数:2〜4人 プレイ時間:60分 対象年齢:12歳以上 デザイナー:Leo Colovini メーカー:playte プレイヤーはカール大帝の後継者候補。皇帝の命を受け、帝国の領土に城を築いていきます。 しかし、領土を治めているのは5つの騎士団パラディンたちです。プレイヤーは自分の宮廷にパラディンを集めてその色の支配権を握り、支配下のパラディンを使って領土での多数派を競います。 皇帝コマが訪れた領土で多数派を握っていれば、そこに城を建てることができます。 ある色のパラディンを宮廷に最も多く抱えたプレイヤーが、盤上にいるその色のパラディンすべてを支配します。昨日の味方が、宮廷の勢力争いひとつで敵の駒に変わります。 手番順を決めるタイルが皇帝の移動距離にも関わるため、先に動くか、遠くへ動かすかの駆け引きが生まれます。 城が建った隣り合う領土は統合され、ゲームが進むにつれて巨大な領地が誕生し、盤面がダイナミックに変化していきます。 手番は「パラディンを3つ置く」「皇帝を動かす」「ダイスでパラディンを補充する」だけです。規定数の城をすべて建てたプレイヤーが即座に勝利します。 日本語ルールの作成にホヌゲームズは関わっておりませんので、恐れ入りますがルールに関するお問い合わせはplayte社へお願いいたします。日本語にて問い合わせいただけます。 [email protected] このゲームの紹介記事はこちら https://honugames-post.fanbox.cc/posts/12802098",
+   "url": "https://honugames.thebase.in/items/164281258",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/391ca8a776e31a7c4ce964f16b0befc7.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ロミオとジュリエットIFストーリー JPY 2,530(USD 15.91) SOLD OUT 原題タイトル:Romeo and Juliet IF Story プレイ人数:3〜6人 プレイ時間:10〜20分 対象年齢:10歳以上 デザイナー:Kamoto メーカー:playte 舞台は14世紀のイタリア、ヴェローナ。 モンタギュー家とキャピュレット家、ふたつの名家がいがみ合うこの街に、ある噂が流れます。 「モンタギュー家のロミオと、キャピュレット家のジュリエットが恋仲らしい」 この噂を聞いた貴族の当主たちは考えました。 「ふたりを結ばせて両家の争いを終わらせれば、それは我が家の大手柄だ！」 あなたは当主の命を受けた貴族のひとり。ヴェローナの人々を動かし、ほかの貴族より先にロミオとジュリエットを幸せにしましょう。 ババ抜きがベースのカードゲームです。 手番では右隣のプレイヤーから手札を1枚引きます。同じ種類のカードが2枚そろったら、表向きに出して効果を使うか、裏向きで自分の前に伏せておくか。伏せたセットは後の手番で効果を使えます。 勝利条件は手札がロミオとジュリエットだけになることです。 手札がなくなってしまったプレイヤーはその時点で脱落。カードを減らしたいけど、減らしすぎると負けてしまうというババ抜きなのに、最後まで駆け引きが続きます。 日本語ルールの作成にホヌゲームズは関わっておりませんので、恐れ入りますがルールに関するお問い合わせはplayte社へお願いいたします。日本語にて問い合わせいただけます。 [email protected]",
+   "url": "https://honugames.thebase.in/items/164448198",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/d330efc46adab3859aee54bbb8fbf9ec.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "メモリーチ JPY 3,300(USD 20.75) 原題タイトル:Memoreach プレイ人数:2〜5人 プレイ時間:15分 対象年齢:14歳以上 デザイナー:Kirsten Becker; Jens-peter Schliemann メーカー:playte 神経衰弱のように、手番では2枚のタイルをめくります。2枚のタイルの絵が同じ場合、全プレイヤーはその2枚のタイルに描かれている物体の数を合計し、その数に等しい数字トークンを素早く取ります。 正しい数字トークンを取ったプレイヤーが、今回めくられた2枚のタイルを獲得します。 最も多くのタイルを獲得したプレイヤーが勝者となります。 日本語ルールの作成にホヌゲームズは関わっておりませんので、恐れ入りますがルールに関するお問い合わせはplayte社へお願いいたします。日本語にて問い合わせいただけます。 [email protected]",
+   "url": "https://honugames.thebase.in/items/164449406",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/acf5cf6b2b6deba619f84825135e9454.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "モールキング JPY 2,530(USD 15.91) 原題タイトル:Mole King プレイ人数:2〜4人 プレイ時間:15〜20分 対象年齢:6歳以上 デザイナー:Tae-hoon Kim, Sang-don Lee, Min-keun Park メーカー:playte/POPCORN GAMES 平和なモグラ王国を治める各国の「モグラ王」たち。ある日、金銀があふれる土地のうわさを聞きつけ、王たちは一斉に旅立ちました。そしてたどり着いた黄金の大地で、領土をめぐる争いが始まります。 『モールキング』は、モグラが描かれたカードを場に置いて陣地を広げていくタイル配置ゲームです。手札からカードを1枚選んで場につなげて置き、自分の色のモグラを増やしていきます。カードは相手のモグラの上に重ねて置くこともできるので、せっかく広げた陣地もあっという間にひっくり返されることも。どこに置けば自分のモグラが最も多く残るか、相手の狙いを読みながら一手を選びましょう。 誰かが手札を使い切ると、それ以降は場のモグラを覆い隠せなくなり、全員の手番が一巡したところでゲーム終了。自分の色のモグラが最も多く場に見えているプレイヤーが、最高のモグラ王となります。 カードを置くだけなので、ボードゲームに慣れていない方やお子さまとも遊べます 相手のモグラに重ねて置ける「上書き」で、最後まで逆転のチャンスがあります 日本語ルールの作成にホヌゲームズは関わっておりませんので、恐れ入りますがルールに関するお問い合わせはplayte社へお願いいたします。日本語にて問い合わせいただけます。 [email protected]",
+   "url": "https://honugames.thebase.in/items/164447044",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/c0e72987c3bb41a622b3023e2d9b13df.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ヴァンパイアクイーン 新版 JPY 2,530(USD 15.91) 原題タイトル:Vampire Queen プレイ人数:3〜12人 プレイ時間:30分 対象年齢:8歳以上 デザイナー:Wolfgang Kramer メーカー:playte ヴァンパイアが安全に地下室へ行くことを目指す大富豪のようなゲームです。 スタートプレイヤーは同じ数字のカードを1枚以上出します。以降のプレイヤーは、直前に出されたカードよりも大きい数字のカードを同じ枚数出すか、パスをします。 全プレイヤーがカードを出すかパスを1回ずつしたらラウンド終了です。最も大きい数字のカードを出したプレイヤーが新たなスタートプレイヤーになって次のラウンドを始めます。 これを繰り返していき、誰かの手札がなくなったラウンドでゲーム終了です。 ゲーム終了時に手札に残ってしまったカードはその数字分マイナス点となります。 これを5ゲーム行い、最もマイナス点が少ないプレイヤーが勝者です。 また、ヴァンパイアスレイヤーという特殊なカードがあり、このカードが出されたラウンドでは、最も大きな数字のカードを出したプレイヤーが、そのラウンドで出されたカードを全て引き取らなくてはなりません。 日本語ルールの作成にホヌゲームズは関わっておりませんので、恐れ入りますがルールに関するお問い合わせはplayte社へお願いいたします。日本語にて問い合わせいただけます。 [email protected] このゲームの紹介記事はこちら https://honugames-post.fanbox.cc/posts/7280427",
+   "url": "https://honugames.thebase.in/items/164218537",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/69b03847ea0338140e417e9adfff91a6.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ペントリーニ JPY 2,860(USD 17.98) 原題タイトル:Pentorini プレイ人数:1〜2人 プレイ時間:10分 対象年齢:14歳以上 デザイナー:Solomon W. Golomb/ Junghee Choi メーカー:playte 1人用のパズルゲームです。 月・日にち・曜日が書かれたボードにピースを置いていき、今日の月・日にち・曜日だけが空くようにすることを目指します。 プレイする日によって答えが変わるので、何度も楽しむことができます。 2人用のルールも付属します。(陣取り系のゲームです) 日本語ルールの作成にホヌゲームズは関わっておりませんので、恐れ入りますがルールに関するお問い合わせはplayte社へお願いいたします。 このゲームの紹介記事はこちら https://honugames-post.fanbox.cc/posts/10955423",
+   "url": "https://honugames.thebase.in/items/135124229",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/3d18ba80143d51515149022253535a3c.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "エイダの図書館(エイダの書庫) Iボード版 JPY 3,960(USD 24.90) 原題タイトル:Ada's Library プレイ人数:2人 プレイ時間:20分 対象年齢:8歳以上 デザイナー:Zach/ Amanda Greenvoss メーカー:playte ごちゃごちゃになってしまった本棚を整理するゲームです。 初めにランダムな順番で受け取った本タイルを、相手よりも早く見本と同じ順番に並び替えることを目指します。 手番ではカードを1枚出してその効果を解決し、カードを1枚引くだけのシンプルなルールです。 ゲームを2セット用意していただく必要がありますが、4人用ルールも含まれています。 中に入っている日本語ルールの制作にホヌゲームズは関わっておりません。ホヌゲームズが製作した和訳ルールもお付けします。 このゲームの紹介記事はこちら https://honugames-post.fanbox.cc/posts/11801736",
+   "url": "https://honugames.thebase.in/items/138860409",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/16d0c86ca40272c2a15fc67cd49f6996.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "チェスレース 和訳ルール付き JPY 4,620(USD 29.05) 原題タイトル:Chess Race プレイ人数:2〜4人 プレイ時間:30分 対象年齢:8歳以上 デザイナー:Alex Randolph メーカー:playte チェスの動かし方で自分のコマを動かしていくレースゲームです。 チェスのコマのマークが描かれたダイスを振って、出たマークに従い自分のコマを動かします。例えば、歩兵が出たら前へ1マス動かし、ルークが出たら前後左右のどこか一方向に望むだけ動かします。 他のプレイヤーのコマの上に動かしたらそのコマをブロックすることができます。ブロックされたコマは、動かすことができません。 また、好きな方向に1マス動かすことができる「キング」が出た場合、コマの動きを妨げるブロックタイルや沼タイルを置くことができます。 最初に自分のコマ3個を全てゴールさせたプレイヤーがゲームの勝者となります。 チェスの動かし方が分かる簡単なサマリー付きです。",
+   "url": "https://honugames.thebase.in/items/75779058",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/29fc6053572ac6f95bbc1bc6122b7eb2.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ローリー JPY 4,620(USD 29.05) 原題タイトル:Rollie プレイ人数:2〜6人 プレイ時間:20分 対象年齢:8歳以上 デザイナー:Joël Gagnon メーカー:playte 特定の種類のお札を他のプレイヤーよりも多く集めることを目指すダイスゲームです。 手番では2個のダイスを振って、出た2つの目のどちらかと同じ数字の紙幣を取り、一時保管します。2個のダイスの出目が同じ場合、その目と同じ数字の紙幣を一時保管しているプレイヤーは全員破産し、一時保管している紙幣を全て戻さなければなりません。そうではないプレイヤーは、一時保管している全ての紙幣を獲得します。 そうならないようにするために、手番では一時保管してある紙幣を獲得することができます。そうした場合、以降そのラウンド中は新しい紙幣を一時保管できません。 全員破産または紙幣を獲得してこれ以上紙幣を一時保管できなくなったらラウンド終了です。 7ラウンド終了したらゲーム終了です。各数字の紙幣で、多く持っているプレイヤーがその紙幣に対応するボーナストークンを獲得します。 持っているボーナストークンと紙幣の合計が最も高いプレイヤーがゲームの勝者となります。 日本語ルールの作成にホヌゲームズは関わっておりませんので、恐れ入りますがルールに関するお問い合わせはplayte社へお願いいたします。日本語にて問い合わせいただけます。 [email protected] このゲームの紹介記事はこちら https://honugames-post.fanbox.cc/posts/11109386",
+   "url": "https://honugames.thebase.in/items/128836114",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/7d2eebe115955636e8454f00409b2e11.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ディコリー JPY 2,530(USD 15.91) 原題タイトル:Dickory プレイ人数:2人 プレイ時間:20分 対象年齢:14歳以上 デザイナー:Hanibal Sonderegger; Sean Ross メーカー:playte 2人用の大富豪系カードゲームです。 手札を先に全て出し切ることを目指します。 親のプレイヤーは以下のどれかを手札から出します。 ・カード1枚 ・同じランクのカード2〜4枚 ・連続したランクのカード3枚 それに対して相手のプレイヤーは、3つのうち1つのアクションを実行します。 ・勝つ 前のプレイヤーが出したものと同じ種類・枚数でより高いランクの組み合わせを出す。 ・キューを活用する ゲームの準備時に6枚のカードをキューとして並べていて、その隣に山札が置かれています。山札から最も遠い位置にあるカードのランクが現在の最高ランクです。キューの右側(山札から遠い方)から1〜5枚を手札に加えます。これによって最も高いランクが変わります。その後、手札から組む合わせを出して前のプレイヤーが出した組み合わせに勝ちます。勝てる組み合わせを出せない場合はこの選択はできません。 ・パスしてキューを更新 キューの一番右のカードを1枚捨て、キューが再び6枚になるように山札から補充します。 これを交互に行います。どちらかがパスをしたらラウンド終了です。出されていたカードは全て捨てられ、最後に組み合わせを出したプレイヤーが新しい親になって組み合わせを出し、新しいラウンドを開始します。 先に手札を全て出し切ったプレイヤーがゲームの勝者となります。 日本語含む多言語版です。 日本語ルールの作成にホヌゲームズは関わっておりませんので、恐れ入りますがルールに関するお問い合わせはplayte社へお願いいたします。日本語にて問い合わせいただけます。 [email protected]",
+   "url": "https://honugames.thebase.in/items/155328248",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/71a2c134daa066c45a29e34d3cf15e3a.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "走れ、ラバ！新版 JPY 2,530(USD 15.91) 原題タイトル:Run, Mule, Run! プレイ人数:2〜6人 プレイ時間:15分 対象年齢:8歳以上 デザイナー:Frank Nestel メーカー:playte 自分が予想した順位になるようにラバを動かしていくレースゲームです。手番では任意のラバを1スペース進めるだけですが、進んだスペースに描かれている矢印に従って他のラバも進みます。それによってまた別のラバが進み、、と進めなくなるまでこれが連鎖します。 1位と2位が決まったらゲーム終了となり、順位を予想するカードに従って点数を獲得します。 ゴールの近くは後ろへ動かすことができるスペースもあります。 Esels-Rennenのリメイク作品で、ラバの駒が3個から4個に変更され、ボードは両面仕様になって2種類のボードで遊べるようになりました。 韓国/英語/日本語版です。 新版で箱がさらに薄くなりました。 このゲームの紹介記事はこちら https://honugames-post.fanbox.cc/posts/7444930",
+   "url": "https://honugames.thebase.in/items/155530548",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/949d83f2012eaf9bbf22e0f1e9081667.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "エクスプレスクロス 和訳ルール付き JPY 2,420(USD 15.21) 原題タイトル:Express Cross プレイ人数:2〜99人 プレイ時間:15分 対象年齢:8歳以上 デザイナー:Yoshihisa Itsubaki メーカー:playte ダイスを使った紙ペンゲームです。 手番プレイヤーがダイスを振って出た目の合計を全員自分の任意の空きマスに記入します。全てのマスが埋められたらゲーム終了です。上から下、左から右へ記入したマスを見ていき、昇順になっているまとまりが大きいほど大きな点数を獲得できます。 追加の特殊なダイスを使用する拡張ルールが含まれています。このルールでは、手番プレイヤーは通常振るダイスに加えて、特殊なダイスも一緒に振ることを選べます。特殊なダイスにはマイナスの目が含まれており、合計値をより大きくしたり、より小さくすることを狙えます。より予測しにくくなり、ダイナミックな展開になりやすくなります。 playte版の日本語ルールが入っていますが、当店が作成した和訳ルールもお付けします。 このゲームの紹介記事はこちら https://honugames-post.fanbox.cc/posts/9608090",
+   "url": "https://honugames.thebase.in/items/102803931",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/fb3084605e5edc1e1e641d2607ee5f21.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "サンドアート 和訳ルール付き JPY 3,520(USD 22.13) 原題タイトル:Honeycomb Hustle プレイ人数:2〜8人 プレイ時間:30分 対象年齢:10歳以上 デザイナー:Nate & Jake Jenne メーカー:25th century games お店の棚に並ぶのは、色とりどりの砂で彩られたサンドアートボトル。プレイヤーはお店のオーナーとなり、ワークベンチを行き来しながら赤・黄・青の砂を集め、混ぜ合わせて紫・緑・オレンジの二次色を作り出します。集めた砂は色鉛筆でボトルシートに注ぎ込み、色や模様、層の順番を少しずつ作り上げていきます。 手番でできることはとてもシンプル。盤上のハンドマーカーを1歩動かして、その場所でできるアクションを1つ選ぶだけ。「砂を獲得する」「ミックスする」「注ぐ」「シェイクする」の4つのアクションを組み合わせながら、狙った色・パターンを自分のボトルに描いていきます。 得点の取り方は一つではありません。指定された順番で層を重ねる「レイヤーズカード」、特定の色を一番多く使った人がもらえる「カラーオブジェクティブ」、決まった模様を完成させる「パターンオブジェクティブ」、そして誰よりも早くボトルを満たした人だけがもらえる「ファーストフィニッシュ」。同じ砂でも、どこに・どう使うかでいろいろな得点ルートが狙えるので、最後まで悩ましく、そして毎回違う一本のボトルが完成します。 このゲームの紹介記事はこちら https://honugames-post.fanbox.cc/posts/12833748",
+   "url": "https://honugames.thebase.in/items/164109855",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/445394b41b03a5d4b511e7e7dcb5561c.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ドリアン密輸人 和訳ルール付き JPY 2,970(USD 18.67) 原題タイトル:Durian Sumaggler プレイ人数:2〜4人 プレイ時間:15分 対象年齢:14歳以上 デザイナー:Simon Schmieder メーカー:Spiel the game クアラルンプール空港は今日も大混雑。乗客のスーツケースの中には、禁断の香り高き果実――ドリアンを密輸しようとする者が紛れ込んでいるかもしれません。 『ドリアン密輸人』は、荷物を5×5のグリッドに並べていく正体隠匿×陣取りパズルゲームです。空港警備員はドリアンを孤立させて検知し、密輸人はこっそりドリアン同士を集めて得点を稼ぎます。同じ盤面でも、自分がどちらの役かで「良い置き方」が真逆になるのが最大の魅力。サーチ能力でこっそり中身を覗いたり、会話で相手を揺さぶったり、時には嘘をついたりしながら、3〜4人でじっくり正体を探り合いましょう。 2人なら、荷物を押し出し合って奪い合う全く別ルールの「ドリアンデュエル」も収録。1つの箱で、遊び方の異なる2つのゲームが楽しめます。 プレイ人数2〜4人、プレイ時間約15分、対象年齢14歳以上。軽快なルールで、何度でも遊びたくなる正体隠匿パズルゲームです。",
+   "url": "https://honugames.thebase.in/items/164109843",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/57bc067e5484ee547408a66e4a01eaa0.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ティック・タック・トゥンバ 和訳ルール付き JPY 2,970(USD 18.67) 原題タイトル:Tic Tac Tumba プレイ人数:2〜8人 プレイ時間:15分 対象年齢:15歳以上 デザイナー:Ignasi Ferré メーカー:mercurio 授業がようやく終わり、レッドラム大学のゲーム仲間たちは人生最高のパーティーを開くため、古い廃屋敷に忍び込みました。音楽が鳴り響くなか、仲間が一人、また一人と姿を消していきます。最後に聞こえるのは、くぐもった悲鳴と、屋敷のどこかで時を刻む不気味な時計の音——。 屋敷の中を徘徊する死神「ザ・デス」に捕まらないよう、自分のキャラクターをパーティーの生存者2人のうちの1人にすることができるでしょうか? 手番ごとに、好きなキャラクター(ザ・デスも含む)を1体選び、ドアで繋がった隣の部屋へ移動させるだけ。移動先の部屋のアクションを実行し、時計の針が「死の刻」にちょうど到達したタイミングでザ・デスと二人きりになっていたキャラクターは脱落します。屋敷に残るキャラクターがあと2体になったら即座にゲーム終了です。全員が正体を明かし、生存者2人のうちどちらかを担当していたプレイヤーが勝者です。 このゲームの紹介記事はこちら https://honugames-post.fanbox.cc/posts/12833937",
+   "url": "https://honugames.thebase.in/items/164109835",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/e3f10b6d8e2033311511fecc981ac406.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "ローナーズ 和訳ルール付き JPY 3,630(USD 22.82) SOLD OUT 原題タイトル：Loners プレイ人数：2〜4人 プレイ時間：20〜30分 対象年齢：8歳以上 デザイナー：Dan Cassaro メーカー：Weast Coast 『LONERS(ローナーズ)』は、ストリートのならず者集団を率いて、より強いコンボ(クルー)を叩きつけ合う2~4人用のカードゲームです。手札を最初に出し切ったプレイヤーがラウンドの勝者となり、先に2ラウンド勝利した人がゲームの勝者です。 手札の並び順は変えられません。そこで頼りになるのが、場に並ぶ「ローナー」です。自分の手番でローナーを仲間に加えれば、クルーを一気に強化できます。ただし、ローナーが入ったクルーは「不安定」になり、次のプレイヤーに1枚足されて横取りされてしまうことも。 さらに、抗争を止める「警備員」が登場すると、それ以降のクルーはどんどん弱くしか出せなくなります。手札を出し切ったと思っても、場にローナーが残っていれば全部引き取らなければなりません。最後まで気が抜けない駆け引きが楽しめます。 ・手番にできることは「ファイト(カードを出す)」「リトリート(パス)」「コールセキュリティ(警備員を出す)」の3つだけです。 ・ローナーを使えば強くなれますが、横取りされるリスクもあります。使うか、温存するかが腕の見せどころです。 ・警備員が出ると、以降のクルーは弱いものしか出せなくなります。切るタイミングが勝負を分けます。 ・上級バリアント付きです このゲームの紹介記事はこちら https://honugames-post.fanbox.cc/posts/12772031",
+   "url": "https://honugames.thebase.in/items/164109814",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/0db11ca86a79e2fb857701e897c9df72.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
+   "title": "カフェ 〜豆から一杯まで〜 日本語版 JPY 3,850(USD 24.20) 原題タイトル:Café プレイ人数:1〜4人 プレイ時間:30分 対象年齢:10歳以上 デザイナー:Costa&Rôla メーカー:PYTHAGORAS コーヒーを作る会社を経営し、コーヒー豆の生産・乾燥・焙煎・出荷までを行います。 各ラウンドにおいて、プレイヤーはカードを1枚ずつ手に入れて自分の前にパズルのように置きます。その後、自分の前に置いたカードの見えているアイコンを使ってアクションを行います。この時、同じ種類のアイコンが隣接して置かれているとアクション数を節約できます。 これを8ラウンド行い、最も点数の大きいプレイヤーが勝者です。 パズルのような要素が強く、他のプレイヤーとの関わりは少ないですが、自分の手元でうまくやりくりするのが好きな方にはオススメです。 拡張「エスプレッソ」のカードが同梱されています。新しいアイコンが追加され、より幅広い戦略で楽しめます。 過去に配布されたプロモカード2種が同梱されています。 このゲームの紹介記事はこちら https://honugames-post.fanbox.cc/posts/12642955",
+   "url": "https://honugames.thebase.in/items/159055082",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/9aaad3bc379bec115d1499ca2014da4a.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "date": "2026-11-21T01:37:53.775Z",
+   "source": "ホヌゲームズ",
+   "kind": "maker",
+   "label": "ショップ"
+  },
+  {
    "title": "大阪京橋でボードゲーム即売イベント「遊盤会2026」11月22日開催",
    "url": "https://tgiw.info/2026/11/asobankai2026.html",
    "date": "2026-11-20T08:10:19.000Z",
    "image": "",
    "source": "Table Games in the World",
-   "kind": "news"
+   "kind": "news",
+   "label": "記事"
   },
   {
    "title": "ボードゲーム紹介：MFG（MFG）",
@@ -45,7 +418,17 @@
    "date": "2026-11-19T08:12:05.000Z",
    "image": "",
    "source": "Table Games in the World",
-   "kind": "news"
+   "kind": "news",
+   "label": "記事"
+  },
+  {
+   "title": "ボードゲームの体験版を作ってみた話",
+   "url": "https://note.com/uchibacoya/n/nbf805757ac81",
+   "date": "2026-11-18T02:54:47.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
   },
   {
    "title": "デザインリニューアル『カタン 航海者5-6人拡張版』12月11日発売",
@@ -53,7 +436,8 @@
    "date": "2026-11-17T22:48:27.000Z",
    "image": "",
    "source": "Table Games in the World",
-   "kind": "news"
+   "kind": "news",
+   "label": "記事"
   },
   {
    "title": "リアルタイムで注文達成『コーヒーラッシュ：テイクアウト』日本語版、11月27日発売",
@@ -61,7 +445,8 @@
    "date": "2026-11-17T00:14:50.000Z",
    "image": "",
    "source": "Table Games in the World",
-   "kind": "news"
+   "kind": "news",
+   "label": "記事"
   },
   {
    "title": "京都インディーボドゲ祭2026、11月21日開催",
@@ -69,7 +454,8 @@
    "date": "2026-11-16T23:41:20.000Z",
    "image": "",
    "source": "Table Games in the World",
-   "kind": "news"
+   "kind": "news",
+   "label": "記事"
   },
   {
    "title": "冬バージョン『コーヒーラッシュ：ウィンター』日本語版、11月27日発売",
@@ -77,7 +463,8 @@
    "date": "2026-11-16T04:31:55.000Z",
    "image": "",
    "source": "Table Games in the World",
-   "kind": "news"
+   "kind": "news",
+   "label": "記事"
   },
   {
    "title": "東大阪で第2回「布施ボドゲフリマ」11月21日開催",
@@ -85,7 +472,8 @@
    "date": "2026-11-16T03:18:39.000Z",
    "image": "",
    "source": "Table Games in the World",
-   "kind": "news"
+   "kind": "news",
+   "label": "記事"
   },
   {
    "title": "宇宙ステーションの人材マッチング『スペースラボ』日本語版、11月27日発売",
@@ -93,7 +481,8 @@
    "date": "2026-11-14T23:39:07.000Z",
    "image": "",
    "source": "Table Games in the World",
-   "kind": "news"
+   "kind": "news",
+   "label": "記事"
   },
   {
    "title": "3種のダイスを追加『パンダロイヤル：メイヘム拡張セット』日本語版、11月24日発売",
@@ -101,7 +490,8 @@
    "date": "2026-11-14T13:09:29.000Z",
    "image": "",
    "source": "Table Games in the World",
-   "kind": "news"
+   "kind": "news",
+   "label": "記事"
   },
   {
    "title": "縦横上の投影パズル『シャドウ・ブロック』日本語版、10月下旬発売",
@@ -109,7 +499,401 @@
    "date": "2026-11-14T02:29:01.000Z",
    "image": "",
    "source": "Table Games in the World",
-   "kind": "news"
+   "kind": "news",
+   "label": "記事"
+  },
+  {
+   "title": "Garden Trilogy エラッタ情報",
+   "url": "https://note.com/uchibacoya/n/na7d8acad1a48",
+   "date": "2026-11-13T11:52:45.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "甘い蜜か、ハチの群れか。自分が積んで相手が選ぶ『ハニーポット』",
+   "url": "https://note.com/bluefinchgames/n/ne3ceb02fbca0",
+   "date": "2026-10-23T08:29:09.000Z",
+   "image": "https://assets.st-note.com/img/1794464532-ruwmKhJybpXe0ScMxo5PsABY.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "息を合わせて本を積もう！本棚を作る協力ゲーム『ブックシェルフ』",
+   "url": "https://note.com/bluefinchgames/n/n2825229b16a7",
+   "date": "2026-10-20T10:06:25.000Z",
+   "image": "",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "その色、言葉だけで伝えられる？『ヒューズアンドキューズ』",
+   "url": "https://note.com/bluefinchgames/n/nc71b044a68e0",
+   "date": "2026-10-20T07:33:10.000Z",
+   "image": "https://assets.st-note.com/img/1792564273-TPKfhldCpxuGW9jQMNe2oErc.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "テーブルいっぱいに広がる陣取りゲーム『タクタ』",
+   "url": "https://note.com/bluefinchgames/n/nc48d13cfefbb",
+   "date": "2026-10-20T06:10:45.000Z",
+   "image": "https://assets.st-note.com/img/1792491084-1RoYWksdXz0nPu3xH2VmawAK.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "カードの穴から動物を覗いて撮影！『パーフェクトショット』",
+   "url": "https://note.com/bluefinchgames/n/na70d77f644e2",
+   "date": "2026-09-29T04:07:58.000Z",
+   "image": "https://assets.st-note.com/img/1790844436-AKHqf9jl3sBMvuN412Q08CgZ.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "道をつないで市場へ届けろ！全員同時に線を引く紙ペンゲーム『テラヴィスタ』",
+   "url": "https://note.com/bluefinchgames/n/ndc41a78db9a5",
+   "date": "2026-09-29T04:06:06.000Z",
+   "image": "https://assets.st-note.com/img/1790847887-gHpDBjNqQURVk1KZtOfvTXoC.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "カギとサイコロで運試し！ドイツ年間キッズゲーム大賞受賞作『マジックキーズ』",
+   "url": "https://note.com/bluefinchgames/n/naaa9daca8ef2",
+   "date": "2026-09-17T08:19:54.000Z",
+   "image": "https://assets.st-note.com/img/1789631484-Jb7HBoEkzqOVXPZaT5r1RQ6N.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "ペンギンを弾いて魔法学校を駆け回れ！『アイスクール・ウィザーズ』",
+   "url": "https://note.com/bluefinchgames/n/nf5398b98e7e8",
+   "date": "2026-09-15T09:38:41.000Z",
+   "image": "https://assets.st-note.com/img/1789460590-BdcSbj45yHFtP3KemsrDgqTX.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "砂時計を維持せよ！ リアルタイム協力花火ショー『スカイロケッツ』",
+   "url": "https://note.com/bluefinchgames/n/nf528ca0b94fa",
+   "date": "2026-09-03T07:13:40.000Z",
+   "image": "https://assets.st-note.com/img/1788341531-z4Q5fbCsxNuJUvRE8FoXlPK7.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "資源の失われた世界でドロイドを作ろう『ラストドロイド』",
+   "url": "https://note.com/bluefinchgames/n/n865df763e98b",
+   "date": "2026-09-02T07:46:49.000Z",
+   "image": "https://assets.st-note.com/img/1788326218-9e0gWThkjmOLAxXiMI6G125D.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "神の力を借りてローマを手中に！『クオラム』",
+   "url": "https://note.com/bluefinchgames/n/n429b02a29864",
+   "date": "2026-08-28T09:43:06.000Z",
+   "image": "https://assets.st-note.com/img/1787903902-TNF1Gpl3fzXkyohHBVbScO8E.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "奇才フリーゼ作の鬼ごっこが復活！『フィアサム・フロアーズ』",
+   "url": "https://note.com/bluefinchgames/n/n009a5cec2ad3",
+   "date": "2026-08-25T10:53:25.000Z",
+   "image": "https://assets.st-note.com/img/1787650382-w6htn2qFZCPEVzAJo4eKg7bf.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "今夜はどの屋敷へ？読み合いが白熱する泥棒ゲーム『ピンチド！』",
+   "url": "https://note.com/bluefinchgames/n/nb6ebd5187ee8",
+   "date": "2026-08-14T09:01:30.000Z",
+   "image": "https://assets.st-note.com/img/1786513650-ZQbI4TNze756csGvLBYhiwWl.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "ボードが回るたび、チーズが熟成する『フォルマッジオ』",
+   "url": "https://note.com/bluefinchgames/n/na2cd526791ad",
+   "date": "2026-08-14T09:00:29.000Z",
+   "image": "https://assets.st-note.com/img/1786440043-G2lFBSCo8k6Hq1wU3zndfTWJ.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "ゼロは悪魔か救世主か『ゼロヒーロー』",
+   "url": "https://note.com/bluefinchgames/n/n990deef17aee",
+   "date": "2026-08-13T10:48:32.000Z",
+   "image": "https://assets.st-note.com/img/1786612037-tQjADkNfUcBwvX2KRlp94W5E.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "能力を駆使して塔から脱獄せよ！協力パズル『マジックメイズタワー』",
+   "url": "https://note.com/bluefinchgames/n/n7c0aeb3cbe9e",
+   "date": "2026-08-07T09:04:05.000Z",
+   "image": "https://assets.st-note.com/img/1786090536-E6LplnNSAr45VGFP3esabhvg.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "20世紀の出来事で最高の展覧会を作ろう！『エキシビション 20thセンチュリー』",
+   "url": "https://note.com/bluefinchgames/n/n86db48a12c97",
+   "date": "2026-08-07T07:33:30.000Z",
+   "image": "https://assets.st-note.com/img/1786008027-YfL3kM68eIvDpU5VtBwaZzl9.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "絶滅危惧種を保護する公園を作ろう！『スペクタキュラー』",
+   "url": "https://note.com/bluefinchgames/n/n9a7624598399",
+   "date": "2026-08-05T08:58:33.000Z",
+   "image": "https://assets.st-note.com/img/1785916315-zSa0AL1ykRJMsVrO4WePYCph.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "現在の実績と、チームメンバーの紹介",
+   "url": "https://note.com/uchibacoya/n/nad6c0b4bc833",
+   "date": "2026-08-05T06:18:44.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "How to Receive Your Promo Box / プロモボックスのお受け取り方法",
+   "url": "https://note.com/uchibacoya/n/nd566713635bc",
+   "date": "2026-07-31T10:32:14.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "繋げるほどに美しい。石畳を作るタイル配置ゲーム『カルサーダ』",
+   "url": "https://note.com/bluefinchgames/n/n6d3bdaf2d8a9",
+   "date": "2026-07-29T05:59:29.000Z",
+   "image": "https://assets.st-note.com/img/1784627112-ZrMGOAWQSpKTnYNw6vE9yf0C.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "【日本語版】Rosalie kickstarterページ",
+   "url": "https://note.com/uchibacoya/n/neb20d5377397",
+   "date": "2026-07-24T14:05:01.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "ネコと一緒に衣類を編もう！『ニッティングサークル』",
+   "url": "https://note.com/bluefinchgames/n/n3e45d06f112d",
+   "date": "2026-07-23T11:17:14.000Z",
+   "image": "https://assets.st-note.com/img/1784802222-x1reiNmbGyML0c4IWUzdFg3l.jpg",
+   "source": "ブルーフィンチゲームズ",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "Rosalie🌹デザイナーズノート : 戸塚中央 Higabito",
+   "url": "https://note.com/uchibacoya/n/n68260b166186",
+   "date": "2026-07-18T11:00:49.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "Rosalie🌹 開発ノート: アートワーク",
+   "url": "https://note.com/uchibacoya/n/n036eb616bc8a",
+   "date": "2026-06-21T03:25:00.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "ロザリー 情報がまとめて見れる記事",
+   "url": "https://note.com/uchibacoya/n/nae0786974e46",
+   "date": "2026-05-21T16:13:10.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "【翻訳記事】 戸塚中央 インタビュー",
+   "url": "https://note.com/uchibacoya/n/ndfa911c7a4c6",
+   "date": "2026-05-04T10:58:37.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "日記 ゲームデザインにおける「顕在化したもの」と「潜在的なもの」",
+   "url": "https://note.com/uchibacoya/n/n0e123a5aeb63",
+   "date": "2026-04-26T04:11:34.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "出力メカニクスを構成する二つの要素",
+   "url": "https://note.com/uchibacoya/n/nb8d11aa78d7d",
+   "date": "2026-03-21T10:18:03.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "日記 漫画について",
+   "url": "https://note.com/uchibacoya/n/n9e828cefad0a",
+   "date": "2026-03-02T07:15:31.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "日記 体験全体をイメージしてみる",
+   "url": "https://note.com/uchibacoya/n/n770af28e771c",
+   "date": "2026-02-27T18:49:47.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "インタラクションをコントロールする-財の帰属と個数の限定",
+   "url": "https://note.com/uchibacoya/n/n61cc352f15a3",
+   "date": "2026-02-22T02:05:21.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "テーマナイズが最高なゲームを見つけたから聞いてほしい",
+   "url": "https://note.com/uchibacoya/n/n70dbd3f1242b",
+   "date": "2026-01-19T08:59:51.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "2025.11月 現在製作中のゲームについて",
+   "url": "https://note.com/uchibacoya/n/n64616e664c5f",
+   "date": "2025-11-26T08:23:45.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "連続的ボードゲームのモデル化と、「探索可能性」の定義とその考察",
+   "url": "https://note.com/uchibacoya/n/n5ba081bc70af",
+   "date": "2025-10-05T03:28:49.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "【日本語ページ】Garden Trilogy - Paradise of Dinosaurs, Birds, and Fish",
+   "url": "https://note.com/uchibacoya/n/n3a9f09077de1",
+   "date": "2025-09-16T11:50:02.000Z",
+   "image": "https://assets.st-note.com/img/1757913959-7104tnoAW3GuCN5rwJckTldF.png",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "Kickstarterでボードゲームをバックする方法【2026年最新版】",
+   "url": "https://note.com/uchibacoya/n/nd375defc20e8",
+   "date": "2025-09-09T02:02:37.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
+  },
+  {
+   "title": "「浮動点」とインタラクションの定量化についての考察",
+   "url": "https://note.com/uchibacoya/n/n0d0dd3d21ebf",
+   "date": "2025-07-29T21:34:14.000Z",
+   "image": "",
+   "source": "うちばこや",
+   "kind": "maker",
+   "label": "記事"
   }
- ]
+ ],
+ "seen": {
+  "https://bluefinch.base.shop/items/155280641": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/149789709": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/149789121": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/165742608": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/165742565": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/165742505": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/165898539": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/149788614": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/165734059": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/160081336": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/165733580": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/165733689": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/165129706": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/165128806": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/165130642": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/165130303": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/165129471": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/165129239": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/165128546": "2026-11-21T01:37:53.826Z",
+  "https://bluefinch.base.shop/items/165129018": "2026-11-21T01:37:53.826Z",
+  "https://honugames.thebase.in/items/133659222": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/164281545": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/164281231": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/164281258": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/164448198": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/164449406": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/164447044": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/164218537": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/135124229": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/138860409": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/75779058": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/128836114": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/155328248": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/155530548": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/102803931": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/164109855": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/164109843": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/164109835": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/164109814": "2026-11-21T01:37:53.775Z",
+  "https://honugames.thebase.in/items/159055082": "2026-11-21T01:37:53.775Z"
+ }
 }
