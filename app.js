@@ -58,7 +58,16 @@ if (!layout.some((b) => b.type === "events") && !store.get("bgb.added.events", f
 }
 for (const b of layout) if (b.unreadOnly === undefined) b.unreadOnly = b.type === "maker" || b.type === "news";
 let editing = false;
-let news = null, sources = null, events = null;
+let news = null, sources = null, events = null, bgg = null;
+fetch("data/bgg.json?" + Date.now()).then((r) => r.json()).then((d) => { bgg = d; render(); }).catch(() => {});
+// BGGの箱絵：名前（または「：」の前）で引く
+function art(name) {
+  const g = bgg?.games;
+  if (!g || !name) return "";
+  const base = name.replace(/【[^】]*】|\[[^\]]*\]|（[^）]*）|\([^)]*\)/g, "").trim();
+  for (const k of [name, base, base.split(/[：:]/)[0]]) { const v = g[norm(k)]; if (v && !v.miss) return v.thumb || v.image; }
+  return "";
+}
 const ui = {}; // ボックスごとの表示状態（絞り込み・件数）
 
 const esc = (s = "") => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -206,7 +215,8 @@ function ownedBox(b) {
     for (const { g, idx } of rows) {
       const r = document.createElement("div");
       r.className = "row";
-      r.innerHTML = `<div class="thumb">🎲</div><div class="rt"><div class="t">${esc(g.name)}</div>
+      const gimg = art(g.name);
+      r.innerHTML = `<div class="thumb" ${gimg ? `style="background-image:url('${esc(gimg)}')"` : ""}>${gimg ? "" : "🎲"}</div><div class="rt"><div class="t">${esc(g.name)}</div>
         <div class="s">${g.bgg ? `<a href="${esc(g.bgg)}" target="_blank" rel="noopener">BGGを開く ↗</a>` : "BGG未設定"}</div></div>
         <button class="x" title="削除">✕</button>`;
       r.querySelector(".x").onclick = () => { if (confirm(`「${g.name}」を削除しますか？`)) { owned.splice(idx, 1); store.set(LS_OWNED, owned); render(); } };
@@ -295,7 +305,7 @@ function calendarBox(b) {
     const starred = isWatched(r.game);
     const row = document.createElement("div");
     row.className = "row" + (starred ? " starred" : "");
-    const rimg = r.image || (news?.items || []).find((i) => i.image && norm(r.game).length > 2 && norm(i.title).includes(norm(r.game)))?.image;
+    const rimg = art(r.game) || r.image || (news?.items || []).find((i) => i.image && norm(r.game).length > 2 && norm(i.title).includes(norm(r.game)))?.image;
     row.innerHTML = `${dayBadge(r)}${rimg ? `<div class="thumb" style="background-image:url('${esc(rimg)}')"></div>` : ""}
       <a class="rt" href="${esc(l.url)}" target="_blank" rel="noopener"><div class="t">${esc(r.game)}${typ}</div><div class="s">${daysLeft(r) ? daysLeft(r) + " ・ " : ""}${esc(srcs)}${r.price ? " ・ " + esc(r.price) : ""}</div></a>
       <div class="acts">${st.tab === "非表示"
@@ -405,7 +415,7 @@ function watchBox(b) {
     if (!bits.length) bits.push("まだ情報なし");
     const row = document.createElement("div");
     row.className = "wrow";
-    const wimg = [...r.items, ...r.rels].map((x) => x.image).find(Boolean);
+    const wimg = art(r.w.q) || [...r.items, ...r.rels].map((x) => x.image).find(Boolean);
     row.innerHTML = `<div class="row"><div class="thumb" ${wimg ? `style="background-image:url('${esc(wimg)}')"` : ""}>${wimg ? "" : "⭐"}</div>
       <div class="rt"><div class="t">${esc(r.w.q)}${fresh ? `<span class="tag new">新着 ${fresh}</span>` : ""}</div><div class="s wrap">${bits.join(" ・ ")}</div></div>
       <button class="x" title="削除">✕</button></div>`;

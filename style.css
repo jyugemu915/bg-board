@@ -84,3 +84,5 @@ a.x{text-decoration:none}
 .cfctrl>.s{font-size:11.5px;color:var(--muted);padding:0 16px}
 .cfctrl .chips{flex-wrap:wrap}
 .thumb.big{width:56px;height:56px;border-radius:8px}
+.credit{text-align:center;font-size:11px;color:var(--muted);margin-top:24px}
+.credit a{text-decoration:underline}
