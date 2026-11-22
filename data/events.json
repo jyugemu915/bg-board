@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T10:04:16.084Z",
+ "updatedAt": "2026-11-22T22:00:02.844Z",
  "status": [
   {
    "name": "ゲームマーケット公式",
@@ -14,7 +14,7 @@
   {
    "name": "ボドゲーマ（宮城県）",
    "ok": true,
-   "n": 4
+   "n": 6
   }
  ],
  "trips": [],
@@ -168,6 +168,19 @@
    "url": "https://x.com/hiyoko__forest"
   },
   {
+   "title": "【12/20】ボードゲーム・テストプレイ会 第7回【ACB仙台】",
+   "date": "2026-12-20",
+   "end": "2026-12-20",
+   "time": "13:30〜21:00",
+   "place": "新田コミュニティ・センター / 仙台市宮城野区新田２丁目１１−３０",
+   "pref": "宮城県",
+   "price": "0円",
+   "source": "ボドゲーマ",
+   "url": "https://bodoge.hoobby.net/events/34090",
+   "kind": "local",
+   "image": "https://image-bodoge.cdn-hoobby.net/small_light(dw=1200,dh=630,cw=1200,ch=630,da=s,ds=s,q=90,cc=FFFFFF)/event_image_61a685f8-7cde-46f9-80c5-59779a175771.jpg"
+  },
+  {
    "kind": "manual",
    "source": "ひよこの杜",
    "pref": "宮城県",
@@ -201,6 +214,19 @@
    "url": "https://bodoge.hoobby.net/events/33646",
    "kind": "local",
    "image": "https://image-bodoge.cdn-hoobby.net/small_light(dw=1200,dh=630,cw=1200,ch=630,da=s,ds=s,q=90,cc=FFFFFF)/event_image_94b121b2-cf91-4603-ad0f-744618f63af5.jpeg"
+  },
+  {
+   "title": "第1回 ゲームバーシルドラ ボードゲーム交流会",
+   "date": "2026-12-26",
+   "end": "2026-12-26",
+   "time": "15:00〜18:00",
+   "place": "仙台市青葉区本町1-10-28 FUKUDA本町ビル3F / 仙台市青葉区本町１丁目１０−３４",
+   "pref": "宮城県",
+   "price": "2000円",
+   "source": "ボドゲーマ",
+   "url": "https://bodoge.hoobby.net/events/34093",
+   "kind": "local",
+   "image": "https://dm1i7q1ruvbhg.cloudfront.net/assets/logo_256x256-72a2aa103511857b6f8df3b335d3e0d715469948c23a8fe69138d2b9c0b89932.png"
   },
   {
    "kind": "manual",
