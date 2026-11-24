@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T10:25:16.457Z",
+ "updatedAt": "2026-11-24T22:15:14.230Z",
  "sources": [
   {
    "name": "ホヌゲームズ",
@@ -61,6 +61,36 @@
  ],
  "items": [
   {
+   "title": "Sushi Go Party!: Pickled Ginger Promo",
+   "url": "https://boardgamegeekstore.com/products/sushi-go-party-pickled-ginger-promo",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/products/PickledGinger.png?v=1597681230",
+   "price": "$5.00",
+   "status": "sale",
+   "firstSeen": "2025-10-22T07:01:33.000Z",
+   "saleAt": "2026-11-24T22:15:14.230Z",
+   "restock": true,
+   "date": "2026-11-24T22:15:14.230Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Gamewright Games"
+  },
+  {
+   "title": "偽の楽園から生き物たちを救出『グリーンウッド』日本語版、12月5日発売",
+   "url": "https://tgiw.info/2026/11/greenwoodj.html",
+   "date": "2026-11-24T11:27:46.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": {
+    "date": "2026-12-05",
+    "label": "12月5日",
+    "exact": true,
+    "kind": "発売"
+   }
+  },
+  {
    "title": "パンダロイヤル メイヘム拡張セット 日本語版",
    "url": "https://honugames.thebase.in/items/166814920",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/fa16704fad80a18f41674e83512df8c9.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
@@ -100,7 +130,7 @@
    "label": "ショップ"
   },
   {
-   "title": "ザ・ドーン・オブ・パンゲア 拡張ワイルイドウッズ 和訳ルール付き",
+   "title": "ザ・ドーン・オブ・パンゲア 拡張ワイルドウッズ 和訳ルール付き",
    "url": "https://honugames.thebase.in/items/166814715",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/0c5c3083b7bff023b8b3b80d2a47ffa1.jpg?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "4,620円",
@@ -380,21 +410,6 @@
    "kind": "news",
    "label": "記事",
    "release": null
-  },
-  {
-   "title": "宇宙ステーションの人材マッチング『スペースラボ』日本語版、11月27日発売",
-   "url": "https://tgiw.info/2026/11/space-labj.html",
-   "date": "2026-11-14T23:39:07.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事",
-   "release": {
-    "date": "2026-11-27",
-    "label": "11月27日",
-    "exact": true,
-    "kind": "発売"
-   }
   },
   {
    "title": "Garden Trilogy エラッタ情報",
@@ -1514,7 +1529,7 @@
   },
   {
    "key": "s:https://honugames.thebase.in/items/166814715",
-   "game": "ザ・ドーン・オブ・パンゲア 拡張ワイルイドウッズ 和訳ルール付き",
+   "game": "ザ・ドーン・オブ・パンゲア 拡張ワイルドウッズ 和訳ルール付き",
    "date": "2026-11-23",
    "label": null,
    "exact": true,
@@ -1525,7 +1540,7 @@
     {
      "source": "ホヌゲームズ",
      "url": "https://honugames.thebase.in/items/166814715",
-     "title": "ザ・ドーン・オブ・パンゲア 拡張ワイルイドウッズ 和訳ルール付き"
+     "title": "ザ・ドーン・オブ・パンゲア 拡張ワイルドウッズ 和訳ルール付き"
     }
    ]
   },
@@ -1711,6 +1726,22 @@
     }
    ],
    "image": ""
+  },
+  {
+   "key": "a:グリーンウッド:2026-12-05",
+   "game": "グリーンウッド",
+   "date": "2026-12-05",
+   "label": "12月5日",
+   "exact": true,
+   "type": "発売",
+   "image": "",
+   "links": [
+    {
+     "source": "Table Games in the World",
+     "url": "https://tgiw.info/2026/11/greenwoodj.html",
+     "title": "偽の楽園から生き物たちを救出『グリーンウッド』日本語版、12月5日発売"
+    }
+   ]
   },
   {
    "key": "a:カタン 航海者5-6人拡張版:2026-12-11",
@@ -3446,8 +3477,8 @@
   },
   "https://boardgamegeekstore.com/products/carcassonne-starting-tableau": {
    "firstSeen": "2026-03-19T14:24:07.000Z",
-   "status": "sale",
-   "since": null,
+   "status": "sold",
+   "since": "2026-11-24T22:15:14.230Z",
    "saleAt": null
   },
   "https://boardgamegeekstore.com/products/carcassonne-the-peasant-revolts": {
@@ -3770,9 +3801,9 @@
   },
   "https://boardgamegeekstore.com/products/sushi-go-party-pickled-ginger-promo": {
    "firstSeen": "2025-10-22T07:01:33.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-24T22:15:14.230Z",
+   "saleAt": "2026-11-24T22:15:14.230Z"
   },
   "https://boardgamegeekstore.com/products/time-of-legends-joan-of-arc-sam-the-blacksmith-promo-card": {
    "firstSeen": "2025-10-13T16:39:06.000Z",
@@ -9251,31 +9282,28 @@
   "https://note.com/uchibacoya/n/nd375defc20e8": "https://assets.st-note.com/production/uploads/images/214112254/rectangle_large_type_2_1f5b0cf21401cc336c375d80976dd252.jpeg?fit=bounds&quality=85&width=1280",
   "https://note.com/uchibacoya/n/n0d0dd3d21ebf": "https://assets.st-note.com/production/uploads/images/205228016/rectangle_large_type_2_236d05bc05da833e9d060f50ee2d6bce.jpeg?fit=bounds&quality=85&width=1280",
   "https://tgiw.info/2026/11/gm2026f-enq-result.html": {
-   "failedAt": "2026-11-23T22:10:24.094Z"
+   "failedAt": "2026-11-24T22:15:14.230Z"
   },
   "https://tgiw.info/2026/11/asobankai2026.html": {
-   "failedAt": "2026-11-23T22:10:24.094Z"
+   "failedAt": "2026-11-24T22:15:14.230Z"
   },
   "https://tgiw.info/2026/11/mfg.html": {
-   "failedAt": "2026-11-23T22:10:24.094Z"
+   "failedAt": "2026-11-24T22:15:14.230Z"
   },
   "https://tgiw.info/2026/11/catan-seafarers5-6j.html": {
-   "failedAt": "2026-11-23T22:10:24.094Z"
+   "failedAt": "2026-11-24T22:15:14.230Z"
   },
   "https://tgiw.info/2026/11/coffee-rush-grab-goj.html": {
-   "failedAt": "2026-11-23T22:10:24.094Z"
+   "failedAt": "2026-11-24T22:15:14.230Z"
   },
   "https://tgiw.info/2026/11/kyoto-indie-bgfes2026.html": {
-   "failedAt": "2026-11-23T22:10:24.094Z"
+   "failedAt": "2026-11-24T22:15:14.230Z"
   },
   "https://tgiw.info/2026/11/coffee-rushwinterj.html": {
-   "failedAt": "2026-11-23T22:10:24.094Z"
+   "failedAt": "2026-11-24T22:15:14.230Z"
   },
   "https://tgiw.info/2026/11/fuse-bgflm2.html": {
-   "failedAt": "2026-11-23T22:10:24.094Z"
-  },
-  "https://tgiw.info/2026/11/space-labj.html": {
-   "failedAt": "2026-11-23T22:10:24.094Z"
+   "failedAt": "2026-11-24T22:15:14.230Z"
   },
   "https://boardgamegeekstore.com/products/chiseled": "https://boardgamegeekstore.com/cdn/shop/files/BGG_Store_white_and_teal_large_eaf4da50-68bd-477c-8ca4-94991e834e00.png?v=1783347046&width=260",
   "https://boardgamegeekstore.com/blogs/news/april-2024-news-bites": "http://boardgamegeekstore.com/cdn/shop/articles/Real_vs._Fake_Store.png?v=1713563113",
@@ -9293,6 +9321,9 @@
   "https://boardgamegeekstore.com/blogs/news/january-news-bites": "http://boardgamegeekstore.com/cdn/shop/articles/Store_Update_-_Hero_Image.webp?v=1683935578",
   "https://tgiw.info/2026/11/gaudij.html": {
    "failedAt": "2026-11-24T10:25:16.457Z"
+  },
+  "https://tgiw.info/2026/11/greenwoodj.html": {
+   "failedAt": "2026-11-24T22:15:14.230Z"
   }
  }
 }
