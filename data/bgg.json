@@ -563,14 +563,24 @@
   },
   "ゲーム備品ニッポン財閥専用メタルコインcrowdgames": {
    "label": "[ゲーム備品]ニッポン：財閥 専用メタルコイン【CROWD GAMES】",
-   "miss": true,
-   "at": "2026-11-25T02:08:12.448Z"
+   "id": "434367",
+   "name": "Nippon: Zaibatsu",
+   "image": "https://cf.geekdo-images.com/bOs_Um4cUUOpKnypCMykJA__original/img/RE_9_-ioTp31Fq_r5GZ_XKVGwzw=/0x0/filters:format(png)/pic8844519.png",
+   "thumb": "https://cf.geekdo-images.com/bOs_Um4cUUOpKnypCMykJA__small/img/WLGTv9N3yOkGWZSki-c0nc-L_oY=/fit-in/200x150/filters:strip_icc()/pic8844519.png",
+   "query": "id:434367",
+   "at": "2026-11-25T04:29:24.153Z",
+   "alias": "434367"
   },
   "フォレージflatoutgames/aeg": {
    "label": "フォレージ【FLATOUT GAMES / AEG】",
-   "miss": true,
-   "at": "2026-11-25T02:08:15.055Z"
+   "id": "458390",
+   "name": "Forage",
+   "image": "https://cf.geekdo-images.com/qII_JObHxyBh77FjVN-1vA__original/img/d_2R3Ak-0m-inXZ7RfR_jSgWdaY=/0x0/filters:format(png)/pic9225193.png",
+   "thumb": "https://cf.geekdo-images.com/qII_JObHxyBh77FjVN-1vA__small/img/1dzsLYmtyb3_NuDghxHY43FEwt8=/fit-in/200x150/filters:strip_icc()/pic9225193.png",
+   "query": "id:458390",
+   "at": "2026-11-25T04:29:26.724Z",
+   "alias": "458390"
   }
  },
- "updatedAt": "2026-11-25T02:18:22.249Z"
+ "updatedAt": "2026-11-25T04:29:26.724Z"
 }
