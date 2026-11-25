@@ -1,0 +1,183 @@
+{
+ "games": {
+  "シャドウブロック": {
+   "label": "シャドウ・ブロック",
+   "miss": true,
+   "at": "2026-11-25T01:50:20.521Z"
+  },
+  "パンダロイヤルメイヘム拡張セット日本語版": {
+   "label": "パンダロイヤル メイヘム拡張セット 日本語版",
+   "miss": true,
+   "at": "2026-11-25T01:50:23.129Z"
+  },
+  "パンダロイヤル日本語版": {
+   "label": "パンダロイヤル 日本語版",
+   "miss": true,
+   "at": "2026-11-25T01:50:25.708Z"
+  },
+  "パンダロイヤル拡張セット日本語版": {
+   "label": "パンダロイヤル拡張セット 日本語版",
+   "miss": true,
+   "at": "2026-11-25T01:50:28.287Z"
+  },
+  "ザドーンオブパンゲア拡張ワイルドウッズ和訳ルール付き": {
+   "label": "ザ・ドーン・オブ・パンゲア 拡張ワイルドウッズ 和訳ルール付き",
+   "miss": true,
+   "at": "2026-11-25T01:50:30.896Z"
+  },
+  "ザドーンオブパンゲア和訳ルール付き": {
+   "label": "ザ・ドーン・オブ・パンゲア 和訳ルール付き",
+   "miss": true,
+   "at": "2026-11-25T01:50:33.478Z"
+  },
+  "オンダ和訳ルール付き": {
+   "label": "オンダ 和訳ルール付き",
+   "miss": true,
+   "at": "2026-11-25T01:50:36.075Z"
+  },
+  "花嫁の引き立て役": {
+   "label": "花嫁の引き立て役",
+   "id": "470978",
+   "name": "Always a Bridesmaid",
+   "image": "https://cf.geekdo-images.com/cvqvIP-HIquq_jOmQJceZg__original/img/1KTQxbc3SQ0o8m8MBl9Shpak-c4=/0x0/filters:format(png)/pic9588461.png",
+   "thumb": "https://cf.geekdo-images.com/cvqvIP-HIquq_jOmQJceZg__small/img/X0Stnp2TyKzhOMH7XVTwvTz-w5I=/fit-in/200x150/filters:strip_icc()/pic9588461.png",
+   "query": "花嫁の引き立て役",
+   "at": "2026-11-25T01:50:41.258Z"
+  },
+  "クレイジーシャーロック和訳ルール付き": {
+   "label": "クレイジーシャーロック 和訳ルール付き",
+   "miss": true,
+   "at": "2026-11-25T01:50:43.847Z"
+  },
+  "イエローブリックロード和訳ルール付き": {
+   "label": "イエロー・ブリック・ロード 和訳ルール付き",
+   "miss": true,
+   "at": "2026-11-25T01:50:46.512Z"
+  },
+  "ミゴ和訳ルール付き": {
+   "label": "ミゴ 和訳ルール付き",
+   "miss": true,
+   "at": "2026-11-25T01:50:49.097Z"
+  },
+  "フルーツカクテル和訳ルール付き": {
+   "label": "フルーツカクテル 和訳ルール付き",
+   "miss": true,
+   "at": "2026-11-25T01:50:51.691Z"
+  },
+  "パンダロイヤルメイヘム拡張セット": {
+   "label": "パンダロイヤル：メイヘム拡張セット",
+   "miss": true,
+   "at": "2026-11-25T01:50:56.978Z"
+  },
+  "コーヒーラッシュテイクアウト": {
+   "label": "コーヒーラッシュ：テイクアウト",
+   "miss": true,
+   "at": "2026-11-25T01:51:02.490Z"
+  },
+  "コーヒーラッシュウィンター": {
+   "label": "コーヒーラッシュ：ウィンター",
+   "miss": true,
+   "at": "2026-11-25T01:51:07.677Z"
+  },
+  "スペースラボ": {
+   "label": "スペースラボ",
+   "miss": true,
+   "at": "2026-11-25T01:51:10.303Z"
+  },
+  "グリーンウッド": {
+   "label": "グリーンウッド",
+   "miss": true,
+   "at": "2026-11-25T01:51:12.980Z"
+  },
+  "カタン航海者56人拡張版": {
+   "label": "カタン 航海者5-6人拡張版",
+   "miss": true,
+   "at": "2026-11-25T01:51:15.560Z"
+  },
+  "ガウディ": {
+   "label": "ガウディ",
+   "miss": true,
+   "at": "2026-11-25T01:51:18.248Z"
+  },
+  "パッチワーク": {
+   "label": "パッチワーク",
+   "id": "163412",
+   "name": "Patchwork",
+   "image": "https://cf.geekdo-images.com/xNSaIHCKr_cc7Q2rQSSJPQ__original/img/HJJdVosBV35kj8pQ6wmQMiJRhVA=/0x0/filters:format(jpeg)/pic9273518.jpg",
+   "thumb": "https://cf.geekdo-images.com/xNSaIHCKr_cc7Q2rQSSJPQ__small/img/9Kf3YKiVIJxd_EbqJEJFdlGfj7I=/fit-in/200x150/filters:strip_icc()/pic9273518.jpg",
+   "query": "パッチワーク",
+   "at": "2026-11-25T01:51:23.399Z"
+  },
+  "ドミニオン": {
+   "label": "ドミニオン",
+   "id": "36218",
+   "name": "Dominion",
+   "image": "https://cf.geekdo-images.com/j6iQpZ4XkemZP07HNCODBA__original/img/96COuakNiLRrjDLc1sM4Zxsw4WE=/0x0/filters:format(jpeg)/pic394356.jpg",
+   "thumb": "https://cf.geekdo-images.com/j6iQpZ4XkemZP07HNCODBA__small/img/B2u2ghwlmI_qsUtCwuvcbnBcIqU=/fit-in/200x150/filters:strip_icc()/pic394356.jpg",
+   "query": "ドミニオン",
+   "at": "2026-11-25T01:51:28.729Z"
+  },
+  "sushigopartypickledgingerpromo": {
+   "label": "Sushi Go Party!: Pickled Ginger Promo",
+   "id": "317275",
+   "name": "Sushi Go Party!: Pickled Ginger Promo",
+   "image": "https://cf.geekdo-images.com/_vFqEFIRfglgFDUukwi0WQ__original/img/uP7IOAl4eUB6JzTgw8r-Q2D1dYk=/0x0/filters:format(jpeg)/pic8250896.jpg",
+   "thumb": "https://cf.geekdo-images.com/_vFqEFIRfglgFDUukwi0WQ__small/img/x-SefIxqoeyNWMcDQE4KcZZJLPU=/fit-in/200x150/filters:strip_icc()/pic8250896.jpg",
+   "query": "Sushi Go Party!: Pickled Ginger Promo",
+   "at": "2026-11-25T01:51:33.984Z"
+  },
+  "pi和訳ルール付き": {
+   "label": "P.I 和訳ルール付き",
+   "miss": true,
+   "at": "2026-11-25T01:51:36.669Z"
+  },
+  "issvanguardfearlesscrewminiexpansion": {
+   "label": "ISS Vanguard: Fearless Crew Mini-Expansion",
+   "id": "402966",
+   "name": "ISS Vanguard: Fearless Crew Mini-Expansion",
+   "image": "https://cf.geekdo-images.com/tJbhWquI0lqYOF3z8yoCJw__original/img/dx6WnbZAxqp0N2AGwqymHgGERm0=/0x0/filters:format(png)/pic8171140.png",
+   "thumb": "https://cf.geekdo-images.com/tJbhWquI0lqYOF3z8yoCJw__small/img/L1rMTCPaDiOsW0MGVngN3vM5E9c=/fit-in/200x150/filters:strip_icc()/pic8171140.png",
+   "query": "ISS Vanguard: Fearless Crew Mini-Expansion",
+   "at": "2026-11-25T01:51:41.848Z"
+  },
+  "chiseled": {
+   "label": "Chiseled",
+   "id": "254532",
+   "name": "Chiseled",
+   "image": "https://cf.geekdo-images.com/9Y_0DcSejR3lLD4CH6dX5Q__original/img/UiWFtJwcR_9ssY9y_hXUaVutRYc=/0x0/filters:format(png)/pic5534843.png",
+   "thumb": "https://cf.geekdo-images.com/9Y_0DcSejR3lLD4CH6dX5Q__small/img/I-Ivgzp_G0wOsL-3hWVVg5ft92I=/fit-in/200x150/filters:strip_icc()/pic5534843.png",
+   "query": "Chiseled",
+   "at": "2026-11-25T01:51:46.997Z"
+  },
+  "dominionfarm": {
+   "label": "Dominion: Farm",
+   "id": "416819",
+   "name": "Dominion: Farm Promo Card",
+   "image": "https://cf.geekdo-images.com/f9TPog7wJ-lLArEB2Kf9Mg__original/img/GMlHv23C8rVFjuWhO2C7j5uv04Y=/0x0/filters:format(jpeg)/pic8342856.jpg",
+   "thumb": "https://cf.geekdo-images.com/f9TPog7wJ-lLArEB2Kf9Mg__small/img/hFrxv2Wx_-Z0T9h61LXd_73vlYE=/fit-in/200x150/filters:strip_icc()/pic8342856.jpg",
+   "query": "Dominion: Farm",
+   "at": "2026-11-25T01:51:52.250Z"
+  },
+  "ダイスタック日本語版": {
+   "label": "ダイスタック 日本語版",
+   "miss": true,
+   "at": "2026-11-25T01:51:54.832Z"
+  },
+  "マニラ": {
+   "label": "マニラ",
+   "miss": true,
+   "at": "2026-11-25T01:51:57.451Z"
+  },
+  "ザキングイズデッド": {
+   "label": "ザ・キング・イズ・デッド",
+   "miss": true,
+   "at": "2026-11-25T01:52:00.038Z"
+  },
+  "カール大帝": {
+   "label": "カール大帝",
+   "miss": true,
+   "at": "2026-11-25T01:52:02.632Z"
+  }
+ },
+ "updatedAt": "2026-11-25T01:52:02.632Z"
+}

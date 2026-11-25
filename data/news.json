@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T22:15:14.230Z",
+ "updatedAt": "2026-11-25T01:49:45.175Z",
  "sources": [
   {
    "name": "ホヌゲームズ",
@@ -60,6 +60,26 @@
   }
  ],
  "items": [
+  {
+   "title": "茨城つくばで「つくばボードゲームフェア2026」11月28日開催",
+   "url": "https://tgiw.info/2026/11/tsukuba-bg-fair2026.html",
+   "date": "2026-11-24T23:30:23.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": null
+  },
+  {
+   "title": "兵庫加古川で「第2回隠れ家フェスタ」11月28日開催",
+   "url": "https://tgiw.info/2026/11/kakurega-festa-2nd.html",
+   "date": "2026-11-24T22:54:56.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": null
+  },
   {
    "title": "Sushi Go Party!: Pickled Ginger Promo",
    "url": "https://boardgamegeekstore.com/products/sushi-go-party-pickled-ginger-promo",
@@ -385,31 +405,6 @@
    "kind": "news",
    "label": "ショップ",
    "vendor": "Rio Grande Games"
-  },
-  {
-   "title": "冬バージョン『コーヒーラッシュ：ウィンター』日本語版、11月27日発売",
-   "url": "https://tgiw.info/2026/11/coffee-rushwinterj.html",
-   "date": "2026-11-16T04:31:55.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事",
-   "release": {
-    "date": "2026-11-27",
-    "label": "11月27日",
-    "exact": true,
-    "kind": "発売"
-   }
-  },
-  {
-   "title": "東大阪で第2回「布施ボドゲフリマ」11月21日開催",
-   "url": "https://tgiw.info/2026/11/fuse-bgflm2.html",
-   "date": "2026-11-16T03:18:39.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事",
-   "release": null
   },
   {
    "title": "Garden Trilogy エラッタ情報",
@@ -9299,12 +9294,6 @@
   "https://tgiw.info/2026/11/kyoto-indie-bgfes2026.html": {
    "failedAt": "2026-11-24T22:15:14.230Z"
   },
-  "https://tgiw.info/2026/11/coffee-rushwinterj.html": {
-   "failedAt": "2026-11-24T22:15:14.230Z"
-  },
-  "https://tgiw.info/2026/11/fuse-bgflm2.html": {
-   "failedAt": "2026-11-24T22:15:14.230Z"
-  },
   "https://boardgamegeekstore.com/products/chiseled": "https://boardgamegeekstore.com/cdn/shop/files/BGG_Store_white_and_teal_large_eaf4da50-68bd-477c-8ca4-94991e834e00.png?v=1783347046&width=260",
   "https://boardgamegeekstore.com/blogs/news/april-2024-news-bites": "http://boardgamegeekstore.com/cdn/shop/articles/Real_vs._Fake_Store.png?v=1713563113",
   "https://boardgamegeekstore.com/blogs/news/march-2023-news-bites-1": "http://boardgamegeekstore.com/cdn/shop/articles/Store_Update_March_2024.png?v=1713561427",
@@ -9324,6 +9313,12 @@
   },
   "https://tgiw.info/2026/11/greenwoodj.html": {
    "failedAt": "2026-11-24T22:15:14.230Z"
+  },
+  "https://tgiw.info/2026/11/tsukuba-bg-fair2026.html": {
+   "failedAt": "2026-11-25T01:49:45.175Z"
+  },
+  "https://tgiw.info/2026/11/kakurega-festa-2nd.html": {
+   "failedAt": "2026-11-25T01:49:45.175Z"
   }
  }
 }

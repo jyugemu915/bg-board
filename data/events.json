@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T22:15:18.378Z",
+ "updatedAt": "2026-11-25T01:49:48.811Z",
  "status": [
   {
    "name": "ゲームマーケット公式",
@@ -9,7 +9,7 @@
   {
    "name": "ニュース記事",
    "ok": true,
-   "n": 3
+   "n": 4
   },
   {
    "name": "ボドゲーマ（宮城県）",
@@ -35,18 +35,6 @@
    "image": ""
   },
   {
-   "title": "布施ボドゲフリマ",
-   "date": "2026-11-21",
-   "end": "2026-11-21",
-   "place": "",
-   "pref": "大阪府",
-   "source": "Table Games in the World",
-   "url": "https://tgiw.info/2026/11/fuse-bgflm2.html",
-   "kind": "news",
-   "note": "東大阪で第2回「布施ボドゲフリマ」11月21日開催",
-   "image": ""
-  },
-  {
    "title": "遊盤会2026",
    "date": "2026-11-22",
    "end": "2026-11-22",
@@ -56,6 +44,30 @@
    "url": "https://tgiw.info/2026/11/asobankai2026.html",
    "kind": "news",
    "note": "大阪京橋でボードゲーム即売イベント「遊盤会2026」11月22日開催",
+   "image": ""
+  },
+  {
+   "title": "つくばボードゲームフェア2026",
+   "date": "2026-11-28",
+   "end": "2026-11-28",
+   "place": "",
+   "pref": "茨城県",
+   "source": "Table Games in the World",
+   "url": "https://tgiw.info/2026/11/tsukuba-bg-fair2026.html",
+   "kind": "news",
+   "note": "茨城つくばで「つくばボードゲームフェア2026」11月28日開催",
+   "image": ""
+  },
+  {
+   "title": "第2回隠れ家フェスタ",
+   "date": "2026-11-28",
+   "end": "2026-11-28",
+   "place": "",
+   "pref": "兵庫県",
+   "source": "Table Games in the World",
+   "url": "https://tgiw.info/2026/11/kakurega-festa-2nd.html",
+   "kind": "news",
+   "note": "兵庫加古川で「第2回隠れ家フェスタ」11月28日開催",
    "image": ""
   },
   {
