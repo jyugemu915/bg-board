@@ -1,4 +1,16 @@
 {
-  "_note": "BGGで箱絵を探したいゲーム名（所持ゲーム・気になるゲームなど）。英語名でも日本語名でも可。",
-  "names": ["パッチワーク", "ドミニオン"]
+  "_note": "names=BGGで箱絵を探したいゲーム名。aliases=日本語名→英語名（またはBGGのID番号）の対応表。見つからない時はここに足す。",
+  "names": [
+    "パッチワーク",
+    "ドミニオン"
+  ],
+  "aliases": {
+    "パンダロイヤル": "Panda Royale",
+    "コーヒーラッシュ": "Coffee Rush",
+    "マニラ": "Manila",
+    "ザ・キング・イズ・デッド": "The King Is Dead",
+    "カタン 航海者5-6人拡張版": "Catan: Seafarers – 5-6 Player Extension",
+    "パッチワーク": "Patchwork",
+    "ドミニオン": "Dominion"
+  }
 }

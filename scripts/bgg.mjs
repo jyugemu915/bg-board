@@ -22,15 +22,33 @@ async function api(path) {
 
 // ゲーム名の候補（「：」の前だけ、【】や「日本語版」を除いたもの）
 function variants(name) {
-  const base = name.replace(/【[^】]*】|\[[^\]]*\]|（[^）]*）|\([^)]*\)/g, "").replace(/日本語版|和訳付き|完全日本語版|新版/g, "").trim();
+  const base = name.replace(/【[^】]*】|\[[^\]]*\]|（[^）]*）|\([^)]*\)/g, "")
+    .replace(/完全日本語版|日本語版|和訳ルール付き|和訳付き|新版|拡張セット/g, "").replace(/\s+/g, " ").trim();
   const out = [base];
   const head = base.split(/[：:]/)[0].trim();
   if (head && head !== base) out.push(head);
+  const first = head.split(" ")[0];
+  if (first && first !== head) out.push(first);
   return [...new Set(out.filter((x) => x.length >= 2))];
+}
+// 日本語名→英語名（またはBGGのID）の対応表で置き換え
+function aliasFor(name) {
+  for (const v of [name, ...variants(name)]) { const a = ALIASES[norm(v)]; if (a) return a; }
+  return null;
+}
+
+async function thingById(id, q) {
+  const thing = await api(`thing?id=${id}`);
+  await sleep(2500);
+  return { id: String(id), name: dec(thing.match(/<name type="primary"[^>]*value="([^"]*)"/)?.[1] || ""),
+    image: dec(thing.match(/<image>([^<]+)<\/image>/)?.[1] || ""), thumb: dec(thing.match(/<thumbnail>([^<]+)<\/thumbnail>/)?.[1] || ""),
+    query: q, at: new Date().toISOString() };
 }
 
 async function lookup(name) {
-  for (const q of variants(name)) {
+  const alias = aliasFor(name);
+  if (alias && /^\d+$/.test(String(alias))) return await thingById(alias, "id:" + alias);
+  for (const q of alias ? [alias] : variants(name)) {
     const xml = await api(`search?query=${encodeURIComponent(q)}&type=boardgame,boardgameexpansion`);
     await sleep(2500);
     const items = [...xml.matchAll(/<item type="([^"]+)" id="(\d+)">([\s\S]*?)<\/item>/g)].map((m) => ({
@@ -56,6 +74,7 @@ const read = (p, d) => readFile(new URL(p, import.meta.url)).then((b) => JSON.pa
 const news = await read("../data/news.json", {});
 const extra = await read("../config/bgg-names.json", { names: [] });
 const db = await read("../data/bgg.json", { games: {} });
+const ALIASES = Object.fromEntries(Object.entries(extra.aliases || {}).map(([k, v]) => [norm(k), v]));
 
 // 調べる名前：発売カレンダー → 手動リスト（所持・気になる）→ ショップの商品名
 const names = [
@@ -68,12 +87,14 @@ for (const name of [...new Set(names)]) {
   const key = norm(name);
   if (!key) continue;
   const cur = db.games[key];
-  if (cur && !cur.miss) continue;
-  if (cur?.miss && Date.now() - Date.parse(cur.at) < RETRY_MISS_DAYS * 864e5) continue;
+  const alias = aliasFor(name);
+  if (cur && !cur.miss && (!alias || cur.alias === String(alias))) continue;
+  if (cur?.miss && !alias && Date.now() - Date.parse(cur.at) < RETRY_MISS_DAYS * 864e5) continue;
+  if (cur?.miss && alias && cur.alias === String(alias)) continue;
   if (n >= MAX_LOOKUPS) break;
   n++;
   try {
-    db.games[key] = { label: name, ...(await lookup(name)) };
+    db.games[key] = { label: name, ...(await lookup(name)), ...(alias ? { alias: String(alias) } : {}) };
     console.log(db.games[key].miss ? "MISS" : "OK  ", name, "→", db.games[key].name || "", db.games[key].id || "");
   } catch (e) { console.log("ERR ", name, e.message); if (/401|403/.test(e.message)) break; }
 }
