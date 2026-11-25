@@ -2,8 +2,13 @@
  "games": {
   "シャドウブロック": {
    "label": "シャドウ・ブロック",
-   "miss": true,
-   "at": "2026-11-25T01:50:20.521Z"
+   "id": "262443",
+   "name": "Shadow Blocks",
+   "image": "https://cf.geekdo-images.com/r1QSzDYD787v3WXWjYCXaQ__original/img/5eGOHtgCwnAljQWA9Cz3zGrKit4=/0x0/filters:format(png)/pic8992060.png",
+   "thumb": "https://cf.geekdo-images.com/r1QSzDYD787v3WXWjYCXaQ__small/img/AcAdFqyoB4pjpfrXX7JEN0dJyIA=/fit-in/200x150/filters:strip_icc()/pic8992060.png",
+   "query": "id:262443",
+   "at": "2026-11-25T02:17:04.440Z",
+   "alias": "262443"
   },
   "パンダロイヤルメイヘム拡張セット日本語版": {
    "label": "パンダロイヤル メイヘム拡張セット 日本語版",
@@ -37,18 +42,33 @@
   },
   "ザドーンオブパンゲア拡張ワイルドウッズ和訳ルール付き": {
    "label": "ザ・ドーン・オブ・パンゲア 拡張ワイルドウッズ 和訳ルール付き",
-   "miss": true,
-   "at": "2026-11-25T01:50:30.896Z"
+   "id": "456546",
+   "name": "The Dawn of Pangaea: Wild Woods",
+   "image": "https://cf.geekdo-images.com/SDH2V4t58CooxSFiqlsI9A__original/img/fWLkzlNZFIApVMtFNeWhw_yB334=/0x0/filters:format(jpeg)/pic9167725.jpg",
+   "thumb": "https://cf.geekdo-images.com/SDH2V4t58CooxSFiqlsI9A__small/img/0SRh07eRMcx_7AMQDjhPBgeRqq0=/fit-in/200x150/filters:strip_icc()/pic9167725.jpg",
+   "query": "id:456546",
+   "at": "2026-11-25T02:17:07.043Z",
+   "alias": "456546"
   },
   "ザドーンオブパンゲア和訳ルール付き": {
    "label": "ザ・ドーン・オブ・パンゲア 和訳ルール付き",
-   "miss": true,
-   "at": "2026-11-25T01:50:33.478Z"
+   "id": "449854",
+   "name": "The Dawn of Pangaea",
+   "image": "https://cf.geekdo-images.com/W62Tx2tMyW96AfqcbnkFhQ__original/img/8tzIEDAfWYaCbYXiE3oWYUtDAsA=/0x0/filters:format(jpeg)/pic8980030.jpg",
+   "thumb": "https://cf.geekdo-images.com/W62Tx2tMyW96AfqcbnkFhQ__small/img/uUO63dkOJhVwksn6TQwS-mR-_8Q=/fit-in/200x150/filters:strip_icc()/pic8980030.jpg",
+   "query": "id:449854",
+   "at": "2026-11-25T02:17:09.679Z",
+   "alias": "449854"
   },
   "オンダ和訳ルール付き": {
    "label": "オンダ 和訳ルール付き",
-   "miss": true,
-   "at": "2026-11-25T01:50:36.075Z"
+   "id": "416952",
+   "name": "ONDA",
+   "image": "https://cf.geekdo-images.com/Bf5dkTbOlpXz9LI3E6cHrQ__original/img/m8sohUbyyaIbxUohPegGpIU9P1U=/0x0/filters:format(png)/pic8931630.png",
+   "thumb": "https://cf.geekdo-images.com/Bf5dkTbOlpXz9LI3E6cHrQ__small/img/JPbGE-0ntoKB3YXhHTLXduMVn_0=/fit-in/200x150/filters:strip_icc()/pic8931630.png",
+   "query": "id:416952",
+   "at": "2026-11-25T02:17:12.323Z",
+   "alias": "416952"
   },
   "花嫁の引き立て役": {
    "label": "花嫁の引き立て役",
@@ -61,23 +81,43 @@
   },
   "クレイジーシャーロック和訳ルール付き": {
    "label": "クレイジーシャーロック 和訳ルール付き",
-   "miss": true,
-   "at": "2026-11-25T01:50:43.847Z"
+   "id": "410231",
+   "name": "Crazy Sherlock",
+   "image": "https://cf.geekdo-images.com/kn81bnQ_4M0xDfMC_0Q7Ng__original/img/BU9yTuTtG22jp9bgCSAMeDSbhfk=/0x0/filters:format(png)/pic7935193.png",
+   "thumb": "https://cf.geekdo-images.com/kn81bnQ_4M0xDfMC_0Q7Ng__small/img/ifQgFYKnKc85TAwgz22u1-mz6RY=/fit-in/200x150/filters:strip_icc()/pic7935193.png",
+   "query": "id:410231",
+   "at": "2026-11-25T02:17:15.028Z",
+   "alias": "410231"
   },
   "イエローブリックロード和訳ルール付き": {
    "label": "イエロー・ブリック・ロード 和訳ルール付き",
-   "miss": true,
-   "at": "2026-11-25T01:50:46.512Z"
+   "id": "410228",
+   "name": "Yellow Brick Road",
+   "image": "https://cf.geekdo-images.com/Q3vbYYr7S4JHg4rIdJxVXg__original/img/R6DsmFpLhHgkMcFiDnGa9BvT4sA=/0x0/filters:format(png)/pic7935167.png",
+   "thumb": "https://cf.geekdo-images.com/Q3vbYYr7S4JHg4rIdJxVXg__small/img/3qJSIRYmkG_Y33ArfXf9j_RR0xo=/fit-in/200x150/filters:strip_icc()/pic7935167.png",
+   "query": "id:410228",
+   "at": "2026-11-25T02:17:17.643Z",
+   "alias": "410228"
   },
   "ミゴ和訳ルール付き": {
    "label": "ミゴ 和訳ルール付き",
-   "miss": true,
-   "at": "2026-11-25T01:50:49.097Z"
+   "id": "410211",
+   "name": "Migo",
+   "image": "https://cf.geekdo-images.com/FyipVxhFgkh-CsEGUtAp9Q__original/img/Q0YR8KYV6kIF_vampBI2tUMk6N0=/0x0/filters:format(png)/pic7934481.png",
+   "thumb": "https://cf.geekdo-images.com/FyipVxhFgkh-CsEGUtAp9Q__small/img/Rj_vco_xsMKaMCOwMMlaKNk6ZNk=/fit-in/200x150/filters:strip_icc()/pic7934481.png",
+   "query": "id:410211",
+   "at": "2026-11-25T02:17:20.235Z",
+   "alias": "410211"
   },
   "フルーツカクテル和訳ルール付き": {
    "label": "フルーツカクテル 和訳ルール付き",
-   "miss": true,
-   "at": "2026-11-25T01:50:51.691Z"
+   "id": "454055",
+   "name": "Fruit Cocktail",
+   "image": "https://cf.geekdo-images.com/UXweztXhdYMwRT_9lgCsGQ__original/img/ui4yxlVxCiTNlzzS8UtpoRtgDG4=/0x0/filters:format(jpeg)/pic9096518.jpg",
+   "thumb": "https://cf.geekdo-images.com/UXweztXhdYMwRT_9lgCsGQ__small/img/YnUCV_tmX3VKlRh_8KGQdUzVdnA=/fit-in/200x150/filters:strip_icc()/pic9096518.jpg",
+   "query": "id:454055",
+   "at": "2026-11-25T02:17:22.835Z",
+   "alias": "454055"
   },
   "パンダロイヤルメイヘム拡張セット": {
    "label": "パンダロイヤル：メイヘム拡張セット",
@@ -111,13 +151,23 @@
   },
   "スペースラボ": {
    "label": "スペースラボ",
-   "miss": true,
-   "at": "2026-11-25T01:51:10.303Z"
+   "id": "449974",
+   "name": "Space Lab",
+   "image": "https://cf.geekdo-images.com/qdUo0pG_u4oN9wLSkl4uCg__original/img/0bp9TDJu-YyNM3G1X5OS8fpTkxE=/0x0/filters:format(png)/pic9092169.png",
+   "thumb": "https://cf.geekdo-images.com/qdUo0pG_u4oN9wLSkl4uCg__small/img/13BF2vxnbHxdxp327ZxlXtSvPXc=/fit-in/200x150/filters:strip_icc()/pic9092169.png",
+   "query": "id:449974",
+   "at": "2026-11-25T02:17:25.444Z",
+   "alias": "449974"
   },
   "グリーンウッド": {
    "label": "グリーンウッド",
-   "miss": true,
-   "at": "2026-11-25T01:51:12.980Z"
+   "id": "469383",
+   "name": "Greenwood",
+   "image": "https://cf.geekdo-images.com/oEOArg1-7vVbKQMZQsiiaw__original/img/I6FXIOMxNLtYLu7dFQIVwVv0iU4=/0x0/filters:format(jpeg)/pic9564394.jpg",
+   "thumb": "https://cf.geekdo-images.com/oEOArg1-7vVbKQMZQsiiaw__small/img/xkNUsqg23QVzTda2qtogqB7fqjA=/fit-in/200x150/filters:strip_icc()/pic9564394.jpg",
+   "query": "id:469383",
+   "at": "2026-11-25T02:17:28.033Z",
+   "alias": "469383"
   },
   "カタン航海者56人拡張版": {
    "label": "カタン 航海者5-6人拡張版",
@@ -131,8 +181,13 @@
   },
   "ガウディ": {
    "label": "ガウディ",
-   "miss": true,
-   "at": "2026-11-25T01:51:18.248Z"
+   "id": "457557",
+   "name": "Gaudí",
+   "image": "https://cf.geekdo-images.com/-U9k9Xp6HjBu5XtzQHgr2A__original/img/Zgm32FYEceIfGxIIRZ1W3YF-yEg=/0x0/filters:format(jpeg)/pic9200434.jpg",
+   "thumb": "https://cf.geekdo-images.com/-U9k9Xp6HjBu5XtzQHgr2A__small/img/nD-8XUSl-nYLDBlXjkWa_ppK00k=/fit-in/200x150/filters:strip_icc()/pic9200434.jpg",
+   "query": "id:457557",
+   "at": "2026-11-25T02:17:30.638Z",
+   "alias": "457557"
   },
   "パッチワーク": {
    "label": "パッチワーク",
@@ -165,8 +220,13 @@
   },
   "pi和訳ルール付き": {
    "label": "P.I 和訳ルール付き",
-   "miss": true,
-   "at": "2026-11-25T01:51:36.669Z"
+   "id": "463574",
+   "name": "P.I. (Second Edition)",
+   "image": "https://cf.geekdo-images.com/b1ZtdKOPY4p4fRYAUt2gyg__original/img/wsSsAFmNPtuf3gPe-qHi72pvZTg=/0x0/filters:format(jpeg)/pic9475573.jpg",
+   "thumb": "https://cf.geekdo-images.com/b1ZtdKOPY4p4fRYAUt2gyg__small/img/urXgaPxetHzyNfM3JpbUCBuk5QM=/fit-in/200x150/filters:strip_icc()/pic9475573.jpg",
+   "query": "id:463574",
+   "at": "2026-11-25T02:17:33.343Z",
+   "alias": "463574"
   },
   "issvanguardfearlesscrewminiexpansion": {
    "label": "ISS Vanguard: Fearless Crew Mini-Expansion",
@@ -197,8 +257,13 @@
   },
   "ダイスタック日本語版": {
    "label": "ダイスタック 日本語版",
-   "miss": true,
-   "at": "2026-11-25T01:51:54.832Z"
+   "id": "218640",
+   "name": "Dice Stack",
+   "image": "https://cf.geekdo-images.com/JBiD9b7bxX6pfQuo7MsmkA__original/img/-nfW5D3QrVb47zvMbOw1rZ59wzU=/0x0/filters:format(jpeg)/pic3370862.jpg",
+   "thumb": "https://cf.geekdo-images.com/JBiD9b7bxX6pfQuo7MsmkA__small/img/4sgptMdz3ygo28HVp0e3r32od5o=/fit-in/200x150/filters:strip_icc()/pic3370862.jpg",
+   "query": "id:218640",
+   "at": "2026-11-25T02:17:36.072Z",
+   "alias": "218640"
   },
   "マニラ": {
    "label": "マニラ",
@@ -222,8 +287,13 @@
   },
   "カール大帝": {
    "label": "カール大帝",
-   "miss": true,
-   "at": "2026-11-25T01:52:02.632Z"
+   "id": "481",
+   "name": "Carolus Magnus",
+   "image": "https://cf.geekdo-images.com/HT2eLqEbib9ptJQrVSzOfg__original/img/is7-nY98d2N5hHKJQb-Y_sTIFAA=/0x0/filters:format(jpeg)/pic130679.jpg",
+   "thumb": "https://cf.geekdo-images.com/HT2eLqEbib9ptJQrVSzOfg__small/img/4RDj_qLmtFClJUMdos8MKFmv4iM=/fit-in/200x150/filters:strip_icc()/pic130679.jpg",
+   "query": "id:481",
+   "at": "2026-11-25T02:17:38.674Z",
+   "alias": "481"
   },
   "ロミオとジュリエットifストーリー": {
    "label": "ロミオとジュリエットIFストーリー",
@@ -241,8 +311,13 @@
   },
   "モールキング": {
    "label": "モールキング",
-   "miss": true,
-   "at": "2026-11-25T01:56:06.587Z"
+   "id": "321334",
+   "name": "Mole King",
+   "image": "https://cf.geekdo-images.com/ug3AWMLfFLOSglc4DH9LGQ__original/img/cXQHMPfF5ZynbyUDYI6E94BtabU=/0x0/filters:format(png)/pic9796167.png",
+   "thumb": "https://cf.geekdo-images.com/ug3AWMLfFLOSglc4DH9LGQ__small/img/Ib-CNT4wwdK1PdlW7Zf3tOpk6Bo=/fit-in/200x150/filters:strip_icc()/pic9796167.png",
+   "query": "id:321334",
+   "at": "2026-11-25T02:17:41.648Z",
+   "alias": "321334"
   },
   "ヴァンパイアクイーン新版": {
    "label": "ヴァンパイアクイーン 新版",
@@ -261,8 +336,13 @@
   },
   "エイダの図書館エイダの書庫iボード版": {
    "label": "エイダの図書館(エイダの書庫) Iボード版",
-   "miss": true,
-   "at": "2026-11-25T01:56:19.681Z"
+   "id": "6481",
+   "name": "Ada&#039;s Library",
+   "image": "https://cf.geekdo-images.com/cWCRGb8aNTJjtsJ0mY_D-w__original/img/CrUTr0Yqnv6wGYKaYASfWjdwwzs=/0x0/filters:format(jpeg)/pic6474972.jpg",
+   "thumb": "https://cf.geekdo-images.com/cWCRGb8aNTJjtsJ0mY_D-w__small/img/3Ff2YCnR49EdTQIZotnNqoDmFYw=/fit-in/200x150/filters:strip_icc()/pic6474972.jpg",
+   "query": "id:6481",
+   "at": "2026-11-25T02:17:44.259Z",
+   "alias": "6481"
   },
   "チェスレース和訳ルール付き": {
    "label": "チェスレース 和訳ルール付き",
@@ -291,14 +371,23 @@
   },
   "アイスクールウィザーズbraingames": {
    "label": "アイスクール・ウィザーズ【Brain Games】",
-   "miss": true,
-   "at": "2026-11-25T01:56:35.319Z"
+   "id": "400371",
+   "name": "ICECOOL Wizards",
+   "image": "https://cf.geekdo-images.com/Cz6COWis7DxE3fnKyedMbQ__original/img/JBTPyD5v8uL1Dkdoad9CenUh50Q=/0x0/filters:format(jpeg)/pic7744342.jpg",
+   "thumb": "https://cf.geekdo-images.com/Cz6COWis7DxE3fnKyedMbQ__small/img/8FNe473DnVnmKy4DJ46n2s63-qo=/fit-in/200x150/filters:strip_icc()/pic7744342.jpg",
+   "query": "id:400371",
+   "at": "2026-11-25T02:17:46.960Z",
+   "alias": "400371"
   },
   "サンタズワークショップ2ndエディションelfcreekgames": {
    "label": "サンタズワークショップ 2ndエディション【ELF CREEK GAMES】",
-   "miss": true,
-   "at": "2026-11-25T02:07:22.882Z",
-   "alias": "Santa's Workshop"
+   "id": "353942",
+   "name": "Santa&#039;s Workshop (Second Edition)",
+   "image": "https://cf.geekdo-images.com/Kk5JiijhTOQUa16pABAx_Q__original/img/LkKPqqGvnkpU79qkhQwp_pmF9P0=/0x0/filters:format(jpeg)/pic6600823.jpg",
+   "thumb": "https://cf.geekdo-images.com/Kk5JiijhTOQUa16pABAx_Q__small/img/n6_KSqTtcsOc2HJS25e5KTFtzc4=/fit-in/200x150/filters:strip_icc()/pic6600823.jpg",
+   "query": "id:353942",
+   "at": "2026-11-25T02:17:49.555Z",
+   "alias": "353942"
   },
   "ファウンデイションオブメトロポリスarcanewonders": {
    "label": "ファウンデイション・オブ・メトロポリス【ARCANE WONDERS】",
@@ -312,18 +401,33 @@
   },
   "タップ4theopgames": {
    "label": "タップ4【THE OP GAMES】",
-   "miss": true,
-   "at": "2026-11-25T01:56:45.893Z"
+   "id": "404936",
+   "name": "Tap 4",
+   "image": "https://cf.geekdo-images.com/QcnyO_-XGjZOdoxVbaTKqQ__original/img/oUQ3qtlkPbyjd3FHP4S68VlQSVc=/0x0/filters:format(jpeg)/pic9476801.jpg",
+   "thumb": "https://cf.geekdo-images.com/QcnyO_-XGjZOdoxVbaTKqQ__small/img/9GHAJ467N9k6nJ17-e8gOMi_PHo=/fit-in/200x150/filters:strip_icc()/pic9476801.jpg",
+   "query": "id:404936",
+   "at": "2026-11-25T02:17:52.460Z",
+   "alias": "404936"
   },
   "ダイスクリームskelliggames": {
    "label": "ダイスクリーム【SKELLIG GAMES】",
-   "miss": true,
-   "at": "2026-11-25T01:56:48.474Z"
+   "id": "466776",
+   "name": "Dicecream",
+   "image": "https://cf.geekdo-images.com/kTfDT7mdRAZ_RAEuqr2f9w__original/img/hDV6LyAFRQnSecCsjO6BivGVpDI=/0x0/filters:format(png)/pic9483484.png",
+   "thumb": "https://cf.geekdo-images.com/kTfDT7mdRAZ_RAEuqr2f9w__small/img/VgOm_lnhvJQjNXP5mV6vshT8qL0=/fit-in/200x150/filters:strip_icc()/pic9483484.png",
+   "query": "id:466776",
+   "at": "2026-11-25T02:17:55.112Z",
+   "alias": "466776"
   },
   "フォーミダブルファーム2fspiele": {
    "label": "フォーミダブルファーム【2F-Spiele】",
-   "miss": true,
-   "at": "2026-11-25T01:56:51.052Z"
+   "id": "448500",
+   "name": "Formidable Farm",
+   "image": "https://cf.geekdo-images.com/lM_PvBOOUkxlnCxE0ihQSw__original/img/KXFAdscy6_J-LZrrIarcM8nRNxY=/0x0/filters:format(png)/pic8944743.png",
+   "thumb": "https://cf.geekdo-images.com/lM_PvBOOUkxlnCxE0ihQSw__small/img/_7IimWUxfwZING0SMETZ-3pPFQE=/fit-in/200x150/filters:strip_icc()/pic8944743.png",
+   "query": "id:448500",
+   "at": "2026-11-25T02:17:57.704Z",
+   "alias": "448500"
   },
   "フリップタウンwritestuffgames": {
    "label": "フリップタウン【WRITE STUFF GAMES】",
@@ -364,8 +468,13 @@
   },
   "17ダイスベッツmandoogames": {
    "label": "17ダイスベッツ【Mandoo Games】",
-   "miss": true,
-   "at": "2026-11-25T02:07:38.442Z"
+   "id": "460404",
+   "name": "17 Dice Bets",
+   "image": "https://cf.geekdo-images.com/i69vnofmhqBi4uI8T_5ZJQ__original/img/5LC6CNMBA6UxBqRTsFzSiovBKuo=/0x0/filters:format(png)/pic9296762.png",
+   "thumb": "https://cf.geekdo-images.com/i69vnofmhqBi4uI8T_5ZJQ__small/img/lJ0JyoPn41IxQP5ZuNW0hDcY444=/fit-in/200x150/filters:strip_icc()/pic9296762.png",
+   "query": "id:460404",
+   "at": "2026-11-25T02:18:00.372Z",
+   "alias": "460404"
   },
   "ブラッドハントmandoogames": {
    "label": "ブラッドハント【Mandoo Games】",
@@ -374,43 +483,83 @@
   },
   "ザクルーレスクラブmandoogames": {
    "label": "ザ・クルーレス・クラブ【Mandoo Games】",
-   "miss": true,
-   "at": "2026-11-25T02:07:43.764Z"
+   "id": "474102",
+   "name": "Clueless Club",
+   "image": "https://cf.geekdo-images.com/MlDt4Uv1w0ZgQR9h_-HvOg__original/img/Vo84Gm0mRBQ53vUL9br9ApnZhXg=/0x0/filters:format(png)/pic9680090.png",
+   "thumb": "https://cf.geekdo-images.com/MlDt4Uv1w0ZgQR9h_-HvOg__small/img/veI5mFmOdavTH1NcwWQMpnHPhIY=/fit-in/200x150/filters:strip_icc()/pic9680090.png",
+   "query": "id:474102",
+   "at": "2026-11-25T02:18:03.092Z",
+   "alias": "474102"
   },
   "ザグッドザバッドアンドザゴートmandoogames": {
    "label": "ザ・グッド・ザ・バッド・アンド・ザ・ゴート【Mandoo Games】",
-   "miss": true,
-   "at": "2026-11-25T02:07:46.365Z"
+   "id": "417561",
+   "name": "o BOM, o MAU e o BODE",
+   "image": "https://cf.geekdo-images.com/jjQuSFO-ZRsAF5miOQ4tGg__original/img/FA9tK2DFRAeCduckexSz8IR39hI=/0x0/filters:format(jpeg)/pic8104257.jpg",
+   "thumb": "https://cf.geekdo-images.com/jjQuSFO-ZRsAF5miOQ4tGg__small/img/oVcQqqznF0awklfkgRMB_3vYFMQ=/fit-in/200x150/filters:strip_icc()/pic8104257.jpg",
+   "query": "id:417561",
+   "at": "2026-11-25T02:18:05.688Z",
+   "alias": "417561"
   },
   "下田ペリーロードmandoogames": {
    "label": "下田ペリーロード【Mandoo Games】",
-   "miss": true,
-   "at": "2026-11-25T02:07:48.973Z"
+   "id": "460943",
+   "name": "Shimoda: Perry Road",
+   "image": "https://cf.geekdo-images.com/x1jxD_0EQ4IDPBzBDBUmXw__original/img/3CpkX5_wLxKSjvM6ysW5EhZwLsY=/0x0/filters:format(jpeg)/pic9300618.jpg",
+   "thumb": "https://cf.geekdo-images.com/x1jxD_0EQ4IDPBzBDBUmXw__small/img/-mRr7BqWKGbjEu04-HtyctidCks=/fit-in/200x150/filters:strip_icc()/pic9300618.jpg",
+   "query": "id:460943",
+   "at": "2026-11-25T02:18:08.696Z",
+   "alias": "460943"
   },
   "リストアmandoogames": {
    "label": "リストア【Mandoo Games】",
-   "miss": true,
-   "at": "2026-11-25T02:07:51.576Z"
+   "id": "470721",
+   "name": "Restore",
+   "image": "https://cf.geekdo-images.com/7-3BXfokdPBBwJgbbdLlAA__original/img/j2JdSrS3rvN_XHJzF4mZTb0R3Rk=/0x0/filters:format(png)/pic9626632.png",
+   "thumb": "https://cf.geekdo-images.com/7-3BXfokdPBBwJgbbdLlAA__small/img/NSdXt7w12eZtZIPpzN8x9bzhDHQ=/fit-in/200x150/filters:strip_icc()/pic9626632.png",
+   "query": "id:470721",
+   "at": "2026-11-25T02:18:11.576Z",
+   "alias": "470721"
   },
   "ジャストチリンmandoogames": {
    "label": "ジャスト・チリン【Mandoo Games】",
-   "miss": true,
-   "at": "2026-11-25T02:07:54.163Z"
+   "id": "470719",
+   "name": "Just Chillin",
+   "image": "https://cf.geekdo-images.com/XvcwvpbzVoXhZO6oxP277w__original/img/5yLC_5ED-I2zYc84raphrdC0KcY=/0x0/filters:format(png)/pic9582677.png",
+   "thumb": "https://cf.geekdo-images.com/XvcwvpbzVoXhZO6oxP277w__small/img/WXvHrUdeqE5nPAmID0x7AbYTfiU=/fit-in/200x150/filters:strip_icc()/pic9582677.png",
+   "query": "id:470719",
+   "at": "2026-11-25T02:18:14.256Z",
+   "alias": "470719"
   },
   "ライトナウmandoogames": {
    "label": "ライトナウ【Mandoo Games】",
-   "miss": true,
-   "at": "2026-11-25T02:07:56.769Z"
+   "id": "475499",
+   "name": "Right Now",
+   "image": "https://cf.geekdo-images.com/A-lQksPJMZPCny6_pjLfXg__original/img/l29MWEdfHX8SM2WqibxJKVmmxrI=/0x0/filters:format(png)/pic9716979.png",
+   "thumb": "https://cf.geekdo-images.com/A-lQksPJMZPCny6_pjLfXg__small/img/upsPxQoYs4ZVOeVfHeuu-GVKUDY=/fit-in/200x150/filters:strip_icc()/pic9716979.png",
+   "query": "id:475499",
+   "at": "2026-11-25T02:18:16.994Z",
+   "alias": "475499"
   },
   "ニッポン財閥エンペラーズエディション+メタルコインcrowdgames": {
    "label": "ニッポン：財閥 エンペラーズエディション+メタルコイン【CROWD GAMES】",
-   "miss": true,
-   "at": "2026-11-25T02:08:01.931Z"
+   "id": "434367",
+   "name": "Nippon: Zaibatsu",
+   "image": "https://cf.geekdo-images.com/bOs_Um4cUUOpKnypCMykJA__original/img/RE_9_-ioTp31Fq_r5GZ_XKVGwzw=/0x0/filters:format(png)/pic8844519.png",
+   "thumb": "https://cf.geekdo-images.com/bOs_Um4cUUOpKnypCMykJA__small/img/WLGTv9N3yOkGWZSki-c0nc-L_oY=/fit-in/200x150/filters:strip_icc()/pic8844519.png",
+   "query": "id:434367",
+   "at": "2026-11-25T02:18:19.640Z",
+   "alias": "434367"
   },
   "本体のみニッポン財閥エンペラーズエディションcrowdgames": {
    "label": "[本体のみ]ニッポン：財閥 エンペラーズエディション【CROWD GAMES】",
-   "miss": true,
-   "at": "2026-11-25T02:08:07.112Z"
+   "id": "434367",
+   "name": "Nippon: Zaibatsu",
+   "image": "https://cf.geekdo-images.com/bOs_Um4cUUOpKnypCMykJA__original/img/RE_9_-ioTp31Fq_r5GZ_XKVGwzw=/0x0/filters:format(png)/pic8844519.png",
+   "thumb": "https://cf.geekdo-images.com/bOs_Um4cUUOpKnypCMykJA__small/img/WLGTv9N3yOkGWZSki-c0nc-L_oY=/fit-in/200x150/filters:strip_icc()/pic8844519.png",
+   "query": "id:434367",
+   "at": "2026-11-25T02:18:22.248Z",
+   "alias": "434367"
   },
   "ゲーム備品ニッポン財閥専用メタルコインcrowdgames": {
    "label": "[ゲーム備品]ニッポン：財閥 専用メタルコイン【CROWD GAMES】",
@@ -423,5 +572,5 @@
    "at": "2026-11-25T02:08:15.055Z"
   }
  },
- "updatedAt": "2026-11-25T02:12:21.831Z"
+ "updatedAt": "2026-11-25T02:18:22.249Z"
 }
