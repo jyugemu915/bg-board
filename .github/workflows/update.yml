@@ -7,6 +7,9 @@ on:
     paths: ["config/**", "scripts/**"]
 permissions:
   contents: write
+concurrency:
+  group: update
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -25,4 +28,11 @@ jobs:
           git config user.name "bg-board-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data/
-          git diff --cached --quiet || (git commit -m "情報を更新" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "情報を更新"
+          # 実行中に別のpushがあっても保存できるよう、最新を取り込んで再試行（data/ はbotだけが書くので衝突しない）
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1
