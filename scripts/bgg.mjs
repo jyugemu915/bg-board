@@ -57,9 +57,10 @@ async function lookup(name) {
     }));
     if (!items.length) continue;
     const k = norm(q);
-    // 名前が完全一致するもの → 前方一致 → 新しい年のもの
-    const pick = items.find((i) => norm(i.name) === k) || items.find((i) => norm(i.name).startsWith(k))
-      || items.sort((a, b) => b.year - a.year)[0];
+    
+    // 名前が一致しないものは選ばない（取り違え防止）。対応表から引いた英語名は前方一致も許可
+    const pick = items.find((i) => norm(i.name) === k) || (alias || /^[\x00-\x7F]+$/.test(q) ? items.find((i) => norm(i.name).startsWith(k)) : null);
+    if (!pick) continue;
     const thing = await api(`thing?id=${pick.id}`);
     await sleep(2500);
     const image = dec(thing.match(/<image>([^<]+)<\/image>/)?.[1] || "");
