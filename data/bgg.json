@@ -250,8 +250,9 @@
    "name": "Vampire Queen",
    "image": "https://cf.geekdo-images.com/EpeH-L7442ujdThVdn19Fw__original/img/GJ2xy731GbBc1RGoKVxyG01VXG0=/0x0/filters:format(png)/pic6518975.png",
    "thumb": "https://cf.geekdo-images.com/EpeH-L7442ujdThVdn19Fw__small/img/OBoPZlzzK_Whm0ykEzRtozUXiQ8=/fit-in/200x150/filters:strip_icc()/pic6518975.png",
-   "query": "ヴァンパイアクイーン",
-   "at": "2026-11-25T01:56:11.818Z"
+   "query": "Vampire Queen",
+   "at": "2026-11-25T02:07:07.000Z",
+   "alias": "Vampire Queen"
   },
   "ペントリーニ": {
    "label": "ペントリーニ",
@@ -270,13 +271,23 @@
   },
   "フィアサムフロアーズ暗黒の大広間新版2fspiele": {
    "label": "フィアサム・フロアーズ（暗黒の大広間）新版【2F-Spiele】",
-   "miss": true,
-   "at": "2026-11-25T01:56:30.149Z"
+   "id": "7805",
+   "name": "Fearsome Floors",
+   "image": "https://cf.geekdo-images.com/vnZut6hUJywmtSutjSAcjQ__original/img/tbrdi8wrcGpfNQGoOVAwKWsHptg=/0x0/filters:format(png)/pic9525639.png",
+   "thumb": "https://cf.geekdo-images.com/vnZut6hUJywmtSutjSAcjQ__small/img/bAok0PH3R8mSSFmgBYHRZjUWAUY=/fit-in/200x150/filters:strip_icc()/pic9525639.png",
+   "query": "Fearsome Floors",
+   "at": "2026-11-25T02:07:14.835Z",
+   "alias": "Fearsome Floors"
   },
   "スペクタキュラーchilifoxgames": {
    "label": "スペクタキュラー【Chilifox Games】",
-   "miss": true,
-   "at": "2026-11-25T01:56:32.724Z"
+   "id": "415147",
+   "name": "Spectacular",
+   "image": "https://cf.geekdo-images.com/u94yxoPLSFHaVUaFQ5Rigg__original/img/Kj43C2Ob4ZK1FgMwgIoG7T58Qcs=/0x0/filters:format(png)/pic8046770.png",
+   "thumb": "https://cf.geekdo-images.com/u94yxoPLSFHaVUaFQ5Rigg__small/img/3P40v8VuHA4P9RH8TBnjlKJyvLU=/fit-in/200x150/filters:strip_icc()/pic8046770.png",
+   "query": "Spectacular",
+   "at": "2026-11-25T02:07:20.026Z",
+   "alias": "Spectacular"
   },
   "アイスクールウィザーズbraingames": {
    "label": "アイスクール・ウィザーズ【Brain Games】",
@@ -286,12 +297,18 @@
   "サンタズワークショップ2ndエディションelfcreekgames": {
    "label": "サンタズワークショップ 2ndエディション【ELF CREEK GAMES】",
    "miss": true,
-   "at": "2026-11-25T01:56:40.609Z"
+   "at": "2026-11-25T02:07:22.882Z",
+   "alias": "Santa's Workshop"
   },
   "ファウンデイションオブメトロポリスarcanewonders": {
    "label": "ファウンデイション・オブ・メトロポリス【ARCANE WONDERS】",
-   "miss": true,
-   "at": "2026-11-25T01:56:43.227Z"
+   "id": "412865",
+   "name": "Foundations of Metropolis",
+   "image": "https://cf.geekdo-images.com/w63l98O0Rm5yg5HW8ZNaBA__original/img/Ir-ywg7E99DFLbQ2eMhc3NcRTLo=/0x0/filters:format(png)/pic7991147.png",
+   "thumb": "https://cf.geekdo-images.com/w63l98O0Rm5yg5HW8ZNaBA__small/img/AIYdyWzqbidpZjliMnyRaIN_0us=/fit-in/200x150/filters:strip_icc()/pic7991147.png",
+   "query": "Foundations of Metropolis",
+   "at": "2026-11-25T02:07:28.080Z",
+   "alias": "Foundations of Metropolis"
   },
   "タップ4theopgames": {
    "label": "タップ4【THE OP GAMES】",
@@ -330,7 +347,81 @@
    "thumb": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__small/img/_dNNsSelyw9qUEOIXBRt6PE_1us=/fit-in/200x150/filters:strip_icc()/pic8780246.jpg",
    "query": "フリップ7",
    "at": "2026-11-25T01:57:09.254Z"
+  },
+  "ローリー": {
+   "label": "ローリー",
+   "miss": true,
+   "at": "2026-11-25T02:07:09.624Z"
+  },
+  "フリップ712デイズオブフリップマスtheopgames": {
+   "label": "フリップ7：12デイズ・オブ・フリップマス【THE OP GAMES】",
+   "id": "420087",
+   "name": "Flip 7",
+   "image": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__original/img/hK6k-x_GYfooemrkkRuF0bTvKxE=/0x0/filters:format(jpeg)/pic8780246.jpg",
+   "thumb": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__small/img/_dNNsSelyw9qUEOIXBRt6PE_1us=/fit-in/200x150/filters:strip_icc()/pic8780246.jpg",
+   "query": "フリップ7",
+   "at": "2026-11-25T02:07:35.856Z"
+  },
+  "17ダイスベッツmandoogames": {
+   "label": "17ダイスベッツ【Mandoo Games】",
+   "miss": true,
+   "at": "2026-11-25T02:07:38.442Z"
+  },
+  "ブラッドハントmandoogames": {
+   "label": "ブラッドハント【Mandoo Games】",
+   "miss": true,
+   "at": "2026-11-25T02:07:41.053Z"
+  },
+  "ザクルーレスクラブmandoogames": {
+   "label": "ザ・クルーレス・クラブ【Mandoo Games】",
+   "miss": true,
+   "at": "2026-11-25T02:07:43.764Z"
+  },
+  "ザグッドザバッドアンドザゴートmandoogames": {
+   "label": "ザ・グッド・ザ・バッド・アンド・ザ・ゴート【Mandoo Games】",
+   "miss": true,
+   "at": "2026-11-25T02:07:46.365Z"
+  },
+  "下田ペリーロードmandoogames": {
+   "label": "下田ペリーロード【Mandoo Games】",
+   "miss": true,
+   "at": "2026-11-25T02:07:48.973Z"
+  },
+  "リストアmandoogames": {
+   "label": "リストア【Mandoo Games】",
+   "miss": true,
+   "at": "2026-11-25T02:07:51.576Z"
+  },
+  "ジャストチリンmandoogames": {
+   "label": "ジャスト・チリン【Mandoo Games】",
+   "miss": true,
+   "at": "2026-11-25T02:07:54.163Z"
+  },
+  "ライトナウmandoogames": {
+   "label": "ライトナウ【Mandoo Games】",
+   "miss": true,
+   "at": "2026-11-25T02:07:56.769Z"
+  },
+  "ニッポン財閥エンペラーズエディション+メタルコインcrowdgames": {
+   "label": "ニッポン：財閥 エンペラーズエディション+メタルコイン【CROWD GAMES】",
+   "miss": true,
+   "at": "2026-11-25T02:08:01.931Z"
+  },
+  "本体のみニッポン財閥エンペラーズエディションcrowdgames": {
+   "label": "[本体のみ]ニッポン：財閥 エンペラーズエディション【CROWD GAMES】",
+   "miss": true,
+   "at": "2026-11-25T02:08:07.112Z"
+  },
+  "ゲーム備品ニッポン財閥専用メタルコインcrowdgames": {
+   "label": "[ゲーム備品]ニッポン：財閥 専用メタルコイン【CROWD GAMES】",
+   "miss": true,
+   "at": "2026-11-25T02:08:12.448Z"
+  },
+  "フォレージflatoutgames/aeg": {
+   "label": "フォレージ【FLATOUT GAMES / AEG】",
+   "miss": true,
+   "at": "2026-11-25T02:08:15.055Z"
   }
  },
- "updatedAt": "2026-11-25T01:57:09.254Z"
+ "updatedAt": "2026-11-25T02:08:15.055Z"
 }
