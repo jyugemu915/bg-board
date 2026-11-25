@@ -67,6 +67,14 @@ for (const b of layout) if (b.unreadOnly === undefined) b.unreadOnly = b.type ==
 let editing = false;
 let news = null, sources = null, events = null, bgg = null, crowd = null;
 fetch("data/crowd.json?" + Date.now()).then((r) => r.json()).then((d) => { crowd = d; render(); }).catch(() => {});
+// 写真から読み取った所持ゲーム（config/owned.json）を一度だけ取り込む。削除したものは戻さない
+let ownedGone = new Set(store.get("bgb.ownedgone.v1", []));
+fetch("config/owned.json?" + Date.now()).then((r) => r.json()).then((d) => {
+  const have = new Set(owned.map((g) => norm(g.name)));
+  const add = (d.games || []).filter((g) => g?.name && !have.has(norm(g.name)) && !ownedGone.has(norm(g.name)))
+    .map((g) => ({ name: g.name, bgg: g.bgg || "", from: g.from || "写真から登録", added: new Date().toISOString() }));
+  if (add.length) { owned = [...add, ...owned]; store.set(LS_OWNED, owned); render(); }
+}).catch(() => {});
 fetch("data/bgg.json?" + Date.now()).then((r) => r.json()).then((d) => { bgg = d; render(); }).catch(() => {});
 // BGGの箱絵：名前（または「：」の前）で引く
 function art(name) {
@@ -119,8 +127,8 @@ function renderBox(b) {
   el.querySelector(".bh h2").onclick = () => { b.collapsed = !b.collapsed; saveLayout(); render(); };
   if (b.collapsed) { [...el.children].slice(1).forEach((c) => c.remove()); el.classList.add("collapsed"); }
   el.addEventListener("click", (e) => {
-    const a = e.target.closest("a.row[data-u]");
-    if (a) { markRead([a.dataset.u]); a.classList.add("read"); }
+    const a = e.target.closest("a[data-u]");
+    if (a) { markRead([a.dataset.u]); (a.closest(".row") || a).classList.add("read"); }
   });
   return el;
 }
@@ -199,15 +207,30 @@ function ownedBox(b) {
   const el = boxShell(b, TYPES.owned.title, owned.length);
   const form = document.createElement("form");
   form.className = "add";
-  form.innerHTML = `<div class="r"><input name="name" placeholder="ゲーム名を追加" required><button>追加</button></div>
+  form.innerHTML = st.bulk
+    ? `<textarea name="names" rows="6" placeholder="1行に1つずつゲーム名を貼り付け"></textarea><div class="r"><span class="s" style="flex:1;font-size:12px;color:var(--muted)">登録済みの名前は飛ばします</span><button>まとめて追加</button></div>`
+    : `<div class="r"><input name="name" placeholder="ゲーム名を追加" required><button>追加</button></div>
     <input name="bgg" placeholder="BGGのURL（任意）" inputmode="url">`;
   form.onsubmit = (e) => {
     e.preventDefault();
     const f = new FormData(form);
-    owned.unshift({ name: f.get("name").trim(), bgg: f.get("bgg").trim(), added: new Date().toISOString() });
-    store.set(LS_OWNED, owned); render();
+    const have = new Set(owned.map((g) => norm(g.name)));
+    const list = st.bulk ? String(f.get("names")).split(/\n/).map((x) => x.replace(/^[\s・\-*\d.、)]+/, "").trim()).filter(Boolean)
+      : [f.get("name").trim()];
+    const now = new Date().toISOString();
+    for (const name of list) {
+      if (have.has(norm(name))) continue;
+      have.add(norm(name)); ownedGone.delete(norm(name));
+      owned.unshift({ name, bgg: st.bulk ? "" : f.get("bgg").trim(), added: now });
+    }
+    store.set(LS_OWNED, owned); store.set("bgb.ownedgone.v1", [...ownedGone]); st.bulk = false; render();
   };
   el.appendChild(form);
+  const tg = document.createElement("div");
+  tg.className = "chips";
+  tg.innerHTML = `<button class="chip ghost">${st.bulk ? "1件ずつ追加に戻す" : "まとめて追加"}</button>`;
+  tg.querySelector("button").onclick = () => { st.bulk = !st.bulk; render(); };
+  el.appendChild(tg);
   if (owned.length > 5) {
     const q = document.createElement("form");
     q.className = "add";
@@ -220,15 +243,15 @@ function ownedBox(b) {
   el.appendChild(list);
   function drawList() {
     const rows = owned.map((g, idx) => ({ g, idx })).filter(({ g }) => !st.q || g.name.toLowerCase().includes(st.q.toLowerCase()));
-    list.innerHTML = rows.length ? "" : `<div class="empty">まだ登録がありません。上の欄から追加できます。</div>`;
+    list.innerHTML = rows.length ? "" : `<div class="empty">まだ登録がありません。上の欄から追加するか、棚の写真をチャットで送ってもらえればまとめて登録します。</div>`;
     for (const { g, idx } of rows) {
       const r = document.createElement("div");
       r.className = "row";
       const gimg = art(g.name);
       r.innerHTML = `<div class="thumb" ${gimg ? `style="background-image:url('${esc(gimg)}')"` : ""}>${gimg ? "" : "🎲"}</div><div class="rt"><div class="t">${esc(g.name)}</div>
-        <div class="s">${g.bgg ? `<a href="${esc(g.bgg)}" target="_blank" rel="noopener">BGGを開く ↗</a>` : "BGG未設定"}</div></div>
+        <div class="s">${g.bgg ? `<a href="${esc(g.bgg)}" target="_blank" rel="noopener">BGGを開く ↗</a>` : "BGG未設定"}${g.from ? ` ・ ${esc(g.from)}` : ""}</div></div>
         <button class="x" title="削除">✕</button>`;
-      r.querySelector(".x").onclick = () => { if (confirm(`「${g.name}」を削除しますか？`)) { owned.splice(idx, 1); store.set(LS_OWNED, owned); render(); } };
+      r.querySelector(".x").onclick = () => { if (confirm(`「${g.name}」を削除しますか？`)) { ownedGone.add(norm(g.name)); store.set("bgb.ownedgone.v1", [...ownedGone]); owned.splice(idx, 1); store.set(LS_OWNED, owned); render(); } };
       list.appendChild(r);
     }
   }
@@ -343,33 +366,57 @@ function calendarBox(b) {
 
 // ---- ショップ入荷 ----
 const STATUS = { soon: "予約前・近日", sale: "販売中", sold: "売切" };
+let hiddenShop = new Set(store.get("bgb.hiddenshop.v1", []));
+// 商品名からゲーム名だけを取り出す（気になるゲームに登録するとき用）
+const gameName = (t) => t.replace(/【[^】]*】|\[[^\]]*\]|（[^）]*）|\([^)]*\)/g, "")
+  .replace(/完全日本語版|日本語版|和訳ルール付き|和訳付き|新版/g, "").replace(/\s+/g, " ").trim() || t;
 function shopBox(b) {
   const st = (ui[b.id] ||= { f: "新入荷", src: "すべて", n: 5 });
   const week = new Date(Date.now() - 7 * 864e5).toISOString();
   const allShop = (news?.items || []).filter((i) => i.label === "ショップ");
-  let items = b.unreadOnly ? allShop.filter((i) => !read.has(i.url)) : allShop;
+  const visible = allShop.filter((i) => !hiddenShop.has(i.url));
+  let items = b.unreadOnly ? visible.filter((i) => !read.has(i.url)) : visible;
   const isNew = (i) => (i.saleAt && i.saleAt >= week) || (i.firstSeen && i.firstSeen >= week);
-  const filters = { "新入荷": isNew, "予約前・近日": (i) => i.status === "soon", "販売中": (i) => i.status === "sale", "売切": (i) => i.status === "sold", "すべて": () => true };
-  const shown = items.filter(filters[st.f]).sort((a, c) => (c.date || "").localeCompare(a.date || ""));
-  const el = boxShell(b, TYPES.shop.title, allShop.length, allShop.filter((i) => !read.has(i.url)).length);
+  const filters = { "新入荷": isNew, "⭐気になる": (i) => isWatched(i.title) || isWatched(gameName(i.title)), "予約前・近日": (i) => i.status === "soon", "販売中": (i) => i.status === "sale", "売切": (i) => i.status === "sold", "すべて": () => true };
+  const hidden = allShop.filter((i) => hiddenShop.has(i.url));
+  const tabItems = (k) => k === "非表示" ? hidden : items.filter(filters[k]);
+  const shown = tabItems(st.f).sort((a, c) => (c.date || "").localeCompare(a.date || ""));
+  const el = boxShell(b, TYPES.shop.title, visible.length, visible.filter((i) => !read.has(i.url)).length);
   const chips = document.createElement("div");
   chips.className = "chips";
-  for (const k of Object.keys(filters)) {
+  for (const k of [...Object.keys(filters), ...(hidden.length ? ["非表示"] : [])]) {
     const c = document.createElement("button");
-    c.className = "chip" + (st.f === k ? " on" : "");
-    c.textContent = `${k} ${items.filter(filters[k]).length}`;
+    c.className = "chip" + (st.f === k ? " on" : "") + (k === "非表示" ? " ghost" : "");
+    c.textContent = `${k} ${tabItems(k).length}`;
     c.onclick = () => { st.f = k; st.n = 5; render(); };
     chips.appendChild(c);
   }
-  readControls(b, allShop, chips);
+  readControls(b, visible, chips);
   el.appendChild(chips);
-  if (!shown.length) el.insertAdjacentHTML("beforeend", `<div class="empty">${st.f === "新入荷" ? "この7日間の新入荷はありません。新しく並んだ商品や、販売が始まった商品がここに出ます。" : "該当する商品がありません。"}</div>`);
+  const msg = { "新入荷": "この7日間の新入荷はありません。新しく並んだ商品や、販売が始まった商品がここに出ます。", "⭐気になる": "☆を押した商品や、気になるゲームに登録した名前に合う商品がここに出ます。" };
+  if (!shown.length) el.insertAdjacentHTML("beforeend", `<div class="empty">${msg[st.f] || "該当する商品がありません。"}</div>`);
   for (const i of shown.slice(0, st.n)) {
     const when = i.saleAt ? `${md(i.saleAt)} ${i.restock ? "再入荷" : "販売開始"}` : i.firstSeen ? `${md(i.firstSeen)} 掲載` : "";
-    el.insertAdjacentHTML("beforeend", `<a class="row${read.has(i.url) ? " read" : ""}" data-u="${esc(i.url)}" href="${esc(i.url)}" target="_blank" rel="noopener">
-      <div class="thumb" ${i.image ? `style="background-image:url('${esc(i.image)}')"` : ""}>${i.image ? "" : "🛒"}</div>
-      <div class="rt"><div class="t">${esc(i.title)}</div><div class="s">${esc(i.source)}${i.price ? " ・ " + esc(i.price) : ""}<span class="tag st-${i.status}">${STATUS[i.status] || ""}</span>${i.restock ? `<span class="tag new">再入荷</span>` : ""}</div></div>
-      <div class="rd">${when}</div></a>`);
+    const starred = isWatched(i.title) || isWatched(gameName(i.title));
+    const row = document.createElement("div");
+    row.className = "row" + (read.has(i.url) ? " read" : "") + (starred ? " starred" : "");
+    row.innerHTML = `<div class="thumb" ${i.image ? `style="background-image:url('${esc(i.image)}')"` : ""}>${i.image ? "" : "🛒"}</div>
+      <a class="rt" data-u="${esc(i.url)}" href="${esc(i.url)}" target="_blank" rel="noopener"><div class="t">${esc(i.title)}</div><div class="s wrap">${esc(i.source)}${i.price ? " ・ " + esc(i.price) : ""}<span class="tag st-${i.status}">${STATUS[i.status] || ""}</span>${i.restock ? `<span class="tag new">再入荷</span>` : ""}${when ? " ・ " + when : ""}</div></a>
+      <div class="acts">${st.f === "非表示"
+        ? `<button data-a="show" title="表示に戻す">↩︎</button>`
+        : `<button data-a="star" class="${starred ? "on" : ""}" title="気になる">${starred ? "★" : "☆"}</button><button data-a="hide" title="興味なし">✕</button>`}</div>`;
+    row.querySelectorAll("[data-a]").forEach((btn) => btn.onclick = () => {
+      const a = btn.dataset.a, name = gameName(i.title);
+      if (a === "star") {
+        if (starred) watch = watch.filter((w) => ![i.title, name].some((t) => norm(t).includes(norm(w.q)) || norm(w.q).includes(norm(t))));
+        else watch.unshift({ q: name, added: new Date().toISOString() });
+        store.set(LS_WATCH, watch);
+      } else if (a === "hide") hiddenShop.add(i.url);
+      else if (a === "show") hiddenShop.delete(i.url);
+      if (a !== "star") store.set("bgb.hiddenshop.v1", [...hiddenShop]);
+      render();
+    });
+    el.appendChild(row);
   }
   if (shown.length > st.n) {
     const m = document.createElement("button");

@@ -74,13 +74,15 @@ async function lookup(name) {
 const read = (p, d) => readFile(new URL(p, import.meta.url)).then((b) => JSON.parse(b)).catch(() => d);
 const news = await read("../data/news.json", {});
 const extra = await read("../config/bgg-names.json", { names: [] });
+const ownedCfg = await read("../config/owned.json", { games: [] });
 const db = await read("../data/bgg.json", { games: {} });
 const ALIASES = Object.fromEntries(Object.entries(extra.aliases || {}).map(([k, v]) => [norm(k), v]));
 
-// 調べる名前：発売カレンダー → 手動リスト（所持・気になる）→ ショップの商品名
+// 調べる名前：発売カレンダー → 手動リスト（所持・気になる）→ 写真から登録した所持ゲーム → ショップの商品名
 const names = [
   ...(news.releases || []).map((r) => r.game),
   ...(extra.names || []),
+  ...(ownedCfg.games || []).map((g) => g.name),
   ...(news.items || []).filter((i) => i.label === "ショップ").map((i) => i.title),
 ];
 let n = 0;
