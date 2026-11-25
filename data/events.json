@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T04:28:51.223Z",
+ "updatedAt": "2026-11-25T10:26:49.521Z",
  "status": [
   {
    "name": "ゲームマーケット公式",
@@ -14,7 +14,7 @@
   {
    "name": "ボドゲーマ（宮城県）",
    "ok": true,
-   "n": 5
+   "n": 6
   }
  ],
  "trips": [],
@@ -249,6 +249,19 @@
    "tag": "営業",
    "place": "ひよこの杜",
    "url": "https://x.com/hiyoko__forest"
+  },
+  {
+   "title": "1/16(土)新春🎍小牛田おんべこボードゲーム会〜エンジョイして遊ぼう♪〜#30",
+   "date": "2027-01-16",
+   "end": "2027-01-16",
+   "time": "13:00〜19:30",
+   "place": "美里町駅東地域交流センター / 遠田郡美里町駅東２丁目１７−４",
+   "pref": "宮城県",
+   "price": "400円",
+   "source": "ボドゲーマ",
+   "url": "https://bodoge.hoobby.net/events/34163",
+   "kind": "local",
+   "image": "https://image-bodoge.cdn-hoobby.net/small_light(dw=1200,dh=630,cw=1200,ch=630,da=s,ds=s,q=90,cc=FFFFFF)/event_image_67c7c3b3-54f5-4dca-a7eb-91ac90d3ce32.jpeg"
   },
   {
    "title": "ゲームマーケット2027春",
