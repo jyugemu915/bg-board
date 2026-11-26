@@ -188,7 +188,7 @@
   {
    "name": "バグハント",
    "from": "写真 11/26",
-   "bgg": ""
+   "bgg": "https://boardgamegeek.com/boardgame/338425"
   },
   {
    "name": "地獄の釜",
@@ -309,7 +309,7 @@
   {
    "name": "プロジェクトL",
    "from": "写真 11/26",
-   "bgg": ""
+   "bgg": "https://boardgamegeek.com/boardgame/260180"
   },
   {
    "name": "スタック・オー・キャッツ",
@@ -404,7 +404,7 @@
   {
    "name": "トリックテイカーズ",
    "from": "写真 11/26",
-   "bgg": ""
+   "bgg": "https://boardgamegeek.com/boardgame/343566"
   },
   {
    "name": "モノポリー（TOMY版）",
@@ -420,6 +420,12 @@
    "name": "ミスターダイヤモンド",
    "from": "写真 11/26",
    "bgg": ""
+  },
+  {
+   "name": "Factoria: Forbidden Walkers",
+   "from": "拡張一覧から追加",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/419925",
+   "parent": "ファクトリア"
   }
  ]
 }
