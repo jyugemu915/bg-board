@@ -83,7 +83,9 @@ fetch("config/owned.json?" + Date.now()).then((r) => r.json()).then((d) => {
     // 本体との紐づけ・同梱メモ・BGGリンクはファイルに合わせる（画面で変えたものは除く）
     for (const f of ["parent", "includes", "bgg"]) if (g[f] && cur[f] !== g[f] && !(cur.edited || []).includes(f)) { cur[f] = g[f]; changed = true; }
   }
-  const add = (d.games || []).filter((g) => g?.name && !have.has(norm(g.name)) && !ownedGone.has(norm(g.name)))
+  // 画面の「＋所持」で先に登録した拡張（同じBGG ID）は、もう一度取り込まない
+  const uiIds = new Set(owned.filter((g) => g.from === "拡張一覧から追加").map(bggId).filter(Boolean));
+  const add = (d.games || []).filter((g) => g?.name && !have.has(norm(g.name)) && !ownedGone.has(norm(g.name)) && !uiIds.has(bggId(g)))
     .map((g) => ({ name: g.name, key: norm(g.name), bgg: g.bgg || "", ...(g.parent ? { parent: g.parent } : {}), ...(g.includes ? { includes: g.includes } : {}),
       from: g.from || "写真から登録", added: new Date().toISOString() }));
   if (add.length) { owned = [...add, ...owned]; changed = true; }
@@ -119,7 +121,14 @@ async function loadData() {
 
 function saveLayout() { store.set(LS_LAYOUT, layout); }
 
+// ページ：ホーム（ボード）／所持ゲーム（#owned）
+const page = () => (location.hash === "#owned" ? "owned" : "home");
 function render() {
+  const pg = page();
+  document.body.dataset.page = pg;
+  document.querySelectorAll(".tabs a").forEach((a) => a.classList.toggle("on", a.dataset.pg === pg));
+  if (pg === "owned") return renderOwnedPage();
+  drawSheet?.();
   const cols = document.querySelectorAll(".col");
   cols.forEach((c) => (c.innerHTML = ""));
   for (const b of layout) cols[b.col]?.appendChild(renderBox(b));
@@ -272,221 +281,7 @@ function ownedTitle(g, parent) {
   return { main: ja, sub: "" };
 }
 
-function ownedBox(b) {
-  const st = (ui[b.id] ||= { q: "", n: 5, open: {}, edit: null, info: null });
-  const has = (n) => owned.some((x) => norm(x.name) === norm(n));
-  const bases = owned.filter((g) => !g.parent || !has(g.parent));   // 本体が登録されていない拡張は単独で表示
-  const kidsOf = (g) => owned.filter((x) => x.parent && norm(x.parent) === norm(g.name));
-  const el = boxShell(b, TYPES.owned.title, bases.length);
-  const expN = owned.length - bases.length;
-  if (expN) el.querySelector(".count").insertAdjacentHTML("afterend", `<span class="count">＋拡張 ${expN}</span>`);
-  const form = document.createElement("form");
-  form.className = "add";
-  const baseNames = owned.filter((g) => !g.parent).map((g) => g.name);
-  form.innerHTML = st.bulk
-    ? `<textarea name="names" rows="6" placeholder="1行に1つずつゲーム名を貼り付け"></textarea><div class="r"><span class="s" style="flex:1;font-size:12px;color:var(--muted)">登録済みの名前は飛ばします</span><button>まとめて追加</button></div>`
-    : `<div class="r"><input name="name" placeholder="ゲーム名を追加" required><button>追加</button></div>
-    <input name="parent" list="ownedBases" placeholder="拡張のときは本体の名前（任意）"><datalist id="ownedBases">${baseNames.map((n) => `<option value="${esc(n)}">`).join("")}</datalist>
-    <input name="bgg" placeholder="BGGのURL（任意）" inputmode="url">`;
-  form.onsubmit = (e) => {
-    e.preventDefault();
-    const f = new FormData(form);
-    const have = new Set(owned.map((g) => norm(g.name)));
-    const list = st.bulk ? String(f.get("names")).split(/\n/).map((x) => x.replace(/^[\s・\-*\d.、)]+/, "").trim()).filter(Boolean)
-      : [f.get("name").trim()];
-    const now = new Date().toISOString();
-    for (const name of list) {
-      if (have.has(norm(name))) continue;
-      have.add(norm(name)); ownedGone.delete(norm(name));
-      const g = { name, key: norm(name), bgg: st.bulk ? "" : f.get("bgg").trim(), added: now };
-      const parent = st.bulk ? "" : String(f.get("parent") || "").trim();
-      if (parent) { g.parent = parent; st.open[norm(parent)] = true; }
-      owned.unshift(g);
-    }
-    store.set(LS_OWNED, owned); store.set("bgb.ownedgone.v1", [...ownedGone]); st.bulk = false; render();
-  };
-  el.appendChild(form);
-  const tg = document.createElement("div");
-  tg.className = "chips";
-  tg.innerHTML = `<button class="chip ghost" data-a="bulk">${st.bulk ? "1件ずつ追加に戻す" : "まとめて追加"}</button>
-    <span class="chipsep">表記</span>${[["both", "両方"], ["ja", "日本語"], ["en", "English"]].map(([k, l]) => `<button class="chip${nameMode === k ? " on" : ""}" data-nm="${k}">${l}</button>`).join("")}`;
-  tg.querySelector("[data-a=bulk]").onclick = () => { st.bulk = !st.bulk; render(); };
-  tg.querySelectorAll("[data-nm]").forEach((x) => x.onclick = () => { nameMode = x.dataset.nm; store.set("bgb.ownedname.v2", nameMode); render(); });
-  el.appendChild(tg);
-  if (bases.length > 5) {
-    const q = document.createElement("form");
-    q.className = "add";
-    q.innerHTML = `<input placeholder="検索（英語名・拡張名でも探せます）" value="${esc(st.q)}">`;
-    q.querySelector("input").oninput = (e) => { st.q = e.target.value; st.n = 5; drawList(); };
-    q.onsubmit = (e) => e.preventDefault();
-    el.appendChild(q);
-  }
-  const list = document.createElement("div");
-  el.appendChild(list);
-  const save = () => { store.set(LS_OWNED, owned); render(); };
-  function del(g) {
-    if (!confirm(`「${g.name}」を削除しますか？`)) return;
-    ownedGone.add(okey(g)); ownedGone.add(norm(g.name)); store.set("bgb.ownedgone.v1", [...ownedGone]);
-    owned = owned.filter((x) => x !== g); save();
-  }
-  function makeRow(g, parent, tags) {
-    const r = document.createElement("div");
-    r.className = parent ? "row sub" : "row";
-    const img = ownedImg(g), t = ownedTitle(g, parent), pl = playersText(g);
-    r.innerHTML = `<div class="thumb" ${img ? `style="background-image:url('${esc(img)}')"` : ""}>${img ? "" : parent ? "🧩" : "🎲"}</div><div class="rt"><div class="t">${esc(t.main)}${tags}</div>
-      ${t.sub ? `<div class="en">${esc(t.sub)}</div>` : ""}
-      <div class="s">${pl ? `<span class="pl">👥 ${esc(pl)}</span> ・ ` : ""}${g.bgg ? `<a href="${esc(g.bgg)}" target="_blank" rel="noopener">BGG ↗</a>` : "BGG未設定"}${g.from ? ` ・ ${esc(g.from)}` : ""}</div></div>
-      <div class="acts"><button data-a="edit" class="${st.edit === g ? "on" : ""}" title="編集">✎</button></div>`;
-    r.querySelector("[data-a=edit]").onclick = () => { st.edit = st.edit === g ? null : g; st.info = null; drawList(); };
-    r.querySelector(".rt").style.cursor = "pointer";
-    r.querySelector(".rt").addEventListener("click", (e) => { if (e.target.closest("a,.tg")) return; st.info = st.info === g ? null : g; st.edit = null; drawList(); });
-    return r;
-  }
-  // 詳細パネル：BGGの情報と、拡張の一覧（所持に追加できる）
-  function infoPanel(g) {
-    const i = oinfo(g);
-    const p = document.createElement("div");
-    p.className = "oinfo";
-    if (!i) { p.innerHTML = `<div class="s">${bggId(g) ? "BGGの情報は次の自動取得のあとに表示されます。" : "BGGのURLを登録すると（✎から）、人数やメカニクスなどが表示されます。"}</div>`; return p; }
-    const facts = [
-      i.minp && ["人数", `${i.minp === i.maxp ? i.minp : `${i.minp}〜${i.maxp}`}人${i.best ? `（ベスト ${i.best}人` : ""}${i.rec ? `${i.best ? "・" : "（"}推奨 ${i.rec}人）` : i.best ? "）" : ""}`],
-      (i.time || i.minTime) && ["時間", i.minTime && i.maxTime && i.minTime !== i.maxTime ? `${i.minTime}〜${i.maxTime}分` : `${i.time || i.minTime}分`],
-      i.year && ["発売年", `${i.year}年`], i.age && ["対象年齢", `${i.age}歳〜`],
-      i.weight && ["重さ", `${i.weight} / 5`], i.rating && ["BGG評価", `${i.rating}${i.rank ? `（${i.rank}位）` : ""}`],
-      i.designers?.length && ["デザイナー", i.designers.join("、")],
-    ].filter(Boolean);
-    const mech = (i.mechanics || []).map((m) => `<span class="mchip">${esc(MECH[m] || m)}</span>`).join("");
-    p.innerHTML = `<dl>${facts.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")}</dl>${mech ? `<div class="mechs">${mech}</div>` : ""}`;
-    const exps = (i.expansions || []).filter((e) => !/fan expansion/i.test(e.name))
-      .sort((a, c) => /promo/i.test(a.name) - /promo/i.test(c.name) || (expInfo[c.id]?.year || 0) - (expInfo[a.id]?.year || 0));
-    if (exps.length) {
-      const ownedIds = new Set(owned.map(bggId).filter(Boolean));
-      const n = st.expN || 6;
-      const h = document.createElement("div");
-      h.className = "lbl"; h.textContent = `拡張（BGG ${exps.length}件）`;
-      p.appendChild(h);
-      for (const e of exps.slice(0, n)) {
-        const x = expInfo[e.id] || {};
-        const have = ownedIds.has(e.id) || owned.some((o) => norm(o.nameEn || o.name) === norm(e.name));
-        const r = document.createElement("div");
-        r.className = "xrow";
-        r.innerHTML = `<div class="thumb" ${x.thumb ? `style="background-image:url('${esc(x.thumb)}')"` : ""}>${x.thumb ? "" : "🧩"}</div>
-          <a class="rt" href="https://boardgamegeek.com/boardgameexpansion/${e.id}" target="_blank" rel="noopener"><div class="t">${esc(e.name)}</div><div class="s">${x.year ? x.year + "年" : ""}</div></a>
-          ${have ? `<span class="tag">所持</span>` : `<button class="addx">＋所持</button>`}`;
-        r.querySelector(".addx")?.addEventListener("click", () => {
-          owned.unshift({ name: e.name, nameEn: e.name, key: norm(e.name), bgg: `https://boardgamegeek.com/boardgameexpansion/${e.id}`, parent: g.name, from: "拡張一覧から追加", added: new Date().toISOString() });
-          ownedGone.delete(norm(e.name)); st.open[norm(g.name)] = true; save();
-        });
-        p.appendChild(r);
-      }
-      if (exps.length > n) {
-        const m = document.createElement("button");
-        m.className = "more"; m.textContent = `拡張をさらに表示（全 ${exps.length} 件）`;
-        m.onclick = () => { st.expN = n + 20; drawList(); };
-        p.appendChild(m);
-      }
-    }
-    return p;
-  }
-  // 編集パネル：名前・英語名・本体・人数・BGG・箱絵の選択・削除
-  function editPanel(g) {
-    const i = oinfo(g);
-    const p = document.createElement("form");
-    p.className = "add oedit";
-    const choices = [];
-    if (i?.thumb) choices.push({ thumb: i.thumb, label: "BGG標準" });
-    for (const v of i?.versions || []) choices.push({ thumb: v.thumb, label: [v.lang, v.year].filter(Boolean).join(" ") || v.name });
-    const auto = art(g.name);
-    if (auto && !choices.some((c) => c.thumb === auto)) choices.push({ thumb: auto, label: "自動" });
-    let pick = g.img || "";
-    p.innerHTML = `<label>日本語名<input name="name" value="${esc(g.name)}"></label>
-      <label>英語名<input name="nameEn" value="${esc(g.nameEn || "")}" placeholder="${esc(i?.en || "BGGから自動で入ります")}"></label>
-      <div class="r"><label>本体（拡張のとき）<input name="parent" list="ownedBases2" value="${esc(g.parent || "")}"></label>
-        <label>人数・時間<input name="players" value="${esc(g.players || "")}" placeholder="${esc(playersText({ ...g, players: "" }) || "例：2〜4人・45分")}"></label></div>
-      <datalist id="ownedBases2">${baseNames.filter((n) => n !== g.name).map((n) => `<option value="${esc(n)}">`).join("")}</datalist>
-      <label>同梱メモ<input name="includes" value="${esc(g.includes || "")}" placeholder="例：拡張2つ入り"></label>
-      <label>BGGのURL<input name="bgg" value="${esc(g.bgg || "")}" inputmode="url" placeholder="https://boardgamegeek.com/boardgame/…"></label>
-      <div class="lbl">箱絵${choices.length ? "（タップで選択）" : ""}</div>
-      <div class="arts">${choices.map((c) => `<button type="button" class="art${pick === c.thumb || (!pick && c.label === "BGG標準") ? " on" : ""}" data-t="${esc(c.thumb)}" style="background-image:url('${esc(c.thumb)}')"><span>${esc(c.label)}</span></button>`).join("")}
-        ${!choices.length ? `<div class="s" style="font-size:12px;color:var(--muted)">${bggId(g) ? "BGGから候補を取得中です（次の自動取得のあと表示されます）" : "BGGのURLを入れると、版ごとの箱絵から選べるようになります"}</div>` : ""}</div>
-      <input name="img" value="${esc(choices.some((c) => c.thumb === pick) ? "" : pick)}" inputmode="url" placeholder="画像のURLを直接指定（BGGにない版など）">
-      <div class="r"><button type="button" class="ghostbtn" data-a="del">削除</button><span style="flex:1"></span><button type="button" class="ghostbtn" data-a="close">閉じる</button><button>保存</button></div>`;
-    p.querySelectorAll(".art").forEach((x) => x.onclick = () => {
-      pick = x.dataset.t; p.querySelectorAll(".art").forEach((y) => y.classList.toggle("on", y === x)); p.img.value = "";
-    });
-    p.querySelector("[data-a=close]").onclick = () => { st.edit = null; drawList(); };
-    p.querySelector("[data-a=del]").onclick = () => del(g);
-    p.onsubmit = (e) => {
-      e.preventDefault();
-      const f = Object.fromEntries(new FormData(p));
-      const edited = new Set(g.edited || []);
-      const oldName = g.name;
-      g.key ||= norm(oldName);
-      if (f.name.trim() && f.name.trim() !== oldName) {
-        g.name = f.name.trim();
-        for (const x of owned) if (x.parent && norm(x.parent) === norm(oldName)) x.parent = g.name;   // 拡張の紐づけも付け替え
-      }
-      for (const k of ["nameEn", "players", "parent", "includes", "bgg"]) {
-        const v = f[k].trim();
-        if (v !== (g[k] || "")) { if (v) g[k] = v; else delete g[k]; if (["parent", "includes", "bgg"].includes(k)) edited.add(k); }
-      }
-      const img = f.img.trim() || (pick && pick !== i?.thumb ? pick : "");
-      if (img) g.img = img; else delete g.img;
-      g.edited = [...edited];
-      st.edit = null; save();
-    };
-    return p;
-  }
-  function drawList() {
-    const k = norm(st.q);
-    const hit = (g) => [g.name, enName(g)].some((t) => norm(t).includes(k));
-    const rows = bases.map((g) => ({ g, kids: kidsOf(g) }))
-      .map((r) => ({ ...r, hitKid: k && r.kids.some(hit) }))
-      .filter((r) => !k || hit(r.g) || r.hitKid);
-    list.innerHTML = rows.length ? "" : `<div class="empty">${k ? "見つかりません。" : "まだ登録がありません。上の欄から追加するか、棚の写真をチャットで送ってもらえればまとめて登録します。"}</div>`;
-    for (const { g, kids, hitKid } of rows.slice(0, st.n)) {
-      const open = st.open[norm(g.name)] || hitKid || kids.includes(st.edit);
-      const tags = (kids.length ? `<span class="tag rel tg">${open ? "▾" : "▸"} 拡張 ${kids.length}</span>` : "")
-        + (g.includes ? `<span class="tag">${esc(g.includes)}</span>` : "") + (g.parent ? `<span class="tag">拡張</span>` : "");
-      const r = makeRow(g, null, tags);
-      r.querySelector(".tg")?.addEventListener("click", () => { st.open[norm(g.name)] = !st.open[norm(g.name)]; drawList(); });
-      list.appendChild(r);
-      if (st.edit === g) list.appendChild(editPanel(g));
-      if (st.info === g) list.appendChild(infoPanel(g));
-      if (open) for (const x of kids) {
-        list.appendChild(makeRow(x, g, ""));
-        if (st.edit === x) list.appendChild(editPanel(x));
-        if (st.info === x) list.appendChild(infoPanel(x));
-      }
-    }
-    if (rows.length > st.n) {
-      const m = document.createElement("button");
-      m.className = "more"; m.textContent = `さらに表示（全 ${rows.length} 件）`;
-      m.onclick = () => { st.n += 20; drawList(); };
-      list.appendChild(m);
-    }
-  }
-  drawList();
-  const foot = document.createElement("div");
-  foot.className = "foot";
-  foot.innerHTML = `<button type="button" data-a="exp">書き出し</button><label>読み込み<input type="file" accept=".json" hidden></label>`;
-  foot.querySelector("[data-a=exp]").onclick = () => {
-    const blob = new Blob([JSON.stringify(owned, null, 1)], { type: "application/json" });
-    const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: "owned-games.json" });
-    a.click();
-  };
-  foot.querySelector("input").onchange = async (e) => {
-    try {
-      const arr = JSON.parse(await e.target.files[0].text());
-      if (!Array.isArray(arr)) throw 0;
-      const have = new Set(owned.map((g) => g.name));
-      owned = [...owned, ...arr.filter((g) => g?.name && !have.has(g.name))];
-      save();
-    } catch { alert("読み込めないファイルです"); }
-  };
-  el.appendChild(foot);
-  return el;
-}
+// 所持ゲームのボックスと専用ページは owned.js
 
 function xBox(b) {
   const makers = [...(sources?.makers || []), ...(sources?.places || [])].filter((m) => m.x);
@@ -993,5 +788,6 @@ document.querySelectorAll("[data-add]").forEach((btn) => btn.onclick = () => {
   saveLayout(); render();
 });
 
+window.addEventListener("hashchange", () => { window.scrollTo(0, 0); render(); });
 loadData();
 loadFunding();

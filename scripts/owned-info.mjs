@@ -1,17 +1,20 @@
-// 所持ゲームの詳細（英語名・日本語名・人数・推奨人数・時間・発売年・重さ・評価・メカニクス・デザイナー・版ごとの箱絵・拡張一覧）を
+// 所持ゲームの詳細（英語名・日本語名・人数・推奨人数・時間・発売年・重さ・評価・メカニクス・カテゴリー・デザイナー・アーティスト・出版社・説明文・版ごとの箱絵・拡張一覧）を
 // BGG から取って data/owned-info.json に貯める
 // 対象：config/owned.json の bgg（URL）から読み取った ID。所持ゲームの拡張一覧に出てくる拡張は簡易情報（exps）だけ取る
 import { readFile, writeFile } from "node:fs/promises";
 
 const TOKEN = process.env.BGG_TOKEN;
 if (!TOKEN) { console.log("BGG_TOKEN が未設定のためスキップ"); process.exit(0); }
-const MAX = 40;              // 1回の実行で取得する件数
+const MAX = 50;              // 1回の実行で取得する件数
 const REFRESH_DAYS = 60;     // 取り直すまでの日数
 const MAX_VERSIONS = 24;     // 箱絵の候補として残す版の数
-const SCHEMA = 2;            // 取得項目を増やしたら上げる（全件取り直し）
+const SCHEMA = 3;            // 取得項目を増やしたら上げる（全件取り直し）
 const EXP_BATCHES = 15;      // 拡張の簡易情報：1回の実行で取る束の数（1束20件）
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const dec = (s = "") => s.replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#039;/g, "'").replace(/&#39;/g, "'").replace(/&lt;/g, "<").replace(/&gt;/g, ">");
+const dec1 = (s = "") => s.replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n)).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+  .replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&ndash;/g, "–").replace(/&mdash;/g, "—")
+  .replace(/&hellip;/g, "…").replace(/&rsquo;|&lsquo;/g, "'").replace(/&rdquo;|&ldquo;/g, '"').replace(/&nbsp;/g, " ").replace(/&amp;/g, "&");
+const dec = (s = "") => dec1(dec1(s));   // 説明文は二重にエスケープされている
 const read = (p, d) => readFile(new URL(p, import.meta.url)).then((b) => JSON.parse(b)).catch(() => d);
 const idOf = (url) => String(url || "").match(/boardgame(?:expansion)?\/(\d+)/)?.[1];
 
@@ -26,6 +29,11 @@ async function api(path) {
 }
 const attr = (xml, tag, type) => dec(xml.match(new RegExp(`<${tag}${type ? ` type="${type}"` : ""}[^>]*value="([^"]*)"`))?.[1] || "");
 const text = (xml, tag) => dec(xml.match(new RegExp(`<${tag}>([^<]+)</${tag}>`))?.[1] || "").trim();
+// 説明文：改行を整えて長すぎる分は切る
+const desc = (xml) => {
+  const t = text(xml, "description").replace(/\r/g, "").replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
+  return t.length > 1500 ? t.slice(0, 1500).replace(/\s+\S*$/, "") + "…" : t;
+};
 
 async function info(id) {
   const xml = await api(`thing?id=${id}&versions=1&stats=1`);
@@ -53,6 +61,10 @@ async function info(id) {
     rank: +main.match(/<rank type="subtype"[^>]*name="boardgame"[^>]*value="(\d+)"/)?.[1] || null,
     mechanics: links("boardgamemechanic").map((m) => dec(m[2])), categories: links("boardgamecategory").map((m) => dec(m[2])),
     designers: links("boardgamedesigner").map((m) => dec(m[2])).filter((x) => x !== "(Uncredited)"),
+    artists: links("boardgameartist").map((m) => dec(m[2])).filter((x) => x !== "(Uncredited)").slice(0, 10),
+    publishers: links("boardgamepublisher").map((m) => dec(m[2])).filter((x) => !/^\((Unknown|Self-Published|Public Domain)\)$/.test(x)).slice(0, 12),
+    families: links("boardgamefamily").map((m) => dec(m[2])).filter((x) => !/^(Admin|Players|Crowdfunding|Digital Implementations|Misc|Versions)/.test(x)).slice(0, 12),
+    desc: desc(main),
     expansions: links("boardgameexpansion").filter((m) => !m[3]).map((m) => ({ id: m[1], name: dec(m[2]) })),
     bases: links("boardgameexpansion").filter((m) => m[3]).map((m) => ({ id: m[1], name: dec(m[2]) })),
     en: attr(main, "name", "primary"), ja: alts.find((n) => /[぀-ヿ]/.test(n)) || "",

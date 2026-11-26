@@ -6,13 +6,14 @@
 <meta name="theme-color" content="#f1eee6">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <title>ボドゲ情報ボード</title>
-<link rel="stylesheet" href="style.css?v=20261126d">
+<link rel="stylesheet" href="style.css?v=20261126e">
 </head>
 <body>
 <header class="top">
   <div class="brand">🎲 <b>ボドゲ情報ボード</b></div>
   <button id="editBtn" class="pill">並べ替え</button>
 </header>
+<nav class="tabs"><a href="#" data-pg="home">ホーム</a><a href="#owned" data-pg="owned">所持ゲーム</a></nav>
 <main>
   <div class="pagehead">
     <h1>ホーム</h1>
@@ -33,8 +34,10 @@
     <button data-add="reset" class="ghost">初期配置に戻す</button>
   </div>
   <div id="board" class="board"><div class="col" data-col="0"></div><div class="col" data-col="1"></div></div>
+  <div id="ownedPage" class="opage"></div>
   <p class="credit"><a href="https://boardgamegeek.com" target="_blank" rel="noopener">Powered by BGG</a></p>
 </main>
-<script src="app.js?v=20261126d"></script>
+<script src="app.js?v=20261126e"></script>
+<script src="owned.js?v=20261126e"></script>
 </body>
 </html>
