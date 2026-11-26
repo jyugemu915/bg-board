@@ -1,4 +1,160 @@
 {
-  "_note": "写真などから読み取った所持ゲーム。ボードを開いたときに所持ゲームへ一度だけ取り込まれる（ボード側で削除したものは戻らない）。from=どこから登録したか",
-  "games": []
+ "_note": "写真などから読み取った所持ゲーム。ボードを開いたときに所持ゲームへ一度だけ取り込まれる（ボード側で削除したものは戻らない）。from=どこから登録したか",
+ "games": [
+  {
+   "name": "マジックメイズ・タワー",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/396749"
+  },
+  {
+   "name": "キャプテンフリップ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/393325"
+  },
+  {
+   "name": "ハンザ・テウトニカ ビッグボックス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/286749"
+  },
+  {
+   "name": "ファーストラット",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/347703"
+  },
+  {
+   "name": "イスタンブール",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/148949"
+  },
+  {
+   "name": "ラッツ・オブ・ウィスター",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/387780"
+  },
+  {
+   "name": "ニュートン",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/244711"
+  },
+  {
+   "name": "クルセイダーズ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/170624"
+  },
+  {
+   "name": "ブルームサービス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/172308"
+  },
+  {
+   "name": "ゴールデンチケット",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/342010"
+  },
+  {
+   "name": "キャメルアップ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/260605"
+  },
+  {
+   "name": "ラトルボーンズ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/150146"
+  },
+  {
+   "name": "グロウスカイ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/428682"
+  },
+  {
+   "name": "チャレンジャーズ！",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/359970"
+  },
+  {
+   "name": "キュビトス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/298069"
+  },
+  {
+   "name": "エルドラドを探して",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/217372"
+  },
+  {
+   "name": "エルドラドを探して 拡張：黄金の神殿",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/271615"
+  },
+  {
+   "name": "スノープランナー ビッグボックス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/394094"
+  },
+  {
+   "name": "マーキュリアル：アルケミア",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/389094"
+  },
+  {
+   "name": "キープ・ザ・ヒーローズ・アウト",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/333255"
+  },
+  {
+   "name": "キープ・ザ・ヒーローズ・アウト 拡張：ボスバトル",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/394150"
+  },
+  {
+   "name": "キープ・ザ・ヒーローズ・アウト 拡張：アンダーグラウンドマーケット",
+   "from": "写真 11/26",
+   "bgg": ""
+  },
+  {
+   "name": "ギルド・オブ・マーチャント・エクスプローラーズ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/350933"
+  },
+  {
+   "name": "ブラフ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/45"
+  },
+  {
+   "name": "バンドゥ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/1231"
+  },
+  {
+   "name": "スチームパンクラリー フュージョン",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/298229"
+  },
+  {
+   "name": "ホリデーヒルズ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/421217"
+  },
+  {
+   "name": "キャンバス ビッグボックス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/290236"
+  },
+  {
+   "name": "コンパニア",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/436511"
+  },
+  {
+   "name": "タペストリー",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/286096"
+  },
+  {
+   "name": "レキシオ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/19184"
+  }
+ ]
 }

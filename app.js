@@ -203,7 +203,7 @@ function newsBox(b) {
 }
 
 function ownedBox(b) {
-  const st = (ui[b.id] ||= { q: "" });
+  const st = (ui[b.id] ||= { q: "", n: 5 });
   const el = boxShell(b, TYPES.owned.title, owned.length);
   const form = document.createElement("form");
   form.className = "add";
@@ -235,7 +235,7 @@ function ownedBox(b) {
     const q = document.createElement("form");
     q.className = "add";
     q.innerHTML = `<input placeholder="検索" value="${esc(st.q)}">`;
-    q.querySelector("input").oninput = (e) => { st.q = e.target.value; drawList(); };
+    q.querySelector("input").oninput = (e) => { st.q = e.target.value; st.n = 5; drawList(); };
     q.onsubmit = (e) => e.preventDefault();
     el.appendChild(q);
   }
@@ -244,7 +244,7 @@ function ownedBox(b) {
   function drawList() {
     const rows = owned.map((g, idx) => ({ g, idx })).filter(({ g }) => !st.q || g.name.toLowerCase().includes(st.q.toLowerCase()));
     list.innerHTML = rows.length ? "" : `<div class="empty">まだ登録がありません。上の欄から追加するか、棚の写真をチャットで送ってもらえればまとめて登録します。</div>`;
-    for (const { g, idx } of rows) {
+    for (const { g, idx } of rows.slice(0, st.n)) {
       const r = document.createElement("div");
       r.className = "row";
       const gimg = art(g.name);
@@ -253,6 +253,12 @@ function ownedBox(b) {
         <button class="x" title="削除">✕</button>`;
       r.querySelector(".x").onclick = () => { if (confirm(`「${g.name}」を削除しますか？`)) { ownedGone.add(norm(g.name)); store.set("bgb.ownedgone.v1", [...ownedGone]); owned.splice(idx, 1); store.set(LS_OWNED, owned); render(); } };
       list.appendChild(r);
+    }
+    if (rows.length > st.n) {
+      const m = document.createElement("button");
+      m.className = "more"; m.textContent = `さらに表示（全 ${rows.length} 件）`;
+      m.onclick = () => { st.n += 20; drawList(); };
+      list.appendChild(m);
     }
   }
   drawList();
