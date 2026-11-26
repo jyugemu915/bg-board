@@ -537,7 +537,7 @@ function editPanel(g) {
     const flags = FLAGS.map(([k]) => k).filter((k) => f["flag_" + k]);
     if (flags.join() !== (g.flags || []).join()) { if (flags.length) g.flags = flags; else delete g.flags; edited.add("flags"); }
     const img = f.img.trim() || (pick && pick !== i?.thumb ? pick : "");
-    if (img) g.img = img; else delete g.img;
+    if (img !== (g.img || "")) { if (img) g.img = img; else delete g.img; edited.add("img"); }
     g.edited = [...edited];
     OS.edit = false; saveOwned();
   };

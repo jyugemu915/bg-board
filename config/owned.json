@@ -1,5 +1,5 @@
 {
- "_note": "写真などから読み取った所持ゲーム。ボードを開いたときに所持ゲームへ取り込まれる（ボード側で削除したものは戻らない）。flags=状態（unopened=未開封, untranslated=未訳, unplayed=未プレイ）。parent=拡張のときの本体名、includes=本体の箱に入れている拡張などのメモ。既に取り込み済みでも parent / includes / bgg はこのファイルの内容で更新される",
+ "_note": "写真などから読み取った所持ゲーム。ボードを開いたときに所持ゲームへ取り込まれる（ボード側で削除したものは戻らない）。flags=状態（unopened=未開封, untranslated=未訳, unplayed=未プレイ）。parent=拡張のときの本体名、includes=本体の箱に入れている拡張などのメモ。img=箱絵の画像URL（BGGにないゲーム用）。既に取り込み済みでも parent / includes / bgg / flags / img はこのファイルの内容で更新される（画面で編集した項目は除く）",
  "games": [
   {
    "name": "マジックメイズ・タワー",
@@ -213,7 +213,8 @@
   {
    "name": "クランプス ホリデーハボック",
    "from": "写真 11/26",
-   "bgg": ""
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/446476",
+   "parent": "ホリデーヒルズ"
   },
   {
    "name": "プロポリス",
@@ -223,7 +224,7 @@
   {
    "name": "ペイバック",
    "from": "写真 11/26",
-   "bgg": ""
+   "bgg": "https://boardgamegeek.com/boardgame/443601"
   },
   {
    "name": "ブリュー",
@@ -258,7 +259,9 @@
   {
    "name": "ログ",
    "from": "写真 11/26",
-   "bgg": ""
+   "bgg": "",
+   "img": "https://baseec-img-mng.akamaized.net/images/item/origin/ad07917199d3d9f45b96affb296d3fc9.jpg?imformat=generic&q=90&im=Resize,width=600,type=normal",
+   "link": "https://bandbcaravan.official.ec/items/86240492"
   },
   {
    "name": "ビーコンパトロール",
@@ -419,7 +422,7 @@
   {
    "name": "ミスターダイヤモンド",
    "from": "写真 11/26",
-   "bgg": ""
+   "bgg": "https://boardgamegeek.com/boardgame/3762"
   },
   {
    "name": "Factoria: Forbidden Walkers",
