@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T06:51:31.262Z",
+ "updatedAt": "2026-11-26T07:58:02.237Z",
  "sources": [
   {
    "name": "ホヌゲームズ",
@@ -60,6 +60,21 @@
   }
  ],
  "items": [
+  {
+   "title": "ダイスを見て素早く引き抜く！『クォルク』日本語版、12月下旬発売",
+   "url": "https://tgiw.info/2026/11/qorkj.html",
+   "date": "2026-11-26T07:07:41.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": {
+    "date": "2026-12-25",
+    "label": "12月下旬",
+    "exact": false,
+    "kind": "発売"
+   }
+  },
   {
    "title": "おばけにおばけを重ねて進め『おばけのかえりみち』11月26日発売",
    "url": "https://tgiw.info/2026/11/ghosts-way-home.html",
@@ -403,21 +418,6 @@
    "release": {
     "date": "2026-12-11",
     "label": "12月11日",
-    "exact": true,
-    "kind": "発売"
-   }
-  },
-  {
-   "title": "リアルタイムで注文達成『コーヒーラッシュ：テイクアウト』日本語版、11月27日発売",
-   "url": "https://tgiw.info/2026/11/coffee-rush-grab-goj.html",
-   "date": "2026-11-17T00:14:50.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事",
-   "release": {
-    "date": "2026-11-27",
-    "label": "11月27日",
     "exact": true,
     "kind": "発売"
    }
@@ -1174,10 +1174,10 @@
    "label": "ショップ"
   },
   {
-   "title": "フィアサム・フロアーズ（暗黒の大広間）新版【2F-Spiele】",
-   "url": "https://bluefinch.base.shop/items/155280641",
-   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/54ca8f984998112ff55874fcc6f6333e.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
-   "price": "6,930円",
+   "title": "フォーミダブルファーム【2F-Spiele】",
+   "url": "https://bluefinch.base.shop/items/149788614",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/0194a7719ba37666898e7db388c49700.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "price": "6,237円",
    "status": "sale",
    "firstSeen": null,
    "saleAt": null,
@@ -1187,10 +1187,10 @@
    "label": "ショップ"
   },
   {
-   "title": "フォーミダブルファーム【2F-Spiele】",
-   "url": "https://bluefinch.base.shop/items/149788614",
-   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/0194a7719ba37666898e7db388c49700.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
-   "price": "6,237円",
+   "title": "フィアサム・フロアーズ（暗黒の大広間）新版【2F-Spiele】",
+   "url": "https://bluefinch.base.shop/items/155280641",
+   "image": "https://baseec-img-mng.akamaized.net/images/item/origin/54ca8f984998112ff55874fcc6f6333e.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
+   "price": "6,930円",
    "status": "sale",
    "firstSeen": null,
    "saleAt": null,
@@ -1822,6 +1822,22 @@
      "source": "Table Games in the World",
      "url": "https://tgiw.info/2026/11/gaudij.html",
      "title": "モザイクを作って3つの柱を伸ばす『ガウディ』日本語版、12月18日発売"
+    }
+   ]
+  },
+  {
+   "key": "a:クォルク:2026-12-25",
+   "game": "クォルク",
+   "date": "2026-12-25",
+   "label": "12月下旬",
+   "exact": false,
+   "type": "発売",
+   "image": "",
+   "links": [
+    {
+     "source": "Table Games in the World",
+     "url": "https://tgiw.info/2026/11/qorkj.html",
+     "title": "ダイスを見て素早く引き抜く！『クォルク』日本語版、12月下旬発売"
     }
    ]
   }
@@ -9361,9 +9377,6 @@
   "https://tgiw.info/2026/11/catan-seafarers5-6j.html": {
    "failedAt": "2026-11-25T22:15:48.471Z"
   },
-  "https://tgiw.info/2026/11/coffee-rush-grab-goj.html": {
-   "failedAt": "2026-11-25T22:15:48.471Z"
-  },
   "https://boardgamegeekstore.com/blogs/news/april-2024-news-bites": "http://boardgamegeekstore.com/cdn/shop/articles/Real_vs._Fake_Store.png?v=1713563113",
   "https://boardgamegeekstore.com/blogs/news/march-2023-news-bites-1": "http://boardgamegeekstore.com/cdn/shop/articles/Store_Update_March_2024.png?v=1713561427",
   "https://boardgamegeekstore.com/blogs/news/february-2024-news-bites": "http://boardgamegeekstore.com/cdn/shop/articles/Store_Update_February_2024.png?v=1713561443",
@@ -9391,6 +9404,9 @@
   },
   "https://tgiw.info/2026/11/ghosts-way-home.html": {
    "failedAt": "2026-11-26T01:42:37.233Z"
+  },
+  "https://tgiw.info/2026/11/qorkj.html": {
+   "failedAt": "2026-11-26T07:58:02.237Z"
   }
  }
 }
