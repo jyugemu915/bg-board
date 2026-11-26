@@ -957,8 +957,13 @@
   },
   "バグハント": {
    "label": "バグハント",
-   "miss": true,
-   "at": "2026-11-26T02:23:43.220Z"
+   "id": "338425",
+   "name": "Bug Hunt",
+   "image": "https://cf.geekdo-images.com/SxTb7CG1j8acE3wii1b-JQ__original/img/_5_SMgCd1imTdkxGO1Pj6kClBQY=/0x0/filters:format(jpeg)/pic6164326.jpg",
+   "thumb": "https://cf.geekdo-images.com/SxTb7CG1j8acE3wii1b-JQ__small/img/4GUgZjMsvafbaSHb-HaKhpcKglg=/fit-in/200x150/filters:strip_icc()/pic6164326.jpg",
+   "query": "id:338425",
+   "at": "2026-11-26T07:59:57.768Z",
+   "alias": "338425"
   },
   "地獄の釜": {
    "label": "地獄の釜",
@@ -1179,8 +1184,9 @@
    "name": "Project L",
    "image": "https://cf.geekdo-images.com/Zwx2ZXS6r6PaxhkaVEe75Q__original/img/nBfsV9V5a-xc3uJkYhE0DN-QVjI=/0x0/filters:format(jpeg)/pic4309147.jpg",
    "thumb": "https://cf.geekdo-images.com/Zwx2ZXS6r6PaxhkaVEe75Q__small/img/3x5kSxZlvLK6PdeMHX9xd_sSTMs=/fit-in/200x150/filters:strip_icc()/pic4309147.jpg",
-   "query": "プロジェクトL",
-   "at": "2026-11-26T03:16:20.805Z"
+   "query": "id:260180",
+   "at": "2026-11-26T08:00:00.371Z",
+   "alias": "260180"
   },
   "スタックオーキャッツ": {
    "label": "スタック・オー・キャッツ",
@@ -1354,8 +1360,13 @@
   },
   "トリックテイカーズ": {
    "label": "トリックテイカーズ",
-   "miss": true,
-   "at": "2026-11-26T03:31:25.115Z"
+   "id": "343566",
+   "name": "TRICKTAKERs",
+   "image": "https://cf.geekdo-images.com/82FhiRTZdJQUa1Z8H33Tag__original/img/wJAu2yzFGmB0KzwXJxAXgKGYc-Y=/0x0/filters:format(png)/pic7958476.png",
+   "thumb": "https://cf.geekdo-images.com/82FhiRTZdJQUa1Z8H33Tag__small/img/mLI0Pyem2uCMWxn6i9__W3YXcHU=/fit-in/200x150/filters:strip_icc()/pic7958476.png",
+   "query": "id:343566",
+   "at": "2026-11-26T08:00:02.976Z",
+   "alias": "343566"
   },
   "モノポリーtomy版": {
    "label": "モノポリー（TOMY版）",
@@ -1386,7 +1397,16 @@
    "label": "クォルク",
    "miss": true,
    "at": "2026-11-26T07:58:35.967Z"
+  },
+  "factoriaforbiddenwalkers": {
+   "label": "Factoria: Forbidden Walkers",
+   "id": "419925",
+   "name": "Factoria: Forbidden Walkers",
+   "image": "https://cf.geekdo-images.com/ceQp1nxOtmZpjtHA8CV7Lg__original/img/GmGUUFt-aGFhp2O33D0gmkvoqxI=/0x0/filters:format(jpeg)/pic8174377.jpg",
+   "thumb": "https://cf.geekdo-images.com/ceQp1nxOtmZpjtHA8CV7Lg__small/img/eTqTl6e8N1UsPNoIsclFKGLOleY=/fit-in/200x150/filters:strip_icc()/pic8174377.jpg",
+   "query": "Factoria: Forbidden Walkers",
+   "at": "2026-11-26T08:00:08.186Z"
   }
  },
- "updatedAt": "2026-11-26T07:58:35.968Z"
+ "updatedAt": "2026-11-26T08:00:08.186Z"
 }

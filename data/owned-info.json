@@ -6125,6 +6125,142 @@
    ],
    "at": "2026-11-26T03:57:03.812Z"
   },
+  "260180": {
+   "v": 3,
+   "id": "260180",
+   "type": "boardgame",
+   "best": "2〜3",
+   "rec": "1〜4",
+   "minTime": 20,
+   "maxTime": 40,
+   "age": 8,
+   "rating": 7.44,
+   "weight": 1.56,
+   "rank": 391,
+   "mechanics": [
+    "Action Points",
+    "Contracts",
+    "Open Drafting",
+    "Pattern Building",
+    "Solo / Solitaire Game",
+    "Tile Placement"
+   ],
+   "categories": [
+    "Abstract Strategy",
+    "Puzzle",
+    "Video Game Theme"
+   ],
+   "designers": [
+    "Michal Mikeš",
+    "Jan Soukal",
+    "Adam Španěl"
+   ],
+   "artists": [
+    "Jaroslav Jurica",
+    "Marek Loskot",
+    "Pavel Richter"
+   ],
+   "publishers": [
+    "Boardcubator",
+    "ADC Blackfire Entertainment",
+    "CrowD Games",
+    "Galápagos Jogos",
+    "Gémklub",
+    "Hobby Japan",
+    "Kaissa Chess & Games",
+    "Korea Boardgames",
+    "Lord of Boards",
+    "Rebel Sp. z o.o.",
+    "Siam Board Games"
+   ],
+   "families": [
+    "Components: Polyominoes",
+    "Game: Project L"
+   ],
+   "desc": "Build pieces, develop an engine, perfect your strategy, and win the game!\n\nProject L is a fast-paced, tile-matching brain burner with triple-layer 3D puzzles and acrylic pieces. The core of the game lies in using your pieces to complete puzzles. Starting with just two basic pieces, you use three actions every turn to develop a powerful engine. With more pieces of various types, you can efficiently complete even the most difficult puzzles. The puzzles you complete award you points or new pieces to further fuel your engine.\n\nThe game is played over a number of rounds. In each round, beginning with the first player and going in clockwise order, each player takes a turn.\nOn your turn, you must perform 3 (of 5 possible) actions. Unless stated otherwise, you may perform the actions in any order and any number\nof times until the puzzle is completed . This continues until the Black puzzle deck is empty. Players complete that round and then play one final round then total up their points. The player with the most points wins!\n\n—description from the publisher",
+   "expansions": [
+    {
+     "id": "266520",
+     "name": "Project L: Ambassador Pack"
+    },
+    {
+     "id": "287508",
+     "name": "Project L: Finesse"
+    },
+    {
+     "id": "322011",
+     "name": "Project L: Finesse Ambassador Pack"
+    },
+    {
+     "id": "284988",
+     "name": "Project L: Ghost Piece"
+    },
+    {
+     "id": "382907",
+     "name": "Project L: Phoenix"
+    }
+   ],
+   "bases": [],
+   "en": "Project L",
+   "ja": "プロジェクトL",
+   "minp": 1,
+   "maxp": 4,
+   "time": 40,
+   "year": 2020,
+   "thumb": "https://cf.geekdo-images.com/Zwx2ZXS6r6PaxhkaVEe75Q__small/img/3x5kSxZlvLK6PdeMHX9xd_sSTMs=/fit-in/200x150/filters:strip_icc()/pic4309147.jpg",
+   "image": "https://cf.geekdo-images.com/Zwx2ZXS6r6PaxhkaVEe75Q__original/img/nBfsV9V5a-xc3uJkYhE0DN-QVjI=/0x0/filters:format(jpeg)/pic4309147.jpg",
+   "versions": [
+    {
+     "id": "633987",
+     "name": "Japanese/Russian/Thai edition",
+     "year": 2021,
+     "lang": "Japanese・Russian・Thai",
+     "thumb": "https://cf.geekdo-images.com/Zwx2ZXS6r6PaxhkaVEe75Q__small/img/3x5kSxZlvLK6PdeMHX9xd_sSTMs=/fit-in/200x150/filters:strip_icc()/pic4309147.jpg",
+     "image": "https://cf.geekdo-images.com/Zwx2ZXS6r6PaxhkaVEe75Q__original/img/nBfsV9V5a-xc3uJkYhE0DN-QVjI=/0x0/filters:format(jpeg)/pic4309147.jpg"
+    },
+    {
+     "id": "702737",
+     "name": "Ukrainian edition",
+     "year": 2024,
+     "lang": "Ukrainian",
+     "thumb": "https://cf.geekdo-images.com/XWSq7Vb0zAkbDaI5ZQVZ5w__small/img/nIPmJ8U_pkGxfnAfAgERzgY47vo=/fit-in/200x150/filters:strip_icc()/pic8039139.jpg",
+     "image": "https://cf.geekdo-images.com/XWSq7Vb0zAkbDaI5ZQVZ5w__original/img/LTPVJvdjVMa0LDOeaeDu6R4hpG0=/0x0/filters:format(jpeg)/pic8039139.jpg"
+    },
+    {
+     "id": "639410",
+     "name": "Greek edition",
+     "year": 2022,
+     "lang": "Greek",
+     "thumb": "https://cf.geekdo-images.com/X9r-4fWOiUWpWnWm5lTRdw__small/img/-FZjxaO5dhhFZQfPBpEkIlsgMz8=/fit-in/200x150/filters:strip_icc()/pic6156463.png",
+     "image": "https://cf.geekdo-images.com/X9r-4fWOiUWpWnWm5lTRdw__original/img/K_sNYWO1JB2NKx6r0QMqPuCK4fU=/0x0/filters:format(png)/pic6156463.png"
+    },
+    {
+     "id": "575233",
+     "name": "Hungarian edition",
+     "year": 2021,
+     "lang": "Hungarian",
+     "thumb": "https://cf.geekdo-images.com/Zs3YS__BGWZ3E1VNDig2ng__small/img/lXpRPRuE_cctZ9OOAoiOzg9He6I=/fit-in/200x150/filters:strip_icc()/pic6335672.jpg",
+     "image": "https://cf.geekdo-images.com/Zs3YS__BGWZ3E1VNDig2ng__original/img/BR7W_QxZkteiD3vDOMzGGPmL-TA=/0x0/filters:format(jpeg)/pic6335672.jpg"
+    },
+    {
+     "id": "555869",
+     "name": "Russian edition",
+     "year": 2021,
+     "lang": "Russian",
+     "thumb": "https://cf.geekdo-images.com/WunyAc5Q4vVXDgzXu7-X7w__small/img/-UdBLxJugyYMLqhhgaAvCgOOYrE=/fit-in/200x150/filters:strip_icc()/pic6240139.png",
+     "image": "https://cf.geekdo-images.com/WunyAc5Q4vVXDgzXu7-X7w__original/img/0lLNAInOr9nyHig4WzevMGFRs4I=/0x0/filters:format(png)/pic6240139.png"
+    },
+    {
+     "id": "420601",
+     "name": "English deluxe retail edition",
+     "year": 2020,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/WgvYQlEgbuEoOFxg4GGbMA__small/img/MWv006Gtudwq7H2EdLaBET3J1y4=/fit-in/200x150/filters:strip_icc()/pic5630012.jpg",
+     "image": "https://cf.geekdo-images.com/WgvYQlEgbuEoOFxg4GGbMA__original/img/6WdXSys4nYb3AwMD7Nlwnp3ar9c=/0x0/filters:format(jpeg)/pic5630012.jpg"
+    }
+   ],
+   "at": "2026-11-26T08:00:11.008Z"
+  },
   "260605": {
    "v": 3,
    "id": "260605",
@@ -8165,6 +8301,64 @@
    ],
    "at": "2026-11-26T03:53:39.728Z"
   },
+  "338425": {
+   "v": 3,
+   "id": "338425",
+   "type": "boardgame",
+   "best": "",
+   "rec": "",
+   "minTime": 15,
+   "maxTime": 15,
+   "age": 5,
+   "rating": 6.14,
+   "weight": 1,
+   "rank": 23506,
+   "mechanics": [
+    "Memory",
+    "Player Elimination"
+   ],
+   "categories": [
+    "Action / Dexterity",
+    "Children's Game"
+   ],
+   "designers": [
+    "Carlo A. Rossi"
+   ],
+   "artists": [
+    "Jérôme Pélissier"
+   ],
+   "publishers": [
+    "Bloom Games (I)",
+    "CMON Global Limited"
+   ],
+   "families": [
+    "Animals: Insects",
+    "Components: 3-Dimensional (3D)",
+    "Theme: Nature"
+   ],
+   "desc": "In Bug Hunt, players want to collect matching bugs to complete their collection.\n\nAt the start of the game, they construct the bug shrub and fill it with all manner of bugs. Then, they reach in through the shrub's tunnel opening to try to grab theirs — but they have to watch out for the other players' bugs as well as the white ones, who are known to bite any hand that tries to grab them. The first player to finish their collection wins.",
+   "expansions": [],
+   "bases": [],
+   "en": "Bug Hunt",
+   "ja": "",
+   "minp": 2,
+   "maxp": 4,
+   "time": 15,
+   "year": 2021,
+   "thumb": "https://cf.geekdo-images.com/SxTb7CG1j8acE3wii1b-JQ__small/img/4GUgZjMsvafbaSHb-HaKhpcKglg=/fit-in/200x150/filters:strip_icc()/pic6164326.jpg",
+   "image": "https://cf.geekdo-images.com/SxTb7CG1j8acE3wii1b-JQ__original/img/_5_SMgCd1imTdkxGO1Pj6kClBQY=/0x0/filters:format(jpeg)/pic6164326.jpg",
+   "versions": [
+    {
+     "id": "563434",
+     "name": "English edition",
+     "year": 2021,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/SxTb7CG1j8acE3wii1b-JQ__small/img/4GUgZjMsvafbaSHb-HaKhpcKglg=/fit-in/200x150/filters:strip_icc()/pic6164326.jpg",
+     "image": "https://cf.geekdo-images.com/SxTb7CG1j8acE3wii1b-JQ__original/img/_5_SMgCd1imTdkxGO1Pj6kClBQY=/0x0/filters:format(jpeg)/pic6164326.jpg"
+    }
+   ],
+   "at": "2026-11-26T08:00:08.414Z"
+  },
   "342010": {
    "v": 3,
    "id": "342010",
@@ -8290,6 +8484,82 @@
     }
    ],
    "at": "2026-11-26T03:54:13.261Z"
+  },
+  "343566": {
+   "v": 3,
+   "id": "343566",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "2〜5",
+   "minTime": 30,
+   "maxTime": 40,
+   "age": 10,
+   "rating": 7.4,
+   "weight": 2.79,
+   "rank": 3650,
+   "mechanics": [
+    "Hand Management",
+    "Open Drafting",
+    "Trick-taking",
+    "Variable Player Powers"
+   ],
+   "categories": [
+    "Card Game"
+   ],
+   "designers": [
+    "Hiroken"
+   ],
+   "artists": [
+    "Nina (イラスト)",
+    "Ito Taichi"
+   ],
+   "publishers": [
+    "Joyple Games",
+    "MTS Games",
+    "Portland Game Collective"
+   ],
+   "families": [
+    "Theme: Anthropomorphic Animals"
+   ],
+   "desc": "TRICKTAKERs is a...trick-taking game featuring role selection. After being dealt a hand of cards, the players choose from various characters (such as King or Gambler) that change how they will participate in the game.\n\nThe basic game consists of three rounds of trick-taking, and the winner will be the person that wins the most tricks in two of the three rounds.  Alternatively, if no one achieves that condition, if a player has taken no tricks in all three rounds, they will be the winner.\n\nThe game also features a higher priority victory condition and a lower one.  Each character in the game grants the player a special \"immediate victory\" condition that could be achieved.  The characters also give the players ways to earn points, and this is the lowest tier of victory determination: who has the most points.\n\nFor example, the \"Gambler\" can discard cards from the initial hand to draw replacements, and will bid for how many tricks they take, possibly granting them extra points if successful. The \"Resistance\" has the potential to cause a revolution which reverses the strength of the ranks, and earns more points if they can win tricks with what would normally be the \"high\" cards.",
+   "expansions": [
+    {
+     "id": "366578",
+     "name": "TRICKTAKERs Little"
+    },
+    {
+     "id": "355404",
+     "name": "TRICKTAKERs: Expansion Set"
+    }
+   ],
+   "bases": [],
+   "en": "TRICKTAKERs",
+   "ja": "",
+   "minp": 2,
+   "maxp": 5,
+   "time": 40,
+   "year": 2021,
+   "thumb": "https://cf.geekdo-images.com/82FhiRTZdJQUa1Z8H33Tag__small/img/mLI0Pyem2uCMWxn6i9__W3YXcHU=/fit-in/200x150/filters:strip_icc()/pic7958476.png",
+   "image": "https://cf.geekdo-images.com/82FhiRTZdJQUa1Z8H33Tag__original/img/wJAu2yzFGmB0KzwXJxAXgKGYc-Y=/0x0/filters:format(png)/pic7958476.png",
+   "versions": [
+    {
+     "id": "573069",
+     "name": "Japanese edition",
+     "year": 2021,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/dE8nNS9n3LbfBCzCRfpEUw__small/img/30hENPqHVbDjWWo-VmS48dgo-xo=/fit-in/200x150/filters:strip_icc()/pic6952042.jpg",
+     "image": "https://cf.geekdo-images.com/dE8nNS9n3LbfBCzCRfpEUw__original/img/LbLnz-9h9VvkM0kqMgJWmPFUFNk=/0x0/filters:format(jpeg)/pic6952042.jpg"
+    },
+    {
+     "id": "650153",
+     "name": "English edition",
+     "year": 2024,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/82FhiRTZdJQUa1Z8H33Tag__small/img/mLI0Pyem2uCMWxn6i9__W3YXcHU=/fit-in/200x150/filters:strip_icc()/pic7958476.png",
+     "image": "https://cf.geekdo-images.com/82FhiRTZdJQUa1Z8H33Tag__original/img/wJAu2yzFGmB0KzwXJxAXgKGYc-Y=/0x0/filters:format(png)/pic7958476.png"
+    }
+   ],
+   "at": "2026-11-26T08:00:13.594Z"
   },
   "347703": {
    "v": 3,
@@ -10555,6 +10825,62 @@
    ],
    "at": "2026-11-26T03:56:32.212Z"
   },
+  "419925": {
+   "v": 3,
+   "id": "419925",
+   "type": "boardgameexpansion",
+   "best": "",
+   "rec": "",
+   "minTime": 70,
+   "maxTime": 70,
+   "age": 10,
+   "rating": 6.33,
+   "weight": null,
+   "rank": null,
+   "mechanics": [
+    "Modular Board",
+    "Semi-Cooperative Game",
+    "Simultaneous Action Selection"
+   ],
+   "categories": [
+    "Expansion for Base-game",
+    "Economic",
+    "Industry / Manufacturing"
+   ],
+   "designers": [
+    "Yog Akase (赤瀬 よぐ)"
+   ],
+   "artists": [
+    "Ryo Fukushima",
+    "Yog Akase (赤瀬 よぐ)"
+   ],
+   "publishers": [
+    "SUNNY BIRD",
+    "よぐゲーム (Yog Games)"
+   ],
+   "families": [
+    "Theme: Factories",
+    "Theme: Steampunk"
+   ],
+   "desc": "Experience the aftermath of Factoria, where the game ended at 100G!\n\nThe Factoria: Forbidden Walkers expansion lets you enjoy the devastating expansion of an enlarged reproduction system with new complexity. Included are:\n\n     Special abilities for owners of Legendary Gear, which increases the competition for Legendary Gear and providing a catch-up mechanic\n     Addition of LV7 and LV8 relics\n     Addition of overpowered, forbidden technical books\n\nThese additions created a dangerous balance that could go out of control at the slightest mistake mistake. The expansion is not recommended for first-time players, but once you experience it, it's so appealing that you won't be able to go back to regular play... This is a dangerous expansion set that everyone who considers themselves a gamer should try!\n\n—description from the publisher (translated)",
+   "expansions": [],
+   "bases": [
+    {
+     "id": "342949",
+     "name": "Factoria"
+    }
+   ],
+   "en": "Factoria: Forbidden Walkers",
+   "ja": "ファクトリア〜禁断の歩み人たち〜",
+   "minp": 2,
+   "maxp": 6,
+   "time": 70,
+   "year": 2021,
+   "thumb": "https://cf.geekdo-images.com/ceQp1nxOtmZpjtHA8CV7Lg__small/img/eTqTl6e8N1UsPNoIsclFKGLOleY=/fit-in/200x150/filters:strip_icc()/pic8174377.jpg",
+   "image": "https://cf.geekdo-images.com/ceQp1nxOtmZpjtHA8CV7Lg__original/img/GmGUUFt-aGFhp2O33D0gmkvoqxI=/0x0/filters:format(jpeg)/pic8174377.jpg",
+   "versions": [],
+   "at": "2026-11-26T08:00:16.206Z"
+  },
   "421217": {
    "v": 3,
    "id": "421217",
@@ -11347,7 +11673,7 @@
    "at": "2026-11-26T03:56:55.915Z"
   }
  },
- "updatedAt": "2026-11-26T07:58:36.014Z",
+ "updatedAt": "2026-11-26T08:00:21.424Z",
  "exps": {
   "2591": {
    "id": "2591",
@@ -12849,6 +13175,16 @@
    "time": 90,
    "at": "2026-11-26T02:46:54.886Z"
   },
+  "266520": {
+   "id": "266520",
+   "en": "Project L: Ambassador Pack",
+   "thumb": "https://cf.geekdo-images.com/IkJGmtROamscVPT6xvgFqA__small/img/TQEOpSX_0FzC3CZJLHpL2OJN1SY=/fit-in/200x150/filters:strip_icc()/pic4844915.jpg",
+   "year": 2020,
+   "minp": 1,
+   "maxp": 5,
+   "time": 40,
+   "at": "2026-11-26T08:00:18.922Z"
+  },
   "273353": {
    "id": "273353",
    "en": "Cartographers: Skills Mini Expansion",
@@ -12888,6 +13224,16 @@
    "maxp": 4,
    "time": 60,
    "at": "2026-11-26T03:32:26.724Z"
+  },
+  "284988": {
+   "id": "284988",
+   "en": "Project L: Ghost Piece",
+   "thumb": "https://cf.geekdo-images.com/HPq-bMoeWXR6_IkihWnDRg__small/img/ixNhUKPxcspDizzVdtfIN-WYTnU=/fit-in/200x150/filters:strip_icc()/pic8091232.jpg",
+   "year": 2021,
+   "minp": 1,
+   "maxp": 6,
+   "time": 40,
+   "at": "2026-11-26T08:00:18.922Z"
   },
   "286086": {
    "id": "286086",
@@ -12938,6 +13284,16 @@
    "maxp": 6,
    "time": null,
    "at": "2026-11-26T03:32:23.548Z"
+  },
+  "287508": {
+   "id": "287508",
+   "en": "Project L: Finesse",
+   "thumb": "https://cf.geekdo-images.com/xNM5wHPwG0Lm6QyOxfoSVg__small/img/NU4Ap_DAzMctVMJuzPneNRrU4QM=/fit-in/200x150/filters:strip_icc()/pic8091220.jpg",
+   "year": 2021,
+   "minp": 1,
+   "maxp": 4,
+   "time": 40,
+   "at": "2026-11-26T08:00:18.922Z"
   },
   "289240": {
    "id": "289240",
@@ -13489,6 +13845,16 @@
    "time": 45,
    "at": "2026-11-26T03:31:49.189Z"
   },
+  "322011": {
+   "id": "322011",
+   "en": "Project L: Finesse Ambassador Pack",
+   "thumb": "https://cf.geekdo-images.com/2KkqNGPz4GO5fdL6vZneTw__small/img/U2a0oCe_98dsJ_8wC1Ft5TkCH_s=/fit-in/200x150/filters:strip_icc()/pic6545893.jpg",
+   "year": 2020,
+   "minp": 1,
+   "maxp": 5,
+   "time": null,
+   "at": "2026-11-26T08:00:18.922Z"
+  },
   "322457": {
    "id": "322457",
    "en": "Carcassonne Maps: USA East",
@@ -13979,6 +14345,16 @@
    "time": null,
    "at": "2026-11-26T03:32:20.448Z"
   },
+  "355404": {
+   "id": "355404",
+   "en": "TRICKTAKERs: Expansion Set",
+   "thumb": "https://cf.geekdo-images.com/HwJjiC2xKpFA_439cvtL4g__small/img/0AurU0d2H1_0IqkXYRstxJ1Cq1I=/fit-in/200x150/filters:strip_icc()/pic6952043.jpg",
+   "year": 2021,
+   "minp": 2,
+   "maxp": 5,
+   "time": 40,
+   "at": "2026-11-26T08:00:18.922Z"
+  },
   "355657": {
    "id": "355657",
    "en": "Variations on a Theme: Supplementary Rules for Monopoly",
@@ -14179,6 +14555,16 @@
    "time": 30,
    "at": "2026-11-26T03:32:29.349Z"
   },
+  "366578": {
+   "id": "366578",
+   "en": "TRICKTAKERs Little",
+   "thumb": "https://cf.geekdo-images.com/iZhEn04gObMQ3QXBtlkrUw__small/img/QgzPYAbEO6xJx9b9JJjDkieDXCQ=/fit-in/200x150/filters:strip_icc()/pic6955594.jpg",
+   "year": 2022,
+   "minp": 2,
+   "maxp": 5,
+   "time": 40,
+   "at": "2026-11-26T08:00:18.922Z"
+  },
   "367354": {
    "id": "367354",
    "en": "Cubitos: Dodatkowe trasy",
@@ -14358,6 +14744,16 @@
    "maxp": 4,
    "time": 60,
    "at": "2026-11-26T02:46:54.886Z"
+  },
+  "382907": {
+   "id": "382907",
+   "en": "Project L: Phoenix",
+   "thumb": "https://cf.geekdo-images.com/QVOUHWRgNtJ2vhLXuDvc4w__small/img/dvb5VLdBdm97PH8q7sVa_joU10A=/fit-in/200x150/filters:strip_icc()/pic7442290.jpg",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 6,
+   "time": 40,
+   "at": "2026-11-26T08:00:18.922Z"
   },
   "383714": {
    "id": "383714",
