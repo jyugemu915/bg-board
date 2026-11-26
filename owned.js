@@ -170,7 +170,7 @@ function buildOwnedPage(root) {
       <div class="seg sm" id="oView"><button data-v="pack" title="箱絵を詰めて表示">▦</button><button data-v="shelf" title="棚">棚</button><button data-v="list" title="リスト">☰</button></div></div>
     <div class="obar2"><span class="flbl">表記</span><div class="seg sm" id="oNm">${[["both", "両方"], ["ja", "日本語"], ["en", "English"]].map(([k, l]) => `<button data-v="${k}">${l}</button>`).join("")}</div></div>
     <div id="oList"></div>
-    <div class="foot"><button type="button" data-a="exp">書き出し</button><label>読み込み<input type="file" accept=".json" hidden></label></div>
+    <div class="foot"><button type="button" data-a="req" title="BGGの詳細が取れていないゲームを、チャットで登録を頼むための文章にしてコピー">未登録をコピー</button><button type="button" data-a="exp">書き出し</button><label>読み込み<input type="file" accept=".json" hidden></label></div>
     <div id="oSheet" class="sheetwrap" hidden></div>`;
   const $ = (id) => root.querySelector("#" + id);
   const segs = [["oPl", "players", (v) => +v], ["oTime", "time"], ["oWt", "weight"], ["oFlag", "flag"], ["oView", "view"], ["oNm", null]];
@@ -188,6 +188,16 @@ function buildOwnedPage(root) {
   $("oSort").onchange = (e) => { OS.sort = e.target.value; saveView(); drawOwned(); };
   $("oClear").onclick = () => { Object.assign(OS, { q: "", flag: "", players: 0, best: false, time: "", weight: "", cat: "", mech: "", n: 60 }); drawOwned(); };
   $("oAddBtn").onclick = () => { OS.adding = !OS.adding; drawAdd(); };
+  root.querySelector("[data-a=req]").onclick = async (e) => {
+    const btn = e.currentTarget, txt = unregisteredText();
+    if (!txt) { flash(btn, "未登録はありません"); return; }
+    try { await navigator.clipboard.writeText(txt); }
+    catch {
+      const ta = Object.assign(document.createElement("textarea"), { value: txt });
+      document.body.append(ta); ta.select(); document.execCommand("copy"); ta.remove();
+    }
+    flash(btn, `${txt.split("\n").length - 1}件コピーしました`);
+  };
   root.querySelector("[data-a=exp]").onclick = () => {
     const blob = new Blob([JSON.stringify(owned, null, 1)], { type: "application/json" });
     Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: "owned-games.json" }).click();
@@ -204,6 +214,18 @@ function buildOwnedPage(root) {
   // 戻る操作で詳細シートを閉じる
   window.addEventListener("popstate", () => { if (OS.sheet && location.hash === "#owned") { OS.sheet = null; OS.edit = false; drawSheet(); } });
   drawAdd();
+}
+// BGGの詳細（owned-info）が取れていないゲームを、チャットに貼る登録依頼の文章にする
+function unregisteredText() {
+  const rows = owned.filter((g) => !ownedInfo[bggId(g)]).map((g) => [
+    g.name, g.nameEn, g.bgg || "BGG未設定", g.parent && `本体:${g.parent}`, g.includes && `メモ:${g.includes}`,
+    g.flags?.length && `状態:${g.flags.map((f) => FLAGS.find(([k]) => k === f)?.[1] || f).join("・")}`,
+  ].filter(Boolean).join(" / "));
+  return rows.length ? `所持ゲームの登録依頼（${rows.length}件）\n${rows.map((r) => "・" + r).join("\n")}` : "";
+}
+function flash(btn, msg) {
+  const old = btn.dataset.label ||= btn.textContent;
+  btn.textContent = msg; clearTimeout(btn._t); btn._t = setTimeout(() => (btn.textContent = old), 2500);
 }
 function saveOwned() { store.set(LS_OWNED, owned); render(); }
 
