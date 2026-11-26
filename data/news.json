@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T22:15:48.471Z",
+ "updatedAt": "2026-11-26T01:42:37.233Z",
  "sources": [
   {
    "name": "ホヌゲームズ",
@@ -60,6 +60,21 @@
   }
  ],
  "items": [
+  {
+   "title": "おばけにおばけを重ねて進め『おばけのかえりみち』11月26日発売",
+   "url": "https://tgiw.info/2026/11/ghosts-way-home.html",
+   "date": "2026-11-26T00:16:55.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": {
+    "date": "2026-11-26",
+    "label": "11月26日",
+    "exact": true,
+    "kind": "発売"
+   }
+  },
   {
    "title": "ハニーポット【FLATOUT GAMES / AEG】",
    "url": "https://bluefinch.base.shop/items/160459325",
@@ -406,16 +421,6 @@
     "exact": true,
     "kind": "発売"
    }
-  },
-  {
-   "title": "京都インディーボドゲ祭2026、11月21日開催",
-   "url": "https://tgiw.info/2026/11/kyoto-indie-bgfes2026.html",
-   "date": "2026-11-16T23:41:20.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事",
-   "release": null
   },
   {
    "title": "Dominion: Farm",
@@ -1705,6 +1710,22 @@
      "source": "ブルーフィンチゲームズ",
      "url": "https://bluefinch.base.shop/items/160458935",
      "title": "フラワーフィールド【HORRIBLE GUILD】"
+    }
+   ]
+  },
+  {
+   "key": "a:おばけのかえりみち:2026-11-26",
+   "game": "おばけのかえりみち",
+   "date": "2026-11-26",
+   "label": "11月26日",
+   "exact": true,
+   "type": "発売",
+   "image": "",
+   "links": [
+    {
+     "source": "Table Games in the World",
+     "url": "https://tgiw.info/2026/11/ghosts-way-home.html",
+     "title": "おばけにおばけを重ねて進め『おばけのかえりみち』11月26日発売"
     }
    ]
   },
@@ -9343,9 +9364,6 @@
   "https://tgiw.info/2026/11/coffee-rush-grab-goj.html": {
    "failedAt": "2026-11-25T22:15:48.471Z"
   },
-  "https://tgiw.info/2026/11/kyoto-indie-bgfes2026.html": {
-   "failedAt": "2026-11-25T22:15:48.471Z"
-  },
   "https://boardgamegeekstore.com/blogs/news/april-2024-news-bites": "http://boardgamegeekstore.com/cdn/shop/articles/Real_vs._Fake_Store.png?v=1713563113",
   "https://boardgamegeekstore.com/blogs/news/march-2023-news-bites-1": "http://boardgamegeekstore.com/cdn/shop/articles/Store_Update_March_2024.png?v=1713561427",
   "https://boardgamegeekstore.com/blogs/news/february-2024-news-bites": "http://boardgamegeekstore.com/cdn/shop/articles/Store_Update_February_2024.png?v=1713561443",
@@ -9370,6 +9388,9 @@
   },
   "https://tgiw.info/2026/11/kakurega-festa-2nd.html": {
    "failedAt": "2026-11-25T01:49:45.175Z"
+  },
+  "https://tgiw.info/2026/11/ghosts-way-home.html": {
+   "failedAt": "2026-11-26T01:42:37.233Z"
   }
  }
 }
