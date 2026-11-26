@@ -904,7 +904,27 @@
    "query": "id:286096",
    "at": "2026-11-26T01:47:23.677Z",
    "alias": "286096"
+  },
+  "レキシオ": {
+   "label": "レキシオ",
+   "id": "19184",
+   "name": "Lexio",
+   "image": "https://cf.geekdo-images.com/-OiYXC9kRLaJOMHjGxvshA__original/img/iM9ksSRZwey5uW0nkK8I5rFvkik=/0x0/filters:format(png)/pic8971057.png",
+   "thumb": "https://cf.geekdo-images.com/-OiYXC9kRLaJOMHjGxvshA__small/img/Od_czzXzLiLQ5joXj2WwIuEf9Hk=/fit-in/200x150/filters:strip_icc()/pic8971057.png",
+   "query": "id:19184",
+   "at": "2026-11-26T02:06:40.637Z",
+   "alias": "19184"
+  },
+  "シヴィライゼーションシドマイヤーズ2010年版": {
+   "label": "シヴィライゼーション（シドマイヤーズ・2010年版）",
+   "id": "77130",
+   "name": "Sid Meier&#039;s Civilization: The Board Game",
+   "image": "https://cf.geekdo-images.com/1WAfWHPi4Vvm1UCMtQaeaA__original/img/R7C_Kxsq4KI8i7twszpT_kCQ--g=/0x0/filters:format(jpeg)/pic798666.jpg",
+   "thumb": "https://cf.geekdo-images.com/1WAfWHPi4Vvm1UCMtQaeaA__small/img/2zIfpLPUFyuWfgqLTvtvrHa19Mg=/fit-in/200x150/filters:strip_icc()/pic798666.jpg",
+   "query": "id:77130",
+   "at": "2026-11-26T02:06:43.306Z",
+   "alias": "77130"
   }
  },
- "updatedAt": "2026-11-26T01:47:23.677Z"
+ "updatedAt": "2026-11-26T02:06:43.307Z"
 }
