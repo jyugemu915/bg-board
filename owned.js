@@ -217,7 +217,7 @@ function buildOwnedPage(root) {
 }
 // BGGの詳細（owned-info）が取れていないゲームを、チャットに貼る登録依頼の文章にする
 function unregisteredText() {
-  const rows = owned.filter((g) => !ownedInfo[bggId(g)]).map((g) => [
+  const rows = owned.filter((g) => !ownedInfo[bggId(g)] && !(g.img && !g.bgg)).map((g) => [
     g.name, g.nameEn, g.bgg || "BGG未設定", g.parent && `本体:${g.parent}`, g.includes && `メモ:${g.includes}`,
     g.flags?.length && `状態:${g.flags.map((f) => FLAGS.find(([k]) => k === f)?.[1] || f).join("・")}`,
   ].filter(Boolean).join(" / "));
