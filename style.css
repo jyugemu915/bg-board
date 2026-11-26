@@ -104,3 +104,15 @@ form.oedit .lbl{font-size:11.5px;color:var(--muted)}
 .arts .art.on{border-color:var(--accent)}
 .arts .art span{position:absolute;left:0;right:0;bottom:0;font-size:9.5px;background:#000a;color:#fff;border-radius:0 0 6px 6px;padding:1px 2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .ghostbtn{border:1px solid var(--line)!important;background:#fff!important;color:#555!important}
+.oinfo{padding:10px 16px 12px;background:#fffdf7;border-top:1px dashed var(--line);font-size:13px}
+.oinfo .s{font-size:12px;color:var(--muted)}
+.oinfo dl{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;margin:0 0 8px}
+.oinfo dt{color:var(--muted);font-size:12px}
+.oinfo dd{margin:0}
+.mechs{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:8px}
+.mchip{font-size:11px;background:#eef3e7;color:#4f6136;border-radius:999px;padding:2px 8px}
+.oinfo .lbl{font-size:12px;color:var(--muted);margin:6px 0 2px}
+.xrow{display:flex;gap:10px;align-items:center;padding:6px 0;border-top:1px solid var(--line)}
+.xrow .thumb{width:34px;height:34px;font-size:14px}
+.xrow .t{font-size:12.5px}
+.addx{flex:none;border:1px solid var(--line);background:#fff;border-radius:8px;padding:4px 8px;font-size:12px;color:#555}

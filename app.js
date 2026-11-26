@@ -71,8 +71,8 @@ fetch("data/crowd.json?" + Date.now()).then((r) => r.json()).then((d) => { crowd
 // key＝登録時の名前（画面で名前を変えても同じゲームとして扱う）
 let ownedGone = new Set(store.get("bgb.ownedgone.v1", []));
 const okey = (g) => g.key || norm(g.name);
-let ownedInfo = {};
-fetch("data/owned-info.json?" + Date.now()).then((r) => r.json()).then((d) => { ownedInfo = d.games || {}; render(); }).catch(() => {});
+let ownedInfo = {}, expInfo = {};
+fetch("data/owned-info.json?" + Date.now()).then((r) => r.json()).then((d) => { ownedInfo = d.games || {}; expInfo = d.exps || {}; render(); }).catch(() => {});
 fetch("config/owned.json?" + Date.now()).then((r) => r.json()).then((d) => {
   const have = new Map();
   for (const g of owned) { have.set(okey(g), g); have.set(norm(g.name), g); }
@@ -216,17 +216,43 @@ function newsBox(b) {
   return el;
 }
 
+// BGGのメカニクスの日本語訳（ないものは英語のまま）
+const MECH = {
+  "Hand Management": "手札管理", "Set Collection": "セットコレクション", "Worker Placement": "ワーカープレイスメント", "Worker Placement with Dice Workers": "ダイスワーカー",
+  "Deck, Bag, and Pool Building": "デッキ構築", "Dice Rolling": "ダイス", "Tile Placement": "タイル配置", "Area Majority / Influence": "エリアマジョリティ",
+  "Open Drafting": "オープンドラフト", "Closed Drafting": "クローズドドラフト", "Action Drafting": "アクションドラフト", "Push Your Luck": "バースト",
+  "Variable Player Powers": "固有能力", "Cooperative Game": "協力", "Solo / Solitaire Game": "ソロ", "Network and Route Building": "ルート構築",
+  "Pattern Building": "パターン構築", "Grid Movement": "グリッド移動", "Point to Point Movement": "ポイント移動", "Area Movement": "エリア移動",
+  "Simultaneous Action Selection": "同時行動選択", "Action Points": "アクションポイント", "Auction / Bidding": "競り", "Auction/Bidding": "競り",
+  "Trick-taking": "トリックテイキング", "Race": "レース", "Betting and Bluffing": "ブラフ", "Contracts": "契約・目標達成", "End Game Bonuses": "終了時ボーナス",
+  "Variable Set-up": "可変セットアップ", "Modular Board": "モジュラーボード", "Take That": "直接攻撃", "Player Elimination": "脱落あり", "Team-Based Game": "チーム戦",
+  "Hidden Roles": "正体隠匿", "Deduction": "推理", "Memory": "記憶", "Real-Time": "リアルタイム", "Roll / Spin and Move": "すごろく", "Income": "収入",
+  "Market": "市場", "Commodity Speculation": "相場", "Tech Trees / Tech Tracks": "テックツリー", "Track Movement": "トラック移動", "Rondel": "ロンデル",
+  "Turn Order: Progressive": "手番順の移動", "Turn Order: Stat-Based": "手番順（状況順）", "Turn Order: Claim Action": "手番順の獲得", "Follow": "フォロー",
+  "Hexagon Grid": "ヘクス", "Square Grid": "マス目", "Enclosure": "囲い込み", "Investment": "投資", "Stock Holding": "株", "Programmed Movement": "プログラム移動",
+  "Action Queue": "アクションキュー", "Increase Value of Unchosen Resources": "残り物に福", "Pick-up and Deliver": "輸送", "Map Addition": "マップ拡張",
+  "Stacking and Balancing": "積み上げ", "Flicking": "フリック", "Paper-and-Pencil": "紙ペン", "Line Drawing": "線引き", "Communication Limits": "会話制限",
+  "Storytelling": "ストーリーテリング", "Scenario / Mission / Campaign Game": "シナリオ・キャンペーン", "Narrative Choice / Paragraph": "分岐選択",
+  "Multi-Use Cards": "多用途カード", "Once-Per-Game Abilities": "1回限りの能力", "Re-rolling and Locking": "振り直し", "Die Icon Resolution": "ダイス目解決",
+  "Catch the Leader": "トップ叩き", "Moving Multiple Units": "複数ユニット移動", "Events": "イベント", "Victory Points as a Resource": "勝利点を資源に使う",
+  "Hidden Movement": "秘密移動", "Movement Points": "移動ポイント", "Card Play Conflict Resolution": "カード戦闘", "Chaining": "連鎖", "Layering": "重ね置き",
+  "Melding and Splaying": "メルド", "Ladder Climbing": "ラダー（大富豪系）", "Bingo": "ビンゴ", "Matching": "マッチング", "Line of Sight": "視線",
+  "Resource to Move": "資源で移動", "Mancala": "マンカラ", "Ownership": "所有", "Loans": "借金", "Turn Order: Random": "手番順ランダム", "Bribery": "賄賂",
+  "Negotiation": "交渉", "Trading": "交易", "Voting": "投票", "Predictive Bid": "予想ビッド", "Command Cards": "命令カード", "Card Play Conflict": "カード戦闘",
+  "Speed Matching": "早取り", "Pattern Recognition": "パターン認識", "Measurement Movement": "計測移動", "Dexterity": "アクション", "Lose a Turn": "一回休み",
+  "Slide/Push": "押し出し", "Bias": "バイアス", "King of the Hill": "キング・オブ・ザ・ヒル", "Highest-Lowest Scoring": "最低点勝負", "Kill Steal": "横取り",
+};
 // 所持ゲームの表示用ヘルパー
 const bggId = (g) => String(g.bgg || "").match(/boardgame(?:expansion)?\/(\d+)/)?.[1];
-const oinfo = (g) => ownedInfo[bggId(g)] || null;
-let nameMode = store.get("bgb.ownedname.v1", "ja");   // ja / en / both
+const oinfo = (g) => ownedInfo[bggId(g)] || expInfo[bggId(g)] || null;
+let nameMode = store.get("bgb.ownedname.v2", "both");   // both（英語名が主・日本語名を小さく）/ ja / en
 const enName = (g) => g.nameEn || oinfo(g)?.en || "";
 const ownedImg = (g) => g.img || oinfo(g)?.thumb || art(g.name);
 function playersText(g) {
   if (g.players) return g.players;
   const i = oinfo(g);
   if (!i?.minp) return "";
-  return `${i.minp === i.maxp ? i.minp : `${i.minp}〜${i.maxp}`}人${i.time ? `・${i.time}分` : ""}`;
+  return `${i.minp === i.maxp ? i.minp : `${i.minp}〜${i.maxp}`}人${i.best ? `（ベスト${i.best}）` : ""}${i.time ? `・${i.time}分` : ""}`;
 }
 function ownedTitle(g, parent) {
   let ja = g.name, en = enName(g);
@@ -235,12 +261,12 @@ function ownedTitle(g, parent) {
     ja = cut(ja, parent.name); en = cut(en, enName(parent));
   }
   if (nameMode === "en" && en) return { main: en, sub: "" };
-  if (nameMode === "both" && en && norm(en) !== norm(ja)) return { main: ja, sub: en };
+  if (nameMode === "both" && en) return { main: en, sub: norm(en) !== norm(ja) ? ja : "" };
   return { main: ja, sub: "" };
 }
 
 function ownedBox(b) {
-  const st = (ui[b.id] ||= { q: "", n: 5, open: {}, edit: null });
+  const st = (ui[b.id] ||= { q: "", n: 5, open: {}, edit: null, info: null });
   const has = (n) => owned.some((x) => norm(x.name) === norm(n));
   const bases = owned.filter((g) => !g.parent || !has(g.parent));   // 本体が登録されていない拡張は単独で表示
   const kidsOf = (g) => owned.filter((x) => x.parent && norm(x.parent) === norm(g.name));
@@ -276,9 +302,9 @@ function ownedBox(b) {
   const tg = document.createElement("div");
   tg.className = "chips";
   tg.innerHTML = `<button class="chip ghost" data-a="bulk">${st.bulk ? "1件ずつ追加に戻す" : "まとめて追加"}</button>
-    <span class="chipsep">表記</span>${[["ja", "日本語"], ["en", "English"], ["both", "両方"]].map(([k, l]) => `<button class="chip${nameMode === k ? " on" : ""}" data-nm="${k}">${l}</button>`).join("")}`;
+    <span class="chipsep">表記</span>${[["both", "両方"], ["ja", "日本語"], ["en", "English"]].map(([k, l]) => `<button class="chip${nameMode === k ? " on" : ""}" data-nm="${k}">${l}</button>`).join("")}`;
   tg.querySelector("[data-a=bulk]").onclick = () => { st.bulk = !st.bulk; render(); };
-  tg.querySelectorAll("[data-nm]").forEach((x) => x.onclick = () => { nameMode = x.dataset.nm; store.set("bgb.ownedname.v1", nameMode); render(); });
+  tg.querySelectorAll("[data-nm]").forEach((x) => x.onclick = () => { nameMode = x.dataset.nm; store.set("bgb.ownedname.v2", nameMode); render(); });
   el.appendChild(tg);
   if (bases.length > 5) {
     const q = document.createElement("form");
@@ -304,8 +330,56 @@ function ownedBox(b) {
       ${t.sub ? `<div class="en">${esc(t.sub)}</div>` : ""}
       <div class="s">${pl ? `<span class="pl">👥 ${esc(pl)}</span> ・ ` : ""}${g.bgg ? `<a href="${esc(g.bgg)}" target="_blank" rel="noopener">BGG ↗</a>` : "BGG未設定"}${g.from ? ` ・ ${esc(g.from)}` : ""}</div></div>
       <div class="acts"><button data-a="edit" class="${st.edit === g ? "on" : ""}" title="編集">✎</button></div>`;
-    r.querySelector("[data-a=edit]").onclick = () => { st.edit = st.edit === g ? null : g; drawList(); };
+    r.querySelector("[data-a=edit]").onclick = () => { st.edit = st.edit === g ? null : g; st.info = null; drawList(); };
+    r.querySelector(".rt").style.cursor = "pointer";
+    r.querySelector(".rt").addEventListener("click", (e) => { if (e.target.closest("a,.tg")) return; st.info = st.info === g ? null : g; st.edit = null; drawList(); });
     return r;
+  }
+  // 詳細パネル：BGGの情報と、拡張の一覧（所持に追加できる）
+  function infoPanel(g) {
+    const i = oinfo(g);
+    const p = document.createElement("div");
+    p.className = "oinfo";
+    if (!i) { p.innerHTML = `<div class="s">${bggId(g) ? "BGGの情報は次の自動取得のあとに表示されます。" : "BGGのURLを登録すると（✎から）、人数やメカニクスなどが表示されます。"}</div>`; return p; }
+    const facts = [
+      i.minp && ["人数", `${i.minp === i.maxp ? i.minp : `${i.minp}〜${i.maxp}`}人${i.best ? `（ベスト ${i.best}人` : ""}${i.rec ? `${i.best ? "・" : "（"}推奨 ${i.rec}人）` : i.best ? "）" : ""}`],
+      (i.time || i.minTime) && ["時間", i.minTime && i.maxTime && i.minTime !== i.maxTime ? `${i.minTime}〜${i.maxTime}分` : `${i.time || i.minTime}分`],
+      i.year && ["発売年", `${i.year}年`], i.age && ["対象年齢", `${i.age}歳〜`],
+      i.weight && ["重さ", `${i.weight} / 5`], i.rating && ["BGG評価", `${i.rating}${i.rank ? `（${i.rank}位）` : ""}`],
+      i.designers?.length && ["デザイナー", i.designers.join("、")],
+    ].filter(Boolean);
+    const mech = (i.mechanics || []).map((m) => `<span class="mchip">${esc(MECH[m] || m)}</span>`).join("");
+    p.innerHTML = `<dl>${facts.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")}</dl>${mech ? `<div class="mechs">${mech}</div>` : ""}`;
+    const exps = (i.expansions || []).filter((e) => !/fan expansion/i.test(e.name))
+      .sort((a, c) => /promo/i.test(a.name) - /promo/i.test(c.name) || (expInfo[c.id]?.year || 0) - (expInfo[a.id]?.year || 0));
+    if (exps.length) {
+      const ownedIds = new Set(owned.map(bggId).filter(Boolean));
+      const n = st.expN || 6;
+      const h = document.createElement("div");
+      h.className = "lbl"; h.textContent = `拡張（BGG ${exps.length}件）`;
+      p.appendChild(h);
+      for (const e of exps.slice(0, n)) {
+        const x = expInfo[e.id] || {};
+        const have = ownedIds.has(e.id) || owned.some((o) => norm(o.nameEn || o.name) === norm(e.name));
+        const r = document.createElement("div");
+        r.className = "xrow";
+        r.innerHTML = `<div class="thumb" ${x.thumb ? `style="background-image:url('${esc(x.thumb)}')"` : ""}>${x.thumb ? "" : "🧩"}</div>
+          <a class="rt" href="https://boardgamegeek.com/boardgameexpansion/${e.id}" target="_blank" rel="noopener"><div class="t">${esc(e.name)}</div><div class="s">${x.year ? x.year + "年" : ""}</div></a>
+          ${have ? `<span class="tag">所持</span>` : `<button class="addx">＋所持</button>`}`;
+        r.querySelector(".addx")?.addEventListener("click", () => {
+          owned.unshift({ name: e.name, nameEn: e.name, key: norm(e.name), bgg: `https://boardgamegeek.com/boardgameexpansion/${e.id}`, parent: g.name, from: "拡張一覧から追加", added: new Date().toISOString() });
+          ownedGone.delete(norm(e.name)); st.open[norm(g.name)] = true; save();
+        });
+        p.appendChild(r);
+      }
+      if (exps.length > n) {
+        const m = document.createElement("button");
+        m.className = "more"; m.textContent = `拡張をさらに表示（全 ${exps.length} 件）`;
+        m.onclick = () => { st.expN = n + 20; drawList(); };
+        p.appendChild(m);
+      }
+    }
+    return p;
   }
   // 編集パネル：名前・英語名・本体・人数・BGG・箱絵の選択・削除
   function editPanel(g) {
@@ -371,9 +445,11 @@ function ownedBox(b) {
       r.querySelector(".tg")?.addEventListener("click", () => { st.open[norm(g.name)] = !st.open[norm(g.name)]; drawList(); });
       list.appendChild(r);
       if (st.edit === g) list.appendChild(editPanel(g));
+      if (st.info === g) list.appendChild(infoPanel(g));
       if (open) for (const x of kids) {
         list.appendChild(makeRow(x, g, ""));
         if (st.edit === x) list.appendChild(editPanel(x));
+        if (st.info === x) list.appendChild(infoPanel(x));
       }
     }
     if (rows.length > st.n) {
