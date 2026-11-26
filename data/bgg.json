@@ -1007,8 +1007,13 @@
   },
   "クランプスホリデーハボック": {
    "label": "クランプス ホリデーハボック",
-   "miss": true,
-   "at": "2026-11-26T03:15:22.987Z"
+   "id": "446476",
+   "name": "Holiday Hills: Santa and Krampus Double Expansion",
+   "image": "https://cf.geekdo-images.com/vR9odI49Gokcqds9KdChig__original/img/VyCepo1cT30uaLC3Tt6k0SrbP3Y=/0x0/filters:format(jpeg)/pic8883515.jpg",
+   "thumb": "https://cf.geekdo-images.com/vR9odI49Gokcqds9KdChig__small/img/ktlAErIagNS76dEkkx1ELQD_D48=/fit-in/200x150/filters:strip_icc()/pic8883515.jpg",
+   "query": "id:446476",
+   "at": "2026-11-26T13:50:44.204Z",
+   "alias": "446476"
   },
   "プロポリス": {
    "label": "プロポリス",
@@ -1022,12 +1027,13 @@
   },
   "ペイバック": {
    "label": "ペイバック",
-   "id": "446469",
-   "name": "PAYBACK",
-   "image": "https://cf.geekdo-images.com/7MraA53v0kW9tKtQgiXCig__original/img/DUEllsofjvNUVo6d7EPT4hq723c=/0x0/filters:format(jpeg)/pic8881075.jpg",
-   "thumb": "https://cf.geekdo-images.com/7MraA53v0kW9tKtQgiXCig__small/img/8IQWAX4HXRtkB_nkJsn46hKu7RU=/fit-in/200x150/filters:strip_icc()/pic8881075.jpg",
-   "query": "ペイバック",
-   "at": "2026-11-26T03:15:30.981Z"
+   "id": "443601",
+   "name": "Payback",
+   "image": "https://cf.geekdo-images.com/6mDTS9pF1mGdzwBRRLaqHA__original/img/-BkRGzSbJfHnZPhWDTRnxWWZmGg=/0x0/filters:format(png)/pic8816381.png",
+   "thumb": "https://cf.geekdo-images.com/6mDTS9pF1mGdzwBRRLaqHA__small/img/gNl1eSwSm9hW0LBe3eqxLOiGJUo=/fit-in/200x150/filters:strip_icc()/pic8816381.png",
+   "query": "id:443601",
+   "at": "2026-11-26T13:50:47.231Z",
+   "alias": "443601"
   },
   "ブリュー": {
    "label": "ブリュー",
@@ -1396,8 +1402,13 @@
   },
   "ミスターダイヤモンド": {
    "label": "ミスターダイヤモンド",
-   "miss": true,
-   "at": "2026-11-26T03:31:32.807Z"
+   "id": "3762",
+   "name": "Mister Diamond",
+   "image": "https://cf.geekdo-images.com/x-9Ik8alFdjMX0mCG7JmxQ__original/img/kHMyZggDjOo_EFpJcob-k75VREo=/0x0/filters:format(jpeg)/pic8760015.jpg",
+   "thumb": "https://cf.geekdo-images.com/x-9Ik8alFdjMX0mCG7JmxQ__small/img/K9GSyunR0Zt5hX6jRTJA6KPYPA8=/fit-in/200x150/filters:strip_icc()/pic8760015.jpg",
+   "query": "id:3762",
+   "at": "2026-11-26T13:50:50.172Z",
+   "alias": "3762"
   },
   "クォルク": {
    "label": "クォルク",
@@ -1414,5 +1425,5 @@
    "at": "2026-11-26T08:00:08.186Z"
   }
  },
- "updatedAt": "2026-11-26T12:36:47.006Z"
+ "updatedAt": "2026-11-26T13:50:50.173Z"
 }

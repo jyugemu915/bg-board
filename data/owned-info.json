@@ -2519,6 +2519,126 @@
    ],
    "at": "2026-11-26T03:56:53.330Z"
   },
+  "3762": {
+   "v": 3,
+   "id": "3762",
+   "type": "boardgame",
+   "best": "3〜5",
+   "rec": "2〜8",
+   "minTime": 20,
+   "maxTime": 20,
+   "age": 8,
+   "rating": 5.85,
+   "weight": 1,
+   "rank": 16501,
+   "mechanics": [
+    "Memory"
+   ],
+   "categories": [
+    "Action / Dexterity",
+    "Children's Game",
+    "Memory"
+   ],
+   "designers": [
+    "Gunter Baars"
+   ],
+   "artists": [
+    "Argos",
+    "別府さい (Sai Beppu)"
+   ],
+   "publishers": [
+    "JELLY JELLY GAMES",
+    "Ravensburger AG",
+    "Το Καλό Παιχνίδι Α.Ε."
+   ],
+   "families": [],
+   "desc": "The main element of the game is an octagonal board, in moulded plastic, with 16 fake pawns fixed to it. Then 26 real pawns are placed randomly on the board. The goal of the game is to catch the most real pawns.\nEach player on turn tries to take a pawn. If it comes free, the player keeps it. It is a memory game, because you have to remember where the fake pawns are if you want to take the real ones. It is also a game of observation and dexterity, because when taking, or trying to take, a pawn, you often touch the neighbouring ones, and make them move or quiver a little bit.\n\n[Awards]\n\n1994 Vuoden Perhepeli  (Finnish Family Game of the Year)",
+   "expansions": [],
+   "bases": [],
+   "en": "Mister Diamond",
+   "ja": "ハナヤマ ミスターダイヤモンド",
+   "minp": 2,
+   "maxp": 8,
+   "time": 20,
+   "year": 1993,
+   "thumb": "https://cf.geekdo-images.com/x-9Ik8alFdjMX0mCG7JmxQ__small/img/K9GSyunR0Zt5hX6jRTJA6KPYPA8=/fit-in/200x150/filters:strip_icc()/pic8760015.jpg",
+   "image": "https://cf.geekdo-images.com/x-9Ik8alFdjMX0mCG7JmxQ__original/img/kHMyZggDjOo_EFpJcob-k75VREo=/0x0/filters:format(jpeg)/pic8760015.jpg",
+   "versions": [
+    {
+     "id": "721324",
+     "name": "Japanese edition",
+     "year": 2024,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/x-9Ik8alFdjMX0mCG7JmxQ__small/img/K9GSyunR0Zt5hX6jRTJA6KPYPA8=/fit-in/200x150/filters:strip_icc()/pic8760015.jpg",
+     "image": "https://cf.geekdo-images.com/x-9Ik8alFdjMX0mCG7JmxQ__original/img/kHMyZggDjOo_EFpJcob-k75VREo=/0x0/filters:format(jpeg)/pic8760015.jpg"
+    },
+    {
+     "id": "535842",
+     "name": "Greek edition",
+     "year": 1994,
+     "lang": "Greek",
+     "thumb": "https://cf.geekdo-images.com/IFKeEs5ENqIZUGjMzDRIqA__small/img/-e71gfPP4ZyNKnafql0hEGzrvdQ=/fit-in/200x150/filters:strip_icc()/pic5763553.jpg",
+     "image": "https://cf.geekdo-images.com/IFKeEs5ENqIZUGjMzDRIqA__original/img/yQZUlY08N5jAtfk5VWQQ0r2zSag=/0x0/filters:format(jpeg)/pic5763553.jpg"
+    },
+    {
+     "id": "161144",
+     "name": "Ravensburger English edition",
+     "year": 1994,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/PgWBGRJ-ghSrNoEy7ryoXQ__small/img/ldoKHFkCeSKhl5NB534cFtsj6EA=/fit-in/200x150/filters:strip_icc()/pic1275715.jpg",
+     "image": "https://cf.geekdo-images.com/PgWBGRJ-ghSrNoEy7ryoXQ__original/img/eOB38cLBVBVWW44TnZU1Yo9Mo9k=/0x0/filters:format(jpeg)/pic1275715.jpg"
+    },
+    {
+     "id": "145297",
+     "name": "Ravensburger Dutch edition",
+     "year": 1993,
+     "lang": "Dutch",
+     "thumb": "https://cf.geekdo-images.com/ytaqthcL5PAqyh17UL3TNw__small/img/X9q9NWOF21oFQoqqrt1vsAdfD18=/fit-in/200x150/filters:strip_icc()/pic1558181.jpg",
+     "image": "https://cf.geekdo-images.com/ytaqthcL5PAqyh17UL3TNw__original/img/7YiUViQBsV_zlWGfbQ-EuekTxOw=/0x0/filters:format(jpeg)/pic1558181.jpg"
+    },
+    {
+     "id": "133555",
+     "name": "Ravensburger Finnish edition",
+     "year": 1993,
+     "lang": "Finnish",
+     "thumb": "https://cf.geekdo-images.com/gl_yiGzZ8xL4IyKwOTTekw__small/img/PKsPaYwO44ezgix0GIWU3m6shCg=/fit-in/200x150/filters:strip_icc()/pic842812.jpg",
+     "image": "https://cf.geekdo-images.com/gl_yiGzZ8xL4IyKwOTTekw__original/img/TnrITNK_A9ZhzK7Cgn2hJ-N6-mg=/0x0/filters:format(jpeg)/pic842812.jpg"
+    },
+    {
+     "id": "113231",
+     "name": "Ravensburger French edition",
+     "year": 1993,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/-Q2O4pOV8Ox1GGav0wDpGg__small/img/y7Mucqf9dykP4-2esI61b0UqWnk=/fit-in/200x150/filters:strip_icc()/pic1048735.jpg",
+     "image": "https://cf.geekdo-images.com/-Q2O4pOV8Ox1GGav0wDpGg__original/img/243Npk_PYHXquWNKgH5LNbJs5oY=/0x0/filters:format(jpeg)/pic1048735.jpg"
+    },
+    {
+     "id": "133554",
+     "name": "Ravensburger German edition",
+     "year": 1993,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/p7Rf8EZp-PIg_av92sBr0g__small/img/8YIjyNxxasDO-LZGMaYKKFE1Quw=/fit-in/200x150/filters:strip_icc()/pic9578.jpg",
+     "image": "https://cf.geekdo-images.com/p7Rf8EZp-PIg_av92sBr0g__original/img/_RlgLS07uIRwsmrgqM4xsP3-zEQ=/0x0/filters:format(jpeg)/pic9578.jpg"
+    },
+    {
+     "id": "198762",
+     "name": "Ravensburger Italian edition",
+     "year": 1993,
+     "lang": "Italian",
+     "thumb": "https://cf.geekdo-images.com/8Veyk8YAdhgQR1OB4brLNg__small/img/NdhCuVoJo8qbK3Us9faQPo9Lvpk=/fit-in/200x150/filters:strip_icc()/pic1558172.jpg",
+     "image": "https://cf.geekdo-images.com/8Veyk8YAdhgQR1OB4brLNg__original/img/ynvXRrdqGuC51G-GqXJI_gYfOdU=/0x0/filters:format(jpeg)/pic1558172.jpg"
+    },
+    {
+     "id": "114233",
+     "name": "Ravensburger Scandinavian edition",
+     "year": 1993,
+     "lang": "Danish・Norwegian・Swedish",
+     "thumb": "https://cf.geekdo-images.com/PwPt30PNp1OLWTF5OBQivA__small/img/cxSj20HBghXvzEaaVpEFy9FqaNU=/fit-in/200x150/filters:strip_icc()/pic3392952.jpg",
+     "image": "https://cf.geekdo-images.com/PwPt30PNp1OLWTF5OBQivA__original/img/0OHjqCkx2YgQm7x8CIViUjXMN-s=/0x0/filters:format(jpeg)/pic3392952.jpg"
+    }
+   ],
+   "at": "2026-11-26T13:50:56.086Z"
+  },
   "19184": {
    "v": 3,
    "id": "19184",
@@ -11807,6 +11927,51 @@
    ],
    "at": "2026-11-26T03:54:00.318Z"
   },
+  "443601": {
+   "v": 3,
+   "id": "443601",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "2〜6",
+   "minTime": 10,
+   "maxTime": 20,
+   "age": 7,
+   "rating": 7.59,
+   "weight": 1,
+   "rank": 14805,
+   "mechanics": [
+    "Hand Management",
+    "Push Your Luck",
+    "Semi-Cooperative Game",
+    "Single Loser Game"
+   ],
+   "categories": [
+    "Bluffing",
+    "Card Game",
+    "Party Game"
+   ],
+   "designers": [
+    "Karel Psota"
+   ],
+   "artists": [],
+   "publishers": [],
+   "families": [
+    "Traditional Card Games: Palace"
+   ],
+   "desc": "This is a modded version of Palace, also known as Shithead or Karma.\n\nWe made it more intuitive so kids can pick it up easily. We also made it more vengeful by introducing mechanics to get back at the person on your right (the one who's usually bullying you).\n\nHere are some of the changes:\n\nRedesigned and simplified the card hierarchy: 1 to 10. No suits, no color, no faces, no aces.\n\nSpecial cards now have unique designs instead of numbers (BURN, RESET, GHOST).\n\nNew special cards were added to get back at the person on your right: SKIP, MIRROR. This increases the deck size from 52 to 58 cards.\n\nRules were modified to speed up gameplay. If you lose with a face-up card, you take it with the pile.\n\nIf the 1st place player is out of the game, they can decide that 3 cards make a BURN, instead of 4.\n\nExpansion includes spell cards. These cards can reveal game information or cast spells on other players. For example, if they don't address you with a silly name, they have to pick up the pile.\n\nCard sizes are increased to 7 cm by 10 cm.\n\nGame modes have been added to introduce gambling and drinking mechanics.\n\nRoulette mode: All the cards are placed face-down in a giant circle.\n\nThe art was drawn in MS Paint and features bold, flashy graphics, with big influences from Keith Haring and Justice, the band.\n\n—description from the designer",
+   "expansions": [],
+   "bases": [],
+   "en": "Payback",
+   "ja": "",
+   "minp": 2,
+   "maxp": 6,
+   "time": 20,
+   "year": 2025,
+   "thumb": "https://cf.geekdo-images.com/6mDTS9pF1mGdzwBRRLaqHA__small/img/gNl1eSwSm9hW0LBe3eqxLOiGJUo=/fit-in/200x150/filters:strip_icc()/pic8816381.png",
+   "image": "https://cf.geekdo-images.com/6mDTS9pF1mGdzwBRRLaqHA__original/img/-BkRGzSbJfHnZPhWDTRnxWWZmGg=/0x0/filters:format(png)/pic8816381.png",
+   "versions": [],
+   "at": "2026-11-26T13:50:53.474Z"
+  },
   "443697": {
    "v": 3,
    "id": "443697",
@@ -11890,6 +12055,73 @@
    ],
    "at": "2026-11-26T03:54:33.890Z"
   },
+  "446476": {
+   "v": 3,
+   "id": "446476",
+   "type": "boardgameexpansion",
+   "best": "",
+   "rec": "",
+   "minTime": 30,
+   "maxTime": 60,
+   "age": 8,
+   "rating": 8.13,
+   "weight": null,
+   "rank": null,
+   "mechanics": [
+    "Area Majority / Influence",
+    "Dice Rolling",
+    "End Game Bonuses",
+    "Pattern Building",
+    "Pick-up and Deliver",
+    "Worker Placement"
+   ],
+   "categories": [
+    "Expansion for Base-game",
+    "Abstract Strategy",
+    "Dice",
+    "Fantasy"
+   ],
+   "designers": [
+    "Chris Porter"
+   ],
+   "artists": [
+    "Chris Porter"
+   ],
+   "publishers": [
+    "Chris Couch Games"
+   ],
+   "families": [
+    "Creatures: Krampus",
+    "Holidays: Christmas"
+   ],
+   "desc": "Get ready for the ultimate holiday showdown in this double expansion for Holiday Hills! Will you spread festive joy with Santa's generous gifts, or embrace a bit of mischief under Krampus' watchful eye? With new ways to earn Cheer Points - or cause a little chaos - this expansion adds twice the holiday magic (and mayhem) to your Holiday Hills adventure!\n\nIn this expansion, 1-5 players will choose to play on the Nice or Naughty side of the game board, then select to play Santa's Secret Deliveries or Krampus' Holiday Havoc.\n\nIn Santa's Secret Deliveries, Ol Saint Nick is dashing from house to house spreading holiday cheer, but can you keep up? Use cookies and milk to catch his attention, load up his sleigh board with dice presents, and score big for helping him complete his midnight mission!\n\nIn Krampus' Holiday Havoc, Krampus is on the loose stirring up mischief and tempting players to embrace their naughty side! Swap decorations, add coal under trees, or even toss festive adornments into his bonfire - all while racking up Humbug Points that could turn into unexpected rewards!\n\n—description from the publisher",
+   "expansions": [],
+   "bases": [
+    {
+     "id": "421217",
+     "name": "Holiday Hills"
+    }
+   ],
+   "en": "Holiday Hills: Santa and Krampus Double Expansion",
+   "ja": "",
+   "minp": 2,
+   "maxp": 5,
+   "time": 60,
+   "year": 2025,
+   "thumb": "https://cf.geekdo-images.com/vR9odI49Gokcqds9KdChig__small/img/ktlAErIagNS76dEkkx1ELQD_D48=/fit-in/200x150/filters:strip_icc()/pic8883515.jpg",
+   "image": "https://cf.geekdo-images.com/vR9odI49Gokcqds9KdChig__original/img/VyCepo1cT30uaLC3Tt6k0SrbP3Y=/0x0/filters:format(jpeg)/pic8883515.jpg",
+   "versions": [
+    {
+     "id": "759009",
+     "name": "English edition",
+     "year": 2025,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/vR9odI49Gokcqds9KdChig__small/img/ktlAErIagNS76dEkkx1ELQD_D48=/fit-in/200x150/filters:strip_icc()/pic8883515.jpg",
+     "image": "https://cf.geekdo-images.com/vR9odI49Gokcqds9KdChig__original/img/VyCepo1cT30uaLC3Tt6k0SrbP3Y=/0x0/filters:format(jpeg)/pic8883515.jpg"
+    }
+   ],
+   "at": "2026-11-26T13:50:50.436Z"
+  },
   "450967": {
    "v": 3,
    "id": "450967",
@@ -11948,7 +12180,7 @@
    "at": "2026-11-26T03:56:55.915Z"
   }
  },
- "updatedAt": "2026-11-26T12:36:52.668Z",
+ "updatedAt": "2026-11-26T13:50:58.587Z",
  "exps": {
   "2591": {
    "id": "2591",
