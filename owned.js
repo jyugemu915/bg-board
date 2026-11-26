@@ -287,7 +287,7 @@ function tile({ g, kids, kidHit }) {
   t.innerHTML = `<div class="tart"><span class="tbox">${img ? `<img src="${esc(img)}" alt="" loading="lazy">` : `<span class="tname">${esc(tt.main)}</span>`}
       ${g.flags?.length ? `<div class="tflags">${flagTags(g, "tflag")}</div>` : ""}
       ${kids.length ? `<span class="tbadge${kidHit ? " hit" : ""}">＋拡張${kids.length}</span>` : ""}</span></div>
-    <div class="tov">${meta.length ? meta.map((m, k) => `<span>${k ? "⏱" : "👥"}${esc(m)}</span>`).join("") : "&nbsp;"}</div>`;
+    <div class="tov">${meta.length ? esc(meta.join("・").replace(/〜/g, "-")) : "&nbsp;"}</div>`;
   t.title = tt.main;
   t.onclick = () => openSheet(g);
   return t;

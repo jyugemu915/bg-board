@@ -222,3 +222,5 @@ form.oedit .flagck input{width:auto;margin:0}
 .memoform input{flex:1;min-width:0;font:inherit;font-size:16px;padding:5px 8px;border:1px solid var(--line);border-radius:8px}
 .memoform button{border:0;background:var(--dark);color:#fff;border-radius:8px;padding:4px 10px;font-size:12.5px;white-space:nowrap}
 .memoform button[type=button]{background:#fff;color:#555;border:1px solid var(--line)}
+/* 箱の下の人数・時間は1行に（入らないときは…で省略） */
+.tov{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:center;font-size:10.5px;letter-spacing:-.01em}
