@@ -924,7 +924,62 @@
    "query": "id:77130",
    "at": "2026-11-26T02:06:43.306Z",
    "alias": "77130"
+  },
+  "マーチャンツコーブビッグボックス": {
+   "label": "マーチャンツコーブ ビッグボックス",
+   "id": "277700",
+   "name": "Merchants Cove",
+   "image": "https://cf.geekdo-images.com/-JD8JLncWYMes9Q6YIgorg__original/img/HkR7hlj4qqYD1oUvKXeyCLKjsKE=/0x0/filters:format(jpeg)/pic6136538.jpg",
+   "thumb": "https://cf.geekdo-images.com/-JD8JLncWYMes9Q6YIgorg__small/img/Ce6a64m5DxVae_ZXnAsrgdEnqBQ=/fit-in/200x150/filters:strip_icc()/pic6136538.jpg",
+   "query": "id:277700",
+   "at": "2026-11-26T02:23:35.414Z",
+   "alias": "277700"
+  },
+  "ファクトリア": {
+   "label": "ファクトリア",
+   "id": "342949",
+   "name": "Factoria",
+   "image": "https://cf.geekdo-images.com/Y4Zx9vzGoDsJDo-s2SGx5Q__original/img/q05PkuxmPPKeXGPeCYjJ1JhEqtA=/0x0/filters:format(jpeg)/pic7252536.jpg",
+   "thumb": "https://cf.geekdo-images.com/Y4Zx9vzGoDsJDo-s2SGx5Q__small/img/-CTbe1BaToUoltOi0wP_aC_cEa8=/fit-in/200x150/filters:strip_icc()/pic7252536.jpg",
+   "query": "id:342949",
+   "at": "2026-11-26T02:23:38.021Z",
+   "alias": "342949"
+  },
+  "魔法のカギ": {
+   "label": "魔法のカギ",
+   "id": "368899",
+   "name": "Magic Keys",
+   "image": "https://cf.geekdo-images.com/du6vq9YnLlsIqv2Zh4yXFQ__original/img/j0ml7S2hQl24qXO4BzTmZ0KJhTM=/0x0/filters:format(png)/pic8256181.png",
+   "thumb": "https://cf.geekdo-images.com/du6vq9YnLlsIqv2Zh4yXFQ__small/img/abAcYL9xUby986xwQD9Pbui4W1U=/fit-in/200x150/filters:strip_icc()/pic8256181.png",
+   "query": "id:368899",
+   "at": "2026-11-26T02:23:40.645Z",
+   "alias": "368899"
+  },
+  "バグハント": {
+   "label": "バグハント",
+   "miss": true,
+   "at": "2026-11-26T02:23:43.220Z"
+  },
+  "地獄の釜": {
+   "label": "地獄の釜",
+   "id": "137154",
+   "name": "Auf Teufel komm raus",
+   "image": "https://cf.geekdo-images.com/-WIE8BTtrcBfO5noeHQJ_w__original/img/1Al444qAbQrfOeJcEVpUVtn6yAo=/0x0/filters:format(jpeg)/pic1545739.jpg",
+   "thumb": "https://cf.geekdo-images.com/-WIE8BTtrcBfO5noeHQJ_w__small/img/IaYh0NCDpegzOHdTmYuX-rm5wE8=/fit-in/200x150/filters:strip_icc()/pic1545739.jpg",
+   "query": "id:137154",
+   "at": "2026-11-26T02:23:46.174Z",
+   "alias": "137154"
+  },
+  "エターナルデックス": {
+   "label": "エターナルデックス",
+   "id": "424981",
+   "name": "Eternal Decks",
+   "image": "https://cf.geekdo-images.com/Bo6QYIQWzRRcn7KyO3AIPg__original/img/eQ-YojBJLh3FFFa_Cn-bbHbs-wk=/0x0/filters:format(png)/pic8512516.png",
+   "thumb": "https://cf.geekdo-images.com/Bo6QYIQWzRRcn7KyO3AIPg__small/img/P9XzT5xp1nj-z8N379CrM7_ozNg=/fit-in/200x150/filters:strip_icc()/pic8512516.png",
+   "query": "id:424981",
+   "at": "2026-11-26T02:23:48.812Z",
+   "alias": "424981"
   }
  },
- "updatedAt": "2026-11-26T02:20:09.365Z"
+ "updatedAt": "2026-11-26T02:23:48.812Z"
 }
