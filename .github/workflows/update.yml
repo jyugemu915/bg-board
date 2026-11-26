@@ -23,6 +23,9 @@ jobs:
       - run: node scripts/bgg.mjs
         env:
           BGG_TOKEN: ${{ secrets.BGG_TOKEN }}
+      - run: node scripts/owned-info.mjs
+        env:
+          BGG_TOKEN: ${{ secrets.BGG_TOKEN }}
       - name: 変更があれば保存
         run: |
           git config user.name "bg-board-bot"

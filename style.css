@@ -91,3 +91,16 @@ a.x{text-decoration:none}
 .row.sub{padding:6px 16px 6px 42px;background:#faf6ec;border-top:1px dashed var(--line)}
 .row.sub .thumb{width:32px;height:32px;font-size:14px}
 .row.sub .t{font-size:13px}
+.rt .en{font-size:11.5px;color:#6c675b;margin-top:1px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.rt .pl{color:var(--ink)}
+.tag.tg{cursor:pointer}
+.chipsep{flex:none;align-self:center;font-size:11px;color:var(--muted);margin-left:6px}
+form.oedit{background:#fffdf7;border-top:1px dashed var(--line)}
+form.oedit label{display:block;font-size:11.5px;color:var(--muted);flex:1;min-width:0}
+form.oedit label input{margin-top:2px}
+form.oedit .lbl{font-size:11.5px;color:var(--muted)}
+.arts{display:flex;gap:8px;overflow-x:auto;padding:2px 0 4px}
+.arts .art{flex:none;width:72px;height:72px;border:2px solid transparent;border-radius:8px;background:var(--chip) center/cover no-repeat;position:relative;padding:0}
+.arts .art.on{border-color:var(--accent)}
+.arts .art span{position:absolute;left:0;right:0;bottom:0;font-size:9.5px;background:#000a;color:#fff;border-radius:0 0 6px 6px;padding:1px 2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ghostbtn{border:1px solid var(--line)!important;background:#fff!important;color:#555!important}
