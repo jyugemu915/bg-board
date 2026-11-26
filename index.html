@@ -6,7 +6,21 @@
 <meta name="theme-color" content="#f1eee6">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <title>ボドゲ情報ボード</title>
-<link rel="stylesheet" href="style.css?v=20261126h">
+<script>
+// 新しい版が公開されていたら読み直す（ホーム画面アプリの古いページ対策）。版を上げたら version.json と下の V を同じ値に
+(() => {
+  const V = "20261126i";
+  const check = () => fetch("version.json?" + Date.now(), { cache: "no-store" }).then((r) => r.json()).then((d) => {
+    if (d.v && d.v !== V && sessionStorage.getItem("bgb.reload") !== d.v) {
+      sessionStorage.setItem("bgb.reload", d.v);
+      location.replace(location.pathname + "?v=" + d.v + location.hash);
+    }
+  }).catch(() => {});
+  check();
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") check(); });
+})();
+</script>
+<link rel="stylesheet" href="style.css?v=20261126i">
 </head>
 <body>
 <header class="top">
@@ -37,7 +51,7 @@
   <div id="ownedPage" class="opage"></div>
   <p class="credit"><a href="https://boardgamegeek.com" target="_blank" rel="noopener">Powered by BGG</a></p>
 </main>
-<script src="app.js?v=20261126h"></script>
-<script src="owned.js?v=20261126h"></script>
+<script src="app.js?v=20261126i"></script>
+<script src="owned.js?v=20261126i"></script>
 </body>
 </html>
