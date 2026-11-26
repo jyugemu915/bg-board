@@ -1,0 +1,13 @@
+name: probe
+on: { push: { paths: [".github/workflows/probe.yml"] } }
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/probe-bgg.mjs
+        env:
+          BGG_TOKEN: ${{ secrets.BGG_TOKEN }}
+          QS: '["Magic Maze Tower", "Captain Flip", "Hansa Teutonica", "First Rat", "Istanbul", "Rats of Wistar", "Newton", "Crusaders: Thy Will Be Done", "Broom Service", "The Golden Ticket Game", "Camel Up", "Rattlebones", "Grow Sky", "Challengers!", "Cubitos", "The Quest for El Dorado", "El Dorado: The Golden Temples", "Snow Planner", "Mercurial Alchemia", "Keep the Heroes Out!", "Boss Battles", "Underground Market", "The Guild of Merchant Explorers", "Bluff", "Bandu", "Steampunk Rally Fusion", "Holiday Hills", "Canvas", "Compania", "Tapestry", "Lexio", "Through the Ages: A New Story of Civilization", "Factoria", "Cove Trove"]'
