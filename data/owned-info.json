@@ -1,8 +1,39 @@
 {
  "games": {
   "45": {
+   "v": 2,
    "id": "45",
    "type": "boardgame",
+   "best": "5〜6",
+   "rec": "3〜7",
+   "minTime": 15,
+   "maxTime": 30,
+   "age": 8,
+   "rating": 6.93,
+   "weight": 1.25,
+   "rank": 874,
+   "mechanics": [
+    "Betting and Bluffing",
+    "Dice Rolling",
+    "Player Elimination"
+   ],
+   "categories": [
+    "Bluffing",
+    "Children's Game",
+    "Dice",
+    "Movies / TV / Radio theme",
+    "Party Game"
+   ],
+   "designers": [
+    "Richard Borg"
+   ],
+   "expansions": [
+    {
+     "id": "383714",
+     "name": "Cups 'N' Dice"
+    }
+   ],
+   "bases": [],
    "en": "Liar's Dice",
    "ja": "ブラフ",
    "minp": 2,
@@ -205,11 +236,38 @@
      "image": "https://cf.geekdo-images.com/vtdd3r9YclF8PmZOF0UBPA__original/img/7Yghhxcru7w8psjwhLOJ0465g9c=/0x0/filters:format(jpeg)/pic9483848.jpg"
     }
    ],
-   "at": "2026-11-26T02:32:47.692Z"
+   "at": "2026-11-26T02:46:13.783Z"
   },
   "1231": {
+   "v": 2,
    "id": "1231",
    "type": "boardgame",
+   "best": "4",
+   "rec": "2〜7",
+   "minTime": 15,
+   "maxTime": 45,
+   "age": 7,
+   "rating": 6.79,
+   "weight": 1.28,
+   "rank": 1896,
+   "mechanics": [
+    "Auction / Bidding",
+    "Stacking and Balancing"
+   ],
+   "categories": [
+    "Action / Dexterity",
+    "Party Game"
+   ],
+   "designers": [
+    "Klaus Zoch"
+   ],
+   "expansions": [
+    {
+     "id": "43236",
+     "name": "Bausack: Extension Kit"
+    }
+   ],
+   "bases": [],
    "en": "Bandu",
    "ja": "",
    "minp": 2,
@@ -300,11 +358,32 @@
      "image": "https://cf.geekdo-images.com/1iBprQ3OQOjlVpGBQKFsww__original/img/MYOU6nMfR9EiVg9p81CczGvYIzI=/0x0/filters:format(jpeg)/pic1932250.jpg"
     }
    ],
-   "at": "2026-11-26T02:32:50.902Z"
+   "at": "2026-11-26T02:46:16.512Z"
   },
   "19184": {
+   "v": 2,
    "id": "19184",
    "type": "boardgame",
+   "best": "5",
+   "rec": "3〜5",
+   "minTime": 20,
+   "maxTime": 20,
+   "age": 8,
+   "rating": 6.8,
+   "weight": 1.92,
+   "rank": 4733,
+   "mechanics": [
+    "Hand Management",
+    "Ladder Climbing"
+   ],
+   "categories": [
+    "Abstract Strategy"
+   ],
+   "designers": [
+    "Kwang Hee Lee"
+   ],
+   "expansions": [],
+   "bases": [],
    "en": "Lexio",
    "ja": "",
    "minp": 3,
@@ -387,11 +466,57 @@
      "image": "https://cf.geekdo-images.com/96AXqI23ivF0thE9B3HfKg__original/img/rbzridUCxb6VDN20zrDAzZLOVuo=/0x0/filters:format(jpeg)/pic206779.jpg"
     }
    ],
-   "at": "2026-11-26T02:33:06.814Z"
+   "at": "2026-11-26T02:46:32.032Z"
   },
   "77130": {
+   "v": 2,
    "id": "77130",
    "type": "boardgame",
+   "best": "4",
+   "rec": "2〜4",
+   "minTime": 120,
+   "maxTime": 240,
+   "age": 13,
+   "rating": 7.37,
+   "weight": 3.9,
+   "rank": 448,
+   "mechanics": [
+    "Deck, Bag, and Pool Building",
+    "Grid Movement",
+    "Hand Management",
+    "Modular Board",
+    "Open Drafting",
+    "Rock-Paper-Scissors",
+    "Square Grid",
+    "Tech Trees / Tech Tracks",
+    "Trading",
+    "Variable Player Powers"
+   ],
+   "categories": [
+    "City Building",
+    "Civilization",
+    "Exploration",
+    "Negotiation",
+    "Video Game Theme"
+   ],
+   "designers": [
+    "Kevin Wilson"
+   ],
+   "expansions": [
+    {
+     "id": "155127",
+     "name": "Sid Meier's Civilization: The Board Game – die Griechen Promo Card"
+    },
+    {
+     "id": "108415",
+     "name": "Sid Meier's Civilization: The Board Game – Fame and Fortune"
+    },
+    {
+     "id": "142708",
+     "name": "Sid Meier's Civilization: The Board Game – Wisdom and Warfare"
+    }
+   ],
+   "bases": [],
    "en": "Sid Meier's Civilization: The Board Game",
    "ja": "シドマイヤーズ・シヴィライゼーション：ボードゲーム",
    "minp": 2,
@@ -506,11 +631,31 @@
      "image": "https://cf.geekdo-images.com/OtmUGkV2vE-kfDxKkl3PDw__original/img/M9zqVW3haFv6D25fAXkrjqBCgJ0=/0x0/filters:format(jpeg)/pic1161332.jpg"
     }
    ],
-   "at": "2026-11-26T02:33:09.463Z"
+   "at": "2026-11-26T02:46:34.634Z"
   },
   "137154": {
+   "v": 2,
    "id": "137154",
    "type": "boardgame",
+   "best": "5〜6",
+   "rec": "3〜6",
+   "minTime": 40,
+   "maxTime": 40,
+   "age": 10,
+   "rating": 6.9,
+   "weight": 1.57,
+   "rank": 4692,
+   "mechanics": [
+    "Betting and Bluffing",
+    "Push Your Luck"
+   ],
+   "categories": [],
+   "designers": [
+    "Tanja Engel",
+    "Sara Engel"
+   ],
+   "expansions": [],
+   "bases": [],
    "en": "Auf Teufel komm raus",
    "ja": "地獄の釜",
    "minp": 2,
@@ -529,11 +674,78 @@
      "image": "https://cf.geekdo-images.com/-WIE8BTtrcBfO5noeHQJ_w__original/img/1Al444qAbQrfOeJcEVpUVtn6yAo=/0x0/filters:format(jpeg)/pic1545739.jpg"
     }
    ],
-   "at": "2026-11-26T02:33:19.943Z"
+   "at": "2026-11-26T02:46:45.023Z"
   },
   "148949": {
+   "v": 2,
    "id": "148949",
    "type": "boardgame",
+   "best": "4",
+   "rec": "2〜5",
+   "minTime": 40,
+   "maxTime": 60,
+   "age": 10,
+   "rating": 7.53,
+   "weight": 2.58,
+   "rank": 196,
+   "mechanics": [
+    "Contracts",
+    "Dice Rolling",
+    "Grid Movement",
+    "Mancala",
+    "Market",
+    "Modular Board",
+    "Network and Route Building",
+    "Pick-up and Deliver",
+    "Race",
+    "Variable Set-up",
+    "Worker Placement"
+   ],
+   "categories": [
+    "Economic"
+   ],
+   "designers": [
+    "Rüdiger Dorn"
+   ],
+   "expansions": [
+    {
+     "id": "204573",
+     "name": "Brettspiel Adventskalender 2016"
+    },
+    {
+     "id": "234191",
+     "name": "Camel Up: The Referee Camel & Istanbul – Caravan Leader Mini Expansion"
+    },
+    {
+     "id": "207573",
+     "name": "Istanbul: Caravan Leader Mini Expansion"
+    },
+    {
+     "id": "161224",
+     "name": "Istanbul: Kebab Shop Mini Expansion"
+    },
+    {
+     "id": "192779",
+     "name": "Istanbul: Letters & Seals"
+    },
+    {
+     "id": "172505",
+     "name": "Istanbul: Mocha & Baksheesh"
+    },
+    {
+     "id": "395699",
+     "name": "Istanbul: Pegasus Depot & Kebab Shop Mini Expansions"
+    },
+    {
+     "id": "213217",
+     "name": "Istanbul: Pegasus Depot Mini Expansion"
+    },
+    {
+     "id": "293240",
+     "name": "Super Power"
+    }
+   ],
+   "bases": [],
    "en": "Istanbul",
    "ja": "イスタンブール",
    "minp": 2,
@@ -688,11 +900,35 @@
      "image": "https://cf.geekdo-images.com/-c_45IP08xA211F22K7iAw__original/img/_k0-ZetamzQv6vTZDEF2ZuJHwc0=/0x0/filters:format(jpeg)/pic1977063.jpg"
     }
    ],
-   "at": "2026-11-26T02:31:59.666Z"
+   "at": "2026-11-26T02:45:27.182Z"
   },
   "150146": {
+   "v": 2,
    "id": "150146",
    "type": "boardgame",
+   "best": "4",
+   "rec": "2〜4",
+   "minTime": 40,
+   "maxTime": 90,
+   "age": 14,
+   "rating": 6.48,
+   "weight": 1.62,
+   "rank": 4647,
+   "mechanics": [
+    "Catch the Leader",
+    "Deck, Bag, and Pool Building",
+    "Dice Rolling",
+    "Modular Board",
+    "Roll / Spin and Move"
+   ],
+   "categories": [
+    "Dice"
+   ],
+   "designers": [
+    "Stephen Glenn"
+   ],
+   "expansions": [],
+   "bases": [],
    "en": "Rattlebones",
    "ja": "",
    "minp": 2,
@@ -719,11 +955,46 @@
      "image": "https://cf.geekdo-images.com/kjkKAiAWtNJHvP-Z_s1esQ__original/img/Rt0YjFH6xrMU3SJpEig8Y5509vg=/0x0/filters:format(jpeg)/pic2399765.jpg"
     }
    ],
-   "at": "2026-11-26T02:32:18.887Z"
+   "at": "2026-11-26T02:45:45.251Z"
   },
   "170624": {
+   "v": 2,
    "id": "170624",
    "type": "boardgame",
+   "best": "3〜4",
+   "rec": "2〜4",
+   "minTime": 40,
+   "maxTime": 60,
+   "age": 14,
+   "rating": 7.48,
+   "weight": 2.46,
+   "rank": 654,
+   "mechanics": [
+    "Action Points",
+    "Area Majority / Influence",
+    "End Game Bonuses",
+    "Grid Movement",
+    "Hexagon Grid",
+    "Mancala",
+    "Movement Points",
+    "Rondel",
+    "Tech Trees / Tech Tracks",
+    "Variable Player Powers"
+   ],
+   "categories": [
+    "Medieval",
+    "Territory Building"
+   ],
+   "designers": [
+    "Seth Jaffee"
+   ],
+   "expansions": [
+    {
+     "id": "289240",
+     "name": "Crusaders: Thy Will Be Done – Divine Influence"
+    }
+   ],
+   "bases": [],
    "en": "Crusaders: Thy Will Be Done",
    "ja": "クルセイダーズ",
    "minp": 2,
@@ -758,11 +1029,51 @@
      "image": "https://cf.geekdo-images.com/FDJNeXF3PLJDhRHPYXO4GQ__original/img/HS0xb3e1s_GncdYp3AOjGPu-DAo=/0x0/filters:format(png)/pic3187849.png"
     }
    ],
-   "at": "2026-11-26T02:32:07.945Z"
+   "at": "2026-11-26T02:45:34.936Z"
   },
   "172308": {
+   "v": 2,
    "id": "172308",
    "type": "boardgame",
+   "best": "4",
+   "rec": "2〜5",
+   "minTime": 45,
+   "maxTime": 75,
+   "age": 10,
+   "rating": 7.17,
+   "weight": 2.39,
+   "rank": 669,
+   "mechanics": [
+    "Area Movement",
+    "Follow",
+    "Hand Management",
+    "Pick-up and Deliver",
+    "Set Collection",
+    "Simultaneous Action Selection",
+    "Variable Phase Order"
+   ],
+   "categories": [
+    "Fantasy"
+   ],
+   "designers": [
+    "Andreas Pelikan",
+    "Alexander Pfister"
+   ],
+   "expansions": [
+    {
+     "id": "204573",
+     "name": "Brettspiel Adventskalender 2016"
+    },
+    {
+     "id": "211173",
+     "name": "Broom Service: Christmastime"
+    },
+    {
+     "id": "202021",
+     "name": "Broom Service: The 1st Expansion"
+    }
+   ],
+   "bases": [],
    "en": "Broom Service",
    "ja": "ブルームサービス",
    "minp": 2,
@@ -845,11 +1156,81 @@
      "image": "https://cf.geekdo-images.com/2ijkYfsp9lHm6_z5_pu9wQ__original/img/75wyMkgduHeoPlUng5hAW2N2rtQ=/0x0/filters:format(jpeg)/pic3625910.jpg"
     }
    ],
-   "at": "2026-11-26T02:32:10.991Z"
+   "at": "2026-11-26T02:45:37.527Z"
   },
   "217372": {
+   "v": 2,
    "id": "217372",
    "type": "boardgame",
+   "best": "2, 4",
+   "rec": "2〜4",
+   "minTime": 30,
+   "maxTime": 60,
+   "age": 10,
+   "rating": 7.72,
+   "weight": 1.94,
+   "rank": 119,
+   "mechanics": [
+    "Deck, Bag, and Pool Building",
+    "Delayed Purchase",
+    "Grid Movement",
+    "Hand Management",
+    "Hexagon Grid",
+    "Modular Board",
+    "Multi-Use Cards",
+    "Once-Per-Game Abilities",
+    "Open Drafting",
+    "Race",
+    "Resource to Move",
+    "Variable Set-up",
+    "Zone of Control"
+   ],
+   "categories": [
+    "Adventure",
+    "Exploration"
+   ],
+   "designers": [
+    "Reiner Knizia"
+   ],
+   "expansions": [
+    {
+     "id": "381137",
+     "name": "The Quest for El Dorado: 2023 Promo Pack"
+    },
+    {
+     "id": "364636",
+     "name": "The Quest for El Dorado: Dangers & Muisca"
+    },
+    {
+     "id": "377971",
+     "name": "The Quest for El Dorado: Dragons, Treasures & Mysteries"
+    },
+    {
+     "id": "433367",
+     "name": "Quest for El Dorado: Expansion Collection"
+    },
+    {
+     "id": "246431",
+     "name": "The Quest for El Dorado: Heroes & Hexes"
+    },
+    {
+     "id": "257636",
+     "name": "The Quest for El Dorado: Promo Pack"
+    },
+    {
+     "id": "350883",
+     "name": "The Quest for El Dorado: Promo Pack – Letter of Recommendation"
+    },
+    {
+     "id": "350886",
+     "name": "The Quest for El Dorado: Promo Pack – Telegram"
+    },
+    {
+     "id": "381446",
+     "name": "Wyprawa do El Dorado: Mokradła i Smoki"
+    }
+   ],
+   "bases": [],
    "en": "The Quest for El Dorado",
    "ja": "エルドラドを探して　新版",
    "minp": 2,
@@ -1052,11 +1433,74 @@
      "image": "https://cf.geekdo-images.com/E24Om9aK0y3puvYbDCKWyw__original/img/NLyqs49VzLJ6bNHjtErB-dQUtYg=/0x0/filters:format(jpeg)/pic4661618.jpg"
     }
    ],
-   "at": "2026-11-26T02:32:29.266Z"
+   "at": "2026-11-26T02:45:55.599Z"
   },
   "244711": {
+   "v": 2,
    "id": "244711",
    "type": "boardgame",
+   "best": "3",
+   "rec": "1〜4",
+   "minTime": 90,
+   "maxTime": 90,
+   "age": 14,
+   "rating": 7.49,
+   "weight": 3.36,
+   "rank": 495,
+   "mechanics": [
+    "Action Retrieval",
+    "Closed Drafting",
+    "Deck, Bag, and Pool Building",
+    "End Game Bonuses",
+    "Hand Management",
+    "Income",
+    "Open Drafting",
+    "Point to Point Movement",
+    "Solo / Solitaire Game",
+    "Tech Trees / Tech Tracks",
+    "Tile Placement",
+    "Turn Order: Progressive",
+    "Variable Set-up"
+   ],
+   "categories": [
+    "Age of Reason",
+    "Travel"
+   ],
+   "designers": [
+    "Simone Luciani",
+    "Nestore Mangone"
+   ],
+   "expansions": [
+    {
+     "id": "389120",
+     "name": "Newton: Extra City Tiles"
+    },
+    {
+     "id": "286287",
+     "name": "Newton: Great Discoveries Expansion"
+    },
+    {
+     "id": "397436",
+     "name": "Newton: Italy Grand Tour"
+    },
+    {
+     "id": "363526",
+     "name": "Newton: New Horizon"
+    },
+    {
+     "id": "265290",
+     "name": "Newton: Robert Hooke Promo Card"
+    },
+    {
+     "id": "265291",
+     "name": "Newton: Stephen Hawking Promo Card"
+    },
+    {
+     "id": "363525",
+     "name": "Newton: Sun Set Promo"
+    }
+   ],
+   "bases": [],
    "en": "Newton",
    "ja": "",
    "minp": 1,
@@ -1147,11 +1591,43 @@
      "image": "https://cf.geekdo-images.com/-w-xtnlU9gvr6U0Nlm38Yw__original/img/z3q2OjBDJYOTKr3OOx3EtI0MhVQ=/0x0/filters:format(jpeg)/pic4237192.jpg"
     }
    ],
-   "at": "2026-11-26T02:32:05.364Z"
+   "at": "2026-11-26T02:45:32.365Z"
   },
   "260605": {
+   "v": 2,
    "id": "260605",
    "type": "boardgame",
+   "best": "5〜6",
+   "rec": "3〜8",
+   "minTime": 30,
+   "maxTime": 45,
+   "age": 8,
+   "rating": 7.53,
+   "weight": 1.51,
+   "rank": 268,
+   "mechanics": [
+    "Betting and Bluffing",
+    "Dice Rolling",
+    "Roll / Spin and Move",
+    "Track Movement",
+    "Variable Set-up"
+   ],
+   "categories": [
+    "Animals",
+    "Arabian",
+    "Dice",
+    "Racing"
+   ],
+   "designers": [
+    "Steffen Bogen"
+   ],
+   "expansions": [
+    {
+     "id": "293240",
+     "name": "Super Power"
+    }
+   ],
+   "bases": [],
    "en": "Camel Up (Second Edition)",
    "ja": "キャメルアップ(2019年版)",
    "minp": 3,
@@ -1306,11 +1782,38 @@
      "image": "https://cf.geekdo-images.com/WU8qB-7q1jotPjTwbA8koA__original/img/IFxC0xhT7bQcMuLK58yZJsUv3Zg=/0x0/filters:format(jpeg)/pic4455662.jpg"
     }
    ],
-   "at": "2026-11-26T02:32:16.187Z"
+   "at": "2026-11-26T02:45:42.681Z"
   },
   "271615": {
+   "v": 2,
    "id": "271615",
    "type": "boardgame",
+   "best": "2, 4",
+   "rec": "2〜4",
+   "minTime": 30,
+   "maxTime": 60,
+   "age": 10,
+   "rating": 7.65,
+   "weight": 2.04,
+   "rank": 1290,
+   "mechanics": [
+    "Deck, Bag, and Pool Building",
+    "Grid Movement",
+    "Hand Management",
+    "Modular Board",
+    "Open Drafting",
+    "Pick-up and Deliver",
+    "Race"
+   ],
+   "categories": [
+    "Adventure",
+    "Exploration"
+   ],
+   "designers": [
+    "Reiner Knizia"
+   ],
+   "expansions": [],
+   "bases": [],
    "en": "The Quest for El Dorado: The Golden Temples",
    "ja": "エルドラドを探して 新版 黄金の神殿",
    "minp": 2,
@@ -1385,11 +1888,83 @@
      "image": "https://cf.geekdo-images.com/Q1hmzzqmeiFU8j-6ILqLZg__original/img/dKlficdHi9Tqnxop8CwSFDIwn5c=/0x0/filters:format(jpeg)/pic4936842.jpg"
     }
    ],
-   "at": "2026-11-26T02:32:31.895Z"
+   "at": "2026-11-26T02:45:58.245Z"
   },
   "277700": {
+   "v": 2,
    "id": "277700",
    "type": "boardgame",
+   "best": "3",
+   "rec": "1〜4",
+   "minTime": 60,
+   "maxTime": 90,
+   "age": 14,
+   "rating": 7.38,
+   "weight": 2.76,
+   "rank": 1008,
+   "mechanics": [
+    "Commodity Speculation",
+    "Dice Rolling",
+    "Rondel",
+    "Solo / Solitaire Game",
+    "Tile Placement",
+    "Turn Order: Time Track",
+    "Variable Player Powers",
+    "Worker Placement"
+   ],
+   "categories": [
+    "Economic",
+    "Fantasy",
+    "Nautical"
+   ],
+   "designers": [
+    "Jonny Pac",
+    "Carl Van Ostrand",
+    "Drake Villareal"
+   ],
+   "expansions": [
+    {
+     "id": "337797",
+     "name": "Merchants Cove: Backer-built Rogue Pack"
+    },
+    {
+     "id": "444761",
+     "name": "Merchants Cove: Game Maker"
+    },
+    {
+     "id": "444762",
+     "name": "Merchants Cove: Loot Pack"
+    },
+    {
+     "id": "364640",
+     "name": "Merchants Cove: Master Craft"
+    },
+    {
+     "id": "351232",
+     "name": "Merchants Cove: Rogue Promo Card"
+    },
+    {
+     "id": "295361",
+     "name": "Merchants Cove: The Dragon Rancher"
+    },
+    {
+     "id": "354979",
+     "name": "Merchants Cove: The Entertainer Crossover Pack"
+    },
+    {
+     "id": "286985",
+     "name": "Merchants Cove: The Innkeeper"
+    },
+    {
+     "id": "286986",
+     "name": "Merchants Cove: The Oracle"
+    },
+    {
+     "id": "294635",
+     "name": "Merchants Cove: The Secret Stash"
+    }
+   ],
+   "bases": [],
    "en": "Merchants Cove",
    "ja": "",
    "minp": 1,
@@ -1464,11 +2039,76 @@
      "image": "https://cf.geekdo-images.com/7iWA0qyj66CNoJ_sdTPiBA__original/img/U4iRNvAKUS13AgI18gC5CShi4is=/0x0/filters:format(jpeg)/pic6119179.jpg"
     }
    ],
-   "at": "2026-11-26T02:33:12.097Z"
+   "at": "2026-11-26T02:46:37.268Z"
   },
   "286096": {
+   "v": 2,
    "id": "286096",
    "type": "boardgame",
+   "best": "3",
+   "rec": "1〜4",
+   "minTime": 90,
+   "maxTime": 120,
+   "age": 12,
+   "rating": 7.43,
+   "weight": 2.97,
+   "rank": 309,
+   "mechanics": [
+    "Area Majority / Influence",
+    "Card Play Conflict Resolution",
+    "Contracts",
+    "Dice Rolling",
+    "Die Icon Resolution",
+    "Events",
+    "Grid Coverage",
+    "Hand Management",
+    "Hexagon Grid",
+    "Income",
+    "Layering",
+    "Map Addition",
+    "Multiple Maps",
+    "Once-Per-Game Abilities",
+    "Open Drafting",
+    "Push Your Luck",
+    "Solo / Solitaire Game",
+    "Square Grid",
+    "Tags",
+    "Take That",
+    "Tech Trees / Tech Tracks",
+    "Tile Placement",
+    "Variable Player Powers",
+    "Variable Set-up"
+   ],
+   "categories": [
+    "Civilization",
+    "Territory Building"
+   ],
+   "designers": [
+    "Jamey Stegmaier"
+   ],
+   "expansions": [
+    {
+     "id": "349998",
+     "name": "Tapestry: Arts & Architecture"
+    },
+    {
+     "id": "379578",
+     "name": "Tapestry: Fantasies & Futures"
+    },
+    {
+     "id": "315708",
+     "name": "Tapestry: Plans and Ploys"
+    },
+    {
+     "id": "410207",
+     "name": "Tapestry: Revised, Adjusted, Rebalanced Civilization Pack"
+    },
+    {
+     "id": "421185",
+     "name": "Trade Routes (fan expansion for Tapestry)"
+    }
+   ],
+   "bases": [],
    "en": "Tapestry",
    "ja": "タペストリー ～文明の錦の御旗～",
    "minp": 1,
@@ -1599,11 +2239,46 @@
      "image": "https://cf.geekdo-images.com/z2LAej7AJXsIi1T9NE_9Lg__original/img/3twR-D8d_yEOJbaBj595XtWuokU=/0x0/filters:format(jpeg)/pic6657632.jpg"
     }
    ],
-   "at": "2026-11-26T02:33:04.105Z"
+   "at": "2026-11-26T02:46:29.456Z"
   },
   "286749": {
+   "v": 2,
    "id": "286749",
    "type": "boardgame",
+   "best": "5",
+   "rec": "3〜5",
+   "minTime": 45,
+   "maxTime": 90,
+   "age": 12,
+   "rating": 8.38,
+   "weight": 2.96,
+   "rank": null,
+   "mechanics": [
+    "Action Points",
+    "Area Majority / Influence",
+    "End Game Bonuses",
+    "Network and Route Building",
+    "Ownership",
+    "Take That",
+    "Tech Trees / Tech Tracks"
+   ],
+   "categories": [
+    "Medieval"
+   ],
+   "designers": [
+    "Andreas Steding"
+   ],
+   "expansions": [
+    {
+     "id": "335926",
+     "name": "Hansa Teutonica: Bonus Markers"
+    },
+    {
+     "id": "293240",
+     "name": "Super Power"
+    }
+   ],
+   "bases": [],
    "en": "Hansa Teutonica: Big Box",
    "ja": "ハンザ・テウトニカ ビッグボックス",
    "minp": 3,
@@ -1718,11 +2393,82 @@
      "image": "https://cf.geekdo-images.com/tyVxQGRRybYMsvcXYMTXvw__original/img/jYClSm5TYxtmw54QBUoZjskqPp4=/0x0/filters:format(png)/pic5579148.png"
     }
    ],
-   "at": "2026-11-26T02:31:54.485Z"
+   "at": "2026-11-26T02:45:22.032Z"
   },
   "290236": {
+   "v": 2,
    "id": "290236",
    "type": "boardgame",
+   "best": "3〜4",
+   "rec": "1〜5",
+   "minTime": 30,
+   "maxTime": 30,
+   "age": 10,
+   "rating": 7.18,
+   "weight": 1.73,
+   "rank": 608,
+   "mechanics": [
+    "Auction: Dutch",
+    "Contracts",
+    "Hand Management",
+    "Increase Value of Unchosen Resources",
+    "Layering",
+    "Open Drafting",
+    "Ordering",
+    "Set Collection",
+    "Solo / Solitaire Game"
+   ],
+   "categories": [
+    "Card Game",
+    "Puzzle"
+   ],
+   "designers": [
+    "Jeffrey Chin",
+    "Andrew Nerger"
+   ],
+   "expansions": [
+    {
+     "id": "480070",
+     "name": "Canvas: Embellishments"
+    },
+    {
+     "id": "371924",
+     "name": "Canvas: Finishing Touches"
+    },
+    {
+     "id": "409863",
+     "name": "Canvas: Finishing Touches – Deluxe Edition"
+    },
+    {
+     "id": "441998",
+     "name": "Canvas: Finishing Touches – Deluxe Upgrade Pack"
+    },
+    {
+     "id": "309705",
+     "name": "Canvas: Kickstarter Mini Expansion"
+    },
+    {
+     "id": "335172",
+     "name": "Canvas: Reflections"
+    },
+    {
+     "id": "337330",
+     "name": "Canvas: Reflections – Deluxe Edition"
+    },
+    {
+     "id": "379804",
+     "name": "Canvas: Reflections – Deluxe Upgrade Pack"
+    },
+    {
+     "id": "420425",
+     "name": "Canvas: Trilogy Booster Pack"
+    },
+    {
+     "id": "428347",
+     "name": "Холст: Набор делюкс-компонентов для базовой игры и дополнений (Canvas: Deluxe Upgrade Pack)"
+    }
+   ],
+   "bases": [],
    "en": "Canvas",
    "ja": "キャンバス",
    "minp": 1,
@@ -1837,11 +2583,51 @@
      "image": "https://cf.geekdo-images.com/4ZD6SRB0qO1SFACpIUbtZA__original/img/tWGVesjictg2vNVTPr2Xjg__R_I=/0x0/filters:format(jpeg)/pic9699502.jpg"
     }
    ],
-   "at": "2026-11-26T02:32:58.898Z"
+   "at": "2026-11-26T02:46:24.292Z"
   },
   "298069": {
+   "v": 2,
    "id": "298069",
    "type": "boardgame",
+   "best": "3〜4",
+   "rec": "2〜4",
+   "minTime": 30,
+   "maxTime": 60,
+   "age": 10,
+   "rating": 7.35,
+   "weight": 2.17,
+   "rank": 522,
+   "mechanics": [
+    "Catch the Leader",
+    "Deck, Bag, and Pool Building",
+    "Delayed Purchase",
+    "Dice Rolling",
+    "Grid Movement",
+    "Market",
+    "Movement Points",
+    "Push Your Luck",
+    "Race",
+    "Re-rolling and Locking",
+    "Variable Set-up"
+   ],
+   "categories": [
+    "Dice",
+    "Racing"
+   ],
+   "designers": [
+    "John D. Clair"
+   ],
+   "expansions": [
+    {
+     "id": "367354",
+     "name": "Cubitos: Dodatkowe trasy"
+    },
+    {
+     "id": "388568",
+     "name": "Cubitos: Fowl Play"
+    }
+   ],
+   "bases": [],
    "en": "Cubitos",
    "ja": "キュビトス",
    "minp": 2,
@@ -1932,11 +2718,45 @@
      "image": "https://cf.geekdo-images.com/PdWLlkjwrx976werRTmBYg__original/img/iuxfMevzgA25wtFsc0CFfeYBbmg=/0x0/filters:format(png)/pic6434575.png"
     }
    ],
-   "at": "2026-11-26T02:32:26.702Z"
+   "at": "2026-11-26T02:45:53.023Z"
   },
   "298229": {
+   "v": 2,
    "id": "298229",
    "type": "boardgame",
+   "best": "4",
+   "rec": "1〜8",
+   "minTime": 45,
+   "maxTime": 60,
+   "age": 14,
+   "rating": 7.29,
+   "weight": 2.81,
+   "rank": 2137,
+   "mechanics": [
+    "Closed Drafting",
+    "Dice Rolling",
+    "Modular Board",
+    "Race",
+    "Resource to Move",
+    "Simultaneous Action Selection",
+    "Track Movement",
+    "Variable Player Powers"
+   ],
+   "categories": [
+    "Dice",
+    "Racing",
+    "Science Fiction"
+   ],
+   "designers": [
+    "Orin Bishop"
+   ],
+   "expansions": [
+    {
+     "id": "332065",
+     "name": "Steampunk Rally: Complete Promo Pack 2020"
+    }
+   ],
+   "bases": [],
    "en": "Steampunk Rally Fusion",
    "ja": "",
    "minp": 2,
@@ -1971,11 +2791,89 @@
      "image": "https://cf.geekdo-images.com/dnh13DJ3J_ISDYssfyUCWg__original/img/52fKWzHO4EnldmcSdtHbVjPPdpY=/0x0/filters:format(jpeg)/pic5212622.jpg"
     }
    ],
-   "at": "2026-11-26T02:32:53.689Z"
+   "at": "2026-11-26T02:46:19.087Z"
   },
   "333255": {
+   "v": 2,
    "id": "333255",
    "type": "boardgame",
+   "best": "2",
+   "rec": "1〜3",
+   "minTime": 40,
+   "maxTime": 40,
+   "age": 10,
+   "rating": 7.88,
+   "weight": 2.5,
+   "rank": 348,
+   "mechanics": [
+    "Action Retrieval",
+    "Area Movement",
+    "Cooperative Game",
+    "Deck, Bag, and Pool Building",
+    "Modular Board",
+    "Scenario / Mission / Campaign Game",
+    "Solo / Solitaire Game",
+    "Variable Player Powers",
+    "Variable Set-up"
+   ],
+   "categories": [
+    "Fantasy",
+    "Fighting"
+   ],
+   "designers": [
+    "Luís Brueh"
+   ],
+   "expansions": [
+    {
+     "id": "454171",
+     "name": "Keep the Heroes Out: Year of the Snake Pack"
+    },
+    {
+     "id": "394150",
+     "name": "Keep the Heroes Out!: Boss Battles"
+    },
+    {
+     "id": "405992",
+     "name": "Keep the Heroes Out!: Dice Tower 2023 Promo Cards"
+    },
+    {
+     "id": "463523",
+     "name": "Keep the Heroes Out!: Dungeons Below"
+    },
+    {
+     "id": "351550",
+     "name": "Keep the Heroes Out!: Guild Master's Revenge Expansion"
+    },
+    {
+     "id": "433316",
+     "name": "Keep the Heroes Out!: Playing with Fire"
+    },
+    {
+     "id": "351549",
+     "name": "Keep the Heroes Out!: The Great Dreamer Expansion"
+    },
+    {
+     "id": "444232",
+     "name": "Keep the Heroes Out!: The Quijote Promo Pack"
+    },
+    {
+     "id": "404357",
+     "name": "Keep the Heroes Out!: The Sparkling Guardian Expansion"
+    },
+    {
+     "id": "444230",
+     "name": "Keep the Heroes Out!: Very Jolly Pack of Promos"
+    },
+    {
+     "id": "432729",
+     "name": "Keep the Heroes Out!: Year of the Dragon Pack"
+    },
+    {
+     "id": "476823",
+     "name": "Keep the Heroes Out!: Year of the Horse Pack"
+    }
+   ],
+   "bases": [],
    "en": "Keep the Heroes Out!",
    "ja": "ヒーローお断り！",
    "minp": 1,
@@ -2066,11 +2964,38 @@
      "image": "https://cf.geekdo-images.com/lfFKMNCzIJesp8IFHK8dEw__original/img/qtWs6Wg0a241k2D1TWWbesVwu-s=/0x0/filters:format(jpeg)/pic6985339.jpg"
     }
    ],
-   "at": "2026-11-26T02:32:40.004Z"
+   "at": "2026-11-26T02:46:06.033Z"
   },
   "342010": {
+   "v": 2,
    "id": "342010",
    "type": "boardgame",
+   "best": "4",
+   "rec": "2〜5",
+   "minTime": 20,
+   "maxTime": 30,
+   "age": 10,
+   "rating": 6.76,
+   "weight": 1.57,
+   "rank": 4992,
+   "mechanics": [
+    "Action / Event",
+    "Finale Ending",
+    "Hand Management",
+    "Open Drafting",
+    "Set Collection",
+    "Take That"
+   ],
+   "categories": [
+    "Children's Game",
+    "Movies / TV / Radio theme",
+    "Novel-based"
+   ],
+   "designers": [
+    "AC Atienza"
+   ],
+   "expansions": [],
+   "bases": [],
    "en": "The Golden Ticket Game",
    "ja": "",
    "minp": 2,
@@ -2089,11 +3014,39 @@
      "image": "https://cf.geekdo-images.com/2cRn3woQvLT-3ZhY6rWaOQ__original/img/64l3X7JsX3gSBR6fYoa5JRsYqPM=/0x0/filters:format(jpeg)/pic6695603.jpg"
     }
    ],
-   "at": "2026-11-26T02:32:13.602Z"
+   "at": "2026-11-26T02:45:40.106Z"
   },
   "342949": {
+   "v": 2,
    "id": "342949",
    "type": "boardgame",
+   "best": "5",
+   "rec": "4〜6",
+   "minTime": 45,
+   "maxTime": 60,
+   "age": 10,
+   "rating": 6.66,
+   "weight": 2,
+   "rank": 19412,
+   "mechanics": [
+    "Modular Board",
+    "Semi-Cooperative Game",
+    "Simultaneous Action Selection"
+   ],
+   "categories": [
+    "Economic",
+    "Industry / Manufacturing"
+   ],
+   "designers": [
+    "Yog Akase (赤瀬 よぐ)"
+   ],
+   "expansions": [
+    {
+     "id": "419925",
+     "name": "Factoria: Forbidden Walkers"
+    }
+   ],
+   "bases": [],
    "en": "Factoria",
    "ja": "",
    "minp": 2,
@@ -2112,11 +3065,37 @@
      "image": "https://cf.geekdo-images.com/Y4Zx9vzGoDsJDo-s2SGx5Q__original/img/q05PkuxmPPKeXGPeCYjJ1JhEqtA=/0x0/filters:format(jpeg)/pic7252536.jpg"
     }
    ],
-   "at": "2026-11-26T02:33:14.714Z"
+   "at": "2026-11-26T02:46:39.848Z"
   },
   "347703": {
+   "v": 2,
    "id": "347703",
    "type": "boardgame",
+   "best": "3〜4",
+   "rec": "1〜5",
+   "minTime": 30,
+   "maxTime": 75,
+   "age": 10,
+   "rating": 7.49,
+   "weight": 2.27,
+   "rank": 714,
+   "mechanics": [
+    "Point to Point Movement",
+    "Set Collection",
+    "Solo / Solitaire Game"
+   ],
+   "categories": [
+    "Adventure",
+    "Animals",
+    "Humor",
+    "Space Exploration"
+   ],
+   "designers": [
+    "Gabriele Ausiello",
+    "Virginio Gigli"
+   ],
+   "expansions": [],
+   "bases": [],
    "en": "First Rat",
    "ja": "ファーストラット",
    "minp": 1,
@@ -2199,11 +3178,50 @@
      "image": "https://cf.geekdo-images.com/TAmP5w8gDSXe7APvp8tMVw__original/img/sxlrsxj497dHDrWywWCKOL_senY=/0x0/filters:format(jpeg)/pic6502612.jpg"
     }
    ],
-   "at": "2026-11-26T02:31:57.090Z"
+   "at": "2026-11-26T02:45:24.607Z"
   },
   "350933": {
+   "v": 2,
    "id": "350933",
    "type": "boardgame",
+   "best": "2",
+   "rec": "1〜4",
+   "minTime": 45,
+   "maxTime": 45,
+   "age": 14,
+   "rating": 7.61,
+   "weight": 2.05,
+   "rank": 360,
+   "mechanics": [
+    "Bingo",
+    "Chaining",
+    "Hexagon Grid",
+    "Hidden Victory Points",
+    "Line Drawing",
+    "Network and Route Building",
+    "Pattern Movement",
+    "Solo / Solitaire Game"
+   ],
+   "categories": [
+    "Adventure",
+    "Exploration",
+    "Fantasy"
+   ],
+   "designers": [
+    "Matthew Dunstan",
+    "Brett J. Gilbert"
+   ],
+   "expansions": [
+    {
+     "id": "451710",
+     "name": "The Guild of Merchant Explorers: Party Pack"
+    },
+    {
+     "id": "358682",
+     "name": "The Guild of Merchant Explorers: The Queen's Special Orders"
+    }
+   ],
+   "bases": [],
    "en": "The Guild of Merchant Explorers",
    "ja": "ザ・ギルド・オブ・マーチャント・エクスプローラーズ",
    "minp": 1,
@@ -2278,11 +3296,56 @@
      "image": "https://cf.geekdo-images.com/HZQAedsq10yAgotyNth4og__original/img/jTvjgU0WrhyTKWf0bDyMrhPqsdM=/0x0/filters:format(jpeg)/pic6670587.jpg"
     }
    ],
-   "at": "2026-11-26T02:32:45.126Z"
+   "at": "2026-11-26T02:46:11.195Z"
   },
   "359970": {
+   "v": 2,
    "id": "359970",
    "type": "boardgame",
+   "best": "4, 6, 8",
+   "rec": "2, 4, 6, 8",
+   "minTime": 45,
+   "maxTime": 45,
+   "age": 8,
+   "rating": 7.04,
+   "weight": 1.79,
+   "rank": 973,
+   "mechanics": [
+    "Algorithmic Resolution",
+    "Deck Construction",
+    "Deck, Bag, and Pool Building",
+    "Finale Ending",
+    "Hand Management",
+    "Open Drafting"
+   ],
+   "categories": [
+    "Animals",
+    "Card Game",
+    "Sports"
+   ],
+   "designers": [
+    "Johannes Krenner",
+    "Markus Slawitscheck"
+   ],
+   "expansions": [
+    {
+     "id": "403909",
+     "name": "Challengers! Lucky Coins! Bonus Tokens"
+    },
+    {
+     "id": "396443",
+     "name": "Challengers!: Bonus Cards Pack #1"
+    },
+    {
+     "id": "432654",
+     "name": "Challengers!: Cruise Ship Promo Cards"
+    },
+    {
+     "id": "377199",
+     "name": "Challengers!: Winter Park Playmat + Blue Token"
+    }
+   ],
+   "bases": [],
    "en": "Challengers!",
    "ja": "チャレンジャーズ！",
    "minp": 1,
@@ -2397,11 +3460,35 @@
      "image": "https://cf.geekdo-images.com/DGUWPzDogfH7uyAhq8qmyg__original/img/7iHPTGXKsxLSJh6YHicEQQlX_tk=/0x0/filters:format(png)/pic7529580.png"
     }
    ],
-   "at": "2026-11-26T02:32:24.101Z"
+   "at": "2026-11-26T02:45:50.452Z"
   },
   "368899": {
+   "v": 2,
    "id": "368899",
    "type": "boardgame",
+   "best": "3〜4",
+   "rec": "2〜4",
+   "minTime": 20,
+   "maxTime": 30,
+   "age": 6,
+   "rating": 7.23,
+   "weight": 1.06,
+   "rank": 5174,
+   "mechanics": [
+    "Dice Rolling",
+    "Push Your Luck",
+    "Track Movement"
+   ],
+   "categories": [
+    "Children's Game",
+    "Fantasy"
+   ],
+   "designers": [
+    "Markus Slawitscheck",
+    "Arno Steinwender"
+   ],
+   "expansions": [],
+   "bases": [],
    "en": "Magic Keys",
    "ja": "",
    "minp": 2,
@@ -2476,11 +3563,62 @@
      "image": "https://cf.geekdo-images.com/KDiEBN7WPX2OGkQQBZfJoA__original/img/6L4aQQOtlDaxi0Y7R7OMcSHFz8E=/0x0/filters:format(png)/pic9040158.png"
     }
    ],
-   "at": "2026-11-26T02:33:17.341Z"
+   "at": "2026-11-26T02:46:42.436Z"
   },
   "387780": {
+   "v": 2,
    "id": "387780",
    "type": "boardgame",
+   "best": "3",
+   "rec": "1〜4",
+   "minTime": 90,
+   "maxTime": 90,
+   "age": 13,
+   "rating": 7.45,
+   "weight": 3.4,
+   "rank": 913,
+   "mechanics": [
+    "Contracts",
+    "Events",
+    "Hand Management",
+    "Turn Order: Claim Action",
+    "Variable Set-up",
+    "Worker Placement"
+   ],
+   "categories": [
+    "Animals"
+   ],
+   "designers": [
+    "Simone Luciani",
+    "Danilo Sabia"
+   ],
+   "expansions": [
+    {
+     "id": "455451",
+     "name": "Rats of Wistar: Clans & Portals"
+    },
+    {
+     "id": "397785",
+     "name": "Rats of Wistar: Guest Mice Set"
+    },
+    {
+     "id": "430604",
+     "name": "Rats of Wistar: Mechanical Meeple Promo Card"
+    },
+    {
+     "id": "458844",
+     "name": "Rats of Wistar: Mechanical Otter Promo Card"
+    },
+    {
+     "id": "397786",
+     "name": "Rats of Wistar: Objective Cards Set"
+    },
+    {
+     "id": "411364",
+     "name": "Rats of Wistar: The Dice Tower Promo Card"
+    }
+   ],
+   "bases": [],
    "en": "Rats of Wistar",
    "ja": "",
    "minp": 1,
@@ -2579,11 +3717,40 @@
      "image": "https://cf.geekdo-images.com/m5TY1VZ-jyrb52GsPh7ufw__original/img/Dk-p2nwiD4aaiFLS1tvex9srKnU=/0x0/filters:format(png)/pic7540938.png"
     }
    ],
-   "at": "2026-11-26T02:32:02.732Z"
+   "at": "2026-11-26T02:45:29.756Z"
   },
   "389094": {
+   "v": 2,
    "id": "389094",
    "type": "boardgame",
+   "best": "3",
+   "rec": "1〜4",
+   "minTime": 90,
+   "maxTime": 120,
+   "age": 14,
+   "rating": 8.21,
+   "weight": 3.5,
+   "rank": 9764,
+   "mechanics": [
+    "Deck, Bag, and Pool Building",
+    "Follow",
+    "Hand Management",
+    "Market",
+    "Multi-Use Cards",
+    "Simultaneous Action Selection",
+    "Variable Player Powers",
+    "Variable Set-up",
+    "Worker Placement"
+   ],
+   "categories": [
+    "Economic",
+    "Fantasy"
+   ],
+   "designers": [
+    "David Goh"
+   ],
+   "expansions": [],
+   "bases": [],
    "en": "Mercurial: Alchemia",
    "ja": "",
    "minp": 1,
@@ -2593,11 +3760,56 @@
    "thumb": "https://cf.geekdo-images.com/Ps-ghKTQJBnchIqqRKcu5w__small/img/6JLI2l-AJN2JeNK9w6xIoffquXw=/fit-in/200x150/filters:strip_icc()/pic9898744.jpg",
    "image": "https://cf.geekdo-images.com/Ps-ghKTQJBnchIqqRKcu5w__original/img/F4Vrv-G56927_0CKD3DkiKfXrZY=/0x0/filters:format(jpeg)/pic9898744.jpg",
    "versions": [],
-   "at": "2026-11-26T02:32:37.440Z"
+   "at": "2026-11-26T02:46:03.393Z"
   },
   "393325": {
+   "v": 2,
    "id": "393325",
    "type": "boardgame",
+   "best": "3",
+   "rec": "2〜5",
+   "minTime": 20,
+   "maxTime": 20,
+   "age": 8,
+   "rating": 7.16,
+   "weight": 1.21,
+   "rank": 848,
+   "mechanics": [
+    "Advantage Token",
+    "End Game Bonuses",
+    "Grid Coverage",
+    "Memory",
+    "Push Your Luck",
+    "Tile Placement",
+    "Variable Set-up"
+   ],
+   "categories": [
+    "Nautical",
+    "Pirates"
+   ],
+   "designers": [
+    "Remo Conzadori",
+    "Paolo Mori"
+   ],
+   "expansions": [
+    {
+     "id": "442638",
+     "name": "Captain Flip: Dolphin"
+    },
+    {
+     "id": "413556",
+     "name": "Captain Flip: In the Jaws of the Kraken"
+    },
+    {
+     "id": "458424",
+     "name": "Captain Flip: Isla Bomba"
+    },
+    {
+     "id": "466703",
+     "name": "Captain Flip: Isla Bomba – Message in a Bottle"
+    }
+   ],
+   "bases": [],
    "en": "Captain Flip",
    "ja": "キャプテン・フリップ",
    "minp": 2,
@@ -2712,11 +3924,75 @@
      "image": "https://cf.geekdo-images.com/vecUDu77C_r9mNevj78wmQ__original/img/R5-biRJjWov6OArrvXBsUBYNh50=/0x0/filters:format(png)/pic8277818.png"
     }
    ],
-   "at": "2026-11-26T02:31:51.915Z"
+   "at": "2026-11-26T02:45:19.457Z"
   },
   "394094": {
+   "v": 2,
    "id": "394094",
    "type": "boardgame",
+   "best": "2",
+   "rec": "1〜4",
+   "minTime": 60,
+   "maxTime": 120,
+   "age": 12,
+   "rating": 7.59,
+   "weight": 3.17,
+   "rank": 6699,
+   "mechanics": [
+    "Contracts",
+    "End Game Bonuses",
+    "Events",
+    "Hand Management",
+    "Pattern Building",
+    "Solo / Solitaire Game",
+    "Turn Order: Claim Action",
+    "Variable Player Powers",
+    "Worker Placement",
+    "Worker Placement with Dice Workers"
+   ],
+   "categories": [
+    "Dice",
+    "Economic",
+    "Travel"
+   ],
+   "designers": [
+    "Akashi"
+   ],
+   "expansions": [
+    {
+     "id": "452113",
+     "name": "Snow Planner: Crowdfunding Promo Card"
+    },
+    {
+     "id": "443108",
+     "name": "Snow Planner: New Challenge"
+    },
+    {
+     "id": "426490",
+     "name": "Snow Planner: New Season"
+    },
+    {
+     "id": "467974",
+     "name": "Snow Planner: Penguin Promo Card"
+    },
+    {
+     "id": "452114",
+     "name": "Snow Planner: Promo Cards Pack"
+    },
+    {
+     "id": "452112",
+     "name": "Snow Planner: Snow Festival Promo Card"
+    },
+    {
+     "id": "467800",
+     "name": "Snow Planner: Spur Note Promo"
+    },
+    {
+     "id": "467975",
+     "name": "Snow Planner: Visitor Center Promo Card"
+    }
+   ],
+   "bases": [],
    "en": "Snow Planner",
    "ja": "スノープランナー",
    "minp": 1,
@@ -2743,11 +4019,42 @@
      "image": "https://cf.geekdo-images.com/N1W0XVEhZA2nfPMLZ4EfFw__original/img/T5I_4TOnegoK_aNADr9FgG-S5CU=/0x0/filters:format(jpeg)/pic8642988.jpg"
     }
    ],
-   "at": "2026-11-26T02:32:34.845Z"
+   "at": "2026-11-26T02:46:00.823Z"
   },
   "394150": {
+   "v": 2,
    "id": "394150",
    "type": "boardgameexpansion",
+   "best": "2",
+   "rec": "1〜3",
+   "minTime": 40,
+   "maxTime": null,
+   "age": 14,
+   "rating": 8.59,
+   "weight": 2.88,
+   "rank": null,
+   "mechanics": [
+    "Cooperative Game",
+    "Scenario / Mission / Campaign Game"
+   ],
+   "categories": [
+    "Expansion for Base-game"
+   ],
+   "designers": [
+    "Luís Brueh"
+   ],
+   "expansions": [
+    {
+     "id": "454171",
+     "name": "Keep the Heroes Out: Year of the Snake Pack"
+    }
+   ],
+   "bases": [
+    {
+     "id": "333255",
+     "name": "Keep the Heroes Out!"
+    }
+   ],
    "en": "Keep the Heroes Out!: Boss Battles",
    "ja": "",
    "minp": 1,
@@ -2782,11 +4089,45 @@
      "image": "https://cf.geekdo-images.com/aW6ZfL4494d930euj-MGAw__original/img/d0Zr97bSd-we8eSG-OVeexYqTDk=/0x0/filters:format(jpeg)/pic7793981.jpg"
     }
    ],
-   "at": "2026-11-26T02:32:42.563Z"
+   "at": "2026-11-26T02:46:08.620Z"
   },
   "396749": {
+   "v": 2,
    "id": "396749",
    "type": "boardgame",
+   "best": "1",
+   "rec": "1〜2",
+   "minTime": 20,
+   "maxTime": 40,
+   "age": 9,
+   "rating": 7.06,
+   "weight": 1.86,
+   "rank": null,
+   "mechanics": [
+    "Communication Limits",
+    "Cooperative Game",
+    "Elapsed Real Time Ending",
+    "Grid Movement",
+    "Multiple Maps",
+    "Real-Time",
+    "Scenario / Mission / Campaign Game",
+    "Score-and-Reset Game",
+    "Solo / Solitaire Game",
+    "Variable Player Powers"
+   ],
+   "categories": [
+    "Adventure",
+    "Exploration",
+    "Fantasy",
+    "Maze",
+    "Puzzle",
+    "Real-time"
+   ],
+   "designers": [
+    "Kasper Lapp"
+   ],
+   "expansions": [],
+   "bases": [],
    "en": "Magic Maze Tower",
    "ja": "",
    "minp": 1,
@@ -2829,11 +4170,67 @@
      "image": "https://cf.geekdo-images.com/KUD4VXV_XbsvdprI4SLfyw__original/img/NEbKH8fJFD9DlShoPdYopR5ZOac=/0x0/filters:format(jpeg)/pic9207955.jpg"
     }
    ],
-   "at": "2026-11-26T02:31:49.346Z"
+   "at": "2026-11-26T02:45:16.864Z"
   },
   "421217": {
+   "v": 2,
    "id": "421217",
    "type": "boardgame",
+   "best": "2〜3",
+   "rec": "2〜4",
+   "minTime": 45,
+   "maxTime": 60,
+   "age": 8,
+   "rating": 7.49,
+   "weight": 2.33,
+   "rank": 10202,
+   "mechanics": [
+    "Area Majority / Influence",
+    "Dice Rolling",
+    "End Game Bonuses",
+    "Pick-up and Deliver",
+    "Track Movement",
+    "Worker Placement"
+   ],
+   "categories": [
+    "Abstract Strategy",
+    "Dice",
+    "Fantasy"
+   ],
+   "designers": [
+    "Chris Porter"
+   ],
+   "expansions": [
+    {
+     "id": "475576",
+     "name": "Garden Club: Christmas Promo"
+    },
+    {
+     "id": "462804",
+     "name": "Holiday Hills: Decoration Objective PAXU Promo Card"
+    },
+    {
+     "id": "476734",
+     "name": "Holiday Hills: Gen Con 2026 Promo Card"
+    },
+    {
+     "id": "456350",
+     "name": "Holiday Hills: Let it Snow Promo"
+    },
+    {
+     "id": "456351",
+     "name": "Holiday Hills: Polar Promo"
+    },
+    {
+     "id": "446476",
+     "name": "Holiday Hills: Santa and Krampus Double Expansion"
+    },
+    {
+     "id": "446477",
+     "name": "Holiday Hills: Wreaths and Wonders Expansion"
+    }
+   ],
+   "bases": [],
    "en": "Holiday Hills",
    "ja": "",
    "minp": 2,
@@ -2852,11 +4249,40 @@
      "image": "https://cf.geekdo-images.com/dNF0se1To1Ht_GFjLh_maA__original/img/HPiRBrSdjUCTdI05fHaBxYpc4Fk=/0x0/filters:format(jpeg)/pic8531398.jpg"
     }
    ],
-   "at": "2026-11-26T02:32:56.315Z"
+   "at": "2026-11-26T02:46:21.685Z"
   },
   "424981": {
+   "v": 2,
    "id": "424981",
    "type": "boardgame",
+   "best": "4",
+   "rec": "1〜4",
+   "minTime": 30,
+   "maxTime": 40,
+   "age": 10,
+   "rating": 8.17,
+   "weight": 2.86,
+   "rank": 397,
+   "mechanics": [
+    "Communication Limits",
+    "Cooperative Game",
+    "Deck, Bag, and Pool Building",
+    "Hand Management",
+    "Once-Per-Game Abilities",
+    "Ordering",
+    "Variable Player Powers",
+    "Variable Set-up"
+   ],
+   "categories": [
+    "Card Game",
+    "Mythology",
+    "Puzzle"
+   ],
+   "designers": [
+    "Hiroken"
+   ],
+   "expansions": [],
+   "bases": [],
    "en": "Eternal Decks",
    "ja": "エターナルデックス",
    "minp": 1,
@@ -2915,11 +4341,54 @@
      "image": "https://cf.geekdo-images.com/Byfh3hQYNB3KDRcroQ5eNQ__original/img/S-JFeJv6p3uf37hOe56-9fh0vIU=/0x0/filters:format(png)/pic9165783.png"
     }
    ],
-   "at": "2026-11-26T02:33:22.511Z"
+   "at": "2026-11-26T02:46:47.619Z"
   },
   "428682": {
+   "v": 2,
    "id": "428682",
    "type": "boardgame",
+   "best": "3",
+   "rec": "1〜4",
+   "minTime": 45,
+   "maxTime": 90,
+   "age": 10,
+   "rating": 7.26,
+   "weight": 2.6,
+   "rank": 7125,
+   "mechanics": [
+    "Dice Rolling",
+    "End Game Bonuses",
+    "Pattern Building",
+    "Race",
+    "Resource to Move",
+    "Rondel",
+    "Solo / Solitaire Game",
+    "Tech Trees / Tech Tracks",
+    "Tile Placement",
+    "Track Movement",
+    "Variable Player Powers",
+    "Worker Placement with Dice Workers"
+   ],
+   "categories": [
+    "Aviation / Flight",
+    "Card Game",
+    "Dice",
+    "Economic",
+    "Fantasy",
+    "Puzzle",
+    "Racing",
+    "Science Fiction",
+    "Transportation",
+    "Travel"
+   ],
+   "designers": [],
+   "expansions": [
+    {
+     "id": "481334",
+     "name": "Grow Sky: Personal Ability Cards"
+    }
+   ],
+   "bases": [],
    "en": "Grow Sky",
    "ja": "グロウスカイ",
    "minp": 1,
@@ -2946,11 +4415,40 @@
      "image": "https://cf.geekdo-images.com/b3lMV93rQt7UrTyoAdS7Nw__original/img/p1w0k90vnCx-16gQgz6d8syktUE=/0x0/filters:format(png)/pic9703976.png"
     }
    ],
-   "at": "2026-11-26T02:32:21.454Z"
+   "at": "2026-11-26T02:45:47.875Z"
   },
   "436511": {
+   "v": 2,
    "id": "436511",
    "type": "boardgame",
+   "best": "4〜5",
+   "rec": "3〜6",
+   "minTime": 60,
+   "maxTime": 90,
+   "age": 10,
+   "rating": 7.33,
+   "weight": 2.83,
+   "rank": 4211,
+   "mechanics": [
+    "Area Majority / Influence",
+    "Auction / Bidding",
+    "Auction: Multiple Lot",
+    "Auction: Sealed Bid",
+    "End Game Bonuses",
+    "Hand Management",
+    "Secret Unit Deployment",
+    "Worker Placement"
+   ],
+   "categories": [
+    "Dice",
+    "Fantasy",
+    "Industry / Manufacturing"
+   ],
+   "designers": [
+    "Yog Akase (赤瀬 よぐ)"
+   ],
+   "expansions": [],
+   "bases": [],
    "en": "Compania",
    "ja": "",
    "minp": 1,
@@ -2977,8 +4475,1070 @@
      "image": "https://cf.geekdo-images.com/VVGxF9xIfe1VIJz6BB7BWg__original/img/JsiQeb3YTy8dJouvlqeAXPn2k1I=/0x0/filters:format(png)/pic8638426.png"
     }
    ],
-   "at": "2026-11-26T02:33:01.539Z"
+   "at": "2026-11-26T02:46:26.871Z"
   }
  },
- "updatedAt": "2026-11-26T02:33:25.011Z"
+ "updatedAt": "2026-11-26T02:47:14.907Z",
+ "exps": {
+  "43236": {
+   "id": "43236",
+   "en": "Bausack: Extension Kit",
+   "thumb": "https://cf.geekdo-images.com/EUsOqyDOFAeU3iVIbFcLTA__small/img/jHksmPkg7Drt1_i3tX7inntlH7E=/fit-in/200x150/filters:strip_icc()/pic492446.jpg",
+   "year": 1994,
+   "minp": 2,
+   "maxp": 6,
+   "time": null,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "108415": {
+   "id": "108415",
+   "en": "Sid Meier's Civilization: The Board Game – Fame and Fortune",
+   "thumb": "https://cf.geekdo-images.com/v5rfNr6qsl71BC80f52Dvw__small/img/IorsXnp2vp_X8nKyGhNK8HbR0Ps=/fit-in/200x150/filters:strip_icc()/pic1097429.jpg",
+   "year": 2011,
+   "minp": 2,
+   "maxp": 5,
+   "time": 180,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "142708": {
+   "id": "142708",
+   "en": "Sid Meier's Civilization: The Board Game – Wisdom and Warfare",
+   "thumb": "https://cf.geekdo-images.com/4wOFQnfq-VEgTgvaFBRO_g__small/img/DQe-TPpHC4CmOze_FIMT-pgB3ZQ=/fit-in/200x150/filters:strip_icc()/pic1680700.jpg",
+   "year": 2013,
+   "minp": 2,
+   "maxp": 4,
+   "time": 180,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "155127": {
+   "id": "155127",
+   "en": "Sid Meier's Civilization: The Board Game – die Griechen Promo Card",
+   "thumb": "https://cf.geekdo-images.com/L-xL_Qw08Qci9YgPDjimuQ__small/img/gvuwwHPbMqfLVkECHQm07T_NReA=/fit-in/200x150/filters:strip_icc()/pic2621469.jpg",
+   "year": 2012,
+   "minp": null,
+   "maxp": null,
+   "time": null,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "161224": {
+   "id": "161224",
+   "en": "Istanbul: Kebab Shop Mini Expansion",
+   "thumb": "https://cf.geekdo-images.com/7-a4gdIbA4AHekk9-xtang__small/img/-uFz9Pv6rpoWvYbpwPUinOWMLsI=/fit-in/200x150/filters:strip_icc()/pic2234616.jpg",
+   "year": 2014,
+   "minp": 2,
+   "maxp": 5,
+   "time": 50,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "172505": {
+   "id": "172505",
+   "en": "Istanbul: Mocha & Baksheesh",
+   "thumb": "https://cf.geekdo-images.com/9bypOfBYU8e_YlPm6B6_gQ__small/img/GoT1M2iLDFgqOES-KvZZHmGbtxU=/fit-in/200x150/filters:strip_icc()/pic2588706.jpg",
+   "year": 2015,
+   "minp": 2,
+   "maxp": 5,
+   "time": 60,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "192779": {
+   "id": "192779",
+   "en": "Istanbul: Letters & Seals",
+   "thumb": "https://cf.geekdo-images.com/EKCR--lufVtqNssxO5nM6Q__small/img/NBYORQneJRAkYu0CbilAk_K4z3k=/fit-in/200x150/filters:strip_icc()/pic3001301.jpg",
+   "year": 2016,
+   "minp": 2,
+   "maxp": 5,
+   "time": 60,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "202021": {
+   "id": "202021",
+   "en": "Broom Service: The 1st Expansion",
+   "thumb": "https://cf.geekdo-images.com/T0hpteUF5irAViM-l2IUeg__small/img/j1tQIKjck30yjwHDuWInlxiTs7w=/fit-in/200x150/filters:strip_icc()/pic6051386.jpg",
+   "year": 2016,
+   "minp": 2,
+   "maxp": 5,
+   "time": 75,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "204573": {
+   "id": "204573",
+   "en": "Brettspiel Adventskalender 2016",
+   "thumb": "https://cf.geekdo-images.com/foanejG2P3Fyzw_Qcfq7dQ__small/img/KXRlZNBd0Z4tQ8zi_Mt6RdDIFyM=/fit-in/200x150/filters:strip_icc()/pic3145759.jpg",
+   "year": 2016,
+   "minp": null,
+   "maxp": null,
+   "time": null,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "207573": {
+   "id": "207573",
+   "en": "Istanbul: Caravan Leader Mini Expansion",
+   "thumb": "https://cf.geekdo-images.com/YAk5VV_v5ecnF9nVJsy9fQ__small/img/qKvKmYPTcCQco2W36S6KKjWWk4c=/fit-in/200x150/filters:strip_icc()/pic3183392.jpg",
+   "year": 2016,
+   "minp": 2,
+   "maxp": 5,
+   "time": 60,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "211173": {
+   "id": "211173",
+   "en": "Broom Service: Christmastime",
+   "thumb": "https://cf.geekdo-images.com/vw55anfxqm6tYXMxg833tw__small/img/l3Muo6vSgk6TtqP89zIhzZ9i5xQ=/fit-in/200x150/filters:strip_icc()/pic3457249.jpg",
+   "year": 2016,
+   "minp": 2,
+   "maxp": 5,
+   "time": 75,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "213217": {
+   "id": "213217",
+   "en": "Istanbul: Pegasus Depot Mini Expansion",
+   "thumb": "https://cf.geekdo-images.com/Q7YdpPYileDfh3Q6t6UUaQ__small/img/ij0VAadiQoh65JfcTmRRC0Bc3PU=/fit-in/200x150/filters:strip_icc()/pic3457283.jpg",
+   "year": 2016,
+   "minp": 2,
+   "maxp": 5,
+   "time": 60,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "234191": {
+   "id": "234191",
+   "en": "Camel Up: The Referee Camel & Istanbul – Caravan Leader Mini Expansion",
+   "thumb": "https://cf.geekdo-images.com/jS1cXMikA_A7qOd1yblB-g__small/img/ebEclsHtdaMc30lq8rZwdO3icCQ=/fit-in/200x150/filters:strip_icc()/pic4435220.jpg",
+   "year": 2017,
+   "minp": null,
+   "maxp": null,
+   "time": null,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "246431": {
+   "id": "246431",
+   "en": "The Quest for El Dorado: Heroes & Hexes",
+   "thumb": "https://cf.geekdo-images.com/QBmpa-_VClr0lEIE132MSw__small/img/aFBGonO3aLLKbU2bWRUqFsD-xaQ=/fit-in/200x150/filters:strip_icc()/pic6214976.jpg",
+   "year": 2018,
+   "minp": 2,
+   "maxp": 4,
+   "time": 60,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "257636": {
+   "id": "257636",
+   "en": "The Quest for El Dorado: Promo Pack",
+   "thumb": "https://cf.geekdo-images.com/ObfU1qWUTgodPfcpzLE0xw__small/img/Kx-ZVl-LSYHS-xHYg9zgU1EkZxk=/fit-in/200x150/filters:strip_icc()/pic6907075.jpg",
+   "year": 2018,
+   "minp": 2,
+   "maxp": 4,
+   "time": 60,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "265290": {
+   "id": "265290",
+   "en": "Newton: Robert Hooke Promo Card",
+   "thumb": "https://cf.geekdo-images.com/Q9AniqMAcBbqc-pTF6P6BQ__small/img/sAhD9PwVDuE8kJnqm01ZD9uqR6s=/fit-in/200x150/filters:strip_icc()/pic8491530.jpg",
+   "year": 2018,
+   "minp": 1,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "265291": {
+   "id": "265291",
+   "en": "Newton: Stephen Hawking Promo Card",
+   "thumb": "https://cf.geekdo-images.com/l5eZLTiUmUZ5ufr_BqUpFg__small/img/o9RFVcG763Xjz-2OTxLEWsJJs78=/fit-in/200x150/filters:strip_icc()/pic8491531.jpg",
+   "year": 2018,
+   "minp": 1,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "286287": {
+   "id": "286287",
+   "en": "Newton: Great Discoveries Expansion",
+   "thumb": "https://cf.geekdo-images.com/hrkcFvZGJxV9JCO07tSGJg__small/img/TCY4yjY9PPqeFeGz2sOoiYt52LA=/fit-in/200x150/filters:strip_icc()/pic4886754.jpg",
+   "year": 2019,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "286985": {
+   "id": "286985",
+   "en": "Merchants Cove: The Innkeeper",
+   "thumb": "https://cf.geekdo-images.com/33pm1iZL3X8tzqqG0Ba8RA__small/img/uxoKmGJpgul00lZhQvG_mzfNYLM=/fit-in/200x150/filters:strip_icc()/pic6136541.jpg",
+   "year": 2021,
+   "minp": 1,
+   "maxp": 5,
+   "time": 90,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "286986": {
+   "id": "286986",
+   "en": "Merchants Cove: The Oracle",
+   "thumb": "https://cf.geekdo-images.com/7cbtLCnmJXRBs4_SOqFPSA__small/img/5GAH20n8x_hszLmuBbreElwE9Ow=/fit-in/200x150/filters:strip_icc()/pic6136543.jpg",
+   "year": 2021,
+   "minp": 1,
+   "maxp": 5,
+   "time": 90,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "289240": {
+   "id": "289240",
+   "en": "Crusaders: Thy Will Be Done – Divine Influence",
+   "thumb": "https://cf.geekdo-images.com/KZI-ijJ7aF6xIYIIV4YmlQ__small/img/if9v2Y7NmvPEWK8ZzI35d2P_N8g=/fit-in/200x150/filters:strip_icc()/pic4956163.png",
+   "year": 2022,
+   "minp": 2,
+   "maxp": 4,
+   "time": 60,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "293240": {
+   "id": "293240",
+   "en": "Super Power",
+   "thumb": "https://cf.geekdo-images.com/Ls_k7heeRl0Y90aYFxtQnA__small/img/VvwN_qXdgiPgwy_Xmp1tJKZnqcs=/fit-in/200x150/filters:strip_icc()/pic5038898.jpg",
+   "year": 2019,
+   "minp": null,
+   "maxp": null,
+   "time": null,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "294635": {
+   "id": "294635",
+   "en": "Merchants Cove: The Secret Stash",
+   "thumb": "https://cf.geekdo-images.com/1mEsCNftx_dBb4ZnU82BRg__small/img/I_OCc5KuTmq_S7W4hcO06pW15N0=/fit-in/200x150/filters:strip_icc()/pic6136551.jpg",
+   "year": 2021,
+   "minp": 1,
+   "maxp": 5,
+   "time": 90,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "295361": {
+   "id": "295361",
+   "en": "Merchants Cove: The Dragon Rancher",
+   "thumb": "https://cf.geekdo-images.com/WMYSqszFHthJ4N5NcqXSAA__small/img/HJbTbhBOQf8uObICkwLkixGv3yQ=/fit-in/200x150/filters:strip_icc()/pic6138566.jpg",
+   "year": 2021,
+   "minp": 1,
+   "maxp": 5,
+   "time": 90,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "309705": {
+   "id": "309705",
+   "en": "Canvas: Kickstarter Mini Expansion",
+   "thumb": "https://cf.geekdo-images.com/S8LClFH624ZZkifH9kai6g__small/img/iGuGByLBOAaz2YIdk6-kgzBSMxI=/fit-in/200x150/filters:strip_icc()/pic6931776.png",
+   "year": 2021,
+   "minp": 1,
+   "maxp": 5,
+   "time": 30,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "315708": {
+   "id": "315708",
+   "en": "Tapestry: Plans and Ploys",
+   "thumb": "https://cf.geekdo-images.com/bK6d6GP8kJp8k1jBos3phA__small/img/bmOfG7z9CwPMNTUiAQlbygjXGps=/fit-in/200x150/filters:strip_icc()/pic5592530.jpg",
+   "year": 2020,
+   "minp": 1,
+   "maxp": 5,
+   "time": 120,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "332065": {
+   "id": "332065",
+   "en": "Steampunk Rally: Complete Promo Pack 2020",
+   "thumb": "https://cf.geekdo-images.com/bzKJpRw-UDfsKvYg1_acdw__small/img/VqJigkXpKSZHr1Kq5m75dkcY-_k=/fit-in/200x150/filters:strip_icc()/pic6004100.jpg",
+   "year": 2021,
+   "minp": 2,
+   "maxp": 8,
+   "time": null,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "335172": {
+   "id": "335172",
+   "en": "Canvas: Reflections",
+   "thumb": "https://cf.geekdo-images.com/5AnrD2v2DD_U7A9Rlwzt3g__small/img/tLpUfTmzByqm0i9nJVPcXDGOxHU=/fit-in/200x150/filters:strip_icc()/pic6090493.jpg",
+   "year": 2022,
+   "minp": 1,
+   "maxp": 5,
+   "time": 30,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "335926": {
+   "id": "335926",
+   "en": "Hansa Teutonica: Bonus Markers",
+   "thumb": "https://cf.geekdo-images.com/fhymtI2JrjWztkN_g1b8FA__small/img/iDLMZghlnkmZYc70N9F7hN21n_4=/fit-in/200x150/filters:strip_icc()/pic6116794.jpg",
+   "year": 2021,
+   "minp": 3,
+   "maxp": 5,
+   "time": 90,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "337330": {
+   "id": "337330",
+   "en": "Canvas: Reflections – Deluxe Edition",
+   "thumb": "https://cf.geekdo-images.com/tmAnY13nv7jURWyzinzWrg__small/img/FM1G_WAL1-NY5Y1viaTw8pZXilk=/fit-in/200x150/filters:strip_icc()/pic6640864.jpg",
+   "year": 2022,
+   "minp": 1,
+   "maxp": 5,
+   "time": 30,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "337797": {
+   "id": "337797",
+   "en": "Merchants Cove: Backer-built Rogue Pack",
+   "thumb": "https://cf.geekdo-images.com/EUSnhGTwa3fPkfe8zOelCg__small/img/kAQeGsgV3fNsY8D6NTv23JHE_EU=/fit-in/200x150/filters:strip_icc()/pic6150142.jpg",
+   "year": 2021,
+   "minp": 1,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "349998": {
+   "id": "349998",
+   "en": "Tapestry: Arts & Architecture",
+   "thumb": "https://cf.geekdo-images.com/StifZJFYLxR4DJ3vyaeBnw__small/img/cSTNDXRGYLxaZkjBfJK3_ES0Btc=/fit-in/200x150/filters:strip_icc()/pic6489720.jpg",
+   "year": 2021,
+   "minp": 1,
+   "maxp": 5,
+   "time": 120,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "350883": {
+   "id": "350883",
+   "en": "The Quest for El Dorado: Promo Pack – Letter of Recommendation",
+   "thumb": "https://cf.geekdo-images.com/he8vpI_uJbYa5hjJK9ANvw__small/img/3xOKcDc56-y9Fr4YXdw85a0Bo1A=/fit-in/200x150/filters:strip_icc()/pic6707045.jpg",
+   "year": 2021,
+   "minp": 2,
+   "maxp": 4,
+   "time": 60,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "350886": {
+   "id": "350886",
+   "en": "The Quest for El Dorado: Promo Pack – Telegram",
+   "thumb": "https://cf.geekdo-images.com/nnrZXXlcapQ58oW1xAVUnQ__small/img/4Dqj5pI2-OlUAh8CV_j1k9dzlB8=/fit-in/200x150/filters:strip_icc()/pic6707047.jpg",
+   "year": 2021,
+   "minp": 2,
+   "maxp": 4,
+   "time": 60,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "351232": {
+   "id": "351232",
+   "en": "Merchants Cove: Rogue Promo Card",
+   "thumb": "https://cf.geekdo-images.com/Kx6svCECuUD-sOnrn30x8g__small/img/3bA9vVAtOfuu4DP5HnY3S2ncpfg=/fit-in/200x150/filters:strip_icc()/pic6819809.jpg",
+   "year": 2021,
+   "minp": 1,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "351549": {
+   "id": "351549",
+   "en": "Keep the Heroes Out!: The Great Dreamer Expansion",
+   "thumb": "https://cf.geekdo-images.com/pZsA-RFd8w1bg33xoyQQkw__small/img/aF7bXAy3Q3Z8d5kyoInyn4sQz3Q=/fit-in/200x150/filters:strip_icc()/pic6985344.jpg",
+   "year": 2022,
+   "minp": 1,
+   "maxp": 4,
+   "time": 40,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "351550": {
+   "id": "351550",
+   "en": "Keep the Heroes Out!: Guild Master's Revenge Expansion",
+   "thumb": "https://cf.geekdo-images.com/ZC5y7zSkbNwKTIk-eHs1ww__small/img/R6JyMhUW5uEEC1RoqzMOhWe84G0=/fit-in/200x150/filters:strip_icc()/pic6985340.jpg",
+   "year": 2022,
+   "minp": 1,
+   "maxp": 5,
+   "time": 40,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "354979": {
+   "id": "354979",
+   "en": "Merchants Cove: The Entertainer Crossover Pack",
+   "thumb": "https://cf.geekdo-images.com/zk2fU8sHpCmKeQwrUZjgsg__small/img/zAXyZOMSLIqGwERLxv65xVWJew0=/fit-in/200x150/filters:strip_icc()/pic8144398.jpg",
+   "year": 2024,
+   "minp": 1,
+   "maxp": 5,
+   "time": null,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "358682": {
+   "id": "358682",
+   "en": "The Guild of Merchant Explorers: The Queen's Special Orders",
+   "thumb": "https://cf.geekdo-images.com/iwB8BuYuQ6eaBoQC2LkBgg__small/img/rpWJ1Oa6KDjnwIuddVVT5dZP2dE=/fit-in/200x150/filters:strip_icc()/pic6740005.png",
+   "year": 2022,
+   "minp": 1,
+   "maxp": 4,
+   "time": 45,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "363525": {
+   "id": "363525",
+   "en": "Newton: Sun Set Promo",
+   "thumb": "https://cf.geekdo-images.com/nfnUguTYaws5OA0XSbpZUQ__small/img/ZtNttmaIX80PM5SuQZyF9eRDhsw=/fit-in/200x150/filters:strip_icc()/pic8491516.jpg",
+   "year": 2022,
+   "minp": 1,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "363526": {
+   "id": "363526",
+   "en": "Newton: New Horizon",
+   "thumb": "https://cf.geekdo-images.com/FkLd-aEZxWiWTSalDyZdOQ__small/img/1fkF6wXWeRQWkFMniJDu2kyyhDQ=/fit-in/200x150/filters:strip_icc()/pic8489756.jpg",
+   "year": 2022,
+   "minp": 1,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "364636": {
+   "id": "364636",
+   "en": "The Quest for El Dorado: Dangers & Muisca",
+   "thumb": "https://cf.geekdo-images.com/3Rtbwuppg598BeCiL9pipw__small/img/RrjLEV-U_zzVkluOI02-XugRSIM=/fit-in/200x150/filters:strip_icc()/pic6910360.jpg",
+   "year": 2022,
+   "minp": 2,
+   "maxp": 4,
+   "time": 60,
+   "at": "2026-11-26T02:46:50.774Z"
+  },
+  "364640": {
+   "id": "364640",
+   "en": "Merchants Cove: Master Craft",
+   "thumb": "https://cf.geekdo-images.com/tnVfO2Nm9LcvTBffkL0Y1A__small/img/a8AvUiNe8Ps4_6ds3aE62_AFkXk=/fit-in/200x150/filters:strip_icc()/pic6913881.jpg",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 5,
+   "time": 90,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "367354": {
+   "id": "367354",
+   "en": "Cubitos: Dodatkowe trasy",
+   "thumb": "https://cf.geekdo-images.com/J6of6zROLEai2B7HV2aFaQ__small/img/a0Jb_c23onqeoMeVSD9rlui3CeM=/fit-in/200x150/filters:strip_icc()/pic6969228.jpg",
+   "year": 2022,
+   "minp": null,
+   "maxp": null,
+   "time": null,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "371924": {
+   "id": "371924",
+   "en": "Canvas: Finishing Touches",
+   "thumb": "https://cf.geekdo-images.com/avvBiAUhB_xNXxjnbL25vg__small/img/EoltOBUUrV6Ufk4Vr8D2ipyfbLg=/fit-in/200x150/filters:strip_icc()/pic7104526.jpg",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 5,
+   "time": 30,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "377199": {
+   "id": "377199",
+   "en": "Challengers!: Winter Park Playmat + Blue Token",
+   "thumb": "https://cf.geekdo-images.com/VBlr_WRPEXGaSDDxaNZoNw__small/img/ptZ3JuHis57DhuJVo8d2AfMNezs=/fit-in/200x150/filters:strip_icc()/pic7216674.jpg",
+   "year": 2022,
+   "minp": 1,
+   "maxp": 8,
+   "time": 45,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "377971": {
+   "id": "377971",
+   "en": "The Quest for El Dorado: Dragons, Treasures & Mysteries",
+   "thumb": "https://cf.geekdo-images.com/mxYBlQiNxekK4t_xPzoWsw__small/img/ykRzwJ_8Yd571mSM3kpSPqAZgbc=/fit-in/200x150/filters:strip_icc()/pic7278310.jpg",
+   "year": 2023,
+   "minp": 2,
+   "maxp": 4,
+   "time": 60,
+   "at": "2026-11-26T02:46:50.774Z"
+  },
+  "379578": {
+   "id": "379578",
+   "en": "Tapestry: Fantasies & Futures",
+   "thumb": "https://cf.geekdo-images.com/uDi09FWY0jD_sB7fMtXJNQ__small/img/8tHsHc84fZm5N_C8WkhWt_YiKLs=/fit-in/200x150/filters:strip_icc()/pic7320021.png",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 5,
+   "time": 120,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "379804": {
+   "id": "379804",
+   "en": "Canvas: Reflections – Deluxe Upgrade Pack",
+   "thumb": "https://cf.geekdo-images.com/t7yQYtPtAXBw9cZrZsoogQ__small/img/hmB1rT3swOl_sGeVDPitx__0FT8=/fit-in/200x150/filters:strip_icc()/pic7334787.jpg",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 5,
+   "time": null,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "381137": {
+   "id": "381137",
+   "en": "The Quest for El Dorado: 2023 Promo Pack",
+   "thumb": "https://cf.geekdo-images.com/7ZLeWpXJe-VIbz_m3FMrLA__small/img/hVhSNDXFbVp2vpESqTERKoUztq0=/fit-in/200x150/filters:strip_icc()/pic7368885.jpg",
+   "year": 2023,
+   "minp": 2,
+   "maxp": 4,
+   "time": 60,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "381446": {
+   "id": "381446",
+   "en": "Wyprawa do El Dorado: Mokradła i Smoki",
+   "thumb": "https://cf.geekdo-images.com/MB5V5WlufcJpLDJ4yzoNvA__small/img/GoPmKQtRsPqmQbZV5KPjcmUgtvc=/fit-in/200x150/filters:strip_icc()/pic7377312.png",
+   "year": 2023,
+   "minp": 2,
+   "maxp": 4,
+   "time": 60,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "383714": {
+   "id": "383714",
+   "en": "Cups 'N' Dice",
+   "thumb": "https://cf.geekdo-images.com/hTAa1E8xenXBVvnqAf-7xQ__small/img/zKTufBEI_Ag9ll6TWvQh_jLAHBw=/fit-in/200x150/filters:strip_icc()/pic7694725.jpg",
+   "year": 2023,
+   "minp": 2,
+   "maxp": 20,
+   "time": 120,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "388568": {
+   "id": "388568",
+   "en": "Cubitos: Fowl Play",
+   "thumb": "https://cf.geekdo-images.com/pqiUwxf-ZVbpzSAKle9HAg__small/img/XvKUJJRK3lZFQqO6FK83DM3qcwA=/fit-in/200x150/filters:strip_icc()/pic7523288.png",
+   "year": 2024,
+   "minp": 2,
+   "maxp": 6,
+   "time": 60,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "389120": {
+   "id": "389120",
+   "en": "Newton: Extra City Tiles",
+   "thumb": "https://cf.geekdo-images.com/S0tS7njwC56IXdKemfvHLQ__small/img/-tgrymYtHEh6PVxEk9B36EMi1A4=/fit-in/200x150/filters:strip_icc()/pic7495109.png",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "395699": {
+   "id": "395699",
+   "en": "Istanbul: Pegasus Depot & Kebab Shop Mini Expansions",
+   "thumb": "https://cf.geekdo-images.com/dSdap2Eo8Dxj3eXZN3Vudg__small/img/oSQx5GvGFsWRQD-7sldwF0woyHg=/fit-in/200x150/filters:strip_icc()/pic8249716.jpg",
+   "year": 2023,
+   "minp": null,
+   "maxp": null,
+   "time": null,
+   "at": "2026-11-26T02:46:50.773Z"
+  },
+  "396443": {
+   "id": "396443",
+   "en": "Challengers!: Bonus Cards Pack #1",
+   "thumb": "https://cf.geekdo-images.com/jTikbP1WnX6xubY6R_txUw__small/img/jNPJfHObwHeoypfX-A7KUlFB3lo=/fit-in/200x150/filters:strip_icc()/pic8160997.jpg",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 8,
+   "time": 45,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "397436": {
+   "id": "397436",
+   "en": "Newton: Italy Grand Tour",
+   "thumb": "https://cf.geekdo-images.com/y6ubTZLjc1vCmK39gO0vOw__small/img/YbrA0ZwCDnaveD_ByFUrIhk7tYs=/fit-in/200x150/filters:strip_icc()/pic7666419.jpg",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "397785": {
+   "id": "397785",
+   "en": "Rats of Wistar: Guest Mice Set",
+   "thumb": "https://cf.geekdo-images.com/o6O46PO-fKoDLi1sxdx2Sg__small/img/lGXSKN4jlw4F6_gWA2wl-sOn0Xo=/fit-in/200x150/filters:strip_icc()/pic7668758.jpg",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "397786": {
+   "id": "397786",
+   "en": "Rats of Wistar: Objective Cards Set",
+   "thumb": "https://cf.geekdo-images.com/yB3YmAmkSd3t7MSCcj7JWg__small/img/mireLBvtTwQcYRGVAYq5f3J2Rls=/fit-in/200x150/filters:strip_icc()/pic7668750.jpg",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "403909": {
+   "id": "403909",
+   "en": "Challengers! Lucky Coins! Bonus Tokens",
+   "thumb": "https://cf.geekdo-images.com/3yZttb33kVTPP1RUNeDtjw__small/img/28kPXVgEjMJli4JSL4Gzn1WqLMc=/fit-in/200x150/filters:strip_icc()/pic7821596.jpg",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 8,
+   "time": null,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "404357": {
+   "id": "404357",
+   "en": "Keep the Heroes Out!: The Sparkling Guardian Expansion",
+   "thumb": "https://cf.geekdo-images.com/iuFUb7R7vMybFlYP9kaOoA__small/img/WPJSlP_ku0LKvmGWVQc1cVWJu5k=/fit-in/200x150/filters:strip_icc()/pic9899138.jpg",
+   "year": 2024,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "405992": {
+   "id": "405992",
+   "en": "Keep the Heroes Out!: Dice Tower 2023 Promo Cards",
+   "thumb": "https://cf.geekdo-images.com/VjCkTV0ISoFB77o_RA5rQw__small/img/XTnWmdbo3dY2670lbch1gobRwNs=/fit-in/200x150/filters:strip_icc()/pic8167815.png",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 4,
+   "time": 50,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "409863": {
+   "id": "409863",
+   "en": "Canvas: Finishing Touches – Deluxe Edition",
+   "thumb": "https://cf.geekdo-images.com/mqb5yHkdPxtNqOizGI3Qgw__small/img/_f7gA-MwMSsW5xD_Fde95kKZ9z4=/fit-in/200x150/filters:strip_icc()/pic9546934.jpg",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 5,
+   "time": 30,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "410207": {
+   "id": "410207",
+   "en": "Tapestry: Revised, Adjusted, Rebalanced Civilization Pack",
+   "thumb": "https://cf.geekdo-images.com/_S5lFau5BYJuT-H2KbDIbw__small/img/rsvMtXXt_hjN52-tnSzr5rm2KLM=/fit-in/200x150/filters:strip_icc()/pic8035599.png",
+   "year": 2024,
+   "minp": 1,
+   "maxp": 5,
+   "time": 150,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "411364": {
+   "id": "411364",
+   "en": "Rats of Wistar: The Dice Tower Promo Card",
+   "thumb": "https://cf.geekdo-images.com/WyrkKiig6gKwG0CEcbXthw__small/img/-Dzb0cS7qZf7Fv-lpGThvo113bY=/fit-in/200x150/filters:strip_icc()/pic8749467.png",
+   "year": 2024,
+   "minp": 1,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "413556": {
+   "id": "413556",
+   "en": "Captain Flip: In the Jaws of the Kraken",
+   "thumb": "https://cf.geekdo-images.com/6RpmlW8B9kBfzdg0Xbl6Rg__small/img/0O7H5EwczE1yPkWth1cJUsHhVYI=/fit-in/200x150/filters:strip_icc()/pic8083931.jpg",
+   "year": 2024,
+   "minp": 1,
+   "maxp": 5,
+   "time": 20,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "419925": {
+   "id": "419925",
+   "en": "Factoria: Forbidden Walkers",
+   "thumb": "https://cf.geekdo-images.com/ceQp1nxOtmZpjtHA8CV7Lg__small/img/eTqTl6e8N1UsPNoIsclFKGLOleY=/fit-in/200x150/filters:strip_icc()/pic8174377.jpg",
+   "year": 2021,
+   "minp": 2,
+   "maxp": 6,
+   "time": 70,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "420425": {
+   "id": "420425",
+   "en": "Canvas: Trilogy Booster Pack",
+   "thumb": "https://cf.geekdo-images.com/YARc8JHrFBO2SOouy4fb1w__small/img/dEzII8fm5CUt32Zrym6dRxviA24=/fit-in/200x150/filters:strip_icc()/pic8187178.jpg",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 5,
+   "time": 30,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "421185": {
+   "id": "421185",
+   "en": "Trade Routes (fan expansion for Tapestry)",
+   "thumb": "https://cf.geekdo-images.com/a6Acmo6WOa6wd7Dl3cMMrA__small/img/6939cN2SCuWzPOwPXp25E92ynzA=/fit-in/200x150/filters:strip_icc()/pic8329042.jpg",
+   "year": 2024,
+   "minp": 1,
+   "maxp": 5,
+   "time": 120,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "426490": {
+   "id": "426490",
+   "en": "Snow Planner: New Season",
+   "thumb": "https://cf.geekdo-images.com/fw20Z9OctEjq6pm9AFfr2g__small/img/7MJKz_CJ-CPLB9sz67PJYOIhpNM=/fit-in/200x150/filters:strip_icc()/pic8363181.png",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 4,
+   "time": 120,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "428347": {
+   "id": "428347",
+   "en": "Холст: Набор делюкс-компонентов для базовой игры и дополнений (Canvas: Deluxe Upgrade Pack)",
+   "thumb": "",
+   "year": 2024,
+   "minp": 1,
+   "maxp": 5,
+   "time": 30,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "430604": {
+   "id": "430604",
+   "en": "Rats of Wistar: Mechanical Meeple Promo Card",
+   "thumb": "https://cf.geekdo-images.com/T1GVcLwwyQ966z3tiCUW7g__small/img/rnn3Kh8iLrCAz3-MEwxiFiiCfZI=/fit-in/200x150/filters:strip_icc()/pic8487401.jpg",
+   "year": 2024,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "432654": {
+   "id": "432654",
+   "en": "Challengers!: Cruise Ship Promo Cards",
+   "thumb": "https://cf.geekdo-images.com/9IGdJm19yBJgCTF9GZ3xOw__small/img/IXqH9PVh2SH6pZm8-uI1SMBfa8A=/fit-in/200x150/filters:strip_icc()/pic8653131.png",
+   "year": 2024,
+   "minp": 1,
+   "maxp": 8,
+   "time": null,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "432729": {
+   "id": "432729",
+   "en": "Keep the Heroes Out!: Year of the Dragon Pack",
+   "thumb": "https://cf.geekdo-images.com/FHJH4HBqJc2ojJm9KzWdeg__small/img/J32OrTVNPFhf-6Zlhyoo6mXW-Sg=/fit-in/200x150/filters:strip_icc()/pic8675411.png",
+   "year": 2024,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "433316": {
+   "id": "433316",
+   "en": "Keep the Heroes Out!: Playing with Fire",
+   "thumb": "https://cf.geekdo-images.com/T1igZEqQS1oLFfgN8zHTbw__small/img/gd01bWllno5xyNX5m0wNbD8TXB8=/fit-in/200x150/filters:strip_icc()/pic8554108.jpg",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 4,
+   "time": 40,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "433367": {
+   "id": "433367",
+   "en": "Quest for El Dorado: Expansion Collection",
+   "thumb": "https://cf.geekdo-images.com/qp80DC56F1UuOgcl_OiyFg__small/img/r4UeOqT_ojOrtTS8Fb62mC1oyT0=/fit-in/200x150/filters:strip_icc()/pic9031226.png",
+   "year": 2025,
+   "minp": 2,
+   "maxp": 4,
+   "time": 60,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "441998": {
+   "id": "441998",
+   "en": "Canvas: Finishing Touches – Deluxe Upgrade Pack",
+   "thumb": "https://cf.geekdo-images.com/Y3d3NXbGGx-UpSsKL1EFeg__small/img/jcN9djV0AhtC6kzvUa59HPWtJqo=/fit-in/200x150/filters:strip_icc()/pic8784066.jpg",
+   "year": 2023,
+   "minp": null,
+   "maxp": null,
+   "time": null,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "442638": {
+   "id": "442638",
+   "en": "Captain Flip: Dolphin",
+   "thumb": "https://cf.geekdo-images.com/NWqjvlcL2eHKXo1JiYGlIA__small/img/5RGZvs4DmftVQKWQQ1_d53G-GX4=/fit-in/200x150/filters:strip_icc()/pic9935093.png",
+   "year": 2025,
+   "minp": 2,
+   "maxp": 5,
+   "time": null,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "443108": {
+   "id": "443108",
+   "en": "Snow Planner: New Challenge",
+   "thumb": "https://cf.geekdo-images.com/MaJgcJF6vSOMF5wF7GlzDg__small/img/0OlkgV4nXxwm23SQURW-4_OkC6o=/fit-in/200x150/filters:strip_icc()/pic8804686.png",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 4,
+   "time": 120,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "444230": {
+   "id": "444230",
+   "en": "Keep the Heroes Out!: Very Jolly Pack of Promos",
+   "thumb": "https://cf.geekdo-images.com/yB9ZHSgpbs3QLReaMdfI7g__small/img/Za80rD_3j4c13CgZJuenFJ4Wywk=/fit-in/200x150/filters:strip_icc()/pic8829492.jpg",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "444232": {
+   "id": "444232",
+   "en": "Keep the Heroes Out!: The Quijote Promo Pack",
+   "thumb": "https://cf.geekdo-images.com/CYEOtZswPVqroTfYE7FI_A__small/img/ogWgX-hjWkGzoSAKrzITnRyWaP4=/fit-in/200x150/filters:strip_icc()/pic8829894.jpg",
+   "year": 2024,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "444761": {
+   "id": "444761",
+   "en": "Merchants Cove: Game Maker",
+   "thumb": "https://cf.geekdo-images.com/be9sfjuiAje6J06_UYb6pw__small/img/bXDhlN8qWt31fUgY7uGysxhi5eY=/fit-in/200x150/filters:strip_icc()/pic8935167.png",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 5,
+   "time": null,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "444762": {
+   "id": "444762",
+   "en": "Merchants Cove: Loot Pack",
+   "thumb": "https://cf.geekdo-images.com/4vq6rbqx82MC5LGY0siNrQ__small/img/B1l9RRbM-lMfIhSzjtYB9bHd9Dg=/fit-in/200x150/filters:strip_icc()/pic8935168.png",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:46:54.886Z"
+  },
+  "446476": {
+   "id": "446476",
+   "en": "Holiday Hills: Santa and Krampus Double Expansion",
+   "thumb": "https://cf.geekdo-images.com/vR9odI49Gokcqds9KdChig__small/img/ktlAErIagNS76dEkkx1ELQD_D48=/fit-in/200x150/filters:strip_icc()/pic8883515.jpg",
+   "year": 2025,
+   "minp": 2,
+   "maxp": 5,
+   "time": 60,
+   "at": "2026-11-26T02:47:12.405Z"
+  },
+  "446477": {
+   "id": "446477",
+   "en": "Holiday Hills: Wreaths and Wonders Expansion",
+   "thumb": "https://cf.geekdo-images.com/B6wfCBa8VXmt0Xd-YUTKQg__small/img/zRTolKh3qifrjAdb-JaL7KGreQ0=/fit-in/200x150/filters:strip_icc()/pic8883516.jpg",
+   "year": 2025,
+   "minp": 2,
+   "maxp": 5,
+   "time": 60,
+   "at": "2026-11-26T02:47:12.405Z"
+  },
+  "451710": {
+   "id": "451710",
+   "en": "The Guild of Merchant Explorers: Party Pack",
+   "thumb": "https://cf.geekdo-images.com/AfM-4wEloMVV8hgXbDRFXw__small/img/TQI1qRCfIV1b5of7t5VnDnuE4IM=/fit-in/200x150/filters:strip_icc()/pic9035746.jpg",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 8,
+   "time": null,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "452112": {
+   "id": "452112",
+   "en": "Snow Planner: Snow Festival Promo Card",
+   "thumb": "",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "452113": {
+   "id": "452113",
+   "en": "Snow Planner: Crowdfunding Promo Card",
+   "thumb": "",
+   "year": 2024,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "452114": {
+   "id": "452114",
+   "en": "Snow Planner: Promo Cards Pack",
+   "thumb": "",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "454171": {
+   "id": "454171",
+   "en": "Keep the Heroes Out: Year of the Snake Pack",
+   "thumb": "https://cf.geekdo-images.com/ElYpT39zMo4I59k1oNa0Cw__small/img/ZNnb6coiIjfcezE8jGGlONIZn5k=/fit-in/200x150/filters:strip_icc()/pic9102487.png",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "455451": {
+   "id": "455451",
+   "en": "Rats of Wistar: Clans & Portals",
+   "thumb": "https://cf.geekdo-images.com/vmsoXpaSkbU3tu-db0ZIDA__small/img/mjBFWfwq-UMviicamragY-t8HdA=/fit-in/200x150/filters:strip_icc()/pic9135497.jpg",
+   "year": 2026,
+   "minp": 1,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "456350": {
+   "id": "456350",
+   "en": "Holiday Hills: Let it Snow Promo",
+   "thumb": "https://cf.geekdo-images.com/8iKSLEc2TAC_y3xrhGM9zw__small/img/TOhoyue0Ncc4B-qE1vo4-ut1LY8=/fit-in/200x150/filters:strip_icc()/pic9162869.jpg",
+   "year": 2025,
+   "minp": 2,
+   "maxp": 5,
+   "time": null,
+   "at": "2026-11-26T02:47:12.405Z"
+  },
+  "456351": {
+   "id": "456351",
+   "en": "Holiday Hills: Polar Promo",
+   "thumb": "https://cf.geekdo-images.com/YBpxENboK0vvXwnxu2y2eQ__small/img/WqmlgGf7qX8Q-TsvmpbvaQnH92I=/fit-in/200x150/filters:strip_icc()/pic9162873.jpg",
+   "year": 2026,
+   "minp": 2,
+   "maxp": 5,
+   "time": null,
+   "at": "2026-11-26T02:47:12.405Z"
+  },
+  "458424": {
+   "id": "458424",
+   "en": "Captain Flip: Isla Bomba",
+   "thumb": "https://cf.geekdo-images.com/TuslIfzI4rKgMwkC3vJnHA__small/img/6uqMRTWcTEmtwFbWfpe1u76DzGs=/fit-in/200x150/filters:strip_icc()/pic9235521.jpg",
+   "year": 2026,
+   "minp": 2,
+   "maxp": 5,
+   "time": 30,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "458844": {
+   "id": "458844",
+   "en": "Rats of Wistar: Mechanical Otter Promo Card",
+   "thumb": "",
+   "year": 2026,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "462804": {
+   "id": "462804",
+   "en": "Holiday Hills: Decoration Objective PAXU Promo Card",
+   "thumb": "",
+   "year": 2025,
+   "minp": 2,
+   "maxp": 5,
+   "time": null,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "463523": {
+   "id": "463523",
+   "en": "Keep the Heroes Out!: Dungeons Below",
+   "thumb": "https://cf.geekdo-images.com/4NiTZJegm4TWGEnIN4beGw__small/img/qCR1DL2s6bKWoDqpXHmkiElqjNQ=/fit-in/200x150/filters:strip_icc()/pic9395515.jpg",
+   "year": 2026,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "466703": {
+   "id": "466703",
+   "en": "Captain Flip: Isla Bomba – Message in a Bottle",
+   "thumb": "https://cf.geekdo-images.com/tx7O4yrRnxWrpXcV9gIcVg__small/img/ClA8UCpXLGaqDepU8NqgWmNplmI=/fit-in/200x150/filters:strip_icc()/pic9465318.png",
+   "year": 2026,
+   "minp": 2,
+   "maxp": 5,
+   "time": 30,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "467800": {
+   "id": "467800",
+   "en": "Snow Planner: Spur Note Promo",
+   "thumb": "https://cf.geekdo-images.com/1yVzq5E4atxy2C5bT-BSdg__small/img/WkqXJbOebfsXvKex3FZufeWSsqQ=/fit-in/200x150/filters:strip_icc()/pic9545668.jpg",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 4,
+   "time": 120,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "467974": {
+   "id": "467974",
+   "en": "Snow Planner: Penguin Promo Card",
+   "thumb": "",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "467975": {
+   "id": "467975",
+   "en": "Snow Planner: Visitor Center Promo Card",
+   "thumb": "",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "475576": {
+   "id": "475576",
+   "en": "Garden Club: Christmas Promo",
+   "thumb": "https://cf.geekdo-images.com/uR4hyJCta0VtQkw-p9DpGg__small/img/R1ALcQY1hYdGFzF3qzRGUCIu7gQ=/fit-in/200x150/filters:strip_icc()/pic9708967.jpg",
+   "year": 2026,
+   "minp": 2,
+   "maxp": 2,
+   "time": 10,
+   "at": "2026-11-26T02:47:09.238Z"
+  },
+  "476734": {
+   "id": "476734",
+   "en": "Holiday Hills: Gen Con 2026 Promo Card",
+   "thumb": "https://cf.geekdo-images.com/xoIDk5p_o66RWBapcWfqAg__small/img/NjH-PmSEOOn_j_N49GnTJNRGac8=/fit-in/200x150/filters:strip_icc()/pic9759696.jpg",
+   "year": 2026,
+   "minp": 2,
+   "maxp": 5,
+   "time": null,
+   "at": "2026-11-26T02:47:12.405Z"
+  },
+  "476823": {
+   "id": "476823",
+   "en": "Keep the Heroes Out!: Year of the Horse Pack",
+   "thumb": "https://cf.geekdo-images.com/0OFhKmvii7W2cd1DckmXKg__small/img/bD7zvnBXhI9OnKV0HRKhkw3UfJ4=/fit-in/200x150/filters:strip_icc()/pic9814995.jpg",
+   "year": 2026,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:47:06.217Z"
+  },
+  "480070": {
+   "id": "480070",
+   "en": "Canvas: Embellishments",
+   "thumb": "https://cf.geekdo-images.com/dQnZvDGJwZKs_7h-gMDpTA__small/img/2enHGKv8ceSyWrmj4Mrhs_4Z1bo=/fit-in/200x150/filters:strip_icc()/pic9826509.jpg",
+   "year": 2026,
+   "minp": 1,
+   "maxp": 5,
+   "time": 30,
+   "at": "2026-11-26T02:47:00.141Z"
+  },
+  "481334": {
+   "id": "481334",
+   "en": "Grow Sky: Personal Ability Cards",
+   "thumb": "https://cf.geekdo-images.com/BJxT3y5-zomE9gxGqdpugQ__small/img/Kd1r0ofO72rMnz5V5I2uFoBBWmw=/fit-in/200x150/filters:strip_icc()/pic9098735.jpg",
+   "year": 2024,
+   "minp": 1,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T02:47:12.405Z"
+  }
+ }
 }
