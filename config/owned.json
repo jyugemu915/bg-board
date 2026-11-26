@@ -429,6 +429,473 @@
    "from": "拡張一覧から追加",
    "bgg": "https://boardgamegeek.com/boardgameexpansion/419925",
    "parent": "ファクトリア"
+  },
+  {
+   "name": "ルート 拡張：クロックワーク",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/287220",
+   "parent": "ルート"
+  },
+  {
+   "name": "ルート 拡張：マローダー",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/330149",
+   "parent": "ルート"
+  },
+  {
+   "name": "蒸気の時代 デラックス版",
+   "from": "写真 11/26",
+   "bgg": ""
+  },
+  {
+   "name": "蒸気の時代 デラックス版 拡張マップセット vol.I",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/362228",
+   "parent": "蒸気の時代 デラックス版"
+  },
+  {
+   "name": "蒸気の時代 デラックス版 拡張マップセット vol.II",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/362227",
+   "parent": "蒸気の時代 デラックス版"
+  },
+  {
+   "name": "蒸気の時代 デラックス版 拡張マップセット vol.III",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/378715",
+   "parent": "蒸気の時代 デラックス版"
+  },
+  {
+   "name": "蒸気の時代 デラックス版 拡張マップセット vol.IV",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/396948",
+   "parent": "蒸気の時代 デラックス版"
+  },
+  {
+   "name": "エクスプローラーズ・オブ・ナヴォリア",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/371932"
+  },
+  {
+   "name": "エクスプローラーズ・オブ・ナヴォリア 拡張：フォーゴトンランド",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/411026",
+   "parent": "エクスプローラーズ・オブ・ナヴォリア"
+  },
+  {
+   "name": "アクアガーデン",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/322421"
+  },
+  {
+   "name": "アクアガーデン 拡張：ニューファシリティ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/373122",
+   "parent": "アクアガーデン"
+  },
+  {
+   "name": "アクアガーデン 拡張：シーミミクリー",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/373123",
+   "parent": "アクアガーデン"
+  },
+  {
+   "name": "アクアガーデン 拡張：シーサイドコテージ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/373124",
+   "parent": "アクアガーデン"
+  },
+  {
+   "name": "アクアガーデン 拡張：ビーチコーミング",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/370817",
+   "parent": "アクアガーデン"
+  },
+  {
+   "name": "スカイガーデン",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/447998"
+  },
+  {
+   "name": "ディノガーデン",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/447999"
+  },
+  {
+   "name": "ディノガーデン 拡張：ブルートハンターズ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/461171",
+   "parent": "ディノガーデン"
+  },
+  {
+   "name": "ディノガーデン 拡張：ジェントルタイタンズ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/461172",
+   "parent": "ディノガーデン"
+  },
+  {
+   "name": "パンダロイヤル",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/398996"
+  },
+  {
+   "name": "オスティア",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/347767"
+  },
+  {
+   "name": "オスティア 拡張：パイレーツ",
+   "from": "写真 11/26",
+   "bgg": "",
+   "parent": "オスティア"
+  },
+  {
+   "name": "クアックス＆カンパニー",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/354886"
+  },
+  {
+   "name": "ワーリング・ウィッチクラフト",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/335275"
+  },
+  {
+   "name": "ワンドラス・クリーチャーズ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/400366"
+  },
+  {
+   "name": "ワンドラス・クリーチャーズ 拡張：ウィンターフォール",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/459138",
+   "parent": "ワンドラス・クリーチャーズ"
+  },
+  {
+   "name": "ミレニアムブレード",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/151347"
+  },
+  {
+   "name": "エスケーププラン",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/142379"
+  },
+  {
+   "name": "ウェザーマシン",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/237179"
+  },
+  {
+   "name": "アークス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/359871"
+  },
+  {
+   "name": "アークス 拡張：ブライテッドリーチ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/363757",
+   "parent": "アークス"
+  },
+  {
+   "name": "ライノヒーロー",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/91514"
+  },
+  {
+   "name": "ライノヒーロー XXL",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/91514"
+  },
+  {
+   "name": "モンツァ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/4209"
+  },
+  {
+   "name": "はじめてのゲーム 果樹園",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/41302"
+  },
+  {
+   "name": "ジャストワン",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/254640"
+  },
+  {
+   "name": "キューボサウルス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/355881"
+  },
+  {
+   "name": "ナナ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/352515"
+  },
+  {
+   "name": "ペアーズ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/152237"
+  },
+  {
+   "name": "スシゴー",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/133473"
+  },
+  {
+   "name": "ワードバスケット",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/15000"
+  },
+  {
+   "name": "スカウト",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/291453"
+  },
+  {
+   "name": "ラブレター",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/129622"
+  },
+  {
+   "name": "ドブル ワンピース",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/63268"
+  },
+  {
+   "name": "ウミガメの島",
+   "from": "写真 11/26",
+   "bgg": ""
+  },
+  {
+   "name": "オルレアン アニバーサリーボックス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/164928"
+  },
+  {
+   "name": "アルナックの失われし遺跡",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/312484"
+  },
+  {
+   "name": "ブロックス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/2453"
+  },
+  {
+   "name": "クアックス・オブ・クヴェードリンブルク メガボックス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/349955"
+  },
+  {
+   "name": "ヘックメック",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/15818"
+  },
+  {
+   "name": "狩歌",
+   "from": "写真 11/26",
+   "bgg": ""
+  },
+  {
+   "name": "狩歌 パラダイムシフト",
+   "from": "写真 11/26",
+   "bgg": ""
+  },
+  {
+   "name": "ひらがなポーカー",
+   "from": "写真 11/26",
+   "bgg": ""
+  },
+  {
+   "name": "お邪魔者",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/9220"
+  },
+  {
+   "name": "お邪魔者2",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/91072",
+   "parent": "お邪魔者"
+  },
+  {
+   "name": "タイムボム",
+   "from": "写真 11/26",
+   "bgg": ""
+  },
+  {
+   "name": "ザ・ゲーム",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/173090"
+  },
+  {
+   "name": "チーティングモス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/105593"
+  },
+  {
+   "name": "ペッパー",
+   "from": "写真 11/26",
+   "bgg": ""
+  },
+  {
+   "name": "コーギーパイルアップ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/436935"
+  },
+  {
+   "name": "シングス・イン・リングス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/408547"
+  },
+  {
+   "name": "ルアー",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/415780"
+  },
+  {
+   "name": "フリップ7",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/420087"
+  },
+  {
+   "name": "ザッツ・ノット・ア・ハット",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/375651"
+  },
+  {
+   "name": "パスト・ニヒト！",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/393888"
+  },
+  {
+   "name": "オーディン",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/406854"
+  },
+  {
+   "name": "人狼バトルロイヤル",
+   "from": "写真 11/26",
+   "bgg": ""
+  },
+  {
+   "name": "ヘラス",
+   "from": "写真 11/26",
+   "bgg": ""
+  },
+  {
+   "name": "バタム",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/448136"
+  },
+  {
+   "name": "ザ・キング・イズ・デッド",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/319966"
+  },
+  {
+   "name": "ゴットファイブ！",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/453526"
+  },
+  {
+   "name": "オリジンストーリー",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/454909"
+  },
+  {
+   "name": "マドリノ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/279477"
+  },
+  {
+   "name": "ゴーン・ウィズ・ザ・ビーンズ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/351718"
+  },
+  {
+   "name": "ラッキーナンバー",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/118247"
+  },
+  {
+   "name": "ヒットスター",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/318243"
+  },
+  {
+   "name": "ライアーズダイス（playte）",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/45"
+  },
+  {
+   "name": "バッファローチェス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/32"
+  },
+  {
+   "name": "マヘ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/3383"
+  },
+  {
+   "name": "サルデーニャ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/15600"
+  },
+  {
+   "name": "バレルダイス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/148531"
+  },
+  {
+   "name": "キャントストップ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/41"
+  },
+  {
+   "name": "ドメモ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/14940"
+  },
+  {
+   "name": "サーカス・フローカティ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/337"
+  },
+  {
+   "name": "ハイソサエティ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/220"
+  },
+  {
+   "name": "ペンギンパーティ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/56933"
+  },
+  {
+   "name": "ポテトマン",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/137155"
+  },
+  {
+   "name": "フール！",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/366915"
+  },
+  {
+   "name": "ラスベガス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/117959"
+  },
+  {
+   "name": "ビッグショット",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/1125"
+  },
+  {
+   "name": "ダイイングメッセージ",
+   "from": "写真 11/26",
+   "bgg": ""
   }
  ]
 }
