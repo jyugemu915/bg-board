@@ -1,5 +1,5 @@
 {
- "_note": "写真などから読み取った所持ゲーム。ボードを開いたときに所持ゲームへ一度だけ取り込まれる（ボード側で削除したものは戻らない）。from=どこから登録したか",
+ "_note": "写真などから読み取った所持ゲーム。ボードを開いたときに所持ゲームへ取り込まれる（ボード側で削除したものは戻らない）。parent=拡張のときの本体名、includes=本体の箱に入れている拡張などのメモ。既に取り込み済みでも parent / includes / bgg はこのファイルの内容で更新される",
  "games": [
   {
    "name": "マジックメイズ・タワー",
@@ -9,7 +9,8 @@
   {
    "name": "キャプテンフリップ",
    "from": "写真 11/26",
-   "bgg": "https://boardgamegeek.com/boardgame/393325"
+   "bgg": "https://boardgamegeek.com/boardgame/393325",
+   "includes": "拡張入り"
   },
   {
    "name": "ハンザ・テウトニカ ビッグボックス",
@@ -24,7 +25,8 @@
   {
    "name": "イスタンブール",
    "from": "写真 11/26",
-   "bgg": "https://boardgamegeek.com/boardgame/148949"
+   "bgg": "https://boardgamegeek.com/boardgame/148949",
+   "includes": "拡張2つ＋プロモ入り"
   },
   {
    "name": "ラッツ・オブ・ウィスター",
@@ -39,7 +41,8 @@
   {
    "name": "クルセイダーズ",
    "from": "写真 11/26",
-   "bgg": "https://boardgamegeek.com/boardgame/170624"
+   "bgg": "https://boardgamegeek.com/boardgame/170624",
+   "includes": "拡張入り"
   },
   {
    "name": "ブルームサービス",
@@ -69,7 +72,8 @@
   {
    "name": "チャレンジャーズ！",
    "from": "写真 11/26",
-   "bgg": "https://boardgamegeek.com/boardgame/359970"
+   "bgg": "https://boardgamegeek.com/boardgame/359970",
+   "includes": "拡張入り"
   },
   {
    "name": "キュビトス",
@@ -84,7 +88,8 @@
   {
    "name": "エルドラドを探して 拡張：黄金の神殿",
    "from": "写真 11/26",
-   "bgg": "https://boardgamegeek.com/boardgame/271615"
+   "bgg": "https://boardgamegeek.com/boardgame/271615",
+   "parent": "エルドラドを探して"
   },
   {
    "name": "スノープランナー ビッグボックス",
@@ -104,12 +109,14 @@
   {
    "name": "キープ・ザ・ヒーローズ・アウト 拡張：ボスバトル",
    "from": "写真 11/26",
-   "bgg": "https://boardgamegeek.com/boardgame/394150"
+   "bgg": "https://boardgamegeek.com/boardgame/394150",
+   "parent": "キープ・ザ・ヒーローズ・アウト"
   },
   {
    "name": "キープ・ザ・ヒーローズ・アウト 拡張：アンダーグラウンドマーケット",
    "from": "写真 11/26",
-   "bgg": ""
+   "bgg": "",
+   "parent": "キープ・ザ・ヒーローズ・アウト"
   },
   {
    "name": "ギルド・オブ・マーチャント・エクスプローラーズ",
@@ -149,7 +156,8 @@
   {
    "name": "タペストリー",
    "from": "写真 11/26",
-   "bgg": "https://boardgamegeek.com/boardgame/286096"
+   "bgg": "https://boardgamegeek.com/boardgame/286096",
+   "includes": "拡張3つ入り"
   },
   {
    "name": "レキシオ",
@@ -160,6 +168,37 @@
    "name": "シヴィライゼーション（シドマイヤーズ・2010年版）",
    "from": "写真 11/26",
    "bgg": "https://boardgamegeek.com/boardgame/77130"
+  },
+  {
+   "name": "マーチャンツコーブ ビッグボックス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/277700",
+   "includes": "拡張入り"
+  },
+  {
+   "name": "ファクトリア",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/342949"
+  },
+  {
+   "name": "魔法のカギ",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/368899"
+  },
+  {
+   "name": "バグハント",
+   "from": "写真 11/26",
+   "bgg": ""
+  },
+  {
+   "name": "地獄の釜",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/137154"
+  },
+  {
+   "name": "エターナルデックス",
+   "from": "写真 11/26",
+   "bgg": "https://boardgamegeek.com/boardgame/424981"
   }
  ]
 }

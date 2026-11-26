@@ -88,3 +88,6 @@ a.x{text-decoration:none}
 .credit a{text-decoration:underline}
 .bar{height:4px;background:#ece7db;border-radius:2px;margin-top:5px;overflow:hidden}
 .bar i{display:block;height:100%;background:#d7a43b}
+.row.sub{padding:6px 16px 6px 42px;background:#faf6ec;border-top:1px dashed var(--line)}
+.row.sub .thumb{width:32px;height:32px;font-size:14px}
+.row.sub .t{font-size:13px}
