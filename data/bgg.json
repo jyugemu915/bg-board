@@ -1346,8 +1346,13 @@
   },
   "クラッシュオブデッキ": {
    "label": "クラッシュ・オブ・デッキ",
-   "miss": true,
-   "at": "2026-11-26T03:31:19.858Z"
+   "id": "334307",
+   "name": "Clash of Decks: Starter Kit",
+   "image": "https://cf.geekdo-images.com/UVTPVAE3v_Czlo0zx0zHDA__original/img/mf6u6s7yapakSAlvhKTBAbjJ9bA=/0x0/filters:format(jpeg)/pic6549741.jpg",
+   "thumb": "https://cf.geekdo-images.com/UVTPVAE3v_Czlo0zx0zHDA__small/img/cmqvkGMOc1ADqY4OQzsiykgZkfM=/fit-in/200x150/filters:strip_icc()/pic6549741.jpg",
+   "query": "id:334307",
+   "at": "2026-11-26T12:36:47.005Z",
+   "alias": "334307"
   },
   "ウォーチェスト": {
    "label": "ウォーチェスト",
@@ -1409,5 +1414,5 @@
    "at": "2026-11-26T08:00:08.186Z"
   }
  },
- "updatedAt": "2026-11-26T12:34:43.522Z"
+ "updatedAt": "2026-11-26T12:36:47.006Z"
 }

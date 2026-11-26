@@ -8301,6 +8301,136 @@
    ],
    "at": "2026-11-26T03:53:39.728Z"
   },
+  "334307": {
+   "v": 3,
+   "id": "334307",
+   "type": "boardgame",
+   "best": "2",
+   "rec": "1〜2",
+   "minTime": 15,
+   "maxTime": 30,
+   "age": 8,
+   "rating": 6.27,
+   "weight": 2,
+   "rank": 6234,
+   "mechanics": [
+    "Card Play Conflict Resolution",
+    "Hand Management",
+    "Open Drafting",
+    "Solo / Solitaire Game"
+   ],
+   "categories": [
+    "Card Game",
+    "Fantasy",
+    "Fighting",
+    "Medieval",
+    "Print & Play"
+   ],
+   "designers": [
+    "Léandre Proust"
+   ],
+   "artists": [
+    "Freepik",
+    "Studio Rexard"
+   ],
+   "publishers": [
+    "Grammes Edition",
+    "Games7Days",
+    "Korea Boardgames",
+    "Lavka Games",
+    "Strategos Games"
+   ],
+   "families": [
+    "Game: Clash of Decks"
+   ],
+   "desc": "You are a surviving Sorcerer-Lord from the Erret Archipelago. A territory where hundreds of islands are connected together by huge bridges. Bridges once conferred the Archipelago greatness and prosperity, and permitted flourishing trade between its islands. The Archipelago's wealth, which would only transit through these bridges, offered every resident a life of comfort and carefreeness. But today, overpopulation, natural resources depletion, and blind cupidity from the Lord-Sorcerers have created a cataclysmic imbalance in the Erret Archipelago. Not a day goes by without the earth ripping apart and the seas engulfing the most fragile islands. The Sorcerer-Lords now fight for control of the upper and safest islands of the Archipelago. To survive in these hostile lands, you need to cross the bridges and fight other Sorcerer-Lords to claim their land.\n\nClash of Deck: Starter Kit is a card-based combat game for 1-2 players aged 8+ that plays in 15-30 minutes, created by L&eacute;andre Proust, with artwork from Studio Rexard, and published by Grammes &Eacute;dition. Create your 8 unit army and battle other Lord-Sorcerers to destroy their Strongholds!\n\nClash of Deck is dead… Long lives Clash of Decks! Clash of Decks is a card game which has been played and tested by hundreds of players throughout its first year of existence, as a French version. The game was published in 2020 in an atypic form: cards you cut yourself from a folded sheet of cardboard. A new standalone expansion…",
+   "expansions": [
+    {
+     "id": "381441",
+     "name": "Clash of Decks: Champion – Broblivion"
+    },
+    {
+     "id": "449940",
+     "name": "Clash of Decks: Champion – Hercules"
+    },
+    {
+     "id": "381442",
+     "name": "Clash of Decks: Champion – Micka the Henchman"
+    },
+    {
+     "id": "359847",
+     "name": "Clash of Decks: Champion – The Ukrainian"
+    },
+    {
+     "id": "395302",
+     "name": "Clash of Decks: Initiation Grimoire"
+    },
+    {
+     "id": "433069",
+     "name": "Битва колод: Чемпион – Капибара (Clash of Decks: Champion – Capybara)"
+    }
+   ],
+   "bases": [],
+   "en": "Clash of Decks: Starter Kit",
+   "ja": "",
+   "minp": 1,
+   "maxp": 2,
+   "time": 30,
+   "year": 2020,
+   "thumb": "https://cf.geekdo-images.com/UVTPVAE3v_Czlo0zx0zHDA__small/img/cmqvkGMOc1ADqY4OQzsiykgZkfM=/fit-in/200x150/filters:strip_icc()/pic6549741.jpg",
+   "image": "https://cf.geekdo-images.com/UVTPVAE3v_Czlo0zx0zHDA__original/img/mf6u6s7yapakSAlvhKTBAbjJ9bA=/0x0/filters:format(jpeg)/pic6549741.jpg",
+   "versions": [
+    {
+     "id": "701293",
+     "name": "Russian edition",
+     "year": 2024,
+     "lang": "Russian",
+     "thumb": "https://cf.geekdo-images.com/02ke70gXUlk6joySCSef1w__small/img/ASjPdMepGREKAgXqrKbHuctgoqQ=/fit-in/200x150/filters:strip_icc()/pic9621488.jpg",
+     "image": "https://cf.geekdo-images.com/02ke70gXUlk6joySCSef1w__original/img/m8V67QzRueJRaaZezzP7CS3cBvM=/0x0/filters:format(jpeg)/pic9621488.jpg"
+    },
+    {
+     "id": "687530",
+     "name": "Korean edition",
+     "year": 2023,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/nEmjrGvnK4fbJPlroiA8sw__small/img/xrE9Wsf8gzRSU4_ACb46OeowKnQ=/fit-in/200x150/filters:strip_icc()/pic7825963.png",
+     "image": "https://cf.geekdo-images.com/nEmjrGvnK4fbJPlroiA8sw__original/img/JbpKZKsoA1pkaRvxX_VJWJkzt5w=/0x0/filters:format(png)/pic7825963.png"
+    },
+    {
+     "id": "682337",
+     "name": "Polish edition",
+     "year": 2023,
+     "lang": "Polish",
+     "thumb": "https://cf.geekdo-images.com/j05CLv8eUerC672WKK5lUw__small/img/013AyBwhxP2l26xlx6_g0cP1M0s=/fit-in/200x150/filters:strip_icc()/pic8601875.jpg",
+     "image": "https://cf.geekdo-images.com/j05CLv8eUerC672WKK5lUw__original/img/nm4dn6vXzxuF8zR5_hxe4s2oaNk=/0x0/filters:format(jpeg)/pic8601875.jpg"
+    },
+    {
+     "id": "629640",
+     "name": "English/French edition",
+     "year": 2022,
+     "lang": "English・French",
+     "thumb": "https://cf.geekdo-images.com/KwFnZ9DQUFYsVKddsq9Xzg__small/img/_HJDhJayniFTEMnvIbJBjopJDa0=/fit-in/200x150/filters:strip_icc()/pic7374531.jpg",
+     "image": "https://cf.geekdo-images.com/KwFnZ9DQUFYsVKddsq9Xzg__original/img/4LTdMEeWL_Z4YRIdyfCaKKtLrHI=/0x0/filters:format(jpeg)/pic7374531.jpg"
+    },
+    {
+     "id": "637665",
+     "name": "Ukrainian edition",
+     "year": 2022,
+     "lang": "Ukrainian",
+     "thumb": "https://cf.geekdo-images.com/4AO76tjjOW3Xs4UtTxCX3g__small/img/FQy5uoJtfj6vG8PzCTHVelLwawI=/fit-in/200x150/filters:strip_icc()/pic9834436.png",
+     "image": "https://cf.geekdo-images.com/4AO76tjjOW3Xs4UtTxCX3g__original/img/iYbBWdzkPPQ9LadwMdRsTFQua7s=/0x0/filters:format(png)/pic9834436.png"
+    },
+    {
+     "id": "556246",
+     "name": "English/French edition",
+     "year": 2021,
+     "lang": "English・French",
+     "thumb": "https://cf.geekdo-images.com/dCm2XYo3zwyKO1X73LT60Q__small/img/h0MjCAFHtXdiYfiNytV_sgPYuak=/fit-in/200x150/filters:strip_icc()/pic6449137.png",
+     "image": "https://cf.geekdo-images.com/dCm2XYo3zwyKO1X73LT60Q__original/img/ZM-W6lshG3kvRG6sa9mijWi-hls=/0x0/filters:format(png)/pic6449137.png"
+    }
+   ],
+   "at": "2026-11-26T12:36:47.355Z"
+  },
   "338425": {
    "v": 3,
    "id": "338425",
@@ -11818,7 +11948,7 @@
    "at": "2026-11-26T03:56:55.915Z"
   }
  },
- "updatedAt": "2026-11-26T12:34:49.138Z",
+ "updatedAt": "2026-11-26T12:36:52.668Z",
  "exps": {
   "2591": {
    "id": "2591",
@@ -14520,6 +14650,16 @@
    "time": 45,
    "at": "2026-11-26T02:47:06.217Z"
   },
+  "359847": {
+   "id": "359847",
+   "en": "Clash of Decks: Champion – The Ukrainian",
+   "thumb": "https://cf.geekdo-images.com/yl08ov5IionsBUcoW3M2tg__small/img/f7wScEvZaQ8hZbJuhy2FgkVga3U=/fit-in/200x150/filters:strip_icc()/pic6825215.jpg",
+   "year": 2022,
+   "minp": 1,
+   "maxp": 2,
+   "time": 30,
+   "at": "2026-11-26T12:36:50.167Z"
+  },
   "362509": {
    "id": "362509",
    "en": "Co-opoly: a \"conversion kit\" for Monopoly",
@@ -14880,6 +15020,26 @@
    "time": 60,
    "at": "2026-11-26T02:46:50.773Z"
   },
+  "381441": {
+   "id": "381441",
+   "en": "Clash of Decks: Champion – Broblivion",
+   "thumb": "https://cf.geekdo-images.com/KB5HaHuINSLd8dq6tIQVXw__small/img/kDvMK5rXFU9CrkDxC6KIakUGuQY=/fit-in/200x150/filters:strip_icc()/pic7898671.jpg",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 2,
+   "time": 30,
+   "at": "2026-11-26T12:36:50.167Z"
+  },
+  "381442": {
+   "id": "381442",
+   "en": "Clash of Decks: Champion – Micka the Henchman",
+   "thumb": "https://cf.geekdo-images.com/LjnvZB0uLKISqeQDovluDA__small/img/4dTUn7dFilicvXjYTNeOr1bORSA=/fit-in/200x150/filters:strip_icc()/pic7898672.jpg",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 2,
+   "time": 30,
+   "at": "2026-11-26T12:36:50.167Z"
+  },
   "381446": {
    "id": "381446",
    "en": "Wyprawa do El Dorado: Mokradła i Smoki",
@@ -14989,6 +15149,16 @@
    "maxp": 100,
    "time": 45,
    "at": "2026-11-26T03:32:26.724Z"
+  },
+  "395302": {
+   "id": "395302",
+   "en": "Clash of Decks: Initiation Grimoire",
+   "thumb": "https://cf.geekdo-images.com/3q9WX_VLSLB6E7hjYovfQw__small/img/6MaS6GOFzG-mrZE4Yfgs1fbBlgw=/fit-in/200x150/filters:strip_icc()/pic7624496.jpg",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 1,
+   "time": 30,
+   "at": "2026-11-26T12:36:50.167Z"
   },
   "395699": {
    "id": "395699",
@@ -15430,6 +15600,16 @@
    "time": null,
    "at": "2026-11-26T02:47:06.217Z"
   },
+  "433069": {
+   "id": "433069",
+   "en": "Битва колод: Чемпион – Капибара (Clash of Decks: Champion – Capybara)",
+   "thumb": "https://cf.geekdo-images.com/JY14LAZ1-YbN_J06Li_g_w__small/img/iyXf-7JX0KwCoduKUqxkbQXKI5c=/fit-in/200x150/filters:strip_icc()/pic8544719.png",
+   "year": 2024,
+   "minp": 1,
+   "maxp": 2,
+   "time": 30,
+   "at": "2026-11-26T12:36:50.167Z"
+  },
   "433231": {
    "id": "433231",
    "en": "Carcassonne: 4 Seasons – The Autumn",
@@ -15659,6 +15839,16 @@
    "maxp": 6,
    "time": 240,
    "at": "2026-11-26T03:17:56.834Z"
+  },
+  "449940": {
+   "id": "449940",
+   "en": "Clash of Decks: Champion – Hercules",
+   "thumb": "https://cf.geekdo-images.com/CiAaEd1WDurV36lJc-7Wqw__small/img/SMn9VphIGne6BY3LVhLxkEveqmo=/fit-in/200x150/filters:strip_icc()/pic8982707.jpg",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 2,
+   "time": null,
+   "at": "2026-11-26T12:36:50.167Z"
   },
   "451345": {
    "id": "451345",
