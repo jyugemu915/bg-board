@@ -152,10 +152,7 @@ a.more{text-align:center;width:max-content}
 .tag.hit{background:#fbe9e3;color:var(--accent)}
 .ogrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:8px}
 .ogrid .empty,.ogrid .more{grid-column:1/-1}
-.tile{position:relative;border:0;padding:0;background:var(--card);border-radius:10px;overflow:hidden;aspect-ratio:1;box-shadow:0 1px 3px #0000001a}
-.tart{position:absolute;inset:0;background:#e9e4d8 center/cover no-repeat;display:grid;place-items:center}
 .tname{padding:8px;font-size:12px;line-height:1.35;color:#4a4638;text-align:center;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
-.tov{position:absolute;left:0;right:0;bottom:0;display:flex;flex-wrap:wrap;gap:0 6px;justify-content:center;padding:14px 4px 4px;background:linear-gradient(transparent,#000b);color:#fff;font-size:10.5px;line-height:1.3;text-shadow:0 1px 2px #0008}
 .tbadge{position:absolute;top:4px;right:4px;background:#fffffff0;color:#3b5b8a;font-size:9.5px;border-radius:999px;padding:1px 6px}
 .tbadge.hit{background:var(--accent);color:#fff}
 
@@ -208,3 +205,10 @@ button.mchip{border:0;font-size:12px;padding:3px 9px}
 .flagck{display:flex;gap:14px;flex-wrap:wrap}
 form.oedit .flagck label{display:flex;align-items:center;gap:4px;flex:none;font-size:13.5px;color:var(--ink)}
 form.oedit .flagck input{width:auto;margin:0}
+/* 箱絵タイル：絵は見切れないよう全体を収め、余白は同じ絵をぼかして敷く。人数・時間は絵の下 */
+.tile{position:relative;border:0;padding:0;background:var(--card);border-radius:10px;overflow:hidden;box-shadow:0 1px 3px #0000001a;display:flex;flex-direction:column;text-align:left}
+.tart{position:relative;aspect-ratio:1;background:#e9e4d8;display:grid;place-items:center;overflow:hidden}
+.tart.has::before{content:"";position:absolute;inset:-12px;background:var(--img) center/cover no-repeat;filter:blur(10px) saturate(.9);opacity:.55}
+.tart.has::after{content:"";position:absolute;inset:3px;background:var(--img) center/contain no-repeat}
+.tov{display:flex;flex-wrap:wrap;gap:0 6px;justify-content:center;padding:4px 4px 5px;color:#4a4638;font-size:10.5px;line-height:1.35;border-top:1px solid var(--line)}
+.tflags,.tbadge{z-index:1}
