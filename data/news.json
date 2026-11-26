@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T14:07:35.657Z",
+ "updatedAt": "2026-11-26T22:15:15.071Z",
  "sources": [
   {
    "name": "ホヌゲームズ",
@@ -1308,7 +1308,7 @@
    "url": "https://bluefinch.base.shop/items/165128806",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/aee5ecfc27291eddb263dd8a22499121.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "4,950円",
-   "status": "sale",
+   "status": "sold",
    "firstSeen": null,
    "saleAt": null,
    "date": null,
@@ -2043,8 +2043,8 @@
   },
   "https://bluefinch.base.shop/items/165128806": {
    "firstSeen": null,
-   "status": "sale",
-   "since": null,
+   "status": "sold",
+   "since": "2026-11-26T22:15:15.071Z",
    "saleAt": null
   },
   "https://bluefinch.base.shop/items/165130642": {

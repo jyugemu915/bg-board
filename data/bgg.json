@@ -277,13 +277,13 @@
   },
   "ザキングイズデッド": {
    "label": "ザ・キング・イズ・デッド",
-   "id": "172996",
-   "name": "The King Is Dead",
-   "image": "https://cf.geekdo-images.com/jsimXx5ON_6ukJyyYAAQlg__original/img/rrPuEEGxQlA2G7ocpocRYw1QYx0=/0x0/filters:format(jpeg)/pic2402804.jpg",
-   "thumb": "https://cf.geekdo-images.com/jsimXx5ON_6ukJyyYAAQlg__small/img/XQQacRgsEJIl4CQ6AFtGeog7LvE=/fit-in/200x150/filters:strip_icc()/pic2402804.jpg",
-   "query": "The King Is Dead",
-   "at": "2026-11-25T01:55:56.079Z",
-   "alias": "The King Is Dead"
+   "id": "319966",
+   "name": "The King Is Dead: Second Edition",
+   "image": "https://cf.geekdo-images.com/p8ATnANurMdieJUELqN3IA__original/img/bnDn1undC8Pf6iAICKSv-4RaJXs=/0x0/filters:format(jpeg)/pic5680120.jpg",
+   "thumb": "https://cf.geekdo-images.com/p8ATnANurMdieJUELqN3IA__small/img/Cf-tr8Vc6XGuB-sN_rZq65OSVDw=/fit-in/200x150/filters:strip_icc()/pic5680120.jpg",
+   "query": "id:319966",
+   "at": "2026-11-26T22:16:20.578Z",
+   "alias": "319966"
   },
   "カール大帝": {
    "label": "カール大帝",
@@ -1961,7 +1961,282 @@
    "query": "id:173090",
    "at": "2026-11-26T14:09:31.969Z",
    "alias": "173090"
+  },
+  "チーティングモス": {
+   "label": "チーティングモス",
+   "id": "105593",
+   "name": "Cheating Moth",
+   "image": "https://cf.geekdo-images.com/7w7ht4bmAnu0j-_qgcYPiQ__original/img/C1hf_pbsGvD5HP-N0iHME_HSH1E=/0x0/filters:format(jpeg)/pic2220182.jpg",
+   "thumb": "https://cf.geekdo-images.com/7w7ht4bmAnu0j-_qgcYPiQ__small/img/KgN5mpV6DK97ixi5jey_4vqvAss=/fit-in/200x150/filters:strip_icc()/pic2220182.jpg",
+   "query": "id:105593",
+   "at": "2026-11-26T22:15:48.787Z",
+   "alias": "105593"
+  },
+  "ペッパー": {
+   "label": "ペッパー",
+   "miss": true,
+   "at": "2026-11-26T22:15:51.429Z"
+  },
+  "コーギーパイルアップ": {
+   "label": "コーギーパイルアップ",
+   "id": "436935",
+   "name": "Corgi Pileup",
+   "image": "https://cf.geekdo-images.com/oV9ggBnRATPsfEbyDWDsJA__original/img/e4hzEpbn62VeuN9cqRc3zczdMUY=/0x0/filters:format(png)/pic8708138.png",
+   "thumb": "https://cf.geekdo-images.com/oV9ggBnRATPsfEbyDWDsJA__small/img/XNWiLYiQsyvFaHUOnz8we948J_Y=/fit-in/200x150/filters:strip_icc()/pic8708138.png",
+   "query": "id:436935",
+   "at": "2026-11-26T22:15:54.271Z",
+   "alias": "436935"
+  },
+  "シングスインリングス": {
+   "label": "シングス・イン・リングス",
+   "id": "408547",
+   "name": "Things in Rings",
+   "image": "https://cf.geekdo-images.com/oNmUB9qyfDYwUlzwrl9hZQ__original/img/7ELk1Jd51l9UMPuv_QC8huhZ_8Q=/0x0/filters:format(jpeg)/pic8037086.jpg",
+   "thumb": "https://cf.geekdo-images.com/oNmUB9qyfDYwUlzwrl9hZQ__small/img/naiGnckqLXJVGJagVY_z8g__ojI=/fit-in/200x150/filters:strip_icc()/pic8037086.jpg",
+   "query": "id:408547",
+   "at": "2026-11-26T22:15:56.848Z",
+   "alias": "408547"
+  },
+  "ルアー": {
+   "label": "ルアー",
+   "id": "415780",
+   "name": "Lure",
+   "image": "https://cf.geekdo-images.com/PTyoIJVnTwvSzsNyxuizkA__original/img/MZPWkHIqIrbxthd1UdNp7xnxFGA=/0x0/filters:format(jpeg)/pic8379513.jpg",
+   "thumb": "https://cf.geekdo-images.com/PTyoIJVnTwvSzsNyxuizkA__small/img/SUX_qT6JnDkuC5yDhil3UHq66No=/fit-in/200x150/filters:strip_icc()/pic8379513.jpg",
+   "query": "id:415780",
+   "at": "2026-11-26T22:15:59.430Z",
+   "alias": "415780"
+  },
+  "フリップ7": {
+   "label": "フリップ7",
+   "id": "420087",
+   "name": "Flip 7",
+   "image": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__original/img/hK6k-x_GYfooemrkkRuF0bTvKxE=/0x0/filters:format(jpeg)/pic8780246.jpg",
+   "thumb": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__small/img/_dNNsSelyw9qUEOIXBRt6PE_1us=/fit-in/200x150/filters:strip_icc()/pic8780246.jpg",
+   "query": "id:420087",
+   "at": "2026-11-26T22:16:02.168Z",
+   "alias": "420087"
+  },
+  "ザッツノットアハット": {
+   "label": "ザッツ・ノット・ア・ハット",
+   "id": "375651",
+   "name": "That&#039;s Not a Hat",
+   "image": "https://cf.geekdo-images.com/y_8E6IhpFg5z-_9KHdQYYQ__original/img/nDlt2BB6wA2avRDDO8MKgP0bjW4=/0x0/filters:format(jpeg)/pic7386321.jpg",
+   "thumb": "https://cf.geekdo-images.com/y_8E6IhpFg5z-_9KHdQYYQ__small/img/8FaQmPggNpG2i2zIXe5-X8bGt30=/fit-in/200x150/filters:strip_icc()/pic7386321.jpg",
+   "query": "id:375651",
+   "at": "2026-11-26T22:16:04.786Z",
+   "alias": "375651"
+  },
+  "パストニヒト": {
+   "label": "パスト・ニヒト！",
+   "id": "393888",
+   "name": "Match!",
+   "image": "https://cf.geekdo-images.com/u-9VS-y18do8aI5VvGtzeQ__original/img/S4tHZCQjLfEhJyY5gLe5Fb7T44I=/0x0/filters:format(jpeg)/pic8561479.jpg",
+   "thumb": "https://cf.geekdo-images.com/u-9VS-y18do8aI5VvGtzeQ__small/img/NUd8EpiAQjUsMIdkrzAZqjCBseg=/fit-in/200x150/filters:strip_icc()/pic8561479.jpg",
+   "query": "id:393888",
+   "at": "2026-11-26T22:16:07.448Z",
+   "alias": "393888"
+  },
+  "オーディン": {
+   "label": "オーディン",
+   "id": "406854",
+   "name": "Odin",
+   "image": "https://cf.geekdo-images.com/hh5YOk9OQ3e0uJbMOfvT2g__original/img/pq_dOY_tC4Owv3RnTIlYEcsDHrs=/0x0/filters:format(jpeg)/pic7921978.jpg",
+   "thumb": "https://cf.geekdo-images.com/hh5YOk9OQ3e0uJbMOfvT2g__small/img/bYaPoCwSz2lq-tAtb_60fPqiNzA=/fit-in/200x150/filters:strip_icc()/pic7921978.jpg",
+   "query": "id:406854",
+   "at": "2026-11-26T22:16:10.052Z",
+   "alias": "406854"
+  },
+  "人狼バトルロイヤル": {
+   "label": "人狼バトルロイヤル",
+   "miss": true,
+   "at": "2026-11-26T22:16:12.773Z"
+  },
+  "ヘラス": {
+   "label": "ヘラス",
+   "miss": true,
+   "at": "2026-11-26T22:16:15.387Z"
+  },
+  "バタム": {
+   "label": "バタム",
+   "id": "448136",
+   "name": "Batam",
+   "image": "https://cf.geekdo-images.com/ol1QMsl6aFIx7C0-uC18yQ__original/img/I98tCuW-0Bg8H3qsJAJ5U51obpQ=/0x0/filters:format(png)/pic8953044.png",
+   "thumb": "https://cf.geekdo-images.com/ol1QMsl6aFIx7C0-uC18yQ__small/img/fqBzXopBB_SIwwc89JpgvzSDXCU=/fit-in/200x150/filters:strip_icc()/pic8953044.png",
+   "query": "id:448136",
+   "at": "2026-11-26T22:16:17.991Z",
+   "alias": "448136"
+  },
+  "ゴットファイブ": {
+   "label": "ゴットファイブ！",
+   "id": "453526",
+   "name": "Got Five!",
+   "image": "https://cf.geekdo-images.com/3mxe3Ur8M3sUxBSp1X5G5w__original/img/ElntXLA-SwOPMhuiWWEHiBq1e8Y=/0x0/filters:format(png)/pic9492414.png",
+   "thumb": "https://cf.geekdo-images.com/3mxe3Ur8M3sUxBSp1X5G5w__small/img/SUXNNUMo-uPXqbPBRa0CQf45tY8=/fit-in/200x150/filters:strip_icc()/pic9492414.png",
+   "query": "id:453526",
+   "at": "2026-11-26T22:16:23.196Z",
+   "alias": "453526"
+  },
+  "オリジンストーリー": {
+   "label": "オリジンストーリー",
+   "id": "454909",
+   "name": "Origin Story",
+   "image": "https://cf.geekdo-images.com/aY8Kt9viVZgpkdO0Vdww-w__original/img/sMye0DBzFApTEa4ms1bDjNSxYCs=/0x0/filters:format(jpeg)/pic9135406.jpg",
+   "thumb": "https://cf.geekdo-images.com/aY8Kt9viVZgpkdO0Vdww-w__small/img/yciKwqg9AdhckrlcowJm9-efuv0=/fit-in/200x150/filters:strip_icc()/pic9135406.jpg",
+   "query": "id:454909",
+   "at": "2026-11-26T22:16:25.790Z",
+   "alias": "454909"
+  },
+  "マドリノ": {
+   "label": "マドリノ",
+   "id": "279477",
+   "name": "Madrino",
+   "image": "https://cf.geekdo-images.com/iYTN8JZEqoY7HPhFZDJyeQ__original/img/pbYtQeAtGDQVEmZWgZXuECSUDTY=/0x0/filters:format(jpeg)/pic4765917.jpg",
+   "thumb": "https://cf.geekdo-images.com/iYTN8JZEqoY7HPhFZDJyeQ__small/img/ySuM6IBzGlHeMvosYTwwVxxCiQQ=/fit-in/200x150/filters:strip_icc()/pic4765917.jpg",
+   "query": "id:279477",
+   "at": "2026-11-26T22:16:28.558Z",
+   "alias": "279477"
+  },
+  "ゴーンウィズザビーンズ": {
+   "label": "ゴーン・ウィズ・ザ・ビーンズ",
+   "id": "351718",
+   "name": "Gone with the Beans",
+   "image": "https://cf.geekdo-images.com/vWTo0GnEh1fQN8sEMKt2SQ__original/img/N2LorlYWL_jMkv-s8o2BTZy6SsU=/0x0/filters:format(jpeg)/pic6532000.jpg",
+   "thumb": "https://cf.geekdo-images.com/vWTo0GnEh1fQN8sEMKt2SQ__small/img/0BuwWdcZ6oS7q5hpsgQNvxCAxe4=/fit-in/200x150/filters:strip_icc()/pic6532000.jpg",
+   "query": "id:351718",
+   "at": "2026-11-26T22:16:31.197Z",
+   "alias": "351718"
+  },
+  "ラッキーナンバー": {
+   "label": "ラッキーナンバー",
+   "id": "118247",
+   "name": "Lucky Numbers",
+   "image": "https://cf.geekdo-images.com/254SXVeOngtdjf8SBFEUNg__original/img/nMXQaLidez7ePmk3tZYz_7-f2EI=/0x0/filters:format(jpeg)/pic5646606.jpg",
+   "thumb": "https://cf.geekdo-images.com/254SXVeOngtdjf8SBFEUNg__small/img/p5QUKwH4OYDPwTj3H67qSLXTka0=/fit-in/200x150/filters:strip_icc()/pic5646606.jpg",
+   "query": "id:118247",
+   "at": "2026-11-26T22:16:33.843Z",
+   "alias": "118247"
+  },
+  "ヒットスター": {
+   "label": "ヒットスター",
+   "id": "318243",
+   "name": "Hitster",
+   "image": "https://cf.geekdo-images.com/9I1iUFddrKposfDVRppehQ__original/img/9-epnRhQHdphYtFGjRXnaXXn2s4=/0x0/filters:format(jpeg)/pic9804982.jpg",
+   "thumb": "https://cf.geekdo-images.com/9I1iUFddrKposfDVRppehQ__small/img/oM_x3UIcqB9fqbVHYsdLCFH0wpI=/fit-in/200x150/filters:strip_icc()/pic9804982.jpg",
+   "query": "id:318243",
+   "at": "2026-11-26T22:16:36.434Z",
+   "alias": "318243"
+  },
+  "ライアーズダイスplayte": {
+   "label": "ライアーズダイス（playte）",
+   "id": "45",
+   "name": "Liar&#039;s Dice",
+   "image": "https://cf.geekdo-images.com/wX4cTWNjTG7XiGHGgSpiiw__original/img/86bXDwl4gmMb_GehNQ-9y6O9G0E=/0x0/filters:format(png)/pic8630033.png",
+   "thumb": "https://cf.geekdo-images.com/wX4cTWNjTG7XiGHGgSpiiw__small/img/vU6kaL3f06BaVfmwUV91trrvDng=/fit-in/200x150/filters:strip_icc()/pic8630033.png",
+   "query": "id:45",
+   "at": "2026-11-26T22:16:39.020Z",
+   "alias": "45"
+  },
+  "バッファローチェス": {
+   "label": "バッファローチェス",
+   "id": "32",
+   "name": "Buffalo Chess",
+   "image": "https://cf.geekdo-images.com/1FMn5-piF5TwGO1-D_k_ug__original/img/SB9DY87UMPbeEWeFJhT2bqrMDZc=/0x0/filters:format(jpeg)/pic7679110.jpg",
+   "thumb": "https://cf.geekdo-images.com/1FMn5-piF5TwGO1-D_k_ug__small/img/vDU9vFKnymnCHOwEcVXFYpDzndM=/fit-in/200x150/filters:strip_icc()/pic7679110.jpg",
+   "query": "id:32",
+   "at": "2026-11-26T22:16:41.629Z",
+   "alias": "32"
+  },
+  "マヘ": {
+   "label": "マヘ",
+   "id": "3383",
+   "name": "Mahé",
+   "image": "https://cf.geekdo-images.com/MLs0CGP2Uoq0bK-xMpnNBg__original/img/ZYE7mcbRFMF20arZ23GmvbSRoCI=/0x0/filters:format(jpeg)/pic2215153.jpg",
+   "thumb": "https://cf.geekdo-images.com/MLs0CGP2Uoq0bK-xMpnNBg__small/img/bsJWYo0dr2kiMoFGY5ItFOe_pKo=/fit-in/200x150/filters:strip_icc()/pic2215153.jpg",
+   "query": "id:3383",
+   "at": "2026-11-26T22:16:44.231Z",
+   "alias": "3383"
+  },
+  "サルデーニャ": {
+   "label": "サルデーニャ",
+   "id": "15600",
+   "name": "Sardegna",
+   "image": "https://cf.geekdo-images.com/QD6cUAqqtrrFfLmTCLAxaw__original/img/UtTFlK5jIves0RGqQXT5Ei3vmjI=/0x0/filters:format(png)/pic8456198.png",
+   "thumb": "https://cf.geekdo-images.com/QD6cUAqqtrrFfLmTCLAxaw__small/img/1ti9n-YcFhLb5w0X9FXqLfnIMzw=/fit-in/200x150/filters:strip_icc()/pic8456198.png",
+   "query": "id:15600",
+   "at": "2026-11-26T22:16:47.280Z",
+   "alias": "15600"
+  },
+  "バレルダイス": {
+   "label": "バレルダイス",
+   "id": "148531",
+   "name": "Beer Mug Dice",
+   "image": "https://cf.geekdo-images.com/yiESulMf2-1Opb54BP9EJw__original/img/zrtp8jItPm_8UBZEor9bhUMd73s=/0x0/filters:format(jpeg)/pic8905595.jpg",
+   "thumb": "https://cf.geekdo-images.com/yiESulMf2-1Opb54BP9EJw__small/img/Jky78oJao0IHz1nb2FsrSSkW0iw=/fit-in/200x150/filters:strip_icc()/pic8905595.jpg",
+   "query": "id:148531",
+   "at": "2026-11-26T22:16:49.890Z",
+   "alias": "148531"
+  },
+  "キャントストップ": {
+   "label": "キャントストップ",
+   "id": "41",
+   "name": "Can&#039;t Stop",
+   "image": "https://cf.geekdo-images.com/nMitZr9Lu4Ux7LLqBy7Z8A__original/img/A_bSjGJJXDFfSocVclabxi8ArY8=/0x0/filters:format(png)/pic6875169.png",
+   "thumb": "https://cf.geekdo-images.com/nMitZr9Lu4Ux7LLqBy7Z8A__small/img/mLHWOFfdxrWljImkFZ2ulIhHt7A=/fit-in/200x150/filters:strip_icc()/pic6875169.png",
+   "query": "id:41",
+   "at": "2026-11-26T22:16:52.469Z",
+   "alias": "41"
+  },
+  "ドメモ": {
+   "label": "ドメモ",
+   "id": "14940",
+   "name": "Figure It",
+   "image": "https://cf.geekdo-images.com/toW7vRJjzgkPvTnBCL2Asg__original/img/7VWVBD23tnnZaXGAug8UZExA3So=/0x0/filters:format(jpeg)/pic5065417.jpg",
+   "thumb": "https://cf.geekdo-images.com/toW7vRJjzgkPvTnBCL2Asg__small/img/M88zcT4_m_9UNSPifrQDGpxPmJo=/fit-in/200x150/filters:strip_icc()/pic5065417.jpg",
+   "query": "id:14940",
+   "at": "2026-11-26T22:16:55.134Z",
+   "alias": "14940"
+  },
+  "サーカスフローカティ": {
+   "label": "サーカス・フローカティ",
+   "id": "337",
+   "name": "Circus Flohcati",
+   "image": "https://cf.geekdo-images.com/h-HgnES2sJu6_j_L00HYxA__original/img/CvJmtKrLzIITDXqIYJdFKAkR80s=/0x0/filters:format(jpeg)/pic7594785.jpg",
+   "thumb": "https://cf.geekdo-images.com/h-HgnES2sJu6_j_L00HYxA__small/img/vBQ6QR6l081DCGQt5DQQq9CiM5Q=/fit-in/200x150/filters:strip_icc()/pic7594785.jpg",
+   "query": "id:337",
+   "at": "2026-11-26T22:16:57.725Z",
+   "alias": "337"
+  },
+  "ハイソサエティ": {
+   "label": "ハイソサエティ",
+   "id": "220",
+   "name": "High Society",
+   "image": "https://cf.geekdo-images.com/lNRG273h6gkd3szSY3EswQ__original/img/M-gutK8AQBBaQ9wBQ3OU8TV14j4=/0x0/filters:format(png)/pic9202764.png",
+   "thumb": "https://cf.geekdo-images.com/lNRG273h6gkd3szSY3EswQ__small/img/NZ-oIqqX02QUBX2GhB3hSRwpNcg=/fit-in/200x150/filters:strip_icc()/pic9202764.png",
+   "query": "id:220",
+   "at": "2026-11-26T22:17:00.310Z",
+   "alias": "220"
+  },
+  "ペンギンパーティ": {
+   "label": "ペンギンパーティ",
+   "id": "56933",
+   "name": "Penguin Party",
+   "image": "https://cf.geekdo-images.com/9vU5xTgzZzv0eClFA7Aqjw__original/img/UAAU3JMqwoFu5XR2Q_BFhFS_rdg=/0x0/filters:format(png)/pic7976026.png",
+   "thumb": "https://cf.geekdo-images.com/9vU5xTgzZzv0eClFA7Aqjw__small/img/mQmvIixEtrz3iqArYi5GyvRuyKY=/fit-in/200x150/filters:strip_icc()/pic7976026.png",
+   "query": "id:56933",
+   "at": "2026-11-26T22:17:02.896Z",
+   "alias": "56933"
+  },
+  "ポテトマン": {
+   "label": "ポテトマン",
+   "id": "137155",
+   "name": "Potato Man",
+   "image": "https://cf.geekdo-images.com/4HyiMDwY4myrL9qEr--myw__original/img/Mt-Snn4VcSlDafrz0PwrO7Jlomo=/0x0/filters:format(png)/pic7440792.png",
+   "thumb": "https://cf.geekdo-images.com/4HyiMDwY4myrL9qEr--myw__small/img/5wd0wTokJtPt53nJyX69Z1SNeN4=/fit-in/200x150/filters:strip_icc()/pic7440792.png",
+   "query": "id:137155",
+   "at": "2026-11-26T22:17:05.539Z",
+   "alias": "137155"
   }
  },
- "updatedAt": "2026-11-26T14:09:31.969Z"
+ "updatedAt": "2026-11-26T22:17:05.539Z"
 }
