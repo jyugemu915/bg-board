@@ -9,7 +9,7 @@
 <script>
 // 新しい版が公開されていたら読み直す（ホーム画面アプリの古いページ対策）。版を上げたら version.json と下の V を同じ値に
 (() => {
-  const V = "20261126k";
+  const V = "20261126l";
   const check = () => fetch("version.json?" + Date.now(), { cache: "no-store" }).then((r) => r.json()).then((d) => {
     if (d.v && d.v !== V && sessionStorage.getItem("bgb.reload") !== d.v) {
       sessionStorage.setItem("bgb.reload", d.v);
@@ -20,7 +20,7 @@
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") check(); });
 })();
 </script>
-<link rel="stylesheet" href="style.css?v=20261126k">
+<link rel="stylesheet" href="style.css?v=20261126l">
 </head>
 <body>
 <header class="top">
@@ -51,7 +51,7 @@
   <div id="ownedPage" class="opage"></div>
   <p class="credit"><a href="https://boardgamegeek.com" target="_blank" rel="noopener">Powered by BGG</a></p>
 </main>
-<script src="app.js?v=20261126k"></script>
-<script src="owned.js?v=20261126k"></script>
+<script src="app.js?v=20261126l"></script>
+<script src="owned.js?v=20261126l"></script>
 </body>
 </html>

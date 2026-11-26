@@ -27,7 +27,11 @@ const FLAGS = [["unopened", "未開封"], ["untranslated", "未訳"], ["unplayed
 const flagTags = (g, cls = "tag flag") => (g.flags || []).map((f) => FLAGS.find((x) => x[0] === f)).filter(Boolean).map(([k, l]) => `<span class="${cls} f-${k}">${l}</span>`).join("");
 const LS_OVIEW = "bgb.ownedview.v1";
 const OS = { q: "", flag: "", players: 0, best: false, time: "", weight: "", cat: "", mech: "", n: 60, sheet: null, edit: false, adding: false, bulk: false, expN: 8, link: null,
-  ...store.get(LS_OVIEW, { view: "grid", sort: "added" }) };
+  ...store.get(LS_OVIEW, { view: "pack", sort: "added" }) };
+if (OS.view === "grid") OS.view = "pack";   // 旧設定（棚表示）→ 詰める表示を既定に
+// 箱絵の縦横比（読み込んだ画像から覚えておき、詰める表示の配置に使う）
+const aspects = store.get("bgb.aspect.v1", {});
+let aspectSave = 0;
 const saveView = () => store.set(LS_OVIEW, { view: OS.view, sort: OS.sort });
 
 // 本体と拡張のまとまり：parent の名前（日本語名・英語名・登録時の名前）か、BGGの「この拡張の本体」で探す。拡張の拡張も本体の下にまとめる
@@ -163,7 +167,7 @@ function buildOwnedPage(root) {
     </div>
     <div class="obar"><span id="oHits" class="muted"></span><button id="oClear" class="chip ghost" hidden>条件をクリア</button><span style="flex:1"></span>
       <select id="oSort">${SORTS.map(([k, l]) => `<option value="${k}">${l}</option>`).join("")}</select>
-      <div class="seg sm" id="oView"><button data-v="grid" title="箱絵">▦</button><button data-v="list" title="リスト">☰</button></div></div>
+      <div class="seg sm" id="oView"><button data-v="pack" title="箱絵を詰めて表示">▦</button><button data-v="shelf" title="棚">棚</button><button data-v="list" title="リスト">☰</button></div></div>
     <div class="obar2"><span class="flbl">表記</span><div class="seg sm" id="oNm">${[["both", "両方"], ["ja", "日本語"], ["en", "English"]].map(([k, l]) => `<button data-v="${k}">${l}</button>`).join("")}</div></div>
     <div id="oList"></div>
     <div class="foot"><button type="button" data-a="exp">書き出し</button><label>読み込み<input type="file" accept=".json" hidden></label></div>
@@ -264,9 +268,11 @@ function drawOwned() {
   $("oHits").textContent = active ? `${rows.length} 件` : "";
   $("oClear").hidden = !active;
   const list = $("oList");
-  list.className = OS.view === "grid" ? "ogrid" : "olist";
+  list.className = { pack: "opack", shelf: "ogrid" }[OS.view] || "olist";
   list.innerHTML = rows.length ? "" : `<div class="empty">${active ? "条件に合うゲームがありません。" : "まだ登録がありません。「＋ 追加」から登録するか、棚の写真をチャットで送ってください。"}</div>`;
-  for (const r of rows.slice(0, OS.n)) list.appendChild(OS.view === "grid" ? tile(r) : listRow(r));
+  const shown = rows.slice(0, OS.n);
+  if (OS.view === "pack" && shown.length) packLayout(list, shown.map(tile));
+  else for (const r of shown) list.appendChild(OS.view === "list" ? listRow(r) : tile(r));
   if (rows.length > OS.n) {
     const m = document.createElement("button");
     m.className = "more"; m.textContent = `さらに表示（全 ${rows.length} 件）`;
@@ -274,6 +280,33 @@ function drawOwned() {
     list.appendChild(m);
   }
 }
+// 詰める表示：箱の縦横比に合わせて、いちばん短い列へ順に積む（左上から並ぶ順はおおむね保つ）
+let packTiles = [];
+function packLayout(list, tiles) {
+  if (tiles) packTiles = tiles;
+  const w = list.clientWidth || 360, n = Math.max(3, Math.floor((w + 8) / 128)), gap = 8, colW = (w - gap * (n - 1)) / n;
+  const cols = Array.from({ length: n }, () => { const c = document.createElement("div"); c.className = "pcol"; return c; });
+  const hs = new Array(n).fill(0);
+  for (const t of packTiles) {
+    const r = t.dataset.img ? aspects[t.dataset.img] || 1 : 1;
+    const k = hs.indexOf(Math.min(...hs));
+    cols[k].appendChild(t);
+    hs[k] += colW * Math.min(r, 2) + 20 + gap;
+  }
+  list.querySelectorAll(".pcol").forEach((c) => c.remove());
+  list.prepend(...cols);
+}
+let packTimer = 0;
+const repack = () => { clearTimeout(packTimer); packTimer = setTimeout(() => { const l = document.querySelector("#oList.opack"); if (l) packLayout(l); }, 120); };
+window.addEventListener("resize", repack);
+function noteAspect(img) {
+  const u = img.getAttribute("src");
+  if (!img.naturalWidth || aspects[u]) return;
+  aspects[u] = +(img.naturalHeight / img.naturalWidth).toFixed(3);
+  clearTimeout(aspectSave); aspectSave = setTimeout(() => store.set("bgb.aspect.v1", aspects), 1000);
+  repack();
+}
+
 function openSheet(g) {
   if (!OS.sheet) history.pushState({ sheet: 1 }, "", "#owned");
   OS.sheet = g; OS.edit = false; OS.memo = false; OS.expN = 8; OS.link = null; drawSheet();
@@ -284,10 +317,11 @@ function tile({ g, kids, kidHit }) {
   const t = document.createElement("button");
   t.className = "tile";
   const img = ownedImg(g), tt = ownedTitle(g), meta = [shortPlayers(g), shortTime(g)].filter(Boolean);
-  t.innerHTML = `<div class="tart"><span class="tbox">${img ? `<img src="${esc(img)}" alt="" loading="lazy">` : `<span class="tname">${esc(tt.main)}</span>`}
+  t.innerHTML = `<div class="tart"><span class="tbox">${img ? `<img src="${esc(img)}" alt="" loading="lazy" onload="noteAspect(this)">` : `<span class="tname">${esc(tt.main)}</span>`}
       ${g.flags?.length ? `<div class="tflags">${flagTags(g, "tflag")}</div>` : ""}
       ${kids.length ? `<span class="tbadge${kidHit ? " hit" : ""}">＋拡張${kids.length}</span>` : ""}</span></div>
-    <div class="tov">${meta.length ? esc(meta.join("・").replace(/〜/g, "-")) : "&nbsp;"}</div>`;
+    <div class="tov">${meta.length ? meta.map((m, k) => `<span class="ic">${k ? "⏱" : "👥"}</span>${esc(m.replace(/〜/g, "-"))}`).join(" ") : "&nbsp;"}</div>`;
+  if (img) t.dataset.img = img;
   t.title = tt.main;
   t.onclick = () => openSheet(g);
   return t;

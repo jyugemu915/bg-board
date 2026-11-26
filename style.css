@@ -224,3 +224,15 @@ form.oedit .flagck input{width:auto;margin:0}
 .memoform button[type=button]{background:#fff;color:#555;border:1px solid var(--line)}
 /* 箱の下の人数・時間は1行に（入らないときは…で省略） */
 .tov{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:center;font-size:10.5px;letter-spacing:-.01em}
+/* 箱の下のアイコンは小さめ */
+.tov .ic{font-size:.85em;margin-right:1px}
+/* 詰める表示（箱の大きさに合わせて列ごとに積む） */
+.opack{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-start}
+.opack .pcol{flex:1;min-width:0;display:flex;flex-direction:column;gap:8px}
+.opack .empty,.opack .more{width:100%}
+.opack .tile::after{display:none}
+.opack .tart{display:block}
+.opack .tbox{width:100%}
+.opack .tart img{width:100%;max-height:none;border-radius:5px}
+.opack .tov{padding-top:3px}
+@media(max-width:359px){.tov .ic{display:none}}
