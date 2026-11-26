@@ -1306,7 +1306,82 @@
    "query": "id:1406",
    "at": "2026-11-26T03:29:38.747Z",
    "alias": "1406"
+  },
+  "カリマラデラックスエディション": {
+   "label": "カリマラ デラックスエディション",
+   "id": "450967",
+   "name": "Calimala: Deluxe Edition",
+   "image": "https://cf.geekdo-images.com/6-Pj_AxP0mjjFXYs2ukMWw__original/img/u607jS_nxYDDnpFkd0ZaJE-eFE8=/0x0/filters:format(jpeg)/pic7611495.jpg",
+   "thumb": "https://cf.geekdo-images.com/6-Pj_AxP0mjjFXYs2ukMWw__small/img/XhyVFdk2GZEaU6AXLiOZQAIEr2o=/fit-in/200x150/filters:strip_icc()/pic7611495.jpg",
+   "query": "id:450967",
+   "at": "2026-11-26T03:31:12.004Z",
+   "alias": "450967"
+  },
+  "カルカソンヌ": {
+   "label": "カルカソンヌ",
+   "id": "822",
+   "name": "Carcassonne",
+   "image": "https://cf.geekdo-images.com/peUgu3A20LRmAXAMyDQfpQ__original/img/bP18m_PYjyFOv1IBGgMOteQUneA=/0x0/filters:format(jpeg)/pic8621446.jpg",
+   "thumb": "https://cf.geekdo-images.com/peUgu3A20LRmAXAMyDQfpQ__small/img/oEEslN-EGqh82sNI6Aj4_MFXYg0=/fit-in/200x150/filters:strip_icc()/pic8621446.jpg",
+   "query": "id:822",
+   "at": "2026-11-26T03:31:14.565Z",
+   "alias": "822"
+  },
+  "カートグラファー": {
+   "label": "カートグラファー",
+   "id": "263918",
+   "name": "Cartographers",
+   "image": "https://cf.geekdo-images.com/GifbnAmsA4lfEcDkeaC9VA__original/img/YzJORdIDNza8kmrY6KEU_h2p2Wo=/0x0/filters:format(png)/pic4397932.png",
+   "thumb": "https://cf.geekdo-images.com/GifbnAmsA4lfEcDkeaC9VA__small/img/TTxZzwbna07hMcPQ0xaFtT10egE=/fit-in/200x150/filters:strip_icc()/pic4397932.png",
+   "query": "id:263918",
+   "at": "2026-11-26T03:31:17.281Z",
+   "alias": "263918"
+  },
+  "クラッシュオブデッキ": {
+   "label": "クラッシュ・オブ・デッキ",
+   "miss": true,
+   "at": "2026-11-26T03:31:19.858Z"
+  },
+  "ウォーチェスト": {
+   "label": "ウォーチェスト",
+   "id": "249259",
+   "name": "War Chest",
+   "image": "https://cf.geekdo-images.com/BryJNSSDbCohXeaJPx3tpw__original/img/pgmg83e1lUqNo7FTLdscWNDwlPE=/0x0/filters:format(png)/pic4232048.png",
+   "thumb": "https://cf.geekdo-images.com/BryJNSSDbCohXeaJPx3tpw__small/img/5fmJlAM307xX3zozMnStTuWYphI=/fit-in/200x150/filters:strip_icc()/pic4232048.png",
+   "query": "id:249259",
+   "at": "2026-11-26T03:31:22.428Z",
+   "alias": "249259"
+  },
+  "トリックテイカーズ": {
+   "label": "トリックテイカーズ",
+   "miss": true,
+   "at": "2026-11-26T03:31:25.115Z"
+  },
+  "モノポリーtomy版": {
+   "label": "モノポリー（TOMY版）",
+   "id": "1406",
+   "name": "Monopoly",
+   "image": "https://cf.geekdo-images.com/9nGoBZ0MRbi6rdH47sj2Qg__original/img/bA8irydTCNlE38QSzM9EhcUIuNU=/0x0/filters:format(jpeg)/pic5786795.jpg",
+   "thumb": "https://cf.geekdo-images.com/9nGoBZ0MRbi6rdH47sj2Qg__small/img/ezXcyEsHhS9iRxmuGe8SmiLLXlM=/fit-in/200x150/filters:strip_icc()/pic5786795.jpg",
+   "query": "id:1406",
+   "at": "2026-11-26T03:31:27.676Z",
+   "alias": "1406"
+  },
+  "キングオブトーキョー": {
+   "label": "キングオブトーキョー",
+   "id": "70323",
+   "name": "King of Tokyo",
+   "image": "https://cf.geekdo-images.com/m_RzXpHURC0_xLkvRSR_sw__original/img/hSvWgiRYJCTTuoLOWTW3c8sYtl8=/0x0/filters:format(jpeg)/pic3043734.jpg",
+   "thumb": "https://cf.geekdo-images.com/m_RzXpHURC0_xLkvRSR_sw__small/img/OfgWmkGJj5BgOO0zFHEtP5CHfbU=/fit-in/200x150/filters:strip_icc()/pic3043734.jpg",
+   "query": "id:70323",
+   "at": "2026-11-26T03:31:30.234Z",
+   "alias": "70323"
+  },
+  "ミスターダイヤモンド": {
+   "label": "ミスターダイヤモンド",
+   "miss": true,
+   "at": "2026-11-26T03:31:32.807Z"
   }
  },
- "updatedAt": "2026-11-26T03:29:38.748Z"
+ "updatedAt": "2026-11-26T03:31:32.808Z"
 }
