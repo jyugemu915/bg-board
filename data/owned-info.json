@@ -277,7 +277,7 @@
    "at": "2026-11-26T03:53:47.446Z"
   },
   "128": {
-   "v": 2,
+   "v": 3,
    "id": "128",
    "type": "boardgame",
    "best": "2〜8",
@@ -300,6 +300,31 @@
    "designers": [
     "Peter Burley"
    ],
+   "artists": [
+    "Peter Burley",
+    "Alexander Strohmaier",
+    "Steve Tolley",
+    "Franz Vohwinkel",
+    "Thomas Weiss"
+   ],
+   "publishers": [
+    "Burley Games",
+    "F.X. Schmid",
+    "Spear's Games",
+    "Arclight Games",
+    "Brain Picnic",
+    "Cappelen Damm AS",
+    "Cranio Creations",
+    "DiceTree Games",
+    "Eagle-Gryphon Games",
+    "förlAgo AB",
+    "IELLO",
+    "Play Smart"
+   ],
+   "families": [
+    "Series: Take It ..."
+   ],
+   "desc": "It's really difficult to succinctly describe this game, so take a look at the pictures! Take It Easy is a true multi-player solitaire in which each player individually completes a hexagon-shaped board with spots for 19 hexagon tiles. There's no limit to number of players if you've got enough sets on hand. One person (the caller) draws a tile randomly and tells the others which of the 27 tiles featuring colored/numbered lines crossing in three directions, with numbers from 1 to 9, it is. \"The 9-8-7,\" for example. Each player then chooses which empty spot on his own board he'll play the 9-8-7. This is repeated until the boards are filled.\n\nThe idea is to complete same-numbered lines across your board. Scoring is calculated by multiplying the number on the tile with the number of tiles in the completed line. A complete column of three 9s is worth 27, for example...but a lot of players will hope for five 9s to fill the big column down the middle.\n\nTake It Easy is often compared to Bingo because of the familiar pattern of a number being called and then everybody looking at their cards to play it, and then scoring if a line is completed. But that's as far as the comparison goes.  Bingo is sheer luck; Take It Easy is a game of skill.",
    "expansions": [],
    "bases": [],
    "en": "Take it Easy!",
@@ -504,7 +529,7 @@
      "image": "https://cf.geekdo-images.com/c7haRkq0qtbbpm00MpOT3Q__original/img/QaGyRaRwtlmuDSLEFOT48spNYog=/0x0/filters:format(jpeg)/pic295880.jpg"
     }
    ],
-   "at": "2026-11-26T03:17:48.460Z"
+   "at": "2026-11-26T03:56:47.985Z"
   },
   "201": {
    "v": 3,
@@ -937,7 +962,7 @@
    "at": "2026-11-26T03:54:23.614Z"
   },
   "822": {
-   "v": 2,
+   "v": 3,
    "id": "822",
    "type": "boardgame",
    "best": "2",
@@ -964,6 +989,40 @@
    "designers": [
     "Klaus-Jürgen Wrede"
    ],
+   "artists": [
+    "Marcel Gröber",
+    "Doris Matthäus",
+    "Anne Pätzke",
+    "Chris Quilliams",
+    "Franz-Georg Stämmele"
+   ],
+   "publishers": [
+    "Hans im Glück",
+    "64 Ounce Games",
+    "999 Games",
+    "Albi",
+    "Astrel Games",
+    "Bard Centrum Gier",
+    "Brain Games",
+    "cutia.ro",
+    "Devir",
+    "Enigma (Bergsala Enigma)",
+    "Fantasmagoria",
+    "Feelindigo"
+   ],
+   "families": [
+    "Cities: Carcassonne (France)",
+    "Components:  Meeples",
+    "Components: Map (Regional scale)",
+    "Components: Wooden pieces & boards",
+    "Containers: Tin/Metal Box",
+    "Country: France",
+    "Game: Carcassonne",
+    "Occupation: Farmer",
+    "Region: Languedoc (France)",
+    "Religious: Monks/Abbots & Monasteries/Abbeys"
+   ],
+   "desc": "Carcassonne is a tile placement game in which the players draw and place a tile with a piece of southern French landscape represented on it. The tile might feature a city, a road, a cloister, grassland or some combination thereof, and it must be placed adjacent to tiles that have already been played, in such a way that cities are connected to cities, roads to roads, et cetera. Having placed a tile, the player can then decide to place one of their meeples in one of the areas on it: in the city as a knight, on the road as a robber, in the cloister as a monk, or in the field as a farmer. When that area is complete that meeple scores points for its owner.\n\nDuring a game of Carcassonne, players are faced with decisions like: \"Is it really worth putting my last meeple there?\" or \"Should I use this tile to expand my city, or should I place it near my opponent instead, thus making it harder for them to complete it and score points?\" Since players place only one tile and have the option to place one meeple on it, turns proceed quickly even if it is a game full of options and possibilities. Its a competition game\n\nFirst game in the Carcassonne series.",
    "expansions": [
     {
      "id": "167903",
@@ -1973,7 +2032,7 @@
      "image": "https://cf.geekdo-images.com/gIrfLhD_4v0wzcfDB-wCyA__original/img/2GdJ9PzbfgE1AHgTarIqPlPDc8s=/0x0/filters:format(jpeg)/pic7626896.jpg"
     }
    ],
-   "at": "2026-11-26T03:31:35.788Z"
+   "at": "2026-11-26T03:56:58.522Z"
   },
   "1231": {
    "v": 3,
@@ -2117,7 +2176,7 @@
    "at": "2026-11-26T03:53:50.029Z"
   },
   "1406": {
-   "v": 2,
+   "v": 3,
    "id": "1406",
    "type": "boardgame",
    "best": "4",
@@ -2148,6 +2207,39 @@
     "Charles Darrow",
     "Elizabeth J. Magie (Phillips)"
    ],
+   "artists": [
+    "Charles Darrow",
+    "Edison Girard"
+   ],
+   "publishers": [
+    "Parker Brothers",
+    "A. F. Tompson & Son Ltd.",
+    "Åhlén & Åkerlund",
+    "Alga",
+    "Altap",
+    "ASS Altenburger Spielkarten",
+    "Aurimagic",
+    "Barnes & Noble",
+    "Borras Plana S.A.",
+    "Brohm-Parker-Spiele",
+    "Carlit",
+    "Clipper"
+   ],
+   "families": [
+    "Brands: Groceries",
+    "Cities: Atlantic City (New Jersey, USA)",
+    "Cities: Reykjavík (Iceland)",
+    "Components: 11 x 11 Grids",
+    "Components: Scoring pad",
+    "Containers: Book-like",
+    "Containers: Tin/Metal Box",
+    "Country: Poland",
+    "Country: Spain",
+    "Country: Sweden",
+    "Country: Switzerland",
+    "Game: Monopoly (Official)"
+   ],
+   "desc": "Theme\nPlayers take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes.\n\nGameplay\nOn their turn, a player rolls two dice and moves that number of spaces around the board. If the player lands on an as-yet-unowned property, they has the opportunity to buy it or auction it to the highest bidder. If a player owns all the spaces within a color group, they may then build houses and hotels on these spaces, generating even more income from opponents who land there. If they lands on a property owned by another player, they must pay that player rent according to the value of the land and any buildings on it. There are other places on the board which can not be bought, but instead require the player to draw a card and perform the action on the card, pay taxes, collect income, or even go to jail.\n\nGoal\nThe goal of the game is to be the last player remaining with any money. (though some editions end the game when the first player goes bankrupt)\n\nCultural impact on rules\nMonopoly is unusual in that the game has official, printed rules, but most players learn how to play from others, never actually learning the correct way to play. This has led to the canonization of a number of house rules that make the game more…",
    "expansions": [
     {
      "id": "138841",
@@ -2425,7 +2517,7 @@
      "image": "https://cf.geekdo-images.com/Do7ydQFOnQhmHFvTXDhurw__original/img/sI3I4aILFewmw2Ej0rgrkI9kq2c=/0x0/filters:format(jpeg)/pic9319471.jpg"
     }
    ],
-   "at": "2026-11-26T03:17:53.757Z"
+   "at": "2026-11-26T03:56:53.330Z"
   },
   "19184": {
    "v": 3,
@@ -2547,7 +2639,7 @@
    "at": "2026-11-26T03:54:05.450Z"
   },
   "40628": {
-   "v": 2,
+   "v": 3,
    "id": "40628",
    "type": "boardgame",
    "best": "2",
@@ -2573,6 +2665,34 @@
     "Wolfgang Sentker",
     "Ralf zur Linde"
    ],
+   "artists": [
+    "Vincent Dutrait",
+    "Joan Guardiet",
+    "Franz Vohwinkel"
+   ],
+   "publishers": [
+    "Hans im Glück",
+    "Pandasaurus Games",
+    "Albi",
+    "Arclight Games",
+    "Devir",
+    "Evrikus",
+    "Filosofia Éditions",
+    "franjos Spieleverlag",
+    "Ghenos Games",
+    "Giochi Uniti",
+    "Lautapelit.fi",
+    "Piatnik Distribution"
+   ],
+   "families": [
+    "Animals: Donkeys",
+    "Country: Spain",
+    "Food & Drink: Fruit",
+    "Game: Finca",
+    "Islands: Mallorca (Spain)",
+    "Occupation: Farmer"
+   ],
+   "desc": "The gameboard of Finca shows the mediterranean island of Mallorca. Players try to crop and deliver the fruits of Mallorca (such as oranges, lemons, almonds, grapes etc.) by means of moving workers on a traditional windmill. Object of the game is to distribute your crop as effectively as possible in order to deliver faster than your opponents.\n\nFrom the Box: Mallorca, Island of the Wind. A place of golden beaches and a light-blue sea. The almond harvest is at hand, in addition, juicy oranges, lemons, and figs are ready to be picked and taken to the market. Olive trees bewitch the country with their curled branches and sumptuous vineyards invite passers-by to walk among their warm earth. In the midst of this landscape, your centuries-old natural stone farmhouse provides a home and supports your large windmill: your FINCA.\nListen to the wind, which propels your windmill! Then take in the course of the yearly harvest the sweetest and most valuable fruits from the land. Load them on your old donkey cart and travel around the island, selling them everywhere. If you manage this quickly, you will soon be the richest farmer on the island.\n\nNote: The Pandasaurus Games edition from 2024 plays up to 5 players while earlier editions play up to 4. Olives have been replaced with fish.\n\nRecommendations:\n\n     2011 Hungarian Boardgame Prize Winner\n     2011 Ludoteca Ideale (Italy)\n     Nominee \"Spiel des Jahres 2009\"\n     4th place \"Deutscher Spielepreis 2009\"\n     Nominee \"Graf Ludo 2009\"…",
    "expansions": [
     {
      "id": "70463",
@@ -2718,10 +2838,10 @@
      "image": "https://cf.geekdo-images.com/tPbYrkGAjULY2byyuQPE1A__original/img/DiK_IcLJf5pTDZABwkGZhhlJmrw=/0x0/filters:format(png)/pic921216.png"
     }
    ],
-   "at": "2026-11-26T03:17:43.226Z"
+   "at": "2026-11-26T03:56:42.812Z"
   },
   "70323": {
-   "v": 2,
+   "v": 3,
    "id": "70323",
    "type": "boardgame",
    "best": "4〜5",
@@ -2751,6 +2871,43 @@
    "designers": [
     "Richard Garfield"
    ],
+   "artists": [
+    "Gabriel Butik",
+    "Romain Gaschet",
+    "Paul Mafayon",
+    "Igor Polouchine",
+    "Benjamin Raynal",
+    "Jean-Baptiste Reynaud",
+    "Jonathan Silvestre",
+    "Régis Torres",
+    "Anthony Wolff"
+   ],
+   "publishers": [
+    "IELLO",
+    "Boardgame Space",
+    "Brädspel.se",
+    "Brain Games",
+    "Bureau de Juegos",
+    "Delta Vision Publishing",
+    "Devir",
+    "Egmont Polska",
+    "Enigma (Bergsala Enigma)",
+    "Fantasmagoria",
+    "GaGa Games",
+    "Galápagos Jogos"
+   ],
+   "families": [
+    "Cities: Tokyo (Japan)",
+    "Components: Dice with Icons",
+    "Components: Standees",
+    "Country: Japan",
+    "Creatures: Aliens / Extraterrestrials",
+    "Creatures: Monsters",
+    "Game: King of Tokyo",
+    "Theme: Kaiju",
+    "Theme: Villainy"
+   ],
+   "desc": "In King of Tokyo, you play mutant monsters, gigantic robots, and strange aliens—all of whom are destroying Tokyo and whacking each other in order to become the one and only King of Tokyo.\n\nAt the start of each turn, you roll six dice, which show the following six symbols: 1, 2, or 3 Victory Points, Energy, Heal, and Attack. Over three successive throws, choose whether to keep or discard each die in order to win victory points, gain energy, restore health, or attack other players into understanding that Tokyo is YOUR territory.\n\nThe fiercest player will occupy Tokyo, and earn extra victory points, but that player can't heal and must face all the other monsters alone!\n\nTop this off with special cards purchased with energy that have a permanent or temporary effect, such as the growing of a second head which grants you an additional die, body armor, nova death ray, and more.... and it's one of the most explosive games of the year!\n\nIn order to win the game, one must either destroy Tokyo by accumulating 20 victory points, or be the only surviving monster once the fighting has ended.\n\nFirst Game in the King of Tokyo series",
    "expansions": [
     {
      "id": "193320",
@@ -3064,7 +3221,7 @@
      "image": "https://cf.geekdo-images.com/k543v8L8JlTo9Y8s_MhNZg__original/img/mdz1FI_DP2PDbiVMIcwERZYvCH0=/0x0/filters:format(jpeg)/pic3044055.jpg"
     }
    ],
-   "at": "2026-11-26T03:31:43.775Z"
+   "at": "2026-11-26T03:57:06.614Z"
   },
   "77130": {
    "v": 3,
@@ -4596,7 +4753,7 @@
    "at": "2026-11-26T03:53:11.104Z"
   },
   "177524": {
-   "v": 2,
+   "v": 3,
    "id": "177524",
    "type": "boardgame",
    "best": "4",
@@ -4620,6 +4777,33 @@
    "designers": [
     "Brian Gomez"
    ],
+   "artists": [
+    "Reinis Pētersons"
+   ],
+   "publishers": [
+    "Brain Games",
+    "AMIGO",
+    "Conclave Editora",
+    "Desyllas Games",
+    "Hachette Boardgames UK",
+    "Hobby Japan",
+    "IGAMES",
+    "Korea Boardgames",
+    "Lautapelit.fi",
+    "Lifestyle Boardgames Ltd",
+    "Ludicus Games",
+    "MINDOK"
+   ],
+   "families": [
+    "Animals: Penguins",
+    "Components: 3-Dimensional (3D)",
+    "Components: Game Box Used In Play",
+    "Continents: Antarctica",
+    "Mechanism: Finger Flicking Games",
+    "Theme: Anthropomorphic Animals",
+    "Theme: Food / Cooking"
+   ],
+   "desc": "The lunch break is almost there and all of the young penguins would finally get the fish they've been craving. However, some rascals think they are quick enough to snatch some of the fish before the lunch break starts, but they have forgotten one thing – the Hall Monitor! Each school day one of the penguins is designated to watch over the school, and this is his moment to shine – for each rascal penguin he catches he would get additional fish!\n\nA fun run takes place – the rascals are running everywhere and trying to snatch some fish on their way, but the Hall Monitor is trying to catch each and one of them to have some order in the school. Who will be more successful?\n\nICECOOL is a flicking game in which each round one of the players takes the role of the Hall Monitor (also called \"the Catcher\") – his aim will be to catch each other penguin and get points for that. The others (also known as \"Runners\") will try to run through several doors, thus gaining fish (that give them points) on their way. When either the Hall Monitor has caught each other penguin once or any of the others has gone through all 3 doors that have fish on them, the round is over. Each player will take the role of the Hall Monitor once and at the end of the game the winner will be the one with the most points on their fish cards.\n\nThe penguins can be flicked in a straight line, make curves and even jump over the walls! Each player will have to use the best of their skills in order to get the most points in…",
    "expansions": [
     {
      "id": "232298",
@@ -4829,7 +5013,7 @@
      "image": "https://cf.geekdo-images.com/Yln2AXG40nl2_YepKDXztw__original/img/reenx6fFSBCUwLdMnxUttX_OLRU=/0x0/filters:format(png)/pic3174390.png"
     }
    ],
-   "at": "2026-11-26T03:17:27.344Z"
+   "at": "2026-11-26T03:56:27.010Z"
   },
   "183284": {
    "v": 3,
@@ -5373,7 +5557,7 @@
    "at": "2026-11-26T03:54:36.479Z"
   },
   "219122": {
-   "v": 2,
+   "v": 3,
    "id": "219122",
    "type": "boardgame",
    "best": "2, 4",
@@ -5397,6 +5581,15 @@
    "designers": [
     "西村裕 (Hiroshi Nishimura)"
    ],
+   "artists": [
+    "弾正よしかげ"
+   ],
+   "publishers": [
+    "Dexker Games",
+    "スパ帝国 (SPA Game)"
+   ],
+   "families": [],
+   "desc": "Is population a power or a burden?\n\nif the economy is doing well the population will increase, as the population increase, does it necessary mean that the productivity will also increase? In most worker placement games like Agricola, Stone Age that seems to be the case.\n\nThis game plays like a typical worker placement game. At the first round each player has 2 workers and they take turn placing their workers one by one onto the basic tiles. The basic tiles consisted of quarry(get a card and take first player),mining(get a card), construction(build a building), Education(increase a worker). At the end of each round you'd have to pay your worker salaries. If you don't have enough money to pay for the workers this round, you'd have to sell some of your private properties and it'd become public to cover the cost.\n\nHere is the most interesting aspect about this game, unlike most other worker placement games, as long as you place workers in the farming/gathering tile the resource for feeding your people is unlimited, they can create enough food for themselves. In this game, the cash flow is limited even if you place the worker in the market tile you can only receive money up to the amount that is available in the pool. The only way to increase the money in the pool is when players cannot pay for their worker and sell their property to bring cash flow into the game, otherwise, there is no way to add more money. At the end of the game, the sum total of the selling prices of all the…",
    "expansions": [],
    "bases": [],
    "en": "National Economy",
@@ -5425,10 +5618,10 @@
      "image": "https://cf.geekdo-images.com/za25jEIeNeL4XDUKmdxSJQ__original/img/p5XbCAT5pXsyR9qZDlbfjAPpZBI=/0x0/filters:format(png)/pic4026552.png"
     }
    ],
-   "at": "2026-11-26T03:17:35.475Z"
+   "at": "2026-11-26T03:56:34.805Z"
   },
   "244513": {
-   "v": 2,
+   "v": 3,
    "id": "244513",
    "type": "boardgame",
    "best": "4",
@@ -5452,6 +5645,25 @@
    "designers": [
     "Brian Gomez"
    ],
+   "artists": [
+    "Reinis Pētersons"
+   ],
+   "publishers": [
+    "Brain Games",
+    "AMIGO",
+    "Hachette Boardgames UK",
+    "Hobby Japan",
+    "Lifestyle Boardgames Ltd",
+    "Oliphante",
+    "SD Games",
+    "Swan Panasia Co., Ltd."
+   ],
+   "families": [
+    "Animals: Penguins",
+    "Components: Game Box Used In Play",
+    "Mechanism: Finger Flicking Games"
+   ],
+   "desc": "ICECOOL2 is both a standalone game and an expansion for ICECOOL. If played on its own, ICECOOL2 differs from the original game thanks to:\n\n     Tasks on 1-point cards\n     Fish-moving power on 2-point cards\n     Optional tournament scoring\n\nIf you combine both ICECOOL sets, you get:\n\n     Multiple new layouts\n     New game mode called \"The Race\"\n     Games playable for up to eight players\n     Chance to create your own new layouts",
    "expansions": [
     {
      "id": "286086",
@@ -5557,7 +5769,7 @@
      "image": "https://cf.geekdo-images.com/3DGT2ybCjYYGKATAIpu5Lg__original/img/6EpdPPFoPJQCLFafPF-QZorGD_Q=/0x0/filters:format(jpeg)/pic4401615.jpg"
     }
    ],
-   "at": "2026-11-26T03:17:30.027Z"
+   "at": "2026-11-26T03:56:29.632Z"
   },
   "244711": {
    "v": 3,
@@ -5744,7 +5956,7 @@
    "at": "2026-11-26T03:53:05.958Z"
   },
   "249259": {
-   "v": 2,
+   "v": 3,
    "id": "249259",
    "type": "boardgame",
    "best": "2",
@@ -5775,6 +5987,29 @@
     "Trevor Benjamin",
     "David Thompson (I)"
    ],
+   "artists": [
+    "Brigette Indelicato"
+   ],
+   "publishers": [
+    "Alderac Entertainment Group",
+    "Abraxas",
+    "CrowD Games",
+    "Ghenos Games",
+    "Gigamic",
+    "Lucky Duck Games",
+    "Maldito Games",
+    "MTS Games",
+    "nostalgia (III)",
+    "Popcorn Games",
+    "Schwerkraft-Verlag",
+    "YOKA Games"
+   ],
+   "families": [
+    "Containers: Magnetic Flip Box",
+    "Containers: Treasure Chests",
+    "Game: War Chest"
+   ],
+   "desc": "War Chest is an all-new bag-building war game! At the start of the game, raise your banner call (drafting) several various units into your army, which you then use to capture key points on the board. To succeed in War Chest, you must successfully manage not only your armies on the battlefield, but those that are waiting to be deployed.\n\nEach round you draw three unit coins from your bag, then take turns using them to perform actions. Each coin shows a military unit on one side and can be used for one of several actions. The game ends when one player — or one team in the case of a four-player game — has placed all of their control markers. That player or team wins!\n\n—description from the publisher",
    "expansions": [
     {
      "id": "388565",
@@ -5888,7 +6123,7 @@
      "image": "https://cf.geekdo-images.com/BryJNSSDbCohXeaJPx3tpw__original/img/pgmg83e1lUqNo7FTLdscWNDwlPE=/0x0/filters:format(png)/pic4232048.png"
     }
    ],
-   "at": "2026-11-26T03:31:41.153Z"
+   "at": "2026-11-26T03:57:03.812Z"
   },
   "260605": {
    "v": 3,
@@ -6108,7 +6343,7 @@
    "at": "2026-11-26T03:53:16.395Z"
   },
   "263918": {
-   "v": 2,
+   "v": 3,
    "id": "263918",
    "type": "boardgame",
    "best": "3〜4",
@@ -6138,6 +6373,33 @@
    "designers": [
     "Jordy Adan"
    ],
+   "artists": [
+    "Luis Francisco",
+    "Lucas Ribeiro"
+   ],
+   "publishers": [
+    "Thunderworks Games",
+    "Arclight Games",
+    "Buró",
+    "Gameland 游戏大陆",
+    "Gen-X Games (GenX)",
+    "Grok Games",
+    "Hobby World",
+    "Intrafin Games",
+    "Kaissa Chess & Games",
+    "Lautapelit.fi",
+    "Ludofy Creative",
+    "Mandoo Games"
+   ],
+   "families": [
+    "Components: Map (Continental / National scale)",
+    "Components: Polyominoes",
+    "Game: Cartographers",
+    "Mechanism: Drawing",
+    "Mechanism: Flip-and-Write",
+    "Setting: World of Ulos"
+   ],
+   "desc": "Queen Gimnax has ordered the reclamation of the northern lands. As a cartographer in her service, you are sent to map this territory, claiming it for the Kingdom of Nalos. Through official edicts, the queen announces which lands she prizes most, and you will increase your reputation by meeting her demands. But you are not alone in this wilderness. The Dragul contest your claims with their outposts, so you must draw your lines carefully to reduce their influence. Reclaim the greatest share of the queen's desired lands and you will be declared the greatest cartographer in the kingdom.\n\nIn Cartographers: A Roll Player Tale, players compete to earn the most reputation stars by the time four seasons have passed. Each season, players draw on their map sheets and earn reputation by carrying out the queen's edicts before the season is over. The player with the most reputation stars at the end of winter wins!\n\n—description from the publisher",
    "expansions": [
     {
      "id": "425774",
@@ -6403,7 +6665,7 @@
      "image": "https://cf.geekdo-images.com/JNYyV5sL1BuIx9kMAE9KxQ__original/img/YkjvX9xjNOsqeoKBPJhDXzDvJQ4=/0x0/filters:format(png)/pic5558262.png"
     }
    ],
-   "at": "2026-11-26T03:31:38.477Z"
+   "at": "2026-11-26T03:57:01.195Z"
   },
   "271615": {
    "v": 3,
@@ -8301,7 +8563,7 @@
    "at": "2026-11-26T03:53:44.875Z"
   },
   "352574": {
-   "v": 2,
+   "v": 3,
    "id": "352574",
    "type": "boardgame",
    "best": "4",
@@ -8332,6 +8594,29 @@
    "designers": [
     "Peter McPherson"
    ],
+   "artists": [
+    "Ian O'Toole"
+   ],
+   "publishers": [
+    "Flatout Games",
+    "Alderac Entertainment Group",
+    "Choo Choo Games",
+    "CMON Global Limited",
+    "Gémklub",
+    "Lucky Duck Games",
+    "Maldito Games",
+    "Skellig Games",
+    "TLAMA games",
+    "White Goblin Games",
+    "Ігромаг",
+    "株式会社ケンビル (KenBill)"
+   ],
+   "families": [
+    "Components: Polyominoes",
+    "Theme: Anthropomorphic Animals",
+    "Theme: Journalism"
+   ],
+   "desc": "Fit to Print is a puzzly tile-laying game about breaking news, designed by Peter McPherson and set in a charming woodland world created by Ian O'Toole!\n\nThistleville is the world's most bustling little town — it's a challenge to keep up with everything going on, from who took home first prize for their baked goods at the community fair to who has been digging in Mrs. Brambleberry's carrot patch.\n\nAs an editor at one of the local newspapers, your job is to tell their stories!\n\nThe front page is due in just a few hours and you have no time for perfection. Grab the big stories before the other papers get a chance, and make sure you get the right photos too. A newspaper is a business, so the money has to come from somewhere — don't forget the ads! After you've picked out a combination of stories, photos, and ads, it's time to lay out the front page. Did you take enough tiles to fill the paper, but not so many that things have to be cut? Over the course of three hectic days, your skills will be tested as you compete to be the most newsworthy editor!\n\nFit to Print is a tile-laying game for the whole family. Players simultaneously collect newspaper tiles, stacking them on their desks until they think they have what they need to make the perfect front page. Then, they will yell \"Layout!\" and begin to lay out the page by carefully considering the placement of centerpieces, articles, photographs, and advertisements. When everything is just right, they yell \"Print\" to be the first off…",
    "expansions": [
     {
      "id": "400127",
@@ -8437,7 +8722,7 @@
      "image": "https://cf.geekdo-images.com/iTnr2K_wXfihmDSqtUmrHw__original/img/imsMPyUD6c8KPFmR4h4moce5Hmo=/0x0/filters:format(png)/pic8047949.png"
     }
    ],
-   "at": "2026-11-26T03:17:45.876Z"
+   "at": "2026-11-26T03:56:45.402Z"
   },
   "359970": {
    "v": 3,
@@ -8766,7 +9051,7 @@
    "at": "2026-11-26T03:54:41.640Z"
   },
   "364073": {
-   "v": 2,
+   "v": 3,
    "id": "364073",
    "type": "boardgame",
    "best": "2",
@@ -8792,6 +9077,29 @@
     "Marc André",
     "Bruno Cathala"
    ],
+   "artists": [
+    "Davide Tosello"
+   ],
+   "publishers": [
+    "Space Cowboys",
+    "Belleville (Бельвіль)",
+    "CoolPlay",
+    "Galápagos Jogos",
+    "Gémklub",
+    "GoKids 玩樂小子",
+    "Hobby Japan",
+    "Kaissa Chess & Games",
+    "Korea Boardgames",
+    "Lifestyle Boardgames Ltd",
+    "Rebel Sp. z o.o."
+   ],
+   "families": [
+    "Game: Splendor",
+    "Series: Two-player games (Space Cowboys)",
+    "Theme: Jewelry",
+    "Theme: Jewels"
+   ],
+   "desc": "Confront your rival guild in a race for victory. Take Gem and Pearl tokens from the common board, then purchase cards, gather bonuses, royal favors, and prestige.\n\nDiscover new twists and strategic opportunities derived from Splendor, the original best-selling game. Acquire cards with impressive powers, take advantage of special Privileges, and fight over scarce access to Pearls.\n\nSplendor Duel is a two-player only standalone game based on Splendor that retains some of the main gameplay mechanisms of that design, while being a bit more complex, dynamic, interactive, rich, tense, and mean.\n\nThe game features a main board shared by both opponents, card powers, and three victory conditions.",
    "expansions": [
     {
      "id": "462460",
@@ -8913,7 +9221,7 @@
      "image": "https://cf.geekdo-images.com/3p3n39VJuI8qIblD4TPT9A__original/img/HMNgUaBmDjpksJu_RHMK4wtFLtA=/0x0/filters:format(jpeg)/pic7242847.jpg"
     }
    ],
-   "at": "2026-11-26T03:17:19.310Z"
+   "at": "2026-11-26T03:56:19.196Z"
   },
   "368899": {
    "v": 3,
@@ -9278,7 +9586,7 @@
    "at": "2026-11-26T03:53:37.162Z"
   },
   "392809": {
-   "v": 2,
+   "v": 3,
    "id": "392809",
    "type": "boardgame",
    "best": "3",
@@ -9301,6 +9609,18 @@
     "Wolfgang Kramer",
     "Manfred Reindl"
    ],
+   "artists": [],
+   "publishers": [
+    "Piatnik",
+    "999 Games"
+   ],
+   "families": [
+    "Animals: Birds",
+    "Animals: Dogs",
+    "Animals: Foxes",
+    "Animals: Geese"
+   ],
+   "desc": "Be as cunning as a fox!\nEach player in turn places a card in front of them: face down if it is a Goose or a Dog, face up if it is a Fox. The player who lays down a Fox card goes on a goose hunt, turning over one of the cards of the player on his left. If it is a goose, he can capture it or continue his hunt by turning over a card of the next player.\n\nBut if it's a dog, he loses all the geese cards turned over as well as his fox...\n\nIn the end, which fox will be able to boast the biggest catch?",
    "expansions": [],
    "bases": [],
    "en": "Boo to the Goose",
@@ -9337,7 +9657,7 @@
      "image": "https://cf.geekdo-images.com/-AcAtu8RJUjQ6mS9c8jpsQ__original/img/zP4EZoB3_KBY0r-J_2vPrjWYGvI=/0x0/filters:format(jpeg)/pic7617805.jpg"
     }
    ],
-   "at": "2026-11-26T03:17:51.149Z"
+   "at": "2026-11-26T03:56:50.563Z"
   },
   "393325": {
    "v": 3,
@@ -9807,7 +10127,7 @@
    "at": "2026-11-26T03:52:50.382Z"
   },
   "407297": {
-   "v": 2,
+   "v": 3,
    "id": "407297",
    "type": "boardgame",
    "best": "2",
@@ -9836,6 +10156,27 @@
     "Ben Pinchback",
     "Matt Riddle"
    ],
+   "artists": [
+    "Andrew Bosley"
+   ],
+   "publishers": [
+    "Allplay",
+    "Belleville (Бельвіль)",
+    "Gémklub",
+    "Nasza Księgarnia"
+   ],
+   "families": [
+    "Animals: Alligators / Crocodiles",
+    "Animals: Beavers",
+    "Animals: Frogs / Toads",
+    "Animals: Otters",
+    "Animals: Turtles",
+    "Components: Gems/Crystals",
+    "Components: Neoprene Mat",
+    "Theme: Anthropomorphic Animals",
+    "Theme: Rivers"
+   ],
+   "desc": "Welcome to River Valley! The beautiful pieces of glass that can be found along the river here have attracted the most entrepreneurial of woodland creatures to set up shop.\n\nIn River Valley Glassworks, you play as one of these pioneers, drafting glass from the market of river tiles. To do so, you have to play a piece from your inventory into the river. Each river tile can take only a specific shape, and you must play into a space adjacent to where you want to draft from. After you pick up your glass, the river shifts forward, revealing new pieces and new opportunities.\n\nStore the glass you pick up strategically in your shop. Depending on how the glass pieces are placed, your score will change drastically. Fill in rows and columns to gain bonus points, but don't draft too many of one type to avoid negative points!\n\n—description from the publisher",
    "expansions": [
     {
      "id": "418124",
@@ -9917,10 +10258,10 @@
      "image": "https://cf.geekdo-images.com/mXO-L4s9Gsv8SAJz2Nt2hw__original/img/Qzs59uS6iNYGRK80rb38rQ_RBkk=/0x0/filters:format(jpeg)/pic8350738.jpg"
     }
    ],
-   "at": "2026-11-26T03:17:40.644Z"
+   "at": "2026-11-26T03:56:40.022Z"
   },
   "414927": {
-   "v": 2,
+   "v": 3,
    "id": "414927",
    "type": "boardgame",
    "best": "2〜3",
@@ -9950,6 +10291,17 @@
    "designers": [
     "Chris Eastridge"
    ],
+   "artists": [
+    "Alan Gomes"
+   ],
+   "publishers": [
+    "Moon Saga Workshop"
+   ],
+   "families": [
+    "Theme: Alchemy",
+    "Theme: Nature"
+   ],
+   "desc": "Players step into the boots of Park Rangers whose expertise in botanical alchemy transforms the wilderness into a sanctuary for healing. With the roll of the dice, players gather extracts from the park's flora, concocting potent potions to treat the ailments of animals from different biomes. Successfully healing animals and performing experiments earns points, directly reflecting your role in maintaining the park's well-being. Aim for animals in similar habitats to unlock bonus points, reflecting the depth of your commitment to conservation — or take the path of experimenting to find new potions.\n\nParks & Potions plays over 5-6 rounds, each representing a day of work. The game is divided into phases in which players roll dice to discover flowers to extract, manage their inventories, and use potions to fulfill objectives and cure animals. Strategic potion mixing and objective completion are key to becoming the most renowned ranger.\n\nThe player with the most points at the end of the game is crowned as the guardian of nature!\n\n—description from the designer",
    "expansions": [
     {
      "id": "436645",
@@ -9983,10 +10335,10 @@
      "image": "https://cf.geekdo-images.com/cWNFu9L65E1F74Oai6mDSw__original/img/7lTdSm4Fs91nsjNqkl-73MQh5gU=/0x0/filters:format(png)/pic8369367.png"
     }
    ],
-   "at": "2026-11-26T03:17:38.053Z"
+   "at": "2026-11-26T03:56:37.394Z"
   },
   "416232": {
-   "v": 2,
+   "v": 3,
    "id": "416232",
    "type": "boardgame",
    "best": "2〜3",
@@ -10013,6 +10365,17 @@
     "Patrik Chleboun",
     "Jan Soukal"
    ],
+   "artists": [
+    "Marek Loskot",
+    "Pavel Richter"
+   ],
+   "publishers": [
+    "Boardcubator"
+   ],
+   "families": [
+    "Game: Project L"
+   ],
+   "desc": "Square One is an engine-building strategy game, similar to its predecessor Project L. Its easy-to-learn yet hard-to-master mechanics offer high replayability for the whole family.\n\nIn Square One is players match tiles with patterns to pattern cards on the board.  Build more patterns and make more combos to earn points.  The person who completes all their patterns first, wins the game.\n\n—description from the publisher",
    "expansions": [
     {
      "id": "439610",
@@ -10050,7 +10413,7 @@
      "image": "https://cf.geekdo-images.com/uin0MN7DiCMW3K2X4kah0A__original/img/8jNY9BMLh2H6xB2eswTdn9T5gyc=/0x0/filters:format(png)/pic8172361.png"
     }
    ],
-   "at": "2026-11-26T03:17:22.004Z"
+   "at": "2026-11-26T03:56:21.790Z"
   },
   "417618": {
    "v": 3,
@@ -10125,7 +10488,7 @@
    "at": "2026-11-26T03:54:44.213Z"
   },
   "417629": {
-   "v": 2,
+   "v": 3,
    "id": "417629",
    "type": "boardgame",
    "best": "4",
@@ -10148,6 +10511,20 @@
     "Zachary Connelly",
     "Alex Cutler"
    ],
+   "artists": [
+    "Michael Parla"
+   ],
+   "publishers": [
+    "Giochi Uniti",
+    "IELLO",
+    "Pandasaurus Games"
+   ],
+   "families": [
+    "Components: Game Box Used In Play",
+    "Organizations: Game Designers of North Carolina",
+    "Theme: Spooky Old Houses"
+   ],
+   "desc": "Get ready to flick your dice, and roll to victory in this spooky game of haunted house pinball! Take down monsters, uncover hidden clues, and dodge trap doors as you try to rack up as many points as you can.\n\nEach turn in Boxtop Pinball: Haunted House, you flick one of your dice from the launch pad into the cardboard pinball machine to earn points. For each die that remains on the machine at the end of the round, you score the number of points indicated on that die, plus additional points for various bonuses. Earn points by hitting monsters, gathering clue tokens, and staying in haunted realms. Landing in the summoning circle gains you an additional die!\n\nWhoever scores the most points after three rounds wins.\n\n—description from the publisher",
    "expansions": [],
    "bases": [],
    "en": "Boxtop Pinball: Haunted House",
@@ -10176,7 +10553,7 @@
      "image": "https://cf.geekdo-images.com/INuFEbHDXKD6VoSLp32C-A__original/img/0nWwF5_yEMhSsc63GrHqB5MCqnk=/0x0/filters:format(png)/pic8304338.png"
     }
    ],
-   "at": "2026-11-26T03:17:32.612Z"
+   "at": "2026-11-26T03:56:32.212Z"
   },
   "421217": {
    "v": 3,
@@ -10383,7 +10760,7 @@
    "at": "2026-11-26T03:54:21.024Z"
   },
   "427942": {
-   "v": 2,
+   "v": 3,
    "id": "427942",
    "type": "boardgame",
    "best": "3〜4",
@@ -10407,6 +10784,18 @@
    "designers": [
     "Magen Bain"
    ],
+   "artists": [
+    "Sarah \"Freedz\" Conlon"
+   ],
+   "publishers": [
+    "NTSD Gaming",
+    "TTGames CZ"
+   ],
+   "families": [
+    "Animals: Cats",
+    "Components: Meeples (Animal) / Animeeples"
+   ],
+   "desc": "Stack O' Cats is a balancing game, with a little press-your luck element thrown in. Gather up to six friends for the most fun you'll ever have trying to get a cat to do what you want them to! Take turns stacking wooden cats of all sorts one on top of another, but beware - these cat's won't stay still for long! Be the best at keeping the cats under control, and you'll come out the victor!\n\nPlayers take turns drawing a cat meeple from the big Bag o' Cats, and balancing it anywhere on top of the cat stack, then gaining points for that cat's placement. The game has multiple point variants to encourage different stacking styles! You can play for most points or least to be crowned victor, you decide which way to play. Thirty two unique shaped cat meeples and forty meeples total ensure that every game will be different!  Our sturdy base also ensures that you have a firm foundation to work from to build fun and crazy cat stacks.  Solo and coop modes are also available.\n\n-description from designer",
    "expansions": [],
    "bases": [],
    "en": "Stack O' Cats",
@@ -10435,7 +10824,7 @@
      "image": "https://cf.geekdo-images.com/nUTXeK52pmiCIem_INmpIw__original/img/ZP6P-kwamdI18QeEnnl6V4eZz50=/0x0/filters:format(png)/pic8395328.png"
     }
    ],
-   "at": "2026-11-26T03:17:24.738Z"
+   "at": "2026-11-26T03:56:24.382Z"
   },
   "428682": {
    "v": 3,
@@ -10901,7 +11290,7 @@
    "at": "2026-11-26T03:54:33.890Z"
   },
   "450967": {
-   "v": 2,
+   "v": 3,
    "id": "450967",
    "type": "boardgame",
    "best": "",
@@ -10927,6 +11316,14 @@
    "designers": [
     "Fabio Lopiano"
    ],
+   "artists": [],
+   "publishers": [
+    "Alley Cat Games"
+   ],
+   "families": [
+    "Cities: Florence (Tuscany, Italy)"
+   ],
+   "desc": "As cloth merchants of the wealthy Calimala Guild, you will vie for power and control over the future of Florence.\n\nBroker deals, deliver cloth to markets, sponsor statues, and contribute to the construction of great Churches.\n\nPromote your trusted family members into the Council of Calimala, triggering scoring and the evaluation of prestige in the next area of the board. Plan ahead for upcoming scoring conditions and hire contractors to take advantage of open opportunities.\n\nOverview:\nThis second edition of Calimala, by award winning designer Fabio Lopiano, has been beautifully remastered. With stunning art and graphic design from Ian O'Toole, extended gameplay, and deluxe components.\n\nThis new edition of Calimala comes with the Kickstarter exclusive Intrigue Expansion. Take control of one of Florence's historical merchant families, such as the Medici Family, and benefit from unique player powers.\n\nWith 4 new expansion actions you can invest in banks to increase your control in cities, or commission artworks to boost your standing with the local churches.\n\nAlign yourself with major political powers, the Holy Roman Empire or Catholic Church. Benefit from their contradicting policies or try to play both sides and get the best of both worlds.",
    "expansions": [],
    "bases": [],
    "en": "Calimala: Deluxe Edition",
@@ -10947,10 +11344,10 @@
      "image": "https://cf.geekdo-images.com/6-Pj_AxP0mjjFXYs2ukMWw__original/img/u607jS_nxYDDnpFkd0ZaJE-eFE8=/0x0/filters:format(jpeg)/pic7611495.jpg"
     }
    ],
-   "at": "2026-11-26T03:31:33.204Z"
+   "at": "2026-11-26T03:56:55.915Z"
   }
  },
- "updatedAt": "2026-11-26T03:54:59.735Z",
+ "updatedAt": "2026-11-26T03:57:09.116Z",
  "exps": {
   "2591": {
    "id": "2591",
