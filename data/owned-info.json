@@ -1,7 +1,7 @@
 {
  "games": {
   "45": {
-   "v": 2,
+   "v": 3,
    "id": "45",
    "type": "boardgame",
    "best": "5〜6",
@@ -27,6 +27,44 @@
    "designers": [
     "Richard Borg"
    ],
+   "artists": [
+    "Rita Åse",
+    "Bildgården AB",
+    "Design Edge",
+    "Wanjin Gill",
+    "H.P. Hoff",
+    "Martin Lodewijk",
+    "Thierry Masson",
+    "Heinz Grafische Werke",
+    "Ron Zalme"
+   ],
+   "publishers": [
+    "Endless Games (I)",
+    "F.X. Schmid",
+    "Milton Bradley",
+    "25th Century Games",
+    "A. F. Blake Enterprises",
+    "Alga",
+    "Arclight Games",
+    "asmodee",
+    "BASF-Knoll",
+    "Blake Enterprises",
+    "Brimtoy",
+    "Brybelly"
+   ],
+   "families": [
+    "Brands: Disney",
+    "Components: Dice Cup / Dice Tower / Dice Tray",
+    "Components: Dice with Icons",
+    "Containers: Drawstring Bag",
+    "Containers: Tin/Metal Box",
+    "Mechanism: Bluffing – Dice Cup",
+    "Movies: Pirates of the Caribbean",
+    "Theme: Pirates",
+    "TV Shows: The Simpsons",
+    "TV Shows: Wayne's World"
+   ],
+   "desc": "Liar's Dice, a.k.a. Bluff, Perudo or Dudo, is a South American dice game in which each player is given five dice and cup to roll and hide them with. Players make successively higher declarations regarding the results of all the dice remaining in the game, e.g. \"there are ten sixes\". However, someone can always contest the bid. When that happens, all the dice are revealed and either the bidder or the caller loses dice, depending on who was correct. The last player with dice is the winner.\n\nAs a public domain dice game, there are a number of variants or similar games called Liar's Dice. This includes one that is often played with Poker Dice, and differs from the marketed versions in that players only declare on their own hand's value (as opposed to all dice being in play), using poker-hand values.",
    "expansions": [
     {
      "id": "383714",
@@ -236,7 +274,7 @@
      "image": "https://cf.geekdo-images.com/vtdd3r9YclF8PmZOF0UBPA__original/img/7Yghhxcru7w8psjwhLOJ0465g9c=/0x0/filters:format(jpeg)/pic9483848.jpg"
     }
    ],
-   "at": "2026-11-26T02:46:13.783Z"
+   "at": "2026-11-26T03:53:47.446Z"
   },
   "128": {
    "v": 2,
@@ -469,7 +507,7 @@
    "at": "2026-11-26T03:17:48.460Z"
   },
   "201": {
-   "v": 2,
+   "v": 3,
    "id": "201",
    "type": "boardgame",
    "best": "2",
@@ -498,6 +536,30 @@
    "designers": [
     "Dirk Henn"
    ],
+   "artists": [
+    "Tanja Donner",
+    "Wanjin Gill",
+    "Anke Pohl",
+    "Thilo Rick",
+    "Andreas Steiner",
+    "Claus Stephan"
+   ],
+   "publishers": [
+    "db-Spiele",
+    "KOSMOS",
+    "999 Games",
+    "OPEN'N PLAY",
+    "Playte",
+    "Tilsit",
+    "White Goblin Games"
+   ],
+   "families": [
+    "Components: 9 x 9 Grids",
+    "History: Wars of the Roses",
+    "Series: L.BOARD (Playte)",
+    "Series: Two-player games (Kosmos)"
+   ],
+   "desc": "Originally published as Texas by db-Spiele.\n\nThe battle between farmers and ranchers is fairly abstract. A single pawn travels on a square grid. Each player has a hand of cards face up. These each have a direction and a distance. The player can either draw a card and add it to his hand, or play a card. If he plays a card, then the pawn moves the appropriate distance to an empty square, and the player places one of his markers. Each player also has judge symbols that can each be used only once. The judge lets you move onto a previously placed opposition marker and reverse it. Players score points for each contiguous region equal to the square of the number of markers. If a player is not careful, such a move may be forced, as there is a maximum number of cards that a player may hold.\n\nContains rules for playing with 4 (in two partnerships of two players).\n\nLater republished 1999 as Rosenk&ouml;nig by Kosmos, as part of the two-player game series. The republication also included a re-theming of the game. The setting changed from Texas to England, and the factions changed from farmers and ranchers to the factions of the Plantagenet family from the Wars of the Roses (1455-1485) - the Lancaster (red rose) and the York (white rose) factions in a similarly abstracted fashion.\n\nRosenk&ouml;nig is part of the Kosmos two-player series.",
    "expansions": [],
    "bases": [],
    "en": "The Rose King",
@@ -614,10 +676,10 @@
      "image": "https://cf.geekdo-images.com/eJVhANzawu8G_hY8NzU8HQ__original/img/u2e2Ol4pRxGF-0tpLfOGQ2N39O8=/0x0/filters:format(jpeg)/pic159349.jpg"
     }
    ],
-   "at": "2026-11-26T03:17:11.320Z"
+   "at": "2026-11-26T03:54:52.005Z"
   },
   "624": {
-   "v": 2,
+   "v": 3,
    "id": "624",
    "type": "boardgame",
    "best": "2",
@@ -643,6 +705,31 @@
    "designers": [
     "Mirko Marchesi"
    ],
+   "artists": [
+    "Mirko Marchesi"
+   ],
+   "publishers": [
+    "Gigamic",
+    "Broadway Toys LTD",
+    "Family Games, Inc.",
+    "FoxMind Israel",
+    "Fundex",
+    "Games Hub",
+    "Ghenos Games",
+    "Grow Jogos e Brinquedos",
+    "Hachette Boardgames UK",
+    "Kaissa Chess & Games",
+    "Korea Boardgames",
+    "Lanlalen"
+   ],
+   "families": [
+    "Category: Combinatorial",
+    "Components: 9 x 9 Grids",
+    "Components: Wooden pieces & boards",
+    "Game: Blockade",
+    "Series: Classic (Gigamic)"
+   ],
+   "desc": "The abstract strategy game Quoridor is surprisingly deep for its simple rules. The object of the game is to advance your pawn to the opposite edge of the board. On your turn you may either move your pawn or place a wall. You may hinder your opponent with wall placement, but not completely block them off. Meanwhile, they are trying to do the same to you. The first pawn to reach the opposite side wins.",
    "expansions": [],
    "bases": [],
    "en": "Quoridor",
@@ -847,7 +934,7 @@
      "image": "https://cf.geekdo-images.com/2zd8CoT5eO88kzwIwFfE4Q__original/img/ydeCnrhOuwAeypcHtmL4z8zJAF8=/0x0/filters:format(jpeg)/pic5267055.jpg"
     }
    ],
-   "at": "2026-11-26T03:16:42.331Z"
+   "at": "2026-11-26T03:54:23.614Z"
   },
   "822": {
    "v": 2,
@@ -1889,7 +1976,7 @@
    "at": "2026-11-26T03:31:35.788Z"
   },
   "1231": {
-   "v": 2,
+   "v": 3,
    "id": "1231",
    "type": "boardgame",
    "best": "4",
@@ -1911,6 +1998,25 @@
    "designers": [
     "Klaus Zoch"
    ],
+   "artists": [
+    "Jan Richard Hansen",
+    "Olivia Schuff",
+    "Wundergestalten"
+   ],
+   "publishers": [
+    "Competo / Marektoy",
+    "Giochi Uniti",
+    "Hasbro",
+    "Lord Carter",
+    "Milton Bradley",
+    "Vennerød Forlag AS",
+    "Zoch Verlag"
+   ],
+   "families": [
+    "Components: Gems/Crystals",
+    "Mechanism: Tower Stacking"
+   ],
+   "desc": "Players take turns choosing blocks and giving them to each other to place on their structure.  A player may pay a certain number of 'beans' to refuse a block and it gets passed to the next player.  When a player's structure falls, they are out of the game.  Last player standing wins.\n\nDescription of Bandu (1992, Milton Bradley, 2-6 players):\nBandu is based upon the game of Bausack. Each player is given a base block and a number of beans. During a turn, a player chooses a wood block from a common supply and either holds a Refuse or Use auction. All player bid with their beans and the winner/loser must place the piece on their tower. If your tower falls you are out of the game. The last tower standing wins.\n\nDescription of Sac Noir (Rio Grande Games, 2-8 players):\nThere are five variations on how to play. The goal in all of them is to build a tower. The bag contains very different wooden pieces (i.e. an ashlar, an egg, a ring, a fir tree etc.) as well as a sack of beans for the \"auction variation\" of the game. Depending on the variation you choose, either each player builds his own tower or all build one together. The \"auction variations\" are the most suspenseful and surprising. One might end up spending quite some beans to avoid building an especially difficult element. Gambling and bluffing abilities are needed just as much as a feeling for statics and construction skills. It's a game with almost endless building possibilities. It's a challenge for steady hands and shaky…",
    "expansions": [
     {
      "id": "43236",
@@ -2008,7 +2114,7 @@
      "image": "https://cf.geekdo-images.com/1iBprQ3OQOjlVpGBQKFsww__original/img/MYOU6nMfR9EiVg9p81CczGvYIzI=/0x0/filters:format(jpeg)/pic1932250.jpg"
     }
    ],
-   "at": "2026-11-26T02:46:16.512Z"
+   "at": "2026-11-26T03:53:50.029Z"
   },
   "1406": {
    "v": 2,
@@ -2322,7 +2428,7 @@
    "at": "2026-11-26T03:17:53.757Z"
   },
   "19184": {
-   "v": 2,
+   "v": 3,
    "id": "19184",
    "type": "boardgame",
    "best": "5",
@@ -2343,6 +2449,17 @@
    "designers": [
     "Kwang Hee Lee"
    ],
+   "artists": [],
+   "publishers": [
+    "Dagoy",
+    "DIDANONIA",
+    "UBO CnC"
+   ],
+   "families": [
+    "Card Games: Climbing",
+    "Card Games: Shedding / Stops"
+   ],
+   "desc": "LEXIO is based on the traditional Chinese game system of \"Zheng Shangyou\" – the climbing game – and is virtually the same game as Big Two (also known as Chinese Poker). Many other card games are based on the same mechanism (The Great Dalmuti, Gang of Four, Tichu, etc.), but LEXIO uses tiles similar to those in Mah Jong instead of cards, and they are of excellent construction. In accordance with Chinese tradition, the number \"2\" is the strongest number. The suits are named after the sun, the moon, the stars, and the cloud.\n\nIn the game, a player leads a tile or set of tiles, and the other players must follow by either playing a higher tile or set of tiles or passing. The play continues until all players have passed in succession after the final play, and the player who played the last set leads next. Play continues until one player has played all of his tiles. Then each player pays chips to those players who performed better – that is, the player who went out will get paid by all other players, and the other players pay points to one another based on the difference in the number of tiles each held at the end of the hand. A game lasts five rounds, and the player at the end of the game with the most points wins.",
    "expansions": [],
    "bases": [],
    "en": "Lexio",
@@ -2427,7 +2544,7 @@
      "image": "https://cf.geekdo-images.com/96AXqI23ivF0thE9B3HfKg__original/img/rbzridUCxb6VDN20zrDAzZLOVuo=/0x0/filters:format(jpeg)/pic206779.jpg"
     }
    ],
-   "at": "2026-11-26T02:46:32.032Z"
+   "at": "2026-11-26T03:54:05.450Z"
   },
   "40628": {
    "v": 2,
@@ -2950,7 +3067,7 @@
    "at": "2026-11-26T03:31:43.775Z"
   },
   "77130": {
-   "v": 2,
+   "v": 3,
    "id": "77130",
    "type": "boardgame",
    "best": "4",
@@ -2983,6 +3100,35 @@
    "designers": [
     "Kevin Wilson"
    ],
+   "artists": [
+    "Henning Ludvigsen"
+   ],
+   "publishers": [
+    "Fantasy Flight Games",
+    "ADC Blackfire Entertainment",
+    "Delta Vision Publishing",
+    "Edge Entertainment",
+    "Fantasmagoria",
+    "Galakta",
+    "Giochi Uniti",
+    "Heidelberger Spieleverlag",
+    "Hobby Japan",
+    "Hobby World",
+    "Korea Boardgames",
+    "Stratelibri"
+   ],
+   "families": [
+    "Ancient: Egypt",
+    "Ancient: Rome",
+    "Country: China",
+    "Country: Egypt",
+    "Country: Germany",
+    "Country: Russia",
+    "Country: USA",
+    "Mechanism: 4X",
+    "Series: Sid Meier's Civilization"
+   ],
+   "desc": "Please note: this entry covers the 2010 release of Sid Meier's Civilization: The Board Game from FFG. This game is unrelated to the similarly named 2002 Eagle Games Sid Meier's Civilization: The Boardgame.\n\nFrom Press Release:\n\nBefore you lies a vast bounty of land, ripe for the plucking. Your meager beginnings will influence the paths you must take. Lead your people well and they will take you to infinite heights of greatness. If civilization manages to endure the ages, your name will hang in every whisper of its legacy...\n\nFantasy Flight Games is excited to announce the upcoming release of Sid Meier's Civilization: The Board Game! Forge an empire to stand the test of time using innovative game mechanics with multiple paths to victory.\n\nWill you lead the greatest army in the world to conquer your foes? Or will you be the first to journey to the stars, becoming the most technologically advanced civilization known to man? The choice is yours.\n\nDesigned by Kevin Wilson, Civilization: The Board Game is inspired by the legendary video game series created by Sid Meier. Players are tasked with guiding an entire civilization throughout the ages, taking ownership of your people's technology, economy, culture, and military, as well as all the choices that go along with them. There are four different paths to victory, and each is riddled with opposition.\n\nIn Civilization: The Board Game, 2-4 players take on the roles of famous leaders in charge of historical civilizations, each with…",
    "expansions": [
     {
      "id": "155127",
@@ -3112,10 +3258,10 @@
      "image": "https://cf.geekdo-images.com/OtmUGkV2vE-kfDxKkl3PDw__original/img/M9zqVW3haFv6D25fAXkrjqBCgJ0=/0x0/filters:format(jpeg)/pic1161332.jpg"
     }
    ],
-   "at": "2026-11-26T02:46:34.634Z"
+   "at": "2026-11-26T03:54:08.104Z"
   },
   "118048": {
-   "v": 2,
+   "v": 3,
    "id": "118048",
    "type": "boardgame",
    "best": "2",
@@ -3143,6 +3289,32 @@
    "designers": [
     "Andreas Steiger"
    ],
+   "artists": [
+    "Taira Akitsu",
+    "Franz Vohwinkel"
+   ],
+   "publishers": [
+    "KOSMOS",
+    "999 Games",
+    "Broadway Toys LTD",
+    "Devir",
+    "Filosofia Éditions",
+    "Galakta",
+    "Giochi Uniti",
+    "Group SNE",
+    "IELLO",
+    "Insight Editions",
+    "Kaissa Chess & Games",
+    "Korea Boardgames"
+   ],
+   "families": [
+    "Region: North Africa",
+    "Theme: Deserts",
+    "Components:  Meeples",
+    "Mechanism: Tableau Building",
+    "Series: Two-player games (Kosmos)"
+   ],
+   "desc": "Unlike in other cultures, the desert Tuareg men, known as Targi, cover their faces, whereas women of the tribe do not wear veils. They run the household and have the last word at home in the tents. Different families are divided into tribes, headed by the 'Imascheren' (or nobles). As leader of a Tuareg tribe, players trade goods from near (such as dates and salt) and far (like pepper) in order to obtain gold and other benefits, and enlarge their family. In each round their new offerings are made. Cards are a means to an end in order to obtain the popular tribe cards.\n\nThe board consists of a 5x5 grid: a border of 16 squares with printed action symbols and then 9 blank squares in the centre onto which cards are dealt. Meeples are placed one at a time on the spaces at the edges of the board (not including corner squares). You cannot place a meeple on a square the opponent has a meeple on already, nor on a square facing an opponent's meeple. Once all meeples are placed, players then execute the actions on the border squares the meeples are on and also take the cards from the centre that match the row and column of the border meeples.\n\nThe game is predominantly scored and won by playing tribal cards to your display. These give advantages during the game and victory points at the end. Usually cards are played (or discarded) immediately once drawn. A single card can be kept in hand, but then requires a special action to play it (or to discard it to free the hand spot for another…",
    "expansions": [
     {
      "id": "178656",
@@ -3336,10 +3508,10 @@
      "image": "https://cf.geekdo-images.com/bXKM2_WBMVFfwt4ivUEc0Q__original/img/Cqa4ZCuai0bB3mMX5efez0j0VDk=/0x0/filters:format(jpeg)/pic4510214.jpg"
     }
    ],
-   "at": "2026-11-26T03:17:08.738Z"
+   "at": "2026-11-26T03:54:49.386Z"
   },
   "119890": {
-   "v": 2,
+   "v": 3,
    "id": "119890",
    "type": "boardgame",
    "best": "2",
@@ -3365,6 +3537,32 @@
    "designers": [
     "Uwe Rosenberg"
    ],
+   "artists": [
+    "Klemens Franz"
+   ],
+   "publishers": [
+    "Lookout Games",
+    "999 Games",
+    "Filosofia Éditions",
+    "Giochi Uniti",
+    "Hobby Japan",
+    "HomoLudicus",
+    "Lacerta",
+    "Swan Panasia Co., Ltd.",
+    "Z-Man Games"
+   ],
+   "families": [
+    "Animals: Cattle / Cows",
+    "Animals: Horses",
+    "Animals: Pigs",
+    "Animals: Sheep",
+    "Category: Combinatorial",
+    "Components: Meeples (Animal) / Animeeples",
+    "Game: Agricola",
+    "Series: Fur Zwei Spieler (Lookout Games)",
+    "Series: Harvest (Uwe Rosenberg)"
+   ],
+   "desc": "Agricola: All Creatures Big and Small is a new take on Uwe Rosenberg's Agricola designed for exactly two players and focused only on the animal husbandry aspect of that game. So long plows and veggies!\n\nIn Agricola: All Creatures Big and Small, you become an animal breeder of horses, cows, sheep and pigs and try to make the most of your pastures. Players start with a 3x2 game board that can be expanded during play to give more room for players to grow and animals to run free. Sixteen possible actions are available for players to take, with each player taking three actions total in each of the eight rounds.\n\nThe player who amasses the most victory points through enclosing space with fences and acquiring the largest number and variety of animals and victory point-generating buildings will be the winner.\n\nFour Standard Buildings and 4 special buildings are available in the base game.  These buildings each provide unique special abilities during play and/or VP at game end.  Balancing the tension between building infrastructure (fenced pastures and buildings) and acquiring animals (the single biggest source of end-game scoring) is the key to success!",
    "expansions": [
     {
      "id": "145355",
@@ -3486,10 +3684,10 @@
      "image": "https://cf.geekdo-images.com/7CafFqXeChNv225PJc7a6Q__original/img/gJUzUAe7dzNqHnFzW2ZYER2WpkQ=/0x0/filters:format(jpeg)/pic1287062.jpg"
     }
    ],
-   "at": "2026-11-26T03:17:14.094Z"
+   "at": "2026-11-26T03:54:54.616Z"
   },
   "137154": {
-   "v": 2,
+   "v": 3,
    "id": "137154",
    "type": "boardgame",
    "best": "5〜6",
@@ -3509,6 +3707,16 @@
     "Tanja Engel",
     "Sara Engel"
    ],
+   "artists": [
+    "Benedikt Beck"
+   ],
+   "publishers": [
+    "Zoch Verlag"
+   ],
+   "families": [
+    "Theme: Hell"
+   ],
+   "desc": "To set up Auf Teufel komm raus, place 48 black coal pieces face down on the \"infernal\" fireplace in the middle of the game board. On their rear sides, these pieces show values between 10 and 100, with a devil appearing on nine pieces.\n\nOn a turn, the active player reveals coal pieces one by one, ideally without revealing a devil – but before he starts doing this, all players make a bet about the total value that the next player will gain. To do so, all players take poker chips into their closed fists, with the wager being the minimum amount that the active player has to reach in order for the bid to pay off. Thus, making a high value bet automatically increases the risk of losing that wager. If the active player reveals a devil, he loses all the coals he gained that turn, so while he wants to claim as much as possible, pressing his luck could cost him everything – not to mention possibly making his opponents rich as well if their high bids pay off.\n\nThe \"scoring track\" around the board shows whether a player has exactly 200, exactly 300, and so on, or falls somewhere in between two of those numbers, but NOT the exact amount that the players hold. Whoever manages to increase his total wealth from the starting amount of 200 to over 1,600 wins!",
    "expansions": [],
    "bases": [],
    "en": "Auf Teufel komm raus",
@@ -3529,10 +3737,10 @@
      "image": "https://cf.geekdo-images.com/-WIE8BTtrcBfO5noeHQJ_w__original/img/1Al444qAbQrfOeJcEVpUVtn6yAo=/0x0/filters:format(jpeg)/pic1545739.jpg"
     }
    ],
-   "at": "2026-11-26T02:46:45.023Z"
+   "at": "2026-11-26T03:54:18.417Z"
   },
   "148949": {
-   "v": 2,
+   "v": 3,
    "id": "148949",
    "type": "boardgame",
    "best": "4",
@@ -3562,6 +3770,35 @@
    "designers": [
     "Rüdiger Dorn"
    ],
+   "artists": [
+    "Andreas Resch"
+   ],
+   "publishers": [
+    "Pegasus Spiele",
+    "2 Pionki",
+    "Albi",
+    "Alderac Entertainment Group",
+    "Asterion Press",
+    "Devir",
+    "Grow Jogos e Brinquedos",
+    "Hobby Japan",
+    "Hobby World",
+    "Lex Games",
+    "Matagot",
+    "Piatnik Distribution"
+   ],
+   "families": [
+    "Cities: Istanbul (Turkey)",
+    "Components: 4 x 4 Grids",
+    "Components: Gems/Crystals",
+    "Components: Wooden pieces & boards",
+    "Country: Ottoman Empire",
+    "Country: Turkey",
+    "Game: Istanbul (AEG)",
+    "Occupation: Merchant",
+    "Series: Istanbul (Pegasus Spiele)"
+   ],
+   "desc": "There's hustle and bustle at Istanbul's grand bazaar as merchants and their assistants rush through the narrow alleys in their attempt to be more successful than their competitors. Everything must be well organized: wheelbarrows must be filled with goods at the warehouses, then swiftly transported by the assistants to various destinations. Your goal? Be the first merchant to collect a certain number of rubies.\n\nIn Istanbul, you lead a group of one merchant and four assistants through 16 locations in the bazaar. At each such location, you can carry out a specific action. The challenge, though, is that to take an action, you must move your merchant and an assistant there, then leave the assistant behind (to handle all the details while you focus on larger matters). If you want to use that assistant again later, your merchant must return to that location to pick him up. Thus, you must plan ahead carefully to avoid being left with no assistants and thus unable to do anything...\n\nIn more detail, on a turn you move your merchant and his retinue of assistants one or two steps through the bazaar, either leave an assistant at that location or collect an assistant left earlier, then perform the action. If you meet other merchants or certain individuals at the location, you might be able to take a small extra action. Possible actions include:\n\n    Paying to increase your wheelbarrow capacity, which starts the game with a capacity of only two for each good.\n    Filling your wheelbarrow…",
    "expansions": [
     {
      "id": "204573",
@@ -3755,10 +3992,10 @@
      "image": "https://cf.geekdo-images.com/-c_45IP08xA211F22K7iAw__original/img/_k0-ZetamzQv6vTZDEF2ZuJHwc0=/0x0/filters:format(jpeg)/pic1977063.jpg"
     }
    ],
-   "at": "2026-11-26T02:45:27.182Z"
+   "at": "2026-11-26T03:53:00.769Z"
   },
   "150146": {
-   "v": 2,
+   "v": 3,
    "id": "150146",
    "type": "boardgame",
    "best": "4",
@@ -3782,6 +4019,21 @@
    "designers": [
     "Stephen Glenn"
    ],
+   "artists": [
+    "Martin Hoffmann",
+    "Claus Stephan",
+    "Mirko Suzuki"
+   ],
+   "publishers": [
+    "Rio Grande Games"
+   ],
+   "families": [
+    "Animals: Apes / Monkeys",
+    "Animals: Mice",
+    "Components: Dice With Swappable Faces",
+    "Theme: Circus"
+   ],
+   "desc": "\"Welcome, girls and boys. My name is Rattlebones, and you have been cordially invited to spend the day at my Fabulous Festival of Dice! Play games! Win prizes! Ride the train! I'll be wandering about the park, and if you're the first one to find me, you win! Won't that be delightful?\"\n\nRattlebones is a game about transforming dice. You start with standard six-sided dice, and throughout the course of the game you can remove sides and replace them with other sides that let you do all sorts of wonderful things. Every time you score points, you get closer to finding Rattlebones and, er, winning the game. Yes, winning! It's an experience to six-sided-die for!\n\nGame Summary\nSetup\n- Place the Rattlebones meeple at 55, 60, or 65 VP space (for 2-4 players). Players each get 3 d6 (black, white, gray) -- basic d6 but the '1' is replaced by Rattlebones.\n- Place random tiles on the empty spaces on the board.\n\nYour Turn\nRoll a die. May spend 1-2 gold to roll an extra 1-2 dice. Then, use each die one at a time:\n- if Rattlebones shows, move Rattlebones back one space; game ends immediately if it hits a player score marker and most points wins.\n- if pips or Rattlebones showing, move one of your pawns clockwise that many spaces (RB=1) and use the space you land on. Typically, you may add a die face matching that space to the die you used (replace any face except Rattlebones).\n- otherwise, take whatever action the face allows (e.g., earn a stock marker or star token, which you may later turn…",
    "expansions": [],
    "bases": [],
    "en": "Rattlebones",
@@ -3810,10 +4062,10 @@
      "image": "https://cf.geekdo-images.com/kjkKAiAWtNJHvP-Z_s1esQ__original/img/Rt0YjFH6xrMU3SJpEig8Y5509vg=/0x0/filters:format(jpeg)/pic2399765.jpg"
     }
    ],
-   "at": "2026-11-26T02:45:45.251Z"
+   "at": "2026-11-26T03:53:19.016Z"
   },
   "163412": {
-   "v": 2,
+   "v": 3,
    "id": "163412",
    "type": "boardgame",
    "best": "2",
@@ -3843,6 +4095,42 @@
    "designers": [
     "Uwe Rosenberg"
    ],
+   "artists": [
+    "Carrie Cantwell",
+    "Klemens Franz",
+    "Maya Hanisch",
+    "Rex Lee",
+    "Jolanta Lendzioszek",
+    "Cecilia Mok",
+    "Gru Tsow"
+   ],
+   "publishers": [
+    "Lookout Games",
+    "999 Games",
+    "asmodee",
+    "Brain Games",
+    "Compaya.hu: Gamer Café Kft.",
+    "CrowD Games",
+    "Dragonfly Publishing",
+    "Funforge",
+    "Galápagos Jogos",
+    "GeGe Co. Ltd.",
+    "GoKids 玩樂小子",
+    "Hobby Japan"
+   ],
+   "families": [
+    "Theme: Sewing / Knitting / Cloth-Making",
+    "Category: Combinatorial",
+    "Components: 9 x 9 Grids",
+    "Components: Polyominoes",
+    "Game: Patchwork",
+    "Holidays: Christmas",
+    "Holidays: Halloween",
+    "Holidays: Valentine's Day",
+    "Series: Fur Zwei Spieler (Lookout Games)",
+    "Theme: Austronesian peoples"
+   ],
+   "desc": "In Patchwork, two players compete to build the most aesthetic (and high-scoring) patchwork quilt on a personal 9x9 game board. To start play, lay out all of the patches at random in a circle and place a marker directly clockwise of the 2-1 patch. Each player takes five buttons — the currency/points in the game — and someone is chosen as the start player.\n\nOn a turn, a player either purchases one of the three patches standing clockwise of the spool or passes. To purchase a patch, you pay the cost in buttons shown on the patch, move the spool to that patch's location in the circle, add the patch to your game board, then advance your time token on the time track a number of spaces equal to the time shown on the patch. You're free to place the patch anywhere on your board that doesn't overlap other patches, but you probably want to fit things together as tightly as possible. If your time token is behind or on top of the other player's time token, then you take another turn; otherwise the opponent now goes. Instead of purchasing a patch, you can choose to pass; to do this, you move your time token to the space immediately in front of the opponent's time token, then take one button from the bank for each space you moved.\n\nIn addition to a button cost and time cost, each patch also features 0-3 buttons, and when you move your time token past a button on the time track, you earn \"button income\": sum the number of buttons depicted on your personal game board, then take this many…",
    "expansions": [
     {
      "id": "370657",
@@ -4068,10 +4356,10 @@
      "image": "https://cf.geekdo-images.com/vkbm2fAOvVFAnd3w6vpUzA__original/img/w4Kip7nmByJuwd5p8_Vlskv5iws=/0x0/filters:format(jpeg)/pic9683334.jpg"
     }
    ],
-   "at": "2026-11-26T03:17:16.716Z"
+   "at": "2026-11-26T03:54:57.234Z"
   },
   "170624": {
-   "v": 2,
+   "v": 3,
    "id": "170624",
    "type": "boardgame",
    "best": "3〜4",
@@ -4101,6 +4389,24 @@
    "designers": [
     "Seth Jaffee"
    ],
+   "artists": [
+    "Adam P. McIver"
+   ],
+   "publishers": [
+    "Tasty Minstrel Games",
+    "Dexker Games",
+    "Engames",
+    "Korea Boardgames",
+    "Renegade Game Studios"
+   ],
+   "families": [
+    "Components: Control Boards",
+    "Components: Map (Continental / National scale)",
+    "Components: Wooden pieces & boards",
+    "Continents: Europe",
+    "History: Crusades"
+   ],
+   "desc": "Move your knights, erect buildings, and go crusading to spread the influence of your Order. When the Orders get too strong, King Philip will become nervous and disband all Templar orders, ending the game.\n\nCrusaders: Thy Will Be Done uses a combination of rondel and mancala mechanisms. Each player has their own rondel, which they can upgrade over the course of the game, that controls their action choices during the game. Your faction gives you a special power to control your rondel, and the buildings you erect will help you form a strategy.",
    "expansions": [
     {
      "id": "289240",
@@ -4142,10 +4448,10 @@
      "image": "https://cf.geekdo-images.com/FDJNeXF3PLJDhRHPYXO4GQ__original/img/HS0xb3e1s_GncdYp3AOjGPu-DAo=/0x0/filters:format(png)/pic3187849.png"
     }
    ],
-   "at": "2026-11-26T02:45:34.936Z"
+   "at": "2026-11-26T03:53:08.530Z"
   },
   "172308": {
-   "v": 2,
+   "v": 3,
    "id": "172308",
    "type": "boardgame",
    "best": "4",
@@ -4172,6 +4478,24 @@
     "Andreas Pelikan",
     "Alexander Pfister"
    ],
+   "artists": [
+    "Vincent Dutrait"
+   ],
+   "publishers": [
+    "alea",
+    "Ravensburger AG",
+    "Arclight Games",
+    "Broadway Toys LTD",
+    "Grow Jogos e Brinquedos",
+    "Hobby World"
+   ],
+   "families": [
+    "Game: Broom Service",
+    "Series: Alea Big Box",
+    "Theme: Witches",
+    "Theme: Wizards"
+   ],
+   "desc": "Score the most victory points by delivering potions via Broom Service throughout the magical realm.\n\nBroom Service is a card-based game that combines luck and skill and balances timely bluffing with clever hand management.\n\nRemake of award-winning Witch's Brew:\n\n    New theme! Now with 3 types of roles: witches, druids, and gatherers.\n    Drizzelda, the weather fairy, helps chase away the bad weather.\n    New illustrations and game pieces.\n    Same style of play, and by the same game designer as Witch's Brew.\n    New version also includes a 2-player version.\n\nThe game is played over 7 rounds, with 4 turns per round. Each round, players simultaneously select 4 of their 10 role cards, and then they take turns playing one role at a time. Each role has a brave action and a cowardly action; the brave action is stronger, but riskier, as another player could steal the action from you later; the cowardly action is safer, but not as robust. How well can you bluff your opponents?\n\nUse the gatherer roles to collect ingredients to make potions, the witch roles to zoom around on your broom to different areas, and the witch or druid roles to deliver the potions, collecting victory points as you go. Chase away lightning clouds with the help of the weather fairy, and keep an eye on the event cards that change game play, one event per round.\n\nThe winner is the player with the most victory points after all 7 rounds are complete and end-of-game bonus points have been awarded.",
    "expansions": [
     {
      "id": "204573",
@@ -4269,7 +4593,7 @@
      "image": "https://cf.geekdo-images.com/2ijkYfsp9lHm6_z5_pu9wQ__original/img/75wyMkgduHeoPlUng5hAW2N2rtQ=/0x0/filters:format(jpeg)/pic3625910.jpg"
     }
    ],
-   "at": "2026-11-26T02:45:37.527Z"
+   "at": "2026-11-26T03:53:11.104Z"
   },
   "177524": {
    "v": 2,
@@ -4508,7 +4832,7 @@
    "at": "2026-11-26T03:17:27.344Z"
   },
   "183284": {
-   "v": 2,
+   "v": 3,
    "id": "183284",
    "type": "boardgame",
    "best": "4",
@@ -4534,6 +4858,21 @@
    "designers": [
     "Corné van Moorsel"
    ],
+   "artists": [
+    "Nigel Sussman",
+    "Steven Tu"
+   ],
+   "publishers": [
+    "Cwali",
+    "Allplay",
+    "BoardGameTables.com",
+    "CMON Global Limited",
+    "Korea Boardgames"
+   ],
+   "families": [
+    "Theme: Factories"
+   ],
+   "desc": "In Factory Funner, players are factory managers who select and install machines in their factory. They try connect all machine input and output pipes to the right reservoirs or to other machines in order to build the most profitable configuration. A new machine brings revenue. Other things you build (reservoirs and connectors (pipelines)) cost 1K money each.\n\nIn each game round, players may select one machine (from a number of machines equal to the number of players) simultaneously, which means players try to quickly determine possible connections, then grab the tile they want. But by choosing too quickly, you risk taking a machine that doesn't fit well... When fitting in a machine, a key tactic is to keep the most and best options for connecting future machines!\n\nAfter eight rounds, the player with the most money wins.\n\nThe second edition of this game — Factory Funner&Bigger — features the same gameplay as the original release, but with a deeper box, more connectors, and slightly different colors for better usability, and without the \"jump\" machine as it had a high luck factor and created rules difficulty during play.",
    "expansions": [
     {
      "id": "197325",
@@ -4599,10 +4938,10 @@
      "image": "https://cf.geekdo-images.com/_3uI7zhjYq5oXmIfEsS0Sw__original/img/p1mtINPcGN-XMBuX8bo7FSNtewg=/0x0/filters:format(jpeg)/pic2651468.jpg"
     }
    ],
-   "at": "2026-11-26T03:16:58.117Z"
+   "at": "2026-11-26T03:54:39.068Z"
   },
   "217372": {
-   "v": 2,
+   "v": 3,
    "id": "217372",
    "type": "boardgame",
    "best": "2, 4",
@@ -4635,6 +4974,34 @@
    "designers": [
     "Reiner Knizia"
    ],
+   "artists": [
+    "Vincent Dutrait",
+    "Franz Vohwinkel"
+   ],
+   "publishers": [
+    "Ravensburger AG",
+    "999 Games",
+    "Arclight Games",
+    "Brain Games",
+    "Galápagos Jogos",
+    "Games7Days",
+    "Kaissa Chess & Games",
+    "Korea Boardgames",
+    "Lautapelit.fi",
+    "Lavka Games",
+    "Meeple",
+    "Nasza Księgarnia"
+   ],
+   "families": [
+    "Components:  Meeples",
+    "Components: Multi-Use Cards",
+    "Continents: South America",
+    "Game: The Quest for El Dorado",
+    "Occupation: Adventurer / Explorer",
+    "Region: Amazon Rainforest",
+    "Theme: Tropical"
+   ],
+   "desc": "In The Quest for El Dorado, players take the roles of expedition leaders who have embarked on a search for the legendary land of gold in the dense jungles of South America.\n\nEach player assembles and equips their own team, hiring various helpers from the scout to the scientist to the aborigine. All of them have one goal in mind: Reaching the golden border first and winning all of the riches for themselves. Whoever chooses the best tactics will be rewarded!\n\nEach player starts with a face-down deck of 8 cards — his or her expedition — to draw from. You start each turn with 4 cards in your hand. Use expedition cards to move through the jungle or hire more people for your expedition. Each card in your hand can only be used once per turn - to  move or to buy 1 new card.\n\nWhen a player reaches one of the 3 finishing spaces, he moves to El Dorado and this triggers the final round. The other players will now play their final turn. Once the round is completed, the game is over. If the final round ends up with multiple players reaching El Dorado, the player who has collected the most blockades wins the game.",
    "expansions": [
     {
      "id": "381137",
@@ -4876,10 +5243,10 @@
      "image": "https://cf.geekdo-images.com/E24Om9aK0y3puvYbDCKWyw__original/img/NLyqs49VzLJ6bNHjtErB-dQUtYg=/0x0/filters:format(jpeg)/pic4661618.jpg"
     }
    ],
-   "at": "2026-11-26T02:45:55.599Z"
+   "at": "2026-11-26T03:53:29.336Z"
   },
   "217861": {
-   "v": 2,
+   "v": 3,
    "id": "217861",
    "type": "boardgame",
    "best": "4",
@@ -4904,6 +5271,28 @@
    "designers": [
     "Masato Uesugi"
    ],
+   "artists": [
+    "Christine Alcouffe"
+   ],
+   "publishers": [
+    "Catch Up Games",
+    "Engames",
+    "Evrikus",
+    "Frosted Games",
+    "Funiverse",
+    "Game Harbor",
+    "Mercurio",
+    "MS Edizioni",
+    "Pegasus Spiele",
+    "Stronghold Games"
+   ],
+   "families": [
+    "Creatures: Demons",
+    "Creatures: Dragons",
+    "Creatures: Monsters",
+    "Mechanism: Tableau Building"
+   ],
+   "desc": "Experience two fantastical centuries of expansions and combat in Paper Tales. Remodel your assorted assembly of characters, units, and buildings in each period based on your developments and the age of your heroes. Write a new legend of the rightful ruler who brought unity to the rival kingdoms.\n\nIn more detail, Paper Tales is a simultaneous drafting card game. Each turn, players draft five units that they then recruit into their kingdom — assuming that they can pay. These choices determine the players ability to shine in battle, generate great income, construct dominant buildings, and earn legend points. There are only four hiring positions available during the four rounds of the play, but your units grow older with each turn until time takes them away.\n\nBuild a comprehensive strategy and adapt the shape of your realm according  to opportunities and restrictions  and you will make history!",
    "expansions": [
     {
      "id": "245473",
@@ -4981,7 +5370,7 @@
      "image": "https://cf.geekdo-images.com/eGbd9ql9yzgpV7HnyEL72Q__original/img/FNmkksckUpEMimeqIiFCaUR0HDI=/0x0/filters:format(jpeg)/pic7274873.jpg"
     }
    ],
-   "at": "2026-11-26T03:16:55.498Z"
+   "at": "2026-11-26T03:54:36.479Z"
   },
   "219122": {
    "v": 2,
@@ -5171,7 +5560,7 @@
    "at": "2026-11-26T03:17:30.027Z"
   },
   "244711": {
-   "v": 2,
+   "v": 3,
    "id": "244711",
    "type": "boardgame",
    "best": "3",
@@ -5205,6 +5594,32 @@
     "Simone Luciani",
     "Nestore Mangone"
    ],
+   "artists": [
+    "Klemens Franz"
+   ],
+   "publishers": [
+    "Cranio Creations",
+    "CMON Global Limited",
+    "Delta Vision Publishing",
+    "Ediciones MasQueOca",
+    "Kaissa Chess & Games",
+    "Lucrum Games",
+    "MeepleBR",
+    "Pixie Games",
+    "sternenschimmermeer",
+    "YOKA Games"
+   ],
+   "families": [
+    "Components: Map (Continental / National scale)",
+    "Components: Multi-Use Cards",
+    "Continents: Europe",
+    "Game: Newton",
+    "Mechanism: Tableau Building",
+    "Occupation: Researcher / Scientist",
+    "Theme: Physics",
+    "Theme: Science"
+   ],
+   "desc": "The middle of the 17th century was a period of great changes; with the advent of the scientific method came what we now call the Scientific Revolution. Many great scientists, with their theories and ideas, changed and shaped our perception of the universe: Galileo Galilei, Copernicus, Kepler, Bacon and, above all, Sir Isaac Newton.\n\nIn Newton, the players take the role of a young scientist who wants to become one of the great geniuses of this era. To reach their ultimate goal, they travel around Europe, visit universities and cities, study to discover new theories, build new tools and work to earn money.\n\nThe game is played over six rounds. Each round, every player plays five cards from their hand, and each played card allows the player to perform one of the many actions of the game. An action can have a variety of effects, which depend on the symbols on the board. At the end of the round, a player can take back all the cards except for one. One card has to remain on the board, which means that you give up one possibility of doing that action, but also that that very action will be carried out with greater strength. Fortunately, you can acquire new cards with additional powers to perform more actions.\n\nAfter six rounds, you calculate your final score, and the player with the most VP wins.\n\nThe New Edition includes:\n- Newton: Great Discoveries Expansion\n- Newton: Robert Hooke Promo Card\n- Newton: Stephen Hawking Promo Card\nAny other promos are not included.\n\n—description from…",
    "expansions": [
     {
      "id": "389120",
@@ -5326,7 +5741,7 @@
      "image": "https://cf.geekdo-images.com/-w-xtnlU9gvr6U0Nlm38Yw__original/img/z3q2OjBDJYOTKr3OOx3EtI0MhVQ=/0x0/filters:format(jpeg)/pic4237192.jpg"
     }
    ],
-   "at": "2026-11-26T02:45:32.365Z"
+   "at": "2026-11-26T03:53:05.958Z"
   },
   "249259": {
    "v": 2,
@@ -5476,7 +5891,7 @@
    "at": "2026-11-26T03:31:41.153Z"
   },
   "260605": {
-   "v": 2,
+   "v": 3,
    "id": "260605",
    "type": "boardgame",
    "best": "5〜6",
@@ -5503,6 +5918,32 @@
    "designers": [
     "Steffen Bogen"
    ],
+   "artists": [
+    "Chris Quilliams"
+   ],
+   "publishers": [
+    "eggertspiele",
+    "Choo Choo Games",
+    "Ediciones MasQueOca",
+    "Galápagos Jogos",
+    "Ghenos Games",
+    "Hobby Japan",
+    "Korea Boardgames",
+    "Lookout Games",
+    "Lucrum Games",
+    "Pegasus Spiele",
+    "Piatnik Distribution",
+    "Plan B Games"
+   ],
+   "families": [
+    "Animals: Camels",
+    "Components: Drop Tower",
+    "Components: Meeples (Animal) / Animeeples",
+    "Country: Egypt",
+    "Game: Camel Up",
+    "Theme: Deserts"
+   ],
+   "desc": "In Camel Up, up to eight players bet on five racing camels, trying to suss out which ones will place first and second in a quick race around a pyramid. The earlier you place your bet, the more you can win — should you guess correctly, of course. Camels don't run neatly, however, sometimes landing on top of another one and being carried toward the finish line. Who's going to run when? That all depends on how the dice come out of the pyramid dice shaker, which releases one die at a time when players pause from their bets long enough to see who's actually moving!\n\nThis 2018 edition of Camel Up features new artwork, a new game board design, a new pyramid design, engraved dice, and new game modes, including crazy rogue camels that start the race running in the opposite direction! You never know how a race will end!",
    "expansions": [
     {
      "id": "293240",
@@ -5664,7 +6105,7 @@
      "image": "https://cf.geekdo-images.com/WU8qB-7q1jotPjTwbA8koA__original/img/IFxC0xhT7bQcMuLK58yZJsUv3Zg=/0x0/filters:format(jpeg)/pic4455662.jpg"
     }
    ],
-   "at": "2026-11-26T02:45:42.681Z"
+   "at": "2026-11-26T03:53:16.395Z"
   },
   "263918": {
    "v": 2,
@@ -5965,7 +6406,7 @@
    "at": "2026-11-26T03:31:38.477Z"
   },
   "271615": {
-   "v": 2,
+   "v": 3,
    "id": "271615",
    "type": "boardgame",
    "best": "2, 4",
@@ -5992,6 +6433,28 @@
    "designers": [
     "Reiner Knizia"
    ],
+   "artists": [
+    "Vincent Dutrait",
+    "Franz Vohwinkel"
+   ],
+   "publishers": [
+    "Ravensburger AG",
+    "999 Games",
+    "Arclight Games",
+    "Lautapelit.fi",
+    "Lavka Games",
+    "Meeple",
+    "Nasza Księgarnia",
+    "Reflexshop"
+   ],
+   "families": [
+    "Components: Multi-Use Cards",
+    "Continents: South America",
+    "Game: The Quest for El Dorado",
+    "Region: Amazon Rainforest",
+    "Theme: Tropical"
+   ],
+   "desc": "In The Quest for El Dorado: The Golden Temples, which can be played as a standalone game or combined with The Quest for El Dorado, as well with its expansions, players have now reached the legendary city of gold and they have started to explore it. What will they find there?",
    "expansions": [],
    "bases": [],
    "en": "The Quest for El Dorado: The Golden Temples",
@@ -6068,10 +6531,10 @@
      "image": "https://cf.geekdo-images.com/Q1hmzzqmeiFU8j-6ILqLZg__original/img/dKlficdHi9Tqnxop8CwSFDIwn5c=/0x0/filters:format(jpeg)/pic4936842.jpg"
     }
    ],
-   "at": "2026-11-26T02:45:58.245Z"
+   "at": "2026-11-26T03:53:31.912Z"
   },
   "277700": {
-   "v": 2,
+   "v": 3,
    "id": "277700",
    "type": "boardgame",
    "best": "3",
@@ -6102,6 +6565,27 @@
     "Carl Van Ostrand",
     "Drake Villareal"
    ],
+   "artists": [
+    "Mihajlo Dimitrievski"
+   ],
+   "publishers": [
+    "Final Frontier Games",
+    "Devil Dice Games",
+    "Fabrika Igr",
+    "Galakta",
+    "Mosaico Jogos",
+    "Pegasus Spiele",
+    "Super Meeple",
+    "TCG Factory",
+    "TLAMA games"
+   ],
+   "families": [
+    "Components: 3-Dimensional (3D)",
+    "Components: Marbles",
+    "Game: Merchants Cove",
+    "Setting: The Five Realms"
+   ],
+   "desc": "Welcome ashore! Merchants Cove is a highly asymmetrical eurogame where each player assumes the role of a different fantasy merchant with a unique shop. The merchants contend to sell their goods to the arriving adventurers at the cove's piers—the most famous markets in the Five Realms. Each player uses their own set of role-specific components and gameplay mechanisms to produce their goods, increase their shop's efficiency, and—most importantly—get rich!\n\nThough the merchants work independently in their specialized shops, they compete against each other to attract customers, influence the demands for goods, and secure sponsorships from the four faction halls. To get an edge, merchants can employ local townsfolk to work in their shops as staff. Or if they dare to cut corners, they can gain leverage from the corrupt lair of rogues—but at what cost? After three days of selling at the markets, the wealthiest merchant shall be declared the winner!\n\n—description from the publisher",
    "expansions": [
     {
      "id": "337797",
@@ -6219,10 +6703,10 @@
      "image": "https://cf.geekdo-images.com/7iWA0qyj66CNoJ_sdTPiBA__original/img/U4iRNvAKUS13AgI18gC5CShi4is=/0x0/filters:format(jpeg)/pic6119179.jpg"
     }
    ],
-   "at": "2026-11-26T02:46:37.268Z"
+   "at": "2026-11-26T03:54:10.685Z"
   },
   "286096": {
-   "v": 2,
+   "v": 3,
    "id": "286096",
    "type": "boardgame",
    "best": "3",
@@ -6266,6 +6750,31 @@
    "designers": [
     "Jamey Stegmaier"
    ],
+   "artists": [
+    "Andrew Bosley",
+    "Rom Brown"
+   ],
+   "publishers": [
+    "Stonemaier Games",
+    "999 Games",
+    "Albi",
+    "Angry Lion Games",
+    "Arclight Games",
+    "Automa Factory",
+    "Delta Vision Publishing",
+    "Feuerland Spiele",
+    "Ghenos Games",
+    "Lavka Games",
+    "Ludofy Creative",
+    "Maldito Games"
+   ],
+   "families": [
+    "Components: Dice with Icons",
+    "Components: Miniatures",
+    "Mechanism: Tableau Building",
+    "Organizations: Automa Factory"
+   ],
+   "desc": "Tapestry is a two-hour game for 1-5 players designed by Jamey Stegmaier.\n\nCreate the civilization with the most storied history, starting at the beginning of humankind and reaching into the future. The paths you choose will vary greatly from real-world events or people — your civilization is unique!\n\nIn Tapestry, you start from nothing and advance on any of the four advancement tracks (science, technology, exploration, and military) to earn progressively better benefits. You can focus on a specific track or take a more balanced approach. You will also improve your income, build your capital city, leverage your asymmetric abilities, earn victory points, and gain tapestry cards that will tell the story of your civilization.\n\n—description from the publisher",
    "expansions": [
     {
      "id": "349998",
@@ -6419,10 +6928,10 @@
      "image": "https://cf.geekdo-images.com/z2LAej7AJXsIi1T9NE_9Lg__original/img/3twR-D8d_yEOJbaBj595XtWuokU=/0x0/filters:format(jpeg)/pic6657632.jpg"
     }
    ],
-   "at": "2026-11-26T02:46:29.456Z"
+   "at": "2026-11-26T03:54:02.884Z"
   },
   "286749": {
-   "v": 2,
+   "v": 3,
    "id": "286749",
    "type": "boardgame",
    "best": "5",
@@ -6448,6 +6957,32 @@
    "designers": [
     "Andreas Steding"
    ],
+   "artists": [
+    "Dennis Lohausen"
+   ],
+   "publishers": [
+    "Pegasus Spiele",
+    "Board Game Rookie",
+    "Delta Vision Publishing",
+    "Ediciones MasQueOca",
+    "Galakta",
+    "Galápagos Jogos",
+    "Games7Days",
+    "Ghenos Games",
+    "Hobby Japan",
+    "Mandoo Games",
+    "Matagot",
+    "Surfin' Meeple China"
+   ],
+   "families": [
+    "Components: Control Boards",
+    "Components: Map (Continental / National scale)",
+    "Country: Germany",
+    "Game: Hansa Teutonica",
+    "Occupation: Merchant",
+    "Theme: Hanseatic League"
+   ],
+   "desc": "The multi-award-winning strategy game Hansa Teutonica is back in a Big Box edition including the base game and all expansions. In the game, players attempt to increase their standing as merchants in the Hanseatic League by gaining prestige points in various ways. For instance, they can try to establish a network of counting offices in new Hansa cities by occupying an entire trade route between two cities — but before that happens, player markers can also be displaced by other players. Players may also aim to develop their trading skills, improving their abilities throughout the course of play. With only two actions per turn and a variety of contested opportunities, every turn is equally quick and strategically demanding.\n\nHansa Teutonica is a highly interactive strategy game as players block and push each other each turn, but it also gives cunning players the chance to put being blocked into an advantage. The game's many possible strategies can also be tested and perfected on the variant game boards of the beloved Hansa Teutonica: Britannia and Hansa Teutonica: East Expansion.",
    "expansions": [
     {
      "id": "335926",
@@ -6573,10 +7108,10 @@
      "image": "https://cf.geekdo-images.com/tyVxQGRRybYMsvcXYMTXvw__original/img/jYClSm5TYxtmw54QBUoZjskqPp4=/0x0/filters:format(png)/pic5579148.png"
     }
    ],
-   "at": "2026-11-26T02:45:22.032Z"
+   "at": "2026-11-26T03:52:55.573Z"
   },
   "290236": {
-   "v": 2,
+   "v": 3,
    "id": "290236",
    "type": "boardgame",
    "best": "3〜4",
@@ -6606,6 +7141,31 @@
     "Jeffrey Chin",
     "Andrew Nerger"
    ],
+   "artists": [
+    "Luan Huynh"
+   ],
+   "publishers": [
+    "Road To Infamy Games (R2i Games)",
+    "ADC Blackfire Entertainment",
+    "Awaken Realms",
+    "CoolPlay",
+    "Engames",
+    "GateOnGames",
+    "Gémklub",
+    "GoKids 玩樂小子",
+    "Kaissa Chess & Games",
+    "Korea Boardgames",
+    "Lavka Games",
+    "MEBO Games"
+   ],
+   "families": [
+    "Components: Cloth Boards",
+    "Components: Transparent Elements",
+    "Game: Canvas",
+    "Theme: Art",
+    "Theme: Painting / Paintings"
+   ],
+   "desc": "In Canvas, you play as a painter competing in an art competition. Players will collect art cards, layering 3 of them together to create their own unique Painting. Each card contains a piece of artwork as well as a set of icons used during scoring. Icons will be revealed or hidden based on the way players choose to layer the cards making for an exciting puzzle. Paintings are scored based on a set of Scoring cards which will change each game. Once players have created and scored 3 paintings the game ends.\n\nOn your turn you may take an Art card or make a painting. Art cards are selected from a row of cards in the center of play. Each of these cards has a cost associated with their position. After selecting an Art card you must pay its cost by placing an Inspiration token on each of the cards to its left. If you do not have enough Inspiration tokens, you may not select that card. Any tokens on the card you have selected are kept for future turns. The far left card costs no Inspiration tokens to take.\n\nIf you have three or more Art cards you may choose to make a painting. Select 3 of your art cards, arrange them in any order and then score them by comparing the visible icons on your painting to the Scoring conditions.\n\nOnce all players have made 3 paintings the game ends.\n\nThe player with the most points wins!\n\n—description from the publisher",
    "expansions": [
     {
      "id": "480070",
@@ -6763,10 +7323,10 @@
      "image": "https://cf.geekdo-images.com/4ZD6SRB0qO1SFACpIUbtZA__original/img/tWGVesjictg2vNVTPr2Xjg__R_I=/0x0/filters:format(jpeg)/pic9699502.jpg"
     }
    ],
-   "at": "2026-11-26T02:46:24.292Z"
+   "at": "2026-11-26T03:53:57.748Z"
   },
   "298069": {
-   "v": 2,
+   "v": 3,
    "id": "298069",
    "type": "boardgame",
    "best": "3〜4",
@@ -6797,6 +7357,30 @@
    "designers": [
     "John D. Clair"
    ],
+   "artists": [
+    "Banu Andaru",
+    "Felicia Cano",
+    "Jacqui Davis",
+    "Kali Fitzgerald",
+    "Ryan Iler"
+   ],
+   "publishers": [
+    "Alderac Entertainment Group",
+    "Boardgame Mall",
+    "Dice&Bones",
+    "Geekach LLC",
+    "Lavka Games",
+    "Ludistri",
+    "Maldito Games",
+    "Pegasus Spiele",
+    "White Goblin Games",
+    "YOKA Games"
+   ],
+   "families": [
+    "Components: Dice with Icons",
+    "Components: Meeples (Animal) / Animeeples"
+   ],
+   "desc": "Be fast or be last!\n\nIn Cubitos, players take on the role of participants in the annual Cube Cup, a race of strategy and luck to determine the Cubitos Champion. Each player has a runner on the racetrack and a support team, which is represented by all the dice you roll. Each turn, you roll dice and use their results to move along the racetrack, buy new dice, and use abilities — but you must be careful not to push your luck rolling too much or you could bust!\n\n—description from the publisher",
    "expansions": [
     {
      "id": "367354",
@@ -6898,10 +7482,10 @@
      "image": "https://cf.geekdo-images.com/PdWLlkjwrx976werRTmBYg__original/img/iuxfMevzgA25wtFsc0CFfeYBbmg=/0x0/filters:format(png)/pic6434575.png"
     }
    ],
-   "at": "2026-11-26T02:45:53.023Z"
+   "at": "2026-11-26T03:53:26.762Z"
   },
   "298229": {
-   "v": 2,
+   "v": 3,
    "id": "298229",
    "type": "boardgame",
    "best": "4",
@@ -6930,6 +7514,23 @@
    "designers": [
     "Orin Bishop"
    ],
+   "artists": [
+    "Lina Cossette",
+    "David Forest"
+   ],
+   "publishers": [
+    "Roxley",
+    "Mirakulus"
+   ],
+   "families": [
+    "Components: Gears",
+    "Game: Steampunk Rally",
+    "Historical Figures: Nikola Tesla",
+    "Organizations: The Game Artisans of Canada",
+    "Theme: Mad Science / Mad Scientist",
+    "Theme: Steampunk"
+   ],
+   "desc": "Steampunk Rally Fusion is a standalone game that can be combined with the original Steampunk Rally. It introduces new tracks with unique event cards, new part abilities (Gear Up and Overcharge), and a new card type: Secret Projects. It also debuts new custom dice representing powerful Fusion energy!\n\nTake on the role of ingenious inventors from history. Draft cards to invent your racing contraption. Power your creation's abilities with combinations of steam, heat, electricity, and Fusion dice. Use cogs to augment bad dice rolls and upgrade certain machine parts.\n\nSmashing through damaging terrain spaces may cause parts to fly off your machine, constantly forcing you to adapt your strategy and discover new card synergies. Fortune favors the brash, so get ready to Gear Up, Overcharge your machine, and remake history!\n\n—description from the publisher",
    "expansions": [
     {
      "id": "332065",
@@ -6971,10 +7572,10 @@
      "image": "https://cf.geekdo-images.com/dnh13DJ3J_ISDYssfyUCWg__original/img/52fKWzHO4EnldmcSdtHbVjPPdpY=/0x0/filters:format(jpeg)/pic5212622.jpg"
     }
    ],
-   "at": "2026-11-26T02:46:19.087Z"
+   "at": "2026-11-26T03:53:52.616Z"
   },
   "332386": {
-   "v": 2,
+   "v": 3,
    "id": "332386",
    "type": "boardgame",
    "best": "3",
@@ -7001,6 +7602,26 @@
    "designers": [
     "Stevo Torres"
    ],
+   "artists": [
+    "Jake Morrison",
+    "Andrew Thompson"
+   ],
+   "publishers": [
+    "Pandasaurus Games",
+    "Catch Up Games",
+    "Cosmodrome Games",
+    "Delirium Games",
+    "Ghenos Games",
+    "Lotus Frog Games",
+    "Portal Games",
+    "Skellig Games"
+   ],
+   "families": [
+    "Components: Dice with Icons",
+    "Theme: Seasons of the year",
+    "Theme: Trees and Forests"
+   ],
+   "desc": "Bring balance back to the forest!\n\nTime is broken and shattered. The seasons all exist at once, and day and night have no real cycle — they rotate at the whim of the forest. This enchanted land has been driven into chaos and it's up to you, the cunning mystics of the forest, to tame extraordinary woodland creatures and use your magic to bring back balance.\n\nIn Brew, players must choose how to use element dice, either to take back control of as many seasons as possible in an area-control game or to procure goods at the local village in a worker-placement game. Recruiting woodland creatures and brewing potions can help offset chance die-rolls or create an engine to help you tame the lands.",
    "expansions": [
     {
      "id": "336808",
@@ -7082,10 +7703,10 @@
      "image": "https://cf.geekdo-images.com/u2TyuzEWE9vO2FNUn_a3Fw__original/img/MGnY0Z13AI0gV3VaA-FTZlHgDMI=/0x0/filters:format(png)/pic6610970.png"
     }
    ],
-   "at": "2026-11-26T03:16:50.144Z"
+   "at": "2026-11-26T03:54:31.329Z"
   },
   "333255": {
-   "v": 2,
+   "v": 3,
    "id": "333255",
    "type": "boardgame",
    "best": "2",
@@ -7114,6 +7735,31 @@
    "designers": [
     "Luís Brueh"
    ],
+   "artists": [
+    "Luís Brueh"
+   ],
+   "publishers": [
+    "Brueh Games Inc.",
+    "Board Zeppelin",
+    "Conclave Editora",
+    "Delirium Games",
+    "Dice&Bones",
+    "Fruhling-Honpo",
+    "MINDOK",
+    "Mirakulus",
+    "MTS Games",
+    "Treetato Studio",
+    "Vagabund",
+    "Ігромаг"
+   ],
+   "families": [
+    "Category: Tower Defense",
+    "Components:  Meeples",
+    "Components: Meeples (Monster)",
+    "Game:  Keep the Heroes Out!",
+    "Theme: Villainy"
+   ],
+   "desc": "An asymmetric, cooperative dungeon defense game where you play as the monsters protecting their hard earned treasures against invading hordes of looters (so-called heroes) trying to steal it.\n\nIn their turn players draw 5 cards and play, these cards allow them to move, activate the tiles they are to perform the tiles actions, attack heroes, and move their units around. After each player, draw and perform cards from the heroes deck.\n\nYour goal as a team in every scenario is to survive the 2 waves of invading heroes by protecting the treasures on each room. If the main treasure is taken, the game ends and you lose, but if you manage to protect the treasures for long enough, you all win.\n\n—description from the designer",
    "expansions": [
     {
      "id": "454171",
@@ -7255,10 +7901,10 @@
      "image": "https://cf.geekdo-images.com/lfFKMNCzIJesp8IFHK8dEw__original/img/qtWs6Wg0a241k2D1TWWbesVwu-s=/0x0/filters:format(jpeg)/pic6985339.jpg"
     }
    ],
-   "at": "2026-11-26T02:46:06.033Z"
+   "at": "2026-11-26T03:53:39.728Z"
   },
   "342010": {
-   "v": 2,
+   "v": 3,
    "id": "342010",
    "type": "boardgame",
    "best": "4",
@@ -7285,6 +7931,19 @@
    "designers": [
     "AC Atienza"
    ],
+   "artists": [],
+   "publishers": [
+    "Buffalo Games"
+   ],
+   "families": [
+    "Authors: Roald Dahl",
+    "Books: Charlie and the Chocolate Factory",
+    "Components: 3 x 3 Grids",
+    "Components: Multi-Use Cards",
+    "Components: Wooden pieces & boards",
+    "Food & Drink: Chocolate"
+   ],
+   "desc": "Willy Wonka is opening his factory at last –but only for a lucky few! He has hidden Golden Tickets in his Wonka Bars. If you can find a Golden Ticket, then you win the big prize.\n\nUse strategy on every move and play your Wonka Candy cards to collect as many Wonka Bars as you can to better your odds of finding a Golden Ticket! When the last Wonka Bar is picked up, everyone opens up their collection to see who's got a Golden Ticket! This family strategy game requires planning, combo-making, and a little bit of luck.\n\nOn a player's turn they can do two actions. The actions consist of playing cards from their hand, discarding a card to move one space, or refilling their hand back up to their draw size. When a character lands on a gameboard space, they can also use the do listed action on that space as part of their move. At the beginning of the game,  a limited number of golden tickets are added to the Wonka Bars depending on the number of players. The bars are then mixed up. The whole point of the game is to try and earn as many Wonka Bars as possible throughout the game to better your chances of ending with a Golden Ticket.\n\nWhen all Wonka Bars from the pool of bars are claimed the game is over. At this point all players will unwrap the bars they have earned.\n\nAny player that ends with at least one Golden Ticket wins! Any player that does not end with a Golden Ticket loses.",
    "expansions": [],
    "bases": [],
    "en": "The Golden Ticket Game",
@@ -7305,10 +7964,10 @@
      "image": "https://cf.geekdo-images.com/2cRn3woQvLT-3ZhY6rWaOQ__original/img/64l3X7JsX3gSBR6fYoa5JRsYqPM=/0x0/filters:format(jpeg)/pic6695603.jpg"
     }
    ],
-   "at": "2026-11-26T02:45:40.106Z"
+   "at": "2026-11-26T03:53:13.669Z"
   },
   "342949": {
-   "v": 2,
+   "v": 3,
    "id": "342949",
    "type": "boardgame",
    "best": "5",
@@ -7331,6 +7990,18 @@
    "designers": [
     "Yog Akase (赤瀬 よぐ)"
    ],
+   "artists": [
+    "Yog Akase (赤瀬 よぐ)"
+   ],
+   "publishers": [
+    "SUNNY BIRD",
+    "よぐゲーム (Yog Games)"
+   ],
+   "families": [
+    "Theme: Factories",
+    "Theme: Steampunk"
+   ],
+   "desc": "Factoria, a land surrounded by clouds of steam and the music of gears\nI'm currently in the library of the sky, reading through ancient technical books.\nI have to hurry, the legendary gears are finally up for auction.\n\nThe players aim to save up 100G before anyone else by running factories to process the relics they have, developing technology and gaining abilities to make the legendary gear their own.\n\nGrowing a shared factory will accelerate the entire game.\n　\nAn expansion/reproduction board game set in a steampunk world",
    "expansions": [
     {
      "id": "419925",
@@ -7356,10 +8027,10 @@
      "image": "https://cf.geekdo-images.com/Y4Zx9vzGoDsJDo-s2SGx5Q__original/img/q05PkuxmPPKeXGPeCYjJ1JhEqtA=/0x0/filters:format(jpeg)/pic7252536.jpg"
     }
    ],
-   "at": "2026-11-26T02:46:39.848Z"
+   "at": "2026-11-26T03:54:13.261Z"
   },
   "347703": {
-   "v": 2,
+   "v": 3,
    "id": "347703",
    "type": "boardgame",
    "best": "3〜4",
@@ -7385,6 +8056,28 @@
     "Gabriele Ausiello",
     "Virginio Gigli"
    ],
+   "artists": [
+    "Dennis Lohausen"
+   ],
+   "publishers": [
+    "Pegasus Spiele",
+    "Across the Board",
+    "CMON Global Limited",
+    "Gémklub",
+    "Geronimo Games",
+    "HANALL M&C",
+    "Hobby Japan",
+    "MYBG Co., Ltd.",
+    "Nasza Księgarnia"
+   ],
+   "families": [
+    "Animals: Rats",
+    "Category: Combinatorial",
+    "Components: Scoring pad",
+    "Space: Earth's Moon",
+    "Theme: Trash / Garbage"
+   ],
+   "desc": "For generations, the rats in the old junkyard have been telling each other the great legend about a moon made out of cheese and they want nothing more than to reach this inexhaustible treasure. One day, the little rat children discovered a comic in the junkyard that described the first landing on the moon, and thus the plan was born: Build a rocket and take over the cheese moon!\n\nFortunately, the junkyard has everything the rats need to build their rocket, and the other animals are willing to support this daring venture — at least if they're well paid. Of course, all the rats work together to achieve this mighty goal. However, each rat family competes to build the most rocket parts and to train the most rattronauts so they can feast on as much of the lunar cheese as possible.\n\nIn First Rat, each player starts with two rats and may raise two more. On your turn, you either move one of your rats 1-5 spaces on the path or move 2-4 of your rats 1-3 spaces each as long as they end up on spaces of the same color. Your rats can never share the same space, and if you land in a space with another player's rat, you must pay them one cheese, borrowing cheese from the back as needed. After movement, you collect resources (cheese, tin cans, apple cores, baking soda, etc.) matching the color of the space you occupy or move your lightbulb along the light string, which will boost your income in future turns. (More lights in the junkyard makes it easier for you to find things!)\n\nIf you end…",
    "expansions": [],
    "bases": [],
    "en": "First Rat",
@@ -7469,10 +8162,10 @@
      "image": "https://cf.geekdo-images.com/TAmP5w8gDSXe7APvp8tMVw__original/img/sxlrsxj497dHDrWywWCKOL_senY=/0x0/filters:format(jpeg)/pic6502612.jpg"
     }
    ],
-   "at": "2026-11-26T02:45:24.607Z"
+   "at": "2026-11-26T03:52:58.192Z"
   },
   "350933": {
-   "v": 2,
+   "v": 3,
    "id": "350933",
    "type": "boardgame",
    "best": "2",
@@ -7502,6 +8195,24 @@
     "Matthew Dunstan",
     "Brett J. Gilbert"
    ],
+   "artists": [
+    "Gerralt Landman"
+   ],
+   "publishers": [
+    "Alderac Entertainment Group",
+    "CMON Global Limited",
+    "Delirium Games",
+    "Lucky Duck Games",
+    "Origames",
+    "Skellig Games",
+    "Tabletop KZ",
+    "YOKA Games",
+    "株式会社ケンビル (KenBill)"
+   ],
+   "families": [
+    "Game:  The Guild of Merchant Explorers"
+   ],
+   "desc": "In The Guild of Merchant Explorers, each player starts with one city on their personal map board.\n\nShuffle the deck of terrain cards, then reveal most of these cards one by one. Based on the terrain revealed, each player places on their board cubes that are connected to their starting city or other cubes. You want to complete areas on your board, cross the seas to new land, and establish new cities on the board. You can explore capsized ships for treasure — which gives you special placement capabilities — and create linked connections between locations to score bonus points. Common objectives can be completed by all players, with those who complete it first scoring more points.\n\nAt the end of a round, all cubes are removed from each board, leaving only the cities behind, so if you don't establish new cities, you'll be stuck in the same places.\n\nThe Guild of Merchant Explorers contains multiple copies of four different maps, and the game is designed so that you can play remotely with one or more copies.",
    "expansions": [
     {
      "id": "451710",
@@ -7587,7 +8298,7 @@
      "image": "https://cf.geekdo-images.com/HZQAedsq10yAgotyNth4og__original/img/jTvjgU0WrhyTKWf0bDyMrhPqsdM=/0x0/filters:format(jpeg)/pic6670587.jpg"
     }
    ],
-   "at": "2026-11-26T02:46:11.195Z"
+   "at": "2026-11-26T03:53:44.875Z"
   },
   "352574": {
    "v": 2,
@@ -7729,7 +8440,7 @@
    "at": "2026-11-26T03:17:45.876Z"
   },
   "359970": {
-   "v": 2,
+   "v": 3,
    "id": "359970",
    "type": "boardgame",
    "best": "4, 6, 8",
@@ -7757,6 +8468,27 @@
     "Johannes Krenner",
     "Markus Slawitscheck"
    ],
+   "artists": [
+    "Jeff Harvey"
+   ],
+   "publishers": [
+    "1 More Time Games",
+    "ADC Blackfire Entertainment",
+    "Choo Choo Games",
+    "Galápagos Jogos",
+    "Game Harbor",
+    "Gémklub",
+    "GoKids 玩樂小子",
+    "Hobby Japan",
+    "Korea Boardgames",
+    "Lord of Boards",
+    "Rebel Sp. z o.o.",
+    "Tower Tactic Games"
+   ],
+   "families": [
+    "Components: Neoprene Mat"
+   ],
+   "desc": "Challengers! is an interactive deck-management game for 1-8 players that plays in about 45 minutes independent of player count. With the tournament gameplay style, you meet another opponent every round.\n\nIn the Deck Phase, you choose new members and add them to your deck, which might consist of a wizard, alien, cat, gangster and kraken. 75 distinct characters with more than 40 exciting effects create a unique experience every game. Choose from six different sets and discover new strategies and synergies every game.\n\nIn the Match Phase, stay in flag possession to win the trophy of that round. Try to get the most fans and trophies over the course of seven rounds to be able to qualify for the final. If you can best your opponent in the final, you win Challengers!\n\n(If you think that all sounds a lot like a board game adaption of a digital Autobattler, we are proud to tell you that this is the first of its kind!)\n\n—description from the publisher",
    "expansions": [
     {
      "id": "403909",
@@ -7890,10 +8622,10 @@
      "image": "https://cf.geekdo-images.com/DGUWPzDogfH7uyAhq8qmyg__original/img/7iHPTGXKsxLSJh6YHicEQQlX_tk=/0x0/filters:format(png)/pic7529580.png"
     }
    ],
-   "at": "2026-11-26T02:45:50.452Z"
+   "at": "2026-11-26T03:53:24.198Z"
   },
   "362976": {
-   "v": 2,
+   "v": 3,
    "id": "362976",
    "type": "boardgame",
    "best": "2",
@@ -7917,6 +8649,27 @@
    "designers": [
     "Torben Ratzlaff"
    ],
+   "artists": [
+    "Torben Ratzlaff"
+   ],
+   "publishers": [
+    "Pandasaurus Games",
+    "BO3 Studio",
+    "CMON Global Limited",
+    "CrowD Games",
+    "Devir",
+    "Ghenos Games",
+    "IELLO",
+    "MINDOK",
+    "Shapes and Dreams",
+    "Ігромаг"
+   ],
+   "families": [
+    "Constructions: Lighthouses",
+    "Game: Beacon Patrol (Shapes and Dreams)",
+    "Region: North Sea"
+   ],
+   "desc": "You are captains of the Coast Guard. Together you check beacon buoys and lighthouses to ensure the safety of the North Sea coast.\n\nYou place your tiles next to tiles that are already placed, move your ships, and explore the sea.\n\nYour goal is to explore as many tiles as possible. A tile is considered explored when it's connected to other tiles on all four of its sides.\n\nBeacon Patrol is a co-op tile-laying exploration game in which you navigate the coast of the North Sea to secure its beacon buoys, lighthouses and waterways.\n\n—description from the designer",
    "expansions": [
     {
      "id": "390721",
@@ -8010,7 +8763,7 @@
      "image": "https://cf.geekdo-images.com/LiXQZh4mwWpiNs-DnCOUiw__original/img/8dLDRLuavMSUvNJoLTwBY_Fj3rc=/0x0/filters:format(jpeg)/pic6881713.jpg"
     }
    ],
-   "at": "2026-11-26T03:17:00.719Z"
+   "at": "2026-11-26T03:54:41.640Z"
   },
   "364073": {
    "v": 2,
@@ -8163,7 +8916,7 @@
    "at": "2026-11-26T03:17:19.310Z"
   },
   "368899": {
-   "v": 2,
+   "v": 3,
    "id": "368899",
    "type": "boardgame",
    "best": "3〜4",
@@ -8187,6 +8940,28 @@
     "Markus Slawitscheck",
     "Arno Steinwender"
    ],
+   "artists": [
+    "Ian Parovel",
+    "Camillia Peyroux"
+   ],
+   "publishers": [
+    "Happy Baobab",
+    "Blackrock Games",
+    "Brain Games",
+    "GaGa Games",
+    "Game Factory",
+    "Gémklub",
+    "Hachette Boardgames Benelux",
+    "Mega Bleu"
+   ],
+   "families": [
+    "Components: 3-Dimensional (3D)",
+    "Components: Dice with Icons",
+    "Components: Game Box Used In Play",
+    "Components: Gems/Crystals",
+    "Theme: Trees and Forests"
+   ],
+   "desc": "Let's go to the Forest of Keys to recover the king's memory!\nPlease find the beautiful memories of the king have sealed in the treasure chest.\nThe forest of Keys where true and fake keys are hidden! Now the adventures will start!\n\nMagic Keys is simple and beautiful push-your-luck game to collect gems.\nPlayer rolls the dice to move forward on the road. When the player stops at a space with a key, they could try to open the treasure chest.\nIf the key was a true key, the chest will open! They get some gems as reward according to the color of the key.\nIf you want more gems when open the chest, you should reach a farther space on the road! But be careful! If your all dice goes sleep, your turn will immediately end!\n\nThe game ends when a player collects required number of gems.\n\n—description from the publisher",
    "expansions": [],
    "bases": [],
    "en": "Magic Keys",
@@ -8263,10 +9038,10 @@
      "image": "https://cf.geekdo-images.com/KDiEBN7WPX2OGkQQBZfJoA__original/img/6L4aQQOtlDaxi0Y7R7OMcSHFz8E=/0x0/filters:format(png)/pic9040158.png"
     }
    ],
-   "at": "2026-11-26T02:46:42.436Z"
+   "at": "2026-11-26T03:54:15.850Z"
   },
   "387780": {
-   "v": 2,
+   "v": 3,
    "id": "387780",
    "type": "boardgame",
    "best": "3",
@@ -8292,6 +9067,30 @@
     "Simone Luciani",
     "Danilo Sabia"
    ],
+   "artists": [
+    "Candida Corsi",
+    "Sara Valentino"
+   ],
+   "publishers": [
+    "Cranio Creations",
+    "Capstone Games",
+    "CrowD Games",
+    "DSV Games",
+    "Game Harbor",
+    "Grok Games",
+    "HIT Games",
+    "Intrafin Games",
+    "Maldito Games",
+    "PD-Verlag",
+    "Portal Games",
+    "TLAMA games"
+   ],
+   "families": [
+    "Animals: Rats",
+    "Mechanism: Tableau Building",
+    "Theme: Anthropomorphic Animals"
+   ],
+   "desc": "In Rats of Wistar, you play the role of one of the four rats who organized the escape from a lab. As such, you will have to lead your family to prove that you are the most deserving of leading the entire colony. Thanks to your extraordinary skills, you will be able to explore the Farm until you reach the pantry to be able to grab the appetizing cheese; exploiting the artifacts abandoned by humans at the edge of the Wood, you will create new inventions and expand your lair under the trees, digging new rooms and building new beds. You will meet native rats and mice that you will welcome into your family, and when necessary, you will visit the Alchemist mouse to gain some extra advantage.\n\nThe game takes place over 5 rounds (equal to the 5 days in which the challenge takes place) and you will earn victory points (VPs) as follows:\n\n     build beds,\n     excavation rooms,\n     by solving missions within the Farm,\n     welcome host mice,\n     build new Inventions,\n     claim Achievements.\n\nAt the end of the game, the player with the most VPs wins. In case of a tie, the player furthest in the turn order wins.\n\nNote: Rats of Wistar is not affiliated, associated, authorized, endorsed by, or in any way officially connected with The Wistar Institute of Anatomy and Biology.\n\n—description from the publisher",
    "expansions": [
     {
      "id": "455451",
@@ -8417,10 +9216,10 @@
      "image": "https://cf.geekdo-images.com/m5TY1VZ-jyrb52GsPh7ufw__original/img/Dk-p2nwiD4aaiFLS1tvex9srKnU=/0x0/filters:format(png)/pic7540938.png"
     }
    ],
-   "at": "2026-11-26T02:45:29.756Z"
+   "at": "2026-11-26T03:53:03.388Z"
   },
   "389094": {
-   "v": 2,
+   "v": 3,
    "id": "389094",
    "type": "boardgame",
    "best": "3",
@@ -8449,6 +9248,22 @@
    "designers": [
     "David Goh"
    ],
+   "artists": [
+    "Isaac Benjamin (Enuryn)",
+    "David Goh",
+    "Jim Tan",
+    "Nadiyah Toi",
+    "Yang Shao Xuan",
+    "Uenki Yong"
+   ],
+   "publishers": [
+    "Hyperlixir",
+    "Giant Roc"
+   ],
+   "families": [
+    "Theme: Alchemy"
+   ],
+   "desc": "Set 12 years after Mercurial, Mercurial: Alchemia puts you in the shoes of an aspiring Alchemist in the thriving allied hub of Concordia. During nights, you'll cultivate a personal terrarium brimming with fantastical flora and fauna, harvesting them to unlock their potential for crafting elixirs. During the day, you'll explore the bustling Taliq'ir Bazaar to acquire seeds and eggs to introduce into your growing ecosystem. You'll also visit Runaliths — colossal crystalline structures — to bestow enchantments on your terrarium. Chance a meeting with rival alchemists and their companion Arcanas, and you may forge collaborations amid competition.\n\nAs you brew experimental potions to sell to the Guild, your choice of ingredients used is vital. Their distinct qualities can enhance or negate each other, with your mastery and skill determining whether strides in magical advancement are made or utter failure.\n\nEmbark on an alchemical odyssey where your magnum opus awaits or perhaps even discover the fabled Philosopher's stone!\n\n—description from the publisher",
    "expansions": [],
    "bases": [],
    "en": "Mercurial: Alchemia",
@@ -8460,7 +9275,7 @@
    "thumb": "https://cf.geekdo-images.com/Ps-ghKTQJBnchIqqRKcu5w__small/img/6JLI2l-AJN2JeNK9w6xIoffquXw=/fit-in/200x150/filters:strip_icc()/pic9898744.jpg",
    "image": "https://cf.geekdo-images.com/Ps-ghKTQJBnchIqqRKcu5w__original/img/F4Vrv-G56927_0CKD3DkiKfXrZY=/0x0/filters:format(jpeg)/pic9898744.jpg",
    "versions": [],
-   "at": "2026-11-26T02:46:03.393Z"
+   "at": "2026-11-26T03:53:37.162Z"
   },
   "392809": {
    "v": 2,
@@ -8525,7 +9340,7 @@
    "at": "2026-11-26T03:17:51.149Z"
   },
   "393325": {
-   "v": 2,
+   "v": 3,
    "id": "393325",
    "type": "boardgame",
    "best": "3",
@@ -8553,6 +9368,19 @@
     "Remo Conzadori",
     "Paolo Mori"
    ],
+   "artists": [
+    "Jonathan Aucomte"
+   ],
+   "publishers": [
+    "PlayPunk",
+    "Evrikus",
+    "Hachette Boardgames UK"
+   ],
+   "families": [
+    "Game: Captain Flip (PlayPunk)",
+    "Theme: Pirates"
+   ],
+   "desc": "Ahoy, Captain!\nHoist your flag, recruit a crew, and fill your coffers with shiny, gold coins.\n\nCaptain Flip is a game of obvious simplicity explained in less time than a cannonball shot. On your turn, draw a tile from the bag. You like it? Keep it! You don't like it? Flip it! Then place it on your board to form your crew.\n\nWith its nine characters and four boards with different tactics, Captain Flip offers an immediate, fun, and subtle gaming experience.\n\n—description from the publisher",
    "expansions": [
     {
      "id": "442638",
@@ -8686,10 +9514,10 @@
      "image": "https://cf.geekdo-images.com/vecUDu77C_r9mNevj78wmQ__original/img/R5-biRJjWov6OArrvXBsUBYNh50=/0x0/filters:format(png)/pic8277818.png"
     }
    ],
-   "at": "2026-11-26T02:45:19.457Z"
+   "at": "2026-11-26T03:52:52.982Z"
   },
   "394094": {
-   "v": 2,
+   "v": 3,
    "id": "394094",
    "type": "boardgame",
    "best": "2",
@@ -8720,6 +9548,18 @@
    "designers": [
     "Akashi"
    ],
+   "artists": [],
+   "publishers": [
+    "14games",
+    "JJ Board Game",
+    "Mysterious Island Games",
+    "Soragame Studio"
+   ],
+   "families": [
+    "Theme: Hotels, Inns, Lodgings",
+    "Theme: Mountains"
+   ],
+   "desc": "Snow Planner is a dice-placement game where players take the role of managing an inn near snowy mountains. Players take turns placing a die on the game board, and once all the dice are gone, the round ends.\n\nYou will invite guests to stay at your hotel, with them paying you at the end of a round and ideally staying additional nights so that you don't have to find more guests. By placing tiles on your board, you upgrade the hotel, increasing bonuses and earning more income. Dice can also represent employees, who gain you resources with their work time; additional dice can be earned, both permanent and part-time.\n\nEach player starts with one of the talent cards, giving them unique powers during the game. By using this power and their dice, players can fulfill goals and projects or attract VIP guests.\n\nIn the end, whoever earns the most points wins.",
    "expansions": [
     {
      "id": "452113",
@@ -8781,10 +9621,10 @@
      "image": "https://cf.geekdo-images.com/N1W0XVEhZA2nfPMLZ4EfFw__original/img/T5I_4TOnegoK_aNADr9FgG-S5CU=/0x0/filters:format(jpeg)/pic8642988.jpg"
     }
    ],
-   "at": "2026-11-26T02:46:00.823Z"
+   "at": "2026-11-26T03:53:34.508Z"
   },
   "394150": {
-   "v": 2,
+   "v": 3,
    "id": "394150",
    "type": "boardgameexpansion",
    "best": "2",
@@ -8805,6 +9645,23 @@
    "designers": [
     "Luís Brueh"
    ],
+   "artists": [
+    "Luís Brueh"
+   ],
+   "publishers": [
+    "Brueh Games Inc.",
+    "Dice&Bones",
+    "Mirakulus",
+    "MTS Games"
+   ],
+   "families": [
+    "Category: Tower Defense",
+    "Components:  Meeples",
+    "Components: Meeples (Monster)",
+    "Game:  Keep the Heroes Out!",
+    "Theme: Boss Battle"
+   ],
+   "desc": "Keep the Heroes Out: Boss Battles! will bring more Scenarios, more Monsters, new ways to handle difficulty and, of course, Boss Battles! These big baddies will have their own special deck of abilities to spice things up!\n\n—description from the publisher",
    "expansions": [
     {
      "id": "454171",
@@ -8851,10 +9708,10 @@
      "image": "https://cf.geekdo-images.com/aW6ZfL4494d930euj-MGAw__original/img/d0Zr97bSd-we8eSG-OVeexYqTDk=/0x0/filters:format(jpeg)/pic7793981.jpg"
     }
    ],
-   "at": "2026-11-26T02:46:08.620Z"
+   "at": "2026-11-26T03:53:42.298Z"
   },
   "396749": {
-   "v": 2,
+   "v": 3,
    "id": "396749",
    "type": "boardgame",
    "best": "1",
@@ -8888,6 +9745,21 @@
    "designers": [
     "Kasper Lapp"
    ],
+   "artists": [
+    "Gyom",
+    "Anthony Moulins"
+   ],
+   "publishers": [
+    "Sit Down!",
+    "2Tomatoes Games",
+    "Game Harbor"
+   ],
+   "families": [
+    "Category: Dungeon Crawler",
+    "Game: Magic Maze",
+    "Theme: Burglary and Heists"
+   ],
+   "desc": "Magic Maze Tower is a new standalone game in the universe of the Magic Maze range.\n\nThe adventures of the dwarf, the elf, the barbarian and the magician at the mall were a failure and our (brave) adventurers find themselves prisoners of a tower, or rather, of a high-security prison. They will probably need the help of a 5th hero to help them....\n\nThe goal of the game is to complete as many levels as possible to escape the prison.\n\nMagic Maze Tower is played on a single Level tile, without an hourglass (you can take your time!), without a \"do something\" token, but the communication is still limited: Speaking is forbidden.\n\nSETUP\n\n     Place a Level card in front of the players.\n     Place the Hero pawn of the corresponding color on each Hero space (not all 5 pawns are used every time).\n     Distribute the Action tiles to the players.\n\nHOW TO PLAY\n\nFor a level to be completed, all conditions for passing the level must be met and the heroes must then use the exit.\n\nAll players will simultaneously move the pawns according to the action assigned to them.\n\nTogether, solve the puzzle to save the adventurers.\n\nWhen a level is completed, you move on to the next one.\n\n—description from the publisher",
    "expansions": [],
    "bases": [],
    "en": "Magic Maze Tower",
@@ -8932,7 +9804,7 @@
      "image": "https://cf.geekdo-images.com/KUD4VXV_XbsvdprI4SLfyw__original/img/NEbKH8fJFD9DlShoPdYopR5ZOac=/0x0/filters:format(jpeg)/pic9207955.jpg"
     }
    ],
-   "at": "2026-11-26T02:45:16.864Z"
+   "at": "2026-11-26T03:52:50.382Z"
   },
   "407297": {
    "v": 2,
@@ -9181,7 +10053,7 @@
    "at": "2026-11-26T03:17:22.004Z"
   },
   "417618": {
-   "v": 2,
+   "v": 3,
    "id": "417618",
    "type": "boardgameexpansion",
    "best": "2, 4",
@@ -9206,6 +10078,17 @@
    "designers": [
     "Torben Ratzlaff"
    ],
+   "artists": [
+    "Torben Ratzlaff"
+   ],
+   "publishers": [
+    "Pandasaurus Games",
+    "CrowD Games"
+   ],
+   "families": [
+    "Game: Beacon Patrol (Shapes and Dreams)"
+   ],
+   "desc": "The first expansion for Beacon Patrol introduces 7 new ship types with varying difficulty levels and 20 new exploration tiles.\n As you venture along the coast, you encounter new ships that can aid you in navigating the difficult terrain ahead. Join forces with these other ships and combine your unique abilities to protect the coastlines. But beware, while the ships can assist you in your travels, they require expert hands to operate!\n\n     Construction Ship: You may refill 1 movement token each time you place a tile.\n     Research Vessel: You may swap up to 2 tiles each turn.\n     Coast Guard Ship: You may spend 1 movement token to move to any Outpost tile or the Beacon Patrol HQ.\n     Hover Craft: You may spend 1 movement token to place a tile connected by land and move onto it, and 2 movement tokens to move 1 space over land.\n     Pilot Ship: You can't move your ship to a tile when you place it unless you spend a movement token. Because of this, you may place tiles that are connected to you by land.\n     Ferry: You may move up to 3 tiles in a straight line when you spend a movement token. You can't swap tiles on your turn.\n     Submarine: You may exchange 1 of your unplayed tiles with the top tile of the discard pile. Discarding tiles does not refill your movement.\n\nIn addition to these new powers some of these ships will add new tiles into the game, adding more ways to score as well as new challenges!\n\n—description from the publisher",
    "expansions": [],
    "bases": [
     {
@@ -9239,7 +10122,7 @@
      "image": "https://cf.geekdo-images.com/-E0WYwYk_0iuhXjalP5jTA__original/img/p8_FLybGrfppY_RJZBS7f_fx2w4=/0x0/filters:format(png)/pic8107991.png"
     }
    ],
-   "at": "2026-11-26T03:17:03.459Z"
+   "at": "2026-11-26T03:54:44.213Z"
   },
   "417629": {
    "v": 2,
@@ -9296,7 +10179,7 @@
    "at": "2026-11-26T03:17:32.612Z"
   },
   "421217": {
-   "v": 2,
+   "v": 3,
    "id": "421217",
    "type": "boardgame",
    "best": "2〜3",
@@ -9323,6 +10206,18 @@
    "designers": [
     "Chris Porter"
    ],
+   "artists": [
+    "Pretty Useful Co."
+   ],
+   "publishers": [
+    "Chris Couch Games"
+   ],
+   "families": [
+    "Components: 3-Dimensional (3D)",
+    "Components: Wooden pieces & boards",
+    "Holidays: Christmas"
+   ],
+   "desc": "In Holiday Hills, players collaborate to transform the Jingle Bell Square into a dazzling winter spectacle, adorning trees with twinkling lights and festive decorations. Mayor Holly Daze has enlisted your help as the Twinkle Taskforce to get the town ready for the Winter Festival, but you've procrastinated until the very last minute! Now, your dynamic duo of a human and elf must work together to add decorations and deliver dice presents in a race to spread the most Cheer!\n\nEach turn, players will push their sleigh down either the top or bottom path, collecting dice presents into their sleigh and ultimately delivering them under trees. Park your sleigh on an action space in front of a home to add those decorations into the town square. You may move as far down the street as you like, but there's only one lap around town before your game ends, so make the best use of each move!\n\nThroughout the game, players will aim to complete objective cards with decoration patterns and dice color combinations that go under their trees. Take a break at each player's cottage in the corner of the board to draw a new objective card and attempt to score more points. The player who makes it around town and back to their own cottage first will earn bonus cheer points, but other players will have more time on the board to complete objectives.\n\nYou earn points for having Festive Trees (all 4 spots filled on your tree) and Full Trees (4 dice presents under your Trees. Having the most decorations on a…",
    "expansions": [
     {
      "id": "475576",
@@ -9372,10 +10267,10 @@
      "image": "https://cf.geekdo-images.com/dNF0se1To1Ht_GFjLh_maA__original/img/HPiRBrSdjUCTdI05fHaBxYpc4Fk=/0x0/filters:format(jpeg)/pic8531398.jpg"
     }
    ],
-   "at": "2026-11-26T02:46:21.685Z"
+   "at": "2026-11-26T03:53:55.180Z"
   },
   "424981": {
-   "v": 2,
+   "v": 3,
    "id": "424981",
    "type": "boardgame",
    "best": "4",
@@ -9404,6 +10299,27 @@
    "designers": [
     "Hiroken"
    ],
+   "artists": [
+    "MUJUNSHA"
+   ],
+   "publishers": [
+    "Tricktakers Games",
+    "asmodee",
+    "Boardgame Ban Fan",
+    "Giochix.it",
+    "HIT Games",
+    "Hobby World",
+    "Pixie Games",
+    "Portal Games",
+    "Portland Game Collective",
+    "Salt & Pepper Games",
+    "Strohmann Games",
+    "桌遊拌飯"
+   ],
+   "families": [
+    "Creatures: Monsters"
+   ],
+   "desc": "Eternal Decks is a limited communication co-operative game in which players try to complete the stage objectives before any one player cannot take an action. Players start the game with five cards in their deck, but will quickly look to acquire more cards from the various Eternals (characters within the game) who each have their own unique eight-card deck. On your turn, you must perform one action:\n\n     Play a card (on the field, on the river, or by using an ability)\n     Generate a jewel\n     Give a card to a teammate\n\nThere are restrictions when playing a card. All three rows in the field cannot have cards of the same color or same number next to each other. Additional restrictions are applied to a row based on the stage you are playing. Jewels are used to negate the negative effects brought on by the Eternals.\n\nThe game has six stages, and the various stages will have you collect points, survive a ghost town, navigate a labyrinth, defeat a boss, and more to win the game!",
    "expansions": [],
    "bases": [],
    "en": "Eternal Decks",
@@ -9464,7 +10380,7 @@
      "image": "https://cf.geekdo-images.com/Byfh3hQYNB3KDRcroQ5eNQ__original/img/S-JFeJv6p3uf37hOe56-9fh0vIU=/0x0/filters:format(png)/pic9165783.png"
     }
    ],
-   "at": "2026-11-26T02:46:47.619Z"
+   "at": "2026-11-26T03:54:21.024Z"
   },
   "427942": {
    "v": 2,
@@ -9522,7 +10438,7 @@
    "at": "2026-11-26T03:17:24.738Z"
   },
   "428682": {
-   "v": 2,
+   "v": 3,
    "id": "428682",
    "type": "boardgame",
    "best": "3",
@@ -9560,6 +10476,21 @@
     "Travel"
    ],
    "designers": [],
+   "artists": [],
+   "publishers": [
+    "MARU.",
+    "CMON Global Limited",
+    "Soragame Studio"
+   ],
+   "families": [
+    "Animals: Birds",
+    "Components: Dice with Icons",
+    "Country: Japan",
+    "Mechanism: Tableau Building",
+    "Theme: Airships / Blimps / Dirigibles / Zeppelins",
+    "Theme: Steampunk"
+   ],
+   "desc": "Grow Sky is a game about engine building, both mechanically and thematically, as players compete to become the best sky ship master by flying and developing their own sky ships.\n\nEach round, players roll and draft dice to determine their ship's actions, some combination of flying to gain resources and medals, developing their ship for more effective future actions, or going on standby to gain resources. Most actions have a mechanic of their own, from the polyomino-filling of engine room development to the upgradable rondel of each player's flight track.\n\nOver the course of the game, players compete to gain medals and to complete two types of missions - route missions, which grant benefits only to the first person who completes them, and goal missions, which rank the players in order of completion. These missions may range from having specific resources available to specific configurations of parts in the engine room.\n\nThe game proceeds until someone gains 15+ medals or fills up their engine room, at which point the final round proceeds, and the player with the most medals wins the game.",
    "expansions": [
     {
      "id": "481334",
@@ -9593,10 +10524,10 @@
      "image": "https://cf.geekdo-images.com/b3lMV93rQt7UrTyoAdS7Nw__original/img/p1w0k90vnCx-16gQgz6d8syktUE=/0x0/filters:format(png)/pic9703976.png"
     }
    ],
-   "at": "2026-11-26T02:45:47.875Z"
+   "at": "2026-11-26T03:53:21.587Z"
   },
   "431994": {
-   "v": 2,
+   "v": 3,
    "id": "431994",
    "type": "boardgame",
    "best": "3",
@@ -9632,6 +10563,21 @@
     "Robert Melvin",
     "Shawn Stankewich"
    ],
+   "artists": [
+    "Dylan Mangini"
+   ],
+   "publishers": [
+    "Flatout Games",
+    "Alderac Entertainment Group",
+    "alea",
+    "Delirium Games",
+    "White Goblin Games"
+   ],
+   "families": [
+    "Animals: Bees",
+    "Components: Meeples (Animal) / Animeeples"
+   ],
+   "desc": "Propolis is a worker-placement, engine-building, area-control, and tableau-building game. Players take on the role of competing medieval bee colonies and take turns deploying worker bees to collect pollen, fortify their positions, and construct their hives to appease their queen and become the most glorious in the land!\n\nAs bees compete over the realm's floral landscapes, they will be collecting pollen to create the propolis they need to build their hives. Attaining dominance in different realms provides additional glory and building materials. As hives expand, new structures provide additional resources, new scoring opportunities, and the prerequisites to construct a glorious palace for the queen. The player who dominates the realm and builds the most prestigious home wins.\n\n—description from the publisher",
    "expansions": [
     {
      "id": "451345",
@@ -9681,10 +10627,10 @@
      "image": "https://cf.geekdo-images.com/3tjE3vS6QjF2EiCKtw4ntA__original/img/2XUEC75BJSXJLENZPuS-igV2wI4=/0x0/filters:format(png)/pic9047628.png"
     }
    ],
-   "at": "2026-11-26T03:16:47.554Z"
+   "at": "2026-11-26T03:54:28.766Z"
   },
   "435357": {
-   "v": 2,
+   "v": 3,
    "id": "435357",
    "type": "boardgame",
    "best": "2",
@@ -9706,6 +10652,18 @@
    "designers": [
     "Ryan \"The Boulder\" Richford"
    ],
+   "artists": [
+    "別府さい (Sai Beppu)"
+   ],
+   "publishers": [
+    "Allplay",
+    "IELLO"
+   ],
+   "families": [
+    "Series: Tiny Box (AllPlay)",
+    "Sports: Combat Sports / Martial Arts"
+   ],
+   "desc": "Hakkeyoi, Nokotta! In this hand management game, try to force your opponent to go above 10 or below 0 to achieve a Slambo! Stay balanced or get slammed!\n\nEach card you play raises or lowers the balance by the number printed on the card. Blue cards raise it, and red cards lower it. Can you stay in the fight long enough to win?\n\n—description from the designer",
    "expansions": [],
    "bases": [],
    "en": "Slambo!",
@@ -9726,10 +10684,10 @@
      "image": "https://cf.geekdo-images.com/zxv1E3rN3eEVx3hCX8kgvA__original/img/zAjo-fwAkTf9izT6hoJsk1AUwq0=/0x0/filters:format(jpeg)/pic8598493.jpg"
     }
    ],
-   "at": "2026-11-26T03:17:06.142Z"
+   "at": "2026-11-26T03:54:46.782Z"
   },
   "435979": {
-   "v": 2,
+   "v": 3,
    "id": "435979",
    "type": "boardgame",
    "best": "4〜5",
@@ -9750,6 +10708,15 @@
    "designers": [
     "Reiner Knizia"
    ],
+   "artists": [
+    "Vincent Burger"
+   ],
+   "publishers": [
+    "Pixie Games",
+    "Mercurio"
+   ],
+   "families": [],
+   "desc": "HIT! Extreme is an enhanced version of HIT! and works in exactly the same way. If you already know the rules, you can just read the Special Cards and start playing!\n—description from the publisher",
    "expansions": [],
    "bases": [],
    "en": "HIT! Extreme",
@@ -9778,10 +10745,10 @@
      "image": "https://cf.geekdo-images.com/tndgFdXdiVRqtHOLoCr1qA__original/img/XdihBid5Er62Vcflm-zJDsgfTKU=/0x0/filters:format(jpeg)/pic9108522.jpg"
     }
    ],
-   "at": "2026-11-26T03:16:44.921Z"
+   "at": "2026-11-26T03:54:26.183Z"
   },
   "436511": {
-   "v": 2,
+   "v": 3,
    "id": "436511",
    "type": "boardgame",
    "best": "4〜5",
@@ -9810,6 +10777,16 @@
    "designers": [
     "Yog Akase (赤瀬 よぐ)"
    ],
+   "artists": [
+    "Yog Akase (赤瀬 よぐ)"
+   ],
+   "publishers": [
+    "Asobition (アソビション)",
+    "Level 99 Games",
+    "Board Zeppelin"
+   ],
+   "families": [],
+   "desc": "Take on the role of a fledgling proprietor in Compania, and build your company to become the wealthiest in the land!\n\nUse hidden dice placement to send your workers out to accomplish goals. Once the dice are revealed, if two or more players are competing for a space, the player with the highest value die takes it. Use your workers to grow your company's buildings to gain greater income. Buy more land, develop factories, and create a network of airships to move your goods.\n\nManage your company skillfully to win the game!\n\n—description from the publisher",
    "expansions": [],
    "bases": [],
    "en": "Compania",
@@ -9838,10 +10815,10 @@
      "image": "https://cf.geekdo-images.com/VVGxF9xIfe1VIJz6BB7BWg__original/img/JsiQeb3YTy8dJouvlqeAXPn2k1I=/0x0/filters:format(png)/pic8638426.png"
     }
    ],
-   "at": "2026-11-26T02:46:26.871Z"
+   "at": "2026-11-26T03:54:00.318Z"
   },
   "443697": {
-   "v": 2,
+   "v": 3,
    "id": "443697",
    "type": "boardgame",
    "best": "3",
@@ -9864,6 +10841,18 @@
    "designers": [
     "Marcus Ross"
    ],
+   "artists": [
+    "Patrick Weber"
+   ],
+   "publishers": [
+    "Chris Couch Games",
+    "Water Bear Games"
+   ],
+   "families": [
+    "Components: Dice with Icons",
+    "Holidays: Christmas"
+   ],
+   "desc": "Jingle Bell Roll is a cozy, holiday dice game for 2-6 players, full of festive cheer, quick turns, gift-giving, and delightful combos!\n\nPlayers take turns rolling 7 Christmas dice up to three times, setting aside symbols they want to keep. Dice show festive icons like Milk, Cookies, Stockings, Gifts, and Bells—each with unique scoring rules.\n\nAfter rolling, players may play Gift Cards from their hand to boost their score or manipulate dice results. Players then choose when to stop rolling and score their dice, earning points and handing out Gift Cards for each Gift symbol they score. Rolling enough Bells lets players add Letters to Santa in your Mailbox, which gives bonuses like permanent dice faces to score every round. The game ends after 6 rounds, or immediately if a player rolls 7 Bells—whichever comes first! Choose from 10 unique characters from the world of Holiday Hills to help you score more points.\n\n—description from the designer",
    "expansions": [
     {
      "id": "475576",
@@ -9909,7 +10898,7 @@
      "image": "https://cf.geekdo-images.com/Oudeo51I9pVDNoxEI_kk8w__original/img/DNXw_gBwFdHqTX3HXPcBuAw-pZo=/0x0/filters:format(jpeg)/pic8817312.jpg"
     }
    ],
-   "at": "2026-11-26T03:16:52.834Z"
+   "at": "2026-11-26T03:54:33.890Z"
   },
   "450967": {
    "v": 2,
@@ -9961,7 +10950,7 @@
    "at": "2026-11-26T03:31:33.204Z"
   }
  },
- "updatedAt": "2026-11-26T03:32:31.849Z",
+ "updatedAt": "2026-11-26T03:54:59.735Z",
  "exps": {
   "2591": {
    "id": "2591",
