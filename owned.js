@@ -432,7 +432,7 @@ function expBlock(g, base, i) {
     const have = ids.has(e.id) || names.has(norm(e.name));
     const r = document.createElement("div");
     r.className = "xrow";
-    r.innerHTML = `<div class="thumb" ${x.thumb ? `style="background-image:url('${esc(x.thumb)}')"` : ""}>${x.thumb ? "" : "🧩"}</div>
+    r.innerHTML = `<div class="thumb" ${x.thumb ? `style="background-image:url('${esc(hq(x.thumb))}')"` : ""}>${x.thumb ? "" : "🧩"}</div>
       <a class="rt" href="https://boardgamegeek.com/boardgameexpansion/${e.id}" target="_blank" rel="noopener"><div class="t">${esc(e.name)}</div><div class="s">${x.year ? x.year + "年" : ""}</div></a>
       ${have ? `<span class="tag">所持</span>` : `<button class="addx">＋所持</button>`}`;
     p.appendChild(r);

@@ -92,12 +92,16 @@ fetch("config/owned.json?" + Date.now()).then((r) => r.json()).then((d) => {
   if (changed) { store.set(LS_OWNED, owned); render(); }
 }).catch(() => {});
 fetch("data/bgg.json?" + Date.now()).then((r) => r.json()).then((d) => { bgg = d; render(); }).catch(() => {});
+// 箱絵の高画質版（scripts/img.mjs が作る data/img/<picID>.webp）。あればBGGの小さいサムネイルの代わりに使う
+let hiImg = new Set();
+fetch("data/img.json?" + Date.now()).then((r) => r.json()).then((d) => { hiImg = new Set(d.ok || []); render(); }).catch(() => {});
+const hq = (u) => { const id = /geekdo-images\.com\/.*\/pic(\d+)\.[a-z]+$/i.exec(u || "")?.[1]; return id && hiImg.has(id) ? `data/img/${id}.webp` : u; };
 // BGGの箱絵：名前（または「：」の前）で引く
 function art(name) {
   const g = bgg?.games;
   if (!g || !name) return "";
   const base = name.replace(/【[^】]*】|\[[^\]]*\]|（[^）]*）|\([^)]*\)/g, "").trim();
-  for (const k of [name, base, base.split(/[：:]/)[0]]) { const v = g[norm(k)]; if (v && !v.miss) return v.thumb || v.image; }
+  for (const k of [name, base, base.split(/[：:]/)[0]]) { const v = g[norm(k)]; if (v && !v.miss) return hq(v.thumb || v.image); }
   return "";
 }
 const ui = {}; // ボックスごとの表示状態（絞り込み・件数）
@@ -262,7 +266,7 @@ const bggId = (g) => String(g.bgg || "").match(/boardgame(?:expansion)?\/(\d+)/)
 const oinfo = (g) => ownedInfo[bggId(g)] || expInfo[bggId(g)] || null;
 let nameMode = store.get("bgb.ownedname.v2", "both");   // both（英語名が主・日本語名を小さく）/ ja / en
 const enName = (g) => g.nameEn || oinfo(g)?.en || "";
-const ownedImg = (g) => g.img || oinfo(g)?.thumb || art(g.name);
+const ownedImg = (g) => hq(g.img || oinfo(g)?.thumb || art(g.name));
 function playersText(g) {
   if (g.players) return g.players;
   const i = oinfo(g);

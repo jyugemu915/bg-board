@@ -26,6 +26,11 @@ jobs:
       - run: node scripts/owned-info.mjs
         env:
           BGG_TOKEN: ${{ secrets.BGG_TOKEN }}
+      - name: 箱絵の高画質版を作る
+        continue-on-error: true
+        run: |
+          npm install --no-save --no-package-lock --silent sharp
+          node scripts/img.mjs
       - name: 変更があれば保存
         run: |
           git config user.name "bg-board-bot"
