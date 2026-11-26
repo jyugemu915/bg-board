@@ -81,12 +81,12 @@ fetch("config/owned.json?" + Date.now()).then((r) => r.json()).then((d) => {
     const cur = have.get(norm(g?.name));
     if (!cur) continue;
     // 本体との紐づけ・同梱メモ・BGGリンクはファイルに合わせる（画面で変えたものは除く）
-    for (const f of ["parent", "includes", "bgg"]) if (g[f] && cur[f] !== g[f] && !(cur.edited || []).includes(f)) { cur[f] = g[f]; changed = true; }
+    for (const f of ["parent", "includes", "bgg", "flags"]) if (g[f] && JSON.stringify(cur[f]) !== JSON.stringify(g[f]) && !(cur.edited || []).includes(f)) { cur[f] = g[f]; changed = true; }
   }
   // 画面の「＋所持」で先に登録した拡張（同じBGG ID）は、もう一度取り込まない
   const uiIds = new Set(owned.filter((g) => g.from === "拡張一覧から追加").map(bggId).filter(Boolean));
   const add = (d.games || []).filter((g) => g?.name && !have.has(norm(g.name)) && !ownedGone.has(norm(g.name)) && !uiIds.has(bggId(g)))
-    .map((g) => ({ name: g.name, key: norm(g.name), bgg: g.bgg || "", ...(g.parent ? { parent: g.parent } : {}), ...(g.includes ? { includes: g.includes } : {}),
+    .map((g) => ({ name: g.name, key: norm(g.name), bgg: g.bgg || "", ...(g.parent ? { parent: g.parent } : {}), ...(g.includes ? { includes: g.includes } : {}), ...(g.flags ? { flags: g.flags } : {}),
       from: g.from || "写真から登録", added: new Date().toISOString() }));
   if (add.length) { owned = [...add, ...owned]; changed = true; }
   if (changed) { store.set(LS_OWNED, owned); render(); }

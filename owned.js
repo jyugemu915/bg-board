@@ -22,8 +22,11 @@ const CAT = {
 const catJa = (c) => CAT[c] || c;
 const mechJa = (m) => MECH[m] || m;
 
+// 状態タグ（✎編集でチェック。一覧のタグと絞り込みに使う）
+const FLAGS = [["unopened", "未開封"], ["untranslated", "未訳"], ["unplayed", "未プレイ"]];
+const flagTags = (g, cls = "tag flag") => (g.flags || []).map((f) => FLAGS.find((x) => x[0] === f)).filter(Boolean).map(([k, l]) => `<span class="${cls} f-${k}">${l}</span>`).join("");
 const LS_OVIEW = "bgb.ownedview.v1";
-const OS = { q: "", players: 0, best: false, time: "", weight: "", cat: "", mech: "", n: 60, sheet: null, edit: false, adding: false, bulk: false, expN: 8, link: null,
+const OS = { q: "", flag: "", players: 0, best: false, time: "", weight: "", cat: "", mech: "", n: 60, sheet: null, edit: false, adding: false, bulk: false, expN: 8, link: null,
   ...store.get(LS_OVIEW, { view: "grid", sort: "added" }) };
 const saveView = () => store.set(LS_OVIEW, { view: OS.view, sort: OS.sort });
 
@@ -84,6 +87,7 @@ function passFilters(g) {
   }
   if (OS.time) { const t = playTime(i); if (!t || !TIMES.find((x) => x[0] === OS.time)[2](t)) return false; }
   if (OS.weight) { const w = i?.weight; if (!w || !WEIGHTS.find((x) => x[0] === OS.weight)[2](w)) return false; }
+  if (OS.flag && !(g.flags || []).includes(OS.flag)) return false;
   if (OS.cat && !(i?.categories || []).includes(OS.cat)) return false;
   if (OS.mech && !(i?.mechanics || []).includes(OS.mech)) return false;
   return true;
@@ -154,6 +158,7 @@ function buildOwnedPage(root) {
         <label class="ck"><input type="checkbox" id="oBest">ベスト</label></div>
       <div class="frow"><span class="flbl">時間</span><div class="seg" id="oTime"><button data-v="">指定なし</button>${TIMES.map(([k, l]) => `<button data-v="${k}">${l}</button>`).join("")}</div></div>
       <div class="frow"><span class="flbl">重さ</span><div class="seg" id="oWt"><button data-v="">指定なし</button>${WEIGHTS.map(([k, l]) => `<button data-v="${k}">${l}</button>`).join("")}</div></div>
+      <div class="frow"><span class="flbl">状態</span><div class="seg" id="oFlag"><button data-v="">指定なし</button>${FLAGS.map(([k, l]) => `<button data-v="${k}">${l}</button>`).join("")}</div></div>
       <div class="frow sel"><select id="oCat"></select><select id="oMech"></select></div>
     </div>
     <div class="obar"><span id="oHits" class="muted"></span><button id="oClear" class="chip ghost" hidden>条件をクリア</button><span style="flex:1"></span>
@@ -164,7 +169,7 @@ function buildOwnedPage(root) {
     <div class="foot"><button type="button" data-a="exp">書き出し</button><label>読み込み<input type="file" accept=".json" hidden></label></div>
     <div id="oSheet" class="sheetwrap" hidden></div>`;
   const $ = (id) => root.querySelector("#" + id);
-  const segs = [["oPl", "players", (v) => +v], ["oTime", "time"], ["oWt", "weight"], ["oView", "view"], ["oNm", null]];
+  const segs = [["oPl", "players", (v) => +v], ["oTime", "time"], ["oWt", "weight"], ["oFlag", "flag"], ["oView", "view"], ["oNm", null]];
   for (const [id, key, conv] of segs) $(id).onclick = (e) => {
     const btn = e.target.closest("button[data-v]");
     if (!btn) return;
@@ -177,7 +182,7 @@ function buildOwnedPage(root) {
   $("oCat").onchange = (e) => { OS.cat = e.target.value; drawOwned(); };
   $("oMech").onchange = (e) => { OS.mech = e.target.value; drawOwned(); };
   $("oSort").onchange = (e) => { OS.sort = e.target.value; saveView(); drawOwned(); };
-  $("oClear").onclick = () => { Object.assign(OS, { q: "", players: 0, best: false, time: "", weight: "", cat: "", mech: "", n: 60 }); drawOwned(); };
+  $("oClear").onclick = () => { Object.assign(OS, { q: "", flag: "", players: 0, best: false, time: "", weight: "", cat: "", mech: "", n: 60 }); drawOwned(); };
   $("oAddBtn").onclick = () => { OS.adding = !OS.adding; drawAdd(); };
   root.querySelector("[data-a=exp]").onclick = () => {
     const blob = new Blob([JSON.stringify(owned, null, 1)], { type: "application/json" });
@@ -237,10 +242,11 @@ function drawOwned() {
   const $ = (id) => root.querySelector("#" + id);
   const { bases, kids } = ownedGroups();
   $("oCount").textContent = `${bases.length} 本体${owned.length > bases.length ? `・拡張 ${owned.length - bases.length}` : ""}`;
+  $("oFlag").querySelectorAll("button[data-v]").forEach((b) => { const k = b.dataset.v, l = k ? FLAGS.find((x) => x[0] === k)[1] : "指定なし"; const n = k ? owned.filter((g) => (g.flags || []).includes(k)).length : 0; b.textContent = n ? `${l} ${n}` : l; });
   // 操作部品の状態
   if ($("oQ").value !== OS.q) $("oQ").value = OS.q;
   const on = (id, v) => $(id).querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.v === String(v)));
-  on("oPl", OS.players); on("oTime", OS.time); on("oWt", OS.weight); on("oView", OS.view); on("oNm", nameMode);
+  on("oPl", OS.players); on("oTime", OS.time); on("oWt", OS.weight); on("oFlag", OS.flag); on("oView", OS.view); on("oNm", nameMode);
   $("oBest").checked = OS.best; $("oBest").disabled = !OS.players; $("oSort").value = OS.sort;
   // カテゴリー・メカニクスの候補（多い順）
   const count = (f) => { const m = new Map(); for (const g of bases) for (const x of f(oinfo(g)) || []) m.set(x, (m.get(x) || 0) + 1); return [...m].sort((a, b) => b[1] - a[1]); };
@@ -254,7 +260,7 @@ function drawOwned() {
   let rows = bases.map((g) => ({ g, kids: kids.get(g) || [] })).filter((r) => passFilters(r.g));
   if (terms.length) rows = rows.map((r) => ({ ...r, kidHit: !hit(r.g) && r.kids.some(hit) })).filter((r) => hit(r.g) || r.kidHit);
   rows = sortRows(rows);
-  const active = terms.length || OS.players || OS.time || OS.weight || OS.cat || OS.mech;
+  const active = terms.length || OS.flag || OS.players || OS.time || OS.weight || OS.cat || OS.mech;
   $("oHits").textContent = active ? `${rows.length} 件` : "";
   $("oClear").hidden = !active;
   const list = $("oList");
@@ -279,6 +285,7 @@ function tile({ g, kids, kidHit }) {
   t.className = "tile";
   const img = ownedImg(g), tt = ownedTitle(g), meta = [shortPlayers(g), shortTime(g)].filter(Boolean);
   t.innerHTML = `<div class="tart" ${img ? `style="background-image:url('${esc(img)}')"` : ""}>${img ? "" : `<span class="tname">${esc(tt.main)}</span>`}</div>
+    ${g.flags?.length ? `<div class="tflags">${flagTags(g, "tflag")}</div>` : ""}
     ${kids.length ? `<span class="tbadge${kidHit ? " hit" : ""}">＋拡張${kids.length}</span>` : ""}
     ${meta.length ? `<div class="tov">${meta.map((m, k) => `<span>${k ? "⏱" : "👥"}${esc(m)}</span>`).join("")}</div>` : ""}`;
   t.title = tt.main;
@@ -291,7 +298,7 @@ function listRow({ g, kids, kidHit }) {
   const img = ownedImg(g), t = ownedTitle(g), i = oinfo(g);
   const meta = [shortPlayers(g) && "👥 " + shortPlayers(g), shortTime(g) && "⏱ " + shortTime(g), i?.weight && "重さ " + i.weight].filter(Boolean).join("　");
   r.innerHTML = `<div class="thumb" ${img ? `style="background-image:url('${esc(img)}')"` : ""}>${img ? "" : "🎲"}</div><div class="rt">
-    <div class="t">${esc(t.main)}${kids.length ? `<span class="tag rel${kidHit ? " hit" : ""}">拡張 ${kids.length}</span>` : ""}${g.includes ? `<span class="tag">${esc(g.includes)}</span>` : ""}</div>
+    <div class="t">${esc(t.main)}${kids.length ? `<span class="tag rel${kidHit ? " hit" : ""}">拡張 ${kids.length}</span>` : ""}${g.includes ? `<span class="tag">${esc(g.includes)}</span>` : ""}${flagTags(g)}</div>
     ${t.sub ? `<div class="en">${esc(t.sub)}</div>` : ""}<div class="s">${esc(meta || (g.bgg ? "BGGの情報は自動取得のあとに表示" : "BGG未設定"))}</div></div><div class="rd">›</div>`;
   r.style.cursor = "pointer";
   r.onclick = () => openSheet(g);
@@ -313,7 +320,7 @@ function drawSheet() {
     <div class="shero">${img ? `<img src="${esc(img)}" alt="">` : `<div class="noimg">${base ? "🧩" : "🎲"}</div>`}
       <div class="sttl"><h2>${esc(t.main)}</h2>${t.sub ? `<div class="en">${esc(t.sub)}</div>` : ""}
         ${base ? `<button class="plink" data-a="base">本体：${esc(ownedTitle(base).main)} ›</button>` : ""}
-        ${g.includes ? `<div><span class="tag">${esc(g.includes)}</span></div>` : ""}
+        ${g.includes || g.flags?.length ? `<div class="stags">${g.includes ? `<span class="tag">${esc(g.includes)}</span>` : ""}${flagTags(g)}</div>` : ""}
         <div class="sacts"><button data-a="edit" class="${OS.edit ? "on" : ""}">✎ 編集</button>${g.bgg ? `<a href="${esc(g.bgg)}" target="_blank" rel="noopener">BGG ↗</a>` : ""}</div></div></div>
     <div class="sbody"></div></div>`;
   const body = w.querySelector(".sbody");
@@ -331,7 +338,7 @@ function drawSheet() {
       const r = document.createElement("div");
       r.className = "xrow"; r.style.cursor = "pointer";
       const xi = ownedImg(x), xt = ownedTitle(x, g);
-      r.innerHTML = `<div class="thumb" ${xi ? `style="background-image:url('${esc(xi)}')"` : ""}>${xi ? "" : "🧩"}</div><div class="rt"><div class="t">${esc(xt.main)}</div>${xt.sub ? `<div class="s">${esc(xt.sub)}</div>` : ""}</div><div class="rd">›</div>`;
+      r.innerHTML = `<div class="thumb" ${xi ? `style="background-image:url('${esc(xi)}')"` : ""}>${xi ? "" : "🧩"}</div><div class="rt"><div class="t">${esc(xt.main)}${flagTags(x)}</div>${xt.sub ? `<div class="s">${esc(xt.sub)}</div>` : ""}</div><div class="rd">›</div>`;
       r.onclick = () => { OS.sheet = x; OS.edit = false; drawSheet(); };
       body.appendChild(r);
     }
@@ -359,7 +366,7 @@ function infoBlock(g, i) {
     ${i.desc ? `<details class="desc"><summary>説明（BGG・英語）</summary><p>${esc(i.desc).replace(/\n/g, "<br>")}</p></details>`
       : i.v < 3 ? `<div class="s">カテゴリー以外の追加情報（出版社・アーティスト・説明）は次の自動取得で入ります。</div>` : ""}`;
   // タップで絞り込み・検索
-  const jump = (patch) => { Object.assign(OS, { q: "", players: 0, best: false, time: "", weight: "", cat: "", mech: "", n: 60 }, patch); closeSheet(); drawOwned(); window.scrollTo(0, 0); };
+  const jump = (patch) => { Object.assign(OS, { q: "", flag: "", players: 0, best: false, time: "", weight: "", cat: "", mech: "", n: 60 }, patch); closeSheet(); drawOwned(); window.scrollTo(0, 0); };
   p.querySelectorAll("[data-cat]").forEach((b) => b.onclick = () => jump({ cat: b.dataset.cat }));
   p.querySelectorAll("[data-mech]").forEach((b) => b.onclick = () => jump({ mech: b.dataset.mech }));
   p.querySelectorAll("[data-q]").forEach((b) => b.onclick = () => jump({ q: b.dataset.q }));
@@ -429,6 +436,7 @@ function editPanel(g) {
     <div class="r"><label>本体（拡張のとき）<input name="parent" list="ownedBases2" value="${esc(g.parent || "")}"></label>
       <label>人数・時間<input name="players" value="${esc(g.players || "")}" placeholder="${esc(playersText({ ...g, players: "" }) || "例：2〜4人・45分")}"></label></div>
     <datalist id="ownedBases2">${baseNames.map((n) => `<option value="${esc(n)}">`).join("")}</datalist>
+    <div class="lbl">状態</div><div class="flagck">${FLAGS.map(([k, l]) => `<label><input type="checkbox" name="flag_${k}"${(g.flags || []).includes(k) ? " checked" : ""}>${l}</label>`).join("")}</div>
     <label>同梱メモ<input name="includes" value="${esc(g.includes || "")}" placeholder="例：拡張2つ入り"></label>
     <label>BGGのURL<input name="bgg" value="${esc(g.bgg || "")}" inputmode="url" placeholder="https://boardgamegeek.com/boardgame/…"></label>
     <div class="lbl">箱絵${choices.length ? "（タップで選択）" : ""}</div>
@@ -459,6 +467,8 @@ function editPanel(g) {
       const v = f[k].trim();
       if (v !== (g[k] || "")) { if (v) g[k] = v; else delete g[k]; if (["parent", "includes", "bgg"].includes(k)) edited.add(k); }
     }
+    const flags = FLAGS.map(([k]) => k).filter((k) => f["flag_" + k]);
+    if (flags.join() !== (g.flags || []).join()) { if (flags.length) g.flags = flags; else delete g.flags; edited.add("flags"); }
     const img = f.img.trim() || (pick && pick !== i?.thumb ? pick : "");
     if (img) g.img = img; else delete g.img;
     g.edited = [...edited];

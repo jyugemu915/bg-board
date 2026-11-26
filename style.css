@@ -197,3 +197,14 @@ button.mchip{border:0;font-size:12px;padding:3px 9px}
 .linkask{background:#fff8e1;border-radius:8px;padding:8px;margin:2px 0 6px;display:flex;flex-wrap:wrap;gap:6px}
 .linkask .s{width:100%;font-size:12px;color:#6c5a1e}
 .linkask button{border:1px solid #f0d58a;background:#fff;border-radius:8px;padding:4px 8px;font-size:12px}
+/* 状態タグ（未開封・未訳・未プレイ） */
+.tag.flag{background:#efe7f6;color:#6a4b8a}
+.tag.f-unopened{background:#e3eef2;color:#2f6577}
+.tag.f-untranslated{background:#fbe9e3;color:var(--accent)}
+.tflags{position:absolute;top:4px;left:4px;display:flex;flex-direction:column;gap:2px;align-items:flex-start}
+.tflag{font-size:9.5px;border-radius:4px;padding:1px 5px;background:#fffffff0;color:#6a4b8a}
+.tflag.f-unopened{color:#2f6577}.tflag.f-untranslated{color:var(--accent)}
+.stags{margin-top:4px}.stags .tag:first-child{margin-left:0}
+.flagck{display:flex;gap:14px;flex-wrap:wrap}
+form.oedit .flagck label{display:flex;align-items:center;gap:4px;flex:none;font-size:13.5px;color:var(--ink)}
+form.oedit .flagck input{width:auto;margin:0}
