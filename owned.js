@@ -284,10 +284,10 @@ function tile({ g, kids, kidHit }) {
   const t = document.createElement("button");
   t.className = "tile";
   const img = ownedImg(g), tt = ownedTitle(g), meta = [shortPlayers(g), shortTime(g)].filter(Boolean);
-  t.innerHTML = `<div class="tart${img ? " has" : ""}" ${img ? `style="--img:url('${esc(img)}')"` : ""}>${img ? "" : `<span class="tname">${esc(tt.main)}</span>`}</div>
-    ${g.flags?.length ? `<div class="tflags">${flagTags(g, "tflag")}</div>` : ""}
-    ${kids.length ? `<span class="tbadge${kidHit ? " hit" : ""}">＋拡張${kids.length}</span>` : ""}
-    ${meta.length ? `<div class="tov">${meta.map((m, k) => `<span>${k ? "⏱" : "👥"}${esc(m)}</span>`).join("")}</div>` : ""}`;
+  t.innerHTML = `<div class="tart"><span class="tbox">${img ? `<img src="${esc(img)}" alt="" loading="lazy">` : `<span class="tname">${esc(tt.main)}</span>`}
+      ${g.flags?.length ? `<div class="tflags">${flagTags(g, "tflag")}</div>` : ""}
+      ${kids.length ? `<span class="tbadge${kidHit ? " hit" : ""}">＋拡張${kids.length}</span>` : ""}</span></div>
+    <div class="tov">${meta.length ? meta.map((m, k) => `<span>${k ? "⏱" : "👥"}${esc(m)}</span>`).join("") : "&nbsp;"}</div>`;
   t.title = tt.main;
   t.onclick = () => openSheet(g);
   return t;

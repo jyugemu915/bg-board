@@ -205,10 +205,14 @@ button.mchip{border:0;font-size:12px;padding:3px 9px}
 .flagck{display:flex;gap:14px;flex-wrap:wrap}
 form.oedit .flagck label{display:flex;align-items:center;gap:4px;flex:none;font-size:13.5px;color:var(--ink)}
 form.oedit .flagck input{width:auto;margin:0}
-/* 箱絵タイル：絵は見切れないよう全体を収め、余白は同じ絵をぼかして敷く。人数・時間は絵の下 */
-.tile{position:relative;border:0;padding:0;background:var(--card);border-radius:10px;overflow:hidden;box-shadow:0 1px 3px #0000001a;display:flex;flex-direction:column;text-align:left}
-.tart{position:relative;aspect-ratio:1;background:#e9e4d8;display:grid;place-items:center;overflow:hidden}
-.tart.has::before{content:"";position:absolute;inset:-12px;background:var(--img) center/cover no-repeat;filter:blur(10px) saturate(.9);opacity:.55}
-.tart.has::after{content:"";position:absolute;inset:3px;background:var(--img) center/contain no-repeat}
-.tov{display:flex;flex-wrap:wrap;gap:0 6px;justify-content:center;padding:4px 4px 5px;color:#4a4638;font-size:10.5px;line-height:1.35;border-top:1px solid var(--line)}
+/* 箱絵タイル：箱の形のまま棚に並べる（各段は下揃え・棚板つき）。人数・時間は箱の下 */
+.ogrid{grid-template-columns:repeat(auto-fill,minmax(100px,1fr));align-items:end;column-gap:10px;row-gap:22px;padding:0 4px}
+.tile{position:relative;border:0;padding:0;background:none;display:flex;flex-direction:column;text-align:left;overflow:visible}
+.tile::after{content:"";position:absolute;left:-6px;right:-6px;bottom:-9px;height:7px;background:linear-gradient(#d9c4a3,#c2a77f);border-radius:2px;box-shadow:0 2px 3px #0000001f}
+.tart{position:relative;display:flex;align-items:flex-end;justify-content:center}
+.tart img{display:block;max-width:100%;max-height:190px;width:auto;height:auto;border-radius:4px;box-shadow:0 2px 5px #0000002e}
+.tart .tname{width:100%;aspect-ratio:1;display:grid;place-items:center;background:#e9e4d8;border-radius:4px;box-shadow:0 2px 5px #0000001f}
+.tov{display:flex;flex-wrap:wrap;gap:0 6px;justify-content:center;padding:4px 2px 0;color:#4a4638;font-size:10.5px;line-height:1.35}
 .tflags,.tbadge{z-index:1}
+.tbox{position:relative;display:block;max-width:100%}
+.tbox:has(.tname){width:100%}
