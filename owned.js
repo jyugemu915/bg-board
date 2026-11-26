@@ -276,7 +276,7 @@ function drawOwned() {
 }
 function openSheet(g) {
   if (!OS.sheet) history.pushState({ sheet: 1 }, "", "#owned");
-  OS.sheet = g; OS.edit = false; OS.expN = 8; OS.link = null; drawSheet();
+  OS.sheet = g; OS.edit = false; OS.memo = false; OS.expN = 8; OS.link = null; drawSheet();
 }
 function closeSheet() { if (history.state?.sheet) history.back(); else { OS.sheet = null; drawSheet(); } }
 
@@ -320,12 +320,22 @@ function drawSheet() {
     <div class="shero">${img ? `<img src="${esc(img)}" alt="">` : `<div class="noimg">${base ? "🧩" : "🎲"}</div>`}
       <div class="sttl"><h2>${esc(t.main)}</h2>${t.sub ? `<div class="en">${esc(t.sub)}</div>` : ""}
         ${base ? `<button class="plink" data-a="base">本体：${esc(ownedTitle(base).main)} ›</button>` : ""}
-        ${g.includes || g.flags?.length ? `<div class="stags">${g.includes ? `<span class="tag">${esc(g.includes)}</span>` : ""}${flagTags(g)}</div>` : ""}
+        <div class="stags">${flagTags(g)}${OS.memo ? "" : `<button class="memobtn" data-a="memo">${g.includes ? `<span class="tag">${esc(g.includes)}</span> ✎` : "＋メモ"}</button>`}</div>
+        ${OS.memo ? `<form class="memoform"><input name="m" value="${esc(g.includes || "")}" placeholder="例：拡張入り・スリーブ済み"><button>保存</button><button type="button" data-a="memox">やめる</button></form>` : ""}
         <div class="sacts"><button data-a="edit" class="${OS.edit ? "on" : ""}">✎ 編集</button>${g.bgg ? `<a href="${esc(g.bgg)}" target="_blank" rel="noopener">BGG ↗</a>` : ""}</div></div></div>
     <div class="sbody"></div></div>`;
   const body = w.querySelector(".sbody");
   w.querySelector(".sback").onclick = closeSheet;
   w.querySelector("[data-a=close]").onclick = closeSheet;
+  w.querySelector("[data-a=memo]")?.addEventListener("click", () => { OS.memo = true; drawSheet(); w.querySelector(".memoform input").focus(); });
+  w.querySelector("[data-a=memox]")?.addEventListener("click", () => { OS.memo = false; drawSheet(); });
+  const mf = w.querySelector(".memoform");
+  if (mf) mf.onsubmit = (e) => {
+    e.preventDefault();
+    const v = mf.m.value.trim();
+    if (v !== (g.includes || "")) { if (v) g.includes = v; else delete g.includes; g.edited = [...new Set([...(g.edited || []), "includes"])]; }
+    OS.memo = false; saveOwned();
+  };
   w.querySelector("[data-a=edit]").onclick = () => { OS.edit = !OS.edit; drawSheet(); };
   w.querySelector("[data-a=base]")?.addEventListener("click", () => { OS.sheet = base; OS.edit = false; drawSheet(); });
   if (OS.edit) body.appendChild(editPanel(g));
@@ -437,7 +447,8 @@ function editPanel(g) {
       <label>人数・時間<input name="players" value="${esc(g.players || "")}" placeholder="${esc(playersText({ ...g, players: "" }) || "例：2〜4人・45分")}"></label></div>
     <datalist id="ownedBases2">${baseNames.map((n) => `<option value="${esc(n)}">`).join("")}</datalist>
     <div class="lbl">状態</div><div class="flagck">${FLAGS.map(([k, l]) => `<label><input type="checkbox" name="flag_${k}"${(g.flags || []).includes(k) ? " checked" : ""}>${l}</label>`).join("")}</div>
-    <label>同梱メモ<input name="includes" value="${esc(g.includes || "")}" placeholder="例：拡張2つ入り"></label>
+    <label>メモ（名前の後ろに表示）<input name="includes" value="${esc(g.includes || "")}" placeholder="例：拡張入り・スリーブ済み"></label>
+    <label>登録元<input name="from" value="${esc(g.from || "")}" placeholder="例：写真 11/26"></label>
     <label>BGGのURL<input name="bgg" value="${esc(g.bgg || "")}" inputmode="url" placeholder="https://boardgamegeek.com/boardgame/…"></label>
     <div class="lbl">箱絵${choices.length ? "（タップで選択）" : ""}</div>
     <div class="arts">${choices.map((c) => `<button type="button" class="art${pick === c.thumb || (!pick && c.label === "BGG標準") ? " on" : ""}" data-t="${esc(c.thumb)}" style="background-image:url('${esc(c.thumb)}')"><span>${esc(c.label)}</span></button>`).join("")}
@@ -463,7 +474,7 @@ function editPanel(g) {
       g.name = f.name.trim();
       for (const x of owned) if (x.parent && norm(x.parent) === norm(oldName)) x.parent = g.name;   // 拡張の紐づけも付け替え
     }
-    for (const k of ["nameEn", "players", "parent", "includes", "bgg"]) {
+    for (const k of ["nameEn", "players", "parent", "includes", "bgg", "from"]) {
       const v = f[k].trim();
       if (v !== (g[k] || "")) { if (v) g[k] = v; else delete g[k]; if (["parent", "includes", "bgg"].includes(k)) edited.add(k); }
     }
