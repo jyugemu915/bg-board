@@ -1080,8 +1080,9 @@
    "name": "Sail",
    "image": "https://cf.geekdo-images.com/WdYRHQ_ILHTV_ECMGF27Gw__original/img/i9rMBmWzjVl2Aep-xUqWg4u0ADA=/0x0/filters:format(jpeg)/pic7267575.jpg",
    "thumb": "https://cf.geekdo-images.com/WdYRHQ_ILHTV_ECMGF27Gw__small/img/y8Hlu0-CQDQAO6d6zM8YJ3dVevI=/fit-in/200x150/filters:strip_icc()/pic7267575.jpg",
-   "query": "セイル",
-   "at": "2026-11-26T03:15:49.423Z"
+   "query": "id:377470",
+   "at": "2026-11-26T12:34:43.521Z",
+   "alias": "377470"
   },
   "ログ": {
    "label": "ログ",
@@ -1408,5 +1409,5 @@
    "at": "2026-11-26T08:00:08.186Z"
   }
  },
- "updatedAt": "2026-11-26T10:28:11.077Z"
+ "updatedAt": "2026-11-26T12:34:43.522Z"
 }

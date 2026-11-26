@@ -9618,6 +9618,151 @@
    ],
    "at": "2026-11-26T03:54:15.850Z"
   },
+  "377470": {
+   "v": 3,
+   "id": "377470",
+   "type": "boardgame",
+   "best": "2",
+   "rec": "2",
+   "minTime": 20,
+   "maxTime": 20,
+   "age": 11,
+   "rating": 7.24,
+   "weight": 2.21,
+   "rank": 944,
+   "mechanics": [
+    "Communication Limits",
+    "Cooperative Game",
+    "Hand Management",
+    "Modular Board",
+    "Scenario / Mission / Campaign Game",
+    "Track Movement",
+    "Trick-taking",
+    "Variable Player Powers"
+   ],
+   "categories": [
+    "Card Game",
+    "Nautical",
+    "Pirates"
+   ],
+   "designers": [
+    "Akiyama Koryo",
+    "Kozu Yusei"
+   ],
+   "artists": [
+    "Weberson Santiago"
+   ],
+   "publishers": [
+    "Allplay",
+    "BoardM Factory",
+    "CMON Global Limited",
+    "Crowd",
+    "Devir",
+    "Games4you",
+    "Geekach LLC",
+    "Reflexshop",
+    "Schwerkraft-Verlag"
+   ],
+   "families": [
+    "Components:  Meeples",
+    "Components: Meeples (Monster)",
+    "Creatures: Kraken",
+    "Series: Small Box Big Game (Allplay)",
+    "Series: Tricky Card Games (Allplay)",
+    "Theme: Pirates"
+   ],
+   "desc": "Strap up your piratical boots, and navigate your ship through turbulent waters in Sail, a co-operative trick-taking game for two players. Reach the end of this dangerous deep end, and avoid taking damage from the Kraken to win the game together...or your crew will be sleeping with the fish!\n\nBefore each round begins, players exchange cards, then play a series of tricks. Different game actions will be triggered depending on who wins each trick in combination with the unique character skills. However, the crashing sea water and the roaring Kraken make for a deafening situation, and players are unable to communicate about tactics and card information from the moment cards are dealt to the end of the action phase.\n\nPlayers win the game as a team if they sail their ship into the final token before the Kraken reaches the Death tile or the Kraken deck is exhausted.\n\n—description from the publisher",
+   "expansions": [
+    {
+     "id": "393101",
+     "name": "Sail: Seafarers Expansion"
+    }
+   ],
+   "bases": [],
+   "en": "Sail",
+   "ja": "セイル",
+   "minp": 2,
+   "maxp": 2,
+   "time": 20,
+   "year": 2023,
+   "thumb": "https://cf.geekdo-images.com/WdYRHQ_ILHTV_ECMGF27Gw__small/img/y8Hlu0-CQDQAO6d6zM8YJ3dVevI=/fit-in/200x150/filters:strip_icc()/pic7267575.jpg",
+   "image": "https://cf.geekdo-images.com/WdYRHQ_ILHTV_ECMGF27Gw__original/img/i9rMBmWzjVl2Aep-xUqWg4u0ADA=/0x0/filters:format(jpeg)/pic7267575.jpg",
+   "versions": [
+    {
+     "id": "810841",
+     "name": "Serbian edition",
+     "year": 2026,
+     "lang": "Serbian",
+     "thumb": "https://cf.geekdo-images.com/ZM0ryXhsk79Kap7-Ae0ndA__small/img/aJpwRTpX0j45GmyjHWh38F9bOd8=/fit-in/200x150/filters:strip_icc()/pic9610053.jpg",
+     "image": "https://cf.geekdo-images.com/ZM0ryXhsk79Kap7-Ae0ndA__original/img/c7QJ52u4bfdCIYvaI6zfnWyeSkE=/0x0/filters:format(jpeg)/pic9610053.jpg"
+    },
+    {
+     "id": "750664",
+     "name": "Chinese edition",
+     "year": 2025,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/shucwO8mcrKfmGPCibHvPQ__small/img/tngSANEZABCdMvcrlZGruCsg1dE=/fit-in/200x150/filters:strip_icc()/pic8774524.png",
+     "image": "https://cf.geekdo-images.com/shucwO8mcrKfmGPCibHvPQ__original/img/DK32AsOcso3lbD4UGj9gaUOi56w=/0x0/filters:format(png)/pic8774524.png"
+    },
+    {
+     "id": "779534",
+     "name": "Russian edition",
+     "year": 2025,
+     "lang": "Russian",
+     "thumb": "https://cf.geekdo-images.com/kTpSDGLAPM66Hbzc0ErD1Q__small/img/ekvnWtRFe9rKd8VOaLU8wbvxH9U=/fit-in/200x150/filters:strip_icc()/pic9460527.jpg",
+     "image": "https://cf.geekdo-images.com/kTpSDGLAPM66Hbzc0ErD1Q__original/img/AdMSeeK7mGMgAXjCSHDxIqrnpp4=/0x0/filters:format(jpeg)/pic9460527.jpg"
+    },
+    {
+     "id": "748549",
+     "name": "Spanish/Portuguese edition",
+     "year": 2025,
+     "lang": "Portuguese・Spanish",
+     "thumb": "https://cf.geekdo-images.com/nRJBWO62pCDzgUUb6-bJqA__small/img/PWT9pMmxvk8k-yPT3PCMhJoxMcg=/fit-in/200x150/filters:strip_icc()/pic8735173.jpg",
+     "image": "https://cf.geekdo-images.com/nRJBWO62pCDzgUUb6-bJqA__original/img/6ITkalikVKuakD9vBrUeAdTBJ38=/0x0/filters:format(jpeg)/pic8735173.jpg"
+    },
+    {
+     "id": "704507",
+     "name": "French edition",
+     "year": 2024,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/UZAGtvlvOe43NSzNhDCrYA__small/img/Y_X54eY1zIwAs60pBnAAaYGJ-AM=/fit-in/200x150/filters:strip_icc()/pic9888246.jpg",
+     "image": "https://cf.geekdo-images.com/UZAGtvlvOe43NSzNhDCrYA__original/img/YdUDDRKQuhpYE971h6jRDt1Ne2c=/0x0/filters:format(jpeg)/pic9888246.jpg"
+    },
+    {
+     "id": "725586",
+     "name": "Hungarian edition",
+     "year": 2024,
+     "lang": "Hungarian",
+     "thumb": "https://cf.geekdo-images.com/5iDB11NVIQheRiFBr_EVqA__small/img/5khYKqGJX2t4EO1F7TnJfdMaVSw=/fit-in/200x150/filters:strip_icc()/pic8674878.jpg",
+     "image": "https://cf.geekdo-images.com/5iDB11NVIQheRiFBr_EVqA__original/img/wJSOrhGVn-7tHUN_UQ8MS7trtkQ=/0x0/filters:format(jpeg)/pic8674878.jpg"
+    },
+    {
+     "id": "644628",
+     "name": "English edition",
+     "year": 2023,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/WdYRHQ_ILHTV_ECMGF27Gw__small/img/y8Hlu0-CQDQAO6d6zM8YJ3dVevI=/fit-in/200x150/filters:strip_icc()/pic7267575.jpg",
+     "image": "https://cf.geekdo-images.com/WdYRHQ_ILHTV_ECMGF27Gw__original/img/i9rMBmWzjVl2Aep-xUqWg4u0ADA=/0x0/filters:format(jpeg)/pic7267575.jpg"
+    },
+    {
+     "id": "746520",
+     "name": "Korean edition",
+     "year": null,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/MRTvycuo_4xVmQs_3RiGuQ__small/img/5HoBuVCXX82IADlcaF3PIHkSSOg=/fit-in/200x150/filters:strip_icc()/pic8304760.png",
+     "image": "https://cf.geekdo-images.com/MRTvycuo_4xVmQs_3RiGuQ__original/img/4Fth43O_5XzNfnL1fCDi6rTHnfA=/0x0/filters:format(png)/pic8304760.png"
+    },
+    {
+     "id": "823130",
+     "name": "Polish edition",
+     "year": null,
+     "lang": "Polish",
+     "thumb": "https://cf.geekdo-images.com/t08LgG1IdV5jU97GX8t4PQ__small/img/1g4zAVM4vd1YjruQ5hcM8fmVKdc=/fit-in/200x150/filters:strip_icc()/pic9905850.png",
+     "image": "https://cf.geekdo-images.com/t08LgG1IdV5jU97GX8t4PQ__original/img/O_QSOZ5Wl_PkuiwR55S2jFrEUHc=/0x0/filters:format(png)/pic9905850.png"
+    }
+   ],
+   "at": "2026-11-26T12:34:44.019Z"
+  },
   "387780": {
    "v": 3,
    "id": "387780",
@@ -11673,7 +11818,7 @@
    "at": "2026-11-26T03:56:55.915Z"
   }
  },
- "updatedAt": "2026-11-26T10:28:11.125Z",
+ "updatedAt": "2026-11-26T12:34:49.138Z",
  "exps": {
   "2591": {
    "id": "2591",
@@ -14814,6 +14959,16 @@
    "maxp": 4,
    "time": 45,
    "at": "2026-11-26T03:18:08.082Z"
+  },
+  "393101": {
+   "id": "393101",
+   "en": "Sail: Seafarers Expansion",
+   "thumb": "https://cf.geekdo-images.com/JCHSww2sYXbXw99Ewcokcg__small/img/BV_ccD1VRSssumJ_ph62JAXOblY=/fit-in/200x150/filters:strip_icc()/pic9085390.jpg",
+   "year": 2023,
+   "minp": 2,
+   "maxp": 2,
+   "time": null,
+   "at": "2026-11-26T12:34:46.637Z"
   },
   "393789": {
    "id": "393789",
