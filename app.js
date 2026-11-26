@@ -240,6 +240,12 @@ const MECH = {
   "Resource to Move": "資源で移動", "Mancala": "マンカラ", "Ownership": "所有", "Loans": "借金", "Turn Order: Random": "手番順ランダム", "Bribery": "賄賂",
   "Negotiation": "交渉", "Trading": "交易", "Voting": "投票", "Predictive Bid": "予想ビッド", "Command Cards": "命令カード", "Card Play Conflict": "カード戦闘",
   "Speed Matching": "早取り", "Pattern Recognition": "パターン認識", "Measurement Movement": "計測移動", "Dexterity": "アクション", "Lose a Turn": "一回休み",
+  "Rock-Paper-Scissors": "じゃんけん", "Variable Phase Order": "フェイズ順可変", "Delayed Purchase": "予約購入", "Zone of Control": "ZOC",
+  "Action Retrieval": "アクション回収", "Turn Order: Time Track": "タイムトラック", "Grid Coverage": "グリッド埋め", "Multiple Maps": "複数マップ",
+  "Tags": "タグ", "Auction: Dutch": "競り（ダッチ）", "Ordering": "並べ替え", "Action / Event": "アクション/イベント", "Finale Ending": "最終ラウンド",
+  "Semi-Cooperative Game": "半協力", "Hidden Victory Points": "非公開得点", "Pattern Movement": "パターン移動", "Algorithmic Resolution": "自動処理",
+  "Deck Construction": "デッキ構築（事前）", "Advantage Token": "アドバンテージトークン", "Elapsed Real Time Ending": "時間制限", "Score-and-Reset Game": "ラウンド制得点",
+  "Auction: Multiple Lot": "競り（まとめ）", "Auction: Sealed Bid": "競り（入札）", "Secret Unit Deployment": "秘密配置",
   "Slide/Push": "押し出し", "Bias": "バイアス", "King of the Hill": "キング・オブ・ザ・ヒル", "Highest-Lowest Scoring": "最低点勝負", "Kill Steal": "横取り",
 };
 // 所持ゲームの表示用ヘルパー
@@ -256,12 +262,13 @@ function playersText(g) {
 }
 function ownedTitle(g, parent) {
   let ja = g.name, en = enName(g);
+  const same = norm(ja) === norm(en);   // 日本語名が未設定（英語名のまま）
   if (parent) {   // 拡張は本体名を省く
     const cut = (t, p) => (p && t.startsWith(p) ? t.slice(p.length).replace(/^[\s：:–—-]*(拡張[：:]?)?\s*/, "").trim() : t) || t;
     ja = cut(ja, parent.name); en = cut(en, enName(parent));
   }
   if (nameMode === "en" && en) return { main: en, sub: "" };
-  if (nameMode === "both" && en) return { main: en, sub: norm(en) !== norm(ja) ? ja : "" };
+  if (nameMode === "both" && en) return { main: en, sub: !same && norm(en) !== norm(ja) ? ja : "" };
   return { main: ja, sub: "" };
 }
 
