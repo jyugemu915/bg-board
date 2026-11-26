@@ -58,3 +58,14 @@
 - 推理部（ひよこの杜・毎週水曜）はマーダーミステリー系なら外す（ユーザー確認待ち）
 - ひよこの杜の年末年始休業は、カレンダー画像に合わせて 12/30〜1/1 で登録（LINE文面は12/28〜と記載があり食い違い）
 - マーダーミステリーはイベントに入れない
+
+## 開発メモ（次のClaude向け）
+- リポジトリは add_repo（access: push）で接続 → clone → 変更 → main に直接 push（個人用リポジトリ）。コミットは user.name=jyugemu915 で作成し、末尾にセッションの帰属行を付ける
+- index.html の `style.css?v=…` `app.js?v=…` は変更のたびに上げる（ホーム画面アプリのキャッシュ対策）
+- 自動取得の実行中に push すると bot の保存が衝突するが、保存ステップは pull --rebase して再試行する。push 前に `git pull --rebase origin main`
+- gh は GraphQL 不可。REST を使う（例：`gh api -X POST repos/jyugemu915/bg-board/actions/workflows/update.yml/dispatches -f ref=main` で自動取得を手動実行、`gh run view <id> --log` でログ確認）
+- 作業環境からは外部サイトに直接アクセスできない。BGGの検索候補などは一時的な probe 用ワークフロー（BGG_TOKEN 使用）で調べ、終わったら削除
+- 所持ゲームの写真登録：BGG ID を probe で確認 → `config/owned.json` に name / bgg（URL）/ parent / includes / from を追記 → `bgg-names.json` の aliases に ID も追加
+- 所持ゲームのデータは localStorage（bgb.owned.v1）。key=登録時の名前で、画面で名前を変えても config からの再取り込みで重複しない
+- BGG の新規検索は1回30件まで（bgg.mjs）、所持ゲーム詳細は40件まで（owned-info.mjs）。あふれた分は次の実行で取得
+- 画面の確認はローカルで `python3 -m http.server` ＋ Playwright（/usr/bin/google-chrome）でスクリーンショット
