@@ -1261,7 +1261,52 @@
    "query": "id:40628",
    "at": "2026-11-26T03:16:42.125Z",
    "alias": "40628"
+  },
+  "フィットトゥプリント": {
+   "label": "フィット・トゥ・プリント",
+   "id": "352574",
+   "name": "Fit to Print",
+   "image": "https://cf.geekdo-images.com/MbLJUbvoRI_AS-KGfIkmNQ__original/img/K2UI5_1m_hG1Pqbz01f084yRdjY=/0x0/filters:format(jpeg)/pic7161032.jpg",
+   "thumb": "https://cf.geekdo-images.com/MbLJUbvoRI_AS-KGfIkmNQ__small/img/c2yxjj2CSXC6Id97EIr3-H4Plpo=/fit-in/200x150/filters:strip_icc()/pic7161032.jpg",
+   "query": "id:352574",
+   "at": "2026-11-26T03:29:28.269Z",
+   "alias": "352574"
+  },
+  "テイクイットイージー": {
+   "label": "テイク・イット・イージー",
+   "id": "128",
+   "name": "Take it Easy!",
+   "image": "https://cf.geekdo-images.com/4uhHaI4jH-S9SqQ3s9dIrw__original/img/E9x2aqIuUK-msNMWo5UA8Ae_xLo=/0x0/filters:format(jpeg)/pic3108440.jpg",
+   "thumb": "https://cf.geekdo-images.com/4uhHaI4jH-S9SqQ3s9dIrw__small/img/meHHpFd-n5Z9fA8HB_Pp76eRmaE=/fit-in/200x150/filters:strip_icc()/pic3108440.jpg",
+   "query": "id:128",
+   "at": "2026-11-26T03:29:30.957Z",
+   "alias": "128"
+  },
+  "ハッピーフォックス": {
+   "label": "ハッピーフォックス",
+   "id": "392809",
+   "name": "Boo to the Goose",
+   "image": "https://cf.geekdo-images.com/-AcAtu8RJUjQ6mS9c8jpsQ__original/img/zP4EZoB3_KBY0r-J_2vPrjWYGvI=/0x0/filters:format(jpeg)/pic7617805.jpg",
+   "thumb": "https://cf.geekdo-images.com/-AcAtu8RJUjQ6mS9c8jpsQ__small/img/otU0OYFON3tQ4XPnHkq6zi4zr34=/fit-in/200x150/filters:strip_icc()/pic7617805.jpg",
+   "query": "id:392809",
+   "at": "2026-11-26T03:29:33.596Z",
+   "alias": "392809"
+  },
+  "ひらがじゃん": {
+   "label": "ひらがじゃん",
+   "miss": true,
+   "at": "2026-11-26T03:29:36.170Z"
+  },
+  "モノポリー": {
+   "label": "モノポリー",
+   "id": "1406",
+   "name": "Monopoly",
+   "image": "https://cf.geekdo-images.com/9nGoBZ0MRbi6rdH47sj2Qg__original/img/bA8irydTCNlE38QSzM9EhcUIuNU=/0x0/filters:format(jpeg)/pic5786795.jpg",
+   "thumb": "https://cf.geekdo-images.com/9nGoBZ0MRbi6rdH47sj2Qg__small/img/ezXcyEsHhS9iRxmuGe8SmiLLXlM=/fit-in/200x150/filters:strip_icc()/pic5786795.jpg",
+   "query": "id:1406",
+   "at": "2026-11-26T03:29:38.747Z",
+   "alias": "1406"
   }
  },
- "updatedAt": "2026-11-26T03:16:42.125Z"
+ "updatedAt": "2026-11-26T03:29:38.748Z"
 }
