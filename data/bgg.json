@@ -979,7 +979,289 @@
    "query": "id:424981",
    "at": "2026-11-26T02:23:48.812Z",
    "alias": "424981"
+  },
+  "コリドール": {
+   "label": "コリドール",
+   "id": "624",
+   "name": "Quoridor",
+   "image": "https://cf.geekdo-images.com/I1YNAhee09mryaqfEo8MwA__original/img/LUcYakoNVnYxjmpYRFA6HUpHWo4=/0x0/filters:format(jpeg)/pic3488232.jpg",
+   "thumb": "https://cf.geekdo-images.com/I1YNAhee09mryaqfEo8MwA__small/img/9TJaxgoMUkiMhAGSYM8-0o1ICpg=/fit-in/200x150/filters:strip_icc()/pic3488232.jpg",
+   "query": "id:624",
+   "at": "2026-11-26T03:15:15.116Z",
+   "alias": "624"
+  },
+  "hitエクストリーム": {
+   "label": "HIT! エクストリーム",
+   "id": "435979",
+   "name": "HIT! Extreme",
+   "image": "https://cf.geekdo-images.com/mCtomH-aFmtEvL0aVJ-7pQ__original/img/ccmax3aCqcMZiw98oZAX1EvGAxI=/0x0/filters:format(png)/pic8772408.png",
+   "thumb": "https://cf.geekdo-images.com/mCtomH-aFmtEvL0aVJ-7pQ__small/img/Hk51nQWkmPDsA5zx2_vVdVQIxKA=/fit-in/200x150/filters:strip_icc()/pic8772408.png",
+   "query": "id:435979",
+   "at": "2026-11-26T03:15:17.799Z",
+   "alias": "435979"
+  },
+  "クランプスホリデーハボック": {
+   "label": "クランプス ホリデーハボック",
+   "miss": true,
+   "at": "2026-11-26T03:15:22.987Z"
+  },
+  "プロポリス": {
+   "label": "プロポリス",
+   "id": "431994",
+   "name": "Propolis",
+   "image": "https://cf.geekdo-images.com/UnNRtk6gbVsAI0kl_6pF6A__original/img/RkmO_jlI7hxqMx4VbcyJhVzRW6o=/0x0/filters:format(png)/pic8514363.png",
+   "thumb": "https://cf.geekdo-images.com/UnNRtk6gbVsAI0kl_6pF6A__small/img/FO_BmC-71Jch0RDDcmlb9ZiHPks=/fit-in/200x150/filters:strip_icc()/pic8514363.png",
+   "query": "id:431994",
+   "at": "2026-11-26T03:15:25.644Z",
+   "alias": "431994"
+  },
+  "ペイバック": {
+   "label": "ペイバック",
+   "id": "446469",
+   "name": "PAYBACK",
+   "image": "https://cf.geekdo-images.com/7MraA53v0kW9tKtQgiXCig__original/img/DUEllsofjvNUVo6d7EPT4hq723c=/0x0/filters:format(jpeg)/pic8881075.jpg",
+   "thumb": "https://cf.geekdo-images.com/7MraA53v0kW9tKtQgiXCig__small/img/8IQWAX4HXRtkB_nkJsn46hKu7RU=/fit-in/200x150/filters:strip_icc()/pic8881075.jpg",
+   "query": "ペイバック",
+   "at": "2026-11-26T03:15:30.981Z"
+  },
+  "ブリュー": {
+   "label": "ブリュー",
+   "id": "332386",
+   "name": "Brew",
+   "image": "https://cf.geekdo-images.com/8eN5t1p4ncee-eVN9NswDA__original/img/Hhv8kruqZZH1vv5W7gR7QXNZ_KM=/0x0/filters:format(png)/pic6007253.png",
+   "thumb": "https://cf.geekdo-images.com/8eN5t1p4ncee-eVN9NswDA__small/img/EI64n63DbQ9DHhTf72s7UpUFMBY=/fit-in/200x150/filters:strip_icc()/pic6007253.png",
+   "query": "id:332386",
+   "at": "2026-11-26T03:15:33.703Z",
+   "alias": "332386"
+  },
+  "ジングルベルロール": {
+   "label": "ジングルベルロール",
+   "id": "443697",
+   "name": "Jingle Bell Roll",
+   "image": "https://cf.geekdo-images.com/ae--H2mwN7EQgWwqU-ra8Q__original/img/D2pa5kvcNzs8EtIvb6iNYO0oi7w=/0x0/filters:format(jpeg)/pic9161182.jpg",
+   "thumb": "https://cf.geekdo-images.com/ae--H2mwN7EQgWwqU-ra8Q__small/img/2dqXTEjHwB44REMVUC6f05JJ-jI=/fit-in/200x150/filters:strip_icc()/pic9161182.jpg",
+   "query": "id:443697",
+   "at": "2026-11-26T03:15:36.293Z",
+   "alias": "443697"
+  },
+  "16タビーキャッツ": {
+   "label": "16タビーキャッツ",
+   "miss": true,
+   "at": "2026-11-26T03:15:38.899Z"
+  },
+  "ペーパーテイルズ": {
+   "label": "ペーパーテイルズ",
+   "id": "217861",
+   "name": "Paper Tales",
+   "image": "https://cf.geekdo-images.com/V62ulI0ifY0LIGocVuKCIQ__original/img/XGKDfeYi6S3jBz4eE4cly-Nc5Us=/0x0/filters:format(jpeg)/pic4043983.jpg",
+   "thumb": "https://cf.geekdo-images.com/V62ulI0ifY0LIGocVuKCIQ__small/img/-aesB6Vzn2VfsN619Ellkc8Z0UE=/fit-in/200x150/filters:strip_icc()/pic4043983.jpg",
+   "query": "id:217861",
+   "at": "2026-11-26T03:15:41.502Z",
+   "alias": "217861"
+  },
+  "ファクトリーファンナー": {
+   "label": "ファクトリーファンナー",
+   "id": "183284",
+   "name": "Factory Funner",
+   "image": "https://cf.geekdo-images.com/KSF17xv7uX1TAwfyXg7jGg__original/img/TUJcf326JXTt0yMQziK9itdVkUI=/0x0/filters:format(jpeg)/pic6068797.jpg",
+   "thumb": "https://cf.geekdo-images.com/KSF17xv7uX1TAwfyXg7jGg__small/img/CZXtSqoJ7UPnPPtSskEZqFwwZgY=/fit-in/200x150/filters:strip_icc()/pic6068797.jpg",
+   "query": "id:183284",
+   "at": "2026-11-26T03:15:44.145Z",
+   "alias": "183284"
+  },
+  "セイル": {
+   "label": "セイル",
+   "id": "377470",
+   "name": "Sail",
+   "image": "https://cf.geekdo-images.com/WdYRHQ_ILHTV_ECMGF27Gw__original/img/i9rMBmWzjVl2Aep-xUqWg4u0ADA=/0x0/filters:format(jpeg)/pic7267575.jpg",
+   "thumb": "https://cf.geekdo-images.com/WdYRHQ_ILHTV_ECMGF27Gw__small/img/y8Hlu0-CQDQAO6d6zM8YJ3dVevI=/fit-in/200x150/filters:strip_icc()/pic7267575.jpg",
+   "query": "セイル",
+   "at": "2026-11-26T03:15:49.423Z"
+  },
+  "ログ": {
+   "label": "ログ",
+   "miss": true,
+   "at": "2026-11-26T03:15:52.052Z"
+  },
+  "ビーコンパトロール": {
+   "label": "ビーコンパトロール",
+   "id": "362976",
+   "name": "Beacon Patrol",
+   "image": "https://cf.geekdo-images.com/9hDNHVLmorkaytg2ztLM6w__original/img/k5cnBMKBb94XWGhL0aEyYOlaWtQ=/0x0/filters:format(jpeg)/pic7439416.jpg",
+   "thumb": "https://cf.geekdo-images.com/9hDNHVLmorkaytg2ztLM6w__small/img/2dUdMpeeHEbAFEM9rOJOmkf_kjs=/fit-in/200x150/filters:strip_icc()/pic7439416.jpg",
+   "query": "id:362976",
+   "at": "2026-11-26T03:15:54.667Z",
+   "alias": "362976"
+  },
+  "ビーコンパトロール拡張シップス&ショアーズ": {
+   "label": "ビーコンパトロール 拡張：シップス＆ショアーズ",
+   "id": "417618",
+   "name": "Beacon Patrol: Ships & Shores",
+   "image": "https://cf.geekdo-images.com/-E0WYwYk_0iuhXjalP5jTA__original/img/p8_FLybGrfppY_RJZBS7f_fx2w4=/0x0/filters:format(png)/pic8107991.png",
+   "thumb": "https://cf.geekdo-images.com/-E0WYwYk_0iuhXjalP5jTA__small/img/vpy655Qct28yseTJBzKgftuENDU=/fit-in/200x150/filters:strip_icc()/pic8107991.png",
+   "query": "id:417618",
+   "at": "2026-11-26T03:15:57.261Z",
+   "alias": "417618"
+  },
+  "スランボー": {
+   "label": "スランボー！",
+   "id": "435357",
+   "name": "Slambo!",
+   "image": "https://cf.geekdo-images.com/zxv1E3rN3eEVx3hCX8kgvA__original/img/zAjo-fwAkTf9izT6hoJsk1AUwq0=/0x0/filters:format(jpeg)/pic8598493.jpg",
+   "thumb": "https://cf.geekdo-images.com/zxv1E3rN3eEVx3hCX8kgvA__small/img/TsZdnm1OiXqK40dL0kGFnSXfHJQ=/fit-in/200x150/filters:strip_icc()/pic8598493.jpg",
+   "query": "id:435357",
+   "at": "2026-11-26T03:15:59.850Z",
+   "alias": "435357"
+  },
+  "タルギ": {
+   "label": "タルギ",
+   "id": "118048",
+   "name": "Targi",
+   "image": "https://cf.geekdo-images.com/wHg4fOf48cs1kw1PDOk1tQ__original/img/St4ABQhpauYiq4Mt6-f38JtLOjM=/0x0/filters:format(jpeg)/pic3958793.jpg",
+   "thumb": "https://cf.geekdo-images.com/wHg4fOf48cs1kw1PDOk1tQ__small/img/6l-jqYlfECK1SVSsUs7FXUheKzQ=/fit-in/200x150/filters:strip_icc()/pic3958793.jpg",
+   "query": "id:118048",
+   "at": "2026-11-26T03:16:02.432Z",
+   "alias": "118048"
+  },
+  "ローゼンケーニッヒ": {
+   "label": "ローゼンケーニッヒ",
+   "id": "201",
+   "name": "The Rose King",
+   "image": "https://cf.geekdo-images.com/vfFy_HLiBNLxptwxFDMmDg__original/img/P3_WKEg4RBXmBWIVE4pMhFD35x4=/0x0/filters:format(jpeg)/pic2855891.jpg",
+   "thumb": "https://cf.geekdo-images.com/vfFy_HLiBNLxptwxFDMmDg__small/img/CJ8yTQu3kt8o4ZwF5ZbMJWDj564=/fit-in/200x150/filters:strip_icc()/pic2855891.jpg",
+   "query": "id:201",
+   "at": "2026-11-26T03:16:05.052Z",
+   "alias": "201"
+  },
+  "アグリコラ牧場の動物たち": {
+   "label": "アグリコラ 牧場の動物たち",
+   "id": "119890",
+   "name": "Agricola: All Creatures Big and Small",
+   "image": "https://cf.geekdo-images.com/iaxdcb_l3F8McwzyoiiCig__original/img/0jQpVjFEcjoIPpVGRf2DhO-jzLo=/0x0/filters:format(jpeg)/pic1514252.jpg",
+   "thumb": "https://cf.geekdo-images.com/iaxdcb_l3F8McwzyoiiCig__small/img/UWsWeuOQpGv5asAoyrKgwL3pVj0=/fit-in/200x150/filters:strip_icc()/pic1514252.jpg",
+   "query": "id:119890",
+   "at": "2026-11-26T03:16:07.638Z",
+   "alias": "119890"
+  },
+  "パッチワークウィンターエディション": {
+   "label": "パッチワーク ウィンターエディション",
+   "id": "163412",
+   "name": "Patchwork",
+   "image": "https://cf.geekdo-images.com/xNSaIHCKr_cc7Q2rQSSJPQ__original/img/HJJdVosBV35kj8pQ6wmQMiJRhVA=/0x0/filters:format(jpeg)/pic9273518.jpg",
+   "thumb": "https://cf.geekdo-images.com/xNSaIHCKr_cc7Q2rQSSJPQ__small/img/9Kf3YKiVIJxd_EbqJEJFdlGfj7I=/fit-in/200x150/filters:strip_icc()/pic9273518.jpg",
+   "query": "id:163412",
+   "at": "2026-11-26T03:16:10.222Z",
+   "alias": "163412"
+  },
+  "スプレンダーデュエル": {
+   "label": "スプレンダー・デュエル",
+   "id": "364073",
+   "name": "Splendor Duel",
+   "image": "https://cf.geekdo-images.com/V1PyFDPNFY4bJFgreLPxmQ__original/img/NelFMJToi6WYyDQheBZiwCP7-qE=/0x0/filters:format(jpeg)/pic6929347.jpg",
+   "thumb": "https://cf.geekdo-images.com/V1PyFDPNFY4bJFgreLPxmQ__small/img/E0OuG2X4HsbOdCh1uLyZZcMiapQ=/fit-in/200x150/filters:strip_icc()/pic6929347.jpg",
+   "query": "id:364073",
+   "at": "2026-11-26T03:16:12.810Z",
+   "alias": "364073"
+  },
+  "スクエアワン": {
+   "label": "スクエアワン",
+   "id": "416232",
+   "name": "Square One",
+   "image": "https://cf.geekdo-images.com/uin0MN7DiCMW3K2X4kah0A__original/img/8jNY9BMLh2H6xB2eswTdn9T5gyc=/0x0/filters:format(png)/pic8172361.png",
+   "thumb": "https://cf.geekdo-images.com/uin0MN7DiCMW3K2X4kah0A__small/img/Z0JZ6SsD0kUVRD4uazmP96T-XVs=/fit-in/200x150/filters:strip_icc()/pic8172361.png",
+   "query": "id:416232",
+   "at": "2026-11-26T03:16:15.484Z",
+   "alias": "416232"
+  },
+  "プロジェクトl": {
+   "label": "プロジェクトL",
+   "id": "260180",
+   "name": "Project L",
+   "image": "https://cf.geekdo-images.com/Zwx2ZXS6r6PaxhkaVEe75Q__original/img/nBfsV9V5a-xc3uJkYhE0DN-QVjI=/0x0/filters:format(jpeg)/pic4309147.jpg",
+   "thumb": "https://cf.geekdo-images.com/Zwx2ZXS6r6PaxhkaVEe75Q__small/img/3x5kSxZlvLK6PdeMHX9xd_sSTMs=/fit-in/200x150/filters:strip_icc()/pic4309147.jpg",
+   "query": "プロジェクトL",
+   "at": "2026-11-26T03:16:20.805Z"
+  },
+  "スタックオーキャッツ": {
+   "label": "スタック・オー・キャッツ",
+   "id": "427942",
+   "name": "Stack O&#039; Cats",
+   "image": "https://cf.geekdo-images.com/nUTXeK52pmiCIem_INmpIw__original/img/ZP6P-kwamdI18QeEnnl6V4eZz50=/0x0/filters:format(png)/pic8395328.png",
+   "thumb": "https://cf.geekdo-images.com/nUTXeK52pmiCIem_INmpIw__small/img/wBE_E65HUqLHMN10i5Lc2glLmas=/fit-in/200x150/filters:strip_icc()/pic8395328.png",
+   "query": "id:427942",
+   "at": "2026-11-26T03:16:23.453Z",
+   "alias": "427942"
+  },
+  "アイスクール": {
+   "label": "アイスクール",
+   "id": "177524",
+   "name": "ICECOOL",
+   "image": "https://cf.geekdo-images.com/xVx8ex1fjO9C7W8rRvWdVQ__original/img/rIyNSXqNgGs4Yqt0xL5CdTp9grg=/0x0/filters:format(png)/pic3320017.png",
+   "thumb": "https://cf.geekdo-images.com/xVx8ex1fjO9C7W8rRvWdVQ__small/img/7ZeCdaJWigksF5wUHTGGXmmfP6Y=/fit-in/200x150/filters:strip_icc()/pic3320017.png",
+   "query": "id:177524",
+   "at": "2026-11-26T03:16:26.071Z",
+   "alias": "177524"
+  },
+  "アイスクール2": {
+   "label": "アイスクール2",
+   "id": "244513",
+   "name": "ICECOOL2",
+   "image": "https://cf.geekdo-images.com/IgZB5TaWWO1QLHH5T00MYQ__original/img/Zqbelz4KwjKLRehko4XfhV45g-Y=/0x0/filters:format(png)/pic3950733.png",
+   "thumb": "https://cf.geekdo-images.com/IgZB5TaWWO1QLHH5T00MYQ__small/img/v0Fd9V6xE541Qy_NIue77K9cMc8=/fit-in/200x150/filters:strip_icc()/pic3950733.png",
+   "query": "id:244513",
+   "at": "2026-11-26T03:16:28.873Z",
+   "alias": "244513"
+  },
+  "ボックストップピンボールホーンテッドハウス": {
+   "label": "ボックストップピンボール：ホーンテッドハウス",
+   "id": "417629",
+   "name": "Boxtop Pinball: Haunted House",
+   "image": "https://cf.geekdo-images.com/INuFEbHDXKD6VoSLp32C-A__original/img/0nWwF5_yEMhSsc63GrHqB5MCqnk=/0x0/filters:format(png)/pic8304338.png",
+   "thumb": "https://cf.geekdo-images.com/INuFEbHDXKD6VoSLp32C-A__small/img/xZRkuWU-w6Tp7JEbzWgbjRolDv0=/fit-in/200x150/filters:strip_icc()/pic8304338.png",
+   "query": "id:417629",
+   "at": "2026-11-26T03:16:31.611Z",
+   "alias": "417629"
+  },
+  "ナショナルエコノミー": {
+   "label": "ナショナルエコノミー",
+   "id": "219122",
+   "name": "National Economy",
+   "image": "https://cf.geekdo-images.com/Hp_je-m152-Yoir9OLFdyg__original/img/V6KH4gYJodeFm-5GAQAFCvmuXPA=/0x0/filters:format(jpeg)/pic3428709.jpg",
+   "thumb": "https://cf.geekdo-images.com/Hp_je-m152-Yoir9OLFdyg__small/img/Udfp-AdNOdB1zq2yFtr8pQpGy1Y=/fit-in/200x150/filters:strip_icc()/pic3428709.jpg",
+   "query": "id:219122",
+   "at": "2026-11-26T03:16:34.306Z",
+   "alias": "219122"
+  },
+  "パークス&ポーションズ": {
+   "label": "パークス＆ポーションズ",
+   "id": "414927",
+   "name": "Parks & Potions",
+   "image": "https://cf.geekdo-images.com/cWNFu9L65E1F74Oai6mDSw__original/img/7lTdSm4Fs91nsjNqkl-73MQh5gU=/0x0/filters:format(png)/pic8369367.png",
+   "thumb": "https://cf.geekdo-images.com/cWNFu9L65E1F74Oai6mDSw__small/img/YW-BNLFxRiVqtKtoCq00DFnn6uA=/fit-in/200x150/filters:strip_icc()/pic8369367.png",
+   "query": "id:414927",
+   "at": "2026-11-26T03:16:36.915Z",
+   "alias": "414927"
+  },
+  "リバーバレーグラスワークス": {
+   "label": "リバーバレー・グラスワークス",
+   "id": "407297",
+   "name": "River Valley Glassworks",
+   "image": "https://cf.geekdo-images.com/Rb2Hw7IDaF7evNMjrqMmXA__original/img/1aBSwl0-UzJ-0p3h-zILKZtJJGM=/0x0/filters:format(jpeg)/pic7886346.jpg",
+   "thumb": "https://cf.geekdo-images.com/Rb2Hw7IDaF7evNMjrqMmXA__small/img/w1wJgVzu16nnp_zm4wbMNmNSVzA=/fit-in/200x150/filters:strip_icc()/pic7886346.jpg",
+   "query": "id:407297",
+   "at": "2026-11-26T03:16:39.514Z",
+   "alias": "407297"
+  },
+  "フィンカ": {
+   "label": "フィンカ",
+   "id": "40628",
+   "name": "Finca",
+   "image": "https://cf.geekdo-images.com/U7n2gtbgu2IpEGs8YePYlQ__original/img/JDYLSVGE5CTt__nA1lLb7hBnmAw=/0x0/filters:format(png)/pic8520431.png",
+   "thumb": "https://cf.geekdo-images.com/U7n2gtbgu2IpEGs8YePYlQ__small/img/5jsaAnh3fc8yy8QwnzBhRXr3kIs=/fit-in/200x150/filters:strip_icc()/pic8520431.png",
+   "query": "id:40628",
+   "at": "2026-11-26T03:16:42.125Z",
+   "alias": "40628"
   }
  },
- "updatedAt": "2026-11-26T03:12:14.416Z"
+ "updatedAt": "2026-11-26T03:16:42.125Z"
 }

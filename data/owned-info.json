@@ -238,6 +238,617 @@
    ],
    "at": "2026-11-26T02:46:13.783Z"
   },
+  "128": {
+   "v": 2,
+   "id": "128",
+   "type": "boardgame",
+   "best": "2〜8",
+   "rec": "1〜8+",
+   "minTime": 20,
+   "maxTime": 20,
+   "age": 10,
+   "rating": 6.61,
+   "weight": 1.48,
+   "rank": 2563,
+   "mechanics": [
+    "Bingo",
+    "Pattern Building",
+    "Tile Placement"
+   ],
+   "categories": [
+    "Abstract Strategy",
+    "Puzzle"
+   ],
+   "designers": [
+    "Peter Burley"
+   ],
+   "expansions": [],
+   "bases": [],
+   "en": "Take it Easy!",
+   "ja": "",
+   "minp": 1,
+   "maxp": 8,
+   "time": 20,
+   "year": 1983,
+   "thumb": "https://cf.geekdo-images.com/4uhHaI4jH-S9SqQ3s9dIrw__small/img/meHHpFd-n5Z9fA8HB_Pp76eRmaE=/fit-in/200x150/filters:strip_icc()/pic3108440.jpg",
+   "image": "https://cf.geekdo-images.com/4uhHaI4jH-S9SqQ3s9dIrw__original/img/E9x2aqIuUK-msNMWo5UA8Ae_xLo=/0x0/filters:format(jpeg)/pic3108440.jpg",
+   "versions": [
+    {
+     "id": "322185",
+     "name": "Multilingual edition 2016",
+     "year": 2016,
+     "lang": "English・Japanese・Korean・Swedish",
+     "thumb": "https://cf.geekdo-images.com/JCdMJ2P5zW-nQ4_VqGCp6Q__small/img/TiAe8ZwcZUJaY9Ul0PlKFIA7N8M=/fit-in/200x150/filters:strip_icc()/pic3137307.jpg",
+     "image": "https://cf.geekdo-images.com/JCdMJ2P5zW-nQ4_VqGCp6Q__original/img/u9HhQv98GKGr-vFsqOA2Ub-l75o=/0x0/filters:format(jpeg)/pic3137307.jpg"
+    },
+    {
+     "id": "798285",
+     "name": "Korean second edition",
+     "year": 2026,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/G9zVPSaTjagMsaHpcUxVgg__small/img/1Wwsyio65Tl3Qs3MblCD-3OpAyY=/fit-in/200x150/filters:strip_icc()/pic9527721.png",
+     "image": "https://cf.geekdo-images.com/G9zVPSaTjagMsaHpcUxVgg__original/img/zaK_EiCp4yub-cfGRX_KwBD1dqI=/0x0/filters:format(png)/pic9527721.png"
+    },
+    {
+     "id": "685018",
+     "name": "French/Spanish edition",
+     "year": 2023,
+     "lang": "French・Spanish",
+     "thumb": "https://cf.geekdo-images.com/wPHVs8QcBlPQOXO-p8oxIw__small/img/mGLNRFM4Tw-Aat3qsiDxQaUedEI=/fit-in/200x150/filters:strip_icc()/pic7758011.jpg",
+     "image": "https://cf.geekdo-images.com/wPHVs8QcBlPQOXO-p8oxIw__original/img/EDx3gc8QzNekDNqBVRpcFLdGUG0=/0x0/filters:format(jpeg)/pic7758011.jpg"
+    },
+    {
+     "id": "543634",
+     "name": "Korean-only edition",
+     "year": 2020,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/WTegOa1n8j6uy4GdXPLW1w__small/img/IP-ckKG3dBw5oBSoMzmS4sVLSTE=/fit-in/200x150/filters:strip_icc()/pic5867450.jpg",
+     "image": "https://cf.geekdo-images.com/WTegOa1n8j6uy4GdXPLW1w__original/img/Ky52xrKQ3HqoRXCwVvcvrSBbddA=/0x0/filters:format(jpeg)/pic5867450.jpg"
+    },
+    {
+     "id": "462320",
+     "name": "Zvata English edition",
+     "year": 2019,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/WPOKw3R7FiIKvMlrKWv3pQ__small/img/S7Zbi2LRxTbpOzTVg0lFaE1SKsQ=/fit-in/200x150/filters:strip_icc()/pic4813390.jpg",
+     "image": "https://cf.geekdo-images.com/WPOKw3R7FiIKvMlrKWv3pQ__original/img/9jPZOgdDapWW7_-UzoJpj5l-8fk=/0x0/filters:format(jpeg)/pic4813390.jpg"
+    },
+    {
+     "id": "402819",
+     "name": "Rebel Polish edition",
+     "year": 2018,
+     "lang": "Polish",
+     "thumb": "https://cf.geekdo-images.com/7lWiYHp3vVP7BAUkHnyatQ__small/img/Bo86Olq4IecLWMapGVHNOEBInOM=/fit-in/200x150/filters:strip_icc()/pic4196815.jpg",
+     "image": "https://cf.geekdo-images.com/7lWiYHp3vVP7BAUkHnyatQ__original/img/H9wAmby7t74HA_C7f2rx-pJ9194=/0x0/filters:format(jpeg)/pic4196815.jpg"
+    },
+    {
+     "id": "377644",
+     "name": "IELLO French edition",
+     "year": 2017,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/jjDf49HWmIZmok0fnh4WVQ__small/img/7YKsZXwmYCNYpArJV4c6IhaHKzY=/fit-in/200x150/filters:strip_icc()/pic3847823.jpg",
+     "image": "https://cf.geekdo-images.com/jjDf49HWmIZmok0fnh4WVQ__original/img/85ferOGLspIENFPm1FmBX6PwE6I=/0x0/filters:format(jpeg)/pic3847823.jpg"
+    },
+    {
+     "id": "353436",
+     "name": "Italian first edition",
+     "year": 2017,
+     "lang": "Italian",
+     "thumb": "https://cf.geekdo-images.com/dm7W8WbUtEjD85JHWazmlA__small/img/0anQY-ldcuzQfdHITbjM0Oo2EJU=/fit-in/200x150/filters:strip_icc()/pic3525352.png",
+     "image": "https://cf.geekdo-images.com/dm7W8WbUtEjD85JHWazmlA__original/img/1Pzf0otNyjYRnh2BmTuDSVJpo5U=/0x0/filters:format(png)/pic3525352.png"
+    },
+    {
+     "id": "349363",
+     "name": "White Goblin Dutch/English edition",
+     "year": 2017,
+     "lang": "Dutch・English",
+     "thumb": "https://cf.geekdo-images.com/Db8KS6SpBB3jy697yp7aBA__small/img/72avKMKDFGvb92QKi4JnLiQgVhg=/fit-in/200x150/filters:strip_icc()/pic3468438.jpg",
+     "image": "https://cf.geekdo-images.com/Db8KS6SpBB3jy697yp7aBA__original/img/FsZgpsXsNyWQdAlxgEBropY4qok=/0x0/filters:format(jpeg)/pic3468438.jpg"
+    },
+    {
+     "id": "307954",
+     "name": "Burley English edition 2016",
+     "year": 2016,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/4uhHaI4jH-S9SqQ3s9dIrw__small/img/meHHpFd-n5Z9fA8HB_Pp76eRmaE=/fit-in/200x150/filters:strip_icc()/pic3108440.jpg",
+     "image": "https://cf.geekdo-images.com/4uhHaI4jH-S9SqQ3s9dIrw__original/img/E9x2aqIuUK-msNMWo5UA8Ae_xLo=/0x0/filters:format(jpeg)/pic3108440.jpg"
+    },
+    {
+     "id": "517745",
+     "name": "Chinese edition",
+     "year": 2016,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/aoH0KLMXtBo7-AnHx6wceg__small/img/LlWXOIbdMB1sXW5Vh_gNg_eGb_I=/fit-in/200x150/filters:strip_icc()/pic3089347.jpg",
+     "image": "https://cf.geekdo-images.com/aoH0KLMXtBo7-AnHx6wceg__original/img/ELvz6hZi1CgIvbqGQqEEP-kdZnc=/0x0/filters:format(jpeg)/pic3089347.jpg"
+    },
+    {
+     "id": "66380",
+     "name": "Gryphon English edition",
+     "year": 2009,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/4v7zdU2GCN4XOPzYfC04BA__small/img/G08L6Pxhfl222g4F-jGU3n9fJM4=/fit-in/200x150/filters:strip_icc()/pic463836.jpg",
+     "image": "https://cf.geekdo-images.com/4v7zdU2GCN4XOPzYfC04BA__original/img/L_LuJ0_bWTVLlGtsKmou61Q0Crc=/0x0/filters:format(jpeg)/pic463836.jpg"
+    },
+    {
+     "id": "106018",
+     "name": "Burley English/Dutch/French edition",
+     "year": 2008,
+     "lang": "Dutch・English・French",
+     "thumb": "https://cf.geekdo-images.com/SuSjdoVp8PD2Seh-XAgOcQ__small/img/4PgqdiJ7o6gJrkxWp9qIotx-tmc=/fit-in/200x150/filters:strip_icc()/pic345747.jpg",
+     "image": "https://cf.geekdo-images.com/SuSjdoVp8PD2Seh-XAgOcQ__original/img/r0zhxMydME0iA50j-iexPBOCavg=/0x0/filters:format(jpeg)/pic345747.jpg"
+    },
+    {
+     "id": "30528",
+     "name": "Cappelen Norwegian edition",
+     "year": 2007,
+     "lang": "Norwegian",
+     "thumb": "https://cf.geekdo-images.com/IWCpr_huM83u9P_bqTzpuA__small/img/X-2CcgMfBmd3gQf5j1FmCwUp6LU=/fit-in/200x150/filters:strip_icc()/pic677237.jpg",
+     "image": "https://cf.geekdo-images.com/IWCpr_huM83u9P_bqTzpuA__original/img/69Q-cyo6TumjlY21bTku6OqlX0E=/0x0/filters:format(jpeg)/pic677237.jpg"
+    },
+    {
+     "id": "31318",
+     "name": "Ravensburger Estonian edition",
+     "year": 2006,
+     "lang": "Estonian",
+     "thumb": "https://cf.geekdo-images.com/V3ufFAET8_nzAXqu_KyMIA__small/img/FD3wUoOdHcfI8S8omdlau8Tm0EE=/fit-in/200x150/filters:strip_icc()/pic476238.jpg",
+     "image": "https://cf.geekdo-images.com/V3ufFAET8_nzAXqu_KyMIA__original/img/Tq30mXwA7rcV4j74y4LBzMtpg40=/0x0/filters:format(jpeg)/pic476238.jpg"
+    },
+    {
+     "id": "673249",
+     "name": "Ravensburger Classics German edition",
+     "year": 2005,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/FLpMsSD5BsopI9h4IOJr4Q__small/img/J9RaQ8Y9U2od8PWfCb6pwl2kPMw=/fit-in/200x150/filters:strip_icc()/pic296413.jpg",
+     "image": "https://cf.geekdo-images.com/FLpMsSD5BsopI9h4IOJr4Q__original/img/neBTmNOegMO_7j9cAT6bIBf8PeE=/0x0/filters:format(jpeg)/pic296413.jpg"
+    },
+    {
+     "id": "28383",
+     "name": "Ravensburger Classics multilingual edition",
+     "year": 2005,
+     "lang": "Dutch・English・French・German・Italian",
+     "thumb": "https://cf.geekdo-images.com/aziS94prF92li1glEXmkqA__small/img/rX2qUGhCIyZqtn5TcBptTv1x3xc=/fit-in/200x150/filters:strip_icc()/pic697984.jpg",
+     "image": "https://cf.geekdo-images.com/aziS94prF92li1glEXmkqA__original/img/bK8FZbTW8XNxPdDZY2uGm_4myhQ=/0x0/filters:format(jpeg)/pic697984.jpg"
+    },
+    {
+     "id": "25953",
+     "name": "Ravensburger multilingual 4-player edition",
+     "year": 2001,
+     "lang": "Dutch・English・French・German・Italian",
+     "thumb": "https://cf.geekdo-images.com/tR3yIpIN5eBVbLGQeBI5WQ__small/img/mut8_32RiWv5vTwv9Fi9e4K6YTs=/fit-in/200x150/filters:strip_icc()/pic70784.jpg",
+     "image": "https://cf.geekdo-images.com/tR3yIpIN5eBVbLGQeBI5WQ__original/img/zBTSpKRMlXzSxI6JN7JWoCvnilU=/0x0/filters:format(jpeg)/pic70784.jpg"
+    },
+    {
+     "id": "85136",
+     "name": "F. X. Schmid XXL Nordic edition",
+     "year": 2000,
+     "lang": "Danish・Finnish・Norwegian・Swedish",
+     "thumb": "https://cf.geekdo-images.com/B8jpYqOZf0SpItfGIR9GBQ__small/img/1COMNeB8jhNa91WfLG2l6aSXYtY=/fit-in/200x150/filters:strip_icc()/pic299281.jpg",
+     "image": "https://cf.geekdo-images.com/B8jpYqOZf0SpItfGIR9GBQ__original/img/XQF_RieqaGe7a2fbIFdwrB9y4xA=/0x0/filters:format(jpeg)/pic299281.jpg"
+    },
+    {
+     "id": "90389",
+     "name": "F.X. Schmid German red box edition",
+     "year": 1998,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/T5kLiMY0zhQj7_0HvxbMZQ__small/img/oCr7d23czXnuTlglT-1aITj76Ko=/fit-in/200x150/filters:strip_icc()/pic1014955.jpg",
+     "image": "https://cf.geekdo-images.com/T5kLiMY0zhQj7_0HvxbMZQ__original/img/puKfR7xhgJ8djB8iCb0NunGMQRA=/0x0/filters:format(jpeg)/pic1014955.jpg"
+    },
+    {
+     "id": "96971",
+     "name": "FX Schmid English 8-player edition",
+     "year": 1997,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/LQVin5bPqz9e_o0U2wfMsQ__small/img/Zm5sjsMMWTzHvX5073XVpsWbZ64=/fit-in/200x150/filters:strip_icc()/pic211518.jpg",
+     "image": "https://cf.geekdo-images.com/LQVin5bPqz9e_o0U2wfMsQ__original/img/sq1T59igNTrhlD5vSIpnp_Lj_Os=/0x0/filters:format(jpeg)/pic211518.jpg"
+    },
+    {
+     "id": "314047",
+     "name": "FX Schmid German XXL edition",
+     "year": 1997,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/KJcWm8eOmkgEu_iCD28QOQ__small/img/Lhlwp8csv19mT0nV4xoEV5Lxpug=/fit-in/200x150/filters:strip_icc()/pic3530044.jpg",
+     "image": "https://cf.geekdo-images.com/KJcWm8eOmkgEu_iCD28QOQ__original/img/ve0gSLVvTc-i7CqwLYXqxNJNTbc=/0x0/filters:format(jpeg)/pic3530044.jpg"
+    },
+    {
+     "id": "106858",
+     "name": "F.X. Schmid German edition",
+     "year": 1994,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/mFTLIio81KbxtEMJdEp5Ig__small/img/z-u3UhLI693WnPQO7ZwYJ72w5uA=/fit-in/200x150/filters:strip_icc()/pic1026784.jpg",
+     "image": "https://cf.geekdo-images.com/mFTLIio81KbxtEMJdEp5Ig__original/img/wuPhN8l1Fg1_LK43W6O08QcqCcc=/0x0/filters:format(jpeg)/pic1026784.jpg"
+    },
+    {
+     "id": "33990",
+     "name": "FX Schmid German SdJ edition",
+     "year": 1994,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/c7haRkq0qtbbpm00MpOT3Q__small/img/kBtxjVYYT3bnTkoHte82_aoJY_Y=/fit-in/200x150/filters:strip_icc()/pic295880.jpg",
+     "image": "https://cf.geekdo-images.com/c7haRkq0qtbbpm00MpOT3Q__original/img/QaGyRaRwtlmuDSLEFOT48spNYog=/0x0/filters:format(jpeg)/pic295880.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:17:48.460Z"
+  },
+  "201": {
+   "v": 2,
+   "id": "201",
+   "type": "boardgame",
+   "best": "2",
+   "rec": "2",
+   "minTime": 30,
+   "maxTime": 30,
+   "age": 10,
+   "rating": 6.82,
+   "weight": 1.93,
+   "rank": 1837,
+   "mechanics": [
+    "Area Majority / Influence",
+    "Grid Movement",
+    "Hand Management",
+    "Move Through Deck",
+    "Pattern Building",
+    "Square Grid",
+    "Static Capture",
+    "Sudden Death Ending",
+    "Tile Placement"
+   ],
+   "categories": [
+    "Abstract Strategy",
+    "Medieval"
+   ],
+   "designers": [
+    "Dirk Henn"
+   ],
+   "expansions": [],
+   "bases": [],
+   "en": "The Rose King",
+   "ja": "ローゼンケーニッヒ",
+   "minp": 2,
+   "maxp": 2,
+   "time": 30,
+   "year": 1992,
+   "thumb": "https://cf.geekdo-images.com/vfFy_HLiBNLxptwxFDMmDg__small/img/CJ8yTQu3kt8o4ZwF5ZbMJWDj564=/fit-in/200x150/filters:strip_icc()/pic2855891.jpg",
+   "image": "https://cf.geekdo-images.com/vfFy_HLiBNLxptwxFDMmDg__original/img/P3_WKEg4RBXmBWIVE4pMhFD35x4=/0x0/filters:format(jpeg)/pic2855891.jpg",
+   "versions": [
+    {
+     "id": "760408",
+     "name": "ENG/KOR/JAP edition",
+     "year": 2025,
+     "lang": "English・Japanese・Korean",
+     "thumb": "https://cf.geekdo-images.com/-Hg4j3Ddi0OBbaarpphM1g__small/img/6SoMCWt2mtD0W_feA4jOaLwxDKw=/fit-in/200x150/filters:strip_icc()/pic8905600.jpg",
+     "image": "https://cf.geekdo-images.com/-Hg4j3Ddi0OBbaarpphM1g__original/img/Ry5zRExcM5VZeSJ_k1GxlzD7sRU=/0x0/filters:format(jpeg)/pic8905600.jpg"
+    },
+    {
+     "id": "584457",
+     "name": "OPEN'N PLAY Japanese edition",
+     "year": 2021,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/IyMajAOgnqaFuEQ27FyoJQ__small/img/o_D5tqx9VKgLk3dt1RuO_GnPmIE=/fit-in/200x150/filters:strip_icc()/pic6129703.jpg",
+     "image": "https://cf.geekdo-images.com/IyMajAOgnqaFuEQ27FyoJQ__original/img/zCOma0TDRXw6EiuDNFWHZAjC6C4=/0x0/filters:format(jpeg)/pic6129703.jpg"
+    },
+    {
+     "id": "676948",
+     "name": "English/Korean edition",
+     "year": 2023,
+     "lang": "English・Korean",
+     "thumb": "https://cf.geekdo-images.com/Phu5Sav0gDIwMl7P4iWpJg__small/img/qk3CwVyEiJ4WaLrmlFAx3enX-Zo=/fit-in/200x150/filters:strip_icc()/pic7679262.jpg",
+     "image": "https://cf.geekdo-images.com/Phu5Sav0gDIwMl7P4iWpJg__original/img/tUW--grga6M6piH4Fj8TuyYIxoE=/0x0/filters:format(jpeg)/pic7679262.jpg"
+    },
+    {
+     "id": "535590",
+     "name": "Korean first edition",
+     "year": 2020,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/aVxoHpzbeyxsdTGp7dqEvw__small/img/WyPb2wjAEoWu2K7NwKgSg31YGsQ=/fit-in/200x150/filters:strip_icc()/pic5761636.jpg",
+     "image": "https://cf.geekdo-images.com/aVxoHpzbeyxsdTGp7dqEvw__original/img/kel0oodKTPfWe7208C68AwfXd-4=/0x0/filters:format(jpeg)/pic5761636.jpg"
+    },
+    {
+     "id": "298478",
+     "name": "English edition",
+     "year": 2016,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/vfFy_HLiBNLxptwxFDMmDg__small/img/CJ8yTQu3kt8o4ZwF5ZbMJWDj564=/fit-in/200x150/filters:strip_icc()/pic2855891.jpg",
+     "image": "https://cf.geekdo-images.com/vfFy_HLiBNLxptwxFDMmDg__original/img/P3_WKEg4RBXmBWIVE4pMhFD35x4=/0x0/filters:format(jpeg)/pic2855891.jpg"
+    },
+    {
+     "id": "216225",
+     "name": "White Goblin Games Dutch second edition",
+     "year": 2013,
+     "lang": "Dutch",
+     "thumb": "https://cf.geekdo-images.com/MTQ5l4KULUSoaEuFb6DHXQ__small/img/wQ9Tf9uOarbb7hmjA7LyulN4IwE=/fit-in/200x150/filters:strip_icc()/pic1743633.jpg",
+     "image": "https://cf.geekdo-images.com/MTQ5l4KULUSoaEuFb6DHXQ__original/img/P3NqXb_NajAyIvB44Ui2tU4rzp8=/0x0/filters:format(jpeg)/pic1743633.jpg"
+    },
+    {
+     "id": "148749",
+     "name": "KOSMOS German sixth edition",
+     "year": 2012,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/nckay6SDuI6iKSAisBgf7w__small/img/HbfgyWnJCNBhrxev3DYgM4d41bA=/fit-in/200x150/filters:strip_icc()/pic1210877.jpg",
+     "image": "https://cf.geekdo-images.com/nckay6SDuI6iKSAisBgf7w__original/img/fLqMEZlgiV9JtM0foypf0TMmsfk=/0x0/filters:format(jpeg)/pic1210877.jpg"
+    },
+    {
+     "id": "35428",
+     "name": "KOSMOS German fourth edition",
+     "year": 2008,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/Oo4LOYkSHQOC-C31bsGsOw__small/img/qfDTFCDofXizcP71iKPiwmNfk04=/fit-in/200x150/filters:strip_icc()/pic467687.jpg",
+     "image": "https://cf.geekdo-images.com/Oo4LOYkSHQOC-C31bsGsOw__original/img/XPxTcn2qolMVSg2RyNFgxQLtcJ4=/0x0/filters:format(jpeg)/pic467687.jpg"
+    },
+    {
+     "id": "34228",
+     "name": "Tilsit French edition",
+     "year": 2000,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/Xn7g5t8PM6tYb1z_626Svw__small/img/rQfIfBi7EEEexLIjbXdedpjM1us=/fit-in/200x150/filters:strip_icc()/pic372061.jpg",
+     "image": "https://cf.geekdo-images.com/Xn7g5t8PM6tYb1z_626Svw__original/img/j0xfJMNcsynkkF-Kt6VnobGeNns=/0x0/filters:format(jpeg)/pic372061.jpg"
+    },
+    {
+     "id": "24433",
+     "name": "999 Games Dutch first edition",
+     "year": 1999,
+     "lang": "Dutch",
+     "thumb": "https://cf.geekdo-images.com/6VO2HsDx6E_d_wPEmoXwWQ__small/img/PVXl3_lOtfncVsNig2QZf_hjxgw=/fit-in/200x150/filters:strip_icc()/pic67411.jpg",
+     "image": "https://cf.geekdo-images.com/6VO2HsDx6E_d_wPEmoXwWQ__original/img/_-zH9NCZ0fq8p-9eskQBqF84R08=/0x0/filters:format(jpeg)/pic67411.jpg"
+    },
+    {
+     "id": "25069",
+     "name": "KOSMOS German second edition",
+     "year": 1999,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/U82HxEuZ4XOy_7oRCzaEdA__small/img/1rdiyh7rUFCQPxrVI1FIlI8m-Xg=/fit-in/200x150/filters:strip_icc()/pic2607436.jpg",
+     "image": "https://cf.geekdo-images.com/U82HxEuZ4XOy_7oRCzaEdA__original/img/dNrLsebUvlRiRZl1rplx2RQIxa4=/0x0/filters:format(jpeg)/pic2607436.jpg"
+    },
+    {
+     "id": "34244",
+     "name": "KOSMOS German third edition",
+     "year": 1999,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/qWPf1-jbPhRkzMVFki9Xyw__small/img/_QHZJYgfLz-7dGmbX6WYQC3UqNA=/fit-in/200x150/filters:strip_icc()/pic714435.jpg",
+     "image": "https://cf.geekdo-images.com/qWPf1-jbPhRkzMVFki9Xyw__original/img/MxNFfFMLbRJJ7igfet2z2Wo07eQ=/0x0/filters:format(jpeg)/pic714435.jpg"
+    },
+    {
+     "id": "31311",
+     "name": "db-Spiele German first edition",
+     "year": 1992,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/eJVhANzawu8G_hY8NzU8HQ__small/img/iMNlI1KcSccvk0K12-EAg5rc2VE=/fit-in/200x150/filters:strip_icc()/pic159349.jpg",
+     "image": "https://cf.geekdo-images.com/eJVhANzawu8G_hY8NzU8HQ__original/img/u2e2Ol4pRxGF-0tpLfOGQ2N39O8=/0x0/filters:format(jpeg)/pic159349.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:17:11.320Z"
+  },
+  "624": {
+   "v": 2,
+   "id": "624",
+   "type": "boardgame",
+   "best": "2",
+   "rec": "2, 4",
+   "minTime": 15,
+   "maxTime": 15,
+   "age": 8,
+   "rating": 6.64,
+   "weight": 1.82,
+   "rank": 1730,
+   "mechanics": [
+    "Connections",
+    "Grid Movement",
+    "Race",
+    "Square Grid",
+    "Zone of Control"
+   ],
+   "categories": [
+    "Abstract Strategy",
+    "Children's Game",
+    "Maze"
+   ],
+   "designers": [
+    "Mirko Marchesi"
+   ],
+   "expansions": [],
+   "bases": [],
+   "en": "Quoridor",
+   "ja": "",
+   "minp": 2,
+   "maxp": 4,
+   "time": 15,
+   "year": 1997,
+   "thumb": "https://cf.geekdo-images.com/I1YNAhee09mryaqfEo8MwA__small/img/9TJaxgoMUkiMhAGSYM8-0o1ICpg=/fit-in/200x150/filters:strip_icc()/pic3488232.jpg",
+   "image": "https://cf.geekdo-images.com/I1YNAhee09mryaqfEo8MwA__original/img/LUcYakoNVnYxjmpYRFA6HUpHWo4=/0x0/filters:format(jpeg)/pic3488232.jpg",
+   "versions": [
+    {
+     "id": "686643",
+     "name": "Gigamic edition 2022",
+     "year": 2022,
+     "lang": "Arabic・Chinese・Croatian・Czech・Danish・Dutch・English・Estonian・Finnish・French・German・Greek・Hebrew・Hungarian・Icelandic・Italian・Japanese・Korean・Latvian・Lithuanian・Norwegian・Persian・Polish・Portuguese・Romanian・Russian・Serbian・Slovak・Slovenian・Spanish・Swedish・Turkish・Vietnamese",
+     "thumb": "https://cf.geekdo-images.com/nl3TNASZRgxIONZ_vDg9eQ__small/img/8gmuLIsbRT3MzCAqwKm4l-xS6qs=/fit-in/200x150/filters:strip_icc()/pic6682017.jpg",
+     "image": "https://cf.geekdo-images.com/nl3TNASZRgxIONZ_vDg9eQ__original/img/tHas4wdfWL1w_92VwFcm6RF4vPc=/0x0/filters:format(jpeg)/pic6682017.jpg"
+    },
+    {
+     "id": "624420",
+     "name": "Gigamic edition 2017",
+     "year": 2017,
+     "lang": "Arabic・Chinese・Croatian・Czech・Danish・Dutch・English・Estonian・Finnish・French・German・Greek・Hebrew・Hungarian・Icelandic・Italian・Japanese・Korean・Latvian・Lithuanian・(neutral)・Norwegian・Persian・Polish・Portuguese・Romanian・Russian・Serbian・Slovak・Slovenian・Spanish・Swedish・Turkish",
+     "thumb": "https://cf.geekdo-images.com/I1YNAhee09mryaqfEo8MwA__small/img/9TJaxgoMUkiMhAGSYM8-0o1ICpg=/fit-in/200x150/filters:strip_icc()/pic3488232.jpg",
+     "image": "https://cf.geekdo-images.com/I1YNAhee09mryaqfEo8MwA__original/img/LUcYakoNVnYxjmpYRFA6HUpHWo4=/0x0/filters:format(jpeg)/pic3488232.jpg"
+    },
+    {
+     "id": "298170",
+     "name": "Gigamic edition 2016",
+     "year": 2016,
+     "lang": "Arabic・Chinese・Croatian・Czech・Danish・Dutch・English・Estonian・Finnish・French・German・Greek・Hebrew・Hungarian・Icelandic・Italian・Japanese・Korean・Latvian・Lithuanian・Norwegian・Persian・Polish・Portuguese・Romanian・Russian・Serbian・Slovak・Slovenian・Spanish・Swedish・Turkish",
+     "thumb": "https://cf.geekdo-images.com/CY4O3EPA3G2pykuMDG1TaQ__small/img/8UTqBN-DZHILiErnKzPBBqO9DAM=/fit-in/200x150/filters:strip_icc()/pic3488246.jpg",
+     "image": "https://cf.geekdo-images.com/CY4O3EPA3G2pykuMDG1TaQ__original/img/WARq0gDH7-8BkNfJB48a9sY80FI=/0x0/filters:format(jpeg)/pic3488246.jpg"
+    },
+    {
+     "id": "275882",
+     "name": "Gigamic edition 2014",
+     "year": 2014,
+     "lang": "Arabic・Chinese・Croatian・Czech・Danish・Dutch・English・Estonian・Finnish・French・German・Greek・Hebrew・Hungarian・Icelandic・Italian・Japanese・Korean・Latvian・Lithuanian・Norwegian・Persian・Polish・Portuguese・Romanian・Russian・Serbian・Slovak・Slovenian・Spanish・Swedish・Turkish",
+     "thumb": "https://cf.geekdo-images.com/z6AHgMTfz6Z6Aizu-76IJg__small/img/U4sxmD4RRt2CcexeHQP1agZY4Lg=/fit-in/200x150/filters:strip_icc()/pic3488236.jpg",
+     "image": "https://cf.geekdo-images.com/z6AHgMTfz6Z6Aizu-76IJg__original/img/cUvSP9wbPGCHOY_XK0telYI8aMc=/0x0/filters:format(jpeg)/pic3488236.jpg"
+    },
+    {
+     "id": "197264",
+     "name": "Gigamic edition 2013",
+     "year": 2013,
+     "lang": "Arabic・Chinese・Czech・Danish・Dutch・English・Estonian・Finnish・French・German・Greek・Hebrew・Hungarian・Icelandic・Italian・Japanese・Korean・Latvian・Lithuanian・Norwegian・Persian・Polish・Portuguese・Romanian・Russian・Serbian・Slovak・Slovenian・Spanish・Swedish・Turkish",
+     "thumb": "https://cf.geekdo-images.com/qG62lJ-jh_LcvNF5RA9-_w__small/img/EJBwevqo8E32Z3VP9SLE68MszTQ=/fit-in/200x150/filters:strip_icc()/pic1544019.jpg",
+     "image": "https://cf.geekdo-images.com/qG62lJ-jh_LcvNF5RA9-_w__original/img/gAKt5gmhdpdZ9EFEmg0r1GVLe78=/0x0/filters:format(jpeg)/pic1544019.jpg"
+    },
+    {
+     "id": "569874",
+     "name": "Gigamic multilingual edition 2013 with QR code",
+     "year": 2013,
+     "lang": "Arabic・Chinese・Croatian・Czech・Danish・Dutch・English・Estonian・Finnish・French・German・Greek・Hebrew・Hungarian・Icelandic・Italian・Japanese・Korean・Latvian・Lithuanian・Norwegian・Persian・Polish・Portuguese・Romanian・Russian・Serbian・Slovak・Slovenian・Spanish・Swedish・Turkish",
+     "thumb": "https://cf.geekdo-images.com/h7zwehn1jjGBJkbDgmJjxg__small/img/osI6q-zd-BTDT9Z5jtqOI9Izrfw=/fit-in/200x150/filters:strip_icc()/pic6258321.jpg",
+     "image": "https://cf.geekdo-images.com/h7zwehn1jjGBJkbDgmJjxg__original/img/p4hKDLoN5SdttabAnd1uJCPNT4k=/0x0/filters:format(jpeg)/pic6258321.jpg"
+    },
+    {
+     "id": "549084",
+     "name": "Gigamic multilingual edition 2012",
+     "year": 2012,
+     "lang": "Arabic・Chinese・Czech・Danish・Dutch・English・Estonian・Finnish・French・German・Greek・Hungarian・Italian・Japanese・Korean・Latvian・Lithuanian・Norwegian・Persian・Polish・Portuguese・Romanian・Russian・Serbian・Slovak・Spanish・Swedish・Thai・Turkish",
+     "thumb": "https://cf.geekdo-images.com/es6OuUw9ReHa7ub2HIhF4w__small/img/XkxWNC7FKy55FyPJobfi80dL92k=/fit-in/200x150/filters:strip_icc()/pic5953572.jpg",
+     "image": "https://cf.geekdo-images.com/es6OuUw9ReHa7ub2HIhF4w__original/img/ZxNImfvDWO0U5KdsQ9jHv-pEukE=/0x0/filters:format(jpeg)/pic5953572.jpg"
+    },
+    {
+     "id": "66490",
+     "name": "Fundex edition 2007",
+     "year": 2007,
+     "lang": "Arabic・Chinese・Czech・Danish・Dutch・English・Estonian・Finnish・French・German・Greek・Hebrew・Hungarian・Icelandic・Italian・Japanese・Korean・Latvian・Lithuanian・Norwegian・Polish・Portuguese・Russian・Slovak・Spanish・Swedish・Turkish",
+     "thumb": "https://cf.geekdo-images.com/ycAOGhKERehq7k0Jb-zazA__small/img/W-k2RjIDv7Hj2rulsN0LbEle5Rg=/fit-in/200x150/filters:strip_icc()/pic929707.jpg",
+     "image": "https://cf.geekdo-images.com/ycAOGhKERehq7k0Jb-zazA__original/img/NRscDk7Q3tGbzXjIxcqFXENent0=/0x0/filters:format(jpeg)/pic929707.jpg"
+    },
+    {
+     "id": "25300",
+     "name": "Gigamic edition 2003",
+     "year": 2003,
+     "lang": "Arabic・Chinese・Czech・Danish・Dutch・English・Estonian・Finnish・French・German・Greek・Hungarian・Icelandic・Italian・Japanese・Korean・Latvian・Lithuanian・Norwegian・Polish・Portuguese・Romanian・Russian・Slovak・Spanish・Swedish・Turkish",
+     "thumb": "https://cf.geekdo-images.com/5szS5qq4_GaxCuf51vI_nQ__small/img/MnW_n1Vs8itmIG6fgkQf2W-wj7c=/fit-in/200x150/filters:strip_icc()/pic467442.jpg",
+     "image": "https://cf.geekdo-images.com/5szS5qq4_GaxCuf51vI_nQ__original/img/UgCqIK5yrRGQtqTGfM_ei3l6Y9c=/0x0/filters:format(jpeg)/pic467442.jpg"
+    },
+    {
+     "id": "25194",
+     "name": "Gigamic edition 2001",
+     "year": 2001,
+     "lang": "Arabic・Chinese・Czech・Dutch・English・French・German・Greek・Hungarian・Italian・Japanese・Korean・Norwegian・Russian・Spanish・Swedish",
+     "thumb": "https://cf.geekdo-images.com/hrNKWp4ovX-zyK3YVSqL8w__small/img/sR7SflP8A3j-oKOPP1DNgJ_2QH8=/fit-in/200x150/filters:strip_icc()/pic27770.jpg",
+     "image": "https://cf.geekdo-images.com/hrNKWp4ovX-zyK3YVSqL8w__original/img/Li40lwcUCfUzVjg8Uva9mvinjbw=/0x0/filters:format(jpeg)/pic27770.jpg"
+    },
+    {
+     "id": "169055",
+     "name": "Gigamic edition 1997",
+     "year": 1997,
+     "lang": "Arabic・Chinese・Czech・Danish・Dutch・English・Estonian・Finnish・French・German・Greek・Hebrew・Hungarian・Italian・Japanese・Norwegian・Polish・Portuguese・Russian・Slovenian・Spanish・Swedish・Turkish",
+     "thumb": "https://cf.geekdo-images.com/qeHNJiL0wD6KLdVICymsuA__small/img/19f_7ndKJSP2k-fbA8KBXyeHe1g=/fit-in/200x150/filters:strip_icc()/pic1339364.jpg",
+     "image": "https://cf.geekdo-images.com/qeHNJiL0wD6KLdVICymsuA__original/img/MAizKzQHyw1BkYWepB_HHnHeGDE=/0x0/filters:format(jpeg)/pic1339364.jpg"
+    },
+    {
+     "id": "433833",
+     "name": "Gigamic edition 1997",
+     "year": 1997,
+     "lang": "Danish・Dutch・English・Finnish・French・German・Greek・Hebrew・Italian・Japanese・Norwegian・Portuguese・Spanish・Swedish",
+     "thumb": "https://cf.geekdo-images.com/jRWcSWcqqGHqZlyj45Va-g__small/img/Zc6geYhNGr1vGqdV4SYa6dClg-8=/fit-in/200x150/filters:strip_icc()/pic4448235.jpg",
+     "image": "https://cf.geekdo-images.com/jRWcSWcqqGHqZlyj45Va-g__original/img/uWwbtqywtERzL1oLPVEKE4w-BO0=/0x0/filters:format(jpeg)/pic4448235.jpg"
+    },
+    {
+     "id": "487138",
+     "name": "Gigamic multilingual edition",
+     "year": 1997,
+     "lang": "Arabic・Chinese・Czech・Danish・Dutch・English・Estonian・Finnish・French・German・Greek・Hebrew・Hungarian・Icelandic・Italian・Japanese・Korean・Latvian・Lithuanian・Norwegian・Portuguese・Russian・Slovenian・Spanish・Swedish・Thai・Turkish",
+     "thumb": "https://cf.geekdo-images.com/oTklrZ6sUPCIexYZavlBgg__small/img/mHlDaDuop6fOrGfq2LAJrt8mYzc=/fit-in/200x150/filters:strip_icc()/pic5148747.jpg",
+     "image": "https://cf.geekdo-images.com/oTklrZ6sUPCIexYZavlBgg__original/img/Kh3mE5jUO0NzFsI7MjcJAv69tjs=/0x0/filters:format(jpeg)/pic5148747.jpg"
+    },
+    {
+     "id": "49677",
+     "name": "Gigamic yellow stripe edition 1997",
+     "year": 1997,
+     "lang": "Arabic・Czech・Danish・Dutch・English・Estonian・Finnish・French・German・Greek・Hebrew・Hungarian・Italian・Japanese・Norwegian・Portuguese・Russian・Spanish・Swedish・Turkish",
+     "thumb": "https://cf.geekdo-images.com/uZd7xtghhnrsj2vJxiTGQg__small/img/0rGGG6c2bc-0WoU_yjv7J3mwzhw=/fit-in/200x150/filters:strip_icc()/pic1001084.jpg",
+     "image": "https://cf.geekdo-images.com/uZd7xtghhnrsj2vJxiTGQg__original/img/iU1VZhxIqXTsomquAv33-sdXwYY=/0x0/filters:format(jpeg)/pic1001084.jpg"
+    },
+    {
+     "id": "25302",
+     "name": "Gigamic deluxe edition",
+     "year": null,
+     "lang": "Arabic・Chinese・Czech・Danish・Dutch・English・Estonian・Finnish・French・German・Greek・Hungarian・Icelandic・Italian・Japanese・Latvian・Lithuanian・Norwegian・Polish・Spanish・Swedish",
+     "thumb": "https://cf.geekdo-images.com/GGlNek8GrXDD-Af-MW1oAA__small/img/1EQZel2kJbUJmk1P0w4kpEAhQ7Y=/fit-in/200x150/filters:strip_icc()/pic1515133.jpg",
+     "image": "https://cf.geekdo-images.com/GGlNek8GrXDD-Af-MW1oAA__original/img/kkHZTjWMqkkCc77DPL8WDqHcq1Q=/0x0/filters:format(jpeg)/pic1515133.jpg"
+    },
+    {
+     "id": "765887",
+     "name": "Chinese edition",
+     "year": 2025,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/KPi62Zu7nUzhrM2uo0shxQ__small/img/izJpj0wW1j7W4i1MIZ3mlFZMpVM=/fit-in/200x150/filters:strip_icc()/pic8991921.png",
+     "image": "https://cf.geekdo-images.com/KPi62Zu7nUzhrM2uo0shxQ__original/img/5E--m0-Kw8aMLh-ItISfI0FqL6o=/0x0/filters:format(png)/pic8991921.png"
+    },
+    {
+     "id": "761779",
+     "name": "Ghenos Games Italian edition",
+     "year": 2025,
+     "lang": "Italian",
+     "thumb": "https://cf.geekdo-images.com/cl-z65G9bIBTC8Kw-m38OA__small/img/U_zjWRNivTO7wtS5T1Q0L83IzYw=/fit-in/200x150/filters:strip_icc()/pic8929723.png",
+     "image": "https://cf.geekdo-images.com/cl-z65G9bIBTC8Kw-m38OA__original/img/F2k35-Rvj0HPseYdNq0wIEm0-II=/0x0/filters:format(png)/pic8929723.png"
+    },
+    {
+     "id": "802173",
+     "name": "Kaissa Greek edition",
+     "year": 2025,
+     "lang": "Greek",
+     "thumb": "https://cf.geekdo-images.com/oNWHC5_4klJQM1-IoVlGWQ__small/img/En9eupll8i7AuK7XWvgxkk3tcJI=/fit-in/200x150/filters:strip_icc()/pic9595845.jpg",
+     "image": "https://cf.geekdo-images.com/oNWHC5_4klJQM1-IoVlGWQ__original/img/xolXoiqtfJ5dq_FVY46gbE0pobc=/0x0/filters:format(jpeg)/pic9595845.jpg"
+    },
+    {
+     "id": "789289",
+     "name": "Grow Jogos Portuguese edition",
+     "year": 2023,
+     "lang": "Portuguese",
+     "thumb": "https://cf.geekdo-images.com/10_cAKJ28b6t3FXSDA6LBg__small/img/sB1qiA2xDxRH6ZoIJwhm3w-bUMo=/fit-in/200x150/filters:strip_icc()/pic9375621.jpg",
+     "image": "https://cf.geekdo-images.com/10_cAKJ28b6t3FXSDA6LBg__original/img/QgRA-Qd3xDe5OJfd_bVu_N0Awco=/0x0/filters:format(jpeg)/pic9375621.jpg"
+    },
+    {
+     "id": "620970",
+     "name": "Chinese edition",
+     "year": 2022,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/pIw-0oY4UGV-aMHPhEtkPA__small/img/7TErNZVmWVwTrcEL7L-2tH6lG9I=/fit-in/200x150/filters:strip_icc()/pic6927357.png",
+     "image": "https://cf.geekdo-images.com/pIw-0oY4UGV-aMHPhEtkPA__original/img/20LuAblnLM7EuDZXL4ZiRGp80eI=/0x0/filters:format(png)/pic6927357.png"
+    },
+    {
+     "id": "541579",
+     "name": "Korean second edition",
+     "year": 2020,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/A2d-rVi47WFHNp8uqaYZzg__small/img/rshM-9RILDDP4qsCGiV-NpngVMQ=/fit-in/200x150/filters:strip_icc()/pic5870766.jpg",
+     "image": "https://cf.geekdo-images.com/A2d-rVi47WFHNp8uqaYZzg__original/img/uhD8r4elfP3JSEcjL1QZvBDAUc0=/0x0/filters:format(jpeg)/pic5870766.jpg"
+    },
+    {
+     "id": "593008",
+     "name": "Gigamic edition 2019",
+     "year": 2019,
+     "lang": "Dutch・English・French・Spanish",
+     "thumb": "https://cf.geekdo-images.com/K0RdipMdnGp7JZDTiEg1aw__small/img/mG0py9m7BwgB9gzThVBl65Ka5Sk=/fit-in/200x150/filters:strip_icc()/pic6593728.jpg",
+     "image": "https://cf.geekdo-images.com/K0RdipMdnGp7JZDTiEg1aw__original/img/JeApogtQ2VN5PMasbMya8UBRy84=/0x0/filters:format(jpeg)/pic6593728.jpg"
+    },
+    {
+     "id": "460481",
+     "name": "Gigamic multilingual edition 2013",
+     "year": 2013,
+     "lang": "Dutch・English・French・German・Italian・Portuguese・Spanish",
+     "thumb": "https://cf.geekdo-images.com/hgDhSyWyoMDrl8cWTW9AYw__small/img/apkNQ9VXdkkWgJUimDwN7VInmq4=/fit-in/200x150/filters:strip_icc()/pic4800596.jpg",
+     "image": "https://cf.geekdo-images.com/hgDhSyWyoMDrl8cWTW9AYw__original/img/UbtV-OfgkkUOnUCg8vrurY15vEg=/0x0/filters:format(jpeg)/pic4800596.jpg"
+    },
+    {
+     "id": "498019",
+     "name": "Korean edition",
+     "year": 2012,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/2zd8CoT5eO88kzwIwFfE4Q__small/img/pAUB0b-J-EFzkpA0o4XhMzuISkY=/fit-in/200x150/filters:strip_icc()/pic5267055.jpg",
+     "image": "https://cf.geekdo-images.com/2zd8CoT5eO88kzwIwFfE4Q__original/img/ydeCnrhOuwAeypcHtmL4z8zJAF8=/0x0/filters:format(jpeg)/pic5267055.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:16:42.331Z"
+  },
   "1231": {
    "v": 2,
    "id": "1231",
@@ -360,6 +971,317 @@
    ],
    "at": "2026-11-26T02:46:16.512Z"
   },
+  "1406": {
+   "v": 2,
+   "id": "1406",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "3〜6",
+   "minTime": 60,
+   "maxTime": 180,
+   "age": 8,
+   "rating": 4.37,
+   "weight": 1.61,
+   "rank": 31831,
+   "mechanics": [
+    "Auction / Bidding",
+    "Auction: English",
+    "Income",
+    "Loans",
+    "Lose a Turn",
+    "Ownership",
+    "Player Elimination",
+    "Roll / Spin and Move",
+    "Set Collection",
+    "Track Movement",
+    "Trading"
+   ],
+   "categories": [
+    "Economic"
+   ],
+   "designers": [
+    "Charles Darrow",
+    "Elizabeth J. Magie (Phillips)"
+   ],
+   "expansions": [
+    {
+     "id": "138841",
+     "name": "Bance!"
+    },
+    {
+     "id": "21659",
+     "name": "Beyond Boardwalk and Park Place (fan expansion for Monopoly)"
+    },
+    {
+     "id": "208031",
+     "name": "Cardopoly"
+    },
+    {
+     "id": "362509",
+     "name": "Co-opoly: a \"conversion kit\" for Monopoly"
+    },
+    {
+     "id": "13102",
+     "name": "Entrepreneur's Accessory to Monopoly (fan expansion for Monopoly)"
+    },
+    {
+     "id": "3446",
+     "name": "Game Spice: Monopoly Expansion (fan expansion for Monopoly)"
+    },
+    {
+     "id": "352250",
+     "name": "Improving Games: Monopoly"
+    },
+    {
+     "id": "96025",
+     "name": "Infla: Defla"
+    },
+    {
+     "id": "28968",
+     "name": "Mafiopoly"
+    },
+    {
+     "id": "447767",
+     "name": "Manhattan Affair"
+    },
+    {
+     "id": "9466",
+     "name": "Monopoly Stock Exchange Add-on"
+    },
+    {
+     "id": "436805",
+     "name": "Monopoly: Buy Everything"
+    },
+    {
+     "id": "436806",
+     "name": "Monopoly: Free Parking Jackpot"
+    },
+    {
+     "id": "436810",
+     "name": "Monopoly: Go to Jail"
+    },
+    {
+     "id": "37893",
+     "name": "Monopoly: Mob Rule Expansion Deck"
+    },
+    {
+     "id": "200771",
+     "name": "Socialism: The Game (fan expansion for Monopoly)"
+    },
+    {
+     "id": "16775",
+     "name": "Super Add-Ons: Monopoly (fan expansion for Monopoly)"
+    },
+    {
+     "id": "355657",
+     "name": "Variations on a Theme: Supplementary Rules for Monopoly"
+    }
+   ],
+   "bases": [],
+   "en": "Monopoly",
+   "ja": "モノポリー",
+   "minp": 2,
+   "maxp": 8,
+   "time": 180,
+   "year": 1935,
+   "thumb": "https://cf.geekdo-images.com/9nGoBZ0MRbi6rdH47sj2Qg__small/img/ezXcyEsHhS9iRxmuGe8SmiLLXlM=/fit-in/200x150/filters:strip_icc()/pic5786795.jpg",
+   "image": "https://cf.geekdo-images.com/9nGoBZ0MRbi6rdH47sj2Qg__original/img/bA8irydTCNlE38QSzM9EhcUIuNU=/0x0/filters:format(jpeg)/pic5786795.jpg",
+   "versions": [
+    {
+     "id": "663984",
+     "name": "Hasbro Japanese edition 2017",
+     "year": 2017,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/6n81p6aJ4tTJpcLPV4g06A__small/img/xrcisMUPe2fkVTBDKf0rQ9D_O6E=/fit-in/200x150/filters:strip_icc()/pic7539726.jpg",
+     "image": "https://cf.geekdo-images.com/6n81p6aJ4tTJpcLPV4g06A__original/img/RAsbaRpTukve2kWfy5pLeyJQYRM=/0x0/filters:format(jpeg)/pic7539726.jpg"
+    },
+    {
+     "id": "357423",
+     "name": "Hasbro Japanese edition 2015",
+     "year": 2015,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/kXXxfG90T4b5E2tSdTUkXA__small/img/l6tdAF1ONTz1bjMse8Bxnb0xdeo=/fit-in/200x150/filters:strip_icc()/pic3582236.jpg",
+     "image": "https://cf.geekdo-images.com/kXXxfG90T4b5E2tSdTUkXA__original/img/6f8XbgvwbaOP_Lgec8vsH51V0vQ=/0x0/filters:format(jpeg)/pic3582236.jpg"
+    },
+    {
+     "id": "638470",
+     "name": "Hasbro/Takara Tomy Japanese edition 2014",
+     "year": 2014,
+     "lang": "English・Japanese",
+     "thumb": "https://cf.geekdo-images.com/2jGEaqnGh8-GpHeecDUCMQ__small/img/asALWRpV4yzkfFDRk02babLBltU=/fit-in/200x150/filters:strip_icc()/pic7162188.jpg",
+     "image": "https://cf.geekdo-images.com/2jGEaqnGh8-GpHeecDUCMQ__original/img/zteMMM9fuKv1WAGe2a4YmgCoGBc=/0x0/filters:format(jpeg)/pic7162188.jpg"
+    },
+    {
+     "id": "638471",
+     "name": "Tomy Japanese edition 1990",
+     "year": 1990,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/KXySRJ3lzcA548GVwNTxAQ__small/img/5FqG-EjZ_-GCQLwfnqsV6zilpmA=/fit-in/200x150/filters:strip_icc()/pic7162208.jpg",
+     "image": "https://cf.geekdo-images.com/KXySRJ3lzcA548GVwNTxAQ__original/img/WlTVkPyrFOYjkefskOqWYgiX72M=/0x0/filters:format(jpeg)/pic7162208.jpg"
+    },
+    {
+     "id": "443114",
+     "name": "Hanayama/Parker Japanese edition",
+     "year": 1961,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/BvPawN-aqNUQrtw43ewWPQ__small/img/do_EDr0TKHX6GWglWQD0lvtJL9w=/fit-in/200x150/filters:strip_icc()/pic4558040.jpg",
+     "image": "https://cf.geekdo-images.com/BvPawN-aqNUQrtw43ewWPQ__original/img/SwF4tyoOHura3sdO3NIM4aMdVv0=/0x0/filters:format(jpeg)/pic4558040.jpg"
+    },
+    {
+     "id": "278361",
+     "name": "Epoch Japanese edition",
+     "year": null,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/FiIvksDop3P92HaPvkvHdQ__small/img/qZPHqUxSFmlcJAebbBM0qNtvVOQ=/fit-in/200x150/filters:strip_icc()/pic2577521.jpg",
+     "image": "https://cf.geekdo-images.com/FiIvksDop3P92HaPvkvHdQ__original/img/aEXhztIBApxXqCWRZZ6M6c_F67A=/0x0/filters:format(jpeg)/pic2577521.jpg"
+    },
+    {
+     "id": "809358",
+     "name": "Arabic edition 2025",
+     "year": 2025,
+     "lang": "Arabic",
+     "thumb": "https://cf.geekdo-images.com/6MYXnRdQevl0XxWwMguZOQ__small/img/M9HWE9dhyYJwDqTfx0rRQmUHCho=/fit-in/200x150/filters:strip_icc()/pic9704330.jpg",
+     "image": "https://cf.geekdo-images.com/6MYXnRdQevl0XxWwMguZOQ__original/img/qbUhJtsicQ1rcX2L1OpOPemb4l8=/0x0/filters:format(jpeg)/pic9704330.jpg"
+    },
+    {
+     "id": "801584",
+     "name": "Chinese/English Taiwan edition 2025",
+     "year": 2025,
+     "lang": "Chinese・English",
+     "thumb": "https://cf.geekdo-images.com/kvrHAEn-xrzd8ualq-Pwcw__small/img/tmI0butvcTE5_G4_Nt9QsX1wyXw=/fit-in/200x150/filters:strip_icc()/pic9582511.jpg",
+     "image": "https://cf.geekdo-images.com/kvrHAEn-xrzd8ualq-Pwcw__original/img/WxPJHkvfA6dGM7DQF_6UmKKIvlo=/0x0/filters:format(jpeg)/pic9582511.jpg"
+    },
+    {
+     "id": "784362",
+     "name": "English edition 2025",
+     "year": 2025,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/4d3tH6Y_ogczaNQnknr_Qg__small/img/tmn5Bef3drbg4Kz1U5-alHfz2Kk=/fit-in/200x150/filters:strip_icc()/pic9318563.jpg",
+     "image": "https://cf.geekdo-images.com/4d3tH6Y_ogczaNQnknr_Qg__original/img/mri5WTNm-jbsBt3_Rwa0QXjFzMk=/0x0/filters:format(jpeg)/pic9318563.jpg"
+    },
+    {
+     "id": "820328",
+     "name": "English Library of Play edition",
+     "year": 2025,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/sXp_3R45VpI_9vdCieBW2w__small/img/evtmkxRk8T-21OqtbqR6b2h4v5U=/fit-in/200x150/filters:strip_icc()/pic9866927.jpg",
+     "image": "https://cf.geekdo-images.com/sXp_3R45VpI_9vdCieBW2w__original/img/2RPwla_0pYY5laTp3PwkBdkgYv0=/0x0/filters:format(jpeg)/pic9866927.jpg"
+    },
+    {
+     "id": "807977",
+     "name": "German edition",
+     "year": 2025,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/9cDtZjEqsfi_fnlEB3oy8g__small/img/ph6j3-SWfmx9YUVMHRxEOQWnP74=/fit-in/200x150/filters:strip_icc()/pic9685200.jpg",
+     "image": "https://cf.geekdo-images.com/9cDtZjEqsfi_fnlEB3oy8g__original/img/gfki63AW-XEz7IbMoTe2yuEhb2c=/0x0/filters:format(jpeg)/pic9685200.jpg"
+    },
+    {
+     "id": "755780",
+     "name": "Hasbro English Ireland edition 2025",
+     "year": 2025,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/CVwBLxpcHgkeGoZBjPQSBw__small/img/q34Qm7Gr3zW6dQBO4NY_50EXi2A=/fit-in/200x150/filters:strip_icc()/pic8833317.jpg",
+     "image": "https://cf.geekdo-images.com/CVwBLxpcHgkeGoZBjPQSBw__original/img/FDeeZnCWA6Wx33itBEd5WHdYmPY=/0x0/filters:format(jpeg)/pic8833317.jpg"
+    },
+    {
+     "id": "798148",
+     "name": "Spanish edition 2025",
+     "year": 2025,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/nXY1Fpz4o7CarcqEL8iKBw__small/img/yqYLr69KAIWVq4Pro2mN0IHWD6M=/fit-in/200x150/filters:strip_icc()/pic9520309.jpg",
+     "image": "https://cf.geekdo-images.com/nXY1Fpz4o7CarcqEL8iKBw__original/img/rUEcUBGQuje-66xUKpsvfvZ40jA=/0x0/filters:format(jpeg)/pic9520309.jpg"
+    },
+    {
+     "id": "775594",
+     "name": "Turkish edition 2025",
+     "year": 2025,
+     "lang": "Turkish",
+     "thumb": "https://cf.geekdo-images.com/pVWbsrpuBKLiyjGin2eIdQ__small/img/_6ZA8Mhq5afgDKk24EUu2clEejs=/fit-in/200x150/filters:strip_icc()/pic9139199.jpg",
+     "image": "https://cf.geekdo-images.com/pVWbsrpuBKLiyjGin2eIdQ__original/img/NN3UmbfBZkDtYCtlO2VpHZDZYkY=/0x0/filters:format(jpeg)/pic9139199.jpg"
+    },
+    {
+     "id": "793612",
+     "name": "Ukrainian edition 2025",
+     "year": 2025,
+     "lang": "Ukrainian",
+     "thumb": "https://cf.geekdo-images.com/Q1N_f9XSw4xYokkUvMZaZA__small/img/ExysaiEhQqgcw7kKjOIBcPjuPGM=/fit-in/200x150/filters:strip_icc()/pic9451586.jpg",
+     "image": "https://cf.geekdo-images.com/Q1N_f9XSw4xYokkUvMZaZA__original/img/kqCS2p9GSWOooeu1ktWGtf2kA2w=/0x0/filters:format(jpeg)/pic9451586.jpg"
+    },
+    {
+     "id": "735434",
+     "name": "Hasbro English Ireland edition 2024",
+     "year": 2024,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/pq12NgYwy-CA2J6iurjZ6A__small/img/Q3sQqfC958dvWqz6LFAbKD7G5-4=/fit-in/200x150/filters:strip_icc()/pic8542945.png",
+     "image": "https://cf.geekdo-images.com/pq12NgYwy-CA2J6iurjZ6A__original/img/PJoCVvoQiWnspDa4lbzPJrKWBPY=/0x0/filters:format(png)/pic8542945.png"
+    },
+    {
+     "id": "707993",
+     "name": "Winning Solutions \"Indigo Collection\" edition",
+     "year": 2024,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/x_muih01rt_YNHlDqS5eww__small/img/FixfB-fZcD5BObT995gtzYOHAEI=/fit-in/200x150/filters:strip_icc()/pic8113112.png",
+     "image": "https://cf.geekdo-images.com/x_muih01rt_YNHlDqS5eww__original/img/yiNqi02Pn45EhXIGaH8vCRGS_o4=/0x0/filters:format(png)/pic8113112.png"
+    },
+    {
+     "id": "697342",
+     "name": "English UK edition 2023",
+     "year": 2023,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/q1bqcXvHwLM4n156nFxg0w__small/img/06yl7dXO1IAqM6-NRPqzJXURXt8=/fit-in/200x150/filters:strip_icc()/pic7958046.jpg",
+     "image": "https://cf.geekdo-images.com/q1bqcXvHwLM4n156nFxg0w__original/img/uaMVo40uDGE5pSglSqHWsYCx6_I=/0x0/filters:format(jpeg)/pic7958046.jpg"
+    },
+    {
+     "id": "606266",
+     "name": "Hasbro English Ireland edition 2022",
+     "year": 2022,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/Y31eBKYa-O1DiG3WsFWIcA__small/img/3DVk6HcyJTjlUym1rii5jTPeyHY=/fit-in/200x150/filters:strip_icc()/pic6795852.jpg",
+     "image": "https://cf.geekdo-images.com/Y31eBKYa-O1DiG3WsFWIcA__original/img/g7xV_vSGwlR-NrVyFEYRA3qfV3g=/0x0/filters:format(jpeg)/pic6795852.jpg"
+    },
+    {
+     "id": "809086",
+     "name": "Arabic edition 2021",
+     "year": 2021,
+     "lang": "Arabic",
+     "thumb": "https://cf.geekdo-images.com/cQ6pZ6jN5myH3rXbdXmGJQ__small/img/E0nNJWpSQTXhNuMxzq5t3ORlgmQ=/fit-in/200x150/filters:strip_icc()/pic9704327.jpg",
+     "image": "https://cf.geekdo-images.com/cQ6pZ6jN5myH3rXbdXmGJQ__original/img/Vcp94YyeBBX68u3QREoNLcAgm6s=/0x0/filters:format(jpeg)/pic9704327.jpg"
+    },
+    {
+     "id": "742419",
+     "name": "Colorforms edition",
+     "year": 2021,
+     "lang": "English・French",
+     "thumb": "https://cf.geekdo-images.com/XZzSL-ROCEpg_620y8_x3w__small/img/fxeduc-EWLBT7RYizDtB-Wb6wEg=/fit-in/200x150/filters:strip_icc()/pic8647383.jpg",
+     "image": "https://cf.geekdo-images.com/XZzSL-ROCEpg_620y8_x3w__original/img/xpQPY6kFKWkTQYASoi9pXBShdNQ=/0x0/filters:format(jpeg)/pic8647383.jpg"
+    },
+    {
+     "id": "749788",
+     "name": "English edition",
+     "year": 2021,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/_VSKFb9a_qY_merhNBLFSg__small/img/5hMXEFcxdl8NRA3L9aggfsHJFG0=/fit-in/200x150/filters:strip_icc()/pic8758331.jpg",
+     "image": "https://cf.geekdo-images.com/_VSKFb9a_qY_merhNBLFSg__original/img/2PzuXeCT0uJXYdicfx665lCPjgI=/0x0/filters:format(jpeg)/pic8758331.jpg"
+    },
+    {
+     "id": "784700",
+     "name": "English edition 2021 with T-Rex token",
+     "year": 2021,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/_BxeHHR_YZ8OH27BByjZ1w__small/img/WtJHbamZTxnVpHEodgLmOznWfDw=/fit-in/200x150/filters:strip_icc()/pic9319467.jpg",
+     "image": "https://cf.geekdo-images.com/_BxeHHR_YZ8OH27BByjZ1w__original/img/zFkxe-YH2RGTUDDEcQvKrW_fjRE=/0x0/filters:format(jpeg)/pic9319467.jpg"
+    },
+    {
+     "id": "784701",
+     "name": "English edition 2021 with thimble token",
+     "year": 2021,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/Do7ydQFOnQhmHFvTXDhurw__small/img/tnJ8UDRnsIhEI1wT3JAr0wwjWxg=/fit-in/200x150/filters:strip_icc()/pic9319471.jpg",
+     "image": "https://cf.geekdo-images.com/Do7ydQFOnQhmHFvTXDhurw__original/img/sI3I4aILFewmw2Ej0rgrkI9kq2c=/0x0/filters:format(jpeg)/pic9319471.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:17:53.757Z"
+  },
   "19184": {
    "v": 2,
    "id": "19184",
@@ -467,6 +1389,180 @@
     }
    ],
    "at": "2026-11-26T02:46:32.032Z"
+  },
+  "40628": {
+   "v": 2,
+   "id": "40628",
+   "type": "boardgame",
+   "best": "2",
+   "rec": "2〜4",
+   "minTime": 45,
+   "maxTime": 45,
+   "age": 10,
+   "rating": 7.07,
+   "weight": 2.07,
+   "rank": 922,
+   "mechanics": [
+    "Contracts",
+    "Mancala",
+    "Once-Per-Game Abilities",
+    "Rondel",
+    "Set Collection"
+   ],
+   "categories": [
+    "Economic",
+    "Farming"
+   ],
+   "designers": [
+    "Wolfgang Sentker",
+    "Ralf zur Linde"
+   ],
+   "expansions": [
+    {
+     "id": "70463",
+     "name": "Finca: Drought"
+    }
+   ],
+   "bases": [],
+   "en": "Finca",
+   "ja": "フィンカ",
+   "minp": 2,
+   "maxp": 5,
+   "time": 45,
+   "year": 2009,
+   "thumb": "https://cf.geekdo-images.com/U7n2gtbgu2IpEGs8YePYlQ__small/img/5jsaAnh3fc8yy8QwnzBhRXr3kIs=/fit-in/200x150/filters:strip_icc()/pic8520431.png",
+   "image": "https://cf.geekdo-images.com/U7n2gtbgu2IpEGs8YePYlQ__original/img/JDYLSVGE5CTt__nA1lLb7hBnmAw=/0x0/filters:format(png)/pic8520431.png",
+   "versions": [
+    {
+     "id": "756369",
+     "name": "Japanese edition",
+     "year": 2025,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/0M0FwBI50HtlH1C6ECp44Q__small/img/Ecz8FGS2va7HWZj2ahfXaIgKrJY=/fit-in/200x150/filters:strip_icc()/pic8842031.png",
+     "image": "https://cf.geekdo-images.com/0M0FwBI50HtlH1C6ECp44Q__original/img/HbLb1-uXt1RLFN3C2CRu9Tk96fQ=/0x0/filters:format(png)/pic8842031.png"
+    },
+    {
+     "id": "755460",
+     "name": "Ghenos Games Italian edition",
+     "year": 2025,
+     "lang": "Italian",
+     "thumb": "https://cf.geekdo-images.com/sW4SIZ-8Ia3hJRmTSSJiQA__small/img/2GaABRm4OkHLRCiQmNwuDDVvbPA=/fit-in/200x150/filters:strip_icc()/pic8828022.png",
+     "image": "https://cf.geekdo-images.com/sW4SIZ-8Ia3hJRmTSSJiQA__original/img/GBeBjaZK7GX47EckaHk9IGMavlg=/0x0/filters:format(png)/pic8828022.png"
+    },
+    {
+     "id": "748120",
+     "name": "Russian edition",
+     "year": 2025,
+     "lang": "Russian",
+     "thumb": "https://cf.geekdo-images.com/8ibVWdJDeI-8a9DqbZ7brA__small/img/PvW7couBpIhF0R7Xm6BkPKhA6CM=/fit-in/200x150/filters:strip_icc()/pic8730279.jpg",
+     "image": "https://cf.geekdo-images.com/8ibVWdJDeI-8a9DqbZ7brA__original/img/8YeQbIaBbW9tAd8ot1bUOpYOBwI=/0x0/filters:format(jpeg)/pic8730279.jpg"
+    },
+    {
+     "id": "774195",
+     "name": "Spanish edition",
+     "year": 2025,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/eFt-yvGJSva3hxuZTAOfdA__small/img/dhyacSzhb4FbVncaZMhKYANGrKw=/fit-in/200x150/filters:strip_icc()/pic9112726.jpg",
+     "image": "https://cf.geekdo-images.com/eFt-yvGJSva3hxuZTAOfdA__original/img/7jY8AQZL5iRbKgmdwOe2iKLQzdk=/0x0/filters:format(jpeg)/pic9112726.jpg"
+    },
+    {
+     "id": "726575",
+     "name": "English edition",
+     "year": 2024,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/U7n2gtbgu2IpEGs8YePYlQ__small/img/5jsaAnh3fc8yy8QwnzBhRXr3kIs=/fit-in/200x150/filters:strip_icc()/pic8520431.png",
+     "image": "https://cf.geekdo-images.com/U7n2gtbgu2IpEGs8YePYlQ__original/img/JDYLSVGE5CTt__nA1lLb7hBnmAw=/0x0/filters:format(png)/pic8520431.png"
+    },
+    {
+     "id": "80852",
+     "name": "Chinese edition",
+     "year": 2010,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/sTOw8yg1OuhPxU9pN8hKAw__small/img/PWPoUj5zZTgD-sp-CGPNz06ezdE=/fit-in/200x150/filters:strip_icc()/pic902486.jpg",
+     "image": "https://cf.geekdo-images.com/sTOw8yg1OuhPxU9pN8hKAw__original/img/ZoG1gJ9yaPKqXTPeelaam24mzdE=/0x0/filters:format(jpeg)/pic902486.jpg"
+    },
+    {
+     "id": "60019",
+     "name": "Finnish/Swedish edition",
+     "year": 2010,
+     "lang": "Finnish・Swedish",
+     "thumb": "https://cf.geekdo-images.com/Dt6Xk6y8zpyikk609bcNVA__small/img/U1_xbjam2cvhFx1TMvMRjn8G1vQ=/fit-in/200x150/filters:strip_icc()/pic4398497.jpg",
+     "image": "https://cf.geekdo-images.com/Dt6Xk6y8zpyikk609bcNVA__original/img/kODViLDHagPVNsTICBLJX3mw1VM=/0x0/filters:format(jpeg)/pic4398497.jpg"
+    },
+    {
+     "id": "69853",
+     "name": "Hungarian edition",
+     "year": 2010,
+     "lang": "Hungarian",
+     "thumb": "https://cf.geekdo-images.com/Rsz3uYCoh3t9Pu8xnCay2A__small/img/9GRyzVt2CFW8RT2v4I9_ud5_Kuk=/fit-in/200x150/filters:strip_icc()/pic1460165.jpg",
+     "image": "https://cf.geekdo-images.com/Rsz3uYCoh3t9Pu8xnCay2A__original/img/sIUpPTDSzWj7Pes-QJVYhiJWIOI=/0x0/filters:format(jpeg)/pic1460165.jpg"
+    },
+    {
+     "id": "33423",
+     "name": "Nordic edition",
+     "year": 2010,
+     "lang": "Danish・Finnish・Norwegian・Swedish",
+     "thumb": "https://cf.geekdo-images.com/ZquyBWjL6RLzKP2ZYRaenQ__small/img/FitfVyk3RcODcxf8PgXISpBjjVQ=/fit-in/200x150/filters:strip_icc()/pic740746.jpg",
+     "image": "https://cf.geekdo-images.com/ZquyBWjL6RLzKP2ZYRaenQ__original/img/je1j4GPN7hyP_MO_oduwbLbMB48=/0x0/filters:format(jpeg)/pic740746.jpg"
+    },
+    {
+     "id": "65818",
+     "name": "Spanish/Catalan edition",
+     "year": 2010,
+     "lang": "Catalan・Spanish",
+     "thumb": "https://cf.geekdo-images.com/SQLZZywbO0Iy2DPPSYAixA__small/img/64HpMshSSM1uOwiv2NiWcN7Nlhc=/fit-in/200x150/filters:strip_icc()/pic832404.jpg",
+     "image": "https://cf.geekdo-images.com/SQLZZywbO0Iy2DPPSYAixA__original/img/Gd18oRmlpzKbcgxJKTNztbqLtgI=/0x0/filters:format(jpeg)/pic832404.jpg"
+    },
+    {
+     "id": "86343",
+     "name": "Czech/Slovak edition",
+     "year": 2009,
+     "lang": "Czech・Slovak",
+     "thumb": "https://cf.geekdo-images.com/2siMzVMk1s3HOMVYXDTzpw__small/img/KQyDMFugdgrOMdxkxGuFP396UfI=/fit-in/200x150/filters:strip_icc()/pic2769375.jpg",
+     "image": "https://cf.geekdo-images.com/2siMzVMk1s3HOMVYXDTzpw__original/img/dd_0EIeICQlsfBsFWU3tlWBxVeo=/0x0/filters:format(jpeg)/pic2769375.jpg"
+    },
+    {
+     "id": "26157",
+     "name": "English edition",
+     "year": 2009,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/aJd9NI-2MHUWIDVMc7Utng__small/img/n7GOCSRaKlBYPcljmTiNUG3fwb8=/fit-in/200x150/filters:strip_icc()/pic8630970.jpg",
+     "image": "https://cf.geekdo-images.com/aJd9NI-2MHUWIDVMc7Utng__original/img/laR4NbNXXE3LRpPooAXHMlZ-udU=/0x0/filters:format(jpeg)/pic8630970.jpg"
+    },
+    {
+     "id": "35025",
+     "name": "French edition",
+     "year": 2009,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/Q3zAIAlAuZ4C1NkHiQs0Jw__small/img/-ppFan-94qc2gERDVBpEiEFRh6c=/fit-in/200x150/filters:strip_icc()/pic735887.jpg",
+     "image": "https://cf.geekdo-images.com/Q3zAIAlAuZ4C1NkHiQs0Jw__original/img/gEmIV2_pdNcxbsXekg7Lgo30wCs=/0x0/filters:format(jpeg)/pic735887.jpg"
+    },
+    {
+     "id": "27014",
+     "name": "German edition",
+     "year": 2009,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/s7vrRsQNIG5FXcOaKDj6QQ__small/img/7jyZRlpCm2OLoVJDSmAAqSFtc2Y=/fit-in/200x150/filters:strip_icc()/pic433784.jpg",
+     "image": "https://cf.geekdo-images.com/s7vrRsQNIG5FXcOaKDj6QQ__original/img/bFpnBmvnhM3Kk49s_QQHuYwQ8DQ=/0x0/filters:format(jpeg)/pic433784.jpg"
+    },
+    {
+     "id": "27016",
+     "name": "German edition with SdJ",
+     "year": 2009,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/kKFHjiIVTuCnxcsLsQU-Tw__small/img/zd-yncOEbCqFCPEPDMoneHe9D-c=/fit-in/200x150/filters:strip_icc()/pic744639.jpg",
+     "image": "https://cf.geekdo-images.com/kKFHjiIVTuCnxcsLsQU-Tw__original/img/a0I0qd72nI1H8mORMzkNygmOnQ8=/0x0/filters:format(jpeg)/pic744639.jpg"
+    },
+    {
+     "id": "85374",
+     "name": "Giochi Uniti Italian edition",
+     "year": 2009,
+     "lang": "Italian",
+     "thumb": "https://cf.geekdo-images.com/tPbYrkGAjULY2byyuQPE1A__small/img/ESNP5H0J_o1YzBbTJtRjjtANKTY=/fit-in/200x150/filters:strip_icc()/pic921216.png",
+     "image": "https://cf.geekdo-images.com/tPbYrkGAjULY2byyuQPE1A__original/img/DiK_IcLJf5pTDZABwkGZhhlJmrw=/0x0/filters:format(png)/pic921216.png"
+    }
+   ],
+   "at": "2026-11-26T03:17:43.226Z"
   },
   "77130": {
    "v": 2,
@@ -632,6 +1728,380 @@
     }
    ],
    "at": "2026-11-26T02:46:34.634Z"
+  },
+  "118048": {
+   "v": 2,
+   "id": "118048",
+   "type": "boardgame",
+   "best": "2",
+   "rec": "2",
+   "minTime": 60,
+   "maxTime": 60,
+   "age": 12,
+   "rating": 7.58,
+   "weight": 2.34,
+   "rank": 178,
+   "mechanics": [
+    "End Game Bonuses",
+    "Modular Board",
+    "Open Drafting",
+    "Pattern Building",
+    "Set Collection",
+    "Square Grid",
+    "Turn Order: Progressive",
+    "Worker Placement"
+   ],
+   "categories": [
+    "Arabian",
+    "Card Game"
+   ],
+   "designers": [
+    "Andreas Steiger"
+   ],
+   "expansions": [
+    {
+     "id": "178656",
+     "name": "Brettspiel Adventskalender 2015"
+    },
+    {
+     "id": "329281",
+     "name": "Targi: Alternative Border Cards"
+    },
+    {
+     "id": "364690",
+     "name": "Targi: Die Bonus-Box"
+    },
+    {
+     "id": "189661",
+     "name": "Targi: The Action Tokens"
+    },
+    {
+     "id": "202453",
+     "name": "Targi: The Expansion"
+    }
+   ],
+   "bases": [],
+   "en": "Targi",
+   "ja": "タルギ",
+   "minp": 2,
+   "maxp": 2,
+   "time": 60,
+   "year": 2012,
+   "thumb": "https://cf.geekdo-images.com/wHg4fOf48cs1kw1PDOk1tQ__small/img/6l-jqYlfECK1SVSsUs7FXUheKzQ=/fit-in/200x150/filters:strip_icc()/pic3958793.jpg",
+   "image": "https://cf.geekdo-images.com/wHg4fOf48cs1kw1PDOk1tQ__original/img/St4ABQhpauYiq4Mt6-f38JtLOjM=/0x0/filters:format(jpeg)/pic3958793.jpg",
+   "versions": [
+    {
+     "id": "208268",
+     "name": "Japanese edition",
+     "year": 2013,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/BvAa5nFnKeBr9lZjPBy2hg__small/img/jODiU83tdg77-UPsmQXNMnPwLNo=/fit-in/200x150/filters:strip_icc()/pic1647563.jpg",
+     "image": "https://cf.geekdo-images.com/BvAa5nFnKeBr9lZjPBy2hg__original/img/16q55Ww6nYGftWTXEpcfmeRZx3o=/0x0/filters:format(jpeg)/pic1647563.jpg"
+    },
+    {
+     "id": "701422",
+     "name": "German third edition",
+     "year": 2023,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/m-7N-crQvMJ4oKNCLTTCOw__small/img/h5MwdIpYsrfhZef7GNbqxqyn0Gg=/fit-in/200x150/filters:strip_icc()/pic8022192.jpg",
+     "image": "https://cf.geekdo-images.com/m-7N-crQvMJ4oKNCLTTCOw__original/img/2IuZCTCLbPTBgYWTgOR6XVeReO0=/0x0/filters:format(jpeg)/pic8022192.jpg"
+    },
+    {
+     "id": "636978",
+     "name": "Chinese edition",
+     "year": 2022,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/WQ0-oyvwGZQnjz_rry2jSg__small/img/wzXxvkRMPo38r6UKPBIYqaQjWEU=/fit-in/200x150/filters:strip_icc()/pic7141420.png",
+     "image": "https://cf.geekdo-images.com/WQ0-oyvwGZQnjz_rry2jSg__original/img/EaP6Yc5KlaDzL_OuyIarPEfiW0A=/0x0/filters:format(png)/pic7141420.png"
+    },
+    {
+     "id": "592192",
+     "name": "Spanish second edition",
+     "year": 2022,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/75QQAPI7EXHGHnL0u-dgRQ__small/img/Ss-XROsnpqfLcvJLaPgVpo-Ln4c=/fit-in/200x150/filters:strip_icc()/pic7397225.jpg",
+     "image": "https://cf.geekdo-images.com/75QQAPI7EXHGHnL0u-dgRQ__original/img/8x65RHRELkkK45ZOdS5WNbhtSfw=/0x0/filters:format(jpeg)/pic7397225.jpg"
+    },
+    {
+     "id": "703478",
+     "name": "English edition 2021",
+     "year": 2021,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/wHg4fOf48cs1kw1PDOk1tQ__small/img/6l-jqYlfECK1SVSsUs7FXUheKzQ=/fit-in/200x150/filters:strip_icc()/pic3958793.jpg",
+     "image": "https://cf.geekdo-images.com/wHg4fOf48cs1kw1PDOk1tQ__original/img/St4ABQhpauYiq4Mt6-f38JtLOjM=/0x0/filters:format(jpeg)/pic3958793.jpg"
+    },
+    {
+     "id": "739116",
+     "name": "Italian second edition",
+     "year": 2021,
+     "lang": "Italian",
+     "thumb": "https://cf.geekdo-images.com/3hGrMzZ6Em6x5PIYEE804g__small/img/qq22bsUlP_S6pHlD3JiXxQwj0Xc=/fit-in/200x150/filters:strip_icc()/pic8598542.png",
+     "image": "https://cf.geekdo-images.com/3hGrMzZ6Em6x5PIYEE804g__original/img/arQfRfHK2BR0m3ksfQTdjBsjMew=/0x0/filters:format(png)/pic8598542.png"
+    },
+    {
+     "id": "484597",
+     "name": "Korean edition",
+     "year": 2019,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/WaN2G9RmnX-UMkTHQ2bYJw__small/img/b8Syy0bXCKL1wuFkeIW5wVIk1Eo=/fit-in/200x150/filters:strip_icc()/pic5277328.png",
+     "image": "https://cf.geekdo-images.com/WaN2G9RmnX-UMkTHQ2bYJw__original/img/LLM9bvfpHFrtkGj2TqQdK0F5dG0=/0x0/filters:format(png)/pic5277328.png"
+    },
+    {
+     "id": "410234",
+     "name": "Dutch second edition",
+     "year": 2018,
+     "lang": "Dutch",
+     "thumb": "https://cf.geekdo-images.com/42XXnB7Tefxiyg9FxGxOkg__small/img/dUP3KstoLVYzg__HFA3tiwGB6fc=/fit-in/200x150/filters:strip_icc()/pic5164248.jpg",
+     "image": "https://cf.geekdo-images.com/42XXnB7Tefxiyg9FxGxOkg__original/img/POfot8GEVW2oOndtrTh_X5BW_hE=/0x0/filters:format(jpeg)/pic5164248.jpg"
+    },
+    {
+     "id": "420685",
+     "name": "French second edition",
+     "year": 2018,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/mqGSmF0iuepcwkZbpp3Aww__small/img/CoU-C8-f4zZEYwcPakkaHJzMpBQ=/fit-in/200x150/filters:strip_icc()/pic4296957.jpg",
+     "image": "https://cf.geekdo-images.com/mqGSmF0iuepcwkZbpp3Aww__original/img/Z0lzMf8ZiEi8qGwg7zoCla4dReg=/0x0/filters:format(jpeg)/pic4296957.jpg"
+    },
+    {
+     "id": "402424",
+     "name": "Polish edition",
+     "year": 2018,
+     "lang": "Polish",
+     "thumb": "https://cf.geekdo-images.com/me8aBw_bwBcftX044o-PNw__small/img/5rm9uojJYt9gEHiMySiPSs536eo=/fit-in/200x150/filters:strip_icc()/pic8792524.jpg",
+     "image": "https://cf.geekdo-images.com/me8aBw_bwBcftX044o-PNw__original/img/yFoPOWSpkuCAOeycXD3uceLfgo0=/0x0/filters:format(jpeg)/pic8792524.jpg"
+    },
+    {
+     "id": "354386",
+     "name": "German second edition",
+     "year": 2016,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/0Cozdx8DxD0lO3Q4OL4Ecw__small/img/6KA0C2Gg3xT-WUJqCnbtcVy3qS4=/fit-in/200x150/filters:strip_icc()/pic7061506.jpg",
+     "image": "https://cf.geekdo-images.com/0Cozdx8DxD0lO3Q4OL4Ecw__original/img/c8fCTA0-YrE0icNKl2_LKAVblEk=/0x0/filters:format(jpeg)/pic7061506.jpg"
+    },
+    {
+     "id": "783538",
+     "name": "English edition 2014",
+     "year": 2014,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/G4oKcD1IVmBeY3YwidJtvA__small/img/3oYIkkrACIH1r53Lo9RIqLZGaRU=/fit-in/200x150/filters:strip_icc()/pic1629318.jpg",
+     "image": "https://cf.geekdo-images.com/G4oKcD1IVmBeY3YwidJtvA__original/img/nk0NszV9x8qD0zcln6E3ETX8JMw=/0x0/filters:format(jpeg)/pic1629318.jpg"
+    },
+    {
+     "id": "183796",
+     "name": "Dutch first edition",
+     "year": 2013,
+     "lang": "Dutch",
+     "thumb": "https://cf.geekdo-images.com/31D_DQTanH8y-r5tlWnVuw__small/img/bCY3nib83Elv5Gj7JJSvjE07SAA=/fit-in/200x150/filters:strip_icc()/pic3482626.jpg",
+     "image": "https://cf.geekdo-images.com/31D_DQTanH8y-r5tlWnVuw__original/img/GbtceYRxcoju4_QYWP3JXrHPtIk=/0x0/filters:format(jpeg)/pic3482626.jpg"
+    },
+    {
+     "id": "782084",
+     "name": "English first edition, second printing",
+     "year": 2013,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/H3Vf-7LoSgDBbMH-QRFcMQ__small/img/1uSxLVubHTN2xl43C5Dw1YrCLrA=/fit-in/200x150/filters:strip_icc()/pic9255321.jpg",
+     "image": "https://cf.geekdo-images.com/H3Vf-7LoSgDBbMH-QRFcMQ__original/img/AWgLjxhk79NkznvqI2FOAbjsC3U=/0x0/filters:format(jpeg)/pic9255321.jpg"
+    },
+    {
+     "id": "182986",
+     "name": "French first edition",
+     "year": 2013,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/LhIAcS_YFa7jKji_JwCBvg__small/img/q5krFVKQi0gwvp2mhC0HwGl8K0Y=/fit-in/200x150/filters:strip_icc()/pic1632840.jpg",
+     "image": "https://cf.geekdo-images.com/LhIAcS_YFa7jKji_JwCBvg__original/img/cd3wP5F3KPY4FvchFc9otc43um8=/0x0/filters:format(jpeg)/pic1632840.jpg"
+    },
+    {
+     "id": "208835",
+     "name": "Greek edition",
+     "year": 2013,
+     "lang": "Greek",
+     "thumb": "https://cf.geekdo-images.com/eer7JoyWJuAw8X2pYtajmg__small/img/ZDRGHWnT11gmw92VJx1gdkQsRMY=/fit-in/200x150/filters:strip_icc()/pic1654745.jpg",
+     "image": "https://cf.geekdo-images.com/eer7JoyWJuAw8X2pYtajmg__original/img/0jNV9UYfMbsy-IIB1fzLwmGew7M=/0x0/filters:format(jpeg)/pic1654745.jpg"
+    },
+    {
+     "id": "211097",
+     "name": "Italian first edition",
+     "year": 2013,
+     "lang": "Italian",
+     "thumb": "https://cf.geekdo-images.com/ykM-cEyhxT36Z7fr8Mv6cg__small/img/JRPfw7X9xRZKi8K6lIcQkxQJkPI=/fit-in/200x150/filters:strip_icc()/pic1682259.jpg",
+     "image": "https://cf.geekdo-images.com/ykM-cEyhxT36Z7fr8Mv6cg__original/img/MXZVekisdtKDT5jXeQHJfkLBUlk=/0x0/filters:format(jpeg)/pic1682259.jpg"
+    },
+    {
+     "id": "210442",
+     "name": "Spanish first edition",
+     "year": 2013,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/FAGCFbhIsah7KKvrtu8qAQ__small/img/ofaPotc3ba2lvPEC_a0MVy5X8dI=/fit-in/200x150/filters:strip_icc()/pic1698284.jpg",
+     "image": "https://cf.geekdo-images.com/FAGCFbhIsah7KKvrtu8qAQ__original/img/wix58R5cPO3w9w6ZAkU0scUwUkQ=/0x0/filters:format(jpeg)/pic1698284.jpg"
+    },
+    {
+     "id": "147624",
+     "name": "German first edition",
+     "year": 2012,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/FuVYgLqXyMrgEIigXK927w__small/img/YOzoboRT63HpR-DYBAXe-iz_OKE=/fit-in/200x150/filters:strip_icc()/pic1204085.jpg",
+     "image": "https://cf.geekdo-images.com/FuVYgLqXyMrgEIigXK927w__original/img/vtBiU0G9QDjjQQN60CyTFRFIBwk=/0x0/filters:format(jpeg)/pic1204085.jpg"
+    },
+    {
+     "id": "191007",
+     "name": "German first edition (w/ KedJ logo)",
+     "year": 2012,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/bXKM2_WBMVFfwt4ivUEc0Q__small/img/pIE6qrKjRAHgw5ao0USZSQJ_nXQ=/fit-in/200x150/filters:strip_icc()/pic4510214.jpg",
+     "image": "https://cf.geekdo-images.com/bXKM2_WBMVFfwt4ivUEc0Q__original/img/Cqa4ZCuai0bB3mMX5efez0j0VDk=/0x0/filters:format(jpeg)/pic4510214.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:17:08.738Z"
+  },
+  "119890": {
+   "v": 2,
+   "id": "119890",
+   "type": "boardgame",
+   "best": "2",
+   "rec": "2",
+   "minTime": 30,
+   "maxTime": 30,
+   "age": 13,
+   "rating": 7.32,
+   "weight": 2.35,
+   "rank": 476,
+   "mechanics": [
+    "Automatic Resource Growth",
+    "Enclosure",
+    "Increase Value of Unchosen Resources",
+    "Tile Placement",
+    "Turn Order: Claim Action",
+    "Worker Placement"
+   ],
+   "categories": [
+    "Animals",
+    "Farming"
+   ],
+   "designers": [
+    "Uwe Rosenberg"
+   ],
+   "expansions": [
+    {
+     "id": "145355",
+     "name": "Agricola: All Creatures Big and Small – Even More Buildings Big and Small"
+    },
+    {
+     "id": "130752",
+     "name": "Agricola: All Creatures Big and Small – More Buildings Big and Small"
+    },
+    {
+     "id": "173558",
+     "name": "Agricola: Chłopi i ich zwierzyniec – Jeszcze więcej budynków do zwierzyńca"
+    }
+   ],
+   "bases": [],
+   "en": "Agricola: All Creatures Big and Small",
+   "ja": "アグリコラ：牧場の動物たち",
+   "minp": 2,
+   "maxp": 2,
+   "time": 30,
+   "year": 2012,
+   "thumb": "https://cf.geekdo-images.com/iaxdcb_l3F8McwzyoiiCig__small/img/UWsWeuOQpGv5asAoyrKgwL3pVj0=/fit-in/200x150/filters:strip_icc()/pic1514252.jpg",
+   "image": "https://cf.geekdo-images.com/iaxdcb_l3F8McwzyoiiCig__original/img/0jQpVjFEcjoIPpVGRf2DhO-jzLo=/0x0/filters:format(jpeg)/pic1514252.jpg",
+   "versions": [
+    {
+     "id": "176136",
+     "name": "Japanese edition",
+     "year": 2012,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/GsRWIBOfeorBh1Fk22m3qA__small/img/8F7Sv_9-eyVBqx9JIpiNNfS8RlY=/fit-in/200x150/filters:strip_icc()/pic1388188.jpg",
+     "image": "https://cf.geekdo-images.com/GsRWIBOfeorBh1Fk22m3qA__original/img/e1CRl3oPtkCJMfMTc13XMxpXfz8=/0x0/filters:format(jpeg)/pic1388188.jpg"
+    },
+    {
+     "id": "647435",
+     "name": "German edition 2017",
+     "year": 2017,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/AZlZ1OdyXEOcNIsYM8tg2w__small/img/WVJg65_N52zh_FZTWtXU54NtPGs=/fit-in/200x150/filters:strip_icc()/pic7313071.jpg",
+     "image": "https://cf.geekdo-images.com/AZlZ1OdyXEOcNIsYM8tg2w__original/img/rqraf2ZCK5udBgB0ixDq6oIvq_U=/0x0/filters:format(jpeg)/pic7313071.jpg"
+    },
+    {
+     "id": "335739",
+     "name": "Chinese edition",
+     "year": 2016,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/rX6KBtgy8JG1yj9QpX5n0w__small/img/mfmOMn6oGp3Gi52Xw8Kiefeulhw=/fit-in/200x150/filters:strip_icc()/pic3087410.jpg",
+     "image": "https://cf.geekdo-images.com/rX6KBtgy8JG1yj9QpX5n0w__original/img/RoLFAQPE67MfsrcK01EspvdS2t4=/0x0/filters:format(jpeg)/pic3087410.jpg"
+    },
+    {
+     "id": "335499",
+     "name": "Dutch second edition",
+     "year": 2014,
+     "lang": "Dutch",
+     "thumb": "https://cf.geekdo-images.com/syPXPUF0dFbyGSFqKDMwVw__small/img/L1qCsrm7q_-AdORccNgn6nogmLA=/fit-in/200x150/filters:strip_icc()/pic3286928.png",
+     "image": "https://cf.geekdo-images.com/syPXPUF0dFbyGSFqKDMwVw__original/img/Lzw2UaXeeGFq5Ax2PRY2ez6AR9c=/0x0/filters:format(png)/pic3286928.png"
+    },
+    {
+     "id": "195354",
+     "name": "Dutch first edition",
+     "year": 2013,
+     "lang": "Dutch",
+     "thumb": "https://cf.geekdo-images.com/3EWq9zirotPLrnVT_KyrOQ__small/img/AeUyEDssrsoQWJSH2gPmPh19upI=/fit-in/200x150/filters:strip_icc()/pic1536662.jpg",
+     "image": "https://cf.geekdo-images.com/3EWq9zirotPLrnVT_KyrOQ__original/img/7hc4EEmAqKcgrX6B22T1AeFWQcY=/0x0/filters:format(jpeg)/pic1536662.jpg"
+    },
+    {
+     "id": "198513",
+     "name": "Italian edition",
+     "year": 2013,
+     "lang": "Italian",
+     "thumb": "https://cf.geekdo-images.com/_Jkp0Ve7u9hkqIwB-agi1w__small/img/ZUe3j9Rs0siqd9P6LIGiID5KHsg=/fit-in/200x150/filters:strip_icc()/pic2089195.jpg",
+     "image": "https://cf.geekdo-images.com/_Jkp0Ve7u9hkqIwB-agi1w__original/img/Mz6vYY3R70KiXwUQwlFd1uYdgks=/0x0/filters:format(jpeg)/pic2089195.jpg"
+    },
+    {
+     "id": "161782",
+     "name": "English first edition",
+     "year": 2012,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/iaxdcb_l3F8McwzyoiiCig__small/img/UWsWeuOQpGv5asAoyrKgwL3pVj0=/fit-in/200x150/filters:strip_icc()/pic1514252.jpg",
+     "image": "https://cf.geekdo-images.com/iaxdcb_l3F8McwzyoiiCig__original/img/0jQpVjFEcjoIPpVGRf2DhO-jzLo=/0x0/filters:format(jpeg)/pic1514252.jpg"
+    },
+    {
+     "id": "237841",
+     "name": "English second edition",
+     "year": 2012,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/I9yoGvgaRjnqEvz-hrKrmQ__small/img/qh3g4brs0Qk3h_77G4f8jGRQcwY=/fit-in/200x150/filters:strip_icc()/pic1989774.jpg",
+     "image": "https://cf.geekdo-images.com/I9yoGvgaRjnqEvz-hrKrmQ__original/img/SlkbTVGNdkGDT3h8_B4ii8uBBjs=/0x0/filters:format(jpeg)/pic1989774.jpg"
+    },
+    {
+     "id": "160546",
+     "name": "French edition",
+     "year": 2012,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/sNp2LXgZHJvOjBzNPf4qyA__small/img/ShJD89-aVxoHavyn5zTRHONjEqk=/fit-in/200x150/filters:strip_icc()/pic1271611.jpg",
+     "image": "https://cf.geekdo-images.com/sNp2LXgZHJvOjBzNPf4qyA__original/img/pVJ_rumiuWQY3q09vf8nIe9gA2s=/0x0/filters:format(jpeg)/pic1271611.jpg"
+    },
+    {
+     "id": "152539",
+     "name": "German first edition",
+     "year": 2012,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/M5Gn60VzUbvao_i6WOAifQ__small/img/n6pak6NusaAAEG8AO_Lu3xVnoP8=/fit-in/200x150/filters:strip_icc()/pic1324301.jpg",
+     "image": "https://cf.geekdo-images.com/M5Gn60VzUbvao_i6WOAifQ__original/img/0Ucg18r6OA-2rkioAbIJcsrdaQg=/0x0/filters:format(jpeg)/pic1324301.jpg"
+    },
+    {
+     "id": "163684",
+     "name": "Polish edition",
+     "year": 2012,
+     "lang": "Polish",
+     "thumb": "https://cf.geekdo-images.com/WrGu4uf2tJDnqMrOHAKbjw__small/img/DINexqf-_HzSdI1dNzsnzHFAyPY=/fit-in/200x150/filters:strip_icc()/pic1293671.jpg",
+     "image": "https://cf.geekdo-images.com/WrGu4uf2tJDnqMrOHAKbjw__original/img/hSOKPZsWa-BhOhTZuviMiDhjvYI=/0x0/filters:format(jpeg)/pic1293671.jpg"
+    },
+    {
+     "id": "162823",
+     "name": "Spanish edition",
+     "year": 2012,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/7CafFqXeChNv225PJc7a6Q__small/img/gUTP2oMnvFY0BPRD0Gu-OaTU2pI=/fit-in/200x150/filters:strip_icc()/pic1287062.jpg",
+     "image": "https://cf.geekdo-images.com/7CafFqXeChNv225PJc7a6Q__original/img/gJUzUAe7dzNqHnFzW2ZYER2WpkQ=/0x0/filters:format(jpeg)/pic1287062.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:17:14.094Z"
   },
   "137154": {
    "v": 2,
@@ -957,6 +2427,264 @@
    ],
    "at": "2026-11-26T02:45:45.251Z"
   },
+  "163412": {
+   "v": 2,
+   "id": "163412",
+   "type": "boardgame",
+   "best": "2",
+   "rec": "2",
+   "minTime": 15,
+   "maxTime": 30,
+   "age": 8,
+   "rating": 7.57,
+   "weight": 1.6,
+   "rank": 149,
+   "mechanics": [
+    "Grid Coverage",
+    "Income",
+    "Open Drafting",
+    "Rondel",
+    "Square Grid",
+    "Tile Placement",
+    "Turn Order: Stat-Based",
+    "Turn Order: Time Track",
+    "Victory Points as a Resource"
+   ],
+   "categories": [
+    "Abstract Strategy",
+    "Economic",
+    "Puzzle"
+   ],
+   "designers": [
+    "Uwe Rosenberg"
+   ],
+   "expansions": [
+    {
+     "id": "370657",
+     "name": "Crazy Quilt (fan expansion for Patchwork)"
+    },
+    {
+     "id": "238617",
+     "name": "Patchwork: 5x5 Bonuskarte"
+    },
+    {
+     "id": "257570",
+     "name": "Patchwork: Automa"
+    },
+    {
+     "id": "403195",
+     "name": "Patchwork: Dolle Decken"
+    },
+    {
+     "id": "236608",
+     "name": "Special Buttons (fan expansion for Patchwork)"
+    }
+   ],
+   "bases": [],
+   "en": "Patchwork",
+   "ja": "パッチワーク",
+   "minp": 2,
+   "maxp": 2,
+   "time": 30,
+   "year": 2014,
+   "thumb": "https://cf.geekdo-images.com/xNSaIHCKr_cc7Q2rQSSJPQ__small/img/9Kf3YKiVIJxd_EbqJEJFdlGfj7I=/fit-in/200x150/filters:strip_icc()/pic9273518.jpg",
+   "image": "https://cf.geekdo-images.com/xNSaIHCKr_cc7Q2rQSSJPQ__original/img/HJJdVosBV35kj8pQ6wmQMiJRhVA=/0x0/filters:format(jpeg)/pic9273518.jpg",
+   "versions": [
+    {
+     "id": "777007",
+     "name": "Japanese second edition",
+     "year": 2025,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/uf0PykqrOvUyPdgHmibS3g__small/img/oX1dHrWfTP8Rnw-bcgfHmOEtazM=/fit-in/200x150/filters:strip_icc()/pic9159584.jpg",
+     "image": "https://cf.geekdo-images.com/uf0PykqrOvUyPdgHmibS3g__original/img/72VyApZE4cpzzVgiyLOX1i8J91I=/0x0/filters:format(jpeg)/pic9159584.jpg"
+    },
+    {
+     "id": "736081",
+     "name": "Japanese edition",
+     "year": 2024,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/BLc8tb73fdXExsVYXEkKtw__small/img/2z5YGGW8dtZdie5VS8WqxPHx9dw=/fit-in/200x150/filters:strip_icc()/pic8557225.jpg",
+     "image": "https://cf.geekdo-images.com/BLc8tb73fdXExsVYXEkKtw__original/img/N-rpEnWohq_amNSAy23cgDlS-Qk=/0x0/filters:format(jpeg)/pic8557225.jpg"
+    },
+    {
+     "id": "538660",
+     "name": "Japanese edition",
+     "year": 2020,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/XI8dFBHtWI_fmWWJboisDw__small/img/gqwMFuzpHRpyVjJEk74_65Ee-Is=/fit-in/200x150/filters:strip_icc()/pic5817756.jpg",
+     "image": "https://cf.geekdo-images.com/XI8dFBHtWI_fmWWJboisDw__original/img/2RYfxUOsmQwVXnbj3RHg1Mbntuk=/0x0/filters:format(jpeg)/pic5817756.jpg"
+    },
+    {
+     "id": "556069",
+     "name": "Japanese edition",
+     "year": 2015,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/zjugMaKaiVg5_NzO25u2AQ__small/img/_MAcxrhnCcUs4HPMy6RvtP-19cs=/fit-in/200x150/filters:strip_icc()/pic7219702.jpg",
+     "image": "https://cf.geekdo-images.com/zjugMaKaiVg5_NzO25u2AQ__original/img/W7jL6vqDSM09wQMCyqj2RK6bjyg=/0x0/filters:format(jpeg)/pic7219702.jpg"
+    },
+    {
+     "id": "783228",
+     "name": "English edition 2026",
+     "year": 2026,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/xNSaIHCKr_cc7Q2rQSSJPQ__small/img/9Kf3YKiVIJxd_EbqJEJFdlGfj7I=/fit-in/200x150/filters:strip_icc()/pic9273518.jpg",
+     "image": "https://cf.geekdo-images.com/xNSaIHCKr_cc7Q2rQSSJPQ__original/img/HJJdVosBV35kj8pQ6wmQMiJRhVA=/0x0/filters:format(jpeg)/pic9273518.jpg"
+    },
+    {
+     "id": "771768",
+     "name": "French revised edition",
+     "year": 2025,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/K1WpL-8aU1HTFQ6ft6K4ig__small/img/gaEH-bpyUls2URDpYoyDAnltz9s=/fit-in/200x150/filters:strip_icc()/pic9082062.jpg",
+     "image": "https://cf.geekdo-images.com/K1WpL-8aU1HTFQ6ft6K4ig__original/img/MSZQ6ZkEB_UUNaO4LVCuvh26VxI=/0x0/filters:format(jpeg)/pic9082062.jpg"
+    },
+    {
+     "id": "802138",
+     "name": "German edition 2025",
+     "year": 2025,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/Kpzx9mDvnqoGz6jN16jjnQ__small/img/hvn6bKVgmmyxJvkh5jdB4unVjdQ=/fit-in/200x150/filters:strip_icc()/pic9683336.jpg",
+     "image": "https://cf.geekdo-images.com/Kpzx9mDvnqoGz6jN16jjnQ__original/img/pGDVRzsdTqGiD1CU_O_6mjCd6Os=/0x0/filters:format(jpeg)/pic9683336.jpg"
+    },
+    {
+     "id": "767828",
+     "name": "Italian edition 2025",
+     "year": 2025,
+     "lang": "Italian",
+     "thumb": "https://cf.geekdo-images.com/92WN27aec4xCSCJ78lR-VQ__small/img/oBqpIbbWsllvVi6ul3BsSbysNnU=/fit-in/200x150/filters:strip_icc()/pic9019741.jpg",
+     "image": "https://cf.geekdo-images.com/92WN27aec4xCSCJ78lR-VQ__original/img/NreRqHrEgM-qm_Flqlf098xkFAE=/0x0/filters:format(jpeg)/pic9019741.jpg"
+    },
+    {
+     "id": "772541",
+     "name": "Korean edition 2025",
+     "year": 2025,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/2px_M8bhe_hOYeCOv1Xm8g__small/img/tkUaJ7DxYRNi7EAURamV2zpNXiE=/fit-in/200x150/filters:strip_icc()/pic9086953.jpg",
+     "image": "https://cf.geekdo-images.com/2px_M8bhe_hOYeCOv1Xm8g__original/img/y0a01QEKUXmkLBNnqHvqWmoPFAU=/0x0/filters:format(jpeg)/pic9086953.jpg"
+    },
+    {
+     "id": "782726",
+     "name": "Rebel Polish edition 2025",
+     "year": 2025,
+     "lang": "Polish",
+     "thumb": "https://cf.geekdo-images.com/Q1Uha5ZYTfzIgVI82xQ4zw__small/img/_xgK4lVjNFaJdA0mM7Lcar92svI=/fit-in/200x150/filters:strip_icc()/pic9265478.png",
+     "image": "https://cf.geekdo-images.com/Q1Uha5ZYTfzIgVI82xQ4zw__original/img/A9ueNccf2clC2toMPSsJNpHiyOo=/0x0/filters:format(png)/pic9265478.png"
+    },
+    {
+     "id": "785578",
+     "name": "Spanish edition 2025",
+     "year": 2025,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/wIiM_5d1OP1lB48rW-mlfg__small/img/ERIZoeaaZz9FIbk-hPluH-gfs70=/fit-in/200x150/filters:strip_icc()/pic9309571.png",
+     "image": "https://cf.geekdo-images.com/wIiM_5d1OP1lB48rW-mlfg__original/img/NVNIy4X1puTwA0f4sReOz0Syxsg=/0x0/filters:format(png)/pic9309571.png"
+    },
+    {
+     "id": "735599",
+     "name": "Ukrainian edition",
+     "year": 2025,
+     "lang": "Ukrainian",
+     "thumb": "https://cf.geekdo-images.com/m4umX99fc8eMr54ARRXgjw__small/img/yxQgPPxLb0yaGx1fwmWvB3qkrpc=/fit-in/200x150/filters:strip_icc()/pic8545800.jpg",
+     "image": "https://cf.geekdo-images.com/m4umX99fc8eMr54ARRXgjw__original/img/LUyFTGwLTfhnU6j4DTwhAY0c_QE=/0x0/filters:format(jpeg)/pic8545800.jpg"
+    },
+    {
+     "id": "724918",
+     "name": "Dutch edition",
+     "year": 2024,
+     "lang": "Dutch",
+     "thumb": "https://cf.geekdo-images.com/3IdzHy4TF_QHnOzWokbaGg__small/img/j7HHHfkEGFOvHatzyfwhdjN9gcI=/fit-in/200x150/filters:strip_icc()/pic8367449.png",
+     "image": "https://cf.geekdo-images.com/3IdzHy4TF_QHnOzWokbaGg__original/img/Ic5vTtODNMvBhsY6Tx5WUhQgnOg=/0x0/filters:format(png)/pic8367449.png"
+    },
+    {
+     "id": "699323",
+     "name": "English edition",
+     "year": 2024,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/MU2wDWh6MjqKYB1eS7KwMA__small/img/wm_0ZrWVzU-3hr-YL6-iwk0ez7I=/fit-in/200x150/filters:strip_icc()/pic8080195.jpg",
+     "image": "https://cf.geekdo-images.com/MU2wDWh6MjqKYB1eS7KwMA__original/img/uSQRN7dLwykJ9fXbdDS9i6H4GcU=/0x0/filters:format(jpeg)/pic8080195.jpg"
+    },
+    {
+     "id": "744207",
+     "name": "English sixth edition",
+     "year": 2024,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/RDOwMRBnIb3Ehl6GyXj9xg__small/img/nxex9ASN99exPLXEc9E4s08qZzc=/fit-in/200x150/filters:strip_icc()/pic8669620.jpg",
+     "image": "https://cf.geekdo-images.com/RDOwMRBnIb3Ehl6GyXj9xg__original/img/iVl8KAZ8JMmDXsnBqQecFRkOhK8=/0x0/filters:format(jpeg)/pic8669620.jpg"
+    },
+    {
+     "id": "738612",
+     "name": "Hungarian edition",
+     "year": 2024,
+     "lang": "Hungarian",
+     "thumb": "https://cf.geekdo-images.com/eeGWUOEGe10h6d56uKtrFA__small/img/msqodF9X0J6b3KWlN9ufazkeuuk=/fit-in/200x150/filters:strip_icc()/pic8592032.jpg",
+     "image": "https://cf.geekdo-images.com/eeGWUOEGe10h6d56uKtrFA__original/img/bhf_dfUah3D7zO2A4Jtx8ldI9LE=/0x0/filters:format(jpeg)/pic8592032.jpg"
+    },
+    {
+     "id": "636325",
+     "name": "Rebel Polish edition, second printing",
+     "year": 2024,
+     "lang": "Polish",
+     "thumb": "https://cf.geekdo-images.com/3ya0PMyfvR5XHhUeEqTsjw__small/img/CoGULZVGkHAdfkEkVstcWmTLabw=/fit-in/200x150/filters:strip_icc()/pic7132418.jpg",
+     "image": "https://cf.geekdo-images.com/3ya0PMyfvR5XHhUeEqTsjw__original/img/TCLoE4dDjEvA2wuRKfI3ECdwLuc=/0x0/filters:format(jpeg)/pic7132418.jpg"
+    },
+    {
+     "id": "727673",
+     "name": "Spanish edition",
+     "year": 2024,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/VDQQQvwFREESuRYVsxJW2w__small/img/IRt-0nY1-enKsO3spwz_ASqWbvE=/fit-in/200x150/filters:strip_icc()/pic9002302.jpg",
+     "image": "https://cf.geekdo-images.com/VDQQQvwFREESuRYVsxJW2w__original/img/Yf-7y7ql7wEmsB2-l-DmPsZ3Ido=/0x0/filters:format(jpeg)/pic9002302.jpg"
+    },
+    {
+     "id": "636324",
+     "name": "Rebel Polish edition",
+     "year": 2023,
+     "lang": "Polish",
+     "thumb": "https://cf.geekdo-images.com/77OTauvN7elm7HrRH832dw__small/img/vWscBVTyz-UStxXDirazujKlKu4=/fit-in/200x150/filters:strip_icc()/pic7643659.jpg",
+     "image": "https://cf.geekdo-images.com/77OTauvN7elm7HrRH832dw__original/img/82crsqA8_BR4KAVrmj4_lyul7w0=/0x0/filters:format(jpeg)/pic7643659.jpg"
+    },
+    {
+     "id": "705025",
+     "name": "Thai/English edition",
+     "year": 2023,
+     "lang": "English・Thai",
+     "thumb": "https://cf.geekdo-images.com/moSMNuqE8MB_tj3ezyuMWw__small/img/pmfn2u4U8Xft8WM2AujbS1mIxws=/fit-in/200x150/filters:strip_icc()/pic8073908.png",
+     "image": "https://cf.geekdo-images.com/moSMNuqE8MB_tj3ezyuMWw__original/img/h3YM8eD8J4z4WfQzSNk4Xp7jHXA=/0x0/filters:format(png)/pic8073908.png"
+    },
+    {
+     "id": "590783",
+     "name": "English edition",
+     "year": 2022,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/c7JObz8PKIrZDpf6nI7zBg__small/img/c5YnwQWyAclreBO_2mbIY66XNqE=/fit-in/200x150/filters:strip_icc()/pic6586773.jpg",
+     "image": "https://cf.geekdo-images.com/c7JObz8PKIrZDpf6nI7zBg__original/img/sRuu1EmoqSiQxhB20n_NJ0Jpz7c=/0x0/filters:format(jpeg)/pic6586773.jpg"
+    },
+    {
+     "id": "654570",
+     "name": "Galápagos Jogos Portuguese edition",
+     "year": 2022,
+     "lang": "Portuguese",
+     "thumb": "https://cf.geekdo-images.com/1Wd7Nx1X2IajUVwSzED8Dw__small/img/6UFPgNBqj-g3P31OBxjIxESYl4s=/fit-in/200x150/filters:strip_icc()/pic7439852.png",
+     "image": "https://cf.geekdo-images.com/1Wd7Nx1X2IajUVwSzED8Dw__original/img/V6LkJofOKOqqnWLovm3dy23yWJ0=/0x0/filters:format(png)/pic7439852.png"
+    },
+    {
+     "id": "623187",
+     "name": "German edition",
+     "year": 2022,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/clTVfBsebcPz1JbWRIG8nw__small/img/Zb-ziCwD4SCXYBvmF2Kuqo7p4pk=/fit-in/200x150/filters:strip_icc()/pic6991820.jpg",
+     "image": "https://cf.geekdo-images.com/clTVfBsebcPz1JbWRIG8nw__original/img/UICISqJWiLjqhkXqT7GF33euSwk=/0x0/filters:format(jpeg)/pic6991820.jpg"
+    },
+    {
+     "id": "684812",
+     "name": "German edition",
+     "year": 2022,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/vkbm2fAOvVFAnd3w6vpUzA__small/img/Z24rcDvRzPIRETYw1FBEJRc7BQ4=/fit-in/200x150/filters:strip_icc()/pic9683334.jpg",
+     "image": "https://cf.geekdo-images.com/vkbm2fAOvVFAnd3w6vpUzA__original/img/w4Kip7nmByJuwd5p8_Vlskv5iws=/0x0/filters:format(jpeg)/pic9683334.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:17:16.716Z"
+  },
   "170624": {
    "v": 2,
    "id": "170624",
@@ -1157,6 +2885,336 @@
     }
    ],
    "at": "2026-11-26T02:45:37.527Z"
+  },
+  "177524": {
+   "v": 2,
+   "id": "177524",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "2〜4",
+   "minTime": 30,
+   "maxTime": 30,
+   "age": 6,
+   "rating": 6.78,
+   "weight": 1.06,
+   "rank": 1239,
+   "mechanics": [
+    "Area Movement",
+    "Flicking",
+    "Take That"
+   ],
+   "categories": [
+    "Action / Dexterity",
+    "Animals",
+    "Children's Game"
+   ],
+   "designers": [
+    "Brian Gomez"
+   ],
+   "expansions": [
+    {
+     "id": "232298",
+     "name": "Deutscher Spielepreis 2017 Goodie Box"
+    },
+    {
+     "id": "286086",
+     "name": "Deutscher Spielepreis Classic Goodie Box"
+    },
+    {
+     "id": "363763",
+     "name": "The Emperor Mini Expansion"
+    },
+    {
+     "id": "234515",
+     "name": "ICECOOL: 0.5 Point Cards"
+    },
+    {
+     "id": "290502",
+     "name": "ICECOOL: Artifacts"
+    },
+    {
+     "id": "294722",
+     "name": "ICECOOL: Blocked Door promo card"
+    },
+    {
+     "id": "265034",
+     "name": "ICECOOL: Emerald Fish Promo"
+    },
+    {
+     "id": "292884",
+     "name": "ICECOOL: Walrus Expansion"
+    },
+    {
+     "id": "363762",
+     "name": "Pawclaw Mini Expansion"
+    }
+   ],
+   "bases": [],
+   "en": "ICECOOL",
+   "ja": "アイスクール 日本語版",
+   "minp": 2,
+   "maxp": 4,
+   "time": 30,
+   "year": 2016,
+   "thumb": "https://cf.geekdo-images.com/xVx8ex1fjO9C7W8rRvWdVQ__small/img/7ZeCdaJWigksF5wUHTGGXmmfP6Y=/fit-in/200x150/filters:strip_icc()/pic3320017.png",
+   "image": "https://cf.geekdo-images.com/xVx8ex1fjO9C7W8rRvWdVQ__original/img/rIyNSXqNgGs4Yqt0xL5CdTp9grg=/0x0/filters:format(png)/pic3320017.png",
+   "versions": [
+    {
+     "id": "370492",
+     "name": "Japanese edition",
+     "year": 2017,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/ooYCxzCPIqNhhbKIK9FjUg__small/img/zpoK-e6B5bm224Zy-57qnj4jj0M=/fit-in/200x150/filters:strip_icc()/pic3756095.jpg",
+     "image": "https://cf.geekdo-images.com/ooYCxzCPIqNhhbKIK9FjUg__original/img/PaErUv4TGdAHVXIIi5YOX3PvZNc=/0x0/filters:format(jpeg)/pic3756095.jpg"
+    },
+    {
+     "id": "729623",
+     "name": "English/French/Dutch/Polish edition",
+     "year": 2024,
+     "lang": "Dutch・English・French・Polish",
+     "thumb": "https://cf.geekdo-images.com/xVx8ex1fjO9C7W8rRvWdVQ__small/img/7ZeCdaJWigksF5wUHTGGXmmfP6Y=/fit-in/200x150/filters:strip_icc()/pic3320017.png",
+     "image": "https://cf.geekdo-images.com/xVx8ex1fjO9C7W8rRvWdVQ__original/img/rIyNSXqNgGs4Yqt0xL5CdTp9grg=/0x0/filters:format(png)/pic3320017.png"
+    },
+    {
+     "id": "488978",
+     "name": "Portuguese edition",
+     "year": 2020,
+     "lang": "Portuguese",
+     "thumb": "https://cf.geekdo-images.com/jvfSbTGin9ZUioW4Rpi4Pw__small/img/b6he0ibAdBGM7T_lj918HG1aSbg=/fit-in/200x150/filters:strip_icc()/pic2937209.png",
+     "image": "https://cf.geekdo-images.com/jvfSbTGin9ZUioW4Rpi4Pw__original/img/1j708hfK5WHX-9A_ym9eTXenY6Q=/0x0/filters:format(png)/pic2937209.png"
+    },
+    {
+     "id": "589695",
+     "name": "English/French/Spanish edition",
+     "year": 2018,
+     "lang": "English・French・Spanish",
+     "thumb": "https://cf.geekdo-images.com/oz4wbG3r2SWt1QRmt4rbBA__small/img/qYzDJITOPaB2gsWNeTSKiCuuRes=/fit-in/200x150/filters:strip_icc()/pic6560570.png",
+     "image": "https://cf.geekdo-images.com/oz4wbG3r2SWt1QRmt4rbBA__original/img/mR0qZlhiCkNJix8Ts4ysPpwzeCg=/0x0/filters:format(png)/pic6560570.png"
+    },
+    {
+     "id": "456736",
+     "name": "Korean edition",
+     "year": 2018,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/CCy6huSEeoySXwPQL42OvQ__small/img/1o-57XK5miWQivBQNU52sqYhMgc=/fit-in/200x150/filters:strip_icc()/pic4738736.png",
+     "image": "https://cf.geekdo-images.com/CCy6huSEeoySXwPQL42OvQ__original/img/DPrWRZZI7jwxDb40aLwqH6onQHU=/0x0/filters:format(png)/pic4738736.png"
+    },
+    {
+     "id": "442719",
+     "name": "Chinese edition",
+     "year": 2017,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/HCQiPpN99vYkQY2z3nFW9A__small/img/dPgecgpchEw5b2n6i6IRcKaOnf8=/fit-in/200x150/filters:strip_icc()/pic4550819.jpg",
+     "image": "https://cf.geekdo-images.com/HCQiPpN99vYkQY2z3nFW9A__original/img/xgA3hwsD1vJGeeL5FlVGdcxvGTs=/0x0/filters:format(jpeg)/pic4550819.jpg"
+    },
+    {
+     "id": "365703",
+     "name": "Czech/Slovak edition",
+     "year": 2017,
+     "lang": "Czech・Slovak",
+     "thumb": "https://cf.geekdo-images.com/bhejTFATIaX_S1ewe6cNFQ__small/img/uNC2Ne5QeXl995q4n1tlkg76TK8=/fit-in/200x150/filters:strip_icc()/pic4648087.jpg",
+     "image": "https://cf.geekdo-images.com/bhejTFATIaX_S1ewe6cNFQ__original/img/xV4nht90wxlT_baethYdoCuq7tw=/0x0/filters:format(jpeg)/pic4648087.jpg"
+    },
+    {
+     "id": "396831",
+     "name": "English/French/Dutch edition 2017",
+     "year": 2017,
+     "lang": "Dutch・English・French",
+     "thumb": "https://cf.geekdo-images.com/B_groWbYOOI7OyFcq7TyRA__small/img/Z-JKdp4ESLbwstH1u5eHwjOQIRM=/fit-in/200x150/filters:strip_icc()/pic4008700.jpg",
+     "image": "https://cf.geekdo-images.com/B_groWbYOOI7OyFcq7TyRA__original/img/MVQdJsDtvBvTsvZ9cUbUmPy40sI=/0x0/filters:format(jpeg)/pic4008700.jpg"
+    },
+    {
+     "id": "632570",
+     "name": "German edition with KdJ logo",
+     "year": 2017,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/v_AeGUY_9i99eH4ziXS6tA__small/img/Eu3tzbAaQ5mdtBd0rACYGSHKi4M=/fit-in/200x150/filters:strip_icc()/pic7654068.jpg",
+     "image": "https://cf.geekdo-images.com/v_AeGUY_9i99eH4ziXS6tA__original/img/lmbgkNNHyRP9-c0Xo-mU6fQYXcA=/0x0/filters:format(jpeg)/pic7654068.jpg"
+    },
+    {
+     "id": "393772",
+     "name": "Greek edition",
+     "year": 2017,
+     "lang": "English・Greek",
+     "thumb": "https://cf.geekdo-images.com/vNw0S2MYRV3Wj5R-dD9-KQ__small/img/2tFi0yLdgGmHBPORuBPeNiSrkao=/fit-in/200x150/filters:strip_icc()/pic4648088.jpg",
+     "image": "https://cf.geekdo-images.com/vNw0S2MYRV3Wj5R-dD9-KQ__original/img/ymw6tGvGMLHbnSMISO2Mf4AaUw8=/0x0/filters:format(jpeg)/pic4648088.jpg"
+    },
+    {
+     "id": "352061",
+     "name": "Polish edition",
+     "year": 2017,
+     "lang": "Polish",
+     "thumb": "https://cf.geekdo-images.com/TGWEAcCGteHzCVdnjpvNQQ__small/img/FMTduT6b0rm8LMXK4NLyJqRNIMI=/fit-in/200x150/filters:strip_icc()/pic3579061.jpg",
+     "image": "https://cf.geekdo-images.com/TGWEAcCGteHzCVdnjpvNQQ__original/img/RnbDEjL3FpqRjoOBtGjEhTvr9Yk=/0x0/filters:format(jpeg)/pic3579061.jpg"
+    },
+    {
+     "id": "353412",
+     "name": "Romanian edition",
+     "year": 2017,
+     "lang": "Romanian",
+     "thumb": "https://cf.geekdo-images.com/_xdtTwjOe_L22jHz5Yh5kw__small/img/7YsiUtD0kSB4kS1cKTsNi8u5YKA=/fit-in/200x150/filters:strip_icc()/pic3524951.jpg",
+     "image": "https://cf.geekdo-images.com/_xdtTwjOe_L22jHz5Yh5kw__original/img/FPB_5wlJvZG4sJ8l5aVoBZ72RjU=/0x0/filters:format(jpeg)/pic3524951.jpg"
+    },
+    {
+     "id": "424971",
+     "name": "Ukrainian edition",
+     "year": 2017,
+     "lang": "Russian・Ukrainian",
+     "thumb": "https://cf.geekdo-images.com/0Ln_keKobgRbsK8fyf_XuQ__small/img/z8d0NyjzQOLseYE9o1bkOairI-U=/fit-in/200x150/filters:strip_icc()/pic4343061.jpg",
+     "image": "https://cf.geekdo-images.com/0Ln_keKobgRbsK8fyf_XuQ__original/img/MRTNLwW1mFJuC1keqbQw5ESjaDc=/0x0/filters:format(jpeg)/pic4343061.jpg"
+    },
+    {
+     "id": "730849",
+     "name": "English edition 2016",
+     "year": 2016,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/KeWwCROYHnv-pUdt1od9vw__small/img/__bocnDJCrT-GflVjkgis-IMM2M=/fit-in/200x150/filters:strip_icc()/pic8470772.jpg",
+     "image": "https://cf.geekdo-images.com/KeWwCROYHnv-pUdt1od9vw__original/img/uktVg0gqtV4CBBQUyfNEhffVKAo=/0x0/filters:format(jpeg)/pic8470772.jpg"
+    },
+    {
+     "id": "628476",
+     "name": "English/French/Dutch edition 2016",
+     "year": 2016,
+     "lang": "Dutch・English・French",
+     "thumb": "https://cf.geekdo-images.com/b8jod0Q3sVFwtd3HK6YdEg__small/img/9J1yW_POVN3wclLpG9bxdWw8ALQ=/fit-in/200x150/filters:strip_icc()/pic7021791.jpg",
+     "image": "https://cf.geekdo-images.com/b8jod0Q3sVFwtd3HK6YdEg__original/img/Qqlzd_I8TIrR_7RzKwm-9L25dg8=/0x0/filters:format(jpeg)/pic7021791.jpg"
+    },
+    {
+     "id": "320754",
+     "name": "German edition",
+     "year": 2016,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/_jk58vejJhlxbM9pCPu9VA__small/img/1xDp7cwpqlG1jOQnX_c3fNjJCFo=/fit-in/200x150/filters:strip_icc()/pic3122849.jpg",
+     "image": "https://cf.geekdo-images.com/_jk58vejJhlxbM9pCPu9VA__original/img/EQy6894LNrBGG9YKqWfwDLDwmiI=/0x0/filters:format(jpeg)/pic3122849.jpg"
+    },
+    {
+     "id": "359164",
+     "name": "Hungarian edition",
+     "year": 2016,
+     "lang": "Hungarian",
+     "thumb": "https://cf.geekdo-images.com/7xpFev4b0KdHr_93g_DUog__small/img/lu-M4aqWebQ6IeUfzJ_D7pfN8YI=/fit-in/200x150/filters:strip_icc()/pic3599972.png",
+     "image": "https://cf.geekdo-images.com/7xpFev4b0KdHr_93g_DUog__original/img/oDJefk8qB1wodlVf76oDmYObevc=/0x0/filters:format(png)/pic3599972.png"
+    },
+    {
+     "id": "429560",
+     "name": "Nordic edition",
+     "year": 2016,
+     "lang": "Danish・Finnish・Norwegian・Swedish",
+     "thumb": "https://cf.geekdo-images.com/WlZlU89YGi2ETZy7oz51kQ__small/img/TL0Dt-N18xP2eFn1LtIWi2A-WMc=/fit-in/200x150/filters:strip_icc()/pic3027674.png",
+     "image": "https://cf.geekdo-images.com/WlZlU89YGi2ETZy7oz51kQ__original/img/6OKoaKG9-onQDwsZd9lwcS7GvZA=/0x0/filters:format(png)/pic3027674.png"
+    },
+    {
+     "id": "372597",
+     "name": "Russian edition",
+     "year": 2016,
+     "lang": "Russian",
+     "thumb": "https://cf.geekdo-images.com/bagMgJe7HeqZ1QdbO2r8KA__small/img/BkjAdM7gd2DxeGqGdxpHzmkC7HM=/fit-in/200x150/filters:strip_icc()/pic3781615.jpg",
+     "image": "https://cf.geekdo-images.com/bagMgJe7HeqZ1QdbO2r8KA__original/img/PIyILJSLh7ytIhGCuX1iUUFQAqI=/0x0/filters:format(jpeg)/pic3781615.jpg"
+    },
+    {
+     "id": "317054",
+     "name": "Spanish edition",
+     "year": 2016,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/Yln2AXG40nl2_YepKDXztw__small/img/iUigqRvxKUN_OXa-qTfbYMM6LYM=/fit-in/200x150/filters:strip_icc()/pic3174390.png",
+     "image": "https://cf.geekdo-images.com/Yln2AXG40nl2_YepKDXztw__original/img/reenx6fFSBCUwLdMnxUttX_OLRU=/0x0/filters:format(png)/pic3174390.png"
+    }
+   ],
+   "at": "2026-11-26T03:17:27.344Z"
+  },
+  "183284": {
+   "v": 2,
+   "id": "183284",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "1〜5",
+   "minTime": 20,
+   "maxTime": 40,
+   "age": 11,
+   "rating": 7.13,
+   "weight": 2.4,
+   "rank": 2019,
+   "mechanics": [
+    "Hexagon Grid",
+    "Network and Route Building",
+    "Real-Time",
+    "Solo / Solitaire Game",
+    "Tile Placement"
+   ],
+   "categories": [
+    "Industry / Manufacturing",
+    "Puzzle",
+    "Real-time"
+   ],
+   "designers": [
+    "Corné van Moorsel"
+   ],
+   "expansions": [
+    {
+     "id": "197325",
+     "name": "Factory Funner: Expansion 1"
+    },
+    {
+     "id": "252523",
+     "name": "Factory Funner: Expansion 2"
+    },
+    {
+     "id": "351522",
+     "name": "Factory Funner: Precision Reservoirs"
+    }
+   ],
+   "bases": [],
+   "en": "Factory Funner",
+   "ja": "",
+   "minp": 1,
+   "maxp": 6,
+   "time": 40,
+   "year": 2016,
+   "thumb": "https://cf.geekdo-images.com/KSF17xv7uX1TAwfyXg7jGg__small/img/CZXtSqoJ7UPnPPtSskEZqFwwZgY=/fit-in/200x150/filters:strip_icc()/pic6068797.jpg",
+   "image": "https://cf.geekdo-images.com/KSF17xv7uX1TAwfyXg7jGg__original/img/TUJcf326JXTt0yMQziK9itdVkUI=/0x0/filters:format(jpeg)/pic6068797.jpg",
+   "versions": [
+    {
+     "id": "740572",
+     "name": "Chinese edition",
+     "year": 2025,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/fpdGjhnY7ieMZfUBXwntCQ__small/img/jyJCd_88HxElVpMXcz49HkJjTDw=/fit-in/200x150/filters:strip_icc()/pic8621383.jpg",
+     "image": "https://cf.geekdo-images.com/fpdGjhnY7ieMZfUBXwntCQ__original/img/R1qj8Qw8OK4YO0Hj3NyvjoXO7_E=/0x0/filters:format(jpeg)/pic8621383.jpg"
+    },
+    {
+     "id": "556765",
+     "name": "BoardGameTables English edition",
+     "year": 2022,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/KSF17xv7uX1TAwfyXg7jGg__small/img/CZXtSqoJ7UPnPPtSskEZqFwwZgY=/fit-in/200x150/filters:strip_icc()/pic6068797.jpg",
+     "image": "https://cf.geekdo-images.com/KSF17xv7uX1TAwfyXg7jGg__original/img/TUJcf326JXTt0yMQziK9itdVkUI=/0x0/filters:format(jpeg)/pic6068797.jpg"
+    },
+    {
+     "id": "498114",
+     "name": "Korean edition",
+     "year": 2020,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/M6x9EE7mJUjaXnxYQW4JUw__small/img/gcee9OJcs0T9KLAxiYh7elshM2o=/fit-in/200x150/filters:strip_icc()/pic5302091.jpg",
+     "image": "https://cf.geekdo-images.com/M6x9EE7mJUjaXnxYQW4JUw__original/img/s_y8r8bAcgPDPUD5Dcczak4Mq-g=/0x0/filters:format(jpeg)/pic5302091.jpg"
+    },
+    {
+     "id": "486693",
+     "name": "EN/FR/GE/NL third edition",
+     "year": 2019,
+     "lang": "Dutch・English・French・German",
+     "thumb": "https://cf.geekdo-images.com/ezvR01Ty9hVqj1-FHD_4lw__small/img/k6xvwE2UKP_P22ZxL5udxkeu-KY=/fit-in/200x150/filters:strip_icc()/pic4106423.jpg",
+     "image": "https://cf.geekdo-images.com/ezvR01Ty9hVqj1-FHD_4lw__original/img/KBbV_D-Z0zQ2lKZ-OW48FRCBk1w=/0x0/filters:format(jpeg)/pic4106423.jpg"
+    },
+    {
+     "id": "283551",
+     "name": "EN/FR/GE/NL first edition",
+     "year": 2016,
+     "lang": "Dutch・English・French・German",
+     "thumb": "https://cf.geekdo-images.com/_3uI7zhjYq5oXmIfEsS0Sw__small/img/noCmJ60eNOB8KL9RwpA20UXP0Zw=/fit-in/200x150/filters:strip_icc()/pic2651468.jpg",
+     "image": "https://cf.geekdo-images.com/_3uI7zhjYq5oXmIfEsS0Sw__original/img/p1mtINPcGN-XMBuX8bo7FSNtewg=/0x0/filters:format(jpeg)/pic2651468.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:16:58.117Z"
   },
   "217372": {
    "v": 2,
@@ -1434,6 +3492,298 @@
     }
    ],
    "at": "2026-11-26T02:45:55.599Z"
+  },
+  "217861": {
+   "v": 2,
+   "id": "217861",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "2〜5",
+   "minTime": 30,
+   "maxTime": 30,
+   "age": 12,
+   "rating": 7.01,
+   "weight": 2.19,
+   "rank": 1262,
+   "mechanics": [
+    "Closed Drafting",
+    "End Game Bonuses",
+    "Hand Management",
+    "Secret Unit Deployment",
+    "Simultaneous Action Selection"
+   ],
+   "categories": [
+    "Card Game",
+    "Fantasy"
+   ],
+   "designers": [
+    "Masato Uesugi"
+   ],
+   "expansions": [
+    {
+     "id": "245473",
+     "name": "Paper Tales: Beyond the Gates"
+    },
+    {
+     "id": "365468",
+     "name": "Paper Tales: Ce qui forge les légendes"
+    }
+   ],
+   "bases": [],
+   "en": "Paper Tales",
+   "ja": "ペーパーテイルズ",
+   "minp": 2,
+   "maxp": 5,
+   "time": 30,
+   "year": 2017,
+   "thumb": "https://cf.geekdo-images.com/V62ulI0ifY0LIGocVuKCIQ__small/img/-aesB6Vzn2VfsN619Ellkc8Z0UE=/fit-in/200x150/filters:strip_icc()/pic4043983.jpg",
+   "image": "https://cf.geekdo-images.com/V62ulI0ifY0LIGocVuKCIQ__original/img/XGKDfeYi6S3jBz4eE4cly-Nc5Us=/0x0/filters:format(jpeg)/pic4043983.jpg",
+   "versions": [
+    {
+     "id": "405207",
+     "name": "Chinese edition",
+     "year": 2018,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/XgsurFpxSfDhyTySStZ1EQ__small/img/V1J7IV5OhLbeRoOhZLqYUooS2Vs=/fit-in/200x150/filters:strip_icc()/pic4102769.png",
+     "image": "https://cf.geekdo-images.com/XgsurFpxSfDhyTySStZ1EQ__original/img/w6rI-wy2uPAxJYiQI20xKrBn6ww=/0x0/filters:format(png)/pic4102769.png"
+    },
+    {
+     "id": "399390",
+     "name": "English second edition",
+     "year": 2018,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/V62ulI0ifY0LIGocVuKCIQ__small/img/-aesB6Vzn2VfsN619Ellkc8Z0UE=/fit-in/200x150/filters:strip_icc()/pic4043983.jpg",
+     "image": "https://cf.geekdo-images.com/V62ulI0ifY0LIGocVuKCIQ__original/img/XGKDfeYi6S3jBz4eE4cly-Nc5Us=/0x0/filters:format(jpeg)/pic4043983.jpg"
+    },
+    {
+     "id": "392759",
+     "name": "German edition",
+     "year": 2018,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/2aKEgZSZhIiAWw4chZTzGg__small/img/3e9GV8hTOOeXrAmXojh7cnKGICY=/fit-in/200x150/filters:strip_icc()/pic3949749.jpg",
+     "image": "https://cf.geekdo-images.com/2aKEgZSZhIiAWw4chZTzGg__original/img/DlGTTT-nkWUe2w8t4La32f0_P18=/0x0/filters:format(jpeg)/pic3949749.jpg"
+    },
+    {
+     "id": "393936",
+     "name": "Italian edition",
+     "year": 2018,
+     "lang": "Italian",
+     "thumb": "https://cf.geekdo-images.com/5KzzLzV7GBQ20FEu-QBuSg__small/img/xokCO_V92VxxhZ9O9u28nLeOS2A=/fit-in/200x150/filters:strip_icc()/pic6171649.jpg",
+     "image": "https://cf.geekdo-images.com/5KzzLzV7GBQ20FEu-QBuSg__original/img/55fw1rIJKNK0eZv6Nu9cog4nvmA=/0x0/filters:format(jpeg)/pic6171649.jpg"
+    },
+    {
+     "id": "421998",
+     "name": "Polish edition",
+     "year": 2018,
+     "lang": "Polish",
+     "thumb": "https://cf.geekdo-images.com/KQ4k8tN3Qeo-AP52joOJog__small/img/y223u-KMynQng642RGIWhoHrBb8=/fit-in/200x150/filters:strip_icc()/pic3588311.png",
+     "image": "https://cf.geekdo-images.com/KQ4k8tN3Qeo-AP52joOJog__original/img/oC9awEKIgq6pfMOw4Ae5LRUFq1Q=/0x0/filters:format(png)/pic3588311.png"
+    },
+    {
+     "id": "581652",
+     "name": "Russian edition",
+     "year": 2018,
+     "lang": "Russian",
+     "thumb": "https://cf.geekdo-images.com/WL0wQ5Ymkc_XBchkifqLDQ__small/img/0s1oNQ-gupvhVX4h-A0t3BiUr2o=/fit-in/200x150/filters:strip_icc()/pic9350132.jpg",
+     "image": "https://cf.geekdo-images.com/WL0wQ5Ymkc_XBchkifqLDQ__original/img/-7rxWDMb9En2JwM9rJ4ejvgO98M=/0x0/filters:format(jpeg)/pic9350132.jpg"
+    },
+    {
+     "id": "416245",
+     "name": "Spanish edition",
+     "year": 2018,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/eGbd9ql9yzgpV7HnyEL72Q__small/img/ibCeLshWHrTr-2cI-tQIM3D2C1E=/fit-in/200x150/filters:strip_icc()/pic7274873.jpg",
+     "image": "https://cf.geekdo-images.com/eGbd9ql9yzgpV7HnyEL72Q__original/img/FNmkksckUpEMimeqIiFCaUR0HDI=/0x0/filters:format(jpeg)/pic7274873.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:16:55.498Z"
+  },
+  "219122": {
+   "v": 2,
+   "id": "219122",
+   "type": "boardgame",
+   "best": "2, 4",
+   "rec": "1〜4",
+   "minTime": 30,
+   "maxTime": 45,
+   "age": 12,
+   "rating": 6.81,
+   "weight": 2.33,
+   "rank": 9471,
+   "mechanics": [
+    "Hand Management",
+    "Open Drafting",
+    "Worker Placement"
+   ],
+   "categories": [
+    "Card Game",
+    "City Building",
+    "Economic"
+   ],
+   "designers": [
+    "西村裕 (Hiroshi Nishimura)"
+   ],
+   "expansions": [],
+   "bases": [],
+   "en": "National Economy",
+   "ja": "ナショナルエコノミー",
+   "minp": 1,
+   "maxp": 4,
+   "time": 45,
+   "year": 2015,
+   "thumb": "https://cf.geekdo-images.com/Hp_je-m152-Yoir9OLFdyg__small/img/Udfp-AdNOdB1zq2yFtr8pQpGy1Y=/fit-in/200x150/filters:strip_icc()/pic3428709.jpg",
+   "image": "https://cf.geekdo-images.com/Hp_je-m152-Yoir9OLFdyg__original/img/V6KH4gYJodeFm-5GAQAFCvmuXPA=/0x0/filters:format(jpeg)/pic3428709.jpg",
+   "versions": [
+    {
+     "id": "341360",
+     "name": "Japanese deep edition",
+     "year": 2015,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/Hp_je-m152-Yoir9OLFdyg__small/img/Udfp-AdNOdB1zq2yFtr8pQpGy1Y=/fit-in/200x150/filters:strip_icc()/pic3428709.jpg",
+     "image": "https://cf.geekdo-images.com/Hp_je-m152-Yoir9OLFdyg__original/img/V6KH4gYJodeFm-5GAQAFCvmuXPA=/0x0/filters:format(jpeg)/pic3428709.jpg"
+    },
+    {
+     "id": "387718",
+     "name": "Chinese edition",
+     "year": 2017,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/za25jEIeNeL4XDUKmdxSJQ__small/img/QlpCbQ07ZST86NTIcUdbN1ipwp8=/fit-in/200x150/filters:strip_icc()/pic4026552.png",
+     "image": "https://cf.geekdo-images.com/za25jEIeNeL4XDUKmdxSJQ__original/img/p5XbCAT5pXsyR9qZDlbfjAPpZBI=/0x0/filters:format(png)/pic4026552.png"
+    }
+   ],
+   "at": "2026-11-26T03:17:35.475Z"
+  },
+  "244513": {
+   "v": 2,
+   "id": "244513",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "2〜4",
+   "minTime": 30,
+   "maxTime": 30,
+   "age": 6,
+   "rating": 7.15,
+   "weight": 1.06,
+   "rank": 2011,
+   "mechanics": [
+    "Area Movement",
+    "Flicking",
+    "Take That"
+   ],
+   "categories": [
+    "Action / Dexterity",
+    "Animals",
+    "Children's Game"
+   ],
+   "designers": [
+    "Brian Gomez"
+   ],
+   "expansions": [
+    {
+     "id": "286086",
+     "name": "Deutscher Spielepreis Classic Goodie Box"
+    },
+    {
+     "id": "363763",
+     "name": "The Emperor Mini Expansion"
+    },
+    {
+     "id": "290502",
+     "name": "ICECOOL: Artifacts"
+    },
+    {
+     "id": "294722",
+     "name": "ICECOOL: Blocked Door promo card"
+    },
+    {
+     "id": "265034",
+     "name": "ICECOOL: Emerald Fish Promo"
+    },
+    {
+     "id": "292884",
+     "name": "ICECOOL: Walrus Expansion"
+    },
+    {
+     "id": "363762",
+     "name": "Pawclaw Mini Expansion"
+    }
+   ],
+   "bases": [],
+   "en": "ICECOOL2",
+   "ja": "アイスクール2",
+   "minp": 2,
+   "maxp": 4,
+   "time": 30,
+   "year": 2018,
+   "thumb": "https://cf.geekdo-images.com/IgZB5TaWWO1QLHH5T00MYQ__small/img/v0Fd9V6xE541Qy_NIue77K9cMc8=/fit-in/200x150/filters:strip_icc()/pic3950733.png",
+   "image": "https://cf.geekdo-images.com/IgZB5TaWWO1QLHH5T00MYQ__original/img/Zqbelz4KwjKLRehko4XfhV45g-Y=/0x0/filters:format(png)/pic3950733.png",
+   "versions": [
+    {
+     "id": "450597",
+     "name": "Japanese edition",
+     "year": 2018,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/e0CeEJhSoHpYIBLNVxOWOQ__small/img/NfEI3QJPh81UNTDmpOV7EqRa9MU=/fit-in/200x150/filters:strip_icc()/pic4648091.jpg",
+     "image": "https://cf.geekdo-images.com/e0CeEJhSoHpYIBLNVxOWOQ__original/img/CV6spiE_7QpRauX5MUAwcB7q2x4=/0x0/filters:format(jpeg)/pic4648091.jpg"
+    },
+    {
+     "id": "729627",
+     "name": "English/French/Dutch/Polish edition",
+     "year": 2024,
+     "lang": "Dutch・English・French・Polish",
+     "thumb": "https://cf.geekdo-images.com/IgZB5TaWWO1QLHH5T00MYQ__small/img/v0Fd9V6xE541Qy_NIue77K9cMc8=/fit-in/200x150/filters:strip_icc()/pic3950733.png",
+     "image": "https://cf.geekdo-images.com/IgZB5TaWWO1QLHH5T00MYQ__original/img/Zqbelz4KwjKLRehko4XfhV45g-Y=/0x0/filters:format(png)/pic3950733.png"
+    },
+    {
+     "id": "595129",
+     "name": "Russian edition",
+     "year": 2021,
+     "lang": "Russian",
+     "thumb": "https://cf.geekdo-images.com/GTLRD6OVu_zf_PavD4BEJg__small/img/xMVyjU-n1w6UO41bhWAnW5ll4L4=/fit-in/200x150/filters:strip_icc()/pic6617970.jpg",
+     "image": "https://cf.geekdo-images.com/GTLRD6OVu_zf_PavD4BEJg__original/img/hLmlJKc3tSN1blonrRGW34fj4o8=/0x0/filters:format(jpeg)/pic6617970.jpg"
+    },
+    {
+     "id": "695920",
+     "name": "Baltic edition",
+     "year": 2018,
+     "lang": "Dutch・English・Estonian・French・Latvian・Lithuanian",
+     "thumb": "https://cf.geekdo-images.com/SypomdWCaZn4_9kxDcQR2Q__small/img/UrGQ0suqCyV9iZt9YgxDuv2wkew=/fit-in/200x150/filters:strip_icc()/pic7941329.jpg",
+     "image": "https://cf.geekdo-images.com/SypomdWCaZn4_9kxDcQR2Q__original/img/xscEb9MYA42wlK7Yr3XBYC8RZtI=/0x0/filters:format(jpeg)/pic7941329.jpg"
+    },
+    {
+     "id": "442721",
+     "name": "Chinese edition",
+     "year": 2018,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/3umTFG1Hidd3Hpnsly_FqA__small/img/1SfgfNaVvKoN-WpmOPC2TiF4kpY=/fit-in/200x150/filters:strip_icc()/pic4550853.jpg",
+     "image": "https://cf.geekdo-images.com/3umTFG1Hidd3Hpnsly_FqA__original/img/VyzcjSTO3UsRvr8WcUWUk6mSnyo=/0x0/filters:format(jpeg)/pic4550853.jpg"
+    },
+    {
+     "id": "416465",
+     "name": "German edition",
+     "year": 2018,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/oWoo4jxN3gABe4PUB5hRMQ__small/img/6L6M2EKNhRpPuo8Sz5yf2iAvjbY=/fit-in/200x150/filters:strip_icc()/pic4254384.jpg",
+     "image": "https://cf.geekdo-images.com/oWoo4jxN3gABe4PUB5hRMQ__original/img/8XZIWJB2EMZnvAJmOgy492oeqTE=/0x0/filters:format(jpeg)/pic4254384.jpg"
+    },
+    {
+     "id": "509312",
+     "name": "Italian edition",
+     "year": 2018,
+     "lang": "Italian",
+     "thumb": "https://cf.geekdo-images.com/cVGZHWNFqM-QbvG1rNfzIQ__small/img/1upe1rynnTIX2HLymLjzEooSaRs=/fit-in/200x150/filters:strip_icc()/pic5425115.jpg",
+     "image": "https://cf.geekdo-images.com/cVGZHWNFqM-QbvG1rNfzIQ__original/img/eJuYuKmE5eXeMB59-GeZpC9BIg8=/0x0/filters:format(jpeg)/pic5425115.jpg"
+    },
+    {
+     "id": "429741",
+     "name": "Spanish edition",
+     "year": 2018,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/3DGT2ybCjYYGKATAIpu5Lg__small/img/_KH2F9HVj5PQTKrKxQO-fyZiV-U=/fit-in/200x150/filters:strip_icc()/pic4401615.jpg",
+     "image": "https://cf.geekdo-images.com/3DGT2ybCjYYGKATAIpu5Lg__original/img/6EpdPPFoPJQCLFafPF-QZorGD_Q=/0x0/filters:format(jpeg)/pic4401615.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:17:30.027Z"
   },
   "244711": {
    "v": 2,
@@ -2793,6 +5143,117 @@
    ],
    "at": "2026-11-26T02:46:19.087Z"
   },
+  "332386": {
+   "v": 2,
+   "id": "332386",
+   "type": "boardgame",
+   "best": "3",
+   "rec": "2〜4",
+   "minTime": 45,
+   "maxTime": 90,
+   "age": 10,
+   "rating": 7.01,
+   "weight": 2.44,
+   "rank": 1480,
+   "mechanics": [
+    "Area Majority / Influence",
+    "Dice Rolling",
+    "Open Drafting",
+    "Take That",
+    "Turn Order: Progressive",
+    "Variable Player Powers",
+    "Worker Placement with Dice Workers"
+   ],
+   "categories": [
+    "Dice",
+    "Fantasy"
+   ],
+   "designers": [
+    "Stevo Torres"
+   ],
+   "expansions": [
+    {
+     "id": "336808",
+     "name": "Brew: Companion Creature mini-expansion"
+    }
+   ],
+   "bases": [],
+   "en": "Brew",
+   "ja": "",
+   "minp": 2,
+   "maxp": 4,
+   "time": 90,
+   "year": 2021,
+   "thumb": "https://cf.geekdo-images.com/8eN5t1p4ncee-eVN9NswDA__small/img/EI64n63DbQ9DHhTf72s7UpUFMBY=/fit-in/200x150/filters:strip_icc()/pic6007253.png",
+   "image": "https://cf.geekdo-images.com/8eN5t1p4ncee-eVN9NswDA__original/img/Hhv8kruqZZH1vv5W7gR7QXNZ_KM=/0x0/filters:format(png)/pic6007253.png",
+   "versions": [
+    {
+     "id": "587203",
+     "name": "French edition",
+     "year": 2022,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/W347K55KzPBQPNpXRIbw6A__small/img/ldL2H_xLcjsH20Mt9NG7bRT3G-Y=/fit-in/200x150/filters:strip_icc()/pic6500955.png",
+     "image": "https://cf.geekdo-images.com/W347K55KzPBQPNpXRIbw6A__original/img/gSpOPbGNjxfRb8kBm9DChWTFvRg=/0x0/filters:format(png)/pic6500955.png"
+    },
+    {
+     "id": "572780",
+     "name": "German edition",
+     "year": 2022,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/SxN7VgxoyAWz7oEp_7chYQ__small/img/2gHOh36f9zmSdFRHiKHTq17IbQY=/fit-in/200x150/filters:strip_icc()/pic6325820.jpg",
+     "image": "https://cf.geekdo-images.com/SxN7VgxoyAWz7oEp_7chYQ__original/img/oSzCc4cvTY8rWtO6kxLd99aBHd0=/0x0/filters:format(jpeg)/pic6325820.jpg"
+    },
+    {
+     "id": "616172",
+     "name": "Italian edition",
+     "year": 2022,
+     "lang": "Italian",
+     "thumb": "https://cf.geekdo-images.com/hgCmQdFJlsGWNmndsu0HOQ__small/img/ssh3qGUGrWbh8oGxUPVZKJmNMwA=/fit-in/200x150/filters:strip_icc()/pic6875449.png",
+     "image": "https://cf.geekdo-images.com/hgCmQdFJlsGWNmndsu0HOQ__original/img/6FcWVtpceiz5gcAfkBfPdCSiCA8=/0x0/filters:format(png)/pic6875449.png"
+    },
+    {
+     "id": "597412",
+     "name": "Polish edition",
+     "year": 2022,
+     "lang": "Polish",
+     "thumb": "https://cf.geekdo-images.com/bELb5z-4T1MbJOj8Fg1xZw__small/img/HCmlShiF1cYzlAfb05ZIDzfwRUg=/fit-in/200x150/filters:strip_icc()/pic6646447.jpg",
+     "image": "https://cf.geekdo-images.com/bELb5z-4T1MbJOj8Fg1xZw__original/img/MB-1dWiuj3K1E7v8lR3evPFln40=/0x0/filters:format(jpeg)/pic6646447.jpg"
+    },
+    {
+     "id": "629882",
+     "name": "Russian edition",
+     "year": 2022,
+     "lang": "Russian",
+     "thumb": "https://cf.geekdo-images.com/FXFHrJ_rKZJqt5tc-TpI-Q__small/img/0y2qX7c_cJHnId-JqlAVZ0za5_E=/fit-in/200x150/filters:strip_icc()/pic7044431.jpg",
+     "image": "https://cf.geekdo-images.com/FXFHrJ_rKZJqt5tc-TpI-Q__original/img/W0bm_XaYl9n5QtVbafLPWUhT1kA=/0x0/filters:format(jpeg)/pic7044431.jpg"
+    },
+    {
+     "id": "586386",
+     "name": "Spanish edition",
+     "year": 2022,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/Sidgwse_te43XXip_Ei_2Q__small/img/1m9MTWlWjjoA3nfimvZ6WrsKRRE=/fit-in/200x150/filters:strip_icc()/pic6487236.png",
+     "image": "https://cf.geekdo-images.com/Sidgwse_te43XXip_Ei_2Q__original/img/fU7OcMpSEN4WpgdDGScepWDrLc0=/0x0/filters:format(png)/pic6487236.png"
+    },
+    {
+     "id": "553035",
+     "name": "English edition",
+     "year": 2021,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/8eN5t1p4ncee-eVN9NswDA__small/img/EI64n63DbQ9DHhTf72s7UpUFMBY=/fit-in/200x150/filters:strip_icc()/pic6007253.png",
+     "image": "https://cf.geekdo-images.com/8eN5t1p4ncee-eVN9NswDA__original/img/Hhv8kruqZZH1vv5W7gR7QXNZ_KM=/0x0/filters:format(png)/pic6007253.png"
+    },
+    {
+     "id": "573011",
+     "name": "Korean edition",
+     "year": 2021,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/u2TyuzEWE9vO2FNUn_a3Fw__small/img/75q5CqoLu2o_6Sr_ZGbhuhqWTW8=/fit-in/200x150/filters:strip_icc()/pic6610970.png",
+     "image": "https://cf.geekdo-images.com/u2TyuzEWE9vO2FNUn_a3Fw__original/img/MGnY0Z13AI0gV3VaA-FTZlHgDMI=/0x0/filters:format(png)/pic6610970.png"
+    }
+   ],
+   "at": "2026-11-26T03:16:50.144Z"
+  },
   "333255": {
    "v": 2,
    "id": "333255",
@@ -3298,6 +5759,145 @@
    ],
    "at": "2026-11-26T02:46:11.195Z"
   },
+  "352574": {
+   "v": 2,
+   "id": "352574",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "1〜6",
+   "minTime": 15,
+   "maxTime": 30,
+   "age": 10,
+   "rating": 7.29,
+   "weight": 2.12,
+   "rank": 1055,
+   "mechanics": [
+    "Closed Drafting",
+    "End Game Bonuses",
+    "Grid Coverage",
+    "Pattern Building",
+    "Real-Time",
+    "Set Collection",
+    "Solo / Solitaire Game",
+    "Square Grid",
+    "Tile Placement",
+    "Variable Set-up"
+   ],
+   "categories": [
+    "Animals",
+    "Puzzle",
+    "Real-time"
+   ],
+   "designers": [
+    "Peter McPherson"
+   ],
+   "expansions": [
+    {
+     "id": "400127",
+     "name": "Fit To Print: Game Breaking News Mini-Expansion"
+    }
+   ],
+   "bases": [],
+   "en": "Fit to Print",
+   "ja": "フィット・トゥ・プリント",
+   "minp": 1,
+   "maxp": 6,
+   "time": 30,
+   "year": 2023,
+   "thumb": "https://cf.geekdo-images.com/MbLJUbvoRI_AS-KGfIkmNQ__small/img/c2yxjj2CSXC6Id97EIr3-H4Plpo=/fit-in/200x150/filters:strip_icc()/pic7161032.jpg",
+   "image": "https://cf.geekdo-images.com/MbLJUbvoRI_AS-KGfIkmNQ__original/img/K2UI5_1m_hG1Pqbz01f084yRdjY=/0x0/filters:format(jpeg)/pic7161032.jpg",
+   "versions": [
+    {
+     "id": "738323",
+     "name": "Japanese edition",
+     "year": 2024,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/mSDiYUPnHy8d-B6PI6zQQQ__small/img/qgciYepjMba1bz4rvatrLfE-PL4=/fit-in/200x150/filters:strip_icc()/pic8475367.jpg",
+     "image": "https://cf.geekdo-images.com/mSDiYUPnHy8d-B6PI6zQQQ__original/img/sZl4CPkX90TPp1HJzt_5s_adx58=/0x0/filters:format(jpeg)/pic8475367.jpg"
+    },
+    {
+     "id": "746647",
+     "name": "Czech edition",
+     "year": 2025,
+     "lang": "Czech",
+     "thumb": "https://cf.geekdo-images.com/lYxh3Je6_UPe9yfePh1N5Q__small/img/G94oxxrxwXHFDKOjlASv5TYHODM=/fit-in/200x150/filters:strip_icc()/pic8904288.jpg",
+     "image": "https://cf.geekdo-images.com/lYxh3Je6_UPe9yfePh1N5Q__original/img/Ca39BypbhDln71gzOQpmXBFv2SU=/0x0/filters:format(jpeg)/pic8904288.jpg"
+    },
+    {
+     "id": "682983",
+     "name": "Dutch edition",
+     "year": 2024,
+     "lang": "Dutch",
+     "thumb": "https://cf.geekdo-images.com/3DPeDORhI_kVJCFqlS59_A__small/img/3_qszAi6sMb3nwdl9iWrz8q9zfE=/fit-in/200x150/filters:strip_icc()/pic8146224.png",
+     "image": "https://cf.geekdo-images.com/3DPeDORhI_kVJCFqlS59_A__original/img/kYDlf902Jn7cN2ciHXm5e3PnqCQ=/0x0/filters:format(png)/pic8146224.png"
+    },
+    {
+     "id": "717746",
+     "name": "French edition",
+     "year": 2024,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/REKDs64l0NkTrY85kSBI9Q__small/img/SByzv81NZ7MRbogF817qiC2otdY=/fit-in/200x150/filters:strip_icc()/pic8256138.jpg",
+     "image": "https://cf.geekdo-images.com/REKDs64l0NkTrY85kSBI9Q__original/img/mvrapVdERh6615TsRWHprjPy6oA=/0x0/filters:format(jpeg)/pic8256138.jpg"
+    },
+    {
+     "id": "722897",
+     "name": "German edition",
+     "year": 2024,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/emQs-DIFoBvLXR2nl4pYbA__small/img/nbkNGBWV50rapx02s5TecT8leVY=/fit-in/200x150/filters:strip_icc()/pic8341081.png",
+     "image": "https://cf.geekdo-images.com/emQs-DIFoBvLXR2nl4pYbA__original/img/UYlmqr6sLc6c5f6ozOEHdhSHIPg=/0x0/filters:format(png)/pic8341081.png"
+    },
+    {
+     "id": "726786",
+     "name": "Hungarian edition",
+     "year": 2024,
+     "lang": "Hungarian",
+     "thumb": "https://cf.geekdo-images.com/jsdaamI31j33SYnfkgbG9w__small/img/RC8cgAyw-JtaqmnZKk5b2a3444A=/fit-in/200x150/filters:strip_icc()/pic8101933.jpg",
+     "image": "https://cf.geekdo-images.com/jsdaamI31j33SYnfkgbG9w__original/img/My23TQ1T3v68kFPX6EyICO9ALzQ=/0x0/filters:format(jpeg)/pic8101933.jpg"
+    },
+    {
+     "id": "702609",
+     "name": "Polish edition",
+     "year": 2024,
+     "lang": "Polish",
+     "thumb": "https://cf.geekdo-images.com/xDLokSxEX-F7VOEXfLf4qQ__small/img/FSjtM3NCuM94ImQj-GT7_gEhgag=/fit-in/200x150/filters:strip_icc()/pic9652853.png",
+     "image": "https://cf.geekdo-images.com/xDLokSxEX-F7VOEXfLf4qQ__original/img/mcXfcnCw6CO35MkFJ4W9fcKEkp0=/0x0/filters:format(png)/pic9652853.png"
+    },
+    {
+     "id": "691634",
+     "name": "Simplified Chinese edition",
+     "year": 2024,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/tCsjXjeqqc6usMLHRqBU2w__small/img/AV02ErEZYWZp79qj_7rQQjQSxmQ=/fit-in/200x150/filters:strip_icc()/pic7884598.png",
+     "image": "https://cf.geekdo-images.com/tCsjXjeqqc6usMLHRqBU2w__original/img/GHJTMaUDikPNABF7uwpmNu08V0c=/0x0/filters:format(png)/pic7884598.png"
+    },
+    {
+     "id": "708029",
+     "name": "Spanish edition",
+     "year": 2024,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/yjEevCOUmdcVTjNKdABinA__small/img/V8kPNW83tdfpSqcl9jYooDowSAk=/fit-in/200x150/filters:strip_icc()/pic8111127.jpg",
+     "image": "https://cf.geekdo-images.com/yjEevCOUmdcVTjNKdABinA__original/img/aOwRQvcAioAbcmbw2H028P1MIoo=/0x0/filters:format(jpeg)/pic8111127.jpg"
+    },
+    {
+     "id": "590718",
+     "name": "English edition",
+     "year": 2023,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/MbLJUbvoRI_AS-KGfIkmNQ__small/img/c2yxjj2CSXC6Id97EIr3-H4Plpo=/fit-in/200x150/filters:strip_icc()/pic7161032.jpg",
+     "image": "https://cf.geekdo-images.com/MbLJUbvoRI_AS-KGfIkmNQ__original/img/K2UI5_1m_hG1Pqbz01f084yRdjY=/0x0/filters:format(jpeg)/pic7161032.jpg"
+    },
+    {
+     "id": "703394",
+     "name": "Ukrainian edition",
+     "year": null,
+     "lang": "Ukrainian",
+     "thumb": "https://cf.geekdo-images.com/iTnr2K_wXfihmDSqtUmrHw__small/img/h6U_wl4BLwZRqEG2ehigKrPMROw=/fit-in/200x150/filters:strip_icc()/pic8047949.png",
+     "image": "https://cf.geekdo-images.com/iTnr2K_wXfihmDSqtUmrHw__original/img/imsMPyUD6c8KPFmR4h4moce5Hmo=/0x0/filters:format(png)/pic8047949.png"
+    }
+   ],
+   "at": "2026-11-26T03:17:45.876Z"
+  },
   "359970": {
    "v": 2,
    "id": "359970",
@@ -3461,6 +6061,276 @@
     }
    ],
    "at": "2026-11-26T02:45:50.452Z"
+  },
+  "362976": {
+   "v": 2,
+   "id": "362976",
+   "type": "boardgame",
+   "best": "2",
+   "rec": "1〜4",
+   "minTime": 30,
+   "maxTime": 30,
+   "age": 8,
+   "rating": 7.04,
+   "weight": 1.42,
+   "rank": 1879,
+   "mechanics": [
+    "Cooperative Game",
+    "Grid Movement",
+    "Modular Board",
+    "Tile Placement"
+   ],
+   "categories": [
+    "Exploration",
+    "Nautical"
+   ],
+   "designers": [
+    "Torben Ratzlaff"
+   ],
+   "expansions": [
+    {
+     "id": "390721",
+     "name": "Beacon Patrol: Discovery Tiles"
+    },
+    {
+     "id": "417618",
+     "name": "Beacon Patrol: Ships & Shores"
+    }
+   ],
+   "bases": [],
+   "en": "Beacon Patrol",
+   "ja": "",
+   "minp": 1,
+   "maxp": 4,
+   "time": 30,
+   "year": 2023,
+   "thumb": "https://cf.geekdo-images.com/9hDNHVLmorkaytg2ztLM6w__small/img/2dUdMpeeHEbAFEM9rOJOmkf_kjs=/fit-in/200x150/filters:strip_icc()/pic7439416.jpg",
+   "image": "https://cf.geekdo-images.com/9hDNHVLmorkaytg2ztLM6w__original/img/k5cnBMKBb94XWGhL0aEyYOlaWtQ=/0x0/filters:format(jpeg)/pic7439416.jpg",
+   "versions": [
+    {
+     "id": "714410",
+     "name": "Chinese edition",
+     "year": 2024,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/2uTL65YU37gxdkj6rS0M8g__small/img/4FIMc2vuVwP1A3uMzPOoRDlVcW0=/fit-in/200x150/filters:strip_icc()/pic8161163.jpg",
+     "image": "https://cf.geekdo-images.com/2uTL65YU37gxdkj6rS0M8g__original/img/2VKzMjMeRRDo-dCo-TjwzimbgAk=/0x0/filters:format(jpeg)/pic8161163.jpg"
+    },
+    {
+     "id": "719769",
+     "name": "Czech edition",
+     "year": 2024,
+     "lang": "Czech",
+     "thumb": "https://cf.geekdo-images.com/RtbEJlhcKtsvTC40PWuqFw__small/img/3XDRBv_c0gvJjtkug5xiHMmf63E=/fit-in/200x150/filters:strip_icc()/pic8291091.jpg",
+     "image": "https://cf.geekdo-images.com/RtbEJlhcKtsvTC40PWuqFw__original/img/4QMstPwZPPKjQo0L3SvKLspOvC0=/0x0/filters:format(jpeg)/pic8291091.jpg"
+    },
+    {
+     "id": "716333",
+     "name": "French edition",
+     "year": 2024,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/Kp3wIs8Y1L-gJWdXmcZOcA__small/img/Yo-B8K6rrkr4TheCFxDoQwm0wtM=/fit-in/200x150/filters:strip_icc()/pic8235868.png",
+     "image": "https://cf.geekdo-images.com/Kp3wIs8Y1L-gJWdXmcZOcA__original/img/qySmeQZmW5RF4Oy9CgMk_0AF8Qc=/0x0/filters:format(png)/pic8235868.png"
+    },
+    {
+     "id": "729645",
+     "name": "Iberian edition",
+     "year": 2024,
+     "lang": "Catalan・Portuguese・Spanish",
+     "thumb": "https://cf.geekdo-images.com/Af5qHpX02g6wKiXRo9E4iw__small/img/ezzN7eHNOlL9X1d34Wsgy-Y1F10=/fit-in/200x150/filters:strip_icc()/pic8450722.jpg",
+     "image": "https://cf.geekdo-images.com/Af5qHpX02g6wKiXRo9E4iw__original/img/i77Jxz6OIQrHdIl2xqxjOOR5pcU=/0x0/filters:format(jpeg)/pic8450722.jpg"
+    },
+    {
+     "id": "712861",
+     "name": "Italian edition",
+     "year": 2024,
+     "lang": "Italian",
+     "thumb": "https://cf.geekdo-images.com/aieWWE39BzssoxHJujv3Kw__small/img/Rj2_2LHYVc4raNiW715gh6XUzec=/fit-in/200x150/filters:strip_icc()/pic8178773.png",
+     "image": "https://cf.geekdo-images.com/aieWWE39BzssoxHJujv3Kw__original/img/jriQn3y_XnWfa33zE86EcVvU51c=/0x0/filters:format(png)/pic8178773.png"
+    },
+    {
+     "id": "738142",
+     "name": "Russian edition",
+     "year": 2024,
+     "lang": "Russian",
+     "thumb": "https://cf.geekdo-images.com/MEdW6rjV4Nv6eT4D6U94rw__small/img/TbEn51QDgcNK2qvc30er32MjnvE=/fit-in/200x150/filters:strip_icc()/pic8700593.jpg",
+     "image": "https://cf.geekdo-images.com/MEdW6rjV4Nv6eT4D6U94rw__original/img/UyaJgt7Ghw14XEeFMWk9mV5yAco=/0x0/filters:format(jpeg)/pic8700593.jpg"
+    },
+    {
+     "id": "711344",
+     "name": "Ukrainian edition",
+     "year": 2024,
+     "lang": "Ukrainian",
+     "thumb": "https://cf.geekdo-images.com/lOQlmt_JkRJmEIcvIt7mzQ__small/img/kmQVhgU-sbveiAF_xt8qhq4dAog=/fit-in/200x150/filters:strip_icc()/pic8261219.png",
+     "image": "https://cf.geekdo-images.com/lOQlmt_JkRJmEIcvIt7mzQ__original/img/OpI8VzXFe0NH8eBOWYWKy5YfR1Y=/0x0/filters:format(png)/pic8261219.png"
+    },
+    {
+     "id": "649656",
+     "name": "Pandasaurus English edition",
+     "year": 2023,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/9hDNHVLmorkaytg2ztLM6w__small/img/2dUdMpeeHEbAFEM9rOJOmkf_kjs=/fit-in/200x150/filters:strip_icc()/pic7439416.jpg",
+     "image": "https://cf.geekdo-images.com/9hDNHVLmorkaytg2ztLM6w__original/img/k5cnBMKBb94XWGhL0aEyYOlaWtQ=/0x0/filters:format(jpeg)/pic7439416.jpg"
+    },
+    {
+     "id": "614845",
+     "name": "Shapes and Dreams English/German edition",
+     "year": 2022,
+     "lang": "English・German",
+     "thumb": "https://cf.geekdo-images.com/LiXQZh4mwWpiNs-DnCOUiw__small/img/ts5EgctJ7S5vOjCsR2_y0BUZ1Lc=/fit-in/200x150/filters:strip_icc()/pic6881713.jpg",
+     "image": "https://cf.geekdo-images.com/LiXQZh4mwWpiNs-DnCOUiw__original/img/8dLDRLuavMSUvNJoLTwBY_Fj3rc=/0x0/filters:format(jpeg)/pic6881713.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:17:00.719Z"
+  },
+  "364073": {
+   "v": 2,
+   "id": "364073",
+   "type": "boardgame",
+   "best": "2",
+   "rec": "2",
+   "minTime": 30,
+   "maxTime": 30,
+   "age": 10,
+   "rating": 7.88,
+   "weight": 2.05,
+   "rank": 109,
+   "mechanics": [
+    "Contracts",
+    "Open Drafting",
+    "Race",
+    "Set Collection"
+   ],
+   "categories": [
+    "Card Game",
+    "Economic",
+    "Renaissance"
+   ],
+   "designers": [
+    "Marc André",
+    "Bruno Cathala"
+   ],
+   "expansions": [
+    {
+     "id": "462460",
+     "name": "Splendor Duel: The Counterfeiters"
+    }
+   ],
+   "bases": [],
+   "en": "Splendor Duel",
+   "ja": "宝石の煌き：デュエル",
+   "minp": 2,
+   "maxp": 2,
+   "time": 30,
+   "year": 2022,
+   "thumb": "https://cf.geekdo-images.com/V1PyFDPNFY4bJFgreLPxmQ__small/img/E0OuG2X4HsbOdCh1uLyZZcMiapQ=/fit-in/200x150/filters:strip_icc()/pic6929347.jpg",
+   "image": "https://cf.geekdo-images.com/V1PyFDPNFY4bJFgreLPxmQ__original/img/NelFMJToi6WYyDQheBZiwCP7-qE=/0x0/filters:format(jpeg)/pic6929347.jpg",
+   "versions": [
+    {
+     "id": "641071",
+     "name": "Japanese edition",
+     "year": 2022,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/4oNhbhTIWSMJjQxXvKvHjQ__small/img/y_AyOTWsoTy4y3iW_k5Mud9L0c4=/fit-in/200x150/filters:strip_icc()/pic7197608.jpg",
+     "image": "https://cf.geekdo-images.com/4oNhbhTIWSMJjQxXvKvHjQ__original/img/t-9nm-1uAPQsig1HI_fQ-HFfcQg=/0x0/filters:format(jpeg)/pic7197608.jpg"
+    },
+    {
+     "id": "746320",
+     "name": "Ukrainian edition",
+     "year": 2025,
+     "lang": "Ukrainian",
+     "thumb": "https://cf.geekdo-images.com/jCWRges2QvzjMBCBGpM4dg__small/img/-6WP5QtvBKmjyThAR46J1Za5UDE=/fit-in/200x150/filters:strip_icc()/pic9846834.png",
+     "image": "https://cf.geekdo-images.com/jCWRges2QvzjMBCBGpM4dg__original/img/JT-CmI3ivAwiZLPiK84EIVJVpI0=/0x0/filters:format(png)/pic9846834.png"
+    },
+    {
+     "id": "680164",
+     "name": "German edition 2023",
+     "year": 2023,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/V1PyFDPNFY4bJFgreLPxmQ__small/img/E0OuG2X4HsbOdCh1uLyZZcMiapQ=/fit-in/200x150/filters:strip_icc()/pic6929347.jpg",
+     "image": "https://cf.geekdo-images.com/V1PyFDPNFY4bJFgreLPxmQ__original/img/NelFMJToi6WYyDQheBZiwCP7-qE=/0x0/filters:format(jpeg)/pic6929347.jpg"
+    },
+    {
+     "id": "664830",
+     "name": "Greek edition",
+     "year": 2023,
+     "lang": "Greek",
+     "thumb": "https://cf.geekdo-images.com/im0iIg6ss8AZT9SO6dkd6A__small/img/GS-UdhKxGJKKl5GxKEso-x3yuSg=/fit-in/200x150/filters:strip_icc()/pic7673844.jpg",
+     "image": "https://cf.geekdo-images.com/im0iIg6ss8AZT9SO6dkd6A__original/img/KEzOEN14j2dsQ6NZ1zwf2_T8ZuQ=/0x0/filters:format(jpeg)/pic7673844.jpg"
+    },
+    {
+     "id": "647446",
+     "name": "Hungarian edition",
+     "year": 2023,
+     "lang": "Hungarian",
+     "thumb": "https://cf.geekdo-images.com/T1Jtp9tiryURNJy2LGWlDQ__small/img/gGJyDhfBG98xI0Sxm-RajaHJYyE=/fit-in/200x150/filters:strip_icc()/pic7410994.png",
+     "image": "https://cf.geekdo-images.com/T1Jtp9tiryURNJy2LGWlDQ__original/img/ZfNox6JaVpbE8_X9Cjsm3Js7hTo=/0x0/filters:format(png)/pic7410994.png"
+    },
+    {
+     "id": "680341",
+     "name": "Russian edition",
+     "year": 2023,
+     "lang": "Russian",
+     "thumb": "https://cf.geekdo-images.com/dRgXXh8Cx496z7ynQB4dQw__small/img/rOxI2fLcMr1C4h3W12UNlhmwxIE=/fit-in/200x150/filters:strip_icc()/pic9644021.jpg",
+     "image": "https://cf.geekdo-images.com/dRgXXh8Cx496z7ynQB4dQw__original/img/_e5Q1uzWmra58aK8aKOkck1w59Q=/0x0/filters:format(jpeg)/pic9644021.jpg"
+    },
+    {
+     "id": "641698",
+     "name": "Chinese edition",
+     "year": 2022,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/hJWRlZYEcf5tb_MLlxhR-g__small/img/X4GYI4OAuQpmP7vjlEelw9JQRmo=/fit-in/200x150/filters:strip_icc()/pic7208419.png",
+     "image": "https://cf.geekdo-images.com/hJWRlZYEcf5tb_MLlxhR-g__original/img/H98n5q1d4f7zEeZk2xlBG8Mk0NE=/0x0/filters:format(png)/pic7208419.png"
+    },
+    {
+     "id": "654406",
+     "name": "Czech/Slovak edition",
+     "year": 2022,
+     "lang": "Czech・Slovak",
+     "thumb": "https://cf.geekdo-images.com/W3QtLutYYo8RdFrLFfLOHw__small/img/3CmP1UIr5hIRPcrUL8whlvKFMb4=/fit-in/200x150/filters:strip_icc()/pic7435474.jpg",
+     "image": "https://cf.geekdo-images.com/W3QtLutYYo8RdFrLFfLOHw__original/img/PMWEOeS7k98n99eS6q9geJSK3Tw=/0x0/filters:format(jpeg)/pic7435474.jpg"
+    },
+    {
+     "id": "639801",
+     "name": "Korean edition",
+     "year": 2022,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/dZgyRA4B4WGV-YZ3i2c-HQ__small/img/KC-t_ho7IJAL5ihT-bgOx1coXjY=/fit-in/200x150/filters:strip_icc()/pic7600287.png",
+     "image": "https://cf.geekdo-images.com/dZgyRA4B4WGV-YZ3i2c-HQ__original/img/Ax6mkhe-6I6EIy8txKEvZAAiPCo=/0x0/filters:format(png)/pic7600287.png"
+    },
+    {
+     "id": "641918",
+     "name": "Nordic edition",
+     "year": 2022,
+     "lang": "Danish・Finnish・Norwegian・Swedish",
+     "thumb": "https://cf.geekdo-images.com/ZAYdAcjViQzznVe_R4X8dg__small/img/rMtQwuDXA8Syo6K9F491i2BjYNA=/fit-in/200x150/filters:strip_icc()/pic7626907.jpg",
+     "image": "https://cf.geekdo-images.com/ZAYdAcjViQzznVe_R4X8dg__original/img/bi8l6N0cAWcGC6YRCrFS0R1gkQA=/0x0/filters:format(jpeg)/pic7626907.jpg"
+    },
+    {
+     "id": "621851",
+     "name": "Polish edition",
+     "year": 2022,
+     "lang": "Polish",
+     "thumb": "https://cf.geekdo-images.com/lkV2r5Dbf-p914rSbkYjMA__small/img/B2L_1KRYoY8tNM7LWkZFZPXjl1o=/fit-in/200x150/filters:strip_icc()/pic8573811.png",
+     "image": "https://cf.geekdo-images.com/lkV2r5Dbf-p914rSbkYjMA__original/img/Clb_JuZ5_2COau3CjtTegPI5wBk=/0x0/filters:format(png)/pic8573811.png"
+    },
+    {
+     "id": "642603",
+     "name": "Portuguese edition",
+     "year": 2022,
+     "lang": "Portuguese",
+     "thumb": "https://cf.geekdo-images.com/Ymt2ye-dpe67bD0sNpfDeQ__small/img/9krwlm2s3weGsAfCtnSrTD_Qt2c=/fit-in/200x150/filters:strip_icc()/pic7222387.png",
+     "image": "https://cf.geekdo-images.com/Ymt2ye-dpe67bD0sNpfDeQ__original/img/kZQ3L8tF9VdMqu7DkFpcu_drINY=/0x0/filters:format(png)/pic7222387.png"
+    },
+    {
+     "id": "643938",
+     "name": "Traditional Chinese edition",
+     "year": 2022,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/3p3n39VJuI8qIblD4TPT9A__small/img/fQJ_Gtx5sXNKicH5ptX6pgY6pYo=/fit-in/200x150/filters:strip_icc()/pic7242847.jpg",
+     "image": "https://cf.geekdo-images.com/3p3n39VJuI8qIblD4TPT9A__original/img/HMNgUaBmDjpksJu_RHMK4wtFLtA=/0x0/filters:format(jpeg)/pic7242847.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:17:19.310Z"
   },
   "368899": {
    "v": 2,
@@ -3761,6 +6631,68 @@
    "image": "https://cf.geekdo-images.com/Ps-ghKTQJBnchIqqRKcu5w__original/img/F4Vrv-G56927_0CKD3DkiKfXrZY=/0x0/filters:format(jpeg)/pic9898744.jpg",
    "versions": [],
    "at": "2026-11-26T02:46:03.393Z"
+  },
+  "392809": {
+   "v": 2,
+   "id": "392809",
+   "type": "boardgame",
+   "best": "3",
+   "rec": "2〜5",
+   "minTime": 15,
+   "maxTime": 15,
+   "age": 6,
+   "rating": 5.91,
+   "weight": 1,
+   "rank": 24035,
+   "mechanics": [
+    "Push Your Luck"
+   ],
+   "categories": [
+    "Animals",
+    "Bluffing",
+    "Deduction"
+   ],
+   "designers": [
+    "Wolfgang Kramer",
+    "Manfred Reindl"
+   ],
+   "expansions": [],
+   "bases": [],
+   "en": "Boo to the Goose",
+   "ja": "",
+   "minp": 2,
+   "maxp": 5,
+   "time": 15,
+   "year": 2023,
+   "thumb": "https://cf.geekdo-images.com/-AcAtu8RJUjQ6mS9c8jpsQ__small/img/otU0OYFON3tQ4XPnHkq6zi4zr34=/fit-in/200x150/filters:strip_icc()/pic7617805.jpg",
+   "image": "https://cf.geekdo-images.com/-AcAtu8RJUjQ6mS9c8jpsQ__original/img/zP4EZoB3_KBY0r-J_2vPrjWYGvI=/0x0/filters:format(jpeg)/pic7617805.jpg",
+   "versions": [
+    {
+     "id": "770969",
+     "name": "English edition",
+     "year": 2024,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/cBX1lPBB7lXSWhIhKHuG5A__small/img/jgVqVlEy-iKbyRE3iRsX_nuxpUM=/fit-in/200x150/filters:strip_icc()/pic9676634.jpg",
+     "image": "https://cf.geekdo-images.com/cBX1lPBB7lXSWhIhKHuG5A__original/img/TStcpWWEaGbxGQg93L8ADE3573Y=/0x0/filters:format(jpeg)/pic9676634.jpg"
+    },
+    {
+     "id": "695588",
+     "name": "Dutch edition",
+     "year": 2023,
+     "lang": "Dutch",
+     "thumb": "https://cf.geekdo-images.com/lPNcmWOaD8Rjf6I76nUIPw__small/img/POyToYqGMH9b436AFhPycjxo-xM=/fit-in/200x150/filters:strip_icc()/pic7935809.jpg",
+     "image": "https://cf.geekdo-images.com/lPNcmWOaD8Rjf6I76nUIPw__original/img/YXQl958k0XGMHiF7UguM0btE7zA=/0x0/filters:format(jpeg)/pic7935809.jpg"
+    },
+    {
+     "id": "668297",
+     "name": "Multilingual edition",
+     "year": 2023,
+     "lang": "Czech・French・German・Hungarian・Slovak",
+     "thumb": "https://cf.geekdo-images.com/-AcAtu8RJUjQ6mS9c8jpsQ__small/img/otU0OYFON3tQ4XPnHkq6zi4zr34=/fit-in/200x150/filters:strip_icc()/pic7617805.jpg",
+     "image": "https://cf.geekdo-images.com/-AcAtu8RJUjQ6mS9c8jpsQ__original/img/zP4EZoB3_KBY0r-J_2vPrjWYGvI=/0x0/filters:format(jpeg)/pic7617805.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:17:51.149Z"
   },
   "393325": {
    "v": 2,
@@ -4172,6 +7104,367 @@
    ],
    "at": "2026-11-26T02:45:16.864Z"
   },
+  "407297": {
+   "v": 2,
+   "id": "407297",
+   "type": "boardgame",
+   "best": "2",
+   "rec": "1〜4",
+   "minTime": 25,
+   "maxTime": 45,
+   "age": 8,
+   "rating": 7.3,
+   "weight": 1.48,
+   "rank": 844,
+   "mechanics": [
+    "End Game Bonuses",
+    "Map Deformation",
+    "Matching",
+    "Modular Board",
+    "Open Drafting",
+    "Pattern Building",
+    "Set Collection"
+   ],
+   "categories": [
+    "Animals",
+    "Industry / Manufacturing"
+   ],
+   "designers": [
+    "Adam Hill",
+    "Ben Pinchback",
+    "Matt Riddle"
+   ],
+   "expansions": [
+    {
+     "id": "418124",
+     "name": "River Valley Glassworks: River Glass and Other Sundries"
+    }
+   ],
+   "bases": [],
+   "en": "River Valley Glassworks",
+   "ja": "リバー・バレー ガラス工房",
+   "minp": 1,
+   "maxp": 5,
+   "time": 45,
+   "year": 2024,
+   "thumb": "https://cf.geekdo-images.com/Rb2Hw7IDaF7evNMjrqMmXA__small/img/w1wJgVzu16nnp_zm4wbMNmNSVzA=/fit-in/200x150/filters:strip_icc()/pic7886346.jpg",
+   "image": "https://cf.geekdo-images.com/Rb2Hw7IDaF7evNMjrqMmXA__original/img/1aBSwl0-UzJ-0p3h-zILKZtJJGM=/0x0/filters:format(jpeg)/pic7886346.jpg",
+   "versions": [
+    {
+     "id": "775525",
+     "name": "Japanese/English edition",
+     "year": 2025,
+     "lang": "English・Japanese",
+     "thumb": "https://cf.geekdo-images.com/rEvS0v_aGOSUlkBVQIX8ow__small/img/iha1pTZGDUEv9QTKPI3m6rborkw=/fit-in/200x150/filters:strip_icc()/pic9214339.jpg",
+     "image": "https://cf.geekdo-images.com/rEvS0v_aGOSUlkBVQIX8ow__original/img/F6varXy3-DasCBsVrOD3S01rqH8=/0x0/filters:format(jpeg)/pic9214339.jpg"
+    },
+    {
+     "id": "811419",
+     "name": "Polish edition",
+     "year": 2026,
+     "lang": "Polish",
+     "thumb": "https://cf.geekdo-images.com/EcR2HIUew83coKOCs-neaQ__small/img/ZiKrAo0TnsrO-13QPt1imX2BwyI=/fit-in/200x150/filters:strip_icc()/pic9733365.jpg",
+     "image": "https://cf.geekdo-images.com/EcR2HIUew83coKOCs-neaQ__original/img/hKnHoxoTqKDSVi9MLT86B03DIXA=/0x0/filters:format(jpeg)/pic9733365.jpg"
+    },
+    {
+     "id": "766765",
+     "name": "French edition",
+     "year": 2025,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/18fqOEd_U-ow0OAItH_YvA__small/img/rR98TwK41z-18aIo3cp4me0xgSw=/fit-in/200x150/filters:strip_icc()/pic9003292.jpg",
+     "image": "https://cf.geekdo-images.com/18fqOEd_U-ow0OAItH_YvA__original/img/Rqb7oX40raImFxSv1bM0Cxy5wsQ=/0x0/filters:format(jpeg)/pic9003292.jpg"
+    },
+    {
+     "id": "746426",
+     "name": "Ukrainian edition",
+     "year": 2025,
+     "lang": "Ukrainian",
+     "thumb": "https://cf.geekdo-images.com/67N2ggJ8HvzuIhlOBFaLVw__small/img/axVjd_fSmAD4vZByWNZKFeCD1BE=/fit-in/200x150/filters:strip_icc()/pic8702384.png",
+     "image": "https://cf.geekdo-images.com/67N2ggJ8HvzuIhlOBFaLVw__original/img/dlQ4wwCNKWR1DAjknAuUc7eoHMQ=/0x0/filters:format(png)/pic8702384.png"
+    },
+    {
+     "id": "731601",
+     "name": "English deluxe edition",
+     "year": 2024,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/NdXjWuUhJSsMvlwVy9va_g__small/img/PQB1PkSOrGvp8--42JIt-rf1wsg=/fit-in/200x150/filters:strip_icc()/pic9401375.png",
+     "image": "https://cf.geekdo-images.com/NdXjWuUhJSsMvlwVy9va_g__original/img/ODObIqzdBEQFQQwSc1UCuIYR2-8=/0x0/filters:format(png)/pic9401375.png"
+    },
+    {
+     "id": "691154",
+     "name": "English edition",
+     "year": 2024,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/Rb2Hw7IDaF7evNMjrqMmXA__small/img/w1wJgVzu16nnp_zm4wbMNmNSVzA=/fit-in/200x150/filters:strip_icc()/pic7886346.jpg",
+     "image": "https://cf.geekdo-images.com/Rb2Hw7IDaF7evNMjrqMmXA__original/img/1aBSwl0-UzJ-0p3h-zILKZtJJGM=/0x0/filters:format(jpeg)/pic7886346.jpg"
+    },
+    {
+     "id": "729606",
+     "name": "English Founders edition",
+     "year": 2024,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/CRyuSZ5V2kMeFzGEzoJMuw__small/img/2wKVn5XGMlQbUixe-Ejtrs-N89w=/fit-in/200x150/filters:strip_icc()/pic8455561.jpg",
+     "image": "https://cf.geekdo-images.com/CRyuSZ5V2kMeFzGEzoJMuw__original/img/2EsITadfKJg2qhw-zOuBr59opOU=/0x0/filters:format(jpeg)/pic8455561.jpg"
+    },
+    {
+     "id": "710303",
+     "name": "Hungarian edition",
+     "year": 2024,
+     "lang": "Hungarian",
+     "thumb": "https://cf.geekdo-images.com/mXO-L4s9Gsv8SAJz2Nt2hw__small/img/cIuFHoj6MIZiVmgm8gPd5dnfG7g=/fit-in/200x150/filters:strip_icc()/pic8350738.jpg",
+     "image": "https://cf.geekdo-images.com/mXO-L4s9Gsv8SAJz2Nt2hw__original/img/Qzs59uS6iNYGRK80rb38rQ_RBkk=/0x0/filters:format(jpeg)/pic8350738.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:17:40.644Z"
+  },
+  "414927": {
+   "v": 2,
+   "id": "414927",
+   "type": "boardgame",
+   "best": "2〜3",
+   "rec": "1〜4",
+   "minTime": 15,
+   "maxTime": 30,
+   "age": 8,
+   "rating": 7.11,
+   "weight": 1.56,
+   "rank": 7236,
+   "mechanics": [
+    "Contracts",
+    "Dice Rolling",
+    "End Game Bonuses",
+    "Matching",
+    "Once-Per-Game Abilities",
+    "Open Drafting",
+    "Set Collection",
+    "Simultaneous Action Selection",
+    "Solo / Solitaire Game",
+    "Variable Player Powers"
+   ],
+   "categories": [
+    "Card Game",
+    "Dice"
+   ],
+   "designers": [
+    "Chris Eastridge"
+   ],
+   "expansions": [
+    {
+     "id": "436645",
+     "name": "Parks & Potions: Bugs & Bottles Expansion"
+    },
+    {
+     "id": "436644",
+     "name": "Parks & Potions: Potion Perils"
+    },
+    {
+     "id": "453843",
+     "name": "Parks & Potions: Quetzal Promo"
+    }
+   ],
+   "bases": [],
+   "en": "Parks & Potions",
+   "ja": "",
+   "minp": 1,
+   "maxp": 5,
+   "time": 30,
+   "year": 2025,
+   "thumb": "https://cf.geekdo-images.com/cWNFu9L65E1F74Oai6mDSw__small/img/YW-BNLFxRiVqtKtoCq00DFnn6uA=/fit-in/200x150/filters:strip_icc()/pic8369367.png",
+   "image": "https://cf.geekdo-images.com/cWNFu9L65E1F74Oai6mDSw__original/img/7lTdSm4Fs91nsjNqkl-73MQh5gU=/0x0/filters:format(png)/pic8369367.png",
+   "versions": [
+    {
+     "id": "702675",
+     "name": "English edition",
+     "year": 2025,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/cWNFu9L65E1F74Oai6mDSw__small/img/YW-BNLFxRiVqtKtoCq00DFnn6uA=/fit-in/200x150/filters:strip_icc()/pic8369367.png",
+     "image": "https://cf.geekdo-images.com/cWNFu9L65E1F74Oai6mDSw__original/img/7lTdSm4Fs91nsjNqkl-73MQh5gU=/0x0/filters:format(png)/pic8369367.png"
+    }
+   ],
+   "at": "2026-11-26T03:17:38.053Z"
+  },
+  "416232": {
+   "v": 2,
+   "id": "416232",
+   "type": "boardgame",
+   "best": "2〜3",
+   "rec": "1〜4",
+   "minTime": 30,
+   "maxTime": 50,
+   "age": 8,
+   "rating": 7.27,
+   "weight": 1.82,
+   "rank": 6040,
+   "mechanics": [
+    "Action Points",
+    "Open Drafting",
+    "Pattern Building",
+    "Resource Queue",
+    "Solo / Solitaire Game",
+    "Tile Placement"
+   ],
+   "categories": [
+    "Abstract Strategy",
+    "Puzzle"
+   ],
+   "designers": [
+    "Patrik Chleboun",
+    "Jan Soukal"
+   ],
+   "expansions": [
+    {
+     "id": "439610",
+     "name": "Square One: Combo Master"
+    },
+    {
+     "id": "472775",
+     "name": "Square One: Combo Master Ambassador Pack"
+    },
+    {
+     "id": "419975",
+     "name": "Square One: Joker Ambassador Pack"
+    },
+    {
+     "id": "419974",
+     "name": "Square One: Joker Expansion"
+    }
+   ],
+   "bases": [],
+   "en": "Square One",
+   "ja": "",
+   "minp": 1,
+   "maxp": 4,
+   "time": 50,
+   "year": 2025,
+   "thumb": "https://cf.geekdo-images.com/uin0MN7DiCMW3K2X4kah0A__small/img/Z0JZ6SsD0kUVRD4uazmP96T-XVs=/fit-in/200x150/filters:strip_icc()/pic8172361.png",
+   "image": "https://cf.geekdo-images.com/uin0MN7DiCMW3K2X4kah0A__original/img/8jNY9BMLh2H6xB2eswTdn9T5gyc=/0x0/filters:format(png)/pic8172361.png",
+   "versions": [
+    {
+     "id": "705087",
+     "name": "English edition",
+     "year": 2025,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/uin0MN7DiCMW3K2X4kah0A__small/img/Z0JZ6SsD0kUVRD4uazmP96T-XVs=/fit-in/200x150/filters:strip_icc()/pic8172361.png",
+     "image": "https://cf.geekdo-images.com/uin0MN7DiCMW3K2X4kah0A__original/img/8jNY9BMLh2H6xB2eswTdn9T5gyc=/0x0/filters:format(png)/pic8172361.png"
+    }
+   ],
+   "at": "2026-11-26T03:17:22.004Z"
+  },
+  "417618": {
+   "v": 2,
+   "id": "417618",
+   "type": "boardgameexpansion",
+   "best": "2, 4",
+   "rec": "2〜4",
+   "minTime": 40,
+   "maxTime": 40,
+   "age": 8,
+   "rating": 7.75,
+   "weight": 1.75,
+   "rank": null,
+   "mechanics": [
+    "Cooperative Game",
+    "Grid Movement",
+    "Modular Board",
+    "Tile Placement"
+   ],
+   "categories": [
+    "Expansion for Base-game",
+    "Exploration",
+    "Nautical"
+   ],
+   "designers": [
+    "Torben Ratzlaff"
+   ],
+   "expansions": [],
+   "bases": [
+    {
+     "id": "362976",
+     "name": "Beacon Patrol"
+    }
+   ],
+   "en": "Beacon Patrol: Ships & Shores",
+   "ja": "",
+   "minp": 1,
+   "maxp": 4,
+   "time": 40,
+   "year": 2024,
+   "thumb": "https://cf.geekdo-images.com/-E0WYwYk_0iuhXjalP5jTA__small/img/vpy655Qct28yseTJBzKgftuENDU=/fit-in/200x150/filters:strip_icc()/pic8107991.png",
+   "image": "https://cf.geekdo-images.com/-E0WYwYk_0iuhXjalP5jTA__original/img/p8_FLybGrfppY_RJZBS7f_fx2w4=/0x0/filters:format(png)/pic8107991.png",
+   "versions": [
+    {
+     "id": "775487",
+     "name": "Russian edition",
+     "year": 2025,
+     "lang": "Russian",
+     "thumb": "https://cf.geekdo-images.com/AziUc2xFhKQAUR3GODVHvg__small/img/s0CIuQiEM796eGzeW3hif2gBFOY=/fit-in/200x150/filters:strip_icc()/pic9275610.jpg",
+     "image": "https://cf.geekdo-images.com/AziUc2xFhKQAUR3GODVHvg__original/img/U548nBiDINWMQQCvUDQctgogXwE=/0x0/filters:format(jpeg)/pic9275610.jpg"
+    },
+    {
+     "id": "707472",
+     "name": "English edition",
+     "year": 2024,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/-E0WYwYk_0iuhXjalP5jTA__small/img/vpy655Qct28yseTJBzKgftuENDU=/fit-in/200x150/filters:strip_icc()/pic8107991.png",
+     "image": "https://cf.geekdo-images.com/-E0WYwYk_0iuhXjalP5jTA__original/img/p8_FLybGrfppY_RJZBS7f_fx2w4=/0x0/filters:format(png)/pic8107991.png"
+    }
+   ],
+   "at": "2026-11-26T03:17:03.459Z"
+  },
+  "417629": {
+   "v": 2,
+   "id": "417629",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "2〜4",
+   "minTime": 15,
+   "maxTime": 30,
+   "age": 8,
+   "rating": 6.96,
+   "weight": 1,
+   "rank": 6864,
+   "mechanics": [
+    "Flicking"
+   ],
+   "categories": [
+    "Action / Dexterity",
+    "Dice",
+    "Horror"
+   ],
+   "designers": [
+    "Zachary Connelly",
+    "Alex Cutler"
+   ],
+   "expansions": [],
+   "bases": [],
+   "en": "Boxtop Pinball: Haunted House",
+   "ja": "",
+   "minp": 1,
+   "maxp": 4,
+   "time": 30,
+   "year": 2024,
+   "thumb": "https://cf.geekdo-images.com/INuFEbHDXKD6VoSLp32C-A__small/img/xZRkuWU-w6Tp7JEbzWgbjRolDv0=/fit-in/200x150/filters:strip_icc()/pic8304338.png",
+   "image": "https://cf.geekdo-images.com/INuFEbHDXKD6VoSLp32C-A__original/img/0nWwF5_yEMhSsc63GrHqB5MCqnk=/0x0/filters:format(png)/pic8304338.png",
+   "versions": [
+    {
+     "id": "747164",
+     "name": "French edition",
+     "year": 2025,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/UiyzpCkH0TAZKrq50W2i6Q__small/img/IRU23TyW6pAGUrbBlNrrFlL2gsY=/fit-in/200x150/filters:strip_icc()/pic8717311.png",
+     "image": "https://cf.geekdo-images.com/UiyzpCkH0TAZKrq50W2i6Q__original/img/_wu3f0qeeOdcNjTxwFVuTalI55k=/0x0/filters:format(png)/pic8717311.png"
+    },
+    {
+     "id": "707486",
+     "name": "English edition",
+     "year": 2024,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/INuFEbHDXKD6VoSLp32C-A__small/img/xZRkuWU-w6Tp7JEbzWgbjRolDv0=/fit-in/200x150/filters:strip_icc()/pic8304338.png",
+     "image": "https://cf.geekdo-images.com/INuFEbHDXKD6VoSLp32C-A__original/img/0nWwF5_yEMhSsc63GrHqB5MCqnk=/0x0/filters:format(png)/pic8304338.png"
+    }
+   ],
+   "at": "2026-11-26T03:17:32.612Z"
+  },
   "421217": {
    "v": 2,
    "id": "421217",
@@ -4343,6 +7636,61 @@
    ],
    "at": "2026-11-26T02:46:47.619Z"
   },
+  "427942": {
+   "v": 2,
+   "id": "427942",
+   "type": "boardgame",
+   "best": "3〜4",
+   "rec": "2〜5",
+   "minTime": 7,
+   "maxTime": 42,
+   "age": 3,
+   "rating": 7.08,
+   "weight": 1.2,
+   "rank": 10873,
+   "mechanics": [
+    "Cooperative Game",
+    "Solo / Solitaire Game",
+    "Stacking and Balancing"
+   ],
+   "categories": [
+    "Animals",
+    "Children's Game",
+    "Party Game"
+   ],
+   "designers": [
+    "Magen Bain"
+   ],
+   "expansions": [],
+   "bases": [],
+   "en": "Stack O' Cats",
+   "ja": "",
+   "minp": 1,
+   "maxp": 6,
+   "time": 42,
+   "year": 2025,
+   "thumb": "https://cf.geekdo-images.com/nUTXeK52pmiCIem_INmpIw__small/img/wBE_E65HUqLHMN10i5Lc2glLmas=/fit-in/200x150/filters:strip_icc()/pic8395328.png",
+   "image": "https://cf.geekdo-images.com/nUTXeK52pmiCIem_INmpIw__original/img/ZP6P-kwamdI18QeEnnl6V4eZz50=/0x0/filters:format(png)/pic8395328.png",
+   "versions": [
+    {
+     "id": "807257",
+     "name": "Czech edition",
+     "year": 2026,
+     "lang": "Czech",
+     "thumb": "https://cf.geekdo-images.com/PMOxHrcl--XNsNCi6IAAbA__small/img/XUZ9VUz3uupL-0VK1mMdP7IyrrI=/fit-in/200x150/filters:strip_icc()/pic9672000.jpg",
+     "image": "https://cf.geekdo-images.com/PMOxHrcl--XNsNCi6IAAbA__original/img/qiITGl5Dev5netdNSgKCBFPqPuM=/0x0/filters:format(jpeg)/pic9672000.jpg"
+    },
+    {
+     "id": "726604",
+     "name": "English edition",
+     "year": 2025,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/nUTXeK52pmiCIem_INmpIw__small/img/wBE_E65HUqLHMN10i5Lc2glLmas=/fit-in/200x150/filters:strip_icc()/pic8395328.png",
+     "image": "https://cf.geekdo-images.com/nUTXeK52pmiCIem_INmpIw__original/img/ZP6P-kwamdI18QeEnnl6V4eZz50=/0x0/filters:format(png)/pic8395328.png"
+    }
+   ],
+   "at": "2026-11-26T03:17:24.738Z"
+  },
   "428682": {
    "v": 2,
    "id": "428682",
@@ -4417,6 +7765,191 @@
    ],
    "at": "2026-11-26T02:45:47.875Z"
   },
+  "431994": {
+   "v": 2,
+   "id": "431994",
+   "type": "boardgame",
+   "best": "3",
+   "rec": "1〜4",
+   "minTime": 15,
+   "maxTime": 30,
+   "age": 10,
+   "rating": 7.07,
+   "weight": 2.11,
+   "rank": 2672,
+   "mechanics": [
+    "Area Majority / Influence",
+    "Contracts",
+    "Market",
+    "Modular Board",
+    "Set Collection",
+    "Solo / Solitaire Game",
+    "Variable Set-up",
+    "Worker Placement"
+   ],
+   "categories": [
+    "Animals",
+    "Card Game",
+    "City Building",
+    "Civilization",
+    "Fantasy",
+    "Industry / Manufacturing",
+    "Medieval",
+    "Puzzle"
+   ],
+   "designers": [
+    "Molly Johnson",
+    "Robert Melvin",
+    "Shawn Stankewich"
+   ],
+   "expansions": [
+    {
+     "id": "451345",
+     "name": "Propolis: Structural Diversity"
+    }
+   ],
+   "bases": [],
+   "en": "Propolis",
+   "ja": "",
+   "minp": 1,
+   "maxp": 4,
+   "time": 30,
+   "year": 2025,
+   "thumb": "https://cf.geekdo-images.com/UnNRtk6gbVsAI0kl_6pF6A__small/img/FO_BmC-71Jch0RDDcmlb9ZiHPks=/fit-in/200x150/filters:strip_icc()/pic8514363.png",
+   "image": "https://cf.geekdo-images.com/UnNRtk6gbVsAI0kl_6pF6A__original/img/RkmO_jlI7hxqMx4VbcyJhVzRW6o=/0x0/filters:format(png)/pic8514363.png",
+   "versions": [
+    {
+     "id": "791498",
+     "name": "Multilingual edition",
+     "year": 2026,
+     "lang": "French・German・Italian",
+     "thumb": "https://cf.geekdo-images.com/c3f58Q-3Ddb8mlSpqdA6Cw__small/img/PUVSNw_sh66tgiTRYOEUwFNAwOA=/fit-in/200x150/filters:strip_icc()/pic9502135.jpg",
+     "image": "https://cf.geekdo-images.com/c3f58Q-3Ddb8mlSpqdA6Cw__original/img/kbyWdx45VQ48Tdb8x2EvBVkMBnk=/0x0/filters:format(jpeg)/pic9502135.jpg"
+    },
+    {
+     "id": "823773",
+     "name": "Spanish edition",
+     "year": 2026,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/-M7dvk66l35NECqSJeY0jg__small/img/HezpCDvPqhmWTJAAa91daDZSwvA=/fit-in/200x150/filters:strip_icc()/pic9918511.jpg",
+     "image": "https://cf.geekdo-images.com/-M7dvk66l35NECqSJeY0jg__original/img/LV3k_WcZk6GOWHctU1GcaawvfIg=/0x0/filters:format(jpeg)/pic9918511.jpg"
+    },
+    {
+     "id": "733452",
+     "name": "English edition",
+     "year": 2025,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/UnNRtk6gbVsAI0kl_6pF6A__small/img/FO_BmC-71Jch0RDDcmlb9ZiHPks=/fit-in/200x150/filters:strip_icc()/pic8514363.png",
+     "image": "https://cf.geekdo-images.com/UnNRtk6gbVsAI0kl_6pF6A__original/img/RkmO_jlI7hxqMx4VbcyJhVzRW6o=/0x0/filters:format(png)/pic8514363.png"
+    },
+    {
+     "id": "769820",
+     "name": "Dutch edition",
+     "year": null,
+     "lang": "Dutch",
+     "thumb": "https://cf.geekdo-images.com/3tjE3vS6QjF2EiCKtw4ntA__small/img/VCDQb9cGtx74AhPhQ78hrPxoQXM=/fit-in/200x150/filters:strip_icc()/pic9047628.png",
+     "image": "https://cf.geekdo-images.com/3tjE3vS6QjF2EiCKtw4ntA__original/img/2XUEC75BJSXJLENZPuS-igV2wI4=/0x0/filters:format(png)/pic9047628.png"
+    }
+   ],
+   "at": "2026-11-26T03:16:47.554Z"
+  },
+  "435357": {
+   "v": 2,
+   "id": "435357",
+   "type": "boardgame",
+   "best": "2",
+   "rec": "2〜3",
+   "minTime": 5,
+   "maxTime": 15,
+   "age": 6,
+   "rating": 6.08,
+   "weight": 1,
+   "rank": 9529,
+   "mechanics": [
+    "Hand Management"
+   ],
+   "categories": [
+    "Card Game",
+    "Fighting",
+    "Sports"
+   ],
+   "designers": [
+    "Ryan \"The Boulder\" Richford"
+   ],
+   "expansions": [],
+   "bases": [],
+   "en": "Slambo!",
+   "ja": "",
+   "minp": 2,
+   "maxp": 4,
+   "time": 15,
+   "year": 2025,
+   "thumb": "https://cf.geekdo-images.com/zxv1E3rN3eEVx3hCX8kgvA__small/img/TsZdnm1OiXqK40dL0kGFnSXfHJQ=/fit-in/200x150/filters:strip_icc()/pic8598493.jpg",
+   "image": "https://cf.geekdo-images.com/zxv1E3rN3eEVx3hCX8kgvA__original/img/zAjo-fwAkTf9izT6hoJsk1AUwq0=/0x0/filters:format(jpeg)/pic8598493.jpg",
+   "versions": [
+    {
+     "id": "738989",
+     "name": "English edition",
+     "year": 2025,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/zxv1E3rN3eEVx3hCX8kgvA__small/img/TsZdnm1OiXqK40dL0kGFnSXfHJQ=/fit-in/200x150/filters:strip_icc()/pic8598493.jpg",
+     "image": "https://cf.geekdo-images.com/zxv1E3rN3eEVx3hCX8kgvA__original/img/zAjo-fwAkTf9izT6hoJsk1AUwq0=/0x0/filters:format(jpeg)/pic8598493.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:17:06.142Z"
+  },
+  "435979": {
+   "v": 2,
+   "id": "435979",
+   "type": "boardgame",
+   "best": "4〜5",
+   "rec": "3〜5",
+   "minTime": 15,
+   "maxTime": 15,
+   "age": 8,
+   "rating": 7.21,
+   "weight": 1.11,
+   "rank": 4572,
+   "mechanics": [
+    "Push Your Luck"
+   ],
+   "categories": [
+    "American West",
+    "Card Game"
+   ],
+   "designers": [
+    "Reiner Knizia"
+   ],
+   "expansions": [],
+   "bases": [],
+   "en": "HIT! Extreme",
+   "ja": "",
+   "minp": 2,
+   "maxp": 5,
+   "time": 15,
+   "year": 2024,
+   "thumb": "https://cf.geekdo-images.com/mCtomH-aFmtEvL0aVJ-7pQ__small/img/Hk51nQWkmPDsA5zx2_vVdVQIxKA=/fit-in/200x150/filters:strip_icc()/pic8772408.png",
+   "image": "https://cf.geekdo-images.com/mCtomH-aFmtEvL0aVJ-7pQ__original/img/ccmax3aCqcMZiw98oZAX1EvGAxI=/0x0/filters:format(png)/pic8772408.png",
+   "versions": [
+    {
+     "id": "740131",
+     "name": "French/English edition",
+     "year": 2024,
+     "lang": "English・French",
+     "thumb": "https://cf.geekdo-images.com/n8ML8ws4CumX5oXYBwukhA__small/img/nzXy6GJbd1_2UnzVyl2jaoXLSCc=/fit-in/200x150/filters:strip_icc()/pic8303506.png",
+     "image": "https://cf.geekdo-images.com/n8ML8ws4CumX5oXYBwukhA__original/img/ffoxBtwgR2Fy3v9IFoLqBsNNyt4=/0x0/filters:format(png)/pic8303506.png"
+    },
+    {
+     "id": "740454",
+     "name": "Spanish/Portuguese edition",
+     "year": 2024,
+     "lang": "Portuguese・Spanish",
+     "thumb": "https://cf.geekdo-images.com/tndgFdXdiVRqtHOLoCr1qA__small/img/OCMIB2eUmWD4Os8pWgKUCN1e68s=/fit-in/200x150/filters:strip_icc()/pic9108522.jpg",
+     "image": "https://cf.geekdo-images.com/tndgFdXdiVRqtHOLoCr1qA__original/img/XdihBid5Er62Vcflm-zJDsgfTKU=/0x0/filters:format(jpeg)/pic9108522.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:16:44.921Z"
+  },
   "436511": {
    "v": 2,
    "id": "436511",
@@ -4476,10 +8009,151 @@
     }
    ],
    "at": "2026-11-26T02:46:26.871Z"
+  },
+  "443697": {
+   "v": 2,
+   "id": "443697",
+   "type": "boardgame",
+   "best": "3",
+   "rec": "2〜5",
+   "minTime": 25,
+   "maxTime": 30,
+   "age": 8,
+   "rating": 7.46,
+   "weight": 1.33,
+   "rank": 11734,
+   "mechanics": [
+    "Dice Rolling",
+    "Push Your Luck",
+    "Re-rolling and Locking"
+   ],
+   "categories": [
+    "Dice",
+    "Fantasy"
+   ],
+   "designers": [
+    "Marcus Ross"
+   ],
+   "expansions": [
+    {
+     "id": "475576",
+     "name": "Garden Club: Christmas Promo"
+    },
+    {
+     "id": "461999",
+     "name": "Jingle Bell Roll: Fruitcake Promo Card"
+    },
+    {
+     "id": "476471",
+     "name": "Jingle Bell Roll: Mystery Bag Promo Card"
+    },
+    {
+     "id": "456353",
+     "name": "Jingle Bell Roll: Naughty or Dice Promo"
+    },
+    {
+     "id": "481942",
+     "name": "Jingle Bell Roll: Tricks & Treats Promo"
+    },
+    {
+     "id": "484055",
+     "name": "Jingle Bell Roll: Tricks & Treats Promo"
+    }
+   ],
+   "bases": [],
+   "en": "Jingle Bell Roll",
+   "ja": "",
+   "minp": 2,
+   "maxp": 6,
+   "time": 30,
+   "year": 2025,
+   "thumb": "https://cf.geekdo-images.com/ae--H2mwN7EQgWwqU-ra8Q__small/img/2dqXTEjHwB44REMVUC6f05JJ-jI=/fit-in/200x150/filters:strip_icc()/pic9161182.jpg",
+   "image": "https://cf.geekdo-images.com/ae--H2mwN7EQgWwqU-ra8Q__original/img/D2pa5kvcNzs8EtIvb6iNYO0oi7w=/0x0/filters:format(jpeg)/pic9161182.jpg",
+   "versions": [
+    {
+     "id": "754470",
+     "name": "English edition",
+     "year": 2025,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/Oudeo51I9pVDNoxEI_kk8w__small/img/18NPvIBodX3eWvqvzmMbZGeuOGs=/fit-in/200x150/filters:strip_icc()/pic8817312.jpg",
+     "image": "https://cf.geekdo-images.com/Oudeo51I9pVDNoxEI_kk8w__original/img/DNXw_gBwFdHqTX3HXPcBuAw-pZo=/0x0/filters:format(jpeg)/pic8817312.jpg"
+    }
+   ],
+   "at": "2026-11-26T03:16:52.834Z"
   }
  },
- "updatedAt": "2026-11-26T03:12:14.456Z",
+ "updatedAt": "2026-11-26T03:18:13.868Z",
  "exps": {
+  "3446": {
+   "id": "3446",
+   "en": "Game Spice: Monopoly Expansion (fan expansion for Monopoly)",
+   "thumb": "https://cf.geekdo-images.com/LUD5JUXNGbX_hHlxkVsWLg__small/img/VVtFxZtEuO2yutX_kJkwpWjcrGw=/fit-in/200x150/filters:strip_icc()/pic519583.jpg",
+   "year": 1988,
+   "minp": 3,
+   "maxp": 6,
+   "time": 90,
+   "at": "2026-11-26T03:17:56.834Z"
+  },
+  "9466": {
+   "id": "9466",
+   "en": "Monopoly Stock Exchange Add-on",
+   "thumb": "https://cf.geekdo-images.com/-5OEdx5OBP9WxHcgtnkS-w__small/img/7zaq6YZfNh779orHRbgVYe3_tz4=/fit-in/200x150/filters:strip_icc()/pic284812.jpg",
+   "year": 1936,
+   "minp": 2,
+   "maxp": 6,
+   "time": 90,
+   "at": "2026-11-26T03:17:56.834Z"
+  },
+  "13102": {
+   "id": "13102",
+   "en": "Entrepreneur's Accessory to Monopoly (fan expansion for Monopoly)",
+   "thumb": "https://cf.geekdo-images.com/_a_OxRY0JXQQJTHDszJVzQ__small/img/XFNCYQvs1Np-P7MtGTgU41GKoTk=/fit-in/200x150/filters:strip_icc()/pic8197703.jpg",
+   "year": 1989,
+   "minp": 2,
+   "maxp": 6,
+   "time": 2,
+   "at": "2026-11-26T03:17:56.834Z"
+  },
+  "16775": {
+   "id": "16775",
+   "en": "Super Add-Ons: Monopoly (fan expansion for Monopoly)",
+   "thumb": "https://cf.geekdo-images.com/rWRGG054ezfvBXF0XPlf7A__small/img/v1BOaK2ajs1Bk-Z099Ju-GDWiOE=/fit-in/200x150/filters:strip_icc()/pic197822.jpg",
+   "year": 2005,
+   "minp": null,
+   "maxp": null,
+   "time": null,
+   "at": "2026-11-26T03:17:56.834Z"
+  },
+  "21659": {
+   "id": "21659",
+   "en": "Beyond Boardwalk and Park Place (fan expansion for Monopoly)",
+   "thumb": "https://cf.geekdo-images.com/GP2U7KJPrPBaC_ouxrGE_A__small/img/42xOAJG_2_hYS49lG8EIfeNVtdk=/fit-in/200x150/filters:strip_icc()/pic8469338.jpg",
+   "year": 1986,
+   "minp": 2,
+   "maxp": 8,
+   "time": 90,
+   "at": "2026-11-26T03:17:56.833Z"
+  },
+  "28968": {
+   "id": "28968",
+   "en": "Mafiopoly",
+   "thumb": "https://cf.geekdo-images.com/niPAee-8qFG0LzQJS1aOUQ__small/img/2BGRadzyhMS0uaYoR3QEZy_T114=/fit-in/200x150/filters:strip_icc()/pic200880.jpg",
+   "year": 1986,
+   "minp": 2,
+   "maxp": 8,
+   "time": 180,
+   "at": "2026-11-26T03:17:56.834Z"
+  },
+  "37893": {
+   "id": "37893",
+   "en": "Monopoly: Mob Rule Expansion Deck",
+   "thumb": "https://cf.geekdo-images.com/f2s53U2b2xDFQxOCpPfL2A__small/img/r4VJjHhvpaT_UQYqoWuPhwsgSQQ=/fit-in/200x150/filters:strip_icc()/pic725178.jpg",
+   "year": 2008,
+   "minp": 2,
+   "maxp": 8,
+   "time": 180,
+   "at": "2026-11-26T03:17:56.834Z"
+  },
   "43236": {
    "id": "43236",
    "en": "Bausack: Extension Kit",
@@ -4489,6 +8163,26 @@
    "maxp": 6,
    "time": null,
    "at": "2026-11-26T02:46:50.773Z"
+  },
+  "70463": {
+   "id": "70463",
+   "en": "Finca: Drought",
+   "thumb": "https://cf.geekdo-images.com/VhOPeu3lQnAzwcEdVW6xaA__small/img/DKwKiyBg_QE5QtEBK7Rux5U2HEY=/fit-in/200x150/filters:strip_icc()/pic9186470.jpg",
+   "year": 2010,
+   "minp": 2,
+   "maxp": 4,
+   "time": 45,
+   "at": "2026-11-26T03:17:56.834Z"
+  },
+  "96025": {
+   "id": "96025",
+   "en": "Infla: Defla",
+   "thumb": "",
+   "year": 2009,
+   "minp": 2,
+   "maxp": 8,
+   "time": null,
+   "at": "2026-11-26T03:17:56.834Z"
   },
   "108415": {
    "id": "108415",
@@ -4500,6 +8194,26 @@
    "time": 180,
    "at": "2026-11-26T02:46:50.773Z"
   },
+  "130752": {
+   "id": "130752",
+   "en": "Agricola: All Creatures Big and Small – More Buildings Big and Small",
+   "thumb": "https://cf.geekdo-images.com/UrPn-kE9bnfXe40SO4h7qQ__small/img/ZxjYEIC7cyLTYYvTo4F2rAFJ06o=/fit-in/200x150/filters:strip_icc()/pic1451726.jpg",
+   "year": 2012,
+   "minp": 2,
+   "maxp": 2,
+   "time": 30,
+   "at": "2026-11-26T03:18:01.652Z"
+  },
+  "138841": {
+   "id": "138841",
+   "en": "Bance!",
+   "thumb": "",
+   "year": 2012,
+   "minp": 2,
+   "maxp": 8,
+   "time": 90,
+   "at": "2026-11-26T03:17:56.833Z"
+  },
   "142708": {
    "id": "142708",
    "en": "Sid Meier's Civilization: The Board Game – Wisdom and Warfare",
@@ -4509,6 +8223,16 @@
    "maxp": 4,
    "time": 180,
    "at": "2026-11-26T02:46:50.773Z"
+  },
+  "145355": {
+   "id": "145355",
+   "en": "Agricola: All Creatures Big and Small – Even More Buildings Big and Small",
+   "thumb": "https://cf.geekdo-images.com/zEq0RlwXiwzs4F8p_hTNXA__small/img/7_gVbnDHi0u1rkgCE52ZzjvLkHU=/fit-in/200x150/filters:strip_icc()/pic1723707.jpg",
+   "year": 2013,
+   "minp": 2,
+   "maxp": 2,
+   "time": 30,
+   "at": "2026-11-26T03:18:01.652Z"
   },
   "155127": {
    "id": "155127",
@@ -4540,6 +8264,36 @@
    "time": 60,
    "at": "2026-11-26T02:46:50.773Z"
   },
+  "173558": {
+   "id": "173558",
+   "en": "Agricola: Chłopi i ich zwierzyniec – Jeszcze więcej budynków do zwierzyńca",
+   "thumb": "https://cf.geekdo-images.com/POKrBi32Mtwz0TmVzlJLcA__small/img/2O9hnlRWRY6mRMtzyVZA9ujgWrc=/fit-in/200x150/filters:strip_icc()/pic2325353.jpg",
+   "year": 2014,
+   "minp": 2,
+   "maxp": 2,
+   "time": null,
+   "at": "2026-11-26T03:18:01.652Z"
+  },
+  "178656": {
+   "id": "178656",
+   "en": "Brettspiel Adventskalender 2015",
+   "thumb": "https://cf.geekdo-images.com/7Ddwp-HWsErB8t7mVZgm3g__small/img/9d_QmiVxUni0LFC-PZM4VcQtsU4=/fit-in/200x150/filters:strip_icc()/pic2619758.jpg",
+   "year": 2015,
+   "minp": null,
+   "maxp": null,
+   "time": null,
+   "at": "2026-11-26T03:17:56.834Z"
+  },
+  "189661": {
+   "id": "189661",
+   "en": "Targi: The Action Tokens",
+   "thumb": "https://cf.geekdo-images.com/mT2tj1BZplvWKlnssaVmJw__small/img/F42qCyl84x2VVSowmT8xqd38ZNc=/fit-in/200x150/filters:strip_icc()/pic2798174.jpg",
+   "year": 2015,
+   "minp": 2,
+   "maxp": 2,
+   "time": null,
+   "at": "2026-11-26T03:18:01.652Z"
+  },
   "192779": {
    "id": "192779",
    "en": "Istanbul: Letters & Seals",
@@ -4550,6 +8304,26 @@
    "time": 60,
    "at": "2026-11-26T02:46:50.773Z"
   },
+  "197325": {
+   "id": "197325",
+   "en": "Factory Funner: Expansion 1",
+   "thumb": "https://cf.geekdo-images.com/EdIaly3VvInjT4U0BibDjg__small/img/hALyktzPzhPoACzD_2Rc40DnnRo=/fit-in/200x150/filters:strip_icc()/pic2962771.jpg",
+   "year": 2016,
+   "minp": 1,
+   "maxp": 5,
+   "time": 40,
+   "at": "2026-11-26T03:18:08.082Z"
+  },
+  "200771": {
+   "id": "200771",
+   "en": "Socialism: The Game (fan expansion for Monopoly)",
+   "thumb": "https://cf.geekdo-images.com/bFmyH7Uos4-2_dLunsVd2w__small/img/RGvUCBgoq42ExMxyimGWN3u5hMY=/fit-in/200x150/filters:strip_icc()/pic3038637.jpg",
+   "year": 2016,
+   "minp": 2,
+   "maxp": 6,
+   "time": 60,
+   "at": "2026-11-26T03:17:56.834Z"
+  },
   "202021": {
    "id": "202021",
    "en": "Broom Service: The 1st Expansion",
@@ -4559,6 +8333,16 @@
    "maxp": 5,
    "time": 75,
    "at": "2026-11-26T02:46:50.773Z"
+  },
+  "202453": {
+   "id": "202453",
+   "en": "Targi: The Expansion",
+   "thumb": "https://cf.geekdo-images.com/LYSW82ufTWZx46icnm_FZg__small/img/KfQpYNspff3stBu8eC8trujQTII=/fit-in/200x150/filters:strip_icc()/pic5145287.jpg",
+   "year": 2016,
+   "minp": 2,
+   "maxp": 2,
+   "time": 60,
+   "at": "2026-11-26T03:18:01.652Z"
   },
   "204573": {
    "id": "204573",
@@ -4580,6 +8364,16 @@
    "time": 60,
    "at": "2026-11-26T02:46:50.773Z"
   },
+  "208031": {
+   "id": "208031",
+   "en": "Cardopoly",
+   "thumb": "https://cf.geekdo-images.com/1dFFF9DhmzYNdYzXOTytIQ__small/img/c4XtAkJLdtYyaA5Dj9fExIv0rFI=/fit-in/200x150/filters:strip_icc()/pic3164768.jpg",
+   "year": 2016,
+   "minp": 2,
+   "maxp": 8,
+   "time": 120,
+   "at": "2026-11-26T03:17:56.833Z"
+  },
   "211173": {
    "id": "211173",
    "en": "Broom Service: Christmastime",
@@ -4600,6 +8394,16 @@
    "time": 60,
    "at": "2026-11-26T02:46:50.773Z"
   },
+  "232298": {
+   "id": "232298",
+   "en": "Deutscher Spielepreis 2017 Goodie Box",
+   "thumb": "https://cf.geekdo-images.com/DDotd_UeV-dRfQkQ6qA4yQ__small/img/BTKIbbAWw3XFDf3nkyTOSIJJRj8=/fit-in/200x150/filters:strip_icc()/pic3705436.jpg",
+   "year": 2017,
+   "minp": null,
+   "maxp": null,
+   "time": null,
+   "at": "2026-11-26T03:18:01.652Z"
+  },
   "234191": {
    "id": "234191",
    "en": "Camel Up: The Referee Camel & Istanbul – Caravan Leader Mini Expansion",
@@ -4609,6 +8413,46 @@
    "maxp": null,
    "time": null,
    "at": "2026-11-26T02:46:50.773Z"
+  },
+  "234515": {
+   "id": "234515",
+   "en": "ICECOOL: 0.5 Point Cards",
+   "thumb": "https://cf.geekdo-images.com/tBGD-JD-oewB3LsnHQCckQ__small/img/GqSDTdWpU4-DXIaG8jRakOxvOHo=/fit-in/200x150/filters:strip_icc()/pic3721436.png",
+   "year": 2017,
+   "minp": 2,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-26T03:18:01.652Z"
+  },
+  "236608": {
+   "id": "236608",
+   "en": "Special Buttons (fan expansion for Patchwork)",
+   "thumb": "https://cf.geekdo-images.com/2W8cDJztMeR3adVMtW-dpg__small/img/sLUjdbKS3AzQko5tvFFmBNEK970=/fit-in/200x150/filters:strip_icc()/pic3774804.png",
+   "year": 2016,
+   "minp": 2,
+   "maxp": 4,
+   "time": 45,
+   "at": "2026-11-26T03:18:01.652Z"
+  },
+  "238617": {
+   "id": "238617",
+   "en": "Patchwork: 5x5 Bonuskarte",
+   "thumb": "https://cf.geekdo-images.com/fZtXRs6iHFYpdATJb-KpTQ__small/img/PHQljr7KBqyGlHdkqPl1CXNLHgs=/fit-in/200x150/filters:strip_icc()/pic6872670.jpg",
+   "year": 2017,
+   "minp": 2,
+   "maxp": 2,
+   "time": 30,
+   "at": "2026-11-26T03:18:01.652Z"
+  },
+  "245473": {
+   "id": "245473",
+   "en": "Paper Tales: Beyond the Gates",
+   "thumb": "https://cf.geekdo-images.com/d0IWKs0qrVZ8P-AgayYy8Q__small/img/XhLRxK4FzYueno_OP0zh5xYQ_qQ=/fit-in/200x150/filters:strip_icc()/pic4261957.jpg",
+   "year": 2018,
+   "minp": 1,
+   "maxp": 7,
+   "time": 30,
+   "at": "2026-11-26T03:18:08.082Z"
   },
   "246431": {
    "id": "246431",
@@ -4620,6 +8464,26 @@
    "time": 60,
    "at": "2026-11-26T02:46:54.886Z"
   },
+  "252523": {
+   "id": "252523",
+   "en": "Factory Funner: Expansion 2",
+   "thumb": "https://cf.geekdo-images.com/7xsivl_T-wY0F-37FhGQxg__small/img/b95Dlxrt6w5_kZOFSMJGfZYR9rg=/fit-in/200x150/filters:strip_icc()/pic4395045.jpg",
+   "year": 2018,
+   "minp": 1,
+   "maxp": 5,
+   "time": 40,
+   "at": "2026-11-26T03:18:08.082Z"
+  },
+  "257570": {
+   "id": "257570",
+   "en": "Patchwork: Automa",
+   "thumb": "https://cf.geekdo-images.com/AY4OOJl3o26Ktz_4sBqCVw__small/img/VUni5SpeBTJ2CqM0mfvKN2IdtTY=/fit-in/200x150/filters:strip_icc()/pic6658302.jpg",
+   "year": 2018,
+   "minp": 1,
+   "maxp": 1,
+   "time": 30,
+   "at": "2026-11-26T03:18:01.652Z"
+  },
   "257636": {
    "id": "257636",
    "en": "The Quest for El Dorado: Promo Pack",
@@ -4629,6 +8493,16 @@
    "maxp": 4,
    "time": 60,
    "at": "2026-11-26T02:46:54.886Z"
+  },
+  "265034": {
+   "id": "265034",
+   "en": "ICECOOL: Emerald Fish Promo",
+   "thumb": "https://cf.geekdo-images.com/ObdKrELP9lK4He4C84cj_Q__small/img/nT_Os-Xr_cfaWQbNvCf0uE4gzg0=/fit-in/200x150/filters:strip_icc()/pic4412125.jpg",
+   "year": 2018,
+   "minp": 2,
+   "maxp": 4,
+   "time": 30,
+   "at": "2026-11-26T03:18:01.652Z"
   },
   "265290": {
    "id": "265290",
@@ -4649,6 +8523,16 @@
    "maxp": 4,
    "time": 90,
    "at": "2026-11-26T02:46:54.886Z"
+  },
+  "286086": {
+   "id": "286086",
+   "en": "Deutscher Spielepreis Classic Goodie Box",
+   "thumb": "https://cf.geekdo-images.com/HDGfDyQ-KCbN__zmU9lDCg__small/img/pmpuCptFgb9_HCNY1BfrTPvKSeA=/fit-in/200x150/filters:strip_icc()/pic4881700.jpg",
+   "year": 2019,
+   "minp": null,
+   "maxp": null,
+   "time": null,
+   "at": "2026-11-26T03:18:01.652Z"
   },
   "286287": {
    "id": "286287",
@@ -4690,6 +8574,26 @@
    "time": 60,
    "at": "2026-11-26T02:46:50.773Z"
   },
+  "290502": {
+   "id": "290502",
+   "en": "ICECOOL: Artifacts",
+   "thumb": "https://cf.geekdo-images.com/5p6FlgoA6AE-BqYG8N_wsw__small/img/aXkceacq2frseTY43lcc0sz1BT4=/fit-in/200x150/filters:strip_icc()/pic4982888.jpg",
+   "year": 2019,
+   "minp": 2,
+   "maxp": 4,
+   "time": 30,
+   "at": "2026-11-26T03:18:01.652Z"
+  },
+  "292884": {
+   "id": "292884",
+   "en": "ICECOOL: Walrus Expansion",
+   "thumb": "https://cf.geekdo-images.com/Xa_f2sKd0hQYNew828h0Cg__small/img/h7e9_js38c-IuO0___4vjzcssXs=/fit-in/200x150/filters:strip_icc()/pic5041050.jpg",
+   "year": 2019,
+   "minp": 2,
+   "maxp": 4,
+   "time": 30,
+   "at": "2026-11-26T03:18:01.652Z"
+  },
   "293240": {
    "id": "293240",
    "en": "Super Power",
@@ -4709,6 +8613,16 @@
    "maxp": 5,
    "time": 90,
    "at": "2026-11-26T02:47:00.141Z"
+  },
+  "294722": {
+   "id": "294722",
+   "en": "ICECOOL: Blocked Door promo card",
+   "thumb": "https://cf.geekdo-images.com/9fQwZU-1uV_I_--_pvj-Bw__small/img/KX8c6L_pyygc5u58-r2pAclOA6A=/fit-in/200x150/filters:strip_icc()/pic5076645.png",
+   "year": 2019,
+   "minp": 2,
+   "maxp": 8,
+   "time": 30,
+   "at": "2026-11-26T03:18:01.652Z"
   },
   "295361": {
    "id": "295361",
@@ -4740,6 +8654,16 @@
    "time": 120,
    "at": "2026-11-26T02:47:00.141Z"
   },
+  "329281": {
+   "id": "329281",
+   "en": "Targi: Alternative Border Cards",
+   "thumb": "https://cf.geekdo-images.com/gqupX9f-NGfPneEOPN-UMw__small/img/vjlUiP5F7gSkq26-ZTjNVGZj2OA=/fit-in/200x150/filters:strip_icc()/pic5953490.jpg",
+   "year": 2020,
+   "minp": 2,
+   "maxp": 2,
+   "time": 60,
+   "at": "2026-11-26T03:18:01.652Z"
+  },
   "332065": {
    "id": "332065",
    "en": "Steampunk Rally: Complete Promo Pack 2020",
@@ -4769,6 +8693,16 @@
    "maxp": 5,
    "time": 90,
    "at": "2026-11-26T02:47:00.141Z"
+  },
+  "336808": {
+   "id": "336808",
+   "en": "Brew: Companion Creature mini-expansion",
+   "thumb": "https://cf.geekdo-images.com/pErA4ZWkRQXrtHO9KTK5rw__small/img/eW9V6-I180GOl7xTLW26iuO0PNc=/fit-in/200x150/filters:strip_icc()/pic6124502.png",
+   "year": 2021,
+   "minp": 2,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-26T03:18:08.082Z"
   },
   "337330": {
    "id": "337330",
@@ -4830,6 +8764,16 @@
    "time": 90,
    "at": "2026-11-26T02:46:54.886Z"
   },
+  "351522": {
+   "id": "351522",
+   "en": "Factory Funner: Precision Reservoirs",
+   "thumb": "https://cf.geekdo-images.com/6QObahf16p7LNMsvCBbpMg__small/img/-Yew1hjnJYjPEDo_F8WGwgUpKcc=/fit-in/200x150/filters:strip_icc()/pic6516897.jpg",
+   "year": 2021,
+   "minp": 1,
+   "maxp": 5,
+   "time": 40,
+   "at": "2026-11-26T03:18:08.082Z"
+  },
   "351549": {
    "id": "351549",
    "en": "Keep the Heroes Out!: The Great Dreamer Expansion",
@@ -4850,6 +8794,16 @@
    "time": 40,
    "at": "2026-11-26T02:47:06.217Z"
   },
+  "352250": {
+   "id": "352250",
+   "en": "Improving Games: Monopoly",
+   "thumb": "https://cf.geekdo-images.com/pTG-aKGVs1J1FM-jMr93JA__small/img/X5ifY5LWfLCrYhJ3KW3kihiARDI=/fit-in/200x150/filters:strip_icc()/pic6544001.png",
+   "year": 2016,
+   "minp": 2,
+   "maxp": 4,
+   "time": 180,
+   "at": "2026-11-26T03:17:56.834Z"
+  },
   "354979": {
    "id": "354979",
    "en": "Merchants Cove: The Entertainer Crossover Pack",
@@ -4860,6 +8814,16 @@
    "time": null,
    "at": "2026-11-26T02:46:54.886Z"
   },
+  "355657": {
+   "id": "355657",
+   "en": "Variations on a Theme: Supplementary Rules for Monopoly",
+   "thumb": "https://cf.geekdo-images.com/Fi0DlN-G6SJDIxCELMnbMQ__small/img/E9FaSxtlTfwXEr8afLgNX1c1NoY=/fit-in/200x150/filters:strip_icc()/pic6647579.jpg",
+   "year": 1983,
+   "minp": 2,
+   "maxp": 8,
+   "time": null,
+   "at": "2026-11-26T03:17:56.834Z"
+  },
   "358682": {
    "id": "358682",
    "en": "The Guild of Merchant Explorers: The Queen's Special Orders",
@@ -4869,6 +8833,16 @@
    "maxp": 4,
    "time": 45,
    "at": "2026-11-26T02:47:06.217Z"
+  },
+  "362509": {
+   "id": "362509",
+   "en": "Co-opoly: a \"conversion kit\" for Monopoly",
+   "thumb": "https://cf.geekdo-images.com/JtGQGodDE6sC7P7uQszhKw__small/img/J8js1k5LXDzxcHaoRNgRak9scvk=/fit-in/200x150/filters:strip_icc()/pic9289988.png",
+   "year": 2019,
+   "minp": 1,
+   "maxp": 4,
+   "time": 45,
+   "at": "2026-11-26T03:17:56.833Z"
   },
   "363525": {
    "id": "363525",
@@ -4890,6 +8864,26 @@
    "time": 90,
    "at": "2026-11-26T02:46:54.886Z"
   },
+  "363762": {
+   "id": "363762",
+   "en": "Pawclaw Mini Expansion",
+   "thumb": "https://cf.geekdo-images.com/3sqw2GYC6rcotmxKEXCIRQ__small/img/axwp9Qp8uAONmaxF41_L7TydU-U=/fit-in/200x150/filters:strip_icc()/pic6884952.jpg",
+   "year": 2023,
+   "minp": null,
+   "maxp": null,
+   "time": null,
+   "at": "2026-11-26T03:18:08.082Z"
+  },
+  "363763": {
+   "id": "363763",
+   "en": "The Emperor Mini Expansion",
+   "thumb": "https://cf.geekdo-images.com/SZteKaXrhsnbV832F4BWJA__small/img/CAfV6i37U-ZaJqhOkn4gBDiW2tM=/fit-in/200x150/filters:strip_icc()/pic6884946.jpg",
+   "year": 2023,
+   "minp": null,
+   "maxp": null,
+   "time": null,
+   "at": "2026-11-26T03:18:01.652Z"
+  },
   "364636": {
    "id": "364636",
    "en": "The Quest for El Dorado: Dangers & Muisca",
@@ -4910,6 +8904,26 @@
    "time": 90,
    "at": "2026-11-26T02:46:54.886Z"
   },
+  "364690": {
+   "id": "364690",
+   "en": "Targi: Die Bonus-Box",
+   "thumb": "https://cf.geekdo-images.com/5jfr4DshmtDMBtryc9pETQ__small/img/Yx6Yf4sWf9YujOH3rfqXShp0BWE=/fit-in/200x150/filters:strip_icc()/pic7064214.jpg",
+   "year": 2022,
+   "minp": 1,
+   "maxp": 2,
+   "time": 60,
+   "at": "2026-11-26T03:18:01.652Z"
+  },
+  "365468": {
+   "id": "365468",
+   "en": "Paper Tales: Ce qui forge les légendes",
+   "thumb": "https://cf.geekdo-images.com/yoI11o0dAKewAYszEUSxog__small/img/bhy4bfGx6Nb8LmoO_ZEAoNMowQw=/fit-in/200x150/filters:strip_icc()/pic6925423.jpg",
+   "year": 2022,
+   "minp": 2,
+   "maxp": 5,
+   "time": 30,
+   "at": "2026-11-26T03:18:08.082Z"
+  },
   "367354": {
    "id": "367354",
    "en": "Cubitos: Dodatkowe trasy",
@@ -4919,6 +8933,16 @@
    "maxp": null,
    "time": null,
    "at": "2026-11-26T02:47:00.141Z"
+  },
+  "370657": {
+   "id": "370657",
+   "en": "Crazy Quilt (fan expansion for Patchwork)",
+   "thumb": "",
+   "year": 2022,
+   "minp": 2,
+   "maxp": 2,
+   "time": null,
+   "at": "2026-11-26T03:18:01.652Z"
   },
   "371924": {
    "id": "371924",
@@ -5020,6 +9044,16 @@
    "time": 90,
    "at": "2026-11-26T02:46:54.886Z"
   },
+  "390721": {
+   "id": "390721",
+   "en": "Beacon Patrol: Discovery Tiles",
+   "thumb": "https://cf.geekdo-images.com/1dMigoSP_XOW-5jeZamV6w__small/img/F7BHUPIvaOtaGA9zqUkQyfIanic=/fit-in/200x150/filters:strip_icc()/pic7674022.jpg",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 4,
+   "time": 45,
+   "at": "2026-11-26T03:18:08.082Z"
+  },
   "395699": {
    "id": "395699",
    "en": "Istanbul: Pegasus Depot & Kebab Shop Mini Expansions",
@@ -5069,6 +9103,26 @@
    "maxp": 4,
    "time": 90,
    "at": "2026-11-26T02:47:09.238Z"
+  },
+  "400127": {
+   "id": "400127",
+   "en": "Fit To Print: Game Breaking News Mini-Expansion",
+   "thumb": "https://cf.geekdo-images.com/U_SBZ5g9dVWM_N9DcRcZIw__small/img/WxsffNd3oO3SWtt1in02mPW7eD8=/fit-in/200x150/filters:strip_icc()/pic7702275.jpg",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 6,
+   "time": 30,
+   "at": "2026-11-26T03:18:08.082Z"
+  },
+  "403195": {
+   "id": "403195",
+   "en": "Patchwork: Dolle Decken",
+   "thumb": "https://cf.geekdo-images.com/fS_QzJJU9BBNJWjKuQcNUg__small/img/PhTzFIz08WwUZoRIprovw4hxAHQ=/fit-in/200x150/filters:strip_icc()/pic7841367.jpg",
+   "year": 2023,
+   "minp": 2,
+   "maxp": 2,
+   "time": null,
+   "at": "2026-11-26T03:18:01.652Z"
   },
   "403909": {
    "id": "403909",
@@ -5140,6 +9194,16 @@
    "time": 20,
    "at": "2026-11-26T02:47:09.238Z"
   },
+  "418124": {
+   "id": "418124",
+   "en": "River Valley Glassworks: River Glass and Other Sundries",
+   "thumb": "https://cf.geekdo-images.com/RFZc01CRdzYxqT6Vvm38BQ__small/img/qmNn7NPFk2rZfO124Gywbgn4S1A=/fit-in/200x150/filters:strip_icc()/pic9214346.jpg",
+   "year": 2024,
+   "minp": 2,
+   "maxp": 5,
+   "time": 30,
+   "at": "2026-11-26T03:18:08.082Z"
+  },
   "419925": {
    "id": "419925",
    "en": "Factoria: Forbidden Walkers",
@@ -5149,6 +9213,26 @@
    "maxp": 6,
    "time": 70,
    "at": "2026-11-26T02:47:06.217Z"
+  },
+  "419974": {
+   "id": "419974",
+   "en": "Square One: Joker Expansion",
+   "thumb": "https://cf.geekdo-images.com/ISv2j3tlQ6m3orK13GOgjA__small/img/xB57J_cUQYjBJuqwwA-OaS8GkVQ=/fit-in/200x150/filters:strip_icc()/pic8180463.jpg",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 6,
+   "time": 50,
+   "at": "2026-11-26T03:18:08.082Z"
+  },
+  "419975": {
+   "id": "419975",
+   "en": "Square One: Joker Ambassador Pack",
+   "thumb": "https://cf.geekdo-images.com/tomoAmu1ipzQ67VT8cz-7g__small/img/RC6PlOG0X7eNOx8_tb61OCta7hU=/fit-in/200x150/filters:strip_icc()/pic8180471.jpg",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 4,
+   "time": 50,
+   "at": "2026-11-26T03:18:08.082Z"
   },
   "420425": {
    "id": "420425",
@@ -5240,6 +9324,66 @@
    "time": 60,
    "at": "2026-11-26T02:46:54.886Z"
   },
+  "436644": {
+   "id": "436644",
+   "en": "Parks & Potions: Potion Perils",
+   "thumb": "https://cf.geekdo-images.com/GJnUwap_6mzXD_hCrQGgmA__small/img/agYQZqNuBBTJAOPJOX52ThMGIO4=/fit-in/200x150/filters:strip_icc()/pic8635677.png",
+   "year": 2025,
+   "minp": 2,
+   "maxp": 5,
+   "time": 45,
+   "at": "2026-11-26T03:18:08.082Z"
+  },
+  "436645": {
+   "id": "436645",
+   "en": "Parks & Potions: Bugs & Bottles Expansion",
+   "thumb": "https://cf.geekdo-images.com/2IJCFfhvFV8Lv5OlvMYMrg__small/img/yvq8hfupS8MntLhscjdkX5JYYkc=/fit-in/200x150/filters:strip_icc()/pic8635868.png",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 6,
+   "time": 30,
+   "at": "2026-11-26T03:18:08.082Z"
+  },
+  "436805": {
+   "id": "436805",
+   "en": "Monopoly: Buy Everything",
+   "thumb": "https://cf.geekdo-images.com/cyrsIDb_ixQbYOpF-NX5XQ__small/img/H5Ohx8BzgmVTAPGjYBzPgqB7xbg=/fit-in/200x150/filters:strip_icc()/pic8638280.jpg",
+   "year": 2025,
+   "minp": 2,
+   "maxp": 6,
+   "time": 40,
+   "at": "2026-11-26T03:17:56.834Z"
+  },
+  "436806": {
+   "id": "436806",
+   "en": "Monopoly: Free Parking Jackpot",
+   "thumb": "https://cf.geekdo-images.com/ZsYizTZuLXE7HBVWBF8AqQ__small/img/y3P7wFzhKOyznGT1yDtQnMHjEFQ=/fit-in/200x150/filters:strip_icc()/pic8638298.jpg",
+   "year": 2025,
+   "minp": 2,
+   "maxp": 6,
+   "time": 40,
+   "at": "2026-11-26T03:17:56.834Z"
+  },
+  "436810": {
+   "id": "436810",
+   "en": "Monopoly: Go to Jail",
+   "thumb": "https://cf.geekdo-images.com/TsAxCEJEJo428Q_cvxtODw__small/img/d_BYXOCO73uz4pdm8ns-RwTjSUM=/fit-in/200x150/filters:strip_icc()/pic8638308.jpg",
+   "year": 2025,
+   "minp": 2,
+   "maxp": 6,
+   "time": 40,
+   "at": "2026-11-26T03:17:56.834Z"
+  },
+  "439610": {
+   "id": "439610",
+   "en": "Square One: Combo Master",
+   "thumb": "https://cf.geekdo-images.com/tDqjau7WG_rKsppnklmBSg__small/img/rkxs8j5ZsThAR9nwqyoD1QEb-Fc=/fit-in/200x150/filters:strip_icc()/pic8719070.jpg",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 4,
+   "time": 50,
+   "at": "2026-11-26T03:18:08.082Z"
+  },
   "441998": {
    "id": "441998",
    "en": "Canvas: Finishing Touches – Deluxe Upgrade Pack",
@@ -5330,6 +9474,26 @@
    "time": 60,
    "at": "2026-11-26T02:47:12.405Z"
   },
+  "447767": {
+   "id": "447767",
+   "en": "Manhattan Affair",
+   "thumb": "https://cf.geekdo-images.com/OY1qbF5KWr-pbAIUd8zMkA__small/img/KgUKU7l0jnvQ9Vzbmpmav7LWCG8=/fit-in/200x150/filters:strip_icc()/pic8924374.png",
+   "year": 2025,
+   "minp": 3,
+   "maxp": 6,
+   "time": 240,
+   "at": "2026-11-26T03:17:56.834Z"
+  },
+  "451345": {
+   "id": "451345",
+   "en": "Propolis: Structural Diversity",
+   "thumb": "https://cf.geekdo-images.com/WRGxe27C8cYL8IqKgazDng__small/img/dnyDgALOx_PAcGZwwlK287GfO20=/fit-in/200x150/filters:strip_icc()/pic9071041.jpg",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 4,
+   "time": 30,
+   "at": "2026-11-26T03:18:08.082Z"
+  },
   "451710": {
    "id": "451710",
    "en": "The Guild of Merchant Explorers: Party Pack",
@@ -5369,6 +9533,16 @@
    "maxp": 4,
    "time": null,
    "at": "2026-11-26T02:47:09.238Z"
+  },
+  "453843": {
+   "id": "453843",
+   "en": "Parks & Potions: Quetzal Promo",
+   "thumb": "https://cf.geekdo-images.com/eSxqgMAqiQhOmXTnXKoH3w__small/img/H44xCYNY5NStJgOz5d6y6YtXhvw=/fit-in/200x150/filters:strip_icc()/pic9169482.jpg",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 5,
+   "time": null,
+   "at": "2026-11-26T03:18:08.082Z"
   },
   "454171": {
    "id": "454171",
@@ -5410,6 +9584,16 @@
    "time": null,
    "at": "2026-11-26T02:47:12.405Z"
   },
+  "456353": {
+   "id": "456353",
+   "en": "Jingle Bell Roll: Naughty or Dice Promo",
+   "thumb": "https://cf.geekdo-images.com/QIeu7m65WXndeqipdnujQw__small/img/nlfhSFgJxNpBuB8OdKSG5CcfcHk=/fit-in/200x150/filters:strip_icc()/pic9162877.jpg",
+   "year": 2025,
+   "minp": 2,
+   "maxp": 6,
+   "time": null,
+   "at": "2026-11-26T03:18:11.366Z"
+  },
   "458424": {
    "id": "458424",
    "en": "Captain Flip: Isla Bomba",
@@ -5429,6 +9613,26 @@
    "maxp": 4,
    "time": null,
    "at": "2026-11-26T02:47:09.238Z"
+  },
+  "461999": {
+   "id": "461999",
+   "en": "Jingle Bell Roll: Fruitcake Promo Card",
+   "thumb": "https://cf.geekdo-images.com/V0Yv82XnsaBxTJjnuF8rtA__small/img/LF92GV_3QVVjsQNfJK3USFKgtSA=/fit-in/200x150/filters:strip_icc()/pic9538810.jpg",
+   "year": 2025,
+   "minp": 2,
+   "maxp": 6,
+   "time": 30,
+   "at": "2026-11-26T03:18:08.082Z"
+  },
+  "462460": {
+   "id": "462460",
+   "en": "Splendor Duel: The Counterfeiters",
+   "thumb": "https://cf.geekdo-images.com/GpZJl9ZGKrF_AuqesvUpdA__small/img/Q46EUtruZqv1omqQKn9wwX__sBc=/fit-in/200x150/filters:strip_icc()/pic9338755.png",
+   "year": 2026,
+   "minp": 2,
+   "maxp": 2,
+   "time": 30,
+   "at": "2026-11-26T03:18:08.082Z"
   },
   "462804": {
    "id": "462804",
@@ -5490,6 +9694,16 @@
    "time": null,
    "at": "2026-11-26T02:47:09.238Z"
   },
+  "472775": {
+   "id": "472775",
+   "en": "Square One: Combo Master Ambassador Pack",
+   "thumb": "https://cf.geekdo-images.com/m0DGf9-cI-xofnqNnQjRyg__small/img/9NAhfd71NvRY_BDo2vd6bqhm4GA=/fit-in/200x150/filters:strip_icc()/pic9672874.jpg",
+   "year": 2025,
+   "minp": 1,
+   "maxp": 4,
+   "time": 50,
+   "at": "2026-11-26T03:18:08.082Z"
+  },
   "475576": {
    "id": "475576",
    "en": "Garden Club: Christmas Promo",
@@ -5499,6 +9713,16 @@
    "maxp": 2,
    "time": 10,
    "at": "2026-11-26T02:47:09.238Z"
+  },
+  "476471": {
+   "id": "476471",
+   "en": "Jingle Bell Roll: Mystery Bag Promo Card",
+   "thumb": "https://cf.geekdo-images.com/T2EcAeIqNVT2jxXK_qC5iQ__small/img/mwp6sI1T2QepmsOUprBD1xt85Es=/fit-in/200x150/filters:strip_icc()/pic9931127.jpg",
+   "year": 2026,
+   "minp": 2,
+   "maxp": 6,
+   "time": 30,
+   "at": "2026-11-26T03:18:11.366Z"
   },
   "476734": {
    "id": "476734",
@@ -5539,6 +9763,26 @@
    "maxp": 4,
    "time": null,
    "at": "2026-11-26T02:47:12.405Z"
+  },
+  "481942": {
+   "id": "481942",
+   "en": "Jingle Bell Roll: Tricks & Treats Promo",
+   "thumb": "",
+   "year": 2026,
+   "minp": 2,
+   "maxp": 6,
+   "time": 30,
+   "at": "2026-11-26T03:18:11.366Z"
+  },
+  "484055": {
+   "id": "484055",
+   "en": "Jingle Bell Roll: Tricks & Treats Promo",
+   "thumb": "https://cf.geekdo-images.com/Gm3_3oMfYIyab-jT1Bhk_w__small/img/tQb37aagyYDulRoNtPOpLpfanBA=/fit-in/200x150/filters:strip_icc()/pic9933106.jpg",
+   "year": 2027,
+   "minp": 2,
+   "maxp": 6,
+   "time": 25,
+   "at": "2026-11-26T03:18:11.366Z"
   }
  }
 }
