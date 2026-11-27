@@ -5,10 +5,10 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const TOKEN = process.env.BGG_TOKEN;
 if (!TOKEN) { console.log("BGG_TOKEN が未設定のためスキップ"); process.exit(0); }
-const MAX = 50;              // 1回の実行で取得する件数
+const MAX = 70;              // 1回の実行で取得する件数
 const REFRESH_DAYS = 60;     // 取り直すまでの日数
 const MAX_VERSIONS = 24;     // 箱絵の候補として残す版の数
-const SCHEMA = 3;            // 取得項目を増やしたら上げる（全件取り直し）
+const SCHEMA = 4;            // 取得項目を増やしたら上げる（全件取り直し）。4：箱の寸法（box・版ごとの size）
 const EXP_BATCHES = 15;      // 拡張の簡易情報：1回の実行で取る束の数（1束20件）
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const dec1 = (s = "") => s.replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n)).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
@@ -29,6 +29,12 @@ async function api(path) {
 }
 const attr = (xml, tag, type) => dec(xml.match(new RegExp(`<${tag}${type ? ` type="${type}"` : ""}[^>]*value="([^"]*)"`))?.[1] || "");
 const text = (xml, tag) => dec(xml.match(new RegExp(`<${tag}>([^<]+)</${tag}>`))?.[1] || "").trim();
+// 版の箱の寸法（BGGはインチ）→ [長辺, 短辺, 厚さ]（cm・小数1桁）。0 や明らかにおかしい値は捨てる
+const dims = (v) => {
+  const cm = (t) => +(+attr(v, t) * 2.54).toFixed(1);
+  const [a, b] = [cm("width"), cm("length")].sort((x, y) => y - x), d = cm("depth");
+  return a >= 3 && b >= 3 && a <= 120 ? [a, b, d || 0] : null;
+};
 // 説明文：改行を整えて長すぎる分は切る
 const desc = (xml) => {
   const t = text(xml, "description").replace(/\r/g, "").replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
@@ -44,11 +50,16 @@ async function info(id) {
   const versions = [...vers.matchAll(/<item type="boardgameversion" id="(\d+)">([\s\S]*?)<\/item>/g)].map(([, vid, v]) => ({
     id: vid, name: attr(v, "name", "primary"), year: +attr(v, "yearpublished") || null,
     lang: [...v.matchAll(/<link type="language"[^>]*value="([^"]*)"/g)].map((m) => dec(m[1])).join("・"),
-    thumb: text(v, "thumbnail"), image: text(v, "image"),
-  })).filter((v) => v.thumb && !/nophoto|noimage/i.test(v.thumb));
+    thumb: text(v, "thumbnail"), image: text(v, "image"), size: dims(v),
+  }));
+  // 箱の寸法：日本語版に寸法があればそれ、なければ寸法のある版の面積の中央値
+  const sized = versions.filter((v) => v.size);
+  const ja = sized.find((v) => /Japanese/.test(v.lang));
+  const mid = [...sized].sort((a, b) => a.size[0] * a.size[1] - b.size[0] * b.size[1])[Math.floor((sized.length - 1) / 2)];
+  const box = (ja || mid)?.size || null;
   // 日本語版を先頭に、あとは新しい順。同じ画像は1つに
   const seen = new Set();
-  const picked = versions.sort((a, b) => (/Japanese/.test(b.lang) - /Japanese/.test(a.lang)) || ((b.year || 0) - (a.year || 0)))
+  const picked = versions.filter((v) => v.thumb && !/nophoto|noimage/i.test(v.thumb)).sort((a, b) => (/Japanese/.test(b.lang) - /Japanese/.test(a.lang)) || ((b.year || 0) - (a.year || 0)))
     .filter((v) => !seen.has(v.thumb) && seen.add(v.thumb)).slice(0, MAX_VERSIONS);
   const links = (type) => [...main.matchAll(new RegExp(`<link type="${type}" id="(\\d+)" value="([^"]*)"( inbound="true")?`, "g"))];
   const range = (re) => main.match(re)?.[1]?.replace(/[–-]/g, "〜") || "";
@@ -70,7 +81,7 @@ async function info(id) {
     en: attr(main, "name", "primary"), ja: alts.find((n) => /[぀-ヿ]/.test(n)) || "",
     minp: +attr(main, "minplayers") || null, maxp: +attr(main, "maxplayers") || null,
     time: +attr(main, "playingtime") || null, year: +attr(main, "yearpublished") || null,
-    thumb: text(main, "thumbnail"), image: text(main, "image"), versions: picked, at: new Date().toISOString(),
+    thumb: text(main, "thumbnail"), image: text(main, "image"), box, versions: picked, at: new Date().toISOString(),
   };
 }
 

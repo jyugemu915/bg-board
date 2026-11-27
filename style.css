@@ -236,3 +236,41 @@ form.oedit .flagck input{width:auto;margin:0}
 .opack .tart img{width:100%;max-height:none;border-radius:5px}
 .opack .tov{padding-top:3px}
 @media(max-width:359px){.tov .ic{display:none}}
+/* 箱の大中小（詰める表示：中箱は8割・小箱は2つ並び／棚表示：高さの上限を変える） */
+.opack .prow{display:flex;gap:6px;align-items:flex-end}
+.opack .prow .tile{flex:1 1 0;min-width:0}
+.opack .prow .tile:only-child{flex:0 0 calc(50% - 3px)}
+.opack .tile.pM{width:80%;align-self:center}
+.opack .tile.pS .tov{font-size:9.5px}
+.opack .tile.pS .tbadge{font-size:9px;padding:0 3px}
+.ogrid .tile.bM .tart img{max-height:140px;max-width:85%}
+.ogrid .tile.bS .tart img{max-height:95px;max-width:62%}
+/* スリーブ */
+.sleeves .lbl{display:flex;align-items:center;gap:8px}
+.mini{margin-left:auto;border:1px solid var(--line);background:#fff;border-radius:6px;padding:1px 8px;font-size:11.5px;color:#555}
+.srow{display:grid;grid-template-columns:auto 1fr auto;gap:0 10px;align-items:baseline;padding:5px 0;border-bottom:1px dashed var(--line);font-size:13px}
+.srow .sz{font-weight:600;font-variant-numeric:tabular-nums}
+.srow small{font-size:10.5px;color:var(--muted);margin-left:3px;font-weight:400}
+.srow .sc{text-align:right;font-variant-numeric:tabular-nums}
+.srow .sk{grid-column:1/-1;font-size:11.5px;color:var(--muted)}
+.srow.done .sk{color:#4f7a4a}
+.sleeves>.s{font-size:12px;color:var(--muted)}
+form.sform{padding:4px 0;border:0}
+form.sform .sedit{display:flex;flex-direction:column;gap:4px;padding:8px 0;border-bottom:1px dashed var(--line)}
+form.sform .num{flex:0 0 80px}
+form.sform .ghostbtn{padding:6px 10px}
+.ssum{padding:10px 14px}
+.ssum .lbl{display:flex;align-items:center;font-size:13px;font-weight:600;margin-bottom:6px}
+.ssum table{width:100%;border-collapse:collapse;font-size:13px}
+.ssum th{font-size:11px;color:var(--muted);font-weight:400;text-align:right;padding:2px 4px}
+.ssum th:first-child,.ssum td:first-child{text-align:left}
+.ssum td{text-align:right;padding:5px 4px;border-top:1px solid var(--line);font-variant-numeric:tabular-nums;vertical-align:top}
+.ssum td small{font-size:10.5px;color:var(--muted);margin-left:4px}
+.ssum .kinds{font-size:11px;color:#4f7a4a}
+.ssum td.left{color:var(--accent);font-weight:600}
+.ssum tr.todo td{border-top:0;padding-top:0;text-align:left}
+.ssum .todos{display:flex;flex-wrap:wrap;gap:4px}
+.foot button.on{background:var(--dark);color:#fff}
+form.sform .ck{white-space:nowrap;font-size:13px}
+form.sform .ck input{width:auto}
+.opack .tile.pS .tov .ic{display:none}

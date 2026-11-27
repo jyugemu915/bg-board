@@ -27,12 +27,31 @@ const FLAGS = [["unopened", "未開封"], ["untranslated", "未訳"], ["unplayed
 const flagTags = (g, cls = "tag flag") => (g.flags || []).map((f) => FLAGS.find((x) => x[0] === f)).filter(Boolean).map(([k, l]) => `<span class="${cls} f-${k}">${l}</span>`).join("");
 const LS_OVIEW = "bgb.ownedview.v1";
 const OS = { q: "", flag: "", players: 0, best: false, time: "", weight: "", cat: "", mech: "", n: 60, sheet: null, edit: false, adding: false, bulk: false, expN: 8, link: null,
-  ...store.get(LS_OVIEW, { view: "pack", sort: "added" }) };
+  sleeveEdit: false, sleeveSum: false, boxes: "size", ...store.get(LS_OVIEW, { view: "pack", sort: "added" }) };
 if (OS.view === "grid") OS.view = "pack";   // 旧設定（棚表示）→ 詰める表示を既定に
 // 箱絵の縦横比（読み込んだ画像から覚えておき、詰める表示の配置に使う）
 const aspects = store.get("bgb.aspect.v1", {});
 let aspectSave = 0;
-const saveView = () => store.set(LS_OVIEW, { view: OS.view, sort: OS.sort });
+const saveView = () => store.set(LS_OVIEW, { view: OS.view, sort: OS.sort, boxes: OS.boxes });
+
+// 箱の大きさ（大中小）：手動（g.box）→ 選んだ版の寸法 → BGGの寸法（日本語版優先）。面積で判定、寸法がなければ中箱
+const BOXES = [["L", "大箱"], ["M", "中箱"], ["S", "小箱"]];
+function boxSize(g) {
+  const i = oinfo(g);
+  const v = g.img && (i?.versions || []).find((x) => x.thumb === g.img && x.size);
+  const cm = v?.size || i?.box || null;
+  const auto = cm ? (cm[0] * cm[1] < 300 ? "S" : cm[0] * cm[1] < 750 ? "M" : "L") : "M";
+  return { t: g.box || auto, auto, cm, manual: !!g.box };
+}
+const boxLabel = (t) => BOXES.find((x) => x[0] === t)?.[1] || "";
+const cmText = (cm) => cm ? `${cm[0]}×${cm[1]}${cm[2] ? `×${cm[2]}` : ""}cm` : "";
+
+// スリーブ：g.sleeves = [{ name, w, h, n, kind, done }]（mm・枚数・使ったスリーブ・スリーブ済み）
+const SLEEVE_SIZES = [["63.5×88", "スタンダード"], ["59×92", "ユーロ"], ["56×87", "USA"], ["66×91", "TCG"], ["57.5×89", "チミニ"], ["44×68", "ミニユーロ"], ["41×63", "ミニUSA"], ["70×110", "タロット"], ["80×120", "大判"]];
+const sizeKey = (s) => `${+s.w}×${+s.h}`;
+const sizeName = (k) => SLEEVE_SIZES.find((x) => x[0] === k)?.[1] || "";
+function parseSize(t) { const m = String(t).replace(/[０-９．]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xfee0)).match(/(\d+(?:\.\d+)?)\s*[x×*✕]\s*(\d+(?:\.\d+)?)/i); return m ? [+m[1], +m[2]].sort((a, b) => a - b) : null; }
+const sleeveKinds = () => [...new Set(owned.flatMap((g) => (g.sleeves || []).map((s) => s.kind)).filter(Boolean))];
 
 // 本体と拡張のまとまり：parent の名前（日本語名・英語名・登録時の名前）か、BGGの「この拡張の本体」で探す。拡張の拡張も本体の下にまとめる
 function ownedGroups() {
@@ -62,7 +81,7 @@ function ownedGroups() {
 // 検索用の文字列（名前・英語名・デザイナー・アーティスト・出版社・メカニクス・カテゴリー）
 function hay(g) {
   const i = oinfo(g) || {};
-  return norm([g.name, enName(g), i.ja, g.includes, ...(i.designers || []), ...(i.artists || []), ...(i.publishers || []), ...(i.families || []),
+  return norm([g.name, enName(g), i.ja, g.includes, ...(g.sleeves || []).map((s) => s.kind), ...(i.designers || []), ...(i.artists || []), ...(i.publishers || []), ...(i.families || []),
     ...(i.mechanics || []).flatMap((m) => [m, mechJa(m)]), ...(i.categories || []).flatMap((c) => [c, catJa(c)])].filter(Boolean).join("|"));
 }
 // "3〜4" "2, 4" "5+" → 数の集合
@@ -168,17 +187,19 @@ function buildOwnedPage(root) {
     <div class="obar"><span id="oHits" class="muted"></span><button id="oClear" class="chip ghost" hidden>条件をクリア</button><span style="flex:1"></span>
       <select id="oSort">${SORTS.map(([k, l]) => `<option value="${k}">${l}</option>`).join("")}</select>
       <div class="seg sm" id="oView"><button data-v="pack" title="箱絵を詰めて表示">▦</button><button data-v="shelf" title="棚">棚</button><button data-v="list" title="リスト">☰</button></div></div>
-    <div class="obar2"><span class="flbl">表記</span><div class="seg sm" id="oNm">${[["both", "両方"], ["ja", "日本語"], ["en", "English"]].map(([k, l]) => `<button data-v="${k}">${l}</button>`).join("")}</div></div>
+    <div class="obar2"><span class="flbl">表記</span><div class="seg sm" id="oNm">${[["both", "両方"], ["ja", "日本語"], ["en", "English"]].map(([k, l]) => `<button data-v="${k}">${l}</button>`).join("")}</div>
+      <span class="flbl">箱</span><div class="seg sm" id="oBox"><button data-v="size" title="大箱・中箱・小箱で大きさを変える">大中小</button><button data-v="same">そろえる</button></div></div>
+    <div id="oSleeves"></div>
     <div id="oList"></div>
-    <div class="foot"><button type="button" data-a="req" title="BGGの詳細が取れていないゲームを、チャットで登録を頼むための文章にしてコピー">未登録をコピー</button><button type="button" data-a="exp">書き出し</button><label>読み込み<input type="file" accept=".json" hidden></label></div>
+    <div class="foot"><button type="button" data-a="slv">スリーブ集計</button><button type="button" data-a="req" title="BGGの詳細が取れていないゲームを、チャットで登録を頼むための文章にしてコピー">未登録をコピー</button><button type="button" data-a="exp">書き出し</button><label>読み込み<input type="file" accept=".json" hidden></label></div>
     <div id="oSheet" class="sheetwrap" hidden></div>`;
   const $ = (id) => root.querySelector("#" + id);
-  const segs = [["oPl", "players", (v) => +v], ["oTime", "time"], ["oWt", "weight"], ["oFlag", "flag"], ["oView", "view"], ["oNm", null]];
+  const segs = [["oPl", "players", (v) => +v], ["oTime", "time"], ["oWt", "weight"], ["oFlag", "flag"], ["oView", "view"], ["oNm", null], ["oBox", "boxes"]];
   for (const [id, key, conv] of segs) $(id).onclick = (e) => {
     const btn = e.target.closest("button[data-v]");
     if (!btn) return;
     if (id === "oNm") { nameMode = btn.dataset.v; store.set("bgb.ownedname.v2", nameMode); }
-    else { OS[key] = conv ? conv(btn.dataset.v) : btn.dataset.v; if (key === "view") saveView(); }
+    else { OS[key] = conv ? conv(btn.dataset.v) : btn.dataset.v; if (key === "view" || key === "boxes") saveView(); }
     OS.n = 60; drawOwned();
   };
   $("oQ").oninput = (e) => { OS.q = e.target.value; OS.n = 60; drawOwned(); };
@@ -198,6 +219,7 @@ function buildOwnedPage(root) {
     }
     flash(btn, `${txt.split("\n").length - 1}件コピーしました`);
   };
+  root.querySelector("[data-a=slv]").onclick = () => { OS.sleeveSum = !OS.sleeveSum; drawSleeveSum(); if (OS.sleeveSum) document.getElementById("oSleeves").scrollIntoView({ behavior: "smooth" }); };
   root.querySelector("[data-a=exp]").onclick = () => {
     const blob = new Blob([JSON.stringify(owned, null, 1)], { type: "application/json" });
     Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: "owned-games.json" }).click();
@@ -272,7 +294,8 @@ function drawOwned() {
   // 操作部品の状態
   if ($("oQ").value !== OS.q) $("oQ").value = OS.q;
   const on = (id, v) => $(id).querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.v === String(v)));
-  on("oPl", OS.players); on("oTime", OS.time); on("oWt", OS.weight); on("oFlag", OS.flag); on("oView", OS.view); on("oNm", nameMode);
+  on("oPl", OS.players); on("oTime", OS.time); on("oWt", OS.weight); on("oFlag", OS.flag); on("oView", OS.view); on("oNm", nameMode); on("oBox", OS.boxes);
+  drawSleeveSum();
   $("oBest").checked = OS.best; $("oBest").disabled = !OS.players; $("oSort").value = OS.sort;
   // カテゴリー・メカニクスの候補（多い順）
   const count = (f) => { const m = new Map(); for (const g of bases) for (const x of f(oinfo(g)) || []) m.set(x, (m.get(x) || 0) + 1); return [...m].sort((a, b) => b[1] - a[1]); };
@@ -309,11 +332,29 @@ function packLayout(list, tiles) {
   const w = list.clientWidth || 360, n = Math.max(3, Math.floor((w + 8) / 128)), gap = 8, colW = (w - gap * (n - 1)) / n;
   const cols = Array.from({ length: n }, () => { const c = document.createElement("div"); c.className = "pcol"; return c; });
   const hs = new Array(n).fill(0);
+  // 大中小のとき：中箱は列幅の8割、小箱は2つ並べて半分ずつ（同じ列の直前が空きのある小箱の段ならそこへ）
+  const sized = OS.boxes === "size", last = new Array(n).fill(null);
   for (const t of packTiles) {
-    const r = t.dataset.img ? aspects[t.dataset.img] || 1 : 1;
+    const r = Math.min(t.dataset.img ? aspects[t.dataset.img] || 1 : 1, 2), sz = sized ? t.dataset.box || "M" : "L";
+    t.classList.remove("pS", "pM", "pL"); t.classList.add("p" + sz);
+    if (sz === "S") {
+      // 空きのある小箱の段：いちばん低い列のものを優先
+      const open = last.map((x, k) => x && x.children.length < 2 ? k : -1).filter((k) => k >= 0).sort((a, b) => hs[a] - hs[b])[0];
+      if (open !== undefined) {
+        const row = last[open], h = (colW - 6) / 2 * r + 20;
+        row.appendChild(t);
+        if (h > +row.dataset.h) { hs[open] += h - +row.dataset.h; row.dataset.h = h; }
+        last[open] = null;
+        continue;
+      }
+      const k = hs.indexOf(Math.min(...hs)), row = document.createElement("div"), h = (colW - 6) / 2 * r + 20;
+      row.className = "prow"; row.dataset.h = h; row.appendChild(t);
+      cols[k].appendChild(row); hs[k] += h + gap; last[k] = row;
+      continue;
+    }
     const k = hs.indexOf(Math.min(...hs));
     cols[k].appendChild(t);
-    hs[k] += colW * Math.min(r, 2) + 20 + gap;
+    hs[k] += colW * (sz === "M" ? 0.8 : 1) * r + 20 + gap;
   }
   list.querySelectorAll(".pcol").forEach((c) => c.remove());
   list.prepend(...cols);
@@ -331,7 +372,7 @@ function noteAspect(img) {
 
 function openSheet(g) {
   if (!OS.sheet) history.pushState({ sheet: 1 }, "", "#owned");
-  OS.sheet = g; OS.edit = false; OS.memo = false; OS.expN = 8; OS.link = null; drawSheet();
+  OS.sheet = g; OS.edit = false; OS.sleeveEdit = false; OS.memo = false; OS.expN = 8; OS.link = null; drawSheet();
 }
 function closeSheet() { if (history.state?.sheet) history.back(); else { OS.sheet = null; drawSheet(); } }
 
@@ -344,6 +385,8 @@ function tile({ g, kids, kidHit }) {
       ${kids.length ? `<span class="tbadge${kidHit ? " hit" : ""}">＋拡張${kids.length}</span>` : ""}</span></div>
     <div class="tov">${meta.length ? meta.map((m, k) => `<span class="ic">${k ? "⏱" : "👥"}</span>${esc(m.replace(/〜/g, "-"))}`).join(" ") : "&nbsp;"}</div>`;
   if (img) t.dataset.img = img;
+  t.dataset.box = boxSize(g).t;
+  if (OS.boxes === "size") t.classList.add("b" + t.dataset.box);
   t.title = tt.main;
   t.onclick = () => openSheet(g);
   return t;
@@ -393,9 +436,10 @@ function drawSheet() {
     OS.memo = false; saveOwned();
   };
   w.querySelector("[data-a=edit]").onclick = () => { OS.edit = !OS.edit; drawSheet(); };
-  w.querySelector("[data-a=base]")?.addEventListener("click", () => { OS.sheet = base; OS.edit = false; drawSheet(); });
+  w.querySelector("[data-a=base]")?.addEventListener("click", () => { OS.sheet = base; OS.edit = false; OS.sleeveEdit = false; drawSheet(); });
   if (OS.edit) body.appendChild(editPanel(g));
   body.appendChild(infoBlock(g, i));
+  body.appendChild(sleeveBlock(g, i));
   // 所持している拡張
   const mine = !base ? kids.get(g) || [] : [];
   if (mine.length) {
@@ -405,7 +449,7 @@ function drawSheet() {
       r.className = "xrow"; r.style.cursor = "pointer";
       const xi = ownedImg(x), xt = ownedTitle(x, g);
       r.innerHTML = `<div class="thumb" ${xi ? `style="background-image:url('${esc(xi)}')"` : ""}>${xi ? "" : "🧩"}</div><div class="rt"><div class="t">${esc(xt.main)}${flagTags(x)}</div>${xt.sub ? `<div class="s">${esc(xt.sub)}</div>` : ""}</div><div class="rd">›</div>`;
-      r.onclick = () => { OS.sheet = x; OS.edit = false; drawSheet(); };
+      r.onclick = () => { OS.sheet = x; OS.edit = false; OS.sleeveEdit = false; drawSheet(); };
       body.appendChild(r);
     }
   }
@@ -423,6 +467,7 @@ function infoBlock(g, i) {
     (i.time || i.minTime) && ["時間", shortTime(g)],
     i.age && ["対象年齢", `${i.age}歳〜`], i.year && ["発売年", `${i.year}年`],
     i.weight && ["重さ", `${i.weight} / 5`], i.rating && ["BGG評価", `${i.rating}${i.rank ? `（${i.rank}位）` : ""}`],
+    ((b) => (b.cm || b.manual) && ["箱", [boxLabel(b.t), cmText(b.cm)].filter(Boolean).join("・")])(boxSize(g)),
   ].filter(Boolean).map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`);
   for (const [k, arr] of [["デザイナー", i.designers], ["アーティスト", i.artists], ["出版社", i.publishers]]) if (arr?.length) facts.push(`<dt>${k}</dt><dd class="pchips">${who(arr)}</dd>`);
   const chips = (arr, kind, tr) => (arr || []).map((x) => `<button class="${kind === "cat" ? "cchip" : "mchip"}" data-${kind}="${esc(x)}">${esc(tr(x))}</button>`).join("");
@@ -502,6 +547,7 @@ function editPanel(g) {
     <div class="r"><label>本体（拡張のとき）<input name="parent" list="ownedBases2" value="${esc(g.parent || "")}"></label>
       <label>人数・時間<input name="players" value="${esc(g.players || "")}" placeholder="${esc(playersText({ ...g, players: "" }) || "例：2〜4人・45分")}"></label></div>
     <datalist id="ownedBases2">${baseNames.map((n) => `<option value="${esc(n)}">`).join("")}</datalist>
+    <label>箱の大きさ（大中小の表示用）<select name="box"><option value="">自動（${(({ auto, cm }) => boxLabel(auto) + (cm ? `・BGG ${cmText(cm)}` : "・寸法なし"))(boxSize({ ...g, box: "" }))}）</option>${BOXES.map(([k, l]) => `<option value="${k}"${g.box === k ? " selected" : ""}>${l}</option>`).join("")}</select></label>
     <div class="lbl">状態</div><div class="flagck">${FLAGS.map(([k, l]) => `<label><input type="checkbox" name="flag_${k}"${(g.flags || []).includes(k) ? " checked" : ""}>${l}</label>`).join("")}</div>
     <label>メモ（名前の後ろに表示）<input name="includes" value="${esc(g.includes || "")}" placeholder="例：拡張入り・スリーブ済み"></label>
     <label>登録元<input name="from" value="${esc(g.from || "")}" placeholder="例：写真 11/26"></label>
@@ -534,6 +580,7 @@ function editPanel(g) {
       const v = f[k].trim();
       if (v !== (g[k] || "")) { if (v) g[k] = v; else delete g[k]; if (["parent", "includes", "bgg"].includes(k)) edited.add(k); }
     }
+    if (f.box !== (g.box || "")) { if (f.box) g.box = f.box; else delete g.box; }
     const flags = FLAGS.map(([k]) => k).filter((k) => f["flag_" + k]);
     if (flags.join() !== (g.flags || []).join()) { if (flags.length) g.flags = flags; else delete g.flags; edited.add("flags"); }
     const img = f.img.trim() || (pick && pick !== i?.thumb ? pick : "");
@@ -542,4 +589,82 @@ function editPanel(g) {
     OS.edit = false; saveOwned();
   };
   return p;
+}
+
+// ===== スリーブ =====
+// 詳細シートのスリーブ欄：登録済みの一覧と編集（BGGのデータがあれば取り込み）
+function sleeveBlock(g, i) {
+  const p = document.createElement("div");
+  p.className = "sleeves";
+  const list = g.sleeves || [], bgg = i?.sleeves || [];
+  const total = list.reduce((a, s) => a + (+s.n || 0), 0), done = list.filter((s) => s.done).reduce((a, s) => a + (+s.n || 0), 0);
+  p.innerHTML = `<div class="lbl">スリーブ${list.length ? `（${total}枚${done ? done === total ? "・すべてスリーブ済み" : `・${done}枚スリーブ済み` : ""}）` : ""}<button class="mini" data-a="sedit">${OS.sleeveEdit ? "やめる" : list.length ? "✎ 編集" : "＋ 登録"}</button></div>`;
+  if (!OS.sleeveEdit) {
+    for (const s of list) p.insertAdjacentHTML("beforeend", `<div class="srow${s.done ? " done" : ""}"><span class="sz">${esc(sizeKey(s))}<small>mm</small></span>
+      <span class="sn">${esc(s.name || "カード")}${sizeName(sizeKey(s)) ? `<small>${esc(sizeName(sizeKey(s)))}</small>` : ""}</span><span class="sc">${s.n ? `${s.n}枚` : ""}</span>
+      <span class="sk">${s.done ? "✓ " : ""}${esc(s.kind || (s.done ? "スリーブ済み" : "未"))}</span></div>`);
+    if (!list.length && bgg.length) p.insertAdjacentHTML("beforeend", `<div class="s">BGGのデータ：${esc(bgg.map((s) => `${s.name || "カード"} ${sizeKey(s)}mm ${s.n || "?"}枚`).join("、"))}</div>`);
+    else if (!list.length) p.insertAdjacentHTML("beforeend", `<div class="s">カードのサイズと枚数、使ったスリーブを記録できます。</div>`);
+    p.querySelector("[data-a=sedit]").onclick = () => { OS.sleeveEdit = true; drawSheet(); };
+    return p;
+  }
+  // 編集フォーム
+  let rows = (list.length ? list : bgg.length ? bgg : [{}]).map((s) => ({ ...s }));
+  const f = document.createElement("form");
+  f.className = "add sform";
+  const draw = () => {
+    f.innerHTML = `${bgg.length && list.length ? `<button type="button" class="linkbtn" data-a="bgg">BGGのデータ（${bgg.length}種類）で置き換える</button>` : ""}
+      ${rows.map((s, k) => `<div class="sedit" data-k="${k}">
+        <div class="r"><input name="name" value="${esc(s.name || "")}" placeholder="カードの名前（例：メインデッキ）"><button type="button" class="ghostbtn" data-del="${k}" title="この行を消す">✕</button></div>
+        <div class="r"><input name="size" value="${s.w ? esc(sizeKey(s)) : ""}" list="slvSizes" placeholder="サイズ mm（例：63.5×88）" inputmode="decimal"><input name="n" value="${esc(s.n || "")}" placeholder="枚数" inputmode="numeric" class="num"></div>
+        <div class="r"><input name="kind" value="${esc(s.kind || "")}" list="slvKinds" placeholder="使ったスリーブ（例：Mayday スタンダード）"><label class="ck"><input type="checkbox" name="done"${s.done ? " checked" : ""}>済み</label></div></div>`).join("")}
+      <datalist id="slvSizes">${SLEEVE_SIZES.map(([k, l]) => `<option value="${k}">${l}</option>`).join("")}</datalist>
+      <datalist id="slvKinds">${sleeveKinds().map((k) => `<option value="${esc(k)}">`).join("")}</datalist>
+      <div class="r"><button type="button" class="ghostbtn" data-a="add">＋ 行を追加</button><span style="flex:1"></span><button>保存</button></div>`;
+    f.querySelector("[data-a=add]").onclick = () => { rows = read(); rows.push({}); draw(); };
+    f.querySelector("[data-a=bgg]")?.addEventListener("click", () => { rows = bgg.map((s) => ({ ...s })); draw(); });
+    f.querySelectorAll("[data-del]").forEach((b) => b.onclick = () => { rows = read(); rows.splice(+b.dataset.del, 1); if (!rows.length) rows.push({}); draw(); });
+  };
+  const read = () => [...f.querySelectorAll(".sedit")].map((d) => {
+    const v = (n) => d.querySelector(`[name=${n}]`);
+    const sz = parseSize(v("size").value), o = { name: v("name").value.trim(), n: parseInt(v("n").value.replace(/[^\d]/g, "")) || 0, kind: v("kind").value.trim(), done: v("done").checked };
+    if (sz) [o.w, o.h] = sz;
+    return o;
+  });
+  f.onsubmit = (e) => {
+    e.preventDefault();
+    const out = read().filter((s) => s.w || s.name || s.n || s.kind).map((s) => Object.fromEntries(Object.entries(s).filter(([, x]) => x !== "" && x !== 0 && x !== false)));
+    if (out.some((s) => !s.w) && !confirm("サイズが入っていない行があります。このまま保存しますか？")) return;
+    if (out.length) g.sleeves = out; else delete g.sleeves;
+    OS.sleeveEdit = false; saveOwned();
+  };
+  draw();
+  p.querySelector("[data-a=sedit]").onclick = () => { OS.sleeveEdit = false; drawSheet(); };
+  p.appendChild(f);
+  return p;
+}
+
+// スリーブ集計：サイズごとの必要枚数・スリーブ済み・使った種類。まだのゲームはタップで詳細へ
+function drawSleeveSum() {
+  const box = document.getElementById("oSleeves");
+  if (!box) return;
+  document.querySelector("#ownedPage [data-a=slv]")?.classList.toggle("on", OS.sleeveSum);
+  if (!OS.sleeveSum) { box.innerHTML = ""; return; }
+  const by = new Map();
+  for (const g of owned) for (const s of g.sleeves || []) {
+    const k = s.w ? sizeKey(s) : "サイズ未入力";
+    if (!by.has(k)) by.set(k, { k, need: 0, done: 0, kinds: new Set(), todo: [], area: (s.w || 0) * (s.h || 0) });
+    const x = by.get(k);
+    x.need += +s.n || 0;
+    if (s.done) { x.done += +s.n || 0; if (s.kind) x.kinds.add(s.kind); } else x.todo.push([g, s]);
+  }
+  const rows = [...by.values()].sort((a, b) => a.area - b.area);
+  const games = owned.filter((g) => g.sleeves?.length).length;
+  box.innerHTML = `<div class="card ssum"><div class="lbl">スリーブ集計（${games}ゲーム）<button class="mini" data-a="x">閉じる</button></div>
+    ${rows.length ? `<table><tr><th>サイズ(mm)</th><th>必要</th><th>済み</th><th>あと</th></tr>${rows.map((r) => `<tr><td>${esc(r.k)}${sizeName(r.k) ? `<small>${esc(sizeName(r.k))}</small>` : ""}${r.kinds.size ? `<div class="kinds">${esc([...r.kinds].join("・"))}</div>` : ""}</td>
+      <td>${r.need}</td><td>${r.done}</td><td class="${r.need - r.done ? "left" : ""}">${r.need - r.done}</td></tr>
+      ${r.todo.length ? `<tr class="todo"><td colspan="4"><div class="todos">${r.todo.map(([g, s]) => `<button class="pchip" data-g="${owned.indexOf(g)}">${esc(ownedTitle(g).main)}${s.n ? ` ${s.n}枚` : ""}</button>`).join("")}</div></td></tr>` : ""}`).join("")}</table>`
+      : `<div class="s">まだ登録がありません。各ゲームの詳細の「スリーブ」から、カードのサイズと枚数を登録できます。</div>`}</div>`;
+  box.querySelector("[data-a=x]").onclick = () => { OS.sleeveSum = false; drawSleeveSum(); };
+  box.querySelectorAll("[data-g]").forEach((b) => b.onclick = () => openSheet(owned[+b.dataset.g]));
 }
