@@ -12360,6 +12360,74 @@
    ],
    "at": "2026-11-26T03:54:39.068Z"
   },
+  "207330": {
+   "v": 3,
+   "id": "207330",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "2〜4",
+   "minTime": 45,
+   "maxTime": 60,
+   "age": 10,
+   "rating": 7.11,
+   "weight": 2.5,
+   "rank": 4078,
+   "mechanics": [
+    "Action Drafting",
+    "Follow",
+    "Hexagon Grid",
+    "Turn Order: Claim Action"
+   ],
+   "categories": [
+    "Ancient",
+    "City Building"
+   ],
+   "designers": [
+    "Stefan Dorra"
+   ],
+   "artists": [
+    "Wanjin Gill",
+    "Dennis Lohausen"
+   ],
+   "publishers": [
+    "Playte",
+    "White Goblin Games"
+   ],
+   "families": [
+    "Ancient: Greece",
+    "Theme: Construction"
+   ],
+   "desc": "Hellas, 480 BC. It's the rise of classic Greek civilization. After the overwhelming victory of Xerxes' army at Thermopylae, the Greeks return to their country and continue the hard work at the islands. The building and development of large cities is the next step into a new era.\n\nFound settlements on a Greek island and let them grow into large cities. Build statues in honor of the Gods or finish one of the various temples on the island. All this work needs a lot of marble, which can be found in the many quarries. Houses next to a quarry can mine marble, but some quarries produce more marble than others.\n\nEach round in Hellas players choose an action in the display. When choosing to build a house, palace or square on the island, all others can perform that action, too. Deciding to mine marble (to get more money) will also help other players because they'll earn money too through their houses next to mines. Building pillars in temples or raising a statue are the only type of actions you'll perform by yourself, but at the end of the game all players might score points because of your work.\n\nStrategically build your settlements on the island to gain the most profit from quarries. Timing is crucial: most of your chosen actions can also be immediately performed by all other players. Think ahead to outsmart your opponents and score the most points with your cities.",
+   "expansions": [],
+   "bases": [],
+   "en": "Hellas",
+   "ja": "",
+   "minp": 2,
+   "maxp": 4,
+   "time": 60,
+   "year": 2016,
+   "thumb": "https://cf.geekdo-images.com/hijjtaBYdfDqrCpJhJ0THg__small/img/hyGSvrKGPkl4IZLd3nD5yQ2qwa8=/fit-in/200x150/filters:strip_icc()/pic9813575.png",
+   "image": "https://cf.geekdo-images.com/hijjtaBYdfDqrCpJhJ0THg__original/img/iPI2-BK18upOKtUBZAKhXXez-4M=/0x0/filters:format(png)/pic9813575.png",
+   "versions": [
+    {
+     "id": "812240",
+     "name": "English/Korean edition",
+     "year": 2026,
+     "lang": "English・Korean",
+     "thumb": "https://cf.geekdo-images.com/hijjtaBYdfDqrCpJhJ0THg__small/img/hyGSvrKGPkl4IZLd3nD5yQ2qwa8=/fit-in/200x150/filters:strip_icc()/pic9813575.png",
+     "image": "https://cf.geekdo-images.com/hijjtaBYdfDqrCpJhJ0THg__original/img/iPI2-BK18upOKtUBZAKhXXez-4M=/0x0/filters:format(png)/pic9813575.png"
+    },
+    {
+     "id": "323499",
+     "name": "Dutch/English/French/German edition",
+     "year": 2016,
+     "lang": "Dutch・English・French・German",
+     "thumb": "https://cf.geekdo-images.com/zfU2nfWRnOk7gdxb34Htsw__small/img/nRjZs9IhJ7oj8w0S8wBimgnkgGU=/fit-in/200x150/filters:strip_icc()/pic3153010.jpg",
+     "image": "https://cf.geekdo-images.com/zfU2nfWRnOk7gdxb34Htsw__original/img/-kb-vB6Nu9kPcC2x-LRCtDgQyL0=/0x0/filters:format(jpeg)/pic3153010.jpg"
+    }
+   ],
+   "at": "2026-11-27T04:58:05.758Z"
+  },
   "217372": {
    "v": 3,
    "id": "217372",
@@ -12916,6 +12984,150 @@
     }
    ],
    "at": "2026-11-27T04:44:02.128Z"
+  },
+  "236217": {
+   "v": 3,
+   "id": "236217",
+   "type": "boardgame",
+   "best": "6〜7",
+   "rec": "4〜8",
+   "minTime": 1,
+   "maxTime": 30,
+   "age": 10,
+   "rating": 7.15,
+   "weight": 1.07,
+   "rank": 1982,
+   "mechanics": [
+    "Hidden Roles",
+    "Role Playing",
+    "Team-Based Game",
+    "Traitor Game"
+   ],
+   "categories": [
+    "Bluffing",
+    "Card Game",
+    "Party Game",
+    "Spies / Secret Agents"
+   ],
+   "designers": [
+    "佐藤 雄介 (Yusuke Sato)"
+   ],
+   "artists": [
+    "326",
+    "David Arenas",
+    "Biboun",
+    "Paco Dana"
+   ],
+   "publishers": [
+    "Arclight Games",
+    "Devir",
+    "GoKids 玩樂小子",
+    "IELLO",
+    "Primigenio",
+    "Reflexshop",
+    "Rexhry",
+    "Switch Games"
+   ],
+   "families": [
+    "Books: Sherlock Holmes",
+    "Series: Mini Games (IELLO)",
+    "Series: TimeBomb",
+    "Theme: Steampunk"
+   ],
+   "desc": "Each player will be assigned a secret identity, Agent or Terrorist.\nThe game will unroll in a maximum of four rounds in which the agents want to defuse the bomb and the terrorists want it to explode.\nEach player will be dealt wire cards, which he will see and then will shuffle. Starting with the first player, he will be choosing a secret card and play it. Each card will have an action. Players will follow this way doing actions to try and defuse or explode the bomb.\nThe game ends if all the success cards are revealed (agents win), the explosion card is revealed (terrorists win), or the 4th round ends without the bomb being defused (terrorists win).",
+   "expansions": [],
+   "bases": [],
+   "en": "Time Bomb",
+   "ja": "",
+   "minp": 4,
+   "maxp": 8,
+   "time": 30,
+   "year": 2016,
+   "thumb": "https://cf.geekdo-images.com/hweNbBZPFWup4oNyQWjhFQ__small/img/KSGV1kmoXyGVwCdaI7Zlfpe7xKo=/fit-in/200x150/filters:strip_icc()/pic4314256.jpg",
+   "image": "https://cf.geekdo-images.com/hweNbBZPFWup4oNyQWjhFQ__original/img/SS1PSUOxdOyFsExhAwRwi9ajJK0=/0x0/filters:format(jpeg)/pic4314256.jpg",
+   "versions": [
+    {
+     "id": "426353",
+     "name": "Japanese edition",
+     "year": 2017,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/0By2SKgJ1AE46cxYiewY5w__small/img/R_HTO1SEqcY8ujyl6RSteV_9L60=/fit-in/200x150/filters:strip_icc()/pic3768518.jpg",
+     "image": "https://cf.geekdo-images.com/0By2SKgJ1AE46cxYiewY5w__original/img/3uMxVGf1FWk8MzysSRum7_584PQ=/0x0/filters:format(jpeg)/pic3768518.jpg"
+    },
+    {
+     "id": "822116",
+     "name": "Spanish/Portuguese edition",
+     "year": 2026,
+     "lang": "Portuguese・Spanish",
+     "thumb": "https://cf.geekdo-images.com/opL0OHRvcOOUzjxT_fNHcA__small/img/cCvY_bKdwwPn7sn6u6PcJgrxXHY=/fit-in/200x150/filters:strip_icc()/pic9892841.jpg",
+     "image": "https://cf.geekdo-images.com/opL0OHRvcOOUzjxT_fNHcA__original/img/WnuOXFkKALBMXHJbxcNkLdztqQg=/0x0/filters:format(jpeg)/pic9892841.jpg"
+    },
+    {
+     "id": "792746",
+     "name": "English edition",
+     "year": 2025,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/hweNbBZPFWup4oNyQWjhFQ__small/img/KSGV1kmoXyGVwCdaI7Zlfpe7xKo=/fit-in/200x150/filters:strip_icc()/pic4314256.jpg",
+     "image": "https://cf.geekdo-images.com/hweNbBZPFWup4oNyQWjhFQ__original/img/SS1PSUOxdOyFsExhAwRwi9ajJK0=/0x0/filters:format(jpeg)/pic4314256.jpg"
+    },
+    {
+     "id": "721286",
+     "name": "Spanish deluxe edition",
+     "year": 2024,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/lQYuQvqIAr_r-3BJEottAA__small/img/Y2OKFWanqPTHZEaeSjEhhdo_xBk=/fit-in/200x150/filters:strip_icc()/pic8318889.png",
+     "image": "https://cf.geekdo-images.com/lQYuQvqIAr_r-3BJEottAA__original/img/pAgoFPyafLq6RglHBOMVc1ptP84=/0x0/filters:format(png)/pic8318889.png"
+    },
+    {
+     "id": "600267",
+     "name": "Czech edition, second printing",
+     "year": 2020,
+     "lang": "Czech",
+     "thumb": "https://cf.geekdo-images.com/79gKdwsNH6VKtQLZsDSS9A__small/img/5p6nojaC5a16k9xk9kZD5FIjUkg=/fit-in/200x150/filters:strip_icc()/pic6684313.jpg",
+     "image": "https://cf.geekdo-images.com/79gKdwsNH6VKtQLZsDSS9A__original/img/_u3pgSeKdca-VyZv9WkqyWZlTaU=/0x0/filters:format(jpeg)/pic6684313.jpg"
+    },
+    {
+     "id": "590381",
+     "name": "Dutch edition",
+     "year": 2019,
+     "lang": "Dutch",
+     "thumb": "https://cf.geekdo-images.com/ZIc-1tEGtUgShJ6fsK-iyw__small/img/R1oGygClCybEwcYOEUWC2mIz1DA=/fit-in/200x150/filters:strip_icc()/pic6641274.png",
+     "image": "https://cf.geekdo-images.com/ZIc-1tEGtUgShJ6fsK-iyw__original/img/nR4OJVB6JfNhixhmLSiJBWptsAI=/0x0/filters:format(png)/pic6641274.png"
+    },
+    {
+     "id": "414337",
+     "name": "Chinese edition",
+     "year": 2018,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/auaY4tGs5xiOE7UzLngLFQ__small/img/OT0-K9Lm6rewDe6WB_3p5EH7OfM=/fit-in/200x150/filters:strip_icc()/pic4229342.jpg",
+     "image": "https://cf.geekdo-images.com/auaY4tGs5xiOE7UzLngLFQ__original/img/piUNWtEf1BJ43H5dz8-Ug-x7vO4=/0x0/filters:format(jpeg)/pic4229342.jpg"
+    },
+    {
+     "id": "426077",
+     "name": "Hungarian edition",
+     "year": 2017,
+     "lang": "Hungarian",
+     "thumb": "https://cf.geekdo-images.com/haSPqRBxLNwbsxwui7JRGg__small/img/KIeToYn8fePkF2gu-o5ykucfIMs=/fit-in/200x150/filters:strip_icc()/pic4494724.png",
+     "image": "https://cf.geekdo-images.com/haSPqRBxLNwbsxwui7JRGg__original/img/-LuHaV_a8Nv2rXubR7JrJD6LjJM=/0x0/filters:format(png)/pic4494724.png"
+    },
+    {
+     "id": "370824",
+     "name": "Spanish edition",
+     "year": 2017,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/DaKSTVPie01Uglhsa3PGog__small/img/dBdZQsgu6fmMHMig4erV8OWmbfo=/fit-in/200x150/filters:strip_icc()/pic4117121.jpg",
+     "image": "https://cf.geekdo-images.com/DaKSTVPie01Uglhsa3PGog__original/img/FGetOF8hy9LRlnczZRpseIqlbis=/0x0/filters:format(jpeg)/pic4117121.jpg"
+    },
+    {
+     "id": "388816",
+     "name": "French edition",
+     "year": 2016,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/bWnkPpdiF7Eixx0ocxG8Ag__small/img/Lv1wKMbhK0AsczCqXBETMj4abqs=/fit-in/200x150/filters:strip_icc()/pic3132516.png",
+     "image": "https://cf.geekdo-images.com/bWnkPpdiF7Eixx0ocxG8Ag__original/img/EHaOyEHQn0NlI_jePBtJpOvUj_0=/0x0/filters:format(png)/pic3132516.png"
+    }
+   ],
+   "at": "2026-11-27T04:58:03.136Z"
   },
   "237179": {
    "v": 3,
@@ -27839,7 +28051,7 @@
    "at": "2026-11-26T14:04:30.749Z"
   }
  },
- "updatedAt": "2026-11-27T04:56:48.955Z",
+ "updatedAt": "2026-11-27T04:58:08.261Z",
  "exps": {
   "2591": {
    "id": "2591",

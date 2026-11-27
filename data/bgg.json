@@ -1863,8 +1863,9 @@
    "name": "Mahé",
    "image": "https://cf.geekdo-images.com/MLs0CGP2Uoq0bK-xMpnNBg__original/img/ZYE7mcbRFMF20arZ23GmvbSRoCI=/0x0/filters:format(jpeg)/pic2215153.jpg",
    "thumb": "https://cf.geekdo-images.com/MLs0CGP2Uoq0bK-xMpnNBg__small/img/bsJWYo0dr2kiMoFGY5ItFOe_pKo=/fit-in/200x150/filters:strip_icc()/pic2215153.jpg",
-   "query": "ウミガメの島",
-   "at": "2026-11-26T14:08:57.599Z"
+   "query": "id:3383",
+   "at": "2026-11-27T04:57:57.666Z",
+   "alias": "3383"
   },
   "オルレアンアニバーサリーボックス": {
    "label": "オルレアン アニバーサリーボックス",
@@ -1963,8 +1964,13 @@
   },
   "タイムボム": {
    "label": "タイムボム",
-   "miss": true,
-   "at": "2026-11-26T14:09:29.353Z"
+   "id": "236217",
+   "name": "Time Bomb",
+   "image": "https://cf.geekdo-images.com/hweNbBZPFWup4oNyQWjhFQ__original/img/SS1PSUOxdOyFsExhAwRwi9ajJK0=/0x0/filters:format(jpeg)/pic4314256.jpg",
+   "thumb": "https://cf.geekdo-images.com/hweNbBZPFWup4oNyQWjhFQ__small/img/KSGV1kmoXyGVwCdaI7Zlfpe7xKo=/fit-in/200x150/filters:strip_icc()/pic4314256.jpg",
+   "query": "id:236217",
+   "at": "2026-11-27T04:58:00.233Z",
+   "alias": "236217"
   },
   "ザゲーム": {
    "label": "ザ・ゲーム",
@@ -2068,8 +2074,13 @@
   },
   "ヘラス": {
    "label": "ヘラス",
-   "miss": true,
-   "at": "2026-11-26T22:16:15.387Z"
+   "id": "207330",
+   "name": "Hellas",
+   "image": "https://cf.geekdo-images.com/hijjtaBYdfDqrCpJhJ0THg__original/img/iPI2-BK18upOKtUBZAKhXXez-4M=/0x0/filters:format(png)/pic9813575.png",
+   "thumb": "https://cf.geekdo-images.com/hijjtaBYdfDqrCpJhJ0THg__small/img/hyGSvrKGPkl4IZLd3nD5yQ2qwa8=/fit-in/200x150/filters:strip_icc()/pic9813575.png",
+   "query": "id:207330",
+   "at": "2026-11-27T04:58:02.932Z",
+   "alias": "207330"
   },
   "バタム": {
    "label": "バタム",
@@ -2627,5 +2638,5 @@
    "alias": "159581"
   }
  },
- "updatedAt": "2026-11-27T04:56:09.379Z"
+ "updatedAt": "2026-11-27T04:58:02.933Z"
 }
