@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T13:06:17.057Z",
+ "updatedAt": "2026-11-27T22:14:16.414Z",
  "sources": [
   {
    "name": "ホヌゲームズ",
@@ -56,10 +56,640 @@
    "ok": true,
    "error": "",
    "feed": "https://boardgamegeekstore.com",
-   "total": 1187
+   "total": 1212
   }
  ],
  "items": [
+  {
+   "title": "Carcassonne: Japanese Buildings",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-japanese-buildings",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/carcassonne-japanese-buildings-de-en.jpg?v=1791522122",
+   "price": "$6.00",
+   "status": "sale",
+   "firstSeen": "2026-10-09T15:42:43.000Z",
+   "saleAt": "2026-11-27T22:14:16.414Z",
+   "restock": true,
+   "date": "2026-11-27T22:14:16.414Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: 4 Seasons - The Winter",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-4-seasons-the-winter",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/CC_4J_Winter.png?v=1791502117",
+   "price": "$8.00",
+   "status": "sale",
+   "firstSeen": "2026-10-09T15:42:34.000Z",
+   "saleAt": "2026-11-27T22:14:16.414Z",
+   "restock": true,
+   "date": "2026-11-27T22:14:16.414Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: The Peasant Revolts",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-the-peasant-revolts",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/carcassonne-3-0-die-bauernaufstande.jpg?v=1763056117",
+   "price": "$8.00",
+   "status": "sale",
+   "firstSeen": "2026-03-19T14:24:06.000Z",
+   "saleAt": "2026-11-27T22:14:16.414Z",
+   "restock": true,
+   "date": "2026-11-27T22:14:16.414Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Paleo: New Secrets",
+   "url": "https://boardgamegeekstore.com/products/paleo-new-secrets",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/Paleo_-_New_Secrets.png?v=1764172782",
+   "price": "$6.00",
+   "status": "sale",
+   "firstSeen": "2025-11-28T14:36:53.000Z",
+   "saleAt": "2026-11-27T22:14:16.414Z",
+   "restock": true,
+   "date": "2026-11-27T22:14:16.414Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: Anniversary Design Drawbag",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-anniversary-design-drawbag",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/Carcassonne_Drawbag.jpg?v=1764201414",
+   "price": "$6.00",
+   "status": "sale",
+   "firstSeen": "2025-11-28T14:36:52.000Z",
+   "saleAt": "2026-11-27T22:14:16.414Z",
+   "restock": true,
+   "date": "2026-11-27T22:14:16.414Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: The Watchtowers",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-watchtowers",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/carcassonne-3-0-die-wachtuermepp4mck5lyilek.jpg?v=1763055537",
+   "price": "$8.00",
+   "status": "sale",
+   "firstSeen": "2025-11-28T14:36:45.000Z",
+   "saleAt": "2026-11-27T22:14:16.414Z",
+   "restock": true,
+   "date": "2026-11-27T22:14:16.414Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: The Fruit-Bearing Trees",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-fruit-bearing-trees",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/carcassonne-3-0-die-obstbaeume.jpg?v=1762981641",
+   "price": "$8.00",
+   "status": "sale",
+   "firstSeen": "2025-11-28T14:36:44.000Z",
+   "saleAt": "2026-11-27T22:14:16.414Z",
+   "restock": true,
+   "date": "2026-11-27T22:14:16.414Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: The Tollkeepers",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-tollkeepers",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/carcassonne-3-0-die-zoellner.jpg?v=1762979081",
+   "price": "$8.00",
+   "status": "sale",
+   "firstSeen": "2025-11-28T14:36:43.000Z",
+   "saleAt": "2026-11-27T22:14:16.414Z",
+   "restock": true,
+   "date": "2026-11-27T22:14:16.414Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: The Monasteries in Germany",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-monasteries-in-germany",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/carcassonne-3-0-kloester-in-deutschland.jpg?v=1762971808",
+   "price": "$8.00",
+   "status": "sale",
+   "firstSeen": "2025-11-28T14:36:38.000Z",
+   "saleAt": "2026-11-27T22:14:16.414Z",
+   "restock": true,
+   "date": "2026-11-27T22:14:16.414Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: The Festival",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-the-festival",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/Carcassonne-Festival.png?v=1762550515",
+   "price": "$8.00",
+   "status": "sale",
+   "firstSeen": "2025-11-28T14:36:35.000Z",
+   "saleAt": "2026-11-27T22:14:16.414Z",
+   "restock": true,
+   "date": "2026-11-27T22:14:16.414Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: The Halflings Mini Expansion",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-halflings",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/Carcassonne-Halflings.png?v=1762550151",
+   "price": "$8.00",
+   "status": "sale",
+   "firstSeen": "2025-11-28T14:36:34.000Z",
+   "saleAt": "2026-11-27T22:14:16.414Z",
+   "restock": true,
+   "date": "2026-11-27T22:14:16.414Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: Blank Tiles",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-blank-tiles",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/Carcassonne-BlankTiles_975fb96f-3082-48a2-8faf-3b3d3f650ff6.jpg?v=1762548680",
+   "price": "$2.00",
+   "status": "sale",
+   "firstSeen": "2025-11-28T14:36:33.000Z",
+   "saleAt": "2026-11-27T22:14:16.414Z",
+   "restock": true,
+   "date": "2026-11-27T22:14:16.414Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: The Wonders of Humanity - Set 3 Mini-Expansion",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-wonders-of-humanity-set-3-mini-expansion",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/Wonders_III.png?v=1764173221",
+   "price": "$10.00",
+   "status": "sale",
+   "firstSeen": "2025-11-28T14:36:26.000Z",
+   "saleAt": "2026-11-27T22:14:16.414Z",
+   "restock": true,
+   "date": "2026-11-27T22:14:16.414Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: The Wonders of Humanity - Set 2 Mini-Expansion",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-wonders-of-humanity-set-2-mini-expansion",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/Wonders_Set_2.png?v=1762199589",
+   "price": "$10.00",
+   "status": "sale",
+   "firstSeen": "2025-11-28T14:36:25.000Z",
+   "saleAt": "2026-11-27T22:14:16.414Z",
+   "restock": true,
+   "date": "2026-11-27T22:14:16.414Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: 4 Seasons - The Autumn",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-4-seasons-the-autumn",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/pic8797636.webp?v=1762198492",
+   "price": "$8.00",
+   "status": "sale",
+   "firstSeen": "2025-11-28T14:36:22.000Z",
+   "saleAt": "2026-11-27T22:14:16.414Z",
+   "restock": true,
+   "date": "2026-11-27T22:14:16.414Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: 4 Seasons - The Summer",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-4-seasons-the-summer",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/pic8795628.webp?v=1762195848",
+   "price": "$8.00",
+   "status": "sale",
+   "firstSeen": "2025-11-28T14:36:21.000Z",
+   "saleAt": "2026-11-27T22:14:16.414Z",
+   "restock": true,
+   "date": "2026-11-27T22:14:16.414Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne Maps: Chips",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-maps-chips",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/products/pic4995691.jpg?v=1610674203",
+   "price": "$5.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T16:57:02.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T16:57:02.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Blind Jack: Sample Pack / Mini Expansion",
+   "url": "https://boardgamegeekstore.com/products/blind-jack-sample-pack",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/BlindJack2.png?v=1795756165",
+   "price": "$5.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:44.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:44.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Game Boy Geek"
+  },
+  {
+   "title": "Wispwood: Alternate Player Cats & Scoring Promo Card",
+   "url": "https://boardgamegeekstore.com/products/wispwood-alternate-player-cats-scoring-promo-card",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/ww-promo-bundle.webp?v=1795755280",
+   "price": "$5.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:43.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:43.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Game Boy Geek"
+  },
+  {
+   "title": "Zombie Princess: Even Odd Extermination Promo Card",
+   "url": "https://boardgamegeekstore.com/products/zombie-princess-even-odd-extermination-promo-card",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/Zombie.png?v=1795754816",
+   "price": "$3.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:42.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:42.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Game Boy Geek"
+  },
+  {
+   "title": "Sagrada: Promo 31 – Game Boy Geek 2026 Window Pattern Card",
+   "url": "https://boardgamegeekstore.com/products/sagrada-promo-31-game-boy-geek-2026-window-pattern-card",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/Sagrada_b1797178-5233-4bbc-b953-b9b4d87df571.png?v=1795754219",
+   "price": "$3.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:41.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:41.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Game Boy Geek"
+  },
+  {
+   "title": "Sleeping Gods: Distant Skies – The Secret Cabal Gaming Podcast Promos",
+   "url": "https://boardgamegeekstore.com/products/sleeping-gods-distant-skies-the-secret-cabal-gaming-podcast-promos",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/pic8041842.webp?v=1795753528",
+   "price": "$5.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:40.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:40.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Game Boy Geek"
+  },
+  {
+   "title": "Last Light: Reclamation Cannon Promo Card",
+   "url": "https://boardgamegeekstore.com/products/last-light-reclamation-cannon-promo-card",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/pic9389001.webp?v=1795753228",
+   "price": "$5.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:39.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:39.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Game Boy Geek"
+  },
+  {
+   "title": "Bullseye: More Targets Mini-Expansion",
+   "url": "https://boardgamegeekstore.com/products/bullseye-promo-category-cards",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/Bullseye.png?v=1795752958",
+   "price": "$5.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:38.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:38.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Game Boy Geek"
+  },
+  {
+   "title": "Gatsby: Alternative 0-star Character Tiles",
+   "url": "https://boardgamegeekstore.com/products/gatsby-alternative-0-star-character-tiles",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/pic8969599.webp?v=1795751614",
+   "price": "$5.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:37.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:37.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Game Boy Geek"
+  },
+  {
+   "title": "Holly Jolly: Promo Pack",
+   "url": "https://boardgamegeekstore.com/products/holly-jolly-promo-pack",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/HollyJolly.png?v=1795751177",
+   "price": "$5.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:36.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:36.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Game Boy Geek"
+  },
+  {
+   "title": "Green Team Wins: Movies and TV Promo Pack",
+   "url": "https://boardgamegeekstore.com/products/green-team-wins-movies-and-tv-promo-pack",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/pic9433917.webp?v=1795750187",
+   "price": "$5.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:35.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:35.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Game Boy Geek"
+  },
+  {
+   "title": "Big Sur: Landmark Promo Pack",
+   "url": "https://boardgamegeekstore.com/products/big-sur-landmark-promo-pack",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/Gamenerdzimagez7043__01010.webp?v=1795749701",
+   "price": "$5.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:34.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:34.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Game Boy Geek"
+  },
+  {
+   "title": "Æterna: Cleopatra Promo Card",
+   "url": "https://boardgamegeekstore.com/products/aeterna-cleopatra-promo-card",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/pic9117001.webp?v=1795749319",
+   "price": "$3.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:33.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:33.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Game Boy Geek"
+  },
+  {
+   "title": "Tricky Treats: Jester Costume Cards",
+   "url": "https://boardgamegeekstore.com/products/tricky-treats-jester-costume-cards",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/pic9486627.webp?v=1795748980",
+   "price": "$5.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:32.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:32.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Game Boy Geek"
+  },
+  {
+   "title": "Mindbug: The Pack Promo Card",
+   "url": "https://boardgamegeekstore.com/products/mindbug-the-pack-promo-card",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/pic9400820.webp?v=1795748715",
+   "price": "$3.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:30.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:30.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Game Boy Geek"
+  },
+  {
+   "title": "Similo: Aquatic Animals – Promo Cards",
+   "url": "https://boardgamegeekstore.com/products/similo-aquatic-animals-promo-cards",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/pic9030171.webp?v=1795748164",
+   "price": "$5.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:29.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:29.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Game Boy Geek"
+  },
+  {
+   "title": "Horrified - Warlock",
+   "url": "https://boardgamegeekstore.com/products/horrified-warlock",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/2_310855_e.webp?v=1795747586",
+   "price": "$5.00",
+   "status": "sold",
+   "firstSeen": "2026-11-27T14:48:28.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:28.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Ravensburger"
+  },
+  {
+   "title": "Horrified - Krampus",
+   "url": "https://boardgamegeekstore.com/products/horrified-krampus",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/pic8516417.webp?v=1795717228",
+   "price": "$10.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:27.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:27.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Ravensburger"
+  },
+  {
+   "title": "Paleo: Path of the Elders",
+   "url": "https://boardgamegeekstore.com/products/paleo-path-of-the-elders",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/Paleo_Weg_der_Aeltesten_Cover.png?v=1795716399",
+   "price": "$25.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:26.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:26.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Mists Over Carcassonne: Crystal Ghosts (set of 15)",
+   "url": "https://boardgamegeekstore.com/products/mists-over-carcassonne-crystal-ghosts-set-of-15",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/kristall-meeple-15-geister.jpg?v=1795706635",
+   "price": "$9.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:25.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:25.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: Drink Coasters (set of six)",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-drink-coasters-set-of-six",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/TU3.0_Set1.png?v=1795648461",
+   "price": "$6.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:24.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:24.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Acrylic Meeple Earrings",
+   "url": "https://boardgamegeekstore.com/products/acrylic-meeple-earrings",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/earrings_all.png?v=1795790738",
+   "price": "$6.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:23.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:23.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: The Hansa",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-the-hansa",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/CC_Die_Hanse.png?v=1795646518",
+   "price": "$14.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:22.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:22.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: The Dutch Churches",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-the-dutch-churches",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/CC_NL_Kirchen.png?v=1795645976",
+   "price": "$8.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:21.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:21.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Carcassonne: The Signposts",
+   "url": "https://boardgamegeekstore.com/products/carcassonne-the-signposts",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/carcassonne-3-0-die-wegweiser-de-en.jpg?v=1795645128",
+   "price": "$8.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:20.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:20.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
+  {
+   "title": "Paleo: The Caves",
+   "url": "https://boardgamegeekstore.com/products/paleo-the-caves",
+   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/Paleo_-_the_Caves.png?v=1764172753",
+   "price": "$8.00",
+   "status": "sale",
+   "firstSeen": "2026-11-27T14:48:19.000Z",
+   "saleAt": null,
+   "restock": false,
+   "date": "2026-11-27T14:48:19.000Z",
+   "source": "BGG Store",
+   "kind": "news",
+   "label": "ショップ",
+   "vendor": "Hans im Glück"
+  },
   {
    "title": "フルーツ串を作るロール＆ライト『ミアムズ』日本語版、12月18日発売",
    "url": "https://tgiw.info/2026/11/miamsj.html",
@@ -145,21 +775,6 @@
    "source": "ブルーフィンチゲームズ",
    "kind": "maker",
    "label": "ショップ"
-  },
-  {
-   "title": "Carcassonne: SPIEL '26 Promo Tile",
-   "url": "https://boardgamegeekstore.com/products/carcassonne-spiel-26-promo-tile",
-   "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/images_b933fe7b-8905-4462-9521-0a1019b29090.jpg?v=1795640633",
-   "price": "$100.00",
-   "status": "sale",
-   "firstSeen": "2026-11-25T21:26:24.000Z",
-   "saleAt": null,
-   "restock": false,
-   "date": "2026-11-25T21:26:24.000Z",
-   "source": "BGG Store",
-   "kind": "news",
-   "label": "ショップ",
-   "vendor": "Hans im Glück"
   },
   {
    "title": "茨城つくばで「つくばボードゲームフェア2026」11月28日開催",
@@ -1339,7 +1954,7 @@
    "url": "https://bluefinch.base.shop/items/165129471",
    "image": "https://baseec-img-mng.akamaized.net/images/item/origin/68ece901c11a8b86100b49b820ac2354.png?imformat=generic&amp;q=90&amp;im=Resize,width=640,type=normal",
    "price": "4,950円",
-   "status": "sale",
+   "status": "sold",
    "firstSeen": null,
    "saleAt": null,
    "date": null,
@@ -2098,8 +2713,8 @@
   },
   "https://bluefinch.base.shop/items/165129471": {
    "firstSeen": null,
-   "status": "sale",
-   "since": null,
+   "status": "sold",
+   "since": "2026-11-27T22:14:16.414Z",
    "saleAt": null
   },
   "https://bluefinch.base.shop/items/165129239": {
@@ -2212,9 +2827,9 @@
   },
   "https://boardgamegeekstore.com/products/carcassonne-japanese-buildings": {
    "firstSeen": "2026-10-09T15:42:43.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-27T22:14:16.414Z",
+   "saleAt": "2026-11-27T22:14:16.414Z"
   },
   "https://boardgamegeekstore.com/products/carcassonne-markets-of-leipzig": {
    "firstSeen": "2026-10-09T15:42:41.000Z",
@@ -2248,9 +2863,9 @@
   },
   "https://boardgamegeekstore.com/products/carcassonne-4-seasons-the-winter": {
    "firstSeen": "2026-10-09T15:42:34.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-27T22:14:16.414Z",
+   "saleAt": "2026-11-27T22:14:16.414Z"
   },
   "https://boardgamegeekstore.com/products/top-shelf-gamer-deluxe-token-bundle-compatible-with-robinson-crusoe": {
    "firstSeen": "2026-10-09T15:42:33.000Z",
@@ -3586,9 +4201,9 @@
   },
   "https://boardgamegeekstore.com/products/carcassonne-the-peasant-revolts": {
    "firstSeen": "2026-03-19T14:24:06.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-27T22:14:16.414Z",
+   "saleAt": "2026-11-27T22:14:16.414Z"
   },
   "https://boardgamegeekstore.com/products/wingspan-golden-eggs": {
    "firstSeen": "2026-02-17T17:59:44.000Z",
@@ -3724,15 +4339,15 @@
   },
   "https://boardgamegeekstore.com/products/paleo-new-secrets": {
    "firstSeen": "2025-11-28T14:36:53.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-27T22:14:16.414Z",
+   "saleAt": "2026-11-27T22:14:16.414Z"
   },
   "https://boardgamegeekstore.com/products/carcassonne-anniversary-design-drawbag": {
    "firstSeen": "2025-11-28T14:36:52.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-27T22:14:16.414Z",
+   "saleAt": "2026-11-27T22:14:16.414Z"
   },
   "https://boardgamegeekstore.com/products/meeple-cookie-cutter": {
    "firstSeen": "2025-11-28T14:36:50.000Z",
@@ -3760,21 +4375,21 @@
   },
   "https://boardgamegeekstore.com/products/carcassonne-watchtowers": {
    "firstSeen": "2025-11-28T14:36:45.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-27T22:14:16.414Z",
+   "saleAt": "2026-11-27T22:14:16.414Z"
   },
   "https://boardgamegeekstore.com/products/carcassonne-fruit-bearing-trees": {
    "firstSeen": "2025-11-28T14:36:44.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-27T22:14:16.414Z",
+   "saleAt": "2026-11-27T22:14:16.414Z"
   },
   "https://boardgamegeekstore.com/products/carcassonne-tollkeepers": {
    "firstSeen": "2025-11-28T14:36:43.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-27T22:14:16.414Z",
+   "saleAt": "2026-11-27T22:14:16.414Z"
   },
   "https://boardgamegeekstore.com/products/carcassonne-the-bets": {
    "firstSeen": "2025-11-28T14:36:41.000Z",
@@ -3796,9 +4411,9 @@
   },
   "https://boardgamegeekstore.com/products/carcassonne-monasteries-in-germany": {
    "firstSeen": "2025-11-28T14:36:38.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-27T22:14:16.414Z",
+   "saleAt": "2026-11-27T22:14:16.414Z"
   },
   "https://boardgamegeekstore.com/products/carcassonne-castles-in-germany": {
    "firstSeen": "2025-11-28T14:36:37.000Z",
@@ -3814,21 +4429,21 @@
   },
   "https://boardgamegeekstore.com/products/carcassonne-the-festival": {
    "firstSeen": "2025-11-28T14:36:35.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-27T22:14:16.414Z",
+   "saleAt": "2026-11-27T22:14:16.414Z"
   },
   "https://boardgamegeekstore.com/products/carcassonne-halflings": {
    "firstSeen": "2025-11-28T14:36:34.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-27T22:14:16.414Z",
+   "saleAt": "2026-11-27T22:14:16.414Z"
   },
   "https://boardgamegeekstore.com/products/carcassonne-blank-tiles": {
    "firstSeen": "2025-11-28T14:36:33.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-27T22:14:16.414Z",
+   "saleAt": "2026-11-27T22:14:16.414Z"
   },
   "https://boardgamegeekstore.com/products/bitsbins-playing-card-box-deck-boxes-set-of-4": {
    "firstSeen": "2025-11-28T14:36:32.000Z",
@@ -3856,15 +4471,15 @@
   },
   "https://boardgamegeekstore.com/products/carcassonne-wonders-of-humanity-set-3-mini-expansion": {
    "firstSeen": "2025-11-28T14:36:26.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-27T22:14:16.414Z",
+   "saleAt": "2026-11-27T22:14:16.414Z"
   },
   "https://boardgamegeekstore.com/products/carcassonne-wonders-of-humanity-set-2-mini-expansion": {
    "firstSeen": "2025-11-28T14:36:25.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-27T22:14:16.414Z",
+   "saleAt": "2026-11-27T22:14:16.414Z"
   },
   "https://boardgamegeekstore.com/products/carcassonne-wonders-of-humanity-set-1-mini-expansion": {
    "firstSeen": "2025-11-28T14:36:24.000Z",
@@ -3874,15 +4489,15 @@
   },
   "https://boardgamegeekstore.com/products/carcassonne-4-seasons-the-autumn": {
    "firstSeen": "2025-11-28T14:36:22.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-27T22:14:16.414Z",
+   "saleAt": "2026-11-27T22:14:16.414Z"
   },
   "https://boardgamegeekstore.com/products/carcassonne-4-seasons-the-summer": {
    "firstSeen": "2025-11-28T14:36:21.000Z",
-   "status": "sold",
-   "since": null,
-   "saleAt": null
+   "status": "sale",
+   "since": "2026-11-27T22:14:16.414Z",
+   "saleAt": "2026-11-27T22:14:16.414Z"
   },
   "https://boardgamegeekstore.com/products/patchwork-button-upgrade": {
    "firstSeen": "2025-11-26T01:40:53.000Z",
@@ -4816,8 +5431,8 @@
   },
   "https://boardgamegeekstore.com/products/castles-of-burgundy-the-4th-expansion": {
    "firstSeen": "2025-04-03T21:50:45.000Z",
-   "status": "sale",
-   "since": null,
+   "status": "sold",
+   "since": "2026-11-27T22:14:16.414Z",
    "saleAt": null
   },
   "https://boardgamegeekstore.com/products/windmill-valley-calendar-ability-promo-cards": {
@@ -9376,6 +9991,162 @@
   },
   "https://boardgamegeekstore.com/products/carcassonne-spiel-26-promo-tile": {
    "firstSeen": "2026-11-25T21:26:24.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/carcassonne-maps-chips": {
+   "firstSeen": "2026-11-27T16:57:02.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/blind-jack-sample-pack": {
+   "firstSeen": "2026-11-27T14:48:44.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/wispwood-alternate-player-cats-scoring-promo-card": {
+   "firstSeen": "2026-11-27T14:48:43.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/zombie-princess-even-odd-extermination-promo-card": {
+   "firstSeen": "2026-11-27T14:48:42.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/sagrada-promo-31-game-boy-geek-2026-window-pattern-card": {
+   "firstSeen": "2026-11-27T14:48:41.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/sleeping-gods-distant-skies-the-secret-cabal-gaming-podcast-promos": {
+   "firstSeen": "2026-11-27T14:48:40.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/last-light-reclamation-cannon-promo-card": {
+   "firstSeen": "2026-11-27T14:48:39.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/bullseye-promo-category-cards": {
+   "firstSeen": "2026-11-27T14:48:38.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/gatsby-alternative-0-star-character-tiles": {
+   "firstSeen": "2026-11-27T14:48:37.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/holly-jolly-promo-pack": {
+   "firstSeen": "2026-11-27T14:48:36.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/green-team-wins-movies-and-tv-promo-pack": {
+   "firstSeen": "2026-11-27T14:48:35.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/big-sur-landmark-promo-pack": {
+   "firstSeen": "2026-11-27T14:48:34.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/aeterna-cleopatra-promo-card": {
+   "firstSeen": "2026-11-27T14:48:33.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/tricky-treats-jester-costume-cards": {
+   "firstSeen": "2026-11-27T14:48:32.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/mindbug-the-pack-promo-card": {
+   "firstSeen": "2026-11-27T14:48:30.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/similo-aquatic-animals-promo-cards": {
+   "firstSeen": "2026-11-27T14:48:29.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/horrified-warlock": {
+   "firstSeen": "2026-11-27T14:48:28.000Z",
+   "status": "sold",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/horrified-krampus": {
+   "firstSeen": "2026-11-27T14:48:27.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/paleo-path-of-the-elders": {
+   "firstSeen": "2026-11-27T14:48:26.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/mists-over-carcassonne-crystal-ghosts-set-of-15": {
+   "firstSeen": "2026-11-27T14:48:25.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/carcassonne-drink-coasters-set-of-six": {
+   "firstSeen": "2026-11-27T14:48:24.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/acrylic-meeple-earrings": {
+   "firstSeen": "2026-11-27T14:48:23.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/carcassonne-the-hansa": {
+   "firstSeen": "2026-11-27T14:48:22.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/carcassonne-the-dutch-churches": {
+   "firstSeen": "2026-11-27T14:48:21.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/carcassonne-the-signposts": {
+   "firstSeen": "2026-11-27T14:48:20.000Z",
+   "status": "sale",
+   "since": null,
+   "saleAt": null
+  },
+  "https://boardgamegeekstore.com/products/paleo-the-caves": {
+   "firstSeen": "2026-11-27T14:48:19.000Z",
    "status": "sale",
    "since": null,
    "saleAt": null

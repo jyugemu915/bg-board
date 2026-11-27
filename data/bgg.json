@@ -3014,7 +3014,292 @@
    "label": "チェスレース",
    "miss": true,
    "at": "2026-11-27T13:08:12.631Z"
+  },
+  "スカルキング": {
+   "label": "スカルキング",
+   "id": "150145",
+   "name": "Skull King",
+   "image": "https://cf.geekdo-images.com/1qvA21HdRaPYwrn4tGDNaQ__original/img/Vn6PK_Ue5TX14oQ5uau4XICHEJU=/0x0/filters:format(jpeg)/pic8689185.jpg",
+   "thumb": "https://cf.geekdo-images.com/1qvA21HdRaPYwrn4tGDNaQ__small/img/3tBwuRBxhDuhcTvA1g-IjVuUXqY=/fit-in/200x150/filters:strip_icc()/pic8689185.jpg",
+   "query": "id:150145",
+   "at": "2026-11-27T22:14:49.177Z",
+   "alias": "150145"
+  },
+  "宝石の煌き": {
+   "label": "宝石の煌き",
+   "id": "148228",
+   "name": "Splendor",
+   "image": "https://cf.geekdo-images.com/vNFe4JkhKAERzi4T0Ntwpw__original/img/rqcUdtu_N4v-SpI96XVmpYHnJww=/0x0/filters:format(png)/pic8234167.png",
+   "thumb": "https://cf.geekdo-images.com/vNFe4JkhKAERzi4T0Ntwpw__small/img/KKU_42Uswt4tKCpf1zY5kTzgr-g=/fit-in/200x150/filters:strip_icc()/pic8234167.png",
+   "query": "id:148228",
+   "at": "2026-11-27T22:14:51.805Z",
+   "alias": "148228"
+  },
+  "フィッシェン1+2デュアルコレクション": {
+   "label": "フィッシェン1+2 デュアルコレクション",
+   "id": "419195",
+   "name": "Fishing",
+   "image": "https://cf.geekdo-images.com/LjqYcVKq6YrQ0rJ4H4Lusg__original/img/REAXkcbA-CtHuDU0BVNYsHUdyJM=/0x0/filters:format(png)/pic8149442.png",
+   "thumb": "https://cf.geekdo-images.com/LjqYcVKq6YrQ0rJ4H4Lusg__small/img/mzUGdFOVFxq6kJfm41QTRvnxQSw=/fit-in/200x150/filters:strip_icc()/pic8149442.png",
+   "query": "id:419195",
+   "at": "2026-11-27T22:14:54.383Z",
+   "alias": "419195"
+  },
+  "ディープダイブ": {
+   "label": "ディープダイブ",
+   "miss": true,
+   "at": "2026-11-27T22:14:56.977Z"
+  },
+  "ポイントギャラクシー": {
+   "label": "ポイントギャラクシー",
+   "id": "431998",
+   "name": "Point Galaxy",
+   "image": "https://cf.geekdo-images.com/J7_O8J6IU38a-NS9WMD_2A__original/img/SivLr1q8QsSx2hW1b3W34xIZt0Q=/0x0/filters:format(png)/pic8514367.png",
+   "thumb": "https://cf.geekdo-images.com/J7_O8J6IU38a-NS9WMD_2A__small/img/cjMFqmB0fuofRIcQMynj1r5jKZs=/fit-in/200x150/filters:strip_icc()/pic8514367.png",
+   "query": "id:431998",
+   "at": "2026-11-27T22:14:59.559Z",
+   "alias": "431998"
+  },
+  "ガンツシェーンクレバー": {
+   "label": "ガンツ・シェーン・クレバー",
+   "id": "244522",
+   "name": "That&#039;s Pretty Clever!",
+   "image": "https://cf.geekdo-images.com/u1EZSUC5n8k4g4OFPkn3ow__original/img/e4QJiofBkd18ZffIURPyqNWrhxk=/0x0/filters:format(jpeg)/pic8014078.jpg",
+   "thumb": "https://cf.geekdo-images.com/u1EZSUC5n8k4g4OFPkn3ow__small/img/mOfaidSnvnq2gHEQuAsYTLyIQQQ=/fit-in/200x150/filters:strip_icc()/pic8014078.jpg",
+   "query": "id:244522",
+   "at": "2026-11-27T22:15:02.217Z",
+   "alias": "244522"
+  },
+  "ワンラウンド": {
+   "label": "ワンラウンド？",
+   "id": "436046",
+   "name": "One Round?",
+   "image": "https://cf.geekdo-images.com/sDu5MUd1e3_X1ByqVaLp1g__original/img/TCIrWSEZvFJPK7j3hYUWGnI3UD8=/0x0/filters:format(png)/pic8615102.png",
+   "thumb": "https://cf.geekdo-images.com/sDu5MUd1e3_X1ByqVaLp1g__small/img/IjsnvlWMj3Y4BhP4heA4QVOgnZ8=/fit-in/200x150/filters:strip_icc()/pic8615102.png",
+   "query": "id:436046",
+   "at": "2026-11-27T22:15:04.928Z",
+   "alias": "436046"
+  },
+  "スーパーメガラッキーボックス": {
+   "label": "スーパーメガラッキーボックス",
+   "id": "341530",
+   "name": "Super Mega Lucky Box",
+   "image": "https://cf.geekdo-images.com/grnvMmEKa_jRg4ZBX5Fadw__original/img/2jFwR_GdPUCUv6QjDxsgw3DQCkQ=/0x0/filters:format(png)/pic6254861.png",
+   "thumb": "https://cf.geekdo-images.com/grnvMmEKa_jRg4ZBX5Fadw__small/img/Fs2vCJ0dkPZxMHm4A_vEkl0yiT0=/fit-in/200x150/filters:strip_icc()/pic6254861.png",
+   "query": "id:341530",
+   "at": "2026-11-27T22:15:07.526Z",
+   "alias": "341530"
+  },
+  "お前もしかしてロケット団": {
+   "label": "お前、もしかしてロケット団？",
+   "id": "483797",
+   "name": "お前、もしかしてロケット団？ (Wait... Are You with Team Rocket?)",
+   "image": "https://cf.geekdo-images.com/uy7sH5lR9BCEpg-EUmCTvw__original/img/-d0FaWt155DmpH6_0U0I7r3I6xo=/0x0/filters:format(jpeg)/pic9925815.jpg",
+   "thumb": "https://cf.geekdo-images.com/uy7sH5lR9BCEpg-EUmCTvw__small/img/dk1eT0EY30YKe6okTNPhr7IcvUY=/fit-in/200x150/filters:strip_icc()/pic9925815.jpg",
+   "query": "id:483797",
+   "at": "2026-11-27T22:15:10.248Z",
+   "alias": "483797"
+  },
+  "オーディンの祝祭": {
+   "label": "オーディンの祝祭",
+   "id": "177736",
+   "name": "A Feast for Odin",
+   "image": "https://cf.geekdo-images.com/s9oGMCo1fcfV4Dk3EnqLZw__original/img/N1X-0JB1GapFVhl98nP4tNFXMcM=/0x0/filters:format(png)/pic3146943.png",
+   "thumb": "https://cf.geekdo-images.com/s9oGMCo1fcfV4Dk3EnqLZw__small/img/AKxMMz2DTbBrEynhDROla8fdjJ4=/fit-in/200x150/filters:strip_icc()/pic3146943.png",
+   "query": "id:177736",
+   "at": "2026-11-27T22:15:12.827Z",
+   "alias": "177736"
+  },
+  "オーディンの祝祭拡張ノルウェー人": {
+   "label": "オーディンの祝祭 拡張：ノルウェー人",
+   "id": "216788",
+   "name": "A Feast for Odin: The Norwegians",
+   "image": "https://cf.geekdo-images.com/hzgTiNWQ7Vh3Ywr9OhXvtQ__original/img/Z_AooZw5soxAnGh4uON8VK6aqwA=/0x0/filters:format(jpeg)/pic4278032.jpg",
+   "thumb": "https://cf.geekdo-images.com/hzgTiNWQ7Vh3Ywr9OhXvtQ__small/img/bSQOOl58QL4daQjquCaVqQ47JAs=/fit-in/200x150/filters:strip_icc()/pic4278032.jpg",
+   "query": "id:216788",
+   "at": "2026-11-27T22:15:15.746Z",
+   "alias": "216788"
+  },
+  "カヴェルナ": {
+   "label": "カヴェルナ",
+   "id": "102794",
+   "name": "Caverna: The Cave Farmers",
+   "image": "https://cf.geekdo-images.com/EAqbd46lFxo-7GumlO8U4w__original/img/oNM6bkDbjww-7nKZX-WYYmPxRws=/0x0/filters:format(jpeg)/pic5598833.jpg",
+   "thumb": "https://cf.geekdo-images.com/EAqbd46lFxo-7GumlO8U4w__small/img/g-qxFyjgqn7kwH3erf3jhmgYaIU=/fit-in/200x150/filters:strip_icc()/pic5598833.jpg",
+   "query": "id:102794",
+   "at": "2026-11-27T22:15:18.470Z",
+   "alias": "102794"
+  },
+  "カヴェルナ拡張狂乱の魔物たち": {
+   "label": "カヴェルナ 拡張：狂乱の魔物たち",
+   "id": "322816",
+   "name": "Caverna: Frantic Fiends",
+   "image": "https://cf.geekdo-images.com/4ZE-DPD_UCbMV6-pyTAxjA__original/img/Arzu65FhuITQe5AvXezUyqr11os=/0x0/filters:format(jpeg)/pic7353816.jpg",
+   "thumb": "https://cf.geekdo-images.com/4ZE-DPD_UCbMV6-pyTAxjA__small/img/tQdBEinNg9uiU-SLbCqwuRts7OM=/fit-in/200x150/filters:strip_icc()/pic7353816.jpg",
+   "query": "id:322816",
+   "at": "2026-11-27T22:15:21.052Z",
+   "alias": "322816"
+  },
+  "カヴェルナ拡張忘れられた部族": {
+   "label": "カヴェルナ 拡張：忘れられた部族",
+   "id": "245932",
+   "name": "Caverna: The Forgotten Folk",
+   "image": "https://cf.geekdo-images.com/cxdDVUhmWFwbSDFzzDL4-Q__original/img/dCoFrV504Oc0J2APXdTlSGSA0N8=/0x0/filters:format(jpeg)/pic4268584.jpg",
+   "thumb": "https://cf.geekdo-images.com/cxdDVUhmWFwbSDFzzDL4-Q__small/img/82Y-OEX_yW2DC7C6xciSDZYoHQY=/fit-in/200x150/filters:strip_icc()/pic4268584.jpg",
+   "query": "id:245932",
+   "at": "2026-11-27T22:15:23.656Z",
+   "alias": "245932"
+  },
+  "モルックミニチュア": {
+   "label": "モルック ミニチュア",
+   "id": "186279",
+   "name": "Mölkky Minipeli",
+   "image": "https://cf.geekdo-images.com/GQlnijUc8ihs3qWNWAy6FA__original/img/lBdOsdZGBWNdUNdO0pnTLgX0qBg=/0x0/filters:format(jpeg)/pic1190706.jpg",
+   "thumb": "https://cf.geekdo-images.com/GQlnijUc8ihs3qWNWAy6FA__small/img/OBhl3oBKtpIaRt4NZ1oTEdLdE-o=/fit-in/200x150/filters:strip_icc()/pic1190706.jpg",
+   "query": "id:186279",
+   "at": "2026-11-27T22:15:26.271Z",
+   "alias": "186279"
+  },
+  "バイキングシーソー": {
+   "label": "バイキングシーソー",
+   "id": "351810",
+   "name": "Viking See-Saw",
+   "image": "https://cf.geekdo-images.com/sZihzTOJUFXSKgDi787gOQ__original/img/-LjmKJOepTVObwvLq2K31XuxdfM=/0x0/filters:format(jpeg)/pic7757953.jpg",
+   "thumb": "https://cf.geekdo-images.com/sZihzTOJUFXSKgDi787gOQ__small/img/PohAllznfx5J9pQjaIdHgo3DZgs=/fit-in/200x150/filters:strip_icc()/pic7757953.jpg",
+   "query": "id:351810",
+   "at": "2026-11-27T22:15:28.902Z",
+   "alias": "351810"
+  },
+  "テストプレイなんてしてないよ": {
+   "label": "テストプレイなんてしてないよ",
+   "id": "31016",
+   "name": "We Didn&#039;t Playtest This at All",
+   "image": "https://cf.geekdo-images.com/vD1XOwfbUZr67sRgHdrncQ__original/img/U_R9I_Gf6anp0X6wTdffKkBz05g=/0x0/filters:format(jpeg)/pic7299902.jpg",
+   "thumb": "https://cf.geekdo-images.com/vD1XOwfbUZr67sRgHdrncQ__small/img/nPQWL70tFZ2mYpnWW56cOQ-S_3U=/fit-in/200x150/filters:strip_icc()/pic7299902.jpg",
+   "query": "id:31016",
+   "at": "2026-11-27T22:15:31.507Z",
+   "alias": "31016"
+  },
+  "テストプレイなんてしてないよデッキ構築": {
+   "label": "テストプレイなんてしてないよ デッキ構築",
+   "id": "31016",
+   "name": "We Didn&#039;t Playtest This at All",
+   "image": "https://cf.geekdo-images.com/vD1XOwfbUZr67sRgHdrncQ__original/img/U_R9I_Gf6anp0X6wTdffKkBz05g=/0x0/filters:format(jpeg)/pic7299902.jpg",
+   "thumb": "https://cf.geekdo-images.com/vD1XOwfbUZr67sRgHdrncQ__small/img/nPQWL70tFZ2mYpnWW56cOQ-S_3U=/fit-in/200x150/filters:strip_icc()/pic7299902.jpg",
+   "query": "id:31016",
+   "at": "2026-11-27T22:15:34.086Z",
+   "alias": "31016"
+  },
+  "ドラダ": {
+   "label": "ドラダ",
+   "id": "5155",
+   "name": "Dorada",
+   "image": "https://cf.geekdo-images.com/ey0uZ-YPN8S_BY7eUBa1uA__original/img/B--wEIgbEZwFL1ck3hvJY8GH4-E=/0x0/filters:format(jpeg)/pic4814858.jpg",
+   "thumb": "https://cf.geekdo-images.com/ey0uZ-YPN8S_BY7eUBa1uA__small/img/xulGIrMcqmsLXx_4iPYw4vkTBh0=/fit-in/200x150/filters:strip_icc()/pic4814858.jpg",
+   "query": "id:5155",
+   "at": "2026-11-27T22:15:36.700Z",
+   "alias": "5155"
+  },
+  "ガチャポントリック": {
+   "label": "ガチャポントリック",
+   "id": "430856",
+   "name": "Gachapon Trick",
+   "image": "https://cf.geekdo-images.com/tW_Yo13e0ZLBcfA4pFmD9g__original/img/kl9y4q5vELMO-QNSaPX_dV2rY3s=/0x0/filters:format(png)/pic9262764.png",
+   "thumb": "https://cf.geekdo-images.com/tW_Yo13e0ZLBcfA4pFmD9g__small/img/PDV9gBFb_jkvfiwmVPEWwqcRgc4=/fit-in/200x150/filters:strip_icc()/pic9262764.png",
+   "query": "id:430856",
+   "at": "2026-11-27T22:15:39.298Z",
+   "alias": "430856"
+  },
+  "ボーナンザ": {
+   "label": "ボーナンザ",
+   "id": "11",
+   "name": "Bohnanza",
+   "image": "https://cf.geekdo-images.com/pjAJMBAvermX3JR04Iy4qw__original/img/cKSo-rY2884MjF9eJdecHJOlzQ4=/0x0/filters:format(png)/pic9797400.png",
+   "thumb": "https://cf.geekdo-images.com/pjAJMBAvermX3JR04Iy4qw__small/img/RTXnBcJU1zMOh7gBByEhrr7L6f8=/fit-in/200x150/filters:strip_icc()/pic9797400.png",
+   "query": "id:11",
+   "at": "2026-11-27T22:15:41.934Z",
+   "alias": "11"
+  },
+  "ロジス": {
+   "label": "ロジス",
+   "miss": true,
+   "at": "2026-11-27T22:15:44.526Z"
+  },
+  "ワントゥファイブ": {
+   "label": "ワン・トゥ・ファイブ",
+   "id": "457604",
+   "name": "One to Five",
+   "image": "https://cf.geekdo-images.com/FrF-7inl9yI1CPNexQHEvw__original/img/ajac8R-Pp3l-fNQz0b87aqQN03s=/0x0/filters:format(jpeg)/pic9202623.jpg",
+   "thumb": "https://cf.geekdo-images.com/FrF-7inl9yI1CPNexQHEvw__small/img/hGKMSwolBOp4YZe1MzQ37hYDAnM=/fit-in/200x150/filters:strip_icc()/pic9202623.jpg",
+   "query": "id:457604",
+   "at": "2026-11-27T22:15:47.119Z",
+   "alias": "457604"
+  },
+  "ザクルー深海に眠る遺跡": {
+   "label": "ザ・クルー 深海に眠る遺跡",
+   "id": "324856",
+   "name": "The Crew: Mission Deep Sea",
+   "image": "https://cf.geekdo-images.com/VuBqZ1sMaDAVVHF_OEJP4g__original/img/jGWxczXC_VWZofeAmlO_DkB0hCI=/0x0/filters:format(jpeg)/pic5988903.jpg",
+   "thumb": "https://cf.geekdo-images.com/VuBqZ1sMaDAVVHF_OEJP4g__small/img/EdacXlcFZ06YK0-ZKa0oKwL4VCw=/fit-in/200x150/filters:strip_icc()/pic5988903.jpg",
+   "query": "id:324856",
+   "at": "2026-11-27T22:15:49.725Z",
+   "alias": "324856"
+  },
+  "アークスミニチュアパック": {
+   "label": "アークス ミニチュアパック",
+   "id": "359871",
+   "name": "Arcs",
+   "image": "https://cf.geekdo-images.com/g9TlY_e-lRG2HsXOsBMG4w__original/img/IubBqrzKhQbb0jgjeeyYqf-9oOM=/0x0/filters:format(png)/pic9944474.png",
+   "thumb": "https://cf.geekdo-images.com/g9TlY_e-lRG2HsXOsBMG4w__small/img/0oOas7_3si5VYdxPvn5dGhkWE08=/fit-in/200x150/filters:strip_icc()/pic9944474.png",
+   "query": "id:359871",
+   "at": "2026-11-27T22:15:52.300Z",
+   "alias": "359871"
+  },
+  "carcassonnejapanesebuildings": {
+   "label": "Carcassonne: Japanese Buildings",
+   "id": "158041",
+   "name": "Carcassonne: Klöster in Deutschland",
+   "image": "https://cf.geekdo-images.com/cHCY0VPjYoU258ALNmojcA__original/img/7KpVN08POxetaJnhrB6P9T5o3Wk=/0x0/filters:format(jpeg)/pic2001167.jpg",
+   "thumb": "https://cf.geekdo-images.com/cHCY0VPjYoU258ALNmojcA__small/img/o_OdyPbVdLxFHQfOLfIkvH3l8Gs=/fit-in/200x150/filters:strip_icc()/pic2001167.jpg",
+   "query": "Carcassonne: Japanese Buildings",
+   "at": "2026-11-27T22:15:57.490Z"
+  },
+  "carcassonne4seasonsthewinter": {
+   "label": "Carcassonne: 4 Seasons - The Winter",
+   "id": "822",
+   "name": "Carcassonne",
+   "image": "https://cf.geekdo-images.com/peUgu3A20LRmAXAMyDQfpQ__original/img/bP18m_PYjyFOv1IBGgMOteQUneA=/0x0/filters:format(jpeg)/pic8621446.jpg",
+   "thumb": "https://cf.geekdo-images.com/peUgu3A20LRmAXAMyDQfpQ__small/img/oEEslN-EGqh82sNI6Aj4_MFXYg0=/fit-in/200x150/filters:strip_icc()/pic8621446.jpg",
+   "query": "Carcassonne",
+   "at": "2026-11-27T22:16:06.559Z"
+  },
+  "carcassonnethepeasantrevolts": {
+   "label": "Carcassonne: The Peasant Revolts",
+   "id": "324940",
+   "name": "Carcassonne: The Peasant Revolts",
+   "image": "https://cf.geekdo-images.com/zbksZs4PEYI48AdTQAs0Ig__original/img/j-6F6vcvu0O4lfUZmokWg9K9mRI=/0x0/filters:format(jpeg)/pic5802984.jpg",
+   "thumb": "https://cf.geekdo-images.com/zbksZs4PEYI48AdTQAs0Ig__small/img/Xl_tyPoGPiveBoNdl_zgwEVkZPE=/fit-in/200x150/filters:strip_icc()/pic5802984.jpg",
+   "query": "Carcassonne: The Peasant Revolts",
+   "at": "2026-11-27T22:16:12.193Z"
+  },
+  "paleonewsecrets": {
+   "label": "Paleo: New Secrets",
+   "id": "38865",
+   "name": "Paleo",
+   "image": "https://cf.geekdo-images.com/wBWTzu8t1yXDwbE54NxCog__original/img/S3rpXPwc_04EQjVcvlwYr464Ne8=/0x0/filters:format(jpeg)/pic381660.jpg",
+   "thumb": "https://cf.geekdo-images.com/wBWTzu8t1yXDwbE54NxCog__small/img/4m6fjksMLakDo9MTyF6myWVv5yk=/fit-in/200x150/filters:strip_icc()/pic381660.jpg",
+   "query": "Paleo",
+   "at": "2026-11-27T22:16:20.094Z"
+  },
+  "carcassonneanniversarydesigndrawbag": {
+   "label": "Carcassonne: Anniversary Design Drawbag",
+   "id": "822",
+   "name": "Carcassonne",
+   "image": "https://cf.geekdo-images.com/peUgu3A20LRmAXAMyDQfpQ__original/img/bP18m_PYjyFOv1IBGgMOteQUneA=/0x0/filters:format(jpeg)/pic8621446.jpg",
+   "thumb": "https://cf.geekdo-images.com/peUgu3A20LRmAXAMyDQfpQ__small/img/oEEslN-EGqh82sNI6Aj4_MFXYg0=/fit-in/200x150/filters:strip_icc()/pic8621446.jpg",
+   "query": "Carcassonne",
+   "at": "2026-11-27T22:16:30.432Z"
   }
  },
- "updatedAt": "2026-11-27T13:08:12.631Z"
+ "updatedAt": "2026-11-27T22:16:30.432Z"
 }
