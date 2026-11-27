@@ -2746,7 +2746,275 @@
    "query": "id:363757",
    "at": "2026-11-27T12:46:26.898Z",
    "alias": "363757"
+  },
+  "ビルドウォー": {
+   "label": "ビルドウォー",
+   "id": "400772",
+   "name": "Build War",
+   "image": "https://cf.geekdo-images.com/joYAMhF5bDYWlUHEtiypiA__original/img/o9ukCnrbCwuPELCm-cLYXMvBaZM=/0x0/filters:format(jpeg)/pic7725652.jpg",
+   "thumb": "https://cf.geekdo-images.com/joYAMhF5bDYWlUHEtiypiA__small/img/Y-5sQy0wiosp3EmCrv6bjBa8KGQ=/fit-in/200x150/filters:strip_icc()/pic7725652.jpg",
+   "query": "id:400772",
+   "at": "2026-11-27T13:06:50.189Z",
+   "alias": "400772"
+  },
+  "デックローグ": {
+   "label": "デックローグ",
+   "miss": true,
+   "at": "2026-11-27T13:06:52.796Z"
+  },
+  "グミチョコパパイヤレボリューション": {
+   "label": "グミチョコパパイヤレボリューション",
+   "id": "483679",
+   "name": "グミチョコパパイヤレボリューション (Gummi Choco Papaya Revolution)",
+   "image": "",
+   "thumb": "",
+   "query": "id:483679",
+   "at": "2026-11-27T13:06:55.388Z",
+   "alias": "483679"
+  },
+  "12王国の玉座": {
+   "label": "12王国の玉座",
+   "miss": true,
+   "at": "2026-11-27T13:06:57.981Z"
+  },
+  "あいうえバトル": {
+   "label": "あいうえバトル",
+   "id": "386896",
+   "name": "aiue battle",
+   "image": "https://cf.geekdo-images.com/f-gXhxBReNG0HicN_Hp6Bg__original/img/UcZD4osFVczTwVQFJcX5dDKnMAM=/0x0/filters:format(jpeg)/pic7483244.jpg",
+   "thumb": "https://cf.geekdo-images.com/f-gXhxBReNG0HicN_Hp6Bg__small/img/BoFVEChzEoLAhZlrZuFQV7fIcII=/fit-in/200x150/filters:strip_icc()/pic7483244.jpg",
+   "query": "id:386896",
+   "at": "2026-11-27T13:07:00.568Z",
+   "alias": "386896"
+  },
+  "エクスカリバー": {
+   "label": "エクスカリバー",
+   "miss": true,
+   "at": "2026-11-27T13:07:03.223Z"
+  },
+  "kings": {
+   "label": "Kings",
+   "id": "25693",
+   "name": "Kings & Castles",
+   "image": "https://cf.geekdo-images.com/Zop4hUckZ_BtuJ_s0ddQvA__original/img/YUng7KOc6G6EtBqz6-snNlsv_LA=/0x0/filters:format(jpeg)/pic148782.jpg",
+   "thumb": "https://cf.geekdo-images.com/Zop4hUckZ_BtuJ_s0ddQvA__small/img/D3v-YV_YiL2C3iXPY3dvBELBSSk=/fit-in/200x150/filters:strip_icc()/pic148782.jpg",
+   "query": "Kings",
+   "at": "2026-11-27T13:07:09.480Z"
+  },
+  "私の世界の見方": {
+   "label": "私の世界の見方",
+   "id": "13089",
+   "name": "Wie ich die Welt sehe...",
+   "image": "https://cf.geekdo-images.com/Qm_qgmFJ3MTEOtZec678Wg__original/img/-xQjeP6O10paXzfcceP1Ze-8ihw=/0x0/filters:format(jpeg)/pic5386818.jpg",
+   "thumb": "https://cf.geekdo-images.com/Qm_qgmFJ3MTEOtZec678Wg__small/img/sTEAZE5S1HXmSUgcIcxrvz6wt5c=/fit-in/200x150/filters:strip_icc()/pic5386818.jpg",
+   "query": "id:13089",
+   "at": "2026-11-27T13:07:12.061Z",
+   "alias": "13089"
+  },
+  "テラフォーミングマーズ": {
+   "label": "テラフォーミングマーズ",
+   "id": "167791",
+   "name": "Terraforming Mars",
+   "image": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__original/img/thIqWDnH9utKuoKVEUqveDixprI=/0x0/filters:format(jpeg)/pic3536616.jpg",
+   "thumb": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__small/img/BTxqxgYay5tHJfVoJ2NF5g43_gA=/fit-in/200x150/filters:strip_icc()/pic3536616.jpg",
+   "query": "id:167791",
+   "at": "2026-11-27T13:07:14.684Z",
+   "alias": "167791"
+  },
+  "おばけキャッチ": {
+   "label": "おばけキャッチ",
+   "id": "83195",
+   "name": "Ghost Blitz",
+   "image": "https://cf.geekdo-images.com/tvZTjFnPvt2LrY6NGSbeuQ__original/img/iYrL_UZ6fhDNi8GdEjdq29yDguw=/0x0/filters:format(jpeg)/pic2034769.jpg",
+   "thumb": "https://cf.geekdo-images.com/tvZTjFnPvt2LrY6NGSbeuQ__small/img/LGtpFjDazqROmznWJaJStSxkIHI=/fit-in/200x150/filters:strip_icc()/pic2034769.jpg",
+   "query": "id:83195",
+   "at": "2026-11-27T13:07:17.264Z",
+   "alias": "83195"
+  },
+  "おばけキャッチ20": {
+   "label": "おばけキャッチ2.0",
+   "id": "118705",
+   "name": "Ghost Blitz 2",
+   "image": "https://cf.geekdo-images.com/gZINyKRulzqWyOEEUuR01A__original/img/5i927I6nsNkdXQ9-WCHAp1M-ow8=/0x0/filters:format(jpeg)/pic1855044.jpg",
+   "thumb": "https://cf.geekdo-images.com/gZINyKRulzqWyOEEUuR01A__small/img/lelYoXCVNf0lc_t1kOivYteRDfY=/fit-in/200x150/filters:strip_icc()/pic1855044.jpg",
+   "query": "id:118705",
+   "at": "2026-11-27T13:07:19.992Z",
+   "alias": "118705"
+  },
+  "ことば落とし": {
+   "label": "ことば落とし",
+   "miss": true,
+   "at": "2026-11-27T13:07:22.719Z"
+  },
+  "ゆび感クレーンゲーム": {
+   "label": "ゆび感クレーンゲーム",
+   "id": "459499",
+   "name": "ゆび感クレーンゲーム チャンピョンシップ (Finger Crane Game Championship)",
+   "image": "https://cf.geekdo-images.com/ulN-avfBj8rRCxr6fhAnAQ__original/img/AyfWpiXHYfyCbLumiCDOF9ax4LM=/0x0/filters:format(jpeg)/pic9260811.jpg",
+   "thumb": "https://cf.geekdo-images.com/ulN-avfBj8rRCxr6fhAnAQ__small/img/UBTQo2kJD7BWmuzzKJXl9Stw4Bg=/fit-in/200x150/filters:strip_icc()/pic9260811.jpg",
+   "query": "id:459499",
+   "at": "2026-11-27T13:07:25.367Z",
+   "alias": "459499"
+  },
+  "ごいた": {
+   "label": "ごいた",
+   "id": "31821",
+   "name": "Goita",
+   "image": "https://cf.geekdo-images.com/57iumxbdKGK7QIYv9t1w8Q__original/img/UsolcKpZJrbuuZZa87k5CfUHfko=/0x0/filters:format(jpeg)/pic247290.jpg",
+   "thumb": "https://cf.geekdo-images.com/57iumxbdKGK7QIYv9t1w8Q__small/img/BZl5dWlUwCytqV1wJRnxOqy5WuI=/fit-in/200x150/filters:strip_icc()/pic247290.jpg",
+   "query": "id:31821",
+   "at": "2026-11-27T13:07:28.048Z",
+   "alias": "31821"
+  },
+  "ミレニアムブレード拡張セットローテーション": {
+   "label": "ミレニアムブレード 拡張：セットローテーション",
+   "id": "198507",
+   "name": "Millennium Blades: Set Rotation",
+   "image": "https://cf.geekdo-images.com/TJHs-7LfPgEk7eelFgpEFA__original/img/KqMtDIkn-GaaNqsEdB50oEt1vNg=/0x0/filters:format(jpeg)/pic3066024.jpg",
+   "thumb": "https://cf.geekdo-images.com/TJHs-7LfPgEk7eelFgpEFA__small/img/V9-1c4u57zPybfx-mnXNpd5y19Y=/fit-in/200x150/filters:strip_icc()/pic3066024.jpg",
+   "query": "id:198507",
+   "at": "2026-11-27T13:07:30.629Z",
+   "alias": "198507"
+  },
+  "窓拭き職人": {
+   "label": "窓拭き職人",
+   "id": "9409",
+   "name": "Meister Scheibenkleister",
+   "image": "https://cf.geekdo-images.com/xAJrlzxGpu0ETpcHBBcf-A__original/img/V-oAY-KxlG6VnT_rEBKBqdP6XUg=/0x0/filters:format(jpeg)/pic298973.jpg",
+   "thumb": "https://cf.geekdo-images.com/xAJrlzxGpu0ETpcHBBcf-A__small/img/4slhgVM5JpPLIRcS9-3jkruM344=/fit-in/200x150/filters:strip_icc()/pic298973.jpg",
+   "query": "id:9409",
+   "at": "2026-11-27T13:07:33.211Z",
+   "alias": "9409"
+  },
+  "kittin": {
+   "label": "Kittin",
+   "id": "302477",
+   "name": "Kittin",
+   "image": "https://cf.geekdo-images.com/9zBkfVaeZBR3O1ON50TRUg__original/img/97Egl2Vi39ksVZhPo2h5y9hQEbc=/0x0/filters:format(jpeg)/pic5290230.jpg",
+   "thumb": "https://cf.geekdo-images.com/9zBkfVaeZBR3O1ON50TRUg__small/img/byPweDAFQ7dxzmn2by0q-4KyFOI=/fit-in/200x150/filters:strip_icc()/pic5290230.jpg",
+   "query": "id:302477",
+   "at": "2026-11-27T13:07:35.895Z",
+   "alias": "302477"
+  },
+  "アルゴ": {
+   "label": "アルゴ",
+   "id": "8946",
+   "name": "Da Vinci Code",
+   "image": "https://cf.geekdo-images.com/o7j9AgTLZu-bcGU1hRDTQA__original/img/DB2ByyzzMuuwzi2ZCJYmzqQ9BTI=/0x0/filters:format(jpeg)/pic4979576.jpg",
+   "thumb": "https://cf.geekdo-images.com/o7j9AgTLZu-bcGU1hRDTQA__small/img/ZSKnVQl67zaZeHd7upUj1FPu8iw=/fit-in/200x150/filters:strip_icc()/pic4979576.jpg",
+   "query": "id:8946",
+   "at": "2026-11-27T13:07:38.484Z",
+   "alias": "8946"
+  },
+  "クク21": {
+   "label": "クク21",
+   "id": "145765",
+   "name": "Cucco 21",
+   "image": "https://cf.geekdo-images.com/HqCtpNilnQdqyz8rHE-nPA__original/img/Wxz6h3x4EkmZIAOHHWSCVMTK8wg=/0x0/filters:format(jpeg)/pic2281270.jpg",
+   "thumb": "https://cf.geekdo-images.com/HqCtpNilnQdqyz8rHE-nPA__small/img/3tzTiO1mVHgvg6AK6TfvY8OABF0=/fit-in/200x150/filters:strip_icc()/pic2281270.jpg",
+   "query": "id:145765",
+   "at": "2026-11-27T13:07:41.229Z",
+   "alias": "145765"
+  },
+  "犯人は踊る": {
+   "label": "犯人は踊る",
+   "id": "158991",
+   "name": "Hannin Wa Odoru",
+   "image": "https://cf.geekdo-images.com/Cj974EcSjF3sIoq6Y-2tSQ__original/img/AmrrlX2PT_XDat3hkhxti6LqjUM=/0x0/filters:format(jpeg)/pic2019550.jpg",
+   "thumb": "https://cf.geekdo-images.com/Cj974EcSjF3sIoq6Y-2tSQ__small/img/KBeYhtiz9_nzLstGkZ7bJoa2MMI=/fit-in/200x150/filters:strip_icc()/pic2019550.jpg",
+   "query": "id:158991",
+   "at": "2026-11-27T13:07:43.805Z",
+   "alias": "158991"
+  },
+  "ドブル": {
+   "label": "ドブル",
+   "id": "63268",
+   "name": "Spot it!",
+   "image": "https://cf.geekdo-images.com/hqDT4HbEb2eNCyMOeiGj-g__original/img/6w3wjI3YZOWa8XLxoKQqg3XnbN0=/0x0/filters:format(png)/pic6477003.png",
+   "thumb": "https://cf.geekdo-images.com/hqDT4HbEb2eNCyMOeiGj-g__small/img/ZNgW2QhLjYpVltWHy3LyJqstnow=/fit-in/200x150/filters:strip_icc()/pic6477003.png",
+   "query": "id:63268",
+   "at": "2026-11-27T13:07:46.546Z",
+   "alias": "63268"
+  },
+  "音速飯店": {
+   "label": "音速飯店",
+   "id": "395625",
+   "name": "音速飯店 (Onsoku Hanten)",
+   "image": "https://cf.geekdo-images.com/ayBGnSLyRwbNZDdyC2ZyMw__original/img/74_gR-2TLcWX4JlzLz2VbS35-hg=/0x0/filters:format(jpeg)/pic7630782.jpg",
+   "thumb": "https://cf.geekdo-images.com/ayBGnSLyRwbNZDdyC2ZyMw__small/img/iAcobN6e7wHzA6_QS0lhqiEoXHI=/fit-in/200x150/filters:strip_icc()/pic7630782.jpg",
+   "query": "id:395625",
+   "at": "2026-11-27T13:07:49.125Z",
+   "alias": "395625"
+  },
+  "コヨーテ": {
+   "label": "コヨーテ",
+   "id": "8172",
+   "name": "Coyote",
+   "image": "https://cf.geekdo-images.com/SI7PmZvgnG_eGtTLjDUFXw__original/img/yCBhkklKvQiXMW_lZtFBJV6a1tE=/0x0/filters:format(jpeg)/pic6884733.jpg",
+   "thumb": "https://cf.geekdo-images.com/SI7PmZvgnG_eGtTLjDUFXw__small/img/aZEEzxcuT4dkm6-7aCSdNBEBRIs=/fit-in/200x150/filters:strip_icc()/pic6884733.jpg",
+   "query": "id:8172",
+   "at": "2026-11-27T13:07:51.730Z",
+   "alias": "8172"
+  },
+  "イリュージョン": {
+   "label": "イリュージョン",
+   "id": "244995",
+   "name": "Illusion",
+   "image": "https://cf.geekdo-images.com/jcFaI9hr6iXwpwCZT-ifHA__original/img/UYQwliOVoq0QQFdD-xtBUYd_RuM=/0x0/filters:format(png)/pic3979771.png",
+   "thumb": "https://cf.geekdo-images.com/jcFaI9hr6iXwpwCZT-ifHA__small/img/KnKWkryn-UTBNrIsJWiyQG7yyq4=/fit-in/200x150/filters:strip_icc()/pic3979771.png",
+   "query": "イリュージョン",
+   "at": "2026-11-27T13:07:57.032Z"
+  },
+  "宝石の煌きデュエル拡張偽造者": {
+   "label": "宝石の煌き：デュエル 拡張：偽造者",
+   "id": "462460",
+   "name": "Splendor Duel: The Counterfeiters",
+   "image": "https://cf.geekdo-images.com/GpZJl9ZGKrF_AuqesvUpdA__original/img/-94nJ3NP4Lay3cijDUS8St5h2js=/0x0/filters:format(png)/pic9338755.png",
+   "thumb": "https://cf.geekdo-images.com/GpZJl9ZGKrF_AuqesvUpdA__small/img/Q46EUtruZqv1omqQKn9wwX__sBc=/fit-in/200x150/filters:strip_icc()/pic9338755.png",
+   "query": "id:462460",
+   "at": "2026-11-27T13:07:59.613Z",
+   "alias": "462460"
+  },
+  "いちごりら": {
+   "label": "いちごりら",
+   "miss": true,
+   "at": "2026-11-27T13:08:02.216Z"
+  },
+  "オラパマイン": {
+   "label": "オラパマイン",
+   "id": "424152",
+   "name": "Orapa Mine",
+   "image": "https://cf.geekdo-images.com/AA9S_-ZXnIFS0ABiFxmZ9w__original/img/pY5DDByB6SA60PwWuuzWgFG2soc=/0x0/filters:format(jpeg)/pic8307047.jpg",
+   "thumb": "https://cf.geekdo-images.com/AA9S_-ZXnIFS0ABiFxmZ9w__small/img/7rgnYRe9NpOSpixs0FXmEGkKfxU=/fit-in/200x150/filters:strip_icc()/pic8307047.jpg",
+   "query": "id:424152",
+   "at": "2026-11-27T13:08:04.796Z",
+   "alias": "424152"
+  },
+  "ローゼンケーニッヒplayte版": {
+   "label": "ローゼンケーニッヒ（playte版）",
+   "id": "201",
+   "name": "The Rose King",
+   "image": "https://cf.geekdo-images.com/vfFy_HLiBNLxptwxFDMmDg__original/img/P3_WKEg4RBXmBWIVE4pMhFD35x4=/0x0/filters:format(jpeg)/pic2855891.jpg",
+   "thumb": "https://cf.geekdo-images.com/vfFy_HLiBNLxptwxFDMmDg__small/img/CJ8yTQu3kt8o4ZwF5ZbMJWDj564=/fit-in/200x150/filters:strip_icc()/pic2855891.jpg",
+   "query": "id:201",
+   "at": "2026-11-27T13:08:07.428Z",
+   "alias": "201"
+  },
+  "ステレオマインドクラシック": {
+   "label": "ステレオマインド クラシック",
+   "id": "398707",
+   "name": "Stereo Mind: Classical",
+   "image": "https://cf.geekdo-images.com/de0W0kHB_FhHCojzlv-wNw__original/img/xNRyD4SfdCtUFb2aIPqFhoArzZI=/0x0/filters:format(jpeg)/pic7679128.jpg",
+   "thumb": "https://cf.geekdo-images.com/de0W0kHB_FhHCojzlv-wNw__small/img/tKyIee52-0e_gCkWsK55lWsNg6s=/fit-in/200x150/filters:strip_icc()/pic7679128.jpg",
+   "query": "id:398707",
+   "at": "2026-11-27T13:08:10.012Z",
+   "alias": "398707"
+  },
+  "チェスレース": {
+   "label": "チェスレース",
+   "miss": true,
+   "at": "2026-11-27T13:08:12.631Z"
   }
  },
- "updatedAt": "2026-11-27T13:03:48.007Z"
+ "updatedAt": "2026-11-27T13:08:12.631Z"
 }
