@@ -14708,6 +14708,211 @@
    ],
    "at": "2026-11-27T05:25:55.497Z"
   },
+  "169654": {
+   "v": 4,
+   "id": "169654",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "3〜6",
+   "minTime": 30,
+   "maxTime": 30,
+   "age": 8,
+   "rating": 6.86,
+   "weight": 1.19,
+   "rank": 960,
+   "mechanics": [
+    "Dice Rolling",
+    "Pick-up and Deliver",
+    "Push Your Luck",
+    "Roll / Spin and Move",
+    "Track Movement"
+   ],
+   "categories": [
+    "Dice",
+    "Exploration",
+    "Nautical",
+    "Party Game"
+   ],
+   "designers": [
+    "Jun Sasaki",
+    "Goro Sasaki"
+   ],
+   "artists": [
+    "Jun Sasaki"
+   ],
+   "publishers": [
+    "Oink Games",
+    "4 Kavky",
+    "Ghenos Games",
+    "Hachette Boardgames UK",
+    "Lavka Games",
+    "PopcornEdu",
+    "Tower Tactic Games"
+   ],
+   "families": [
+    "Theme: Submarines",
+    "Theme: Treasure Diving"
+   ],
+   "desc": "A group of poor explorers hoping to get rich quickly heads out to recover treasures from some undersea ruins. They're all rivals, but their budgets force them all to share a single rented submarine. In the rented submarine, they all have to share a single tank of air, as well. If they don't get back to the sub before they run out of air, they'll drop all their treasure. Now it's time to see who can bring home the greatest riches.\n\nGame Objective\nThe game takes place over 3 rounds, and the player to gain the most points over the 3 rounds is the winner. In order to gain points, you must bring the most ruins chips back to the submarine. You can only return to the submarine once per round, and you cannot progress more after returning. You cannot return to the submarine without bringing any ruins chips.\n\nTurn Progression\nOn their turns, players conduct steps 1-4 listed below. Players take turns, going clockwise around the board, and the round ends when all players have returned to the submarine, or if the air runs out at the beginning of someone's turn.\n\n1) Declare if you will turn back or not.\n2) Reduce air.\n3) Roll the dice and advance your game piece.\n4) Search. (When you have stopped moving, select one of A-C below)\n     A) Do nothing.\n     B) Pick up ruins chip.\n     C) Place a ruins chip.",
+   "expansions": [
+    {
+     "id": "349150",
+     "name": "Deep Sea Adventure: Expansion Dice"
+    }
+   ],
+   "bases": [],
+   "en": "Deep Sea Adventure",
+   "ja": "",
+   "minp": 2,
+   "maxp": 6,
+   "time": 30,
+   "year": 2014,
+   "thumb": "https://cf.geekdo-images.com/owyKXaa5SPB2HG9F_MueNQ__small/img/poEY0PMTpz4X_SOUaPjs6G7qr7o=/fit-in/200x150/filters:strip_icc()/pic3169827.png",
+   "image": "https://cf.geekdo-images.com/owyKXaa5SPB2HG9F_MueNQ__original/img/gOmpUB3hM7Ap9o-kDsV8ZVBVYXA=/0x0/filters:format(png)/pic3169827.png",
+   "box": [
+    11,
+    6,
+    3.5
+   ],
+   "versions": [
+    {
+     "id": "466354",
+     "name": "Multilingual edition 2019",
+     "year": 2019,
+     "lang": "English・French・German・Japanese",
+     "thumb": "https://cf.geekdo-images.com/owyKXaa5SPB2HG9F_MueNQ__small/img/poEY0PMTpz4X_SOUaPjs6G7qr7o=/fit-in/200x150/filters:strip_icc()/pic3169827.png",
+     "image": "https://cf.geekdo-images.com/owyKXaa5SPB2HG9F_MueNQ__original/img/gOmpUB3hM7Ap9o-kDsV8ZVBVYXA=/0x0/filters:format(png)/pic3169827.png",
+     "size": [
+      15,
+      9.9,
+      4.1
+     ]
+    },
+    {
+     "id": "325541",
+     "name": "Multilingual edition (German cover)",
+     "year": 2016,
+     "lang": "English・French・German・Japanese",
+     "thumb": "https://cf.geekdo-images.com/Y3sRpv1uPakt0XwwNMSmAQ__small/img/TfBB7t_GVhL4U0BQMWJZYjEyhaI=/fit-in/200x150/filters:strip_icc()/pic3169829.png",
+     "image": "https://cf.geekdo-images.com/Y3sRpv1uPakt0XwwNMSmAQ__original/img/-0MMEp-m1LSj7iwR7nZAQ999hq0=/0x0/filters:format(png)/pic3169829.png",
+     "size": [
+      11,
+      6,
+      3.5
+     ]
+    },
+    {
+     "id": "260225",
+     "name": "English/Japanese edition",
+     "year": 2014,
+     "lang": "English・Japanese",
+     "thumb": "https://cf.geekdo-images.com/LISfUmkVhzSg55qfBAggqQ__small/img/AHE_nem7g1t-tu8b3pxXqlJT3RE=/fit-in/200x150/filters:strip_icc()/pic3169828.png",
+     "image": "https://cf.geekdo-images.com/LISfUmkVhzSg55qfBAggqQ__original/img/SGG2dzd5n-YZfXVBoC0KclqIk_M=/0x0/filters:format(png)/pic3169828.png",
+     "size": [
+      11,
+      6,
+      3.5
+     ]
+    },
+    {
+     "id": "796862",
+     "name": "Italian edition",
+     "year": 2026,
+     "lang": "Italian",
+     "thumb": "https://cf.geekdo-images.com/024MpooCvDwE9Q_J7r_szw__small/img/nWGNK720-Pfv7zuFc7hE4CyEHlU=/fit-in/200x150/filters:strip_icc()/pic9497755.png",
+     "image": "https://cf.geekdo-images.com/024MpooCvDwE9Q_J7r_szw__original/img/Xs21pSibl9gwBHi8YDKLePELyBg=/0x0/filters:format(png)/pic9497755.png",
+     "size": [
+      15,
+      9.9,
+      4.1
+     ]
+    },
+    {
+     "id": "718640",
+     "name": "Multilingual UK edition",
+     "year": 2023,
+     "lang": "Dutch・English・French・German・Italian・Spanish",
+     "thumb": "https://cf.geekdo-images.com/7pgkRVFM1vUre65FCCVstA__small/img/OYEwUK0aLnDP38Td7PkBe9vuQZw=/fit-in/200x150/filters:strip_icc()/pic8269653.png",
+     "image": "https://cf.geekdo-images.com/7pgkRVFM1vUre65FCCVstA__original/img/L0rNqYak0RrXiu540sfWV43Mb2Q=/0x0/filters:format(png)/pic8269653.png",
+     "size": [
+      11,
+      6.5,
+      3.5
+     ]
+    },
+    {
+     "id": "513009",
+     "name": "Thai edition",
+     "year": 2020,
+     "lang": "Thai",
+     "thumb": "https://cf.geekdo-images.com/g6lyPnlBEcYe1rH_6m7Jkw__small/img/H-CafupHfcCD4bIWAxR3K4apQkY=/fit-in/200x150/filters:strip_icc()/pic5476264.png",
+     "image": "https://cf.geekdo-images.com/g6lyPnlBEcYe1rH_6m7Jkw__original/img/1uiyHmfP0e6D8RfUVijElt_4K54=/0x0/filters:format(png)/pic5476264.png",
+     "size": [
+      11,
+      6,
+      3.5
+     ]
+    },
+    {
+     "id": "558388",
+     "name": "English/Spanish edition",
+     "year": 2019,
+     "lang": "English・Spanish",
+     "thumb": "https://cf.geekdo-images.com/uCGP8AvMteOnS9PB1Gru7w__small/img/Sa8SvqIN0i_Nw1JwNn8JXohgEa4=/fit-in/200x150/filters:strip_icc()/pic8412667.jpg",
+     "image": "https://cf.geekdo-images.com/uCGP8AvMteOnS9PB1Gru7w__original/img/RAWt4RdY-HhrjSYjLoApopSJRxA=/0x0/filters:format(jpeg)/pic8412667.jpg",
+     "size": [
+      15.2,
+      10.2,
+      3.8
+     ]
+    },
+    {
+     "id": "428890",
+     "name": "Korean edition",
+     "year": 2018,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/P_ROS51g2u8CmqmPlOKhkg__small/img/G343xdYELL8llM_rbyP2aaLaVcU=/fit-in/200x150/filters:strip_icc()/pic9894176.jpg",
+     "image": "https://cf.geekdo-images.com/P_ROS51g2u8CmqmPlOKhkg__original/img/Cfvs-aYjO5graDI4ckc8c6cqsUU=/0x0/filters:format(jpeg)/pic9894176.jpg",
+     "size": null
+    },
+    {
+     "id": "391029",
+     "name": "Russian edition",
+     "year": 2018,
+     "lang": "Russian",
+     "thumb": "https://cf.geekdo-images.com/YbjUPjWYsBglf_TgsbvvaQ__small/img/hHc3OQDw60Me11SQ5Ld_Ct0mq1E=/fit-in/200x150/filters:strip_icc()/pic3928901.jpg",
+     "image": "https://cf.geekdo-images.com/YbjUPjWYsBglf_TgsbvvaQ__original/img/uEcuf5m0HXon3bv-OhumwFVtS8Q=/0x0/filters:format(jpeg)/pic3928901.jpg",
+     "size": null
+    },
+    {
+     "id": "634292",
+     "name": "English/French/Spanish edition",
+     "year": 2016,
+     "lang": "English・French・Spanish",
+     "thumb": "https://cf.geekdo-images.com/QlTSSwBDU7bvRzxAtjLiBQ__small/img/SiPKteiBBY4Off3-DODl3bSi2uU=/fit-in/200x150/filters:strip_icc()/pic6247676.png",
+     "image": "https://cf.geekdo-images.com/QlTSSwBDU7bvRzxAtjLiBQ__original/img/qQ43cnUQklR9MiEUsD8GtiQdtN0=/0x0/filters:format(png)/pic6247676.png",
+     "size": [
+      11,
+      6,
+      3.5
+     ]
+    },
+    {
+     "id": "624665",
+     "name": "Multilingual edition (Dutch cover)",
+     "year": 2016,
+     "lang": "Dutch・English・French・German・Italian・Spanish",
+     "thumb": "https://cf.geekdo-images.com/5nt0YkJONTasOk29ikpKPw__small/img/3nE0N60_VuQdAVDJ7YMTz9zaQPQ=/fit-in/200x150/filters:strip_icc()/pic6968299.jpg",
+     "image": "https://cf.geekdo-images.com/5nt0YkJONTasOk29ikpKPw__original/img/dDMrNIpZHDblAYpaoRdV0oS8V9M=/0x0/filters:format(jpeg)/pic6968299.jpg",
+     "size": [
+      11,
+      6,
+      3.5
+     ]
+    }
+   ],
+   "at": "2026-11-27T12:42:10.055Z"
+  },
   "170624": {
    "v": 4,
    "id": "170624",
@@ -25658,6 +25863,82 @@
    ],
    "at": "2026-11-27T05:24:52.840Z"
   },
+  "349150": {
+   "v": 4,
+   "id": "349150",
+   "type": "boardgameexpansion",
+   "best": "4〜5",
+   "rec": "3〜6",
+   "minTime": 30,
+   "maxTime": null,
+   "age": 8,
+   "rating": 7.03,
+   "weight": 1.5,
+   "rank": null,
+   "mechanics": [],
+   "categories": [
+    "Dice",
+    "Expansion for Base-game"
+   ],
+   "designers": [],
+   "artists": [],
+   "publishers": [
+    "Oink Games"
+   ],
+   "families": [
+    "Components: Dice with Icons"
+   ],
+   "desc": "An expansion dice that adds a little drama to \"Deep Sea Adventure.\" To play with this dice, replace one of the two regular dice used in \"Deep Sea Adventure.\" Printed on the  expansion dice are the following two special rolls...which may lead to unexpected developments.\n\n・\"x3\": the number rolled on the regular dice multiplied by 3. So, if 3 is rolled on the regular dice, you can move 9 spaces!\n・\"Number of Explorers In Front of You\": the number of explorers in front of you is the roll. In a six-player game, if there are five players in front of you, the roll becomes five! (Note the direction you're in moving in)\n\nYou can also play [Deep Sea Adventure Boost] using this expansion dice. Try playing using the following rules!\n・Exchange the dice that has 1 or 3 dots with expansion dice.\n・Calculate the x3 at the end. (The maximum possible result will become 15)\n\n—description from publisher\n\nFrom the English-language rule sheet for \"Deap Sea Adventure:\n\nPlay by replacing one of the two Deep Sea Adventure dice with the expansion dice. The dice has the following sides: one, two, two, three and two with \"special numbers\".\nSpecial numbers are:\nx3 which triples the number rolled on the other die\n{diver_meeple > ?} which equals the number of other players in the direction of the active player",
+   "expansions": [],
+   "bases": [
+    {
+     "id": "169654",
+     "name": "Deep Sea Adventure"
+    },
+    {
+     "id": "427866",
+     "name": "Deep Sea Adventure Boost"
+    }
+   ],
+   "en": "Deep Sea Adventure: Expansion Dice",
+   "ja": "",
+   "minp": 2,
+   "maxp": 6,
+   "time": null,
+   "year": 2021,
+   "thumb": "https://cf.geekdo-images.com/WJtPDJWC-3ZbtHYXOKxULw__small/img/uGuAZJQqGVN7nLrxpZZB8akavw4=/fit-in/200x150/filters:strip_icc()/pic7005692.jpg",
+   "image": "https://cf.geekdo-images.com/WJtPDJWC-3ZbtHYXOKxULw__original/img/sLbBnXrbL21pDzROMMDjG8jtxDU=/0x0/filters:format(jpeg)/pic7005692.jpg",
+   "box": [
+    11.1,
+    6.6,
+    2.1
+   ],
+   "versions": [
+    {
+     "id": "583739",
+     "name": "English/Japanese edition",
+     "year": 2021,
+     "lang": "English・Japanese",
+     "thumb": "https://cf.geekdo-images.com/WJtPDJWC-3ZbtHYXOKxULw__small/img/uGuAZJQqGVN7nLrxpZZB8akavw4=/fit-in/200x150/filters:strip_icc()/pic7005692.jpg",
+     "image": "https://cf.geekdo-images.com/WJtPDJWC-3ZbtHYXOKxULw__original/img/sLbBnXrbL21pDzROMMDjG8jtxDU=/0x0/filters:format(jpeg)/pic7005692.jpg",
+     "size": [
+      11.1,
+      6.6,
+      2.1
+     ]
+    },
+    {
+     "id": "760107",
+     "name": "English edition",
+     "year": 2021,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/AdNVogxAbDpVsurB5t9wAA__small/img/cABXrBLleskIx9CE0rDs2gnaGn8=/fit-in/200x150/filters:strip_icc()/pic6471448.jpg",
+     "image": "https://cf.geekdo-images.com/AdNVogxAbDpVsurB5t9wAA__original/img/HkJBNo2a3NKoq2MehZMPJ3UFFrA=/0x0/filters:format(jpeg)/pic6471448.jpg",
+     "size": null
+    }
+   ],
+   "at": "2026-11-27T12:42:12.797Z"
+  },
   "349955": {
    "v": 4,
    "id": "349955",
@@ -35652,7 +35933,7 @@
    "at": "2026-11-27T05:24:47.684Z"
   }
  },
- "updatedAt": "2026-11-27T12:40:40.807Z",
+ "updatedAt": "2026-11-27T12:42:18.595Z",
  "exps": {
   "2591": {
    "id": "2591",
@@ -44485,6 +44766,10 @@
    "at": "2026-11-27T05:46:05.489Z",
    "sets": []
   },
+  "169654": {
+   "at": "2026-11-27T12:42:15.412Z",
+   "sets": []
+  },
   "170624": {
    "at": "2026-11-27T05:41:45.580Z",
    "sets": []
@@ -45826,6 +46111,10 @@
      ]
     }
    ]
+  },
+  "349150": {
+   "at": "2026-11-27T12:42:17.094Z",
+   "sets": []
   },
   "349955": {
    "at": "2026-11-27T05:46:10.238Z",

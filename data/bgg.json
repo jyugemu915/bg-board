@@ -2701,7 +2701,27 @@
    "query": "id:446828",
    "at": "2026-11-27T11:58:01.872Z",
    "alias": "446828"
+  },
+  "海底探険": {
+   "label": "海底探険",
+   "id": "169654",
+   "name": "Deep Sea Adventure",
+   "image": "https://cf.geekdo-images.com/owyKXaa5SPB2HG9F_MueNQ__original/img/gOmpUB3hM7Ap9o-kDsV8ZVBVYXA=/0x0/filters:format(png)/pic3169827.png",
+   "thumb": "https://cf.geekdo-images.com/owyKXaa5SPB2HG9F_MueNQ__small/img/poEY0PMTpz4X_SOUaPjs6G7qr7o=/fit-in/200x150/filters:strip_icc()/pic3169827.png",
+   "query": "id:169654",
+   "at": "2026-11-27T12:42:06.148Z",
+   "alias": "169654"
+  },
+  "海底探険拡張ダイス": {
+   "label": "海底探険 拡張ダイス",
+   "id": "349150",
+   "name": "Deep Sea Adventure: Expansion Dice",
+   "image": "https://cf.geekdo-images.com/WJtPDJWC-3ZbtHYXOKxULw__original/img/sLbBnXrbL21pDzROMMDjG8jtxDU=/0x0/filters:format(jpeg)/pic7005692.jpg",
+   "thumb": "https://cf.geekdo-images.com/WJtPDJWC-3ZbtHYXOKxULw__small/img/uGuAZJQqGVN7nLrxpZZB8akavw4=/fit-in/200x150/filters:strip_icc()/pic7005692.jpg",
+   "query": "id:349150",
+   "at": "2026-11-27T12:42:08.861Z",
+   "alias": "349150"
   }
  },
- "updatedAt": "2026-11-27T12:40:40.739Z"
+ "updatedAt": "2026-11-27T12:42:08.862Z"
 }
