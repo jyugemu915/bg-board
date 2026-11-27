@@ -123,6 +123,7 @@ let ns = 0;
 for (const id of sleeveIds.slice(0, SLEEVE_MAX)) {
   try {
     const res = await fetch(`https://api.geekdo.com/api/cardsetsbygame?nosession=1&objectid=${id}`, { headers: { "User-Agent": "bg-board (personal collection viewer)" } });
+    if (res.status === 404) { db.sleeves[id] = { at: new Date().toISOString(), sets: [] }; await sleep(1500); continue; }
     if (!res.ok) { console.log("ERR sleeves", id, res.status); if (res.status === 403 || res.status === 429) break; continue; }
     const j = await res.json();
     db.sleeves[id] = { at: new Date().toISOString(), sets: (j.cardSets || []).filter((c) => c.itemstate !== "rejected").map((c) => ({
