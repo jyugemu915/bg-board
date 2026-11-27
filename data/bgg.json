@@ -1994,8 +1994,13 @@
   },
   "ペッパー": {
    "label": "ペッパー",
-   "miss": true,
-   "at": "2026-11-26T22:15:51.429Z"
+   "id": "206",
+   "name": "Jalape-NO!",
+   "image": "https://cf.geekdo-images.com/m8UmH-2gCwiv3cI2jsxFyg__original/img/iWVD1zdO4IQCHtUgLLTMY1IVtiI=/0x0/filters:format(png)/pic7976010.png",
+   "thumb": "https://cf.geekdo-images.com/m8UmH-2gCwiv3cI2jsxFyg__small/img/5lv7O-R2t-DdSOW873Kom43rbgQ=/fit-in/200x150/filters:strip_icc()/pic7976010.png",
+   "query": "id:206",
+   "at": "2026-11-27T12:46:21.731Z",
+   "alias": "206"
   },
   "コーギーパイルアップ": {
    "label": "コーギーパイルアップ",
@@ -2721,7 +2726,27 @@
    "query": "id:349150",
    "at": "2026-11-27T12:42:08.861Z",
    "alias": "349150"
+  },
+  "ルアーヴル": {
+   "label": "ル・アーヴル",
+   "id": "35677",
+   "name": "Le Havre",
+   "image": "https://cf.geekdo-images.com/y7Rqd3S6J7vyVhicR1bqTQ__original/img/tQFXv1w2R-J-1cjyaKG9LAS2UOs=/0x0/filters:format(jpeg)/pic6091101.jpg",
+   "thumb": "https://cf.geekdo-images.com/y7Rqd3S6J7vyVhicR1bqTQ__small/img/w1iHoYZCVTDZI6gsPuxOScA7FqU=/fit-in/200x150/filters:strip_icc()/pic6091101.jpg",
+   "query": "id:35677",
+   "at": "2026-11-27T12:46:24.302Z",
+   "alias": "35677"
+  },
+  "アークス拡張ブライテッドリーチ英語版": {
+   "label": "アークス 拡張：ブライテッドリーチ（英語版）",
+   "id": "363757",
+   "name": "Arcs: The Blighted Reach Expansion",
+   "image": "https://cf.geekdo-images.com/vmTuXBtbroDClXAW6I8RNg__original/img/KEBvvaykNpeBGmVAAUH-v0__udg=/0x0/filters:format(jpeg)/pic9928525.jpg",
+   "thumb": "https://cf.geekdo-images.com/vmTuXBtbroDClXAW6I8RNg__small/img/CnhTCzHuMbjchhi_i0JWUvTIS8U=/fit-in/200x150/filters:strip_icc()/pic9928525.jpg",
+   "query": "id:363757",
+   "at": "2026-11-27T12:46:26.898Z",
+   "alias": "363757"
   }
  },
- "updatedAt": "2026-11-27T12:44:52.499Z"
+ "updatedAt": "2026-11-27T12:46:26.899Z"
 }
