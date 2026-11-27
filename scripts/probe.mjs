@@ -1,6 +1,6 @@
 // 一時的な調査用（終わったら削除）
 const TOKEN = process.env.BGG_TOKEN;
-const Q = ["Dying Message","Keep the Heroes Out","Tabby Cats","Hiragana","Age of Steam Deluxe","Ostia","Turtle Island","Kariuta","Karuta","Hiragana Poker","Time Bomb","Pepper","Werewolf Battle Royale","Hellas"];
+const Q = ["狩歌","ひらがなポーカー","ウミガメの島","人狼バトルロイヤル","タビーキャッツ","ひらがじゃん","Age of Steam Deluxe Edition","Shuka","Umigame","Jinro"];
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function get(p) {
   for (let i = 0; i < 6; i++) {
