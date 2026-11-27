@@ -1453,8 +1453,9 @@
    "name": "Age of Steam",
    "image": "https://cf.geekdo-images.com/gBPzZsgm9nrUYVfdK216NA__original/img/eQEmKYEWVoNvEx6PZYZv13275io=/0x0/filters:format(png)/pic4557340.png",
    "thumb": "https://cf.geekdo-images.com/gBPzZsgm9nrUYVfdK216NA__small/img/aceZ647BbV53Yv7rod9AwpTTst0=/fit-in/200x150/filters:strip_icc()/pic4557340.png",
-   "query": "蒸気の時代",
-   "at": "2026-11-26T14:02:47.033Z"
+   "query": "id:4098",
+   "at": "2026-11-27T04:55:59.023Z",
+   "alias": "4098"
   },
   "蒸気の時代デラックス版拡張マップセットvoli": {
    "label": "蒸気の時代 デラックス版 拡張マップセット vol.I",
@@ -1628,13 +1629,13 @@
   },
   "オスティア拡張パイレーツ": {
    "label": "オスティア 拡張：パイレーツ",
-   "id": "347767",
-   "name": "Ostia",
-   "image": "https://cf.geekdo-images.com/YI9u0dAufZ34y24fJc3nFQ__original/img/yp4F4vwgX-QVnGgYxSn6K8AtIKs=/0x0/filters:format(jpeg)/pic6417261.jpg",
-   "thumb": "https://cf.geekdo-images.com/YI9u0dAufZ34y24fJc3nFQ__small/img/Eonn22Ork8DbdcONR4i4vfmV8h8=/fit-in/200x150/filters:strip_icc()/pic6417261.jpg",
-   "query": "id:347767",
-   "at": "2026-11-26T14:03:34.222Z",
-   "alias": "347767"
+   "id": "408895",
+   "name": "Ostia: Pirates",
+   "image": "https://cf.geekdo-images.com/vld-VA2yZOmA8kL0X09xxg__original/img/9CryeU08if6ml-CktDAlNmFHoFM=/0x0/filters:format(jpeg)/pic7912625.jpg",
+   "thumb": "https://cf.geekdo-images.com/vld-VA2yZOmA8kL0X09xxg__small/img/q2bdo-vlAk0T1uqUMZ10qFLctKU=/fit-in/200x150/filters:strip_icc()/pic7912625.jpg",
+   "query": "id:408895",
+   "at": "2026-11-27T04:56:01.616Z",
+   "alias": "408895"
   },
   "クアックス&カンパニー": {
    "label": "クアックス＆カンパニー",
@@ -1917,13 +1918,23 @@
   },
   "狩歌": {
    "label": "狩歌",
-   "miss": true,
-   "at": "2026-11-26T14:09:13.560Z"
+   "id": "344699",
+   "name": "CARU UTA (狩歌)",
+   "image": "https://cf.geekdo-images.com/yh3chgXpF4LfXKQKXAg0mg__original/img/HVuE6gFPdMFvg1VQVz3zAfgPG9Q=/0x0/filters:format(png)/pic6336183.png",
+   "thumb": "https://cf.geekdo-images.com/yh3chgXpF4LfXKQKXAg0mg__small/img/gy02Bm9fSbbSZEtU_CJz3iew-KE=/fit-in/200x150/filters:strip_icc()/pic6336183.png",
+   "query": "id:344699",
+   "at": "2026-11-27T04:56:04.194Z",
+   "alias": "344699"
   },
   "狩歌パラダイムシフト": {
    "label": "狩歌 パラダイムシフト",
-   "miss": true,
-   "at": "2026-11-26T14:09:18.800Z"
+   "id": "344699",
+   "name": "CARU UTA (狩歌)",
+   "image": "https://cf.geekdo-images.com/yh3chgXpF4LfXKQKXAg0mg__original/img/HVuE6gFPdMFvg1VQVz3zAfgPG9Q=/0x0/filters:format(png)/pic6336183.png",
+   "thumb": "https://cf.geekdo-images.com/yh3chgXpF4LfXKQKXAg0mg__small/img/gy02Bm9fSbbSZEtU_CJz3iew-KE=/fit-in/200x150/filters:strip_icc()/pic6336183.png",
+   "query": "id:344699",
+   "at": "2026-11-27T04:56:06.806Z",
+   "alias": "344699"
   },
   "ひらがなポーカー": {
    "label": "ひらがなポーカー",
@@ -2287,12 +2298,13 @@
   },
   "ダイイングメッセージ": {
    "label": "ダイイングメッセージ",
-   "id": "401110",
+   "id": "418855",
    "name": "Dying Message",
-   "image": "https://cf.geekdo-images.com/Ihjv-LvNxpPq089q-86o-g__original/img/XAlHce83i4btJjjcv3ecQv7pIAU=/0x0/filters:format(png)/pic7742488.png",
-   "thumb": "https://cf.geekdo-images.com/Ihjv-LvNxpPq089q-86o-g__small/img/aXmwjX2uMb6UHfUAkKqEBc2psPY=/fit-in/200x150/filters:strip_icc()/pic7742488.png",
-   "query": "ダイイングメッセージ",
-   "at": "2026-11-27T03:30:56.698Z"
+   "image": "https://cf.geekdo-images.com/ls1OHn9O4QOMjQkvI3vF0w__original/img/MHh8E-JlDGZo0po-E7rvbJbVEA0=/0x0/filters:format(png)/pic8132886.png",
+   "thumb": "https://cf.geekdo-images.com/ls1OHn9O4QOMjQkvI3vF0w__small/img/QnYXz1ShvjeiBPDPUAC1hJXClvY=/fit-in/200x150/filters:strip_icc()/pic8132886.png",
+   "query": "id:418855",
+   "at": "2026-11-27T04:56:09.378Z",
+   "alias": "418855"
   },
   "ペチケ": {
    "label": "ペチケ",
@@ -2615,5 +2627,5 @@
    "alias": "159581"
   }
  },
- "updatedAt": "2026-11-27T04:53:55.260Z"
+ "updatedAt": "2026-11-27T04:56:09.379Z"
 }
