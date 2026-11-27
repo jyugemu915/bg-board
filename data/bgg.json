@@ -440,8 +440,9 @@
    "name": "Flip 7",
    "image": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__original/img/hK6k-x_GYfooemrkkRuF0bTvKxE=/0x0/filters:format(jpeg)/pic8780246.jpg",
    "thumb": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__small/img/_dNNsSelyw9qUEOIXBRt6PE_1us=/fit-in/200x150/filters:strip_icc()/pic8780246.jpg",
-   "query": "フリップ7",
-   "at": "2026-11-25T01:57:01.510Z"
+   "query": "id:420087",
+   "at": "2026-11-27T03:30:59.325Z",
+   "alias": "420087"
   },
   "フリップ7ナショナルパークスtheopgames": {
    "label": "フリップ7：ナショナルパークス【THE OP GAMES】",
@@ -449,8 +450,9 @@
    "name": "Flip 7",
    "image": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__original/img/hK6k-x_GYfooemrkkRuF0bTvKxE=/0x0/filters:format(jpeg)/pic8780246.jpg",
    "thumb": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__small/img/_dNNsSelyw9qUEOIXBRt6PE_1us=/fit-in/200x150/filters:strip_icc()/pic8780246.jpg",
-   "query": "フリップ7",
-   "at": "2026-11-25T01:57:09.254Z"
+   "query": "id:420087",
+   "at": "2026-11-27T03:31:01.917Z",
+   "alias": "420087"
   },
   "ローリー": {
    "label": "ローリー",
@@ -463,8 +465,9 @@
    "name": "Flip 7",
    "image": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__original/img/hK6k-x_GYfooemrkkRuF0bTvKxE=/0x0/filters:format(jpeg)/pic8780246.jpg",
    "thumb": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__small/img/_dNNsSelyw9qUEOIXBRt6PE_1us=/fit-in/200x150/filters:strip_icc()/pic8780246.jpg",
-   "query": "フリップ7",
-   "at": "2026-11-25T02:07:35.856Z"
+   "query": "id:420087",
+   "at": "2026-11-27T03:31:04.535Z",
+   "alias": "420087"
   },
   "17ダイスベッツmandoogames": {
    "label": "17ダイスベッツ【Mandoo Games】",
@@ -2236,7 +2239,61 @@
    "query": "id:137155",
    "at": "2026-11-26T22:17:05.539Z",
    "alias": "137155"
+  },
+  "ウソぎらい": {
+   "label": "ウソぎらい",
+   "miss": true,
+   "at": "2026-11-27T03:30:40.507Z"
+  },
+  "ルート": {
+   "label": "ルート",
+   "id": "237182",
+   "name": "Root",
+   "image": "https://cf.geekdo-images.com/JUAUWaVUzeBgzirhZNmHHw__original/img/E0s2LvtFA1L5YKk-_44D4u2VD2s=/0x0/filters:format(jpeg)/pic4254509.jpg",
+   "thumb": "https://cf.geekdo-images.com/JUAUWaVUzeBgzirhZNmHHw__small/img/ACovMZzGGIsBRyEQXFnsT8282NM=/fit-in/200x150/filters:strip_icc()/pic4254509.jpg",
+   "query": "id:237182",
+   "at": "2026-11-27T03:30:43.125Z",
+   "alias": "237182"
+  },
+  "フール": {
+   "label": "フール！",
+   "id": "366915",
+   "name": "Hool!",
+   "image": "https://cf.geekdo-images.com/V0NwCSlwUhPmq7ypjM2U9w__original/img/EKo-FwQIkXp7QfJDcWnstLbuJcM=/0x0/filters:format(jpeg)/pic6960590.jpg",
+   "thumb": "https://cf.geekdo-images.com/V0NwCSlwUhPmq7ypjM2U9w__small/img/uNVoRGM5x8TOV-sPmyVjAvwTq9Q=/fit-in/200x150/filters:strip_icc()/pic6960590.jpg",
+   "query": "id:366915",
+   "at": "2026-11-27T03:30:45.862Z",
+   "alias": "366915"
+  },
+  "ラスベガス": {
+   "label": "ラスベガス",
+   "id": "117959",
+   "name": "Las Vegas",
+   "image": "https://cf.geekdo-images.com/aQJ0HRKx2mobP0g3FCeR_Q__original/img/0lvxwLBBElto13XPMisB0ZCTSkA=/0x0/filters:format(jpeg)/pic1261796.jpg",
+   "thumb": "https://cf.geekdo-images.com/aQJ0HRKx2mobP0g3FCeR_Q__small/img/7g-l6beAu5RtsAykBhoO7kMWexc=/fit-in/200x150/filters:strip_icc()/pic1261796.jpg",
+   "query": "id:117959",
+   "at": "2026-11-27T03:30:48.551Z",
+   "alias": "117959"
+  },
+  "ビッグショット": {
+   "label": "ビッグショット",
+   "id": "1125",
+   "name": "Big Shot",
+   "image": "https://cf.geekdo-images.com/1hgmcVxQpqQbjGgANRFEbg__original/img/-4J6FFLBHa76e2gcdKKLnh6y7kI=/0x0/filters:format(jpeg)/pic8898750.jpg",
+   "thumb": "https://cf.geekdo-images.com/1hgmcVxQpqQbjGgANRFEbg__small/img/AogU9jCvICCxwcJV3iWjN0JHs5k=/fit-in/200x150/filters:strip_icc()/pic8898750.jpg",
+   "query": "id:1125",
+   "at": "2026-11-27T03:30:51.450Z",
+   "alias": "1125"
+  },
+  "ダイイングメッセージ": {
+   "label": "ダイイングメッセージ",
+   "id": "401110",
+   "name": "Dying Message",
+   "image": "https://cf.geekdo-images.com/Ihjv-LvNxpPq089q-86o-g__original/img/XAlHce83i4btJjjcv3ecQv7pIAU=/0x0/filters:format(png)/pic7742488.png",
+   "thumb": "https://cf.geekdo-images.com/Ihjv-LvNxpPq089q-86o-g__small/img/aXmwjX2uMb6UHfUAkKqEBc2psPY=/fit-in/200x150/filters:strip_icc()/pic7742488.png",
+   "query": "ダイイングメッセージ",
+   "at": "2026-11-27T03:30:56.698Z"
   }
  },
- "updatedAt": "2026-11-26T22:17:05.539Z"
+ "updatedAt": "2026-11-27T03:31:04.535Z"
 }

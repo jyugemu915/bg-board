@@ -11866,6 +11866,324 @@
    ],
    "at": "2026-11-26T14:04:55.023Z"
   },
+  "237182": {
+   "v": 3,
+   "id": "237182",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "3〜4",
+   "minTime": 60,
+   "maxTime": 90,
+   "age": 14,
+   "rating": 8.07,
+   "weight": 3.84,
+   "rank": 34,
+   "mechanics": [
+    "Action Points",
+    "Action Queue",
+    "Action Retrieval",
+    "Area Majority / Influence",
+    "Area Movement",
+    "Dice Rolling",
+    "Hand Management",
+    "Multi-Use Cards",
+    "Negotiation",
+    "Point to Point Movement",
+    "Race",
+    "Sudden Death Ending",
+    "Take That",
+    "Variable Player Powers",
+    "Variable Set-up"
+   ],
+   "categories": [
+    "Animals",
+    "Fantasy",
+    "Negotiation",
+    "Territory Building",
+    "Wargame"
+   ],
+   "designers": [
+    "Cole Wehrle"
+   ],
+   "artists": [
+    "Kyle Ferrin"
+   ],
+   "publishers": [
+    "Leder Games",
+    "2Tomatoes Games",
+    "Arclight Games",
+    "CMON Global Limited",
+    "CrowD Games",
+    "Delta Vision Publishing",
+    "Fox in the Box",
+    "Kilogames",
+    "Korea Boardgames",
+    "MeepleBR",
+    "MS Edizioni",
+    "Portal Games"
+   ],
+   "families": [
+    "Animals: Beavers",
+    "Animals: Birds",
+    "Animals: Cats",
+    "Animals: Foxes",
+    "Animals: Mice",
+    "Animals: Rabbits / Hares",
+    "Animals: Raccoons",
+    "Components: Control Boards",
+    "Components: Map (Continental / National scale)",
+    "Components: Meeples (Animal) / Animeeples",
+    "Components: Polyhedral (not D6) dice",
+    "Components: Wooden pieces & boards"
+   ],
+   "desc": "Root is a game of adventure and war in which 2 to 4 (1 to 6 with the 'Riverfolk' expansion, 2-6 with the 'Underworld', or 'Marauder' expansions) players battle for control of a vast wilderness. Like Vast: The Crystal Caverns, each player in Root has unique capabilities and a different victory condition. Now, with the aid of gorgeous, multi-use cards, a truly asymmetric design has never been more accessible.\n\nThe nefarious Marquise de Cat has seized the great woodland, intent on harvesting its riches. Under her rule, the many creatures of the forest have banded together. This Alliance will seek to strengthen its resources and subvert the rule of Cats. In this effort, the Alliance may enlist the help of the wandering Vagabonds who are able to move through the more dangerous woodland paths. Though some may sympathize with the Alliance's hopes and dreams, these wanderers are old enough to remember the great birds of prey who once controlled the woods.\n\nMeanwhile, at the edge of the region, the proud, squabbling Eyrie have found a new commander who they hope will lead their faction to resume their ancient birthright. The stage is set for a contest that will decide the fate of the great woodland. It is up to the players to decide which group will ultimately take root.\n\nIn Root, players drive the narrative, and the differences between each role create an unparalleled level of interaction and replayability. Leder Games invites you and your family to explore the fantastic world of…",
+   "expansions": [
+    {
+     "id": "482234",
+     "name": "The Doomed Expansion (fan expansion for Root)"
+    },
+    {
+     "id": "374676",
+     "name": "The Outsiders Expansion (fan expansion for Root)"
+    },
+    {
+     "id": "431220",
+     "name": "Root: Homeland Hirelings Pack"
+    },
+    {
+     "id": "334486",
+     "name": "Root: Landmarks Pack"
+    },
+    {
+     "id": "336276",
+     "name": "Root: Marauder Hirelings Pack & Hireling Box"
+    },
+    {
+     "id": "334485",
+     "name": "Root: Riverfolk Hirelings Pack"
+    },
+    {
+     "id": "287220",
+     "name": "Root: The Clockwork Expansion"
+    },
+    {
+     "id": "334483",
+     "name": "Root: The Clockwork Expansion 2"
+    },
+    {
+     "id": "272638",
+     "name": "Root: The Exiles and Partisans Deck"
+    },
+    {
+     "id": "428335",
+     "name": "Root: The Homeland Expansion"
+    },
+    {
+     "id": "330149",
+     "name": "Root: The Marauder Expansion"
+    },
+    {
+     "id": "241386",
+     "name": "Root: The Riverfolk Expansion"
+    },
+    {
+     "id": "431218",
+     "name": "Root: The Squires and Disciples Deck"
+    },
+    {
+     "id": "272637",
+     "name": "Root: The Underworld Expansion"
+    },
+    {
+     "id": "309977",
+     "name": "Root: The Vagabond Pack"
+    },
+    {
+     "id": "361193",
+     "name": "Root: Underworld Hirelings Pack"
+    }
+   ],
+   "bases": [],
+   "en": "Root",
+   "ja": "ルート ～はるけき森のどうぶつ戦記～",
+   "minp": 2,
+   "maxp": 4,
+   "time": 90,
+   "year": 2018,
+   "thumb": "https://cf.geekdo-images.com/JUAUWaVUzeBgzirhZNmHHw__small/img/ACovMZzGGIsBRyEQXFnsT8282NM=/fit-in/200x150/filters:strip_icc()/pic4254509.jpg",
+   "image": "https://cf.geekdo-images.com/JUAUWaVUzeBgzirhZNmHHw__original/img/E0s2LvtFA1L5YKk-_44D4u2VD2s=/0x0/filters:format(jpeg)/pic4254509.jpg",
+   "versions": [
+    {
+     "id": "815495",
+     "name": "Japanese edition, second printing",
+     "year": 2021,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/vAa4YBI8jwFYESHWkpDGzg__small/img/uZrAMzezUGO9JDoP4lvsJQ8scTY=/fit-in/200x150/filters:strip_icc()/pic6469573.jpg",
+     "image": "https://cf.geekdo-images.com/vAa4YBI8jwFYESHWkpDGzg__original/img/yRaGckQGcmBziPnHI8CvzH2S-N4=/0x0/filters:format(jpeg)/pic6469573.jpg"
+    },
+    {
+     "id": "554553",
+     "name": "Japanese edition, first printing",
+     "year": 2019,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/Ik5oA8cusEJCeK9Qxp9pTg__small/img/G7lFh_wq7msu6kwzRheTVYYI6DM=/fit-in/200x150/filters:strip_icc()/pic6469572.jpg",
+     "image": "https://cf.geekdo-images.com/Ik5oA8cusEJCeK9Qxp9pTg__original/img/4yH7fuXPeZybQsEVbZXIpKyCXs4=/0x0/filters:format(jpeg)/pic6469572.jpg"
+    },
+    {
+     "id": "785271",
+     "name": "German edition 2025",
+     "year": 2025,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/R3AVVzLipQmsjuWxdpUg7Q__small/img/67rsryKaBBIYn_vy4mGR-_NFrlQ=/fit-in/200x150/filters:strip_icc()/pic9304817.jpg",
+     "image": "https://cf.geekdo-images.com/R3AVVzLipQmsjuWxdpUg7Q__original/img/tEcvw9gxEuBX0NFUat-9rz6RdOI=/0x0/filters:format(jpeg)/pic9304817.jpg"
+    },
+    {
+     "id": "731341",
+     "name": "English edition, twelfth printing",
+     "year": 2024,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/tt0lzFUKlR-RZVSkwCx5GA__small/img/n4FAy3Rnunr0u6TogalirGtczec=/fit-in/200x150/filters:strip_icc()/pic8480831.jpg",
+     "image": "https://cf.geekdo-images.com/tt0lzFUKlR-RZVSkwCx5GA__original/img/eOB1u-SyNEfDMe8oLSey9pC4QXY=/0x0/filters:format(jpeg)/pic8480831.jpg"
+    },
+    {
+     "id": "767032",
+     "name": "German edition 2024",
+     "year": 2024,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/eKlr_dw62EoLvWnUqX7kKw__small/img/KNkqyMKS3OyW7vG-TjPw7jqBbi8=/fit-in/200x150/filters:strip_icc()/pic9009090.jpg",
+     "image": "https://cf.geekdo-images.com/eKlr_dw62EoLvWnUqX7kKw__original/img/l3Q6xjndnZEwG3sFA8RsMDAE6VU=/0x0/filters:format(jpeg)/pic9009090.jpg"
+    },
+    {
+     "id": "711003",
+     "name": "English edition, eleventh printing",
+     "year": 2023,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/R1jeoczEN6fzDuU4REY6pA__small/img/RFTQhiHnsJDvnhEOn-ABSSXyD_U=/fit-in/200x150/filters:strip_icc()/pic8158685.jpg",
+     "image": "https://cf.geekdo-images.com/R1jeoczEN6fzDuU4REY6pA__original/img/R7TXcvgx0CyckhdRXzVxxz10Npk=/0x0/filters:format(jpeg)/pic8158685.jpg"
+    },
+    {
+     "id": "612048",
+     "name": "Hungarian edition",
+     "year": 2022,
+     "lang": "Hungarian",
+     "thumb": "https://cf.geekdo-images.com/z3AGjh25s7xXyY4sqb4wrw__small/img/mWSU9OFLbipgqnvdHQJ-9AKoZ-E=/fit-in/200x150/filters:strip_icc()/pic6839162.jpg",
+     "image": "https://cf.geekdo-images.com/z3AGjh25s7xXyY4sqb4wrw__original/img/S3Acaeyp_AZkFDrEdVRVCv4kydY=/0x0/filters:format(jpeg)/pic6839162.jpg"
+    },
+    {
+     "id": "624444",
+     "name": "Czech edition, fourth printing",
+     "year": 2021,
+     "lang": "Czech",
+     "thumb": "https://cf.geekdo-images.com/1g-rAMxCtG_iIT1ZjUNwCQ__small/img/RGYC780ofyt-0T3fTpTvb8rssQk=/fit-in/200x150/filters:strip_icc()/pic4799867.jpg",
+     "image": "https://cf.geekdo-images.com/1g-rAMxCtG_iIT1ZjUNwCQ__original/img/OJtYb-P_cdwRtYJVx3mdf2H5axs=/0x0/filters:format(jpeg)/pic4799867.jpg"
+    },
+    {
+     "id": "629333",
+     "name": "English edition, eighth printing",
+     "year": 2021,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/LdKT6D7rzUkEzf6DCIDdEw__small/img/rl7noLC_-1s3X2JkZJZc7QBLl3k=/fit-in/200x150/filters:strip_icc()/pic3799727.jpg",
+     "image": "https://cf.geekdo-images.com/LdKT6D7rzUkEzf6DCIDdEw__original/img/3fVCnxx7elJxZoFSyPH68Er2tZo=/0x0/filters:format(jpeg)/pic3799727.jpg"
+    },
+    {
+     "id": "589184",
+     "name": "German edition, fourth printing",
+     "year": 2021,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/XR8MInXjCDsAqko2X1dDWg__small/img/uIfoFDLOvazISvrSNwp8vvZ7Ilw=/fit-in/200x150/filters:strip_icc()/pic6902506.jpg",
+     "image": "https://cf.geekdo-images.com/XR8MInXjCDsAqko2X1dDWg__original/img/VVnkFy2YFR-Fqb9wEBSvn7TR2ag=/0x0/filters:format(jpeg)/pic6902506.jpg"
+    },
+    {
+     "id": "570070",
+     "name": "Spanish third edition, fifth printing",
+     "year": 2021,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/IgWvL-s-6gVLleJIzHxe8w__small/img/ZDBEljgSWJ15AT2SbJi0s2Glw00=/fit-in/200x150/filters:strip_icc()/pic6263188.png",
+     "image": "https://cf.geekdo-images.com/IgWvL-s-6gVLleJIzHxe8w__original/img/tjJOYVV6XvIUS3gP9z4kE9Xj8U4=/0x0/filters:format(png)/pic6263188.png"
+    },
+    {
+     "id": "498449",
+     "name": "Ukrainian edition",
+     "year": 2021,
+     "lang": "Ukrainian",
+     "thumb": "https://cf.geekdo-images.com/uP9u5Bjw012GZaz_ylJ4Wg__small/img/wDZdmvKCcRBHHQBJKFDKuKO7u9I=/fit-in/200x150/filters:strip_icc()/pic5354194.png",
+     "image": "https://cf.geekdo-images.com/uP9u5Bjw012GZaz_ylJ4Wg__original/img/rjCn9Mwzm1RKxWeiK3UTiWNYJYw=/0x0/filters:format(png)/pic5354194.png"
+    },
+    {
+     "id": "545526",
+     "name": "English edition, fifth printing",
+     "year": 2020,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/5QDN2PD9rWXDPi3FBYyguQ__small/img/U3xhQcuIgDAB_0ZT3ax7XS0A590=/fit-in/200x150/filters:strip_icc()/pic5892558.jpg",
+     "image": "https://cf.geekdo-images.com/5QDN2PD9rWXDPi3FBYyguQ__original/img/n-u9KiAJLND2kRT9mJdlpdUk3Dg=/0x0/filters:format(jpeg)/pic5892558.jpg"
+    },
+    {
+     "id": "490418",
+     "name": "German edition, second printing",
+     "year": 2020,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/yrN9oMFIH85ROCiK64F4eg__small/img/hlo617QlAQHu5WIv0hyqVgP5aFg=/fit-in/200x150/filters:strip_icc()/pic4819780.jpg",
+     "image": "https://cf.geekdo-images.com/yrN9oMFIH85ROCiK64F4eg__original/img/rcT635tidGjJytaeI6wzthYDtko=/0x0/filters:format(jpeg)/pic4819780.jpg"
+    },
+    {
+     "id": "442176",
+     "name": "Chinese edition",
+     "year": 2019,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/R8RNR4N36fOa9vuB6MqUTA__small/img/AqkMWKjtzctxi3k2FZ4lYnVp-44=/fit-in/200x150/filters:strip_icc()/pic5798984.jpg",
+     "image": "https://cf.geekdo-images.com/R8RNR4N36fOa9vuB6MqUTA__original/img/OncRCWwdcNfLQnkDdAN2B0Yt6Xo=/0x0/filters:format(jpeg)/pic5798984.jpg"
+    },
+    {
+     "id": "420769",
+     "name": "Italian edition",
+     "year": 2019,
+     "lang": "Italian",
+     "thumb": "https://cf.geekdo-images.com/bzdV6xcSLClmV6N9RmLgxA__small/img/CrZZpSKf_IuyESN-FQ-HpFcl5yQ=/fit-in/200x150/filters:strip_icc()/pic4851759.jpg",
+     "image": "https://cf.geekdo-images.com/bzdV6xcSLClmV6N9RmLgxA__original/img/CzXXUjx0kTX1rKyxnPiLvI-MFKg=/0x0/filters:format(jpeg)/pic4851759.jpg"
+    },
+    {
+     "id": "461132",
+     "name": "Korean edition",
+     "year": 2019,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/TM8PxORvScbMIV8kCaiD1Q__small/img/8QaVUzztb7NXClNMaqXAHOcFnXY=/fit-in/200x150/filters:strip_icc()/pic4800029.png",
+     "image": "https://cf.geekdo-images.com/TM8PxORvScbMIV8kCaiD1Q__original/img/2LoVjyJ7TlbLJLYZp0isztbteiA=/0x0/filters:format(png)/pic4800029.png"
+    },
+    {
+     "id": "442272",
+     "name": "Polish edition",
+     "year": 2019,
+     "lang": "Polish",
+     "thumb": "https://cf.geekdo-images.com/kJl9_bhGdqJfbhvWfmwWYw__small/img/XdG6MfjY1Mpwu4CzqkLHDbE8Z6w=/fit-in/200x150/filters:strip_icc()/pic4542365.jpg",
+     "image": "https://cf.geekdo-images.com/kJl9_bhGdqJfbhvWfmwWYw__original/img/_g3qTMDxsbPJ-3O09lkc4j4X96g=/0x0/filters:format(jpeg)/pic4542365.jpg"
+    },
+    {
+     "id": "430537",
+     "name": "Portuguese edition",
+     "year": 2019,
+     "lang": "Portuguese",
+     "thumb": "https://cf.geekdo-images.com/-dg35BQ-1gm3-J9LrzxbTA__small/img/Wi3zBQ0skWpUEihV8TlpU939Bfk=/fit-in/200x150/filters:strip_icc()/pic4797926.png",
+     "image": "https://cf.geekdo-images.com/-dg35BQ-1gm3-J9LrzxbTA__original/img/-wdpMQb4pnjcc_ey5lFqutO8lMc=/0x0/filters:format(png)/pic4797926.png"
+    },
+    {
+     "id": "457859",
+     "name": "Russian edition",
+     "year": 2019,
+     "lang": "Russian",
+     "thumb": "https://cf.geekdo-images.com/ePXk3qbVCcOYubnR4ousGw__small/img/sl8VRxH9ZvDXHYr6jp035KpWqQA=/fit-in/200x150/filters:strip_icc()/pic7872200.png",
+     "image": "https://cf.geekdo-images.com/ePXk3qbVCcOYubnR4ousGw__original/img/1DPhBDccIsCe9zIl7IWCaTsMLaE=/0x0/filters:format(png)/pic7872200.png"
+    },
+    {
+     "id": "439804",
+     "name": "Spanish edition, first printing",
+     "year": 2019,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/En-zUBE_RD0LnFoe7ZQd7A__small/img/tVTen8kBeqhwoQwy7u6tKqfrCig=/fit-in/200x150/filters:strip_icc()/pic4520647.png",
+     "image": "https://cf.geekdo-images.com/En-zUBE_RD0LnFoe7ZQd7A__original/img/w6GyNZle-RrQcJTO02-7XzrFHEs=/0x0/filters:format(png)/pic4520647.png"
+    }
+   ],
+   "at": "2026-11-27T03:31:04.725Z"
+  },
   "244513": {
    "v": 3,
    "id": "244513",
@@ -24083,7 +24401,7 @@
    "at": "2026-11-26T14:04:30.749Z"
   }
  },
- "updatedAt": "2026-11-26T22:17:05.584Z",
+ "updatedAt": "2026-11-27T03:31:10.655Z",
  "exps": {
   "2591": {
    "id": "2591",
@@ -25555,6 +25873,16 @@
    "time": 30,
    "at": "2026-11-26T03:18:01.652Z"
   },
+  "241386": {
+   "id": "241386",
+   "en": "Root: The Riverfolk Expansion",
+   "thumb": "https://cf.geekdo-images.com/durhzLYyIypxg7CuVYe82Q__small/img/VianPUKU3XkBGeiqRm6x2IyeMGA=/fit-in/200x150/filters:strip_icc()/pic4252654.jpg",
+   "year": 2018,
+   "minp": 1,
+   "maxp": 6,
+   "time": 90,
+   "at": "2026-11-27T03:31:08.154Z"
+  },
   "245473": {
    "id": "245473",
    "en": "Paper Tales: Beyond the Gates",
@@ -26075,6 +26403,26 @@
    "time": 180,
    "at": "2026-11-26T14:06:06.935Z"
   },
+  "272637": {
+   "id": "272637",
+   "en": "Root: The Underworld Expansion",
+   "thumb": "https://cf.geekdo-images.com/LzZVgiX-d1nA_MSmZmH5tA__small/img/RlVbapd_2105eev01lqBqCA4tb0=/fit-in/200x150/filters:strip_icc()/pic4608840.jpg",
+   "year": 2020,
+   "minp": 2,
+   "maxp": 6,
+   "time": 90,
+   "at": "2026-11-27T03:31:08.154Z"
+  },
+  "272638": {
+   "id": "272638",
+   "en": "Root: The Exiles and Partisans Deck",
+   "thumb": "https://cf.geekdo-images.com/ci78uqda8Oz40A7wozLGaA__small/img/D89paLyV9n6xE-NTQDRnn45MvHQ=/fit-in/200x150/filters:strip_icc()/pic6330375.png",
+   "year": 2020,
+   "minp": 2,
+   "maxp": 6,
+   "time": null,
+   "at": "2026-11-27T03:31:08.154Z"
+  },
   "273353": {
    "id": "273353",
    "en": "Cartographers: Skills Mini Expansion",
@@ -26514,6 +26862,16 @@
    "maxp": 5,
    "time": 30,
    "at": "2026-11-26T02:47:00.141Z"
+  },
+  "309977": {
+   "id": "309977",
+   "en": "Root: The Vagabond Pack",
+   "thumb": "https://cf.geekdo-images.com/aEXG9vmArj6d2ZdVpFTMgA__small/img/hx68JO5vkkDTOjUPMI8wWkI9mgo=/fit-in/200x150/filters:strip_icc()/pic6330378.png",
+   "year": 2020,
+   "minp": 1,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-27T03:31:08.154Z"
   },
   "315708": {
    "id": "315708",
@@ -27105,6 +27463,26 @@
    "time": 90,
    "at": "2026-11-26T14:06:15.261Z"
   },
+  "334485": {
+   "id": "334485",
+   "en": "Root: Riverfolk Hirelings Pack",
+   "thumb": "https://cf.geekdo-images.com/QpY-ACvZxk_KEnKWXDDcPg__small/img/0_0DxmQATFmIwdyV2kl5oy8WNUs=/fit-in/200x150/filters:strip_icc()/pic9926449.png",
+   "year": 2022,
+   "minp": 2,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-27T03:31:08.154Z"
+  },
+  "334486": {
+   "id": "334486",
+   "en": "Root: Landmarks Pack",
+   "thumb": "https://cf.geekdo-images.com/5JoJMwlfKzUh2_Ssrp5cRg__small/img/AISt0yF0y94b6rCo4fUshIzZ3tQ=/fit-in/200x150/filters:strip_icc()/pic9926443.png",
+   "year": 2022,
+   "minp": 2,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-27T03:31:08.154Z"
+  },
   "335172": {
    "id": "335172",
    "en": "Canvas: Reflections",
@@ -27655,6 +28033,16 @@
    "time": 30,
    "at": "2026-11-26T12:36:50.167Z"
   },
+  "361193": {
+   "id": "361193",
+   "en": "Root: Underworld Hirelings Pack",
+   "thumb": "https://cf.geekdo-images.com/s_X9LFUMImUaaMJ9W1ugAQ__small/img/CnENHys14uakaj5DaDmvwpfPv7w=/fit-in/200x150/filters:strip_icc()/pic9926451.png",
+   "year": 2022,
+   "minp": 2,
+   "maxp": 4,
+   "time": 90,
+   "at": "2026-11-27T03:31:08.154Z"
+  },
   "362509": {
    "id": "362509",
    "en": "Co-opoly: a \"conversion kit\" for Monopoly",
@@ -27974,6 +28362,16 @@
    "maxp": 10,
    "time": 30,
    "at": "2026-11-26T14:06:04.264Z"
+  },
+  "374676": {
+   "id": "374676",
+   "en": "The Outsiders Expansion (fan expansion for Root)",
+   "thumb": "https://cf.geekdo-images.com/ANE0VNOuxVJA5dIpMiiZhg__small/img/UIphLPWEhf7JP4xkKe-delcyAUE=/fit-in/200x150/filters:strip_icc()/pic7238083.png",
+   "year": 2021,
+   "minp": 3,
+   "maxp": 6,
+   "time": 150,
+   "at": "2026-11-27T03:31:08.154Z"
   },
   "376550": {
    "id": "376550",
@@ -28725,6 +29123,16 @@
    "time": 80,
    "at": "2026-11-26T14:06:18.326Z"
   },
+  "428335": {
+   "id": "428335",
+   "en": "Root: The Homeland Expansion",
+   "thumb": "https://cf.geekdo-images.com/ELtNKMyhLXGpJ4Pbf4Wvog__small/img/7bACZPYOJ23iL_Yl8bwml5UCHfc=/fit-in/200x150/filters:strip_icc()/pic8491989.png",
+   "year": 2026,
+   "minp": 2,
+   "maxp": 6,
+   "time": 90,
+   "at": "2026-11-27T03:31:08.154Z"
+  },
   "428347": {
    "id": "428347",
    "en": "Холст: Набор делюкс-компонентов для базовой игры и дополнений (Canvas: Deluxe Upgrade Pack)",
@@ -28814,6 +29222,26 @@
    "maxp": null,
    "time": null,
    "at": "2026-11-26T03:32:23.548Z"
+  },
+  "431218": {
+   "id": "431218",
+   "en": "Root: The Squires and Disciples Deck",
+   "thumb": "https://cf.geekdo-images.com/kXaezYlb-1HkkWMiS-4DSA__small/img/z6oeqXmr-fXJUWvEsWBw40JT9DQ=/fit-in/200x150/filters:strip_icc()/pic8997658.png",
+   "year": 2026,
+   "minp": 2,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-27T03:31:08.154Z"
+  },
+  "431220": {
+   "id": "431220",
+   "en": "Root: Homeland Hirelings Pack",
+   "thumb": "https://cf.geekdo-images.com/kld3wcJHQvbooxvfU37aSQ__small/img/4k5l-1DYW7vOufM4zAWScrbijDA=/fit-in/200x150/filters:strip_icc()/pic9926460.png",
+   "year": 2026,
+   "minp": 2,
+   "maxp": 4,
+   "time": null,
+   "at": "2026-11-27T03:31:08.154Z"
   },
   "432654": {
    "id": "432654",
@@ -29824,6 +30252,16 @@
    "maxp": 6,
    "time": 30,
    "at": "2026-11-26T03:18:11.366Z"
+  },
+  "482234": {
+   "id": "482234",
+   "en": "The Doomed Expansion (fan expansion for Root)",
+   "thumb": "https://cf.geekdo-images.com/pYJeMDVttWsxaYZpZ2l0OQ__small/img/1c9YrLZw3y1LB716D9xQt84yC80=/fit-in/200x150/filters:strip_icc()/pic9883220.png",
+   "year": 2026,
+   "minp": 3,
+   "maxp": 7,
+   "time": 150,
+   "at": "2026-11-27T03:31:08.154Z"
   },
   "482548": {
    "id": "482548",

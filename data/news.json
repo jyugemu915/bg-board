@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T22:15:15.071Z",
+ "updatedAt": "2026-11-27T03:30:02.896Z",
  "sources": [
   {
    "name": "ホヌゲームズ",
@@ -60,6 +60,21 @@
   }
  ],
  "items": [
+  {
+   "title": "ウソの答えを見抜け『ウソぎらい』12月中旬発売",
+   "url": "https://tgiw.info/2026/11/usogirai.html",
+   "date": "2026-11-27T02:10:09.000Z",
+   "image": "",
+   "source": "Table Games in the World",
+   "kind": "news",
+   "label": "記事",
+   "release": {
+    "date": "2026-12-15",
+    "label": "12月中旬",
+    "exact": false,
+    "kind": "発売"
+   }
+  },
   {
    "title": "ダイスを見て素早く引き抜く！『クォルク』日本語版、12月下旬発売",
    "url": "https://tgiw.info/2026/11/qorkj.html",
@@ -406,21 +421,6 @@
    "kind": "maker",
    "label": "記事",
    "release": null
-  },
-  {
-   "title": "デザインリニューアル『カタン 航海者5-6人拡張版』12月11日発売",
-   "url": "https://tgiw.info/2026/11/catan-seafarers5-6j.html",
-   "date": "2026-11-17T22:48:27.000Z",
-   "image": "",
-   "source": "Table Games in the World",
-   "kind": "news",
-   "label": "記事",
-   "release": {
-    "date": "2026-12-11",
-    "label": "12月11日",
-    "exact": true,
-    "kind": "発売"
-   }
   },
   {
    "title": "Dominion: Farm",
@@ -1808,6 +1808,22 @@
     }
    ],
    "image": ""
+  },
+  {
+   "key": "a:ウソぎらい:2026-12-15",
+   "game": "ウソぎらい",
+   "date": "2026-12-15",
+   "label": "12月中旬",
+   "exact": false,
+   "type": "発売",
+   "image": "",
+   "links": [
+    {
+     "source": "Table Games in the World",
+     "url": "https://tgiw.info/2026/11/usogirai.html",
+     "title": "ウソの答えを見抜け『ウソぎらい』12月中旬発売"
+    }
+   ]
   },
   {
    "key": "a:ガウディ:2026-12-18",
@@ -9366,16 +9382,13 @@
   "https://note.com/uchibacoya/n/nd375defc20e8": "https://assets.st-note.com/production/uploads/images/214112254/rectangle_large_type_2_1f5b0cf21401cc336c375d80976dd252.jpeg?fit=bounds&quality=85&width=1280",
   "https://note.com/uchibacoya/n/n0d0dd3d21ebf": "https://assets.st-note.com/production/uploads/images/205228016/rectangle_large_type_2_236d05bc05da833e9d060f50ee2d6bce.jpeg?fit=bounds&quality=85&width=1280",
   "https://tgiw.info/2026/11/gm2026f-enq-result.html": {
-   "failedAt": "2026-11-25T22:15:48.471Z"
+   "failedAt": "2026-11-27T03:30:02.896Z"
   },
   "https://tgiw.info/2026/11/asobankai2026.html": {
-   "failedAt": "2026-11-25T22:15:48.471Z"
+   "failedAt": "2026-11-27T03:30:02.896Z"
   },
   "https://tgiw.info/2026/11/mfg.html": {
-   "failedAt": "2026-11-25T22:15:48.471Z"
-  },
-  "https://tgiw.info/2026/11/catan-seafarers5-6j.html": {
-   "failedAt": "2026-11-25T22:15:48.471Z"
+   "failedAt": "2026-11-27T03:30:02.896Z"
   },
   "https://boardgamegeekstore.com/blogs/news/april-2024-news-bites": "http://boardgamegeekstore.com/cdn/shop/articles/Real_vs._Fake_Store.png?v=1713563113",
   "https://boardgamegeekstore.com/blogs/news/march-2023-news-bites-1": "http://boardgamegeekstore.com/cdn/shop/articles/Store_Update_March_2024.png?v=1713561427",
@@ -9394,19 +9407,22 @@
    "failedAt": "2026-11-26T10:27:38.748Z"
   },
   "https://tgiw.info/2026/11/greenwoodj.html": {
-   "failedAt": "2026-11-25T22:15:48.471Z"
+   "failedAt": "2026-11-27T03:30:02.896Z"
   },
   "https://tgiw.info/2026/11/tsukuba-bg-fair2026.html": {
-   "failedAt": "2026-11-26T02:06:07.864Z"
+   "failedAt": "2026-11-27T03:30:02.896Z"
   },
   "https://tgiw.info/2026/11/kakurega-festa-2nd.html": {
-   "failedAt": "2026-11-26T02:06:07.864Z"
+   "failedAt": "2026-11-27T03:30:02.896Z"
   },
   "https://tgiw.info/2026/11/ghosts-way-home.html": {
-   "failedAt": "2026-11-26T01:42:37.233Z"
+   "failedAt": "2026-11-27T03:30:02.896Z"
   },
   "https://tgiw.info/2026/11/qorkj.html": {
    "failedAt": "2026-11-26T07:58:02.237Z"
+  },
+  "https://tgiw.info/2026/11/usogirai.html": {
+   "failedAt": "2026-11-27T03:30:02.896Z"
   }
  }
 }
