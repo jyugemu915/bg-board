@@ -2593,7 +2593,27 @@
    "query": "id:240822",
    "at": "2026-11-27T04:42:40.534Z",
    "alias": "240822"
+  },
+  "ダンジョンオブマンダムエイト": {
+   "label": "ダンジョンオブマンダムエイト",
+   "id": "227110",
+   "name": "Dungeon of Mandom VIII",
+   "image": "https://cf.geekdo-images.com/IoPWzgyyfhRcOzrJ_UtqUA__original/img/duRD5IefcTITVZXZsvk2-tJaKMU=/0x0/filters:format(png)/pic5797023.png",
+   "thumb": "https://cf.geekdo-images.com/IoPWzgyyfhRcOzrJ_UtqUA__small/img/C3n0p3FxW-v9gCt3_jxUDpezmDM=/fit-in/200x150/filters:strip_icc()/pic5797023.png",
+   "query": "id:227110",
+   "at": "2026-11-27T04:51:48.441Z",
+   "alias": "227110"
+  },
+  "マスクメン": {
+   "label": "マスクメン",
+   "id": "159581",
+   "name": "Maskmen",
+   "image": "https://cf.geekdo-images.com/-wnV7DO4fH-xTnHucSvF0g__original/img/RFbaeJA-SA4OceW3Vk_dj6bv43w=/0x0/filters:format(png)/pic3678408.png",
+   "thumb": "https://cf.geekdo-images.com/-wnV7DO4fH-xTnHucSvF0g__small/img/yTCn34kVw6BHYHYn9PclScwLt9A=/fit-in/200x150/filters:strip_icc()/pic3678408.png",
+   "query": "id:159581",
+   "at": "2026-11-27T04:51:51.029Z",
+   "alias": "159581"
   }
  },
- "updatedAt": "2026-11-27T04:42:40.534Z"
+ "updatedAt": "2026-11-27T04:51:51.029Z"
 }
