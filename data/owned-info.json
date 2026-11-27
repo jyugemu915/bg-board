@@ -15765,6 +15765,130 @@
    ],
    "at": "2026-11-27T05:21:24.143Z"
   },
+  "206051": {
+   "v": 4,
+   "id": "206051",
+   "type": "boardgame",
+   "best": "5〜6",
+   "rec": "4〜8",
+   "minTime": 15,
+   "maxTime": 15,
+   "age": 9,
+   "rating": 7.01,
+   "weight": 1.11,
+   "rank": 1313,
+   "mechanics": [
+    "Hidden Roles",
+    "Roles with Asymmetric Information",
+    "Team-Based Game",
+    "Voting"
+   ],
+   "categories": [
+    "Bluffing",
+    "Deduction",
+    "Party Game",
+    "Word Game"
+   ],
+   "designers": [
+    "ｱｷﾋﾛｲﾄｵ (Akihiro Itoh)",
+    "Kwaji",
+    "Daichi Okano",
+    "Kito Shinma"
+   ],
+   "artists": [
+    "Jun Sasaki"
+   ],
+   "publishers": [
+    "Oink Games",
+    "Hachette Boardgames UK",
+    "Lautapelit.fi",
+    "PopcornEdu",
+    "Tower Tactic Games"
+   ],
+   "families": [
+    "Components: Sand Timers"
+   ],
+   "desc": "Do we really have free will? Who decides this? Are we controlled by what we hear and what we see, even while thinking we decide freely? Insider is a game that deals with these questions. While communicating to others, you have to find the right answers to a quiz or find the \"insider\" who is manipulating the discussion. The insider will do everything to hide their identity while misleading the others.\n\nIn more detail, players are assigned roles at random. One player is the \"master\", and they secretly select a word from a set given in a deck of cards. (In a variant given in the rulebook, they can freely select and write down a word.) The \"insider\" player, whose role is not known to the other players, will then secretly view the word. The rest of the players are known as \"commons\". The commons then have approximately five minutes in which to ask the master \"yes\" or \"no\"-type questions so that they can deduce the secret word. The insider attempts to secretly lead the commons towards the correct word. If the commons fail to guess the correct word, everyone loses.\n\nIf, however, the word is correctly guessed in the allowable time, the master flips the sand timer, and the commons and master have until the sand runs out to discuss the game and deduce the identity of the insider. If they guess correctly, they win the game together; if they do not, the insider wins.",
+   "expansions": [],
+   "bases": [],
+   "en": "Insider",
+   "ja": "",
+   "minp": 4,
+   "maxp": 8,
+   "time": 15,
+   "year": 2016,
+   "thumb": "https://cf.geekdo-images.com/VW7K2SmGbr-Eim9nNhxfJw__small/img/0eBd_mdXuJE_sHVMZHawEHenSvM=/fit-in/200x150/filters:strip_icc()/pic3325362.jpg",
+   "image": "https://cf.geekdo-images.com/VW7K2SmGbr-Eim9nNhxfJw__original/img/UY2k4aU_0kF24cYks1b0awwE3gU=/0x0/filters:format(jpeg)/pic3325362.jpg",
+   "box": [
+    11,
+    6,
+    3.5
+   ],
+   "versions": [
+    {
+     "id": "321303",
+     "name": "English/Japanese edition",
+     "year": 2016,
+     "lang": "English・Japanese",
+     "thumb": "https://cf.geekdo-images.com/VW7K2SmGbr-Eim9nNhxfJw__small/img/0eBd_mdXuJE_sHVMZHawEHenSvM=/fit-in/200x150/filters:strip_icc()/pic3325362.jpg",
+     "image": "https://cf.geekdo-images.com/VW7K2SmGbr-Eim9nNhxfJw__original/img/UY2k4aU_0kF24cYks1b0awwE3gU=/0x0/filters:format(jpeg)/pic3325362.jpg",
+     "size": [
+      11,
+      6,
+      3.5
+     ]
+    },
+    {
+     "id": "513176",
+     "name": "Thai edition",
+     "year": 2020,
+     "lang": "Thai",
+     "thumb": "https://cf.geekdo-images.com/t1aM0G-Rqb7uCLzwyFz1yQ__small/img/qu8fpLdP4qdvVt6Pavh3krQuk4I=/fit-in/200x150/filters:strip_icc()/pic5476466.png",
+     "image": "https://cf.geekdo-images.com/t1aM0G-Rqb7uCLzwyFz1yQ__original/img/uyN9xvO70NGE6Lvw7Nk_eKnDpzw=/0x0/filters:format(png)/pic5476466.png",
+     "size": [
+      11,
+      6,
+      3.5
+     ]
+    },
+    {
+     "id": "428892",
+     "name": "Korean edition",
+     "year": 2018,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/DV6ZdZuwciQyIRHyFT8epw__small/img/NdKUnFOZ1CrRFB_sOvebVn0MAGY=/fit-in/200x150/filters:strip_icc()/pic5273276.jpg",
+     "image": "https://cf.geekdo-images.com/DV6ZdZuwciQyIRHyFT8epw__original/img/iPlah9UF91Sru8gGhxai8ZfBXRs=/0x0/filters:format(jpeg)/pic5273276.jpg",
+     "size": null
+    },
+    {
+     "id": "339126",
+     "name": "English/German/French edition",
+     "year": 2016,
+     "lang": "English・French・German",
+     "thumb": "https://cf.geekdo-images.com/aqLPcy2agdzhXE4BNGeBmA__small/img/EG9G7lH9n93yCAvvnGxGnDN4PDU=/fit-in/200x150/filters:strip_icc()/pic6680439.jpg",
+     "image": "https://cf.geekdo-images.com/aqLPcy2agdzhXE4BNGeBmA__original/img/SqwCNXyc0HX-_k1yB5D1Cely6cg=/0x0/filters:format(jpeg)/pic6680439.jpg",
+     "size": [
+      11,
+      6,
+      3.5
+     ]
+    },
+    {
+     "id": "731005",
+     "name": "German/Italian/French edition",
+     "year": 2016,
+     "lang": "French・German・Italian",
+     "thumb": "https://cf.geekdo-images.com/EACxVCq6iRQ0SlzFwqcoGA__small/img/2tbCZf69M__kl0l50Ljr28rKIuU=/fit-in/200x150/filters:strip_icc()/pic8333466.jpg",
+     "image": "https://cf.geekdo-images.com/EACxVCq6iRQ0SlzFwqcoGA__original/img/thOAnJO5DJMLXRWqQtvZSSdk700=/0x0/filters:format(jpeg)/pic8333466.jpg",
+     "size": [
+      11,
+      6,
+      3.5
+     ]
+    }
+   ],
+   "at": "2026-11-27T11:58:10.678Z"
+  },
   "207330": {
    "v": 4,
    "id": "207330",
@@ -15847,6 +15971,85 @@
     }
    ],
    "at": "2026-11-27T05:27:40.868Z"
+  },
+  "215469": {
+   "v": 4,
+   "id": "215469",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "2〜5",
+   "minTime": 20,
+   "maxTime": 20,
+   "age": 8,
+   "rating": 5.75,
+   "weight": 1.69,
+   "rank": 17120,
+   "mechanics": [
+    "Dice Rolling",
+    "Pattern Recognition",
+    "Push Your Luck",
+    "Set Collection"
+   ],
+   "categories": [
+    "Ancient",
+    "Puzzle"
+   ],
+   "designers": [
+    "Jun Sasaki"
+   ],
+   "artists": [
+    "Jun Sasaki"
+   ],
+   "publishers": [
+    "Oink Games"
+   ],
+   "families": [
+    "Ancient: Egypt",
+    "Components: Dice with Icons",
+    "Constructions: Pyramids",
+    "Theme: Construction"
+   ],
+   "desc": "In ancient Egypt, the king has ordered architects to his side. \"Construct a glorious tomb for this eagle, and I will give a reward to whoever has created the largest tomb. Fail to complete the tomb by the time that the eagle dies, however, and it's the death penalty for you on the spot.\"\n\nYour challenge in The Pyramid's Deadline is to create a tomb larger than any other player's without getting so greedy that you'll be rewarded with death instead. This game combines puzzles, bargaining, and pieces rolled on die that you'll use to build pyramids.",
+   "expansions": [],
+   "bases": [],
+   "en": "The Pyramid's Deadline",
+   "ja": "死ぬまでにピラミッド",
+   "minp": 2,
+   "maxp": 6,
+   "time": 20,
+   "year": 2016,
+   "thumb": "https://cf.geekdo-images.com/XX0c_W8Xp8342iwlRgutbA__small/img/ZS4xDhDqvMnj9G-cr__inEuYExQ=/fit-in/200x150/filters:strip_icc()/pic3328392.png",
+   "image": "https://cf.geekdo-images.com/XX0c_W8Xp8342iwlRgutbA__original/img/1ve6YKhCfFuovGOMlTeML48vFD0=/0x0/filters:format(png)/pic3328392.png",
+   "box": [
+    10.2,
+    5.1,
+    2.5
+   ],
+   "versions": [
+    {
+     "id": "335819",
+     "name": "English/French/German/Japanese edition",
+     "year": 2016,
+     "lang": "English・French・German・Japanese",
+     "thumb": "https://cf.geekdo-images.com/XX0c_W8Xp8342iwlRgutbA__small/img/ZS4xDhDqvMnj9G-cr__inEuYExQ=/fit-in/200x150/filters:strip_icc()/pic3328392.png",
+     "image": "https://cf.geekdo-images.com/XX0c_W8Xp8342iwlRgutbA__original/img/1ve6YKhCfFuovGOMlTeML48vFD0=/0x0/filters:format(png)/pic3328392.png",
+     "size": [
+      10.2,
+      5.1,
+      2.5
+     ]
+    },
+    {
+     "id": "592487",
+     "name": "Multilingual edition",
+     "year": 2016,
+     "lang": "Chinese・English・French・German・Italian・Japanese・Korean・Spanish",
+     "thumb": "https://cf.geekdo-images.com/y26ZV_EwyAxdtGw82YVaNg__small/img/zdjk2L1FQYAidUTtSBr9rKRIZe8=/fit-in/200x150/filters:strip_icc()/pic6586489.jpg",
+     "image": "https://cf.geekdo-images.com/y26ZV_EwyAxdtGw82YVaNg__original/img/ma75fJC0bOOp-QPNFCb4GFpiMsI=/0x0/filters:format(jpeg)/pic6586489.jpg",
+     "size": null
+    }
+   ],
+   "at": "2026-11-27T11:58:07.887Z"
   },
   "217372": {
    "v": 4,
@@ -16507,6 +16710,99 @@
     }
    ],
    "at": "2026-11-27T05:22:05.965Z"
+  },
+  "223770": {
+   "v": 4,
+   "id": "223770",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "3〜5",
+   "minTime": 20,
+   "maxTime": 20,
+   "age": 10,
+   "rating": 7.18,
+   "weight": 1.61,
+   "rank": 889,
+   "mechanics": [
+    "Area Majority / Influence",
+    "Hot Potato",
+    "Increase Value of Unchosen Resources",
+    "Investment",
+    "Score-and-Reset Game",
+    "Set Collection",
+    "Stock Holding"
+   ],
+   "categories": [
+    "Card Game",
+    "Economic"
+   ],
+   "designers": [
+    "Jun Sasaki"
+   ],
+   "artists": [
+    "Hiroko Izumida",
+    "Jun Sasaki"
+   ],
+   "publishers": [
+    "4 Kavky",
+    "Hachette Boardgames UK",
+    "Oink Games",
+    "Popcorn Games"
+   ],
+   "families": [
+    "Card Games: Draw and Discard",
+    "Theme: Stock Market"
+   ],
+   "desc": "Description from the publisher:\n\nThere are six companies that will change the world as we know it! You can be part of their success and be an investor. Try to become rich by making the right decisions!\n\nOnly the biggest investor can get money out of each company. You must try to read the next steps of your rivals and use your capital and your three hidden cards to win against them and become the biggest shareholder!\n\nYou have to be lucky in this game but you must also think about your moves and analyze your rivals! You can play this card game with only a few players but also with many!",
+   "expansions": [],
+   "bases": [],
+   "en": "Startups",
+   "ja": "スタータップス",
+   "minp": 3,
+   "maxp": 7,
+   "time": 20,
+   "year": 2017,
+   "thumb": "https://cf.geekdo-images.com/Y23LsS9HxPgO0XT5RvtwTA__small/img/JQ6I0tZDYByNKmMSW0gsTiNulEQ=/fit-in/200x150/filters:strip_icc()/pic3678411.png",
+   "image": "https://cf.geekdo-images.com/Y23LsS9HxPgO0XT5RvtwTA__original/img/IJW2fhjS4x88hu8Aap8XHrMfcyg=/0x0/filters:format(png)/pic3678411.png",
+   "box": [
+    11,
+    6.3,
+    3.4
+   ],
+   "versions": [
+    {
+     "id": "349761",
+     "name": "Multilingual first edition",
+     "year": 2017,
+     "lang": "English・French・German・Japanese",
+     "thumb": "https://cf.geekdo-images.com/JxlsSt_lHi-SHREIiOXQLg__small/img/5C-EzNubE84rwSkJrswr1tI_kSU=/fit-in/200x150/filters:strip_icc()/pic3479240.png",
+     "image": "https://cf.geekdo-images.com/JxlsSt_lHi-SHREIiOXQLg__original/img/cWfGW_mz_QFYhvb9B8YIzCbe0CA=/0x0/filters:format(png)/pic3479240.png",
+     "size": [
+      11,
+      6.3,
+      3.4
+     ]
+    },
+    {
+     "id": "428838",
+     "name": "Korean edition",
+     "year": 2018,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/w58vFUJbMkzSns0508z2MA__small/img/JjnOHnVslFN56AVN45tVdWzYaZc=/fit-in/200x150/filters:strip_icc()/pic5273275.jpg",
+     "image": "https://cf.geekdo-images.com/w58vFUJbMkzSns0508z2MA__original/img/Nqi6-vzTdhgFRhf7q2wkufQ08D8=/0x0/filters:format(jpeg)/pic5273275.jpg",
+     "size": null
+    },
+    {
+     "id": "605177",
+     "name": "English/Spanish edition",
+     "year": 2017,
+     "lang": "English・Spanish",
+     "thumb": "https://cf.geekdo-images.com/Y23LsS9HxPgO0XT5RvtwTA__small/img/JQ6I0tZDYByNKmMSW0gsTiNulEQ=/fit-in/200x150/filters:strip_icc()/pic3678411.png",
+     "image": "https://cf.geekdo-images.com/Y23LsS9HxPgO0XT5RvtwTA__original/img/IJW2fhjS4x88hu8Aap8XHrMfcyg=/0x0/filters:format(png)/pic3678411.png",
+     "size": null
+    }
+   ],
+   "at": "2026-11-27T11:58:04.989Z"
   },
   "227110": {
    "v": 4,
@@ -27200,6 +27496,89 @@
    ],
    "at": "2026-11-27T05:28:58.672Z"
   },
+  "361214": {
+   "v": 4,
+   "id": "361214",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "3〜6",
+   "minTime": 20,
+   "maxTime": 20,
+   "age": 6,
+   "rating": 6.84,
+   "weight": 1.19,
+   "rank": 3822,
+   "mechanics": [
+    "Cooperative Game",
+    "Memory"
+   ],
+   "categories": [],
+   "designers": [
+    "Jun Sasaki"
+   ],
+   "artists": [
+    "Jun Sasaki"
+   ],
+   "publishers": [
+    "Oink Games",
+    "Hachette Boardgames UK",
+    "Pixie Games",
+    "Popcorn Games"
+   ],
+   "families": [
+    "Food & Drink: Coffee"
+   ],
+   "desc": "You and your fellow players work in a coffee shop in Order Overload: Cafe, and to keep your jobs, you need to keep a handle on all the orders coming in. Will you be able to make the right drinks?\n\nIn a round, you deal a certain number of cards face up and read them aloud so that everyone knows all the orders placed, then you deal these cards out face down to the players. On a turn, you need to name an order that's in someone else's hand. Fail to do so, and you're eliminated from play! If you collectively reveal a set number of drinks before everyone is eliminated, then you clear the level and are ready to take on tougher challenges...\n\nWhat's the highest level you can clear?",
+   "expansions": [],
+   "bases": [],
+   "en": "Order Overload: Cafe",
+   "ja": "注文の多すぎるゲーム：カフェ",
+   "minp": 2,
+   "maxp": 6,
+   "time": 20,
+   "year": 2022,
+   "thumb": "https://cf.geekdo-images.com/vGLuM4WQnd8pxJxxNkrZtQ__small/img/zYHgoKTHKeOiZhwQ1faZytJpQF8=/fit-in/200x150/filters:strip_icc()/pic7212733.jpg",
+   "image": "https://cf.geekdo-images.com/vGLuM4WQnd8pxJxxNkrZtQ__original/img/hQnW2DqTu0VhOU9uWibYLVJsqJM=/0x0/filters:format(jpeg)/pic7212733.jpg",
+   "box": [
+    11,
+    6.5,
+    3.5
+   ],
+   "versions": [
+    {
+     "id": "609412",
+     "name": "English/Japanese edition",
+     "year": 2022,
+     "lang": "English・Japanese",
+     "thumb": "https://cf.geekdo-images.com/EVp9hOkQn99wKZj71Y_tmA__small/img/Xj4vY-6KH6uYzI2P6myAmOyVBJY=/fit-in/200x150/filters:strip_icc()/pic6819319.png",
+     "image": "https://cf.geekdo-images.com/EVp9hOkQn99wKZj71Y_tmA__original/img/_SWHG49E5Lee1xa7LG7eAzF8Aro=/0x0/filters:format(png)/pic6819319.png",
+     "size": null
+    },
+    {
+     "id": "707380",
+     "name": "French edition 2024",
+     "year": 2024,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/vGLuM4WQnd8pxJxxNkrZtQ__small/img/zYHgoKTHKeOiZhwQ1faZytJpQF8=/fit-in/200x150/filters:strip_icc()/pic7212733.jpg",
+     "image": "https://cf.geekdo-images.com/vGLuM4WQnd8pxJxxNkrZtQ__original/img/hQnW2DqTu0VhOU9uWibYLVJsqJM=/0x0/filters:format(jpeg)/pic7212733.jpg",
+     "size": null
+    },
+    {
+     "id": "694578",
+     "name": "Korean edition",
+     "year": 2023,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/PfFiMGxFfRrMHln52HLO4g__small/img/6RUE9WKbYxq3243KsweRhSfDoZs=/fit-in/200x150/filters:strip_icc()/pic7913539.jpg",
+     "image": "https://cf.geekdo-images.com/PfFiMGxFfRrMHln52HLO4g__original/img/ip9W3phnAJN-MQmLw8O0wfBKD4Q=/0x0/filters:format(jpeg)/pic7913539.jpg",
+     "size": [
+      11,
+      6.5,
+      3.5
+     ]
+    }
+   ],
+   "at": "2026-11-27T11:58:02.200Z"
+  },
   "362227": {
    "v": 4,
    "id": "362227",
@@ -30693,6 +31072,74 @@
     }
    ],
    "at": "2026-11-27T05:25:03.164Z"
+  },
+  "402310": {
+   "v": 4,
+   "id": "402310",
+   "type": "boardgame",
+   "best": "3",
+   "rec": "1〜5",
+   "minTime": 15,
+   "maxTime": 15,
+   "age": 9,
+   "rating": 6.67,
+   "weight": 1.77,
+   "rank": 5696,
+   "mechanics": [
+    "Hand Management",
+    "Pattern Building",
+    "Solo / Solitaire Game",
+    "Square Grid",
+    "Tile Placement"
+   ],
+   "categories": [
+    "Puzzle"
+   ],
+   "designers": [
+    "Christoph Cantzler",
+    "Anja Wrede"
+   ],
+   "artists": [
+    "Jun Sasaki"
+   ],
+   "publishers": [
+    "Hachette Boardgames UK",
+    "Oink Games",
+    "Pixie Games"
+   ],
+   "families": [
+    "Category: Color",
+    "Components: 7 x 7 Grids",
+    "Theme: City"
+   ],
+   "desc": "The residents of Town 77 — located just down the road from Town 66, mind you — can't stand it when houses with the same shape or color are lined up with each other. Try to build as many houses as you can while keeping in mind which houses in your hand can be built at the end.\n\nIn Town 77, each player has a hand of tiles, with each tile showing one of seven house styles in one of seven colors/patterns. (The color/pattern of a tile also shows on its reverse side.) The game has 49 tiles in total, one of each possible combination. Each player starts with a hand of random tiles.\n\nThe first player places a tile in the upper-left corner of an imaginary 7x7 square, then on each subsequent turn a player adds a tile to a row or column in this square so long as this tile is adjacent to at least one other tile and the color/house style isn't already present in this row and column. After playing a tile, a player can choose to draw a new tile or not. Once you lower your hand size, you can't increase it again. If you can't play on a turn, you're out of the game, and once everyone is out, whoever has the fewest tiles in hand — or who played latest in the event of a tie — wins.\n\nIf you play your final tile, you win, but if you don't draw new tiles, you might find yourself unable to play!",
+   "expansions": [],
+   "bases": [],
+   "en": "Town 77",
+   "ja": "カブラン",
+   "minp": 1,
+   "maxp": 5,
+   "time": 15,
+   "year": 2023,
+   "thumb": "https://cf.geekdo-images.com/VSwx3gqV9zvsXqbA8ryAlA__small/img/KiRfEDnYN8GhT-vwT9pSve6LGNY=/fit-in/200x150/filters:strip_icc()/pic7758175.png",
+   "image": "https://cf.geekdo-images.com/VSwx3gqV9zvsXqbA8ryAlA__original/img/EvoJmJ5VqY0QMpPcKHQZeUo6VJk=/0x0/filters:format(png)/pic7758175.png",
+   "box": [
+    11,
+    6.5,
+    3.5
+   ],
+   "versions": [
+    {
+     "id": "723963",
+     "name": "French edition",
+     "year": 2024,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/VSwx3gqV9zvsXqbA8ryAlA__small/img/KiRfEDnYN8GhT-vwT9pSve6LGNY=/fit-in/200x150/filters:strip_icc()/pic7758175.png",
+     "image": "https://cf.geekdo-images.com/VSwx3gqV9zvsXqbA8ryAlA__original/img/EvoJmJ5VqY0QMpPcKHQZeUo6VJk=/0x0/filters:format(png)/pic7758175.png",
+     "size": null
+    }
+   ],
+   "at": "2026-11-27T11:58:13.330Z"
   },
   "405537": {
    "v": 4,
@@ -34228,6 +34675,65 @@
    ],
    "at": "2026-11-27T05:21:07.138Z"
   },
+  "446828": {
+   "v": 4,
+   "id": "446828",
+   "type": "boardgame",
+   "best": "",
+   "rec": "",
+   "minTime": 5,
+   "maxTime": 15,
+   "age": 6,
+   "rating": null,
+   "weight": null,
+   "rank": null,
+   "mechanics": [
+    "Matching"
+   ],
+   "categories": [
+    "Card Game"
+   ],
+   "designers": [],
+   "artists": [],
+   "publishers": [
+    "Oink Games"
+   ],
+   "families": [
+    "Promotional: Item"
+   ],
+   "desc": "15th anniversary Oink Games Catchphrase Karuta\n\nThere are two sets of cards, one with the first half of the poem (yomi-fuda, reading cards) and one with the second half (tori-fuda, taking cards).\nThe reader:\nOne person reads the yomi-fuda, and the other players try to grab the matching tori-fuda.\nThe race:\nThe first player to touch the correct card wins it.\nThe goal:\nThe winner is the player who collects the most cards after all the yomi-fuda have been read.",
+   "expansions": [],
+   "bases": [],
+   "en": "Oink Games Catchphrase Karuta",
+   "ja": "",
+   "minp": 3,
+   "maxp": 6,
+   "time": 15,
+   "year": 2025,
+   "thumb": "https://cf.geekdo-images.com/a5LJHgTlw--CpBo0CUvf7Q__small/img/-dl_a89DZwPBHeamzZZZ32EPtco=/fit-in/200x150/filters:strip_icc()/pic8930597.png",
+   "image": "https://cf.geekdo-images.com/a5LJHgTlw--CpBo0CUvf7Q__original/img/88axYp0vksoDNV7cHaMIGZEneEw=/0x0/filters:format(png)/pic8930597.png",
+   "box": [
+    15,
+    10,
+    3
+   ],
+   "versions": [
+    {
+     "id": "759607",
+     "name": "Japanese edition",
+     "year": 2025,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/a5LJHgTlw--CpBo0CUvf7Q__small/img/-dl_a89DZwPBHeamzZZZ32EPtco=/fit-in/200x150/filters:strip_icc()/pic8930597.png",
+     "image": "https://cf.geekdo-images.com/a5LJHgTlw--CpBo0CUvf7Q__original/img/88axYp0vksoDNV7cHaMIGZEneEw=/0x0/filters:format(png)/pic8930597.png",
+     "size": [
+      15,
+      10,
+      3
+     ]
+    }
+   ],
+   "at": "2026-11-27T11:58:15.992Z"
+  },
   "447998": {
    "v": 4,
    "id": "447998",
@@ -35146,7 +35652,7 @@
    "at": "2026-11-27T05:24:47.684Z"
   }
  },
- "updatedAt": "2026-11-27T11:56:19.743Z",
+ "updatedAt": "2026-11-27T11:58:27.917Z",
  "exps": {
   "2591": {
    "id": "2591",
@@ -44086,8 +44592,31 @@
    "at": "2026-11-27T05:42:45.867Z",
    "sets": []
   },
+  "206051": {
+   "at": "2026-11-27T11:58:23.280Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 56,
+       "h": 87,
+       "n": 42,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
   "207330": {
    "at": "2026-11-27T05:46:34.040Z",
+   "sets": []
+  },
+  "215469": {
+   "at": "2026-11-27T11:58:21.716Z",
    "sets": []
   },
   "217372": {
@@ -44215,6 +44744,39 @@
   "219122": {
    "at": "2026-11-27T05:43:11.134Z",
    "sets": []
+  },
+  "223770": {
+   "at": "2026-11-27T11:58:20.146Z",
+   "sets": [
+    {
+     "name": "Oink Games multilingual editions (2017)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Company cards",
+       "w": 57,
+       "h": 88,
+       "n": 45,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "Oink Games Simplified Chinese edition (2024)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Company cards",
+       "w": 56,
+       "h": 86,
+       "n": 45,
+       "note": ""
+      }
+     ]
+    }
+   ]
   },
   "227110": {
    "at": "2026-11-27T05:49:02.850Z",
@@ -45475,6 +46037,25 @@
    "at": "2026-11-27T05:47:21.505Z",
    "sets": []
   },
+  "361214": {
+   "at": "2026-11-27T11:58:18.597Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Order and Special Ability Cards",
+       "w": 57.5,
+       "h": 89,
+       "n": 90,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
   "362227": {
    "at": "2026-11-27T05:43:46.287Z",
    "sets": []
@@ -45919,6 +46500,10 @@
      ]
     }
    ]
+  },
+  "402310": {
+   "at": "2026-11-27T11:58:24.846Z",
+   "sets": []
   },
   "405537": {
    "at": "2026-11-27T05:47:15.239Z",
@@ -46494,6 +47079,10 @@
   },
   "446476": {
    "at": "2026-11-27T05:42:36.270Z",
+   "sets": []
+  },
+  "446828": {
+   "at": "2026-11-27T11:58:26.416Z",
    "sets": []
   },
   "447998": {
