@@ -35146,7 +35146,7 @@
    "at": "2026-11-27T05:24:47.684Z"
   }
  },
- "updatedAt": "2026-11-27T05:30:00.506Z",
+ "updatedAt": "2026-11-27T05:43:55.762Z",
  "exps": {
   "2591": {
    "id": "2591",
@@ -42817,6 +42817,1736 @@
    "maxp": 5,
    "time": 120,
    "at": "2026-11-27T04:56:38.626Z"
+  }
+ },
+ "sleeves": {
+  "45": {
+   "at": "2026-11-27T05:42:09.382Z",
+   "sets": []
+  },
+  "128": {
+   "at": "2026-11-27T05:43:18.989Z",
+   "sets": []
+  },
+  "201": {
+   "at": "2026-11-27T05:42:55.413Z",
+   "sets": [
+    {
+     "name": "KOSMOS German editions (1999-2012)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 44,
+       "h": 68,
+       "n": 32,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "Playte English/Japanese/Korean edition (2025)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 44,
+       "h": 67,
+       "n": 56,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "624": {
+   "at": "2026-11-27T05:42:33.027Z",
+   "sets": []
+  },
+  "822": {
+   "at": "2026-11-27T05:43:25.355Z",
+   "sets": [
+    {
+     "name": "2014 and earlier editions with River expansion; MINDOK Polish (2015) and Hans im Glück 'Book' (2018) editions",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Tiles",
+       "w": 46,
+       "h": 46,
+       "n": 72,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "All 2015 and later editions, other than those with their own card sets",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 46,
+       "h": 46,
+       "n": 84,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "999 Games Dutch edition with monasteries (2014)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 46,
+       "h": 46,
+       "n": 78,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "1231": {
+   "at": "2026-11-27T05:42:10.965Z",
+   "sets": []
+  },
+  "1406": {
+   "at": "2026-11-27T05:43:22.140Z",
+   "sets": [
+    {
+     "name": "Brohm/Parker-Spiele German edition (1960s)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 55,
+       "h": 84,
+       "n": 60,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Paper money",
+       "w": 50.8,
+       "h": 101.6,
+       "n": 210,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "3762": {
+   "at": "2026-11-27T05:43:35.079Z",
+   "sets": []
+  },
+  "4098": {
+   "at": "2026-11-27T05:43:43.102Z",
+   "sets": []
+  },
+  "19184": {
+   "at": "2026-11-27T05:42:20.402Z",
+   "sets": [
+    {
+     "name": "Dagoy English editions (2021-2022)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Reference cards",
+       "w": 80,
+       "h": 120,
+       "n": 5,
+       "note": ""
+      },
+      {
+       "name": "Special cards",
+       "w": 63,
+       "h": 88,
+       "n": 18,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "40628": {
+   "at": "2026-11-27T05:43:15.818Z",
+   "sets": [
+    {
+     "name": "Pandasaurus Games English edition (2024)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Donkey Cart cards",
+       "w": 63,
+       "h": 89,
+       "n": 10,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "70323": {
+   "at": "2026-11-27T05:43:33.474Z",
+   "sets": [
+    {
+     "name": "IELLO English 1st (2011) and 2nd (2012) eds",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Power cards",
+       "w": 63,
+       "h": 88.5,
+       "n": 66,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "IELLO English 3rd ed (2016)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Power cards",
+       "w": 63,
+       "h": 88.5,
+       "n": 66,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "77130": {
+   "at": "2026-11-27T05:42:21.976Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 41,
+       "h": 63,
+       "n": 224,
+       "note": ""
+      },
+      {
+       "name": "",
+       "w": 65,
+       "h": 65,
+       "n": 0,
+       "note": ""
+      },
+      {
+       "name": "Small Square Cards",
+       "w": 65,
+       "h": 65,
+       "n": 55,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "118048": {
+   "at": "2026-11-27T05:42:53.850Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 59,
+       "h": 92,
+       "n": 80,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "119890": {
+   "at": "2026-11-27T05:42:57.028Z",
+   "sets": []
+  },
+  "137154": {
+   "at": "2026-11-27T05:42:29.903Z",
+   "sets": []
+  },
+  "148949": {
+   "at": "2026-11-27T05:41:40.860Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 43,
+       "h": 67,
+       "n": 26,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "150146": {
+   "at": "2026-11-27T05:41:51.889Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "This game has no cards, but the tiles are very flimsy, and sleeving them is probably a good idea.",
+     "cards": [
+      {
+       "name": "",
+       "w": 69,
+       "h": 109,
+       "n": 12,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "163412": {
+   "at": "2026-11-27T05:42:58.591Z",
+   "sets": [
+    {
+     "name": "Lookout Games English 10 Year Anniversary edition (2024)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Automa cards",
+       "w": 59,
+       "h": 91,
+       "n": 24,
+       "note": "These cards are used only during solo play."
+      }
+     ]
+    }
+   ]
+  },
+  "170624": {
+   "at": "2026-11-27T05:41:45.580Z",
+   "sets": []
+  },
+  "172308": {
+   "at": "2026-11-27T05:41:47.178Z",
+   "sets": [
+    {
+     "name": "alea/Ravensburger Spieleverlag English/French 1st ed (2015)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 59,
+       "h": 92,
+       "n": 110,
+       "note": "Including two sets of 50 role cards (one each in English and French). If you only want to sleeve one set, you'll need 60 sleeves."
+      }
+     ]
+    },
+    {
+     "name": "alea/Ravensburger Spieleverlag German 1st ed (2015)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 59,
+       "h": 92,
+       "n": 60,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "alea/Ravensburger Polish edition (2016)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Role and Event Cards",
+       "w": 59,
+       "h": 90.9,
+       "n": 60,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "177524": {
+   "at": "2026-11-27T05:43:06.430Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 43.5,
+       "h": 67,
+       "n": 53,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "ICECOOL: Costume Party",
+     "addon": true,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 43.5,
+       "h": 67,
+       "n": 4,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "183284": {
+   "at": "2026-11-27T05:42:45.867Z",
+   "sets": []
+  },
+  "217372": {
+   "at": "2026-11-27T05:41:58.287Z",
+   "sets": [
+    {
+     "name": "Ravensburger English and German first (2017) and English second (2018) editions",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 44,
+       "h": 68,
+       "n": 86,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "999 Games Dutch edition (2020)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 56,
+       "h": 87,
+       "n": 86,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "Lautapelit.fi Danish/English/Finnish/Norwegian/Swedish edition (2020)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 56,
+       "h": 87,
+       "n": 86,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "Ravensburger German second edition (2023)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 59,
+       "h": 90,
+       "n": 86,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "Wettlauf nach El Dorado: Fernglas Promo Pack",
+     "addon": true,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 59,
+       "h": 90,
+       "n": 10,
+       "note": "Including one rules card."
+      }
+     ]
+    },
+    {
+     "name": "Ravensburger International (English/French) Edition (2023)",
+     "addon": false,
+     "notes": "This edition features the same Dutrait art as the Lautapelit multilingual edition, but has different box contents. You can tell the difference from the box front and back - this edition has both Engli",
+     "cards": [
+      {
+       "name": "",
+       "w": 59,
+       "h": 91,
+       "n": 104,
+       "note": "86 cards for the base game, plus nine cards in each language for the expansion."
+      }
+     ]
+    },
+    {
+     "name": "Nasza Księgarnia Polish edition (2019)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 58,
+       "h": 88,
+       "n": 86,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "217861": {
+   "at": "2026-11-27T05:42:44.282Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 63,
+       "h": 88,
+       "n": 111,
+       "note": "Including five reference cards."
+      }
+     ]
+    }
+   ]
+  },
+  "219122": {
+   "at": "2026-11-27T05:43:11.134Z",
+   "sets": []
+  },
+  "237182": {
+   "at": "2026-11-27T05:43:38.245Z",
+   "sets": [
+    {
+     "name": "Leder Games English eds (2018-2020)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 63.5,
+       "h": 88,
+       "n": 98,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "Root: More Hirelings Box – Kickstarter Edition",
+     "addon": true,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 70,
+       "h": 120,
+       "n": 9,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "2Tomatoes Games Spanish ed (2019)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 63.5,
+       "h": 88,
+       "n": 99,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "244513": {
+   "at": "2026-11-27T05:43:07.992Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 43.5,
+       "h": 67,
+       "n": 62,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "244711": {
+   "at": "2026-11-27T05:41:44.012Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Action and Starting Action Cards",
+       "w": 45,
+       "h": 68,
+       "n": 69,
+       "note": ""
+      },
+      {
+       "name": "Master Cards",
+       "w": 57,
+       "h": 89,
+       "n": 20,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "249259": {
+   "at": "2026-11-27T05:43:30.251Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 63,
+       "h": 88,
+       "n": 16,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "260180": {
+   "at": "2026-11-27T05:43:03.284Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Reference Cards",
+       "w": 90,
+       "h": 180,
+       "n": 4,
+       "note": ""
+      },
+      {
+       "name": "Tiles",
+       "w": 70,
+       "h": 80,
+       "n": 44,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "260605": {
+   "at": "2026-11-27T05:41:50.339Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 44,
+       "h": 68,
+       "n": 48,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "263918": {
+   "at": "2026-11-27T05:43:27.064Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 63,
+       "h": 89,
+       "n": 41,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "271615": {
+   "at": "2026-11-27T05:41:59.873Z",
+   "sets": [
+    {
+     "name": "Ravensburger editions",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 44,
+       "h": 68,
+       "n": 150,
+       "note": "Including 22 language-independent cards, and two sets of 64 cards, one each in English and German. If you only want to sleeve one language, you'll need a total of 86 sleeves."
+      }
+     ]
+    },
+    {
+     "name": "Nasza Księgarnia Polish edition (2024)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 58,
+       "h": 88,
+       "n": 86,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "Lautapelit.fi Danish/English/Finnish/Norwegian/Swedish edition (2024)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 56,
+       "h": 87,
+       "n": 86,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "277700": {
+   "at": "2026-11-27T05:42:23.524Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 44.5,
+       "h": 63.5,
+       "n": 116,
+       "note": ""
+      },
+      {
+       "name": "Rogue cards",
+       "w": 63.5,
+       "h": 89,
+       "n": 7,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "Merchants Cove: Entertainer Randomizer Card",
+     "addon": true,
+     "notes": "This is included with the Kickstarter Mega-Box.",
+     "cards": [
+      {
+       "name": "Randomizer cards",
+       "w": 63.5,
+       "h": 89,
+       "n": 1,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "286096": {
+   "at": "2026-11-27T05:42:18.851Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 57,
+       "h": 87,
+       "n": 117,
+       "note": "Including six reference cards."
+      },
+      {
+       "name": "Civilization Mats",
+       "w": 114,
+       "h": 174,
+       "n": 16,
+       "note": "Swan PanAsia sleeves may be too narrow for these cards. Purchasing extra sleeves is recomended."
+      }
+     ]
+    }
+   ]
+  },
+  "286749": {
+   "at": "2026-11-27T05:41:37.726Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 56,
+       "h": 87,
+       "n": 9,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "287220": {
+   "at": "2026-11-27T05:43:39.831Z",
+   "sets": [
+    {
+     "name": "Leder Games English eds (2018-2020)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 63.5,
+       "h": 88,
+       "n": 31,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "290236": {
+   "at": "2026-11-27T05:42:15.713Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 68,
+       "h": 120,
+       "n": 32,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "298069": {
+   "at": "2026-11-27T05:41:56.674Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 63,
+       "h": 88,
+       "n": 56,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "298229": {
+   "at": "2026-11-27T05:42:12.531Z",
+   "sets": [
+    {
+     "name": "Roxley English deluxe ed (2020)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 57,
+       "h": 89,
+       "n": 230,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "Roxley English deluxe ATOMIC ed (2020)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 57,
+       "h": 89,
+       "n": 422,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "322421": {
+   "at": "2026-11-27T05:43:54.261Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 63,
+       "h": 88,
+       "n": 23,
+       "note": "17 language-independent cards, and three each in English and Japanese."
+      }
+     ]
+    }
+   ]
+  },
+  "330149": {
+   "at": "2026-11-27T05:43:41.509Z",
+   "sets": [
+    {
+     "name": "Leder Games English eds (2018-2020)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 63.5,
+       "h": 88,
+       "n": 24,
+       "note": ""
+      },
+      {
+       "name": "",
+       "w": 70,
+       "h": 120,
+       "n": 5,
+       "note": "Including one setup card."
+      }
+     ]
+    }
+   ]
+  },
+  "332386": {
+   "at": "2026-11-27T05:42:41.083Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Companion Creature, Creature, and Potion Cards",
+       "w": 63,
+       "h": 88,
+       "n": 68,
+       "note": ""
+      },
+      {
+       "name": "Forest and Reference Cards",
+       "w": 70,
+       "h": 120,
+       "n": 24,
+       "note": "Including four reference cards."
+      }
+     ]
+    }
+   ]
+  },
+  "333255": {
+   "at": "2026-11-27T05:42:04.559Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Clan, Guild, Loot, and Tactic cards",
+       "w": 57.5,
+       "h": 89,
+       "n": 213,
+       "note": ""
+      },
+      {
+       "name": "Dungeon Room tiles",
+       "w": 140,
+       "h": 140,
+       "n": 12,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "334307": {
+   "at": "2026-11-27T05:43:28.661Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 56,
+       "h": 87,
+       "n": 36,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "338425": {
+   "at": "2026-11-27T05:42:28.352Z",
+   "sets": []
+  },
+  "342010": {
+   "at": "2026-11-27T05:41:48.767Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 63,
+       "h": 88,
+       "n": 86,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "342949": {
+   "at": "2026-11-27T05:42:25.112Z",
+   "sets": []
+  },
+  "343566": {
+   "at": "2026-11-27T05:43:31.814Z",
+   "sets": [
+    {
+     "name": "Portland Game Collective English edition (2024)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Adventurer Item, Mini Character, and Ruler Task cards",
+       "w": 44,
+       "h": 63,
+       "n": 43,
+       "note": ""
+      },
+      {
+       "name": "Adventurer, Berserker, Number, Rare, Reference, and White Flag cards",
+       "w": 63,
+       "h": 88,
+       "n": 62,
+       "note": "Including 11 reference cards and one non-gameplay advertisement card."
+      },
+      {
+       "name": "Character, Discard, Gambler Bidding, and Round Progress cards",
+       "w": 70,
+       "h": 120,
+       "n": 11,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "347703": {
+   "at": "2026-11-27T05:41:39.278Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 59,
+       "h": 91,
+       "n": 22,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "350933": {
+   "at": "2026-11-27T05:42:07.798Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Goal cards",
+       "w": 63.5,
+       "h": 88,
+       "n": 24,
+       "note": ""
+      },
+      {
+       "name": "Explore, Investigate, and Treasure cards",
+       "w": 44,
+       "h": 68,
+       "n": 77,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "352574": {
+   "at": "2026-11-27T05:43:17.394Z",
+   "sets": [
+    {
+     "name": "Flatout Games English first edition (2023)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 57,
+       "h": 88,
+       "n": 42,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "359970": {
+   "at": "2026-11-27T05:41:55.071Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 63,
+       "h": 88,
+       "n": 336,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "362227": {
+   "at": "2026-11-27T05:43:46.287Z",
+   "sets": []
+  },
+  "362228": {
+   "at": "2026-11-27T05:43:44.671Z",
+   "sets": []
+  },
+  "362976": {
+   "at": "2026-11-27T05:42:49.103Z",
+   "sets": [
+    {
+     "name": "Pandasaurus Games English ed (2023)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Reference cards",
+       "w": 70,
+       "h": 120,
+       "n": 4,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "364073": {
+   "at": "2026-11-27T05:43:00.151Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 44,
+       "h": 67,
+       "n": 71,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "368899": {
+   "at": "2026-11-27T05:42:26.686Z",
+   "sets": []
+  },
+  "371932": {
+   "at": "2026-11-27T05:43:51.104Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 63,
+       "h": 88,
+       "n": 64,
+       "note": "Including four reference cards."
+      }
+     ]
+    }
+   ]
+  },
+  "377470": {
+   "at": "2026-11-27T05:42:47.500Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 57,
+       "h": 87,
+       "n": 40,
+       "note": "Including six reference cards. "
+      }
+     ]
+    }
+   ]
+  },
+  "378715": {
+   "at": "2026-11-27T05:43:47.858Z",
+   "sets": []
+  },
+  "387780": {
+   "at": "2026-11-27T05:41:42.430Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Advanced Invention, Basic Invention, Hero, and Objective Cards",
+       "w": 57.5,
+       "h": 89,
+       "n": 209,
+       "note": "Including 20 cards used only during solo play."
+      },
+      {
+       "name": "Basement Mission and Home Mission Cards",
+       "w": 65,
+       "h": 100,
+       "n": 10,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "389094": {
+   "at": "2026-11-27T05:42:03.009Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Echolily, Market, Starter, and Vilethorn cards",
+       "w": 63,
+       "h": 89,
+       "n": 162,
+       "note": ""
+      },
+      {
+       "name": "Objective and Rival (solo play) cards",
+       "w": 44,
+       "h": 64,
+       "n": 20,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "392809": {
+   "at": "2026-11-27T05:43:20.575Z",
+   "sets": []
+  },
+  "393325": {
+   "at": "2026-11-27T05:41:36.142Z",
+   "sets": [
+    {
+     "name": "PlayPunk English edition (2024)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Adventure boards",
+       "w": 240,
+       "h": 240,
+       "n": 10,
+       "note": ""
+      },
+      {
+       "name": "Reference sheets",
+       "w": 200,
+       "h": 200,
+       "n": 3,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "394094": {
+   "at": "2026-11-27T05:42:01.434Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Event, Goal, Solo Action, Solo Event, and Talent Cards",
+       "w": 63,
+       "h": 88,
+       "n": 117,
+       "note": "There are two sets of ten talent cards, one each in English and Japanese. All other cards are language-independent."
+      },
+      {
+       "name": "Guest, Opening Guest, Project, Round, and VIP Cards",
+       "w": 44,
+       "h": 63,
+       "n": 74,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "394150": {
+   "at": "2026-11-27T05:42:06.123Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 57.5,
+       "h": 89,
+       "n": 334,
+       "note": "This count includes all unlockable cards."
+      },
+      {
+       "name": "Dungeon Room tiles",
+       "w": 140,
+       "h": 140,
+       "n": 1,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "396749": {
+   "at": "2026-11-27T05:41:34.565Z",
+   "sets": []
+  },
+  "396948": {
+   "at": "2026-11-27T05:43:49.537Z",
+   "sets": []
+  },
+  "407297": {
+   "at": "2026-11-27T05:43:14.254Z",
+   "sets": []
+  },
+  "411026": {
+   "at": "2026-11-27T05:43:52.684Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "These card counts are preliminary, and will likely change during the Kickstarter campaign and production of the game.",
+     "cards": [
+      {
+       "name": "",
+       "w": 63,
+       "h": 88,
+       "n": 32,
+       "note": "Including one reference card."
+      }
+     ]
+    }
+   ]
+  },
+  "414927": {
+   "at": "2026-11-27T05:43:12.685Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 63.5,
+       "h": 88,
+       "n": 71,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "416232": {
+   "at": "2026-11-27T05:43:01.716Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Reference cards",
+       "w": 90,
+       "h": 90,
+       "n": 4,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "417618": {
+   "at": "2026-11-27T05:42:50.679Z",
+   "sets": [
+    {
+     "name": "Pandasaurus Games English ed (2024)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Ship cards",
+       "w": 70,
+       "h": 120,
+       "n": 7,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "417629": {
+   "at": "2026-11-27T05:43:09.562Z",
+   "sets": []
+  },
+  "419925": {
+   "at": "2026-11-27T05:43:36.693Z",
+   "sets": []
+  },
+  "421217": {
+   "at": "2026-11-27T05:42:14.120Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Objective cards",
+       "w": 63.5,
+       "h": 89,
+       "n": 52,
+       "note": ""
+      },
+      {
+       "name": "Reference/Skill Tree Mini-Expansion cards",
+       "w": 127,
+       "h": 153,
+       "n": 5,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "424981": {
+   "at": "2026-11-27T05:42:31.453Z",
+   "sets": [
+    {
+     "name": "Tricktakers Games English/Japanese edition (2025)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Eternal, Field, Game Over, Gatekeeper, Key Bonus, Puzzle, Random, River Rare, Star, Starting, and Task cards",
+       "w": 63,
+       "h": 88,
+       "n": 303,
+       "note": ""
+      },
+      {
+       "name": "Reference and Stage tiles",
+       "w": 100,
+       "h": 148,
+       "n": 17,
+       "note": "Including six reference tiles."
+      }
+     ]
+    }
+   ]
+  },
+  "427942": {
+   "at": "2026-11-27T05:43:04.855Z",
+   "sets": []
+  },
+  "428682": {
+   "at": "2026-11-27T05:41:53.509Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Goal Mission, Reference, Room, and Route Mission cards",
+       "w": 63.5,
+       "h": 88,
+       "n": 40,
+       "note": "Including four reference cards."
+      }
+     ]
+    }
+   ]
+  },
+  "431994": {
+   "at": "2026-11-27T05:42:37.820Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "Solo Mode cards",
+       "w": 44.5,
+       "h": 67.5,
+       "n": 16,
+       "note": ""
+      },
+      {
+       "name": "Starting Structure/Queen's Palace and Structure/Landscape cards",
+       "w": 57,
+       "h": 88,
+       "n": 72,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "435357": {
+   "at": "2026-11-27T05:42:52.244Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 57,
+       "h": 87,
+       "n": 37,
+       "note": "Including four reference cards."
+      }
+     ]
+    }
+   ]
+  },
+  "435979": {
+   "at": "2026-11-27T05:42:34.650Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 59,
+       "h": 86,
+       "n": 102,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "436511": {
+   "at": "2026-11-27T05:42:17.290Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 63,
+       "h": 88,
+       "n": 124,
+       "note": "Including the reference cards."
+      }
+     ]
+    }
+   ]
+  },
+  "443601": {
+   "at": "2026-11-27T05:42:39.513Z",
+   "sets": []
+  },
+  "443697": {
+   "at": "2026-11-27T05:42:42.702Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 63.5,
+       "h": 88,
+       "n": 56,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "446476": {
+   "at": "2026-11-27T05:42:36.270Z",
+   "sets": []
+  },
+  "450967": {
+   "at": "2026-11-27T05:43:23.733Z",
+   "sets": [
+    {
+     "name": "Alley Cat Games retail edition (2025)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 63.5,
+       "h": 88,
+       "n": 60,
+       "note": "Including five reference cards."
+      }
+     ]
+    }
+   ]
   }
  }
 }
