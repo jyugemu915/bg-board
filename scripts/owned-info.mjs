@@ -16,7 +16,7 @@ const dec1 = (s = "") => s.replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+
   .replace(/&hellip;/g, "…").replace(/&rsquo;|&lsquo;/g, "'").replace(/&rdquo;|&ldquo;/g, '"').replace(/&nbsp;/g, " ").replace(/&amp;/g, "&");
 const dec = (s = "") => dec1(dec1(s));   // 説明文は二重にエスケープされている
 const read = (p, d) => readFile(new URL(p, import.meta.url)).then((b) => JSON.parse(b)).catch(() => d);
-const idOf = (url) => String(url || "").match(/boardgame(?:expansion)?\/(\d+)/)?.[1];
+const idOf = (url) => String(url || "").match(/boardgame(?:expansion|accessory)?\/(\d+)/)?.[1];
 
 async function api(path) {
   for (let i = 0; i < 4; i++) {

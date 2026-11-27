@@ -262,7 +262,7 @@ const MECH = {
   "Slide/Push": "押し出し", "Bias": "バイアス", "King of the Hill": "キング・オブ・ザ・ヒル", "Highest-Lowest Scoring": "最低点勝負", "Kill Steal": "横取り",
 };
 // 所持ゲームの表示用ヘルパー
-const bggId = (g) => String(g.bgg || "").match(/boardgame(?:expansion)?\/(\d+)/)?.[1];
+const bggId = (g) => String(g.bgg || "").match(/boardgame(?:expansion|accessory)?\/(\d+)/)?.[1];
 const oinfo = (g) => ownedInfo[bggId(g)] || expInfo[bggId(g)] || null;
 let nameMode = store.get("bgb.ownedname.v2", "both");   // both（英語名が主・日本語名を小さく）/ ja / en
 const enName = (g) => g.nameEn || oinfo(g)?.en || "";
