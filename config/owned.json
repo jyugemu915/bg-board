@@ -771,7 +771,8 @@
   {
    "name": "ペッパー",
    "from": "写真 11/26",
-   "bgg": ""
+   "bgg": "https://boardgamegeek.com/boardgame/206",
+   "includes": "テンデイズゲームズ版"
   },
   {
    "name": "コーギーパイルアップ",
@@ -1129,6 +1130,18 @@
    "includes": "ダイス・ダイストレイ",
    "from": "オインク一覧 11/27（実物でチェック）",
    "bgg": "https://boardgamegeek.com/boardgameexpansion/349150"
+  },
+  {
+   "name": "ル・アーヴル",
+   "includes": "拡張セット込み（コンプリートパック）",
+   "from": "写真 11/26（11/27 ユーザー確認）",
+   "bgg": "https://boardgamegeek.com/boardgame/35677"
+  },
+  {
+   "name": "アークス 拡張：ブライテッドリーチ（英語版）",
+   "parent": "アークス",
+   "from": "写真 11/26（11/27 ユーザー確認）",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/363757"
   }
  ]
 }
