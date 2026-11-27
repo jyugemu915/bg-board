@@ -1117,6 +1117,18 @@
    "name": "オインクゲームズ キャッチフレーズカルタ",
    "from": "オインク一覧 11/27（実物でチェック）",
    "bgg": "https://boardgamegeek.com/boardgame/446828"
+  },
+  {
+   "name": "海底探険",
+   "from": "オインク一覧 11/27（実物でチェック）",
+   "bgg": "https://boardgamegeek.com/boardgame/169654"
+  },
+  {
+   "name": "海底探険 拡張ダイス",
+   "parent": "海底探険",
+   "includes": "ダイス・ダイストレイ",
+   "from": "オインク一覧 11/27（実物でチェック）",
+   "bgg": "https://boardgamegeek.com/boardgameexpansion/349150"
   }
  ]
 }
