@@ -431,6 +431,11 @@
    "parent": "ファクトリア"
   },
   {
+   "name": "ルート",
+   "from": "写真 11/26（本体はユーザー確認）",
+   "bgg": "https://boardgamegeek.com/boardgame/237182"
+  },
+  {
    "name": "ルート 拡張：クロックワーク",
    "from": "写真 11/26",
    "bgg": "https://boardgamegeek.com/boardgameexpansion/287220",
@@ -474,13 +479,19 @@
   {
    "name": "エクスプローラーズ・オブ・ナヴォリア",
    "from": "写真 11/26",
-   "bgg": "https://boardgamegeek.com/boardgame/371932"
+   "bgg": "https://boardgamegeek.com/boardgame/371932",
+   "flags": [
+    "unopened"
+   ]
   },
   {
    "name": "エクスプローラーズ・オブ・ナヴォリア 拡張：フォーゴトンランド",
    "from": "写真 11/26",
    "bgg": "https://boardgamegeek.com/boardgameexpansion/411026",
-   "parent": "エクスプローラーズ・オブ・ナヴォリア"
+   "parent": "エクスプローラーズ・オブ・ナヴォリア",
+   "flags": [
+    "unopened"
+   ]
   },
   {
    "name": "アクアガーデン",
@@ -514,24 +525,36 @@
   {
    "name": "スカイガーデン",
    "from": "写真 11/26",
-   "bgg": "https://boardgamegeek.com/boardgame/447998"
+   "bgg": "https://boardgamegeek.com/boardgame/447998",
+   "flags": [
+    "unopened"
+   ]
   },
   {
    "name": "ディノガーデン",
    "from": "写真 11/26",
-   "bgg": "https://boardgamegeek.com/boardgame/447999"
+   "bgg": "https://boardgamegeek.com/boardgame/447999",
+   "flags": [
+    "unopened"
+   ]
   },
   {
    "name": "ディノガーデン 拡張：ブルートハンターズ",
    "from": "写真 11/26",
    "bgg": "https://boardgamegeek.com/boardgameexpansion/461171",
-   "parent": "ディノガーデン"
+   "parent": "ディノガーデン",
+   "flags": [
+    "unopened"
+   ]
   },
   {
    "name": "ディノガーデン 拡張：ジェントルタイタンズ",
    "from": "写真 11/26",
    "bgg": "https://boardgamegeek.com/boardgameexpansion/461172",
-   "parent": "ディノガーデン"
+   "parent": "ディノガーデン",
+   "flags": [
+    "unopened"
+   ]
   },
   {
    "name": "パンダロイヤル",
@@ -541,13 +564,19 @@
   {
    "name": "オスティア",
    "from": "写真 11/26",
-   "bgg": "https://boardgamegeek.com/boardgame/347767"
+   "bgg": "https://boardgamegeek.com/boardgame/347767",
+   "flags": [
+    "unopened"
+   ]
   },
   {
    "name": "オスティア 拡張：パイレーツ",
    "from": "写真 11/26",
    "bgg": "",
-   "parent": "オスティア"
+   "parent": "オスティア",
+   "flags": [
+    "unopened"
+   ]
   },
   {
    "name": "クアックス＆カンパニー",
@@ -588,13 +617,19 @@
   {
    "name": "アークス",
    "from": "写真 11/26",
-   "bgg": "https://boardgamegeek.com/boardgame/359871"
+   "bgg": "https://boardgamegeek.com/boardgame/359871",
+   "flags": [
+    "unopened"
+   ]
   },
   {
    "name": "アークス 拡張：ブライテッドリーチ",
    "from": "写真 11/26",
    "bgg": "https://boardgamegeek.com/boardgameexpansion/363757",
-   "parent": "アークス"
+   "parent": "アークス",
+   "flags": [
+    "unopened"
+   ]
   },
   {
    "name": "ライノヒーロー",
