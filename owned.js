@@ -27,7 +27,7 @@ const FLAGS = [["unopened", "未開封"], ["untranslated", "未訳"], ["unplayed
 const flagTags = (g, cls = "tag flag") => (g.flags || []).map((f) => FLAGS.find((x) => x[0] === f)).filter(Boolean).map(([k, l]) => `<span class="${cls} f-${k}">${l}</span>`).join("");
 const LS_OVIEW = "bgb.ownedview.v1";
 const OS = { q: "", flag: "", players: 0, best: false, time: "", weight: "", cat: "", mech: "", n: 60, sheet: null, edit: false, adding: false, bulk: false, expN: 8, link: null,
-  sleeveEdit: false, sleeveSum: false, boxes: "size", ...store.get(LS_OVIEW, { view: "pack", sort: "added" }) };
+  sleeveEdit: false, sleeveSum: false, slvTab: "cat", slvOpen: null, slvBgg: false, slvUnopened: false, boxes: "size", ...store.get(LS_OVIEW, { view: "pack", sort: "added" }) };
 if (OS.view === "grid") OS.view = "pack";   // 旧設定（棚表示）→ 詰める表示を既定に
 // 箱絵の縦横比（読み込んだ画像から覚えておき、詰める表示の配置に使う）
 const aspects = store.get("bgb.aspect.v1", {});
@@ -46,12 +46,28 @@ function boxSize(g) {
 const boxLabel = (t) => BOXES.find((x) => x[0] === t)?.[1] || "";
 const cmText = (cm) => cm ? `${cm[0]}×${cm[1]}${cm[2] ? `×${cm[2]}` : ""}cm` : "";
 
-// スリーブ：g.sleeves = [{ name, w, h, n, kind, done }]（mm・枚数・使ったスリーブ・スリーブ済み）
+// スリーブ：g.sleeves = [{ name, w, h, n, sid, kind, done }]（カードの名前・サイズmm・枚数・手持ちスリーブのID・スリーブの名前・スリーブ済み）
+// 手持ちのスリーブ（よく使う製品）：localStorage bgb.sleevecat.v1 = [{ id, name, w, h, pack, stock, note }]（w×h は対応するカードのサイズ、pack は1袋の枚数、stock は在庫枚数）
 const SLEEVE_SIZES = [["63.5×88", "スタンダード"], ["59×92", "ユーロ"], ["56×87", "USA"], ["66×91", "TCG"], ["57.5×89", "チミニ"], ["44×68", "ミニユーロ"], ["41×63", "ミニUSA"], ["70×110", "タロット"], ["80×120", "大判"]];
 const sizeKey = (s) => `${+s.w}×${+s.h}`;
 const sizeName = (k) => SLEEVE_SIZES.find((x) => x[0] === k)?.[1] || "";
 function parseSize(t) { const m = String(t).replace(/[０-９．]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xfee0)).match(/(\d+(?:\.\d+)?)\s*[x×*✕]\s*(\d+(?:\.\d+)?)/i); return m ? [+m[1], +m[2]].sort((a, b) => a - b) : null; }
-const sleeveKinds = () => [...new Set(owned.flatMap((g) => (g.sleeves || []).map((s) => s.kind)).filter(Boolean))];
+const LS_SLVCAT = "bgb.sleevecat.v1";
+let sleeveCat = store.get(LS_SLVCAT, []);
+const saveCat = () => store.set(LS_SLVCAT, sleeveCat);
+const catById = (id) => sleeveCat.find((x) => x.id === id);
+const slvName = (r) => catById(r.sid)?.name || r.kind || "";
+// カードがスリーブに入るか：カードがスリーブの対応サイズより0.6mm以上大きくなければ入る。余りが4mm以内は「ぴったり」、10mm以内は「ゆるめ」
+function fitOf(cat, c) {
+  if (!cat?.w || !c?.w || c.w > cat.w + 0.6 || c.h > cat.h + 0.6) return null;
+  const slack = Math.max(0, cat.w - c.w) + Math.max(0, cat.h - c.h);
+  return slack <= 4 ? "ぴったり" : slack <= 10 ? "ゆるめ" : null;
+}
+function suggest(c) {
+  const ok = sleeveCat.map((x) => ({ x, f: fitOf(x, c), d: (x.w - c.w) + (x.h - c.h) })).filter((o) => o.f).sort((a, b) => a.d - b.d);
+  return ok[0]?.x || null;
+}
+const packsText = (n, cat) => cat?.pack && n ? `${Math.ceil(n / cat.pack)}袋` : "";
 
 // 本体と拡張のまとまり：parent の名前（日本語名・英語名・登録時の名前）か、BGGの「この拡張の本体」で探す。拡張の拡張も本体の下にまとめる
 function ownedGroups() {
@@ -81,7 +97,7 @@ function ownedGroups() {
 // 検索用の文字列（名前・英語名・デザイナー・アーティスト・出版社・メカニクス・カテゴリー）
 function hay(g) {
   const i = oinfo(g) || {};
-  return norm([g.name, enName(g), i.ja, g.includes, ...(g.sleeves || []).map((s) => s.kind), ...(i.designers || []), ...(i.artists || []), ...(i.publishers || []), ...(i.families || []),
+  return norm([g.name, enName(g), i.ja, g.includes, ...(g.sleeves || []).map(slvName), ...(i.designers || []), ...(i.artists || []), ...(i.publishers || []), ...(i.families || []),
     ...(i.mechanics || []).flatMap((m) => [m, mechJa(m)]), ...(i.categories || []).flatMap((c) => [c, catJa(c)])].filter(Boolean).join("|"));
 }
 // "3〜4" "2, 4" "5+" → 数の集合
@@ -191,7 +207,7 @@ function buildOwnedPage(root) {
       <span class="flbl">箱</span><div class="seg sm" id="oBox"><button data-v="size" title="大箱・中箱・小箱で大きさを変える">大中小</button><button data-v="same">そろえる</button></div></div>
     <div id="oSleeves"></div>
     <div id="oList"></div>
-    <div class="foot"><button type="button" data-a="slv">スリーブ集計</button><button type="button" data-a="req" title="BGGの詳細が取れていないゲームを、チャットで登録を頼むための文章にしてコピー">未登録をコピー</button><button type="button" data-a="exp">書き出し</button><label>読み込み<input type="file" accept=".json" hidden></label></div>
+    <div class="foot"><button type="button" data-a="slv">スリーブ</button><button type="button" data-a="req" title="BGGの詳細が取れていないゲームを、チャットで登録を頼むための文章にしてコピー">未登録をコピー</button><button type="button" data-a="exp">書き出し</button><label>読み込み<input type="file" accept=".json" hidden></label></div>
     <div id="oSheet" class="sheetwrap" hidden></div>`;
   const $ = (id) => root.querySelector("#" + id);
   const segs = [["oPl", "players", (v) => +v], ["oTime", "time"], ["oWt", "weight"], ["oFlag", "flag"], ["oView", "view"], ["oNm", null], ["oBox", "boxes"]];
@@ -221,15 +237,20 @@ function buildOwnedPage(root) {
   };
   root.querySelector("[data-a=slv]").onclick = () => { OS.sleeveSum = !OS.sleeveSum; drawSleeveSum(); if (OS.sleeveSum) document.getElementById("oSleeves").scrollIntoView({ behavior: "smooth" }); };
   root.querySelector("[data-a=exp]").onclick = () => {
-    const blob = new Blob([JSON.stringify(owned, null, 1)], { type: "application/json" });
+    const blob = new Blob([JSON.stringify({ owned, sleeves: sleeveCat }, null, 1)], { type: "application/json" });
     Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: "owned-games.json" }).click();
   };
   root.querySelector(".foot input").onchange = async (e) => {
     try {
-      const arr = JSON.parse(await e.target.files[0].text());
+      const d = JSON.parse(await e.target.files[0].text()), arr = Array.isArray(d) ? d : d?.owned;
       if (!Array.isArray(arr)) throw 0;
-      const have = new Set(owned.map((g) => g.name));
-      owned = [...owned, ...arr.filter((g) => g?.name && !have.has(g.name))];
+      // 手持ちのスリーブ：同じIDがなければ追加
+      for (const x of d.sleeves || []) if (x?.id && !catById(x.id)) sleeveCat.push(x);
+      saveCat();
+      // 同じ名前のゲームは、こちらにないスリーブ・箱の大きさ・状態だけ写す
+      const byName = new Map(owned.map((g) => [g.name, g]));
+      for (const x of arr) { const g = byName.get(x?.name); if (g) for (const k of ["sleeves", "box", "flags"]) if (x[k] && !g[k]) g[k] = x[k]; }
+      owned = [...owned, ...arr.filter((g) => g?.name && !byName.has(g.name))];
       saveOwned();
     } catch { alert("読み込めないファイルです"); }
   };
@@ -592,13 +613,19 @@ function editPanel(g) {
 }
 
 // ===== スリーブ =====
-// 詳細シートのスリーブ欄：登録済みの一覧と編集（BGGのデータがあれば取り込み）
 // BGGの版ごとのカード（日本語版を先頭に）
 function bggSleeveSets(g) {
   const sets = sleeveInfo[bggId(g)]?.sets || [];
   return [...sets].sort((a, b) => /japan|日本/i.test(b.name) - /japan|日本/i.test(a.name) || a.addon - b.addon);
 }
-const setCards = (set) => (set?.cards || []).map((c) => ({ name: c.name, w: c.w, h: c.h, n: c.n }));
+// 版のカードを読み込むとき、手持ちのスリーブから合うものを選んでおく
+const setCards = (set) => (set?.cards || []).map((c) => ({ name: c.name, w: c.w, h: c.h, n: c.n, sid: suggest(c)?.id }));
+const slvLine = (r) => {
+  const cat = catById(r.sid), pk = packsText(r.n, cat);
+  return `${r.done ? "✓ " : ""}${esc(slvName(r) || (r.done ? "スリーブ済み" : "スリーブ未定"))}${pk ? `・${pk}` : ""}${cat && fitOf(cat, r) === "ゆるめ" ? "（ゆるめ）" : ""}${cat && !fitOf(cat, r) ? "（サイズ違い？）" : ""}`;
+};
+
+// 詳細シートのスリーブ欄：登録済みの一覧と編集（BGGのデータがあれば版を選んで読み込み）
 function sleeveBlock(g) {
   const p = document.createElement("div");
   p.className = "sleeves";
@@ -607,11 +634,11 @@ function sleeveBlock(g) {
   const total = list.reduce((a, s) => a + (+s.n || 0), 0), done = list.filter((s) => s.done).reduce((a, s) => a + (+s.n || 0), 0);
   p.innerHTML = `<div class="lbl">スリーブ${list.length ? `（${total}枚${done ? done === total ? "・すべてスリーブ済み" : `・${done}枚スリーブ済み` : ""}）` : ""}<button class="mini" data-a="sedit">${OS.sleeveEdit ? "やめる" : list.length ? "✎ 編集" : "＋ 登録"}</button></div>`;
   if (!OS.sleeveEdit) {
-    for (const s of list) p.insertAdjacentHTML("beforeend", `<div class="srow${s.done ? " done" : ""}"><span class="sz">${esc(sizeKey(s))}<small>mm</small></span>
+    for (const s of list) p.insertAdjacentHTML("beforeend", `<div class="srow${s.done ? " done" : ""}"><span class="sz">${s.w ? esc(sizeKey(s)) + "<small>mm</small>" : "サイズ未入力"}</span>
       <span class="sn">${esc(s.name || "カード")}${sizeName(sizeKey(s)) ? `<small>${esc(sizeName(sizeKey(s)))}</small>` : ""}</span><span class="sc">${s.n ? `${s.n}枚` : ""}</span>
-      <span class="sk">${s.done ? "✓ " : ""}${esc(s.kind || (s.done ? "スリーブ済み" : "未"))}</span></div>`);
-    if (!list.length && bgg.length) p.insertAdjacentHTML("beforeend", `<div class="s">BGGのデータ${sets.length > 1 ? `（${sets.length}版。${esc(sets[0].name)} ほか）` : sets[0].name ? `（${esc(sets[0].name)}）` : ""}：${esc(bgg.map((s) => `${s.name || "カード"} ${sizeKey(s)}mm ${s.n || "?"}枚`).join("、"))}<br>「＋ 登録」で取り込めます。</div>`);
-    else if (!list.length) p.insertAdjacentHTML("beforeend", `<div class="s">カードのサイズと枚数、使ったスリーブを記録できます。</div>`);
+      <span class="sk">${slvLine(s)}</span></div>`);
+    if (!list.length && bgg.length) p.insertAdjacentHTML("beforeend", `<div class="s">BGGのデータ${sets.length > 1 ? `（${sets.length}版。${esc(sets[0].name)} ほか）` : sets[0].name ? `（${esc(sets[0].name)}）` : ""}：${bgg.map((s) => `${esc(s.name || "カード")} ${sizeKey(s)}mm ${s.n || "?"}枚${s.sid ? ` → ${esc(catById(s.sid).name)} ${packsText(s.n, catById(s.sid))}` : ""}`).join("、")}<br>「＋ 登録」で取り込めます。</div>`);
+    else if (!list.length) p.insertAdjacentHTML("beforeend", `<div class="s">カードのサイズと枚数、使うスリーブを記録できます。</div>`);
     p.querySelector("[data-a=sedit]").onclick = () => { OS.sleeveEdit = true; drawSheet(); };
     return p;
   }
@@ -619,28 +646,45 @@ function sleeveBlock(g) {
   let rows = (list.length ? list : bgg.length ? bgg : [{}]).map((s) => ({ ...s }));
   const f = document.createElement("form");
   f.className = "add sform";
+  const opts = (r) => {
+    const fit = sleeveCat.map((x) => [x, fitOf(x, r)]).sort((a, b) => !!b[1] - !!a[1]);
+    const other = !r.sid && r.kind;
+    return `<option value="">スリーブ未定</option>${fit.map(([x, ft]) => `<option value="${esc(x.id)}"${r.sid === x.id ? " selected" : ""}>${ft ? (ft === "ぴったり" ? "◎ " : "○ ") : ""}${esc(x.name)}（${x.w}×${x.h}${x.stock ? `・在庫${x.stock}` : ""}）</option>`).join("")}
+      <option value="_other"${other ? " selected" : ""}>その他（名前を入力）</option>`;
+  };
   const draw = () => {
     f.innerHTML = `${sets.length ? `<div class="r bggset"><select name="set">${sets.map((x, k) => `<option value="${k}">${esc(x.name || "版の名前なし")}（${x.cards.reduce((a, c) => a + c.n, 0)}枚）</option>`).join("")}</select><button type="button" class="ghostbtn" data-a="bgg">${list.length ? "この版で置き換え" : "この版を読み込む"}</button></div>` : ""}
       ${rows.map((s, k) => `<div class="sedit" data-k="${k}">
         <div class="r"><input name="name" value="${esc(s.name || "")}" placeholder="カードの名前（例：メインデッキ）"><button type="button" class="ghostbtn" data-del="${k}" title="この行を消す">✕</button></div>
         <div class="r"><input name="size" value="${s.w ? esc(sizeKey(s)) : ""}" list="slvSizes" placeholder="サイズ mm（例：63.5×88）" inputmode="decimal"><input name="n" value="${esc(s.n || "")}" placeholder="枚数" inputmode="numeric" class="num"></div>
-        <div class="r"><input name="kind" value="${esc(s.kind || "")}" list="slvKinds" placeholder="使ったスリーブ（例：Mayday スタンダード）"><label class="ck"><input type="checkbox" name="done"${s.done ? " checked" : ""}>済み</label></div></div>`).join("")}
+        <div class="r"><select name="sid">${opts(s)}</select><label class="ck"><input type="checkbox" name="done"${s.done ? " checked" : ""}>済み</label></div>
+        <input name="kind" value="${esc(s.sid ? "" : s.kind || "")}" placeholder="スリーブの名前（例：Mayday スタンダード）"${!s.sid && s.kind ? "" : " hidden"}></div>`).join("")}
       <datalist id="slvSizes">${SLEEVE_SIZES.map(([k, l]) => `<option value="${k}">${l}</option>`).join("")}</datalist>
-      <datalist id="slvKinds">${sleeveKinds().map((k) => `<option value="${esc(k)}">`).join("")}</datalist>
+      ${sleeveCat.length ? "" : `<div class="s">◎○は手持ちのスリーブで合うもの。ページ下の「スリーブ」→「手持ち」で、よく使うスリーブを登録すると選べます。</div>`}
       <div class="r"><button type="button" class="ghostbtn" data-a="add">＋ 行を追加</button><span style="flex:1"></span><button>保存</button></div>`;
     f.querySelector("[data-a=add]").onclick = () => { rows = read(); rows.push({}); draw(); };
     f.querySelector("[data-a=bgg]")?.addEventListener("click", () => { const k = +f.querySelector("[name=set]").value; rows = setCards(sets[k]); if (!rows.length) rows.push({}); draw(); f.querySelector("[name=set]").value = k; });
     f.querySelectorAll("[data-del]").forEach((b) => b.onclick = () => { rows = read(); rows.splice(+b.dataset.del, 1); if (!rows.length) rows.push({}); draw(); });
+    f.querySelectorAll("[name=sid]").forEach((sel) => sel.onchange = () => { const k = sel.closest(".sedit").querySelector("[name=kind]"); k.hidden = sel.value !== "_other"; if (!k.hidden) k.focus(); });
+    // サイズを入れたら、未定の行に合うスリーブを選ぶ
+    f.querySelectorAll("[name=size]").forEach((inp) => inp.onchange = () => {
+      const sel = inp.closest(".sedit").querySelector("[name=sid]"), sz = parseSize(inp.value);
+      const x = sz && !sel.value && suggest({ w: sz[0], h: sz[1] });
+      if (x) sel.value = x.id;
+    });
   };
   const read = () => [...f.querySelectorAll(".sedit")].map((d) => {
     const v = (n) => d.querySelector(`[name=${n}]`);
-    const sz = parseSize(v("size").value), o = { name: v("name").value.trim(), n: parseInt(v("n").value.replace(/[^\d]/g, "")) || 0, kind: v("kind").value.trim(), done: v("done").checked };
+    const sz = parseSize(v("size").value), sid = v("sid").value;
+    const o = { name: v("name").value.trim(), n: parseInt(v("n").value.replace(/[^\d]/g, "")) || 0, done: v("done").checked };
     if (sz) [o.w, o.h] = sz;
+    if (sid === "_other") o.kind = v("kind").value.trim();
+    else if (sid) { o.sid = sid; o.kind = catById(sid)?.name || ""; }   // 名前も残す（手持ちから消しても分かるように）
     return o;
   });
   f.onsubmit = (e) => {
     e.preventDefault();
-    const out = read().filter((s) => s.w || s.name || s.n || s.kind).map((s) => Object.fromEntries(Object.entries(s).filter(([, x]) => x !== "" && x !== 0 && x !== false)));
+    const out = read().filter((s) => s.w || s.name || s.n || s.kind).map((s) => Object.fromEntries(Object.entries(s).filter(([, x]) => x !== "" && x !== 0 && x !== false && x != null)));
     if (out.some((s) => !s.w) && !confirm("サイズが入っていない行があります。このまま保存しますか？")) return;
     if (out.length) g.sleeves = out; else delete g.sleeves;
     OS.sleeveEdit = false; saveOwned();
@@ -651,27 +695,111 @@ function sleeveBlock(g) {
   return p;
 }
 
-// スリーブ集計：サイズごとの必要枚数・スリーブ済み・使った種類。まだのゲームはタップで詳細へ
+// ページ下の「スリーブ」：手持ち（よく使うスリーブの登録・在庫・使っているゲーム）と集計（カードサイズ別）
 function drawSleeveSum() {
   const box = document.getElementById("oSleeves");
   if (!box) return;
   document.querySelector("#ownedPage [data-a=slv]")?.classList.toggle("on", OS.sleeveSum);
   if (!OS.sleeveSum) { box.innerHTML = ""; return; }
+  box.innerHTML = `<div class="card ssum"><div class="lbl">スリーブ<div class="seg sm" id="slvTab"><button data-v="cat">手持ち（${sleeveCat.length}）</button><button data-v="sum">集計</button></div><button class="mini" data-a="x">閉じる</button></div><div class="sbody2"></div></div>`;
+  box.querySelectorAll("#slvTab button").forEach((b) => { b.classList.toggle("on", b.dataset.v === OS.slvTab); b.onclick = () => { OS.slvTab = b.dataset.v; drawSleeveSum(); }; });
+  box.querySelector("[data-a=x]").onclick = () => { OS.sleeveSum = false; drawSleeveSum(); };
+  const body = box.querySelector(".sbody2");
+  if (OS.slvTab === "sum") sleeveTotals(body); else sleeveCatalog(body);
+  body.querySelectorAll("[data-g]").forEach((b) => b.onclick = () => openSheet(owned[+b.dataset.g]));
+}
+const gameChip = (g, extra = "") => `<button class="pchip" data-g="${owned.indexOf(g)}">${esc(ownedTitle(g).main)}${extra}</button>`;
+
+// 手持ち：一覧（在庫・使用済み・これから必要）。タップで使っているゲームと編集
+function sleeveCatalog(body) {
+  const use = (x) => {
+    const rows = owned.flatMap((g) => (g.sleeves || []).filter((r) => r.sid === x.id).map((r) => ({ g, r })));
+    return { rows, used: rows.filter((o) => o.r.done).reduce((a, o) => a + (+o.r.n || 0), 0), need: rows.filter((o) => !o.r.done).reduce((a, o) => a + (+o.r.n || 0), 0) };
+  };
+  const list = [...sleeveCat].sort((a, b) => a.w * a.h - b.w * b.h);
+  body.innerHTML = list.length ? "" : `<div class="s">よく使うスリーブを登録しておくと、ゲームのスリーブ欄でサイズに合うものが自動で選ばれ、何袋いるかも表示されます。スリーブ側からは、使っているゲームを確認できます。</div>`;
+  for (const x of list) {
+    const u = use(x), open = OS.slvOpen === x.id, short = x.stock != null && x.stock !== "" && u.need > +x.stock;
+    const d = document.createElement("div");
+    d.className = "cat" + (open ? " open" : "");
+    d.innerHTML = `<button class="cath"><span class="cn">${esc(x.name)}</span><span class="cs">${x.w}×${x.h}mm${sizeName(sizeKey(x)) ? ` ${esc(sizeName(sizeKey(x)))}` : ""}${x.pack ? `・1袋${x.pack}枚` : ""}</span>
+        <span class="cc">使用 ${u.used}枚${u.need ? `・<b class="${short ? "left" : ""}">これから ${u.need}枚</b>` : ""}${x.stock !== undefined && x.stock !== "" ? `・在庫 ${x.stock}枚` : ""}</span></button>`;
+    d.querySelector(".cath").onclick = () => { OS.slvOpen = open ? null : x.id; drawSleeveSum(); };
+    if (open) {
+      const usedBy = u.rows.filter((o) => o.r.done), needBy = u.rows.filter((o) => !o.r.done);
+      d.insertAdjacentHTML("beforeend", `<div class="catb">
+        ${x.note ? `<div class="s">${esc(x.note)}</div>` : ""}
+        <div class="lbl3">使っているゲーム（${usedBy.length}）</div><div class="todos">${usedBy.map((o) => gameChip(o.g, ` ${o.r.n || "?"}枚`)).join("") || `<span class="s">まだありません</span>`}</div>
+        ${needBy.length ? `<div class="lbl3">これから使う予定（${needBy.length}）</div><div class="todos">${needBy.map((o) => gameChip(o.g, ` ${o.r.n || "?"}枚`)).join("")}</div>` : ""}</div>`);
+      d.querySelector(".catb").appendChild(catForm(x));
+    }
+    body.appendChild(d);
+  }
+  const add = document.createElement("details");
+  add.className = "catadd";
+  add.open = OS.slvOpen === "_new";
+  add.innerHTML = `<summary>＋ スリーブを登録</summary>`;
+  add.ontoggle = () => { OS.slvOpen = add.open ? "_new" : null; };
+  add.appendChild(catForm(null));
+  body.appendChild(add);
+}
+function catForm(x) {
+  const f = document.createElement("form");
+  f.className = "add sform catf";
+  f.innerHTML = `<input name="name" value="${esc(x?.name || "")}" placeholder="名前（例：Mayday スタンダード プレミアム）" required>
+    <div class="r"><input name="size" value="${x ? esc(sizeKey(x)) : ""}" list="slvSizes2" placeholder="対応カードサイズ mm（例：63.5×88）" required inputmode="decimal"><input name="pack" value="${esc(x?.pack || "")}" placeholder="1袋の枚数" inputmode="numeric" class="num"></div>
+    <div class="r"><input name="stock" value="${esc(x?.stock ?? "")}" placeholder="在庫の枚数（任意）" inputmode="numeric"><input name="note" value="${esc(x?.note || "")}" placeholder="メモ（厚さ・買った店など）"></div>
+    <datalist id="slvSizes2">${SLEEVE_SIZES.map(([k, l]) => `<option value="${k}">${l}</option>`).join("")}</datalist>
+    <div class="r">${x ? `<button type="button" class="ghostbtn" data-a="del">削除</button>` : ""}<span style="flex:1"></span><button>${x ? "保存" : "登録"}</button></div>`;
+  f.querySelector("[data-a=del]")?.addEventListener("click", () => {
+    const n = owned.filter((g) => (g.sleeves || []).some((r) => r.sid === x.id)).length;
+    if (!confirm(`「${x.name}」を手持ちから削除しますか？${n ? `\n使っている${n}ゲームには名前だけ残ります。` : ""}`)) return;
+    sleeveCat = sleeveCat.filter((y) => y !== x); saveCat(); OS.slvOpen = null; drawSleeveSum();
+  });
+  f.onsubmit = (e) => {
+    e.preventDefault();
+    const v = Object.fromEntries(new FormData(f)), sz = parseSize(v.size);
+    if (!sz) { alert("サイズは「63.5×88」の形で入れてください"); return; }
+    const num = (t) => { const n = parseInt(String(t).replace(/[^\d]/g, "")); return Number.isFinite(n) ? n : undefined; };
+    const o = x || { id: "s" + Date.now().toString(36) };
+    Object.assign(o, { name: v.name.trim(), w: sz[0], h: sz[1], pack: num(v.pack), stock: num(v.stock), note: v.note.trim() || undefined });
+    for (const k of Object.keys(o)) if (o[k] === undefined) delete o[k];
+    if (!x) sleeveCat.push(o);
+    // 名前を変えたら、ゲーム側に残している名前も直す
+    for (const g of owned) for (const r of g.sleeves || []) if (r.sid === o.id) r.kind = o.name;
+    saveCat(); store.set(LS_OWNED, owned); OS.slvOpen = x ? x.id : null; drawSleeveSum();
+  };
+  return f;
+}
+
+// 集計：カードサイズごとに必要・済み・あと。未開封だけ・BGGのデータ（未登録のゲーム）も含める切り替え
+function sleeveTotals(body) {
   const by = new Map();
-  for (const g of owned) for (const s of g.sleeves || []) {
-    const k = s.w ? sizeKey(s) : "サイズ未入力";
-    if (!by.has(k)) by.set(k, { k, need: 0, done: 0, kinds: new Set(), todo: [], area: (s.w || 0) * (s.h || 0) });
-    const x = by.get(k);
-    x.need += +s.n || 0;
-    if (s.done) { x.done += +s.n || 0; if (s.kind) x.kinds.add(s.kind); } else x.todo.push([g, s]);
+  let games = 0;
+  for (const g of owned) {
+    if (OS.slvUnopened && !(g.flags || []).includes("unopened")) continue;
+    let rows = g.sleeves || [], fromBgg = false;
+    if (!rows.length && OS.slvBgg) { rows = setCards(bggSleeveSets(g)[0]); fromBgg = true; }
+    if (rows.length) games++;
+    for (const s of rows) {
+      const k = s.w ? sizeKey(s) : "サイズ未入力";
+      if (!by.has(k)) by.set(k, { k, need: 0, done: 0, cats: new Map(), todo: [], area: (s.w || 0) * (s.h || 0), w: s.w, h: s.h });
+      const x = by.get(k);
+      x.need += +s.n || 0;
+      if (s.done) x.done += +s.n || 0; else x.todo.push([g, s, fromBgg]);
+      if (s.sid) x.cats.set(s.sid, (x.cats.get(s.sid) || 0) + (s.done ? 0 : +s.n || 0));
+    }
   }
   const rows = [...by.values()].sort((a, b) => a.area - b.area);
-  const games = owned.filter((g) => g.sleeves?.length).length;
-  box.innerHTML = `<div class="card ssum"><div class="lbl">スリーブ集計（${games}ゲーム）<button class="mini" data-a="x">閉じる</button></div>
-    ${rows.length ? `<table><tr><th>サイズ(mm)</th><th>必要</th><th>済み</th><th>あと</th></tr>${rows.map((r) => `<tr><td>${esc(r.k)}${sizeName(r.k) ? `<small>${esc(sizeName(r.k))}</small>` : ""}${r.kinds.size ? `<div class="kinds">${esc([...r.kinds].join("・"))}</div>` : ""}</td>
+  body.innerHTML = `<div class="sopts"><label class="ck"><input type="checkbox" data-o="slvUnopened"${OS.slvUnopened ? " checked" : ""}>未開封のゲームだけ</label>
+      <label class="ck"><input type="checkbox" data-o="slvBgg"${OS.slvBgg ? " checked" : ""}>未登録のゲームはBGGのデータで数える</label></div>
+    ${rows.length ? `<table><tr><th>サイズ(mm)<small>${games}ゲーム</small></th><th>必要</th><th>済み</th><th>あと</th></tr>${rows.map((r) => {
+      // 手持ちで合うスリーブと在庫
+      const fit = sleeveCat.filter((x) => fitOf(x, r)).map((x) => `${esc(x.name)}${x.stock !== undefined ? `（在庫${x.stock}）` : ""}`);
+      return `<tr><td>${esc(r.k)}${sizeName(r.k) ? `<small>${esc(sizeName(r.k))}</small>` : ""}${fit.length ? `<div class="kinds">手持ち：${fit.join("・")}</div>` : r.w ? `<div class="kinds none">手持ちに合うスリーブなし</div>` : ""}</td>
       <td>${r.need}</td><td>${r.done}</td><td class="${r.need - r.done ? "left" : ""}">${r.need - r.done}</td></tr>
-      ${r.todo.length ? `<tr class="todo"><td colspan="4"><div class="todos">${r.todo.map(([g, s]) => `<button class="pchip" data-g="${owned.indexOf(g)}">${esc(ownedTitle(g).main)}${s.n ? ` ${s.n}枚` : ""}</button>`).join("")}</div></td></tr>` : ""}`).join("")}</table>`
-      : `<div class="s">まだ登録がありません。各ゲームの詳細の「スリーブ」から、カードのサイズと枚数を登録できます。</div>`}</div>`;
-  box.querySelector("[data-a=x]").onclick = () => { OS.sleeveSum = false; drawSleeveSum(); };
-  box.querySelectorAll("[data-g]").forEach((b) => b.onclick = () => openSheet(owned[+b.dataset.g]));
+      ${r.todo.length ? `<tr class="todo"><td colspan="4"><div class="todos">${r.todo.map(([g, s, b]) => gameChip(g, `${s.n ? ` ${s.n}枚` : ""}${b ? "<small>BGG</small>" : ""}`)).join("")}</div></td></tr>` : ""}`;
+    }).join("")}</table>`
+    : `<div class="s">${OS.slvUnopened || !OS.slvBgg ? "条件に合う登録がありません。" : "まだ登録がありません。"}各ゲームの詳細の「スリーブ」から登録できます。</div>`}`;
+  body.querySelectorAll("[data-o]").forEach((c) => c.onchange = () => { OS[c.dataset.o] = c.checked; drawSleeveSum(); });
 }

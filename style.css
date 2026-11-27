@@ -275,3 +275,24 @@ form.sform .ck{white-space:nowrap;font-size:13px}
 form.sform .ck input{width:auto}
 .opack .tile.pS .tov .ic{display:none}
 form.sform .bggset select{flex:1;min-width:0;font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:#fff}
+/* スリーブ：手持ち・集計 */
+.ssum .lbl .seg{margin-left:10px;font-weight:400}
+.ssum .s{font-size:12px;color:var(--muted);line-height:1.6}
+.ssum .cat{border-top:1px solid var(--line)}
+.ssum .cath{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px;width:100%;border:0;background:none;text-align:left;padding:8px 0;font:inherit;color:var(--ink)}
+.ssum .cn{font-weight:600;font-size:14px}
+.ssum .cs{font-size:12px;color:var(--muted)}
+.ssum .cc{flex-basis:100%;font-size:12px;color:#5d594f}
+.ssum .cc b{font-weight:600}
+.ssum .cc b.left{color:var(--accent)}
+.ssum .kinds.none{color:var(--muted)}
+.ssum .catb{padding:0 0 10px}
+.ssum .lbl3{font-size:11.5px;color:var(--muted);margin:6px 0 3px}
+.ssum .catadd{border-top:1px solid var(--line);padding:8px 0 2px}
+.ssum .catadd summary{font-size:13px;color:#555;cursor:pointer}
+.ssum form.catf{padding:6px 0 0}
+.ssum form.catf input{font-size:15px}
+.ssum .sopts{display:flex;flex-wrap:wrap;gap:4px 14px;margin:2px 0 8px}
+.ssum th small{display:block;font-size:10px}
+.pchip small{font-size:9.5px;color:var(--muted);margin-left:3px}
+form.sform select[name=sid]{flex:1;min-width:0;font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:#fff}
