@@ -116,6 +116,25 @@ for (let i = 0; i < expIds.length && nb < EXP_BATCHES; i += 20, nb++) {
   await sleep(2500);
 }
 console.log(`exps: ${Object.keys(db.exps).length}（残り ${Math.max(0, expIds.length - nb * 20)}）`);
+// スリーブ（BGGのゲームページの Sleeves 欄と同じ非公式API。版ごとにカードの種類・サイズmm・枚数）→ db.sleeves[id] = { at, sets:[{ name, cards:[{name,w,h,n}] }] }
+db.sleeves ||= {};
+const SLEEVE_MAX = 90, sleeveIds = ids.filter((id) => !db.sleeves[id] || Date.now() - Date.parse(db.sleeves[id].at) > REFRESH_DAYS * 864e5);
+let ns = 0;
+for (const id of sleeveIds.slice(0, SLEEVE_MAX)) {
+  try {
+    const res = await fetch(`https://api.geekdo.com/api/cardsetsbygame?nosession=1&objectid=${id}`, { headers: { "User-Agent": "bg-board (personal collection viewer)" } });
+    if (!res.ok) { console.log("ERR sleeves", id, res.status); if (res.status === 403 || res.status === 429) break; continue; }
+    const j = await res.json();
+    db.sleeves[id] = { at: new Date().toISOString(), sets: (j.cardSets || []).filter((c) => c.itemstate !== "rejected").map((c) => ({
+      name: dec(c.name || ""), addon: !!c.addon, notes: dec(c.notes || "").slice(0, 200),
+      cards: (c.cardTypes || []).map((t) => ({ name: dec(t.name || ""), w: +t.width || 0, h: +t.height || 0, n: +t.quantity || 0, note: dec(t.quantity_note || "") }))
+        .filter((t) => t.w && t.h).map((t) => (t.w > t.h ? { ...t, w: t.h, h: t.w } : t)),
+    })).filter((c) => c.cards.length) };
+    ns++;
+  } catch (e) { console.log("ERR sleeves", id, e.message); }
+  await sleep(1500);
+}
+console.log(`sleeves: ${ns}件取得（スリーブ情報あり ${Object.values(db.sleeves).filter((x) => x.sets.length).length} / ${Object.keys(db.sleeves).length}、残り ${Math.max(0, sleeveIds.length - SLEEVE_MAX)}）`);
 db.updatedAt = new Date().toISOString();
 await writeFile(new URL("../data/owned-info.json", import.meta.url), JSON.stringify(db, null, 1));
 console.log(`fetched ${n}, total ${Object.keys(db.games).length}`);

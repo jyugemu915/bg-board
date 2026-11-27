@@ -71,8 +71,8 @@ fetch("data/crowd.json?" + Date.now()).then((r) => r.json()).then((d) => { crowd
 // key＝登録時の名前（画面で名前を変えても同じゲームとして扱う）
 let ownedGone = new Set(store.get("bgb.ownedgone.v1", []));
 const okey = (g) => g.key || norm(g.name);
-let ownedInfo = {}, expInfo = {};
-fetch("data/owned-info.json?" + Date.now()).then((r) => r.json()).then((d) => { ownedInfo = d.games || {}; expInfo = d.exps || {}; render(); }).catch(() => {});
+let ownedInfo = {}, expInfo = {}, sleeveInfo = {};
+fetch("data/owned-info.json?" + Date.now()).then((r) => r.json()).then((d) => { ownedInfo = d.games || {}; expInfo = d.exps || {}; sleeveInfo = d.sleeves || {}; render(); }).catch(() => {});
 fetch("config/owned.json?" + Date.now()).then((r) => r.json()).then((d) => {
   const have = new Map();
   for (const g of owned) { have.set(okey(g), g); have.set(norm(g.name), g); }

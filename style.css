@@ -274,3 +274,4 @@ form.sform .ghostbtn{padding:6px 10px}
 form.sform .ck{white-space:nowrap;font-size:13px}
 form.sform .ck input{width:auto}
 .opack .tile.pS .tov .ic{display:none}
+form.sform .bggset select{flex:1;min-width:0;font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:#fff}

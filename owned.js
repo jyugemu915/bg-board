@@ -439,7 +439,7 @@ function drawSheet() {
   w.querySelector("[data-a=base]")?.addEventListener("click", () => { OS.sheet = base; OS.edit = false; OS.sleeveEdit = false; drawSheet(); });
   if (OS.edit) body.appendChild(editPanel(g));
   body.appendChild(infoBlock(g, i));
-  body.appendChild(sleeveBlock(g, i));
+  body.appendChild(sleeveBlock(g));
   // 所持している拡張
   const mine = !base ? kids.get(g) || [] : [];
   if (mine.length) {
@@ -593,17 +593,24 @@ function editPanel(g) {
 
 // ===== スリーブ =====
 // 詳細シートのスリーブ欄：登録済みの一覧と編集（BGGのデータがあれば取り込み）
-function sleeveBlock(g, i) {
+// BGGの版ごとのカード（日本語版を先頭に）
+function bggSleeveSets(g) {
+  const sets = sleeveInfo[bggId(g)]?.sets || [];
+  return [...sets].sort((a, b) => /japan|日本/i.test(b.name) - /japan|日本/i.test(a.name) || a.addon - b.addon);
+}
+const setCards = (set) => (set?.cards || []).map((c) => ({ name: c.name, w: c.w, h: c.h, n: c.n }));
+function sleeveBlock(g) {
   const p = document.createElement("div");
   p.className = "sleeves";
-  const list = g.sleeves || [], bgg = i?.sleeves || [];
+  const sets = bggSleeveSets(g);
+  const list = g.sleeves || [], bgg = setCards(sets[0]);
   const total = list.reduce((a, s) => a + (+s.n || 0), 0), done = list.filter((s) => s.done).reduce((a, s) => a + (+s.n || 0), 0);
   p.innerHTML = `<div class="lbl">スリーブ${list.length ? `（${total}枚${done ? done === total ? "・すべてスリーブ済み" : `・${done}枚スリーブ済み` : ""}）` : ""}<button class="mini" data-a="sedit">${OS.sleeveEdit ? "やめる" : list.length ? "✎ 編集" : "＋ 登録"}</button></div>`;
   if (!OS.sleeveEdit) {
     for (const s of list) p.insertAdjacentHTML("beforeend", `<div class="srow${s.done ? " done" : ""}"><span class="sz">${esc(sizeKey(s))}<small>mm</small></span>
       <span class="sn">${esc(s.name || "カード")}${sizeName(sizeKey(s)) ? `<small>${esc(sizeName(sizeKey(s)))}</small>` : ""}</span><span class="sc">${s.n ? `${s.n}枚` : ""}</span>
       <span class="sk">${s.done ? "✓ " : ""}${esc(s.kind || (s.done ? "スリーブ済み" : "未"))}</span></div>`);
-    if (!list.length && bgg.length) p.insertAdjacentHTML("beforeend", `<div class="s">BGGのデータ：${esc(bgg.map((s) => `${s.name || "カード"} ${sizeKey(s)}mm ${s.n || "?"}枚`).join("、"))}</div>`);
+    if (!list.length && bgg.length) p.insertAdjacentHTML("beforeend", `<div class="s">BGGのデータ${sets.length > 1 ? `（${sets.length}版。${esc(sets[0].name)} ほか）` : sets[0].name ? `（${esc(sets[0].name)}）` : ""}：${esc(bgg.map((s) => `${s.name || "カード"} ${sizeKey(s)}mm ${s.n || "?"}枚`).join("、"))}<br>「＋ 登録」で取り込めます。</div>`);
     else if (!list.length) p.insertAdjacentHTML("beforeend", `<div class="s">カードのサイズと枚数、使ったスリーブを記録できます。</div>`);
     p.querySelector("[data-a=sedit]").onclick = () => { OS.sleeveEdit = true; drawSheet(); };
     return p;
@@ -613,7 +620,7 @@ function sleeveBlock(g, i) {
   const f = document.createElement("form");
   f.className = "add sform";
   const draw = () => {
-    f.innerHTML = `${bgg.length && list.length ? `<button type="button" class="linkbtn" data-a="bgg">BGGのデータ（${bgg.length}種類）で置き換える</button>` : ""}
+    f.innerHTML = `${sets.length ? `<div class="r bggset"><select name="set">${sets.map((x, k) => `<option value="${k}">${esc(x.name || "版の名前なし")}（${x.cards.reduce((a, c) => a + c.n, 0)}枚）</option>`).join("")}</select><button type="button" class="ghostbtn" data-a="bgg">${list.length ? "この版で置き換え" : "この版を読み込む"}</button></div>` : ""}
       ${rows.map((s, k) => `<div class="sedit" data-k="${k}">
         <div class="r"><input name="name" value="${esc(s.name || "")}" placeholder="カードの名前（例：メインデッキ）"><button type="button" class="ghostbtn" data-del="${k}" title="この行を消す">✕</button></div>
         <div class="r"><input name="size" value="${s.w ? esc(sizeKey(s)) : ""}" list="slvSizes" placeholder="サイズ mm（例：63.5×88）" inputmode="decimal"><input name="n" value="${esc(s.n || "")}" placeholder="枚数" inputmode="numeric" class="num"></div>
@@ -622,7 +629,7 @@ function sleeveBlock(g, i) {
       <datalist id="slvKinds">${sleeveKinds().map((k) => `<option value="${esc(k)}">`).join("")}</datalist>
       <div class="r"><button type="button" class="ghostbtn" data-a="add">＋ 行を追加</button><span style="flex:1"></span><button>保存</button></div>`;
     f.querySelector("[data-a=add]").onclick = () => { rows = read(); rows.push({}); draw(); };
-    f.querySelector("[data-a=bgg]")?.addEventListener("click", () => { rows = bgg.map((s) => ({ ...s })); draw(); });
+    f.querySelector("[data-a=bgg]")?.addEventListener("click", () => { const k = +f.querySelector("[name=set]").value; rows = setCards(sets[k]); if (!rows.length) rows.push({}); draw(); f.querySelector("[name=set]").value = k; });
     f.querySelectorAll("[data-del]").forEach((b) => b.onclick = () => { rows = read(); rows.splice(+b.dataset.del, 1); if (!rows.length) rows.push({}); draw(); });
   };
   const read = () => [...f.querySelectorAll(".sedit")].map((d) => {
