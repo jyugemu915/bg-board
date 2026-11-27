@@ -26648,6 +26648,45 @@
    ],
    "at": "2026-11-26T03:54:28.766Z"
   },
+  "433312": {
+   "v": 3,
+   "id": "433312",
+   "type": "boardgameaccessory",
+   "best": "",
+   "rec": "",
+   "minTime": null,
+   "maxTime": null,
+   "age": null,
+   "rating": 8.48,
+   "weight": null,
+   "rank": null,
+   "mechanics": [],
+   "categories": [],
+   "designers": [
+    "Luís Brueh"
+   ],
+   "artists": [
+    "Luís Brueh"
+   ],
+   "publishers": [
+    "Brueh Games Inc.",
+    "Mirakulus"
+   ],
+   "families": [],
+   "desc": "This includes 5 neoprene gamemats, out of these 4x Monster Lairs (24x20 cm) and 1x Market (50x25cm) properly stored in a box with a plastic tray.\n\nThe Monster Lair mats are are divided in between the draw pile, the active cards and the discard, also featuring a dedicated space for your monster clan card and meeples.\n\nMeanwhile the Underground Market brings some quality of life features, as it includes 50+ cardboard tokens, making it possible for you to easily keep track of the rooms heroes were already spawned during a game of Keep the heroes out to make more informed decisions.",
+   "expansions": [],
+   "bases": [],
+   "en": "Keep the Heroes Out!: Underground Market",
+   "ja": "",
+   "minp": null,
+   "maxp": null,
+   "time": null,
+   "year": 2025,
+   "thumb": "https://cf.geekdo-images.com/Ju57870c1WtCiwsagTHWwA__small/img/OJXFnJ0FUBBD31mk_pWSxOryD0E=/fit-in/200x150/filters:strip_icc()/pic8556743.jpg",
+   "image": "https://cf.geekdo-images.com/Ju57870c1WtCiwsagTHWwA__original/img/Ks1UbYdaSiLnKY07x1qYNLuwShE=/0x0/filters:format(jpeg)/pic8556743.jpg",
+   "versions": [],
+   "at": "2026-11-27T05:04:31.330Z"
+  },
   "435357": {
    "v": 3,
    "id": "435357",
@@ -28051,7 +28090,7 @@
    "at": "2026-11-26T14:04:30.749Z"
   }
  },
- "updatedAt": "2026-11-27T04:58:08.261Z",
+ "updatedAt": "2026-11-27T05:04:33.834Z",
  "exps": {
   "2591": {
    "id": "2591",

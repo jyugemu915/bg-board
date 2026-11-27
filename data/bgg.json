@@ -820,13 +820,13 @@
   },
   "キープザヒーローズアウト拡張アンダーグラウンドマーケット": {
    "label": "キープ・ザ・ヒーローズ・アウト 拡張：アンダーグラウンドマーケット",
-   "id": "333255",
-   "name": "Keep the Heroes Out!",
-   "image": "https://cf.geekdo-images.com/lfFKMNCzIJesp8IFHK8dEw__original/img/qtWs6Wg0a241k2D1TWWbesVwu-s=/0x0/filters:format(jpeg)/pic6985339.jpg",
-   "thumb": "https://cf.geekdo-images.com/lfFKMNCzIJesp8IFHK8dEw__small/img/3et-UTpNaMhKlHPgnj89mkTkGkU=/fit-in/200x150/filters:strip_icc()/pic6985339.jpg",
-   "query": "id:333255",
-   "at": "2026-11-26T01:47:02.527Z",
-   "alias": "333255"
+   "id": "433312",
+   "name": "Keep the Heroes Out!: Underground Market",
+   "image": "https://cf.geekdo-images.com/Ju57870c1WtCiwsagTHWwA__original/img/Ks1UbYdaSiLnKY07x1qYNLuwShE=/0x0/filters:format(jpeg)/pic8556743.jpg",
+   "thumb": "https://cf.geekdo-images.com/Ju57870c1WtCiwsagTHWwA__small/img/OJXFnJ0FUBBD31mk_pWSxOryD0E=/fit-in/200x150/filters:strip_icc()/pic8556743.jpg",
+   "query": "id:433312",
+   "at": "2026-11-27T05:04:31.092Z",
+   "alias": "433312"
   },
   "ギルドオブマーチャントエクスプローラーズ": {
    "label": "ギルド・オブ・マーチャント・エクスプローラーズ",
@@ -2638,5 +2638,5 @@
    "alias": "159581"
   }
  },
- "updatedAt": "2026-11-27T04:58:02.933Z"
+ "updatedAt": "2026-11-27T05:04:31.093Z"
 }
