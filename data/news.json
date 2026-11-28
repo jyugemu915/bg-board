@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T01:11:45.348Z",
+ "updatedAt": "2026-11-28T02:45:21.076Z",
  "sources": [
   {
    "name": "ホヌゲームズ",
@@ -987,7 +987,7 @@
    "url": "https://boardgamegeekstore.com/products/iss-vanguard-fearless-crew-mini-expansion",
    "image": "https://cdn.shopify.com/s/files/1/0220/1594/files/ISS_Vanguard_Fearless_Crew.png?v=1714153277",
    "price": "$5.00",
-   "status": "sale",
+   "status": "sold",
    "firstSeen": "2026-05-06T21:08:38.000Z",
    "saleAt": "2026-11-23T22:10:24.094Z",
    "restock": true,
@@ -3655,8 +3655,8 @@
   },
   "https://boardgamegeekstore.com/products/iss-vanguard-fearless-crew-mini-expansion": {
    "firstSeen": "2026-05-06T21:08:38.000Z",
-   "status": "sale",
-   "since": "2026-11-23T22:10:24.094Z",
+   "status": "sold",
+   "since": "2026-11-28T02:45:21.076Z",
    "saleAt": "2026-11-23T22:10:24.094Z"
   },
   "https://boardgamegeekstore.com/products/yummy-yummy-monster-tummy-dice-tower-2022-item-promo-cards": {
