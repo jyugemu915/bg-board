@@ -18569,6 +18569,101 @@
    ],
    "at": "2026-11-27T05:25:55.497Z"
   },
+  "166475": {
+   "v": 4,
+   "id": "166475",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "2, 4",
+   "minTime": 20,
+   "maxTime": 20,
+   "age": 7,
+   "rating": 6.31,
+   "weight": 1.6,
+   "rank": 24176,
+   "mechanics": [
+    "Modular Board",
+    "Open Drafting"
+   ],
+   "categories": [
+    "Animals",
+    "Card Game",
+    "Children's Game",
+    "Memory"
+   ],
+   "designers": [
+    "Dennis Kirps",
+    "Jean-Claude Pellin"
+   ],
+   "artists": [
+    "Gediminas Akelaitis"
+   ],
+   "publishers": [
+    "Korea Boardgames",
+    "LOGIS",
+    "PMWD"
+   ],
+   "families": [],
+   "desc": "No time to go fishing? No problem: Fish'n'Stones brings the pond to you! Fun and fishing passion are at the forefront in this lively fishing game that promotes strategic thinking, memory, and observation skills. The chances here are high that everyone makes a catch!",
+   "expansions": [
+    {
+     "id": "166841",
+     "name": "Fish'n'Stones: Goldfish"
+    },
+    {
+     "id": "182424",
+     "name": "Fish'n'Stones: Heron"
+    }
+   ],
+   "bases": [],
+   "en": "Fish'n'Stones",
+   "ja": "",
+   "minp": 2,
+   "maxp": 4,
+   "time": 20,
+   "year": 2014,
+   "thumb": "https://cf.geekdo-images.com/JdkamYIKRrkK2S4CBSXulg__small/img/_bES44CNn8zWW-CKyE4PaXKVHfw=/fit-in/200x150/filters:strip_icc()/pic2250514.jpg",
+   "image": "https://cf.geekdo-images.com/JdkamYIKRrkK2S4CBSXulg__original/img/Ljyyy2Hyj7aXtvlOnC1kuWZWZHY=/0x0/filters:format(jpeg)/pic2250514.jpg",
+   "box": [
+    18.1,
+    11.3,
+    3.5
+   ],
+   "versions": [
+    {
+     "id": "498096",
+     "name": "Korean edition",
+     "year": 2018,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/-2Ej2ejU31ecDUYuJ3r9jA__small/img/mk7VwzYH5JlB8a0R8BXSrDj5kBs=/fit-in/200x150/filters:strip_icc()/pic5268665.png",
+     "image": "https://cf.geekdo-images.com/-2Ej2ejU31ecDUYuJ3r9jA__original/img/3vapBjMTQ7C1Yc-DGTUgdTk_00A=/0x0/filters:format(png)/pic5268665.png",
+     "size": null
+    },
+    {
+     "id": "272415",
+     "name": "French first edition",
+     "year": 2015,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/LmqhRKMXAWX4xSpniaQ0nQ__small/img/rTfuDPmuJlebOfo8TT26afRB_YE=/fit-in/200x150/filters:strip_icc()/pic2532295.jpg",
+     "image": "https://cf.geekdo-images.com/LmqhRKMXAWX4xSpniaQ0nQ__original/img/h9bX1NxISaTlcxpNhEXFcsF-dZ4=/0x0/filters:format(jpeg)/pic2532295.jpg",
+     "size": null
+    },
+    {
+     "id": "253840",
+     "name": "Multilingual first edition",
+     "year": 2014,
+     "lang": "English・French・German・Lithuanian",
+     "thumb": "https://cf.geekdo-images.com/JdkamYIKRrkK2S4CBSXulg__small/img/_bES44CNn8zWW-CKyE4PaXKVHfw=/fit-in/200x150/filters:strip_icc()/pic2250514.jpg",
+     "image": "https://cf.geekdo-images.com/JdkamYIKRrkK2S4CBSXulg__original/img/Ljyyy2Hyj7aXtvlOnC1kuWZWZHY=/0x0/filters:format(jpeg)/pic2250514.jpg",
+     "size": [
+      18.1,
+      11.3,
+      3.5
+     ]
+    }
+   ],
+   "at": "2026-11-28T05:19:00.332Z"
+  },
   "167791": {
    "v": 4,
    "id": "167791",
@@ -44563,7 +44658,7 @@
    "at": "2026-11-27T13:09:29.707Z"
   }
  },
- "updatedAt": "2026-11-28T05:16:28.177Z",
+ "updatedAt": "2026-11-28T05:19:07.686Z",
  "exps": {
   "453": {
    "id": "453",
@@ -46455,6 +46550,16 @@
    "time": null,
    "at": "2026-11-26T03:31:52.287Z"
   },
+  "166841": {
+   "id": "166841",
+   "en": "Fish'n'Stones: Goldfish",
+   "thumb": "https://cf.geekdo-images.com/ZjdgegUU8mtyY4TVHwiPug__small/img/YCtumVQm2koWAbrHE0ZKdg-U5Jo=/fit-in/200x150/filters:strip_icc()/pic2261916.jpg",
+   "year": 2014,
+   "minp": 2,
+   "maxp": 4,
+   "time": 20,
+   "at": "2026-11-28T05:19:03.523Z"
+  },
   "166842": {
    "id": "166842",
    "en": "Orléans: Tavern & Depot",
@@ -46704,6 +46809,16 @@
    "maxp": 7,
    "time": 30,
    "at": "2026-11-26T14:06:04.264Z"
+  },
+  "182424": {
+   "id": "182424",
+   "en": "Fish'n'Stones: Heron",
+   "thumb": "https://cf.geekdo-images.com/DCWoIQB181SJP8KUUJVy-A__small/img/OA-9ieEYRA2OFcWdaCC0QPtFDyo=/fit-in/200x150/filters:strip_icc()/pic2633133.jpg",
+   "year": 2015,
+   "minp": 2,
+   "maxp": 4,
+   "time": 20,
+   "at": "2026-11-28T05:19:03.523Z"
   },
   "183531": {
    "id": "183531",
@@ -55364,6 +55479,10 @@
   },
   "164928": {
    "at": "2026-11-27T05:46:05.489Z",
+   "sets": []
+  },
+  "166475": {
+   "at": "2026-11-28T05:19:06.185Z",
    "sets": []
   },
   "167791": {
