@@ -1151,7 +1151,7 @@
   {
    "name": "デックローグ",
    "from": "写真 11/27",
-   "bgg": ""
+   "bgg": "https://boardgamegeek.com/boardgame/469351"
   },
   {
    "name": "グミチョコパパイヤレボリューション",
@@ -1161,7 +1161,7 @@
   {
    "name": "12王国の玉座",
    "from": "写真 11/27",
-   "bgg": ""
+   "bgg": "https://boardgamegeek.com/boardgame/302917"
   },
   {
    "name": "あいうえバトル",
@@ -1171,7 +1171,7 @@
   {
    "name": "エクスカリバー",
    "from": "写真 11/27",
-   "bgg": ""
+   "bgg": "https://boardgamegeek.com/boardgame/434172"
   },
   {
    "name": "Kings",
@@ -1263,7 +1263,7 @@
   {
    "name": "イリュージョン",
    "from": "写真 11/27",
-   "bgg": ""
+   "bgg": "https://boardgamegeek.com/boardgame/244995"
   },
   {
    "name": "宝石の煌き：デュエル 拡張：偽造者",
@@ -1296,12 +1296,7 @@
   {
    "name": "チェスレース",
    "from": "写真 11/27",
-   "bgg": ""
-  },
-  {
-   "name": "ペントリーニ",
-   "from": "写真 11/27",
-   "bgg": ""
+   "bgg": "https://boardgamegeek.com/boardgame/4431"
   },
   {
    "name": "スカルキング",
@@ -1321,7 +1316,7 @@
   {
    "name": "ディープダイブ",
    "from": "写真 11/27",
-   "bgg": ""
+   "bgg": "https://boardgamegeek.com/boardgame/376747"
   },
   {
    "name": "ポイントギャラクシー",
@@ -1425,12 +1420,6 @@
    "name": "ザ・クルー 深海に眠る遺跡",
    "from": "写真 11/27",
    "bgg": "https://boardgamegeek.com/boardgame/324856"
-  },
-  {
-   "name": "アークス ミニチュアパック",
-   "parent": "アークス",
-   "from": "写真 11/27",
-   "bgg": ""
   }
  ]
 }
