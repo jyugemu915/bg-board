@@ -346,8 +346,13 @@
   },
   "チェスレース和訳ルール付き": {
    "label": "チェスレース 和訳ルール付き",
-   "miss": true,
-   "at": "2026-11-25T01:56:22.264Z"
+   "id": "4431",
+   "name": "Chess Race",
+   "image": "https://cf.geekdo-images.com/9_9zevqbfm_7KZjsiRwxTA__original/img/mDqTw1GgmObd_jrfwWyZFUezeGo=/0x0/filters:format(jpeg)/pic7505620.jpg",
+   "thumb": "https://cf.geekdo-images.com/9_9zevqbfm_7KZjsiRwxTA__small/img/G18gCHVHu0C6D_ieKdXv4UfYwxQ=/fit-in/200x150/filters:strip_icc()/pic7505620.jpg",
+   "query": "id:4431",
+   "at": "2026-11-28T05:16:00.508Z",
+   "alias": "4431"
   },
   "フィアサムフロアーズ暗黒の大広間新版2fspiele": {
    "label": "フィアサム・フロアーズ（暗黒の大広間）新版【2F-Spiele】",
@@ -2759,8 +2764,13 @@
   },
   "デックローグ": {
    "label": "デックローグ",
-   "miss": true,
-   "at": "2026-11-27T13:06:52.796Z"
+   "id": "469351",
+   "name": "Deck Rogue Reload",
+   "image": "https://cf.geekdo-images.com/QDaccVRd7ZfSAD-QM8Df0Q__original/img/WCCzZSkJcMYCxz2umDP1f9iGzu0=/0x0/filters:format(jpeg)/pic9699927.jpg",
+   "thumb": "https://cf.geekdo-images.com/QDaccVRd7ZfSAD-QM8Df0Q__small/img/ZanJ6wSbMm0MaQVq8ZCogbZTEGY=/fit-in/200x150/filters:strip_icc()/pic9699927.jpg",
+   "query": "id:469351",
+   "at": "2026-11-28T05:15:44.845Z",
+   "alias": "469351"
   },
   "グミチョコパパイヤレボリューション": {
    "label": "グミチョコパパイヤレボリューション",
@@ -2774,8 +2784,13 @@
   },
   "12王国の玉座": {
    "label": "12王国の玉座",
-   "miss": true,
-   "at": "2026-11-27T13:06:57.981Z"
+   "id": "302917",
+   "name": "King of 12",
+   "image": "https://cf.geekdo-images.com/scEKDr-EcEK5a70OydyDKg__original/img/9C0W-es1uo1xybjru9N1bUlxjVw=/0x0/filters:format(jpeg)/pic5399079.jpg",
+   "thumb": "https://cf.geekdo-images.com/scEKDr-EcEK5a70OydyDKg__small/img/YXX83vnJqw1j6jSjEDXV5gqw2xA=/fit-in/200x150/filters:strip_icc()/pic5399079.jpg",
+   "query": "id:302917",
+   "at": "2026-11-28T05:15:47.410Z",
+   "alias": "302917"
   },
   "あいうえバトル": {
    "label": "あいうえバトル",
@@ -2789,8 +2804,13 @@
   },
   "エクスカリバー": {
    "label": "エクスカリバー",
-   "miss": true,
-   "at": "2026-11-27T13:07:03.223Z"
+   "id": "434172",
+   "name": "Excalibur",
+   "image": "https://cf.geekdo-images.com/CKNRCpGY0SwKG-W3Dw4WAQ__original/img/4r65BHX_xKwPJkveHKjfxoVJ1EI=/0x0/filters:format(png)/pic8922385.png",
+   "thumb": "https://cf.geekdo-images.com/CKNRCpGY0SwKG-W3Dw4WAQ__small/img/CarGoRM9TR8ptwyVDN3chIV27kc=/fit-in/200x150/filters:strip_icc()/pic8922385.png",
+   "query": "id:434172",
+   "at": "2026-11-28T05:15:49.971Z",
+   "alias": "434172"
   },
   "kings": {
    "label": "Kings",
@@ -2962,8 +2982,9 @@
    "name": "Illusion",
    "image": "https://cf.geekdo-images.com/jcFaI9hr6iXwpwCZT-ifHA__original/img/UYQwliOVoq0QQFdD-xtBUYd_RuM=/0x0/filters:format(png)/pic3979771.png",
    "thumb": "https://cf.geekdo-images.com/jcFaI9hr6iXwpwCZT-ifHA__small/img/KnKWkryn-UTBNrIsJWiyQG7yyq4=/fit-in/200x150/filters:strip_icc()/pic3979771.png",
-   "query": "イリュージョン",
-   "at": "2026-11-27T13:07:57.032Z"
+   "query": "id:244995",
+   "at": "2026-11-28T05:15:52.546Z",
+   "alias": "244995"
   },
   "宝石の煌きデュエル拡張偽造者": {
    "label": "宝石の煌き：デュエル 拡張：偽造者",
@@ -3012,8 +3033,13 @@
   },
   "チェスレース": {
    "label": "チェスレース",
-   "miss": true,
-   "at": "2026-11-27T13:08:12.631Z"
+   "id": "4431",
+   "name": "Chess Race",
+   "image": "https://cf.geekdo-images.com/9_9zevqbfm_7KZjsiRwxTA__original/img/mDqTw1GgmObd_jrfwWyZFUezeGo=/0x0/filters:format(jpeg)/pic7505620.jpg",
+   "thumb": "https://cf.geekdo-images.com/9_9zevqbfm_7KZjsiRwxTA__small/img/G18gCHVHu0C6D_ieKdXv4UfYwxQ=/fit-in/200x150/filters:strip_icc()/pic7505620.jpg",
+   "query": "id:4431",
+   "at": "2026-11-28T05:15:55.384Z",
+   "alias": "4431"
   },
   "スカルキング": {
    "label": "スカルキング",
@@ -3047,8 +3073,13 @@
   },
   "ディープダイブ": {
    "label": "ディープダイブ",
-   "miss": true,
-   "at": "2026-11-27T22:14:56.977Z"
+   "id": "376747",
+   "name": "Deep Dive",
+   "image": "https://cf.geekdo-images.com/ikn4yPI7GUsrgHRvOkNHkg__original/img/wpy2zN0Ev_d30u1k-0xXj74QsRM=/0x0/filters:format(png)/pic7235026.png",
+   "thumb": "https://cf.geekdo-images.com/ikn4yPI7GUsrgHRvOkNHkg__small/img/TYG05PzOf03MfjZmoShlr7qsG30=/fit-in/200x150/filters:strip_icc()/pic7235026.png",
+   "query": "id:376747",
+   "at": "2026-11-28T05:15:57.948Z",
+   "alias": "376747"
   },
   "ポイントギャラクシー": {
    "label": "ポイントギャラクシー",
@@ -3630,5 +3661,5 @@
    "at": "2026-11-28T02:46:41.423Z"
   }
  },
- "updatedAt": "2026-11-28T04:19:48.875Z"
+ "updatedAt": "2026-11-28T05:16:00.508Z"
 }

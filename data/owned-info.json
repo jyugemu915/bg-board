@@ -6900,6 +6900,91 @@
    ],
    "at": "2026-11-27T05:25:24.098Z"
   },
+  "4431": {
+   "v": 4,
+   "id": "4431",
+   "type": "boardgame",
+   "best": "3〜4",
+   "rec": "2〜4",
+   "minTime": 45,
+   "maxTime": 45,
+   "age": 8,
+   "rating": 5.49,
+   "weight": 1.29,
+   "rank": 27123,
+   "mechanics": [
+    "Roll / Spin and Move"
+   ],
+   "categories": [
+    "Abstract Strategy"
+   ],
+   "designers": [
+    "Alex Randolph"
+   ],
+   "artists": [
+    "Wanjin Gill"
+   ],
+   "publishers": [
+    "MetaBlox",
+    "OPEN'N PLAY",
+    "Otto Maier Verlag",
+    "Playte"
+   ],
+   "families": [
+    "Components: 14 x 14 Grids",
+    "Traditional Games: Pachisi / Ludo"
+   ],
+   "desc": "Time to race on the chess board! Chess Race, first released as Schachjagd, is a kind of Pachisi game with three pawns for each color (when played with four) and a set of cards with all chess symbols on it. Take two cards in hand, and use one card for your turn, moving one of your pawns around the racecourse. Any two identical cards can be used like a queen and one obstacle can be moved to attempt to block your opponents.\nSchachjagd is also contained in Spiele-Box (Carlit 1980).\n\nChess Race is an evolution of Schachjagd as in that game players rolled a die bearing chess symbols on it to determine how one of their pawns could be moved on that turn.",
+   "expansions": [],
+   "bases": [],
+   "en": "Chess Race",
+   "ja": "",
+   "minp": 2,
+   "maxp": 4,
+   "time": 45,
+   "year": 1976,
+   "thumb": "https://cf.geekdo-images.com/9_9zevqbfm_7KZjsiRwxTA__small/img/G18gCHVHu0C6D_ieKdXv4UfYwxQ=/fit-in/200x150/filters:strip_icc()/pic7505620.jpg",
+   "image": "https://cf.geekdo-images.com/9_9zevqbfm_7KZjsiRwxTA__original/img/mDqTw1GgmObd_jrfwWyZFUezeGo=/0x0/filters:format(jpeg)/pic7505620.jpg",
+   "box": [
+    33,
+    23,
+    4
+   ],
+   "versions": [
+    {
+     "id": "660599",
+     "name": "English/Japanese/Korean edition",
+     "year": 2023,
+     "lang": "English・Japanese・Korean",
+     "thumb": "https://cf.geekdo-images.com/9_9zevqbfm_7KZjsiRwxTA__small/img/G18gCHVHu0C6D_ieKdXv4UfYwxQ=/fit-in/200x150/filters:strip_icc()/pic7505620.jpg",
+     "image": "https://cf.geekdo-images.com/9_9zevqbfm_7KZjsiRwxTA__original/img/mDqTw1GgmObd_jrfwWyZFUezeGo=/0x0/filters:format(jpeg)/pic7505620.jpg",
+     "size": null
+    },
+    {
+     "id": "467172",
+     "name": "English/Korean edition",
+     "year": 2019,
+     "lang": "English・Korean",
+     "thumb": "https://cf.geekdo-images.com/I1LwEf0a-CTkENTQDaj_9g__small/img/iEfHnj_koJ_vxqdYLlRI06e1YwM=/fit-in/200x150/filters:strip_icc()/pic4899603.jpg",
+     "image": "https://cf.geekdo-images.com/I1LwEf0a-CTkENTQDaj_9g__original/img/FABgFBF6wTa2NKFoc3M8-O1lnl0=/0x0/filters:format(jpeg)/pic4899603.jpg",
+     "size": null
+    },
+    {
+     "id": "136179",
+     "name": "Multilingual edition",
+     "year": 1976,
+     "lang": "Dutch・English・French・German・Italian",
+     "thumb": "https://cf.geekdo-images.com/XHLB-B0xVBsBYMziQtxr5Q__small/img/rllU1XtiFBzczQ-j3gVynveEd3k=/fit-in/200x150/filters:strip_icc()/pic7078606.jpg",
+     "image": "https://cf.geekdo-images.com/XHLB-B0xVBsBYMziQtxr5Q__original/img/B74RxQh-t_dRHZ3tp5iwjGAl6WU=/0x0/filters:format(jpeg)/pic7078606.jpg",
+     "size": [
+      33,
+      23,
+      4
+     ]
+    }
+   ],
+   "at": "2026-11-28T05:16:10.996Z"
+  },
   "5155": {
    "v": 4,
    "id": "5155",
@@ -24027,6 +24112,272 @@
    ],
    "at": "2026-11-27T05:19:31.232Z"
   },
+  "244995": {
+   "v": 4,
+   "id": "244995",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "2〜5",
+   "minTime": 15,
+   "maxTime": 15,
+   "age": 8,
+   "rating": 6.69,
+   "weight": 1.04,
+   "rank": 1791,
+   "mechanics": [
+    "Pattern Recognition"
+   ],
+   "categories": [
+    "Card Game"
+   ],
+   "designers": [
+    "Wolfgang Warsch"
+   ],
+   "artists": [
+    "Oliver Freudenreich",
+    "Sandra Freudenreich"
+   ],
+   "publishers": [
+    "Nürnberger-Spielkarten-Verlag",
+    "Arclight Games",
+    "Brain Games",
+    "FoxGames",
+    "Fractal Juegos",
+    "GaGa Games",
+    "Happy Games",
+    "Kaissa Chess & Games",
+    "Maldón",
+    "Oya",
+    "Pandasaurus Games",
+    "Pravi Junak"
+   ],
+   "families": [
+    "Category: Color",
+    "Series: Nature Line (Nürnberger-Spielkarten-Verlag)",
+    "Series: NSV Middys (Nürnberger Spielkartenverlag)"
+   ],
+   "desc": "Can you trust your eyes? How much color do you really see? These questions are what drive gameplay in Illusion, with rules that allow for gameplay to start immediately. Who has the right perspective not to be fooled?",
+   "expansions": [],
+   "bases": [],
+   "en": "Illusion",
+   "ja": "イリュージョン",
+   "minp": 2,
+   "maxp": 5,
+   "time": 15,
+   "year": 2018,
+   "thumb": "https://cf.geekdo-images.com/jcFaI9hr6iXwpwCZT-ifHA__small/img/KnKWkryn-UTBNrIsJWiyQG7yyq4=/fit-in/200x150/filters:strip_icc()/pic3979771.png",
+   "image": "https://cf.geekdo-images.com/jcFaI9hr6iXwpwCZT-ifHA__original/img/UYQwliOVoq0QQFdD-xtBUYd_RuM=/0x0/filters:format(png)/pic3979771.png",
+   "box": [
+    13.1,
+    10,
+    2.3
+   ],
+   "versions": [
+    {
+     "id": "465236",
+     "name": "Japanese edition",
+     "year": 2018,
+     "lang": "Japanese",
+     "thumb": "https://cf.geekdo-images.com/erbMhaqyM4Ud3MNpHCq9Lg__small/img/Z0TKap4ZeskkyIqarDa0eM62ozY=/fit-in/200x150/filters:strip_icc()/pic7587614.jpg",
+     "image": "https://cf.geekdo-images.com/erbMhaqyM4Ud3MNpHCq9Lg__original/img/HD2fYN0n01KofvJUGmoICHO0cuA=/0x0/filters:format(jpeg)/pic7587614.jpg",
+     "size": null
+    },
+    {
+     "id": "779857",
+     "name": "Adria edition",
+     "year": 2021,
+     "lang": "Albanian・Burmese・Croatian・Macedonian・Slovak・Slovenian",
+     "thumb": "https://cf.geekdo-images.com/KgrUVJH_WrnDiBY37k5H_Q__small/img/qtWN7TwWcZUMKdM2QVPhWDta0D0=/fit-in/200x150/filters:strip_icc()/pic9178463.jpg",
+     "image": "https://cf.geekdo-images.com/KgrUVJH_WrnDiBY37k5H_Q__original/img/JXl1ML1GwVVlp8CkagmZn3Qu4nU=/0x0/filters:format(jpeg)/pic9178463.jpg",
+     "size": [
+      13.3,
+      10,
+      2.2
+     ]
+    },
+    {
+     "id": "546502",
+     "name": "Baltic edition",
+     "year": 2021,
+     "lang": "Estonian・Latvian・Lithuanian・Russian",
+     "thumb": "https://cf.geekdo-images.com/oWyxxIExTQBLlgWZmomSfw__small/img/VBk2DBARu8JSgbzXAyambcRAJPI=/fit-in/200x150/filters:strip_icc()/pic5907977.jpg",
+     "image": "https://cf.geekdo-images.com/oWyxxIExTQBLlgWZmomSfw__original/img/j2lY6MD7fN40NApICVSx15SWT3g=/0x0/filters:format(jpeg)/pic5907977.jpg",
+     "size": [
+      13.2,
+      10,
+      2.4
+     ]
+    },
+    {
+     "id": "583675",
+     "name": "EN/FR/GE/IT \"NatureLine\" edition",
+     "year": 2021,
+     "lang": "English・French・German・Italian",
+     "thumb": "https://cf.geekdo-images.com/znVrv0bA_vNkdmr3mHj_fg__small/img/tDZ4F4sgjNblaWVtHjZ3-G0HZg4=/fit-in/200x150/filters:strip_icc()/pic6449139.png",
+     "image": "https://cf.geekdo-images.com/znVrv0bA_vNkdmr3mHj_fg__original/img/2GeV-i5eaOMKrC2DMEczjt__qrs=/0x0/filters:format(png)/pic6449139.png",
+     "size": [
+      13.2,
+      10.1,
+      2.3
+     ]
+    },
+    {
+     "id": "639935",
+     "name": "Greek edition",
+     "year": 2021,
+     "lang": "Greek",
+     "thumb": "https://cf.geekdo-images.com/UBDcCAFD5EjyAtS6mVJ-cA__small/img/k_OOm641fD32SeHrmlx5AgVIZ2c=/fit-in/200x150/filters:strip_icc()/pic7178362.jpg",
+     "image": "https://cf.geekdo-images.com/UBDcCAFD5EjyAtS6mVJ-cA__original/img/oMEgEjzhALbggu6xxg1QVH8UMjk=/0x0/filters:format(jpeg)/pic7178362.jpg",
+     "size": null
+    },
+    {
+     "id": "509214",
+     "name": "Fractal Juegos Spanish edition",
+     "year": 2020,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/gm7ujeXUzxkAeL_6MvaEug__small/img/bra3efDFWhHVhF2x-2186GtTUUg=/fit-in/200x150/filters:strip_icc()/pic5422799.png",
+     "image": "https://cf.geekdo-images.com/gm7ujeXUzxkAeL_6MvaEug__original/img/ZbD5KIUrYITWNagbIi-qT26QICg=/0x0/filters:format(png)/pic5422799.png",
+     "size": [
+      11.9,
+      9.4,
+      2
+     ]
+    },
+    {
+     "id": "609529",
+     "name": "Russian edition",
+     "year": 2020,
+     "lang": "Russian",
+     "thumb": "https://cf.geekdo-images.com/L7Xx-4oYnI-_ErDZyA5DtA__small/img/eGhcjUWvw-xHNdeLpX2g4z9NnnM=/fit-in/200x150/filters:strip_icc()/pic6820221.png",
+     "image": "https://cf.geekdo-images.com/L7Xx-4oYnI-_ErDZyA5DtA__original/img/ruyap-4O8EYhW9uWqgmLdeiYIOM=/0x0/filters:format(png)/pic6820221.png",
+     "size": [
+      18,
+      13,
+      4
+     ]
+    },
+    {
+     "id": "468494",
+     "name": "Bosnian/Croatian/Serbian/Slovenian edition",
+     "year": 2019,
+     "lang": "Bosnian・Croatian・Serbian・Slovenian",
+     "thumb": "https://cf.geekdo-images.com/ufVykG5qeLYozOxW8gDYOA__small/img/pJPoOsdGgpTAYq51w-19HSrE-7Q=/fit-in/200x150/filters:strip_icc()/pic4909123.jpg",
+     "image": "https://cf.geekdo-images.com/ufVykG5qeLYozOxW8gDYOA__original/img/4w9fjEYCLHh7plo8giME3XQ6qlo=/0x0/filters:format(jpeg)/pic4909123.jpg",
+     "size": [
+      13.1,
+      10,
+      2.3
+     ]
+    },
+    {
+     "id": "462605",
+     "name": "Maldón Spanish edition",
+     "year": 2019,
+     "lang": "Spanish",
+     "thumb": "https://cf.geekdo-images.com/WP-UWTgWGWLXxch3BESb9A__small/img/TNQV8j8QWuTPtfXrvLKrdPE95zY=/fit-in/200x150/filters:strip_icc()/pic6773253.jpg",
+     "image": "https://cf.geekdo-images.com/WP-UWTgWGWLXxch3BESb9A__original/img/4uLOy6PqL118xfa34Ku8kQQMNWU=/0x0/filters:format(jpeg)/pic6773253.jpg",
+     "size": null
+    },
+    {
+     "id": "500746",
+     "name": "Polish edition",
+     "year": 2019,
+     "lang": "Polish",
+     "thumb": "https://cf.geekdo-images.com/pWatm5dhJi2c4NlNG0UQcA__small/img/4K2Og2Na5WTpcBjpcPIekhOvMeA=/fit-in/200x150/filters:strip_icc()/pic5320159.jpg",
+     "image": "https://cf.geekdo-images.com/pWatm5dhJi2c4NlNG0UQcA__original/img/9GfaoJFyzgH4ew5WvIQ1-UpkDxo=/0x0/filters:format(jpeg)/pic5320159.jpg",
+     "size": [
+      15,
+      10.7,
+      3.5
+     ]
+    },
+    {
+     "id": "617605",
+     "name": "Ukrainian edition",
+     "year": 2019,
+     "lang": "Ukrainian",
+     "thumb": "https://cf.geekdo-images.com/aOiW--E5k_d-5stXPpwqDA__small/img/JI-ByXkBmgYd1jKlvWKw-O1OSbw=/fit-in/200x150/filters:strip_icc()/pic6995433.jpg",
+     "image": "https://cf.geekdo-images.com/aOiW--E5k_d-5stXPpwqDA__original/img/pin0NBxBCHfFXT_PVOZ4pkZuLtk=/0x0/filters:format(jpeg)/pic6995433.jpg",
+     "size": null
+    },
+    {
+     "id": "442180",
+     "name": "Chinese edition",
+     "year": 2018,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/sDWxNVO07hwr_ndMK86lMQ__small/img/oGjMfJl4pEpXLtjlKSEc5QMcOuc=/fit-in/200x150/filters:strip_icc()/pic4543640.jpg",
+     "image": "https://cf.geekdo-images.com/sDWxNVO07hwr_ndMK86lMQ__original/img/pkuae3veKjlLFg7fOqX5AdUkcIc=/0x0/filters:format(jpeg)/pic4543640.jpg",
+     "size": [
+      11.9,
+      9.4,
+      2
+     ]
+    },
+    {
+     "id": "392282",
+     "name": "Dutch edition",
+     "year": 2018,
+     "lang": "Dutch",
+     "thumb": "https://cf.geekdo-images.com/5bWLPvsgHsy3vSsnv7DtFw__small/img/uRk9jZBILEllY1i5-5FZkiAjjUQ=/fit-in/200x150/filters:strip_icc()/pic4043746.jpg",
+     "image": "https://cf.geekdo-images.com/5bWLPvsgHsy3vSsnv7DtFw__original/img/AY90UzKw-SkNERUX1gAPR3-76HM=/0x0/filters:format(jpeg)/pic4043746.jpg",
+     "size": null
+    },
+    {
+     "id": "410842",
+     "name": "English edition",
+     "year": 2018,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/rZW1Qg8uyLJc2HCZbR6UtA__small/img/MO92qMhYSoaDuOz-4-DO5aW5HZ0=/fit-in/200x150/filters:strip_icc()/pic4194079.png",
+     "image": "https://cf.geekdo-images.com/rZW1Qg8uyLJc2HCZbR6UtA__original/img/pn3OKoyqJhibCBTobDvgFXCsFv0=/0x0/filters:format(png)/pic4194079.png",
+     "size": [
+      11.9,
+      9.4,
+      2
+     ]
+    },
+    {
+     "id": "424623",
+     "name": "French edition",
+     "year": 2018,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/tyzNSX9dn3e15R4btpkyvw__small/img/fnAAfi6vzd0jMLEiy5HpmFLs0jU=/fit-in/200x150/filters:strip_icc()/pic4338616.jpg",
+     "image": "https://cf.geekdo-images.com/tyzNSX9dn3e15R4btpkyvw__original/img/DG4E1t1LumJ08r73FPuBQTo4Bew=/0x0/filters:format(jpeg)/pic4338616.jpg",
+     "size": [
+      13,
+      10,
+      2
+     ]
+    },
+    {
+     "id": "392134",
+     "name": "German edition",
+     "year": 2018,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/jcFaI9hr6iXwpwCZT-ifHA__small/img/KnKWkryn-UTBNrIsJWiyQG7yyq4=/fit-in/200x150/filters:strip_icc()/pic3979771.png",
+     "image": "https://cf.geekdo-images.com/jcFaI9hr6iXwpwCZT-ifHA__original/img/UYQwliOVoq0QQFdD-xtBUYd_RuM=/0x0/filters:format(png)/pic3979771.png",
+     "size": null
+    },
+    {
+     "id": "652348",
+     "name": "Korean edition",
+     "year": 2018,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/R0ToAxPYVjN4sUpj-bzQ4Q__small/img/LHF6xUlQ9id8TSh5OYBap0ueqBs=/fit-in/200x150/filters:strip_icc()/pic7404874.jpg",
+     "image": "https://cf.geekdo-images.com/R0ToAxPYVjN4sUpj-bzQ4Q__original/img/M5IxNpQ1ChB94JSEtFQ0_W6QwWc=/0x0/filters:format(jpeg)/pic7404874.jpg",
+     "size": null
+    },
+    {
+     "id": "673332",
+     "name": "Nordic edition",
+     "year": null,
+     "lang": "Danish・Finnish・Norwegian・Swedish",
+     "thumb": "https://cf.geekdo-images.com/Z-Ybgm51LgN4f9MYkrruhw__small/img/8fXvWn134Gzk--ngWjJ4vtoK-Rg=/fit-in/200x150/filters:strip_icc()/pic7634202.png",
+     "image": "https://cf.geekdo-images.com/Z-Ybgm51LgN4f9MYkrruhw__original/img/zWKhAmmU8b5Rv-zZoTGPHJPQYXk=/0x0/filters:format(png)/pic7634202.png",
+     "size": null
+    }
+   ],
+   "at": "2026-11-28T05:16:08.431Z"
+  },
   "245932": {
    "v": 4,
    "id": "245932",
@@ -28436,6 +28787,177 @@
     }
    ],
    "at": "2026-11-27T13:08:44.315Z"
+  },
+  "302917": {
+   "v": 4,
+   "id": "302917",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "3〜4",
+   "minTime": 20,
+   "maxTime": 40,
+   "age": 10,
+   "rating": 6.55,
+   "weight": 1.4,
+   "rank": 3811,
+   "mechanics": [
+    "Auction: Sealed Bid",
+    "Dice Rolling",
+    "Score-and-Reset Game",
+    "Simultaneous Action Selection"
+   ],
+   "categories": [
+    "Bluffing",
+    "Card Game",
+    "Fantasy"
+   ],
+   "designers": [
+    "Rita Modl"
+   ],
+   "artists": [
+    "Robin Lagofun"
+   ],
+   "publishers": [
+    "Corax Games",
+    "Albi",
+    "Evrikus",
+    "Game Harbor",
+    "HANALL M&C",
+    "Lucky Duck Games",
+    "MEBO Games"
+   ],
+   "families": [
+    "Components: Polyhedral (not D6) dice",
+    "Series: Kingdom of 12"
+   ],
+   "desc": "You want to become the new ruler of the Kingdom of 12. To do so, you use your magical orb. But to channel its power you will need the help of different characters throughout the kingdom.\n\nIn King of 12, each player uses the same set of seven character cards. Each round, players choose one of these and reveal them simultaneously.\n\nIf two or more players chose the same card, these cards cancel. Otherwise the card effects are resolved. They affect each players magical orb - a d12.\n\nAfter all cards are resolved, the values of the dice are compared. If two players have the same value on their die, they cancel. The remaining player with the highest value on their die wins the round and gets two points. The second most also gets one point. But in some cases the smallest value may win...\n\nWhen only one card is left, players compare their points. Players with the same amount of points cancel each other, then the player with the most points wins the round. This player puts one of their cards aside and another round is played until one player wins a second round. This player wins the game.\n\nA nice and highly interactive game of bluffing, mind reading and tactics. Easy to learn and fun to play.\n\nUp to four games can be combined to play with up to 16 players.",
+   "expansions": [
+    {
+     "id": "352621",
+     "name": "King of 12: die Arbeiterin, die Druidin & der Geduldige promo cards"
+    },
+    {
+     "id": "321590",
+     "name": "King of 12: The Faun & The Collector"
+    },
+    {
+     "id": "352170",
+     "name": "King of 12: Turnierspiel Promo"
+    }
+   ],
+   "bases": [],
+   "en": "King of 12",
+   "ja": "",
+   "minp": 2,
+   "maxp": 4,
+   "time": 40,
+   "year": 2020,
+   "thumb": "https://cf.geekdo-images.com/scEKDr-EcEK5a70OydyDKg__small/img/YXX83vnJqw1j6jSjEDXV5gqw2xA=/fit-in/200x150/filters:strip_icc()/pic5399079.jpg",
+   "image": "https://cf.geekdo-images.com/scEKDr-EcEK5a70OydyDKg__original/img/9C0W-es1uo1xybjru9N1bUlxjVw=/0x0/filters:format(jpeg)/pic5399079.jpg",
+   "box": [
+    20,
+    14,
+    4
+   ],
+   "versions": [
+    {
+     "id": "625062",
+     "name": "Czech edition",
+     "year": 2022,
+     "lang": "Czech",
+     "thumb": "https://cf.geekdo-images.com/SK2GnciRJItvO9oExBzuMQ__small/img/_C9478MFiroTectGyj1ijzGxngk=/fit-in/200x150/filters:strip_icc()/pic6972396.jpg",
+     "image": "https://cf.geekdo-images.com/SK2GnciRJItvO9oExBzuMQ__original/img/POEMHsbWaJw9JIk3BxZnaSaYZGU=/0x0/filters:format(jpeg)/pic6972396.jpg",
+     "size": [
+      20,
+      14,
+      4
+     ]
+    },
+    {
+     "id": "600526",
+     "name": "Korean edition",
+     "year": 2022,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/KBmKH9AY8lYYTY6qIiPc4w__small/img/HrefM94gn3F9WZkD6nOL0Ioea6A=/fit-in/200x150/filters:strip_icc()/pic6717392.png",
+     "image": "https://cf.geekdo-images.com/KBmKH9AY8lYYTY6qIiPc4w__original/img/qgdTF0Z-wRhvkpBFYD2ZkNOzkXo=/0x0/filters:format(png)/pic6717392.png",
+     "size": [
+      20,
+      14,
+      4
+     ]
+    },
+    {
+     "id": "632356",
+     "name": "Russian edition",
+     "year": 2022,
+     "lang": "Russian",
+     "thumb": "https://cf.geekdo-images.com/tfqKd4dF4NGSYOaaNyMT6w__small/img/J0W6xCVuLywN5fitrS7fFUU85a8=/fit-in/200x150/filters:strip_icc()/pic7656504.jpg",
+     "image": "https://cf.geekdo-images.com/tfqKd4dF4NGSYOaaNyMT6w__original/img/DxRuZSR4-4PQwG-ai9GnwSYlfvI=/0x0/filters:format(jpeg)/pic7656504.jpg",
+     "size": [
+      21.4,
+      15.4,
+      3.8
+     ]
+    },
+    {
+     "id": "551549",
+     "name": "Chinese edition",
+     "year": 2021,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/joHFGSuKaYhwIB76PyDHug__small/img/NG3PFyj0A0W8wQlibRagl0yGDpc=/fit-in/200x150/filters:strip_icc()/pic5955439.png",
+     "image": "https://cf.geekdo-images.com/joHFGSuKaYhwIB76PyDHug__original/img/hG64u-mE6faFcO_SuaXPyqJW0wM=/0x0/filters:format(png)/pic5955439.png",
+     "size": null
+    },
+    {
+     "id": "555905",
+     "name": "English edition",
+     "year": 2021,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/e4Fkzn03fI4crl_i1mtEng__small/img/LuL0pYlOYAiHhkz1aWLO5gpUzaQ=/fit-in/200x150/filters:strip_icc()/pic6050372.png",
+     "image": "https://cf.geekdo-images.com/e4Fkzn03fI4crl_i1mtEng__original/img/jrpLd4c_BJPl-l-AT0tjEqPUK9k=/0x0/filters:format(png)/pic6050372.png",
+     "size": [
+      20,
+      14,
+      4
+     ]
+    },
+    {
+     "id": "560084",
+     "name": "French edition",
+     "year": 2021,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/3k5uoWHM_OhZScHmEgfMug__small/img/Fw91y46pw_Je9LsHZ4602jy2HO8=/fit-in/200x150/filters:strip_icc()/pic6114865.png",
+     "image": "https://cf.geekdo-images.com/3k5uoWHM_OhZScHmEgfMug__original/img/iUIBw0i2PG_SS6-BkKH_PZoMXEY=/0x0/filters:format(png)/pic6114865.png",
+     "size": null
+    },
+    {
+     "id": "496366",
+     "name": "German edition",
+     "year": 2020,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/scEKDr-EcEK5a70OydyDKg__small/img/YXX83vnJqw1j6jSjEDXV5gqw2xA=/fit-in/200x150/filters:strip_icc()/pic5399079.jpg",
+     "image": "https://cf.geekdo-images.com/scEKDr-EcEK5a70OydyDKg__original/img/9C0W-es1uo1xybjru9N1bUlxjVw=/0x0/filters:format(jpeg)/pic5399079.jpg",
+     "size": [
+      20,
+      14,
+      4
+     ]
+    },
+    {
+     "id": "646657",
+     "name": "Spanish/Portuguese edition",
+     "year": null,
+     "lang": "Portuguese・Spanish",
+     "thumb": "https://cf.geekdo-images.com/nVkV9qrSx-C7YWRlvq8b7Q__small/img/z8qMWxOjJoyiPy36UCRnIkLAvI0=/fit-in/200x150/filters:strip_icc()/pic7288760.jpg",
+     "image": "https://cf.geekdo-images.com/nVkV9qrSx-C7YWRlvq8b7Q__original/img/kz753O_mmEWvFnyGe8CgVKhtLuE=/0x0/filters:format(jpeg)/pic7288760.jpg",
+     "size": [
+      20,
+      14,
+      4
+     ]
+    }
+   ],
+   "at": "2026-11-28T05:16:03.249Z"
   },
   "307963": {
    "v": 4,
@@ -36017,6 +36539,110 @@
    ],
    "at": "2026-11-27T05:26:35.017Z"
   },
+  "376747": {
+   "v": 4,
+   "id": "376747",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "2〜6",
+   "minTime": 15,
+   "maxTime": 20,
+   "age": 10,
+   "rating": 6.62,
+   "weight": 1.1,
+   "rank": 3503,
+   "mechanics": [
+    "Memory",
+    "Push Your Luck",
+    "Set Collection"
+   ],
+   "categories": [
+    "Animals",
+    "Memory"
+   ],
+   "designers": [
+    "Molly Johnson",
+    "Robert Melvin",
+    "Shawn Stankewich"
+   ],
+   "artists": [
+    "Dylan Mangini"
+   ],
+   "publishers": [
+    "Flatout Games",
+    "Alderac Entertainment Group",
+    "MINDOK"
+   ],
+   "families": [
+    "Animals: Penguins",
+    "Theme: Fishing / Angling",
+    "Theme: Food / Cooking",
+    "Theme: Nature"
+   ],
+   "desc": "Deep Dive is a press-your-luck set-collection game in which you use your waddle of penguins to dive deep into the ocean to amass the most bountiful collection of food!\n\nTurns are simple: Flip over an ocean tile, and see what you reveal. You can take what you reveal in the shallows or dive deeper, hoping for a larger catch — but the deeper you go, the more plentiful the predators become. As you surface with food, you build sets of three colors. Target the colors you need to complete sets and score the maximum number of points.\n\nWhen one of the depths of the ocean has been fully explored, the game ends and the penguin waddle with the best sets of food wins!\n\n—description from publisher",
+   "expansions": [
+    {
+     "id": "399879",
+     "name": "Deep Dive: Wild Food"
+    }
+   ],
+   "bases": [],
+   "en": "Deep Dive",
+   "ja": "",
+   "minp": 1,
+   "maxp": 6,
+   "time": 20,
+   "year": 2023,
+   "thumb": "https://cf.geekdo-images.com/ikn4yPI7GUsrgHRvOkNHkg__small/img/TYG05PzOf03MfjZmoShlr7qsG30=/fit-in/200x150/filters:strip_icc()/pic7235026.png",
+   "image": "https://cf.geekdo-images.com/ikn4yPI7GUsrgHRvOkNHkg__original/img/wpy2zN0Ev_d30u1k-0xXj74QsRM=/0x0/filters:format(png)/pic7235026.png",
+   "box": [
+    19.5,
+    14.5,
+    4.5
+   ],
+   "versions": [
+    {
+     "id": "701278",
+     "name": "Czech edition",
+     "year": 2024,
+     "lang": "Czech",
+     "thumb": "https://cf.geekdo-images.com/5iYMM7v5j6XwNhbYBXydwQ__small/img/qU6apxhrcZj990JF8wFGk3L7VUM=/fit-in/200x150/filters:strip_icc()/pic8003257.jpg",
+     "image": "https://cf.geekdo-images.com/5iYMM7v5j6XwNhbYBXydwQ__original/img/ULerY4pcP1Qgekl4KRaFf38oAqk=/0x0/filters:format(jpeg)/pic8003257.jpg",
+     "size": [
+      19.6,
+      14.5,
+      4.8
+     ]
+    },
+    {
+     "id": "726352",
+     "name": "English second edition",
+     "year": 2024,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/c0_ZsPaKJFUN231aEKUOkg__small/img/iTFQBmNxuNDplu2o5jSc6fJENVM=/fit-in/200x150/filters:strip_icc()/pic8392837.png",
+     "image": "https://cf.geekdo-images.com/c0_ZsPaKJFUN231aEKUOkg__original/img/ozsVnju3s_psAgIXHhpsIqIyvCE=/0x0/filters:format(png)/pic8392837.png",
+     "size": [
+      19.5,
+      14,
+      4.6
+     ]
+    },
+    {
+     "id": "643451",
+     "name": "English first edition",
+     "year": 2023,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/ikn4yPI7GUsrgHRvOkNHkg__small/img/TYG05PzOf03MfjZmoShlr7qsG30=/fit-in/200x150/filters:strip_icc()/pic7235026.png",
+     "image": "https://cf.geekdo-images.com/ikn4yPI7GUsrgHRvOkNHkg__original/img/wpy2zN0Ev_d30u1k-0xXj74QsRM=/0x0/filters:format(png)/pic7235026.png",
+     "size": [
+      19.5,
+      14.5,
+      4.5
+     ]
+    }
+   ],
+   "at": "2026-11-28T05:16:13.561Z"
+  },
   "377470": {
    "v": 4,
    "id": "377470",
@@ -41592,6 +42218,119 @@
    "versions": [],
    "at": "2026-11-27T05:20:10.741Z"
   },
+  "434172": {
+   "v": 4,
+   "id": "434172",
+   "type": "boardgame",
+   "best": "5〜6",
+   "rec": "4〜8",
+   "minTime": 15,
+   "maxTime": 25,
+   "age": 14,
+   "rating": 7.29,
+   "weight": 1.31,
+   "rank": 2456,
+   "mechanics": [
+    "Deduction",
+    "Hidden Movement",
+    "Memory",
+    "Once-Per-Game Abilities",
+    "Simultaneous Action Selection"
+   ],
+   "categories": [
+    "Bluffing",
+    "Deduction",
+    "Fantasy",
+    "Medieval",
+    "Memory",
+    "Party Game"
+   ],
+   "designers": [
+    "Manny Trembley"
+   ],
+   "artists": [
+    "James Van Niekerk",
+    "Manny Trembley"
+   ],
+   "publishers": [
+    "Roxley",
+    "CrowD Games",
+    "Delight",
+    "Mirakulus"
+   ],
+   "families": [
+    "Theme: King Arthur / The Knights of the Round Table / Camelot",
+    "Theme: Stained Glass"
+   ],
+   "desc": "Leave your nobility at the door in this lighthearted game of hilarious backstabbery! Use any tool to find Excalibur and keep it safe in your \"virtuous\" hands.\n\nExcalibur is a party game filled with bluffing and subterfuge. Draw tiles from Avalon to find Excalibur, then use the powers of Arthurian legends to keep it safe from the other would-be kings 'round the table!\n\nDuring each round, players simultaneously draw chips from the 3 regions of Avalon on the table and then reveal them one by one, resolving their effects and discarding them. The game ends when a region of Avalon has no more chips.  A player must hold the Excalibur chip to win, otherwise everyone loses.\n\n—description from the publisher",
+   "expansions": [],
+   "bases": [],
+   "en": "Excalibur",
+   "ja": "",
+   "minp": 2,
+   "maxp": 8,
+   "time": 25,
+   "year": 2026,
+   "thumb": "https://cf.geekdo-images.com/CKNRCpGY0SwKG-W3Dw4WAQ__small/img/CarGoRM9TR8ptwyVDN3chIV27kc=/fit-in/200x150/filters:strip_icc()/pic8922385.png",
+   "image": "https://cf.geekdo-images.com/CKNRCpGY0SwKG-W3Dw4WAQ__original/img/4r65BHX_xKwPJkveHKjfxoVJ1EI=/0x0/filters:format(png)/pic8922385.png",
+   "box": [
+    22,
+    10,
+    6
+   ],
+   "versions": [
+    {
+     "id": "762683",
+     "name": "English Collector's edition",
+     "year": 2026,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/_a4_mDMXdTK8U5Ngul9Gcw__small/img/ABH9NMTb9jSlsF2dj1U0KiwKWcg=/fit-in/200x150/filters:strip_icc()/pic9556500.png",
+     "image": "https://cf.geekdo-images.com/_a4_mDMXdTK8U5Ngul9Gcw__original/img/1xVw_4NVb_PKN-uoloqdoFK5bwA=/0x0/filters:format(png)/pic9556500.png",
+     "size": [
+      22,
+      10,
+      6
+     ]
+    },
+    {
+     "id": "737397",
+     "name": "English deluxe edition",
+     "year": 2026,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/CKNRCpGY0SwKG-W3Dw4WAQ__small/img/CarGoRM9TR8ptwyVDN3chIV27kc=/fit-in/200x150/filters:strip_icc()/pic8922385.png",
+     "image": "https://cf.geekdo-images.com/CKNRCpGY0SwKG-W3Dw4WAQ__original/img/4r65BHX_xKwPJkveHKjfxoVJ1EI=/0x0/filters:format(png)/pic8922385.png",
+     "size": null
+    },
+    {
+     "id": "814294",
+     "name": "German Collector's edition",
+     "year": 2026,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/8M_rr74-wHgsKuBky4CBKA__small/img/6rtc1i9kZVuKyOhBX2jIdANv1iI=/fit-in/200x150/filters:strip_icc()/pic9785614.png",
+     "image": "https://cf.geekdo-images.com/8M_rr74-wHgsKuBky4CBKA__original/img/9OBoGYNletZMjNnLBsabvpDSN2A=/0x0/filters:format(png)/pic9785614.png",
+     "size": null
+    },
+    {
+     "id": "814295",
+     "name": "German Essential edition",
+     "year": 2026,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/9HUM166j6SIZfo4SrYDNZw__small/img/67Xi3mR9fKtOiZJGhFs-fahJVVk=/fit-in/200x150/filters:strip_icc()/pic9785637.jpg",
+     "image": "https://cf.geekdo-images.com/9HUM166j6SIZfo4SrYDNZw__original/img/HYRIW6pGoJqSBVqzqBEAHQn8eqM=/0x0/filters:format(jpeg)/pic9785637.jpg",
+     "size": null
+    },
+    {
+     "id": "816476",
+     "name": "Korean Collector's edition",
+     "year": 2026,
+     "lang": "Korean",
+     "thumb": "https://cf.geekdo-images.com/wCFphaWdQgP7Bk8msu2ezg__small/img/6Fkg8J3I2zwenAD79JCcnmON3Ds=/fit-in/200x150/filters:strip_icc()/pic9812602.jpg",
+     "image": "https://cf.geekdo-images.com/wCFphaWdQgP7Bk8msu2ezg__original/img/nD2tP-09Q1NIOPRwYU0ulan9M9M=/0x0/filters:format(jpeg)/pic9812602.jpg",
+     "size": null
+    }
+   ],
+   "at": "2026-11-28T05:16:05.834Z"
+  },
   "435357": {
    "v": 4,
    "id": "435357",
@@ -43678,6 +44417,47 @@
    ],
    "at": "2026-11-27T13:09:02.036Z"
   },
+  "469351": {
+   "v": 4,
+   "id": "469351",
+   "type": "boardgame",
+   "best": "1",
+   "rec": "1",
+   "minTime": 30,
+   "maxTime": null,
+   "age": 12,
+   "rating": 7,
+   "weight": 2,
+   "rank": null,
+   "mechanics": [],
+   "categories": [
+    "Card Game"
+   ],
+   "designers": [
+    "Kudousan (工藤さん)"
+   ],
+   "artists": [
+    "Narumichi"
+   ],
+   "publishers": [
+    "Boardgame shop Asobiba"
+   ],
+   "families": [],
+   "desc": "Deck Rogue Reload is a roguelike-inspired cooperative card game designed for high replayability.\nThe goal is to build the strongest possible deck, defeat the enemies you encounter, and ultimately take down the final boss deep within the dungeon.\nOn your turn, the rules are simple: you can play as many cards as you like. However, when your deck runs out, you do not shuffle it—your discard pile simply becomes your new deck as it is. Because of this, the order in which you play your cards is extremely important.\nAs the game progresses, enemies become increasingly powerful, so players must carefully choose how to use their cards.\nCan you make it to the end?\n\n—description from the publisher",
+   "expansions": [],
+   "bases": [],
+   "en": "Deck Rogue Reload",
+   "ja": "",
+   "minp": 1,
+   "maxp": 2,
+   "time": null,
+   "year": 2026,
+   "thumb": "https://cf.geekdo-images.com/QDaccVRd7ZfSAD-QM8Df0Q__small/img/ZanJ6wSbMm0MaQVq8ZCogbZTEGY=/fit-in/200x150/filters:strip_icc()/pic9699927.jpg",
+   "image": "https://cf.geekdo-images.com/QDaccVRd7ZfSAD-QM8Df0Q__original/img/WCCzZSkJcMYCxz2umDP1f9iGzu0=/0x0/filters:format(jpeg)/pic9699927.jpg",
+   "box": null,
+   "versions": [],
+   "at": "2026-11-28T05:16:00.678Z"
+  },
   "483679": {
    "v": 4,
    "id": "483679",
@@ -43783,7 +44563,7 @@
    "at": "2026-11-27T13:09:29.707Z"
   }
  },
- "updatedAt": "2026-11-28T04:19:48.931Z",
+ "updatedAt": "2026-11-28T05:16:28.177Z",
  "exps": {
   "453": {
    "id": "453",
@@ -48575,6 +49355,16 @@
    "time": 45,
    "at": "2026-11-26T03:31:49.189Z"
   },
+  "321590": {
+   "id": "321590",
+   "en": "King of 12: The Faun & The Collector",
+   "thumb": "https://cf.geekdo-images.com/aJMsTGRi5W9_j8qeYkQlcQ__small/img/xzxRqpV-W517mJkgws9iW9g7ZVU=/fit-in/200x150/filters:strip_icc()/pic5718282.jpg",
+   "year": 2020,
+   "minp": 2,
+   "maxp": 4,
+   "time": 40,
+   "at": "2026-11-28T05:16:16.225Z"
+  },
   "322011": {
    "id": "322011",
    "en": "Project L: Finesse Ambassador Pack",
@@ -49295,6 +50085,16 @@
    "time": 45,
    "at": "2026-11-26T03:32:01.767Z"
   },
+  "352170": {
+   "id": "352170",
+   "en": "King of 12: Turnierspiel Promo",
+   "thumb": "https://cf.geekdo-images.com/f5ZOMoQvzjLSsQSPVAJQxw__small/img/jzA3JE3Lqj6kCVJN1ajZYpX5gyw=/fit-in/200x150/filters:strip_icc()/pic6544718.jpg",
+   "year": 2020,
+   "minp": null,
+   "maxp": null,
+   "time": null,
+   "at": "2026-11-28T05:16:16.225Z"
+  },
   "352250": {
    "id": "352250",
    "en": "Improving Games: Monopoly",
@@ -49314,6 +50114,16 @@
    "maxp": 5,
    "time": 180,
    "at": "2026-11-27T13:10:29.807Z"
+  },
+  "352621": {
+   "id": "352621",
+   "en": "King of 12: die Arbeiterin, die Druidin & der Geduldige promo cards",
+   "thumb": "https://cf.geekdo-images.com/jpjNCPL1YvdjxFapsLkuRQ__small/img/wQmw2NmmWMiD5vgWXb0FSYf1Iwo=/fit-in/200x150/filters:strip_icc()/pic6701447.jpg",
+   "year": 2021,
+   "minp": 2,
+   "maxp": 4,
+   "time": 40,
+   "at": "2026-11-28T05:16:16.225Z"
   },
   "353383": {
    "id": "353383",
@@ -50474,6 +51284,16 @@
    "maxp": 100,
    "time": 45,
    "at": "2026-11-26T03:32:29.349Z"
+  },
+  "399879": {
+   "id": "399879",
+   "en": "Deep Dive: Wild Food",
+   "thumb": "https://cf.geekdo-images.com/0IUUNsLle9Tc4L5APaHeGA__small/img/hrBbrx0GcEkVvmRtZbdjSphX1Iw=/fit-in/200x150/filters:strip_icc()/pic7696769.jpg",
+   "year": 2023,
+   "minp": 1,
+   "maxp": 6,
+   "time": 20,
+   "at": "2026-11-28T05:16:16.225Z"
   },
   "400127": {
    "id": "400127",
@@ -53514,6 +54334,10 @@
    "at": "2026-11-27T05:45:46.481Z",
    "sets": []
   },
+  "4431": {
+   "at": "2026-11-28T05:16:25.121Z",
+   "sets": []
+  },
   "5155": {
    "at": "2026-11-27T13:11:35.375Z",
    "sets": []
@@ -55093,6 +55917,39 @@
     }
    ]
   },
+  "244995": {
+   "at": "2026-11-28T05:16:23.563Z",
+   "sets": [
+    {
+     "name": "",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 59,
+       "h": 92,
+       "n": 110,
+       "note": ""
+      }
+     ]
+    },
+    {
+     "name": "FoxGames Polish edition (2019)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 59,
+       "h": 91,
+       "n": 110,
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
   "245932": {
    "at": "2026-11-27T13:11:29.072Z",
    "sets": []
@@ -55566,6 +56423,25 @@
        "h": 63.5,
        "n": 4,
        "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  "302917": {
+   "at": "2026-11-28T05:16:20.428Z",
+   "sets": [
+    {
+     "name": "Lucky Duck Games English and French eds (2021)",
+     "addon": false,
+     "notes": "",
+     "cards": [
+      {
+       "name": "",
+       "w": 70,
+       "h": 120,
+       "n": 52,
+       "note": "Including four reference cards."
       }
      ]
     }
@@ -56571,6 +57447,10 @@
     }
    ]
   },
+  "376747": {
+   "at": "2026-11-28T05:16:26.676Z",
+   "sets": []
+  },
   "377470": {
    "at": "2026-11-27T05:42:47.500Z",
    "sets": [
@@ -57321,6 +58201,10 @@
    "at": "2026-11-27T05:45:11.709Z",
    "sets": []
   },
+  "434172": {
+   "at": "2026-11-28T05:16:22.016Z",
+   "sets": []
+  },
   "435357": {
    "at": "2026-11-27T05:42:52.244Z",
    "sets": [
@@ -57664,6 +58548,10 @@
      ]
     }
    ]
+  },
+  "469351": {
+   "at": "2026-11-28T05:16:18.880Z",
+   "sets": []
   },
   "483679": {
    "at": "2026-11-27T13:10:39.707Z",
