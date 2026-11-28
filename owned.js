@@ -47,26 +47,44 @@ const boxLabel = (t) => BOXES.find((x) => x[0] === t)?.[1] || "";
 const cmText = (cm) => cm ? `${cm[0]}×${cm[1]}${cm[2] ? `×${cm[2]}` : ""}cm` : "";
 
 // スリーブ：g.sleeves = [{ name, w, h, n, sid, kind, done }]（カードの名前・サイズmm・枚数・手持ちスリーブのID・スリーブの名前・スリーブ済み）
-// 手持ちのスリーブ（よく使う製品）：localStorage bgb.sleevecat.v1 = [{ id, name, w, h, pack, stock, note }]（w×h は対応するカードのサイズ、pack は1袋の枚数、stock は在庫枚数）
-const SLEEVE_SIZES = [["63.5×88", "スタンダード"], ["59×92", "ユーロ"], ["56×87", "USA"], ["66×91", "TCG"], ["57.5×89", "チミニ"], ["44×68", "ミニユーロ"], ["41×63", "ミニUSA"], ["70×110", "タロット"], ["80×120", "大判"]];
+// 手持ちのスリーブ：localStorage bgb.sleevecat.v1 = [{ id, brand, name, w, h, pack, stock, note, fav, preset, sz:2 }]
+//   w×h はスリーブの大きさ（袋の表示・mm）、pack は1袋の枚数、stock は在庫枚数、fav は「よく使う」（自動で選ぶときに優先）
+//   config/sleeves.json の候補（preset）を取り込む。画面で削除した候補は bgb.sleevecat.removed に入れて戻さない
+// よくあるカードのサイズ（カードの大きさ・mm）
+const SLEEVE_SIZES = [["41×63", "ミニUSA"], ["43×65", "ミニアメリカン"], ["44×63", "TCGハーフ"], ["44×67", "ミニユーロ"], ["44×68", "ミニユーロ"], ["54×86", "名刺・メンバーズ"], ["56×87", "USA（アメリカン）"], ["57×89", "ブリッジ"], ["59×86", "スモール（遊戯王）"], ["59×91", "ユーロ（ドミニオン）"], ["59×92", "ユーロ"], ["63×88", "TCG（MTG・ポケカ）"], ["63.5×88", "スタンダード（トランプ）"], ["65×100", "世界の七不思議"], ["70×70", "スクエア"], ["80×80", "スクエア（大）"], ["70×110", "タロット（小）"], ["70×120", "タロット"], ["80×120", "ディクシット"]];
 const sizeKey = (s) => `${+s.w}×${+s.h}`;
 const sizeName = (k) => SLEEVE_SIZES.find((x) => x[0] === k)?.[1] || "";
 function parseSize(t) { const m = String(t).replace(/[０-９．]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xfee0)).match(/(\d+(?:\.\d+)?)\s*[x×*✕]\s*(\d+(?:\.\d+)?)/i); return m ? [+m[1], +m[2]].sort((a, b) => a - b) : null; }
 const LS_SLVCAT = "bgb.sleevecat.v1";
 let sleeveCat = store.get(LS_SLVCAT, []);
 const saveCat = () => store.set(LS_SLVCAT, sleeveCat);
+// 前の形（w×h が対応カードのサイズ）からスリーブの大きさへ直す
+if (sleeveCat.some((x) => !x.sz)) { for (const x of sleeveCat) if (!x.sz) { x.w = +(x.w + 1.5).toFixed(1); x.h = +(x.h + 2).toFixed(1); x.sz = 2; } saveCat(); }
+const LS_SLVRM = "bgb.sleevecat.removed";
+fetch("config/sleeves.json?" + Date.now()).then((r) => r.json()).then((d) => {
+  const rm = new Set(store.get(LS_SLVRM, [])); let add = 0;
+  for (const p of d.products || []) for (const it of p.items || []) {
+    if (rm.has(it.id) || catById(it.id)) continue;
+    sleeveCat.push({ id: it.id, brand: p.brand, name: [p.brand, p.line, it.label].filter(Boolean).join(" "), w: it.w, h: it.h, pack: p.pack, note: p.note, preset: 1, sz: 2 }); add++;
+  }
+  if (add) { saveCat(); if (OS.sleeveSum) drawSleeveSum(); }
+}).catch(() => {});
 const catById = (id) => sleeveCat.find((x) => x.id === id);
 const slvName = (r) => catById(r.sid)?.name || r.kind || "";
-// カードがスリーブに入るか：カードがスリーブの対応サイズより0.6mm以上大きくなければ入る。余りが4mm以内は「ぴったり」、10mm以内は「ゆるめ」
+// カードがスリーブに入るか：カードがスリーブより縦横とも0.5mm以上小さければ入る。余り（縦＋横）が5mm以内は「ぴったり」、12mm以内は「ゆるめ」
 function fitOf(cat, c) {
-  if (!cat?.w || !c?.w || c.w > cat.w + 0.6 || c.h > cat.h + 0.6) return null;
-  const slack = Math.max(0, cat.w - c.w) + Math.max(0, cat.h - c.h);
-  return slack <= 4 ? "ぴったり" : slack <= 10 ? "ゆるめ" : null;
+  if (!cat?.w || !c?.w || c.w > cat.w - 0.5 || c.h > cat.h - 0.5) return null;
+  const slack = (cat.w - c.w) + (cat.h - c.h);
+  return slack <= 5 ? "ぴったり" : slack <= 12 ? "ゆるめ" : null;
 }
+// 合うスリーブ：ぴったり → 「よく使う」→ 在庫あり → 余りが小さい順
 function suggest(c) {
-  const ok = sleeveCat.map((x) => ({ x, f: fitOf(x, c), d: (x.w - c.w) + (x.h - c.h) })).filter((o) => o.f).sort((a, b) => a.d - b.d);
+  const ok = sleeveCat.map((x) => ({ x, f: fitOf(x, c), d: (x.w - c.w) + (x.h - c.h) })).filter((o) => o.f)
+    .sort((a, b) => (b.f === "ぴったり") - (a.f === "ぴったり") || !!b.x.fav - !!a.x.fav || (+b.x.stock > 0) - (+a.x.stock > 0) || a.d - b.d);
   return ok[0]?.x || null;
 }
+// そのスリーブにぴったり合う、よくあるカードのサイズ
+const fitCards = (x) => SLEEVE_SIZES.filter(([k]) => { const [w, h] = k.split("×").map(Number); return fitOf(x, { w, h }) === "ぴったり"; });
 const packsText = (n, cat) => cat?.pack && n ? `${Math.ceil(n / cat.pack)}袋` : "";
 
 // 本体と拡張のまとまり：parent の名前（日本語名・英語名・登録時の名前）か、BGGの「この拡張の本体」で探す。拡張の拡張も本体の下にまとめる
@@ -716,13 +734,18 @@ function sleeveCatalog(body) {
     const rows = owned.flatMap((g) => (g.sleeves || []).filter((r) => r.sid === x.id).map((r) => ({ g, r })));
     return { rows, used: rows.filter((o) => o.r.done).reduce((a, o) => a + (+o.r.n || 0), 0), need: rows.filter((o) => !o.r.done).reduce((a, o) => a + (+o.r.n || 0), 0) };
   };
-  const list = [...sleeveCat].sort((a, b) => a.w * a.h - b.w * b.h);
-  body.innerHTML = list.length ? "" : `<div class="s">よく使うスリーブを登録しておくと、ゲームのスリーブ欄でサイズに合うものが自動で選ばれ、何袋いるかも表示されます。スリーブ側からは、使っているゲームを確認できます。</div>`;
+  const list = [...sleeveCat].sort((a, b) => !!b.fav - !!a.fav || (a.brand || "ん").localeCompare(b.brand || "ん", "ja") || a.w * a.h - b.w * b.h);
+  body.innerHTML = list.length ? `<div class="s">★はよく使うスリーブ（ゲームのスリーブ欄で優先して選ばれます）。大きさは袋に書いてあるスリーブの寸法です。</div>` : `<div class="s">よく使うスリーブを登録しておくと、ゲームのスリーブ欄でサイズに合うものが自動で選ばれ、何袋いるかも表示されます。スリーブ側からは、使っているゲームを確認できます。</div>`;
+  let group = null;
   for (const x of list) {
+    const gname = x.fav ? "★ よく使う" : x.brand || "その他";
+    if (gname !== group) { group = gname; body.insertAdjacentHTML("beforeend", `<div class="lbl3 catg">${esc(gname)}</div>`); }
     const u = use(x), open = OS.slvOpen === x.id, short = x.stock != null && x.stock !== "" && u.need > +x.stock;
     const d = document.createElement("div");
     d.className = "cat" + (open ? " open" : "");
-    d.innerHTML = `<button class="cath"><span class="cn">${esc(x.name)}</span><span class="cs">${x.w}×${x.h}mm${sizeName(sizeKey(x)) ? ` ${esc(sizeName(sizeKey(x)))}` : ""}${x.pack ? `・1袋${x.pack}枚` : ""}</span>
+    const fc = fitCards(x);
+    d.innerHTML = `<button class="cath"><span class="cn">${x.fav ? "★ " : ""}${esc(x.name)}</span><span class="cs">${x.w}×${x.h}mm${x.pack ? `・1袋${x.pack}枚` : ""}</span>
+        ${fc.length ? `<span class="cf">カード ${fc.map(([k, l]) => `${k}`).join("・")}</span>` : ""}
         <span class="cc">使用 ${u.used}枚${u.need ? `・<b class="${short ? "left" : ""}">これから ${u.need}枚</b>` : ""}${x.stock !== undefined && x.stock !== "" ? `・在庫 ${x.stock}枚` : ""}</span></button>`;
     d.querySelector(".cath").onclick = () => { OS.slvOpen = open ? null : x.id; drawSleeveSum(); };
     if (open) {
@@ -747,14 +770,16 @@ function catForm(x) {
   const f = document.createElement("form");
   f.className = "add sform catf";
   f.innerHTML = `<input name="name" value="${esc(x?.name || "")}" placeholder="名前（例：Mayday スタンダード プレミアム）" required>
-    <div class="r"><input name="size" value="${x ? esc(sizeKey(x)) : ""}" list="slvSizes2" placeholder="対応カードサイズ mm（例：63.5×88）" required inputmode="decimal"><input name="pack" value="${esc(x?.pack || "")}" placeholder="1袋の枚数" inputmode="numeric" class="num"></div>
+    <div class="r"><input name="brand" value="${esc(x?.brand || "")}" placeholder="メーカー（まとめて表示）"><label class="ck"><input type="checkbox" name="fav"${x?.fav ? " checked" : ""}>★よく使う</label></div>
+    <div class="r"><input name="size" value="${x ? esc(sizeKey(x)) : ""}" placeholder="スリーブの大きさ mm（袋の表示。例：65×90）" required inputmode="decimal"><input name="pack" value="${esc(x?.pack || "")}" placeholder="1袋の枚数" inputmode="numeric" class="num"></div>
     <div class="r"><input name="stock" value="${esc(x?.stock ?? "")}" placeholder="在庫の枚数（任意）" inputmode="numeric"><input name="note" value="${esc(x?.note || "")}" placeholder="メモ（厚さ・買った店など）"></div>
-    <datalist id="slvSizes2">${SLEEVE_SIZES.map(([k, l]) => `<option value="${k}">${l}</option>`).join("")}</datalist>
     <div class="r">${x ? `<button type="button" class="ghostbtn" data-a="del">削除</button>` : ""}<span style="flex:1"></span><button>${x ? "保存" : "登録"}</button></div>`;
   f.querySelector("[data-a=del]")?.addEventListener("click", () => {
     const n = owned.filter((g) => (g.sleeves || []).some((r) => r.sid === x.id)).length;
     if (!confirm(`「${x.name}」を手持ちから削除しますか？${n ? `\n使っている${n}ゲームには名前だけ残ります。` : ""}`)) return;
-    sleeveCat = sleeveCat.filter((y) => y !== x); saveCat(); OS.slvOpen = null; drawSleeveSum();
+    sleeveCat = sleeveCat.filter((y) => y !== x); saveCat();
+    if (x.preset) store.set(LS_SLVRM, [...new Set([...store.get(LS_SLVRM, []), x.id])]);
+    OS.slvOpen = null; drawSleeveSum();
   });
   f.onsubmit = (e) => {
     e.preventDefault();
@@ -762,7 +787,7 @@ function catForm(x) {
     if (!sz) { alert("サイズは「63.5×88」の形で入れてください"); return; }
     const num = (t) => { const n = parseInt(String(t).replace(/[^\d]/g, "")); return Number.isFinite(n) ? n : undefined; };
     const o = x || { id: "s" + Date.now().toString(36) };
-    Object.assign(o, { name: v.name.trim(), w: sz[0], h: sz[1], pack: num(v.pack), stock: num(v.stock), note: v.note.trim() || undefined });
+    Object.assign(o, { name: v.name.trim(), brand: v.brand.trim() || undefined, fav: v.fav ? 1 : undefined, w: sz[0], h: sz[1], pack: num(v.pack), stock: num(v.stock), note: v.note.trim() || undefined, sz: 2 });
     for (const k of Object.keys(o)) if (o[k] === undefined) delete o[k];
     if (!x) sleeveCat.push(o);
     // 名前を変えたら、ゲーム側に残している名前も直す
@@ -795,7 +820,9 @@ function sleeveTotals(body) {
       <label class="ck"><input type="checkbox" data-o="slvBgg"${OS.slvBgg ? " checked" : ""}>未登録のゲームはBGGのデータで数える</label></div>
     ${rows.length ? `<table><tr><th>サイズ(mm)<small>${games}ゲーム</small></th><th>必要</th><th>済み</th><th>あと</th></tr>${rows.map((r) => {
       // 手持ちで合うスリーブと在庫
-      const fit = sleeveCat.filter((x) => fitOf(x, r)).map((x) => `${esc(x.name)}${x.stock !== undefined ? `（在庫${x.stock}）` : ""}`);
+      // おすすめ（自動で選ばれるもの）と、在庫があってぴったりのもの
+      const best = suggest(r), more = sleeveCat.filter((x) => x !== best && +x.stock > 0 && fitOf(x, r) === "ぴったり");
+      const fit = [best, ...more].filter(Boolean).slice(0, 3).map((x) => `${esc(x.name)}${x.stock !== undefined ? `（在庫${x.stock}）` : ""}${x.pack && r.need - r.done > 0 ? ` ${Math.ceil((r.need - r.done) / x.pack)}袋` : ""}`);
       return `<tr><td>${esc(r.k)}${sizeName(r.k) ? `<small>${esc(sizeName(r.k))}</small>` : ""}${fit.length ? `<div class="kinds">手持ち：${fit.join("・")}</div>` : r.w ? `<div class="kinds none">手持ちに合うスリーブなし</div>` : ""}</td>
       <td>${r.need}</td><td>${r.done}</td><td class="${r.need - r.done ? "left" : ""}">${r.need - r.done}</td></tr>
       ${r.todo.length ? `<tr class="todo"><td colspan="4"><div class="todos">${r.todo.map(([g, s, b]) => gameChip(g, `${s.n ? ` ${s.n}枚` : ""}${b ? "<small>BGG</small>" : ""}`)).join("")}</div></td></tr>` : ""}`;

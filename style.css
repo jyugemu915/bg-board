@@ -296,3 +296,5 @@ form.sform .bggset select{flex:1;min-width:0;font:inherit;font-size:14px;padding
 .ssum th small{display:block;font-size:10px}
 .pchip small{font-size:9.5px;color:var(--muted);margin-left:3px}
 form.sform select[name=sid]{flex:1;min-width:0;font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:#fff}
+.ssum .catg{margin-top:10px;font-weight:600;color:#5d594f}
+.ssum .cf{flex-basis:100%;font-size:11px;color:#6b8a5f}

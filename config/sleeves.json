@@ -1,0 +1,28 @@
+{
+ "note": "手持ちのスリーブの候補。ボードを開いたときに手持ちへ取り込む（画面で削除したものは戻さない）。w×h はスリーブの大きさ（mm・袋の表示）",
+ "products": [
+  { "brand": "Engames", "line": "ハード", "pack": 100, "note": "厚さ100μ（ハード）", "items": [
+   { "id": "eg-h-miniusa", "label": "ミニアメリカン", "w": 43, "h": 65 },
+   { "id": "eg-h-tcghalf", "label": "TCGハーフ", "w": 46, "h": 65 },
+   { "id": "eg-h-minieuro", "label": "ミニユーロ", "w": 46, "h": 69 },
+   { "id": "eg-h-usa", "label": "アメリカン", "w": 58, "h": 89 },
+   { "id": "eg-h-bridge", "label": "ブリッジ", "w": 59, "h": 90 },
+   { "id": "eg-h-euro", "label": "ユーロ", "w": 61, "h": 93 },
+   { "id": "eg-h-std", "label": "スタンダード", "w": 65, "h": 90 }
+  ]},
+  { "brand": "スゴいスリーブ", "line": "", "pack": 100, "note": "シンキングファクトリー。片面エンボス、厚さ約0.15mm（ソフトとハードの中間）", "items": [
+   { "id": "sg-tcghalf", "label": "TCGハーフ", "w": 46, "h": 65 },
+   { "id": "sg-minieuro", "label": "ミニユーロ", "w": 46, "h": 69 },
+   { "id": "sg-usa", "label": "アメリカン", "w": 58, "h": 89 },
+   { "id": "sg-bridge", "label": "ブリッジ", "w": 59, "h": 91 },
+   { "id": "sg-euro", "label": "ユーロ", "w": 61, "h": 93 },
+   { "id": "sg-tcg", "label": "TCG", "w": 65, "h": 90 }
+  ]},
+  { "brand": "ホビーベース", "line": "両表面エンボスマット", "pack": 101, "note": "両面エンボスマット、ソフト0.05mm", "items": [
+   { "id": "hb-em-members", "label": "メンバーズカード（CAC-SL58）", "w": 55.5, "h": 87.5 },
+   { "id": "hb-em-bg", "label": "ボードゲーム（CAC-SL57）", "w": 58.5, "h": 91 },
+   { "id": "hb-em-euro", "label": "ユーロ（CAC-SL56）", "w": 60.5, "h": 92.5 },
+   { "id": "hb-em-tcg", "label": "TCG（CAC-SL59）", "w": 64.5, "h": 89.5 }
+  ]}
+ ]
+}
