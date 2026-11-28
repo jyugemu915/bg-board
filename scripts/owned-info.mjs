@@ -136,6 +136,24 @@ for (const id of sleeveIds.slice(0, SLEEVE_MAX)) {
   await sleep(1500);
 }
 console.log(`sleeves: ${ns}件取得（スリーブ情報あり ${Object.values(db.sleeves).filter((x) => x.sets.length).length} / ${Object.keys(db.sleeves).length}、残り ${Math.max(0, sleeveIds.length - SLEEVE_MAX)}）`);
+// ボードゲーマ（BGGにないゲームの箱絵）：config の bodoge（URL か slug）→ db.bodoge[slug] = { at, img, title }
+// 画像はページの og:image（1200×630 の余白付き）から、縦横比そのままの 500px 版に変える
+db.bodoge ||= {};
+const slugs = [...new Set((owned.games || []).map((g) => String(g.bodoge || "").match(/(?:games\/)?([a-z0-9][a-z0-9-]*)\/?$/)?.[1]).filter(Boolean))];
+let nb2 = 0;
+for (const slug of slugs.filter((s) => !db.bodoge[s] || Date.now() - Date.parse(db.bodoge[s].at) > REFRESH_DAYS * 864e5).slice(0, 30)) {
+  try {
+    const res = await fetch(`https://bodoge.hoobby.net/games/${slug}`, { headers: { "User-Agent": "Mozilla/5.0 (bg-board personal collection viewer)", "Accept-Language": "ja" } });
+    if (!res.ok) { console.log("ERR bodoge", slug, res.status); continue; }
+    const h = await res.text();
+    const og = (h.match(/property="og:image" content="([^"]+)"/)?.[1] || "").replace(/&amp;/g, "&");
+    const img = /noimage/.test(og) ? "" : og.replace(/\/small_light\([^)]*\)\//, "/small_light(dw=500,dh=500,da=l,ds=s)/").replace(/\?[\d-]+$/, "");
+    db.bodoge[slug] = { at: new Date().toISOString(), img, title: dec((h.match(/<title>([^<]*)/)?.[1] || "").replace(/（.*$|｜.*$/, "").replace(/ レビュー評価など.*$/, "").trim()) };
+    nb2++;
+  } catch (e) { console.log("ERR bodoge", slug, e.message); }
+  await sleep(1200);
+}
+console.log(`bodoge: ${nb2}件取得（${Object.keys(db.bodoge).length}件）`);
 db.updatedAt = new Date().toISOString();
 await writeFile(new URL("../data/owned-info.json", import.meta.url), JSON.stringify(db, null, 1));
 console.log(`fetched ${n}, total ${Object.keys(db.games).length}`);

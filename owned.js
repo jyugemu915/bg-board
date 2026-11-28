@@ -463,7 +463,7 @@ function drawSheet() {
         ${base ? `<button class="plink" data-a="base">本体：${esc(ownedTitle(base).main)} ›</button>` : ""}
         <div class="stags">${flagTags(g)}${OS.memo ? "" : `<button class="memobtn" data-a="memo">${g.includes ? `<span class="tag">${esc(g.includes)}</span> ✎` : "＋メモ"}</button>`}</div>
         ${OS.memo ? `<form class="memoform"><input name="m" value="${esc(g.includes || "")}" placeholder="例：拡張入り・スリーブ済み"><button>保存</button><button type="button" data-a="memox">やめる</button></form>` : ""}
-        <div class="sacts"><button data-a="edit" class="${OS.edit ? "on" : ""}">✎ 編集</button>${g.bgg ? `<a href="${esc(g.bgg)}" target="_blank" rel="noopener">BGG ↗</a>` : ""}</div></div></div>
+        <div class="sacts"><button data-a="edit" class="${OS.edit ? "on" : ""}">✎ 編集</button>${g.bgg ? `<a href="${esc(g.bgg)}" target="_blank" rel="noopener">BGG ↗</a>` : ""}${bodogeSlug(g) ? `<a href="https://bodoge.hoobby.net/games/${esc(bodogeSlug(g))}" target="_blank" rel="noopener">ボードゲーマ ↗</a>` : ""}</div></div></div>
     <div class="sbody"></div></div>`;
   const body = w.querySelector(".sbody");
   w.querySelector(".sback").onclick = closeSheet;
@@ -594,6 +594,7 @@ function editPanel(g) {
     <label>メモ（名前の後ろに表示）<input name="includes" value="${esc(g.includes || "")}" placeholder="例：拡張入り・スリーブ済み"></label>
     <label>登録元<input name="from" value="${esc(g.from || "")}" placeholder="例：写真 11/26"></label>
     <label>BGGのURL<input name="bgg" value="${esc(g.bgg || "")}" inputmode="url" placeholder="https://boardgamegeek.com/boardgame/…"></label>
+    <label>ボードゲーマのURL（BGGにないとき）<input name="bodoge" value="${esc(g.bodoge || "")}" inputmode="url" placeholder="https://bodoge.hoobby.net/games/…"></label>
     <div class="lbl">箱絵${choices.length ? "（タップで選択）" : ""}</div>
     <div class="arts">${choices.map((c) => `<button type="button" class="art${pick === c.thumb || (!pick && c.label === "BGG標準") ? " on" : ""}" data-t="${esc(c.thumb)}" style="background-image:url('${esc(c.thumb)}')"><span>${esc(c.label)}</span></button>`).join("")}
       ${!choices.length ? `<div class="s" style="font-size:12px;color:var(--muted)">${bggId(g) ? "BGGから候補を取得中です（次の自動取得のあと表示されます）" : "BGGのURLを入れると、版ごとの箱絵から選べるようになります"}</div>` : ""}</div>
@@ -618,9 +619,9 @@ function editPanel(g) {
       g.name = f.name.trim();
       for (const x of owned) if (x.parent && norm(x.parent) === norm(oldName)) x.parent = g.name;   // 拡張の紐づけも付け替え
     }
-    for (const k of ["nameEn", "players", "parent", "includes", "bgg", "from"]) {
+    for (const k of ["nameEn", "players", "parent", "includes", "bgg", "bodoge", "from"]) {
       const v = f[k].trim();
-      if (v !== (g[k] || "")) { if (v) g[k] = v; else delete g[k]; if (["parent", "includes", "bgg"].includes(k)) edited.add(k); }
+      if (v !== (g[k] || "")) { if (v) g[k] = v; else delete g[k]; if (["parent", "includes", "bgg", "bodoge"].includes(k)) edited.add(k); }
     }
     if (f.box !== (g.box || "")) { if (f.box) g.box = f.box; else delete g.box; }
     const flags = FLAGS.map(([k]) => k).filter((k) => f["flag_" + k]);

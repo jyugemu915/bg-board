@@ -71,8 +71,8 @@ fetch("data/crowd.json?" + Date.now()).then((r) => r.json()).then((d) => { crowd
 // key＝登録時の名前（画面で名前を変えても同じゲームとして扱う）
 let ownedGone = new Set(store.get("bgb.ownedgone.v1", []));
 const okey = (g) => g.key || norm(g.name);
-let ownedInfo = {}, expInfo = {}, sleeveInfo = {};
-fetch("data/owned-info.json?" + Date.now()).then((r) => r.json()).then((d) => { ownedInfo = d.games || {}; expInfo = d.exps || {}; sleeveInfo = d.sleeves || {}; render(); }).catch(() => {});
+let ownedInfo = {}, expInfo = {}, sleeveInfo = {}, bodogeInfo = {};
+fetch("data/owned-info.json?" + Date.now()).then((r) => r.json()).then((d) => { ownedInfo = d.games || {}; expInfo = d.exps || {}; sleeveInfo = d.sleeves || {}; bodogeInfo = d.bodoge || {}; render(); }).catch(() => {});
 fetch("config/owned.json?" + Date.now()).then((r) => r.json()).then((d) => {
   const have = new Map();
   for (const g of owned) { have.set(okey(g), g); have.set(norm(g.name), g); }
@@ -81,12 +81,12 @@ fetch("config/owned.json?" + Date.now()).then((r) => r.json()).then((d) => {
     const cur = have.get(norm(g?.name));
     if (!cur) continue;
     // 本体との紐づけ・同梱メモ・BGGリンクはファイルに合わせる（画面で変えたものは除く）
-    for (const f of ["parent", "includes", "bgg", "flags", "img"]) if (g[f] && JSON.stringify(cur[f]) !== JSON.stringify(g[f]) && !(cur.edited || []).includes(f)) { cur[f] = g[f]; changed = true; }
+    for (const f of ["parent", "includes", "bgg", "flags", "img", "bodoge"]) if (g[f] && JSON.stringify(cur[f]) !== JSON.stringify(g[f]) && !(cur.edited || []).includes(f)) { cur[f] = g[f]; changed = true; }
   }
   // 画面の「＋所持」で先に登録した拡張（同じBGG ID）は、もう一度取り込まない
   const uiIds = new Set(owned.filter((g) => g.from === "拡張一覧から追加").map(bggId).filter(Boolean));
   const add = (d.games || []).filter((g) => g?.name && !have.has(norm(g.name)) && !ownedGone.has(norm(g.name)) && !uiIds.has(bggId(g)))
-    .map((g) => ({ name: g.name, key: norm(g.name), bgg: g.bgg || "", ...(g.parent ? { parent: g.parent } : {}), ...(g.includes ? { includes: g.includes } : {}), ...(g.flags ? { flags: g.flags } : {}), ...(g.img ? { img: g.img } : {}),
+    .map((g) => ({ name: g.name, key: norm(g.name), bgg: g.bgg || "", ...(g.parent ? { parent: g.parent } : {}), ...(g.includes ? { includes: g.includes } : {}), ...(g.flags ? { flags: g.flags } : {}), ...(g.img ? { img: g.img } : {}), ...(g.bodoge ? { bodoge: g.bodoge } : {}),
       from: g.from || "写真から登録", added: new Date().toISOString() }));
   if (add.length) { owned = [...add, ...owned]; changed = true; }
   if (changed) { store.set(LS_OWNED, owned); render(); }
@@ -267,7 +267,9 @@ const bggId = (g) => String(g.bgg || "").match(/boardgame(?:expansion|accessory)
 const oinfo = (g) => ownedInfo[bggId(g)] || expInfo[bggId(g)] || null;
 let nameMode = store.get("bgb.ownedname.v2", "both");   // both（英語名が主・日本語名を小さく）/ ja / en
 const enName = (g) => g.nameEn || oinfo(g)?.en || "";
-const ownedImg = (g) => hq(g.img || oinfo(g)?.thumb || art(g.name));
+// 箱絵：手動（img）→ BGG → ボードゲーマ → 名前で探したBGG箱絵
+const bodogeSlug = (g) => String(g.bodoge || "").match(/(?:games\/)?([a-z0-9][a-z0-9-]*)\/?$/)?.[1] || "";
+const ownedImg = (g) => hq(g.img || oinfo(g)?.thumb || bodogeInfo[bodogeSlug(g)]?.img || art(g.name));
 function playersText(g) {
   if (g.players) return g.players;
   const i = oinfo(g);
