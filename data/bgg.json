@@ -3043,13 +3043,13 @@
   },
   "スカルキング": {
    "label": "スカルキング",
-   "id": "150145",
-   "name": "Skull King",
-   "image": "https://cf.geekdo-images.com/1qvA21HdRaPYwrn4tGDNaQ__original/img/Vn6PK_Ue5TX14oQ5uau4XICHEJU=/0x0/filters:format(jpeg)/pic8689185.jpg",
-   "thumb": "https://cf.geekdo-images.com/1qvA21HdRaPYwrn4tGDNaQ__small/img/3tBwuRBxhDuhcTvA1g-IjVuUXqY=/fit-in/200x150/filters:strip_icc()/pic8689185.jpg",
-   "query": "id:150145",
-   "at": "2026-11-27T22:14:49.177Z",
-   "alias": "150145"
+   "id": "191071",
+   "name": "Mythical Dice",
+   "image": "https://cf.geekdo-images.com/RgAOz0_78OhnjASEVq-gTg__original/img/_jlZv3I8UCE0VfZeLNQ4o88XtJ0=/0x0/filters:format(png)/pic8715055.png",
+   "thumb": "https://cf.geekdo-images.com/RgAOz0_78OhnjASEVq-gTg__small/img/iqlnwdfMRn1pCR6Q3ZWmPpB5AuQ=/fit-in/200x150/filters:strip_icc()/pic8715055.png",
+   "query": "id:191071",
+   "at": "2026-11-28T13:11:09.556Z",
+   "alias": "191071"
   },
   "宝石の煌き": {
    "label": "宝石の煌き",
@@ -3671,5 +3671,5 @@
    "alias": "166475"
   }
  },
- "updatedAt": "2026-11-28T13:08:57.751Z"
+ "updatedAt": "2026-11-28T13:11:09.558Z"
 }

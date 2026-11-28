@@ -21105,6 +21105,156 @@
    ],
    "at": "2026-11-27T13:09:50.128Z"
   },
+  "191071": {
+   "v": 4,
+   "id": "191071",
+   "type": "boardgame",
+   "best": "4",
+   "rec": "3〜6",
+   "minTime": 30,
+   "maxTime": 30,
+   "age": 8,
+   "rating": 6.88,
+   "weight": 1.58,
+   "rank": 2832,
+   "mechanics": [
+    "Dice Rolling",
+    "Predictive Bid",
+    "Trick-taking"
+   ],
+   "categories": [
+    "Dice",
+    "Pirates"
+   ],
+   "designers": [
+    "Manfred Reindl"
+   ],
+   "artists": [
+    "Eckhard Freytag",
+    "Wanjin Gill"
+   ],
+   "publishers": [
+    "Playte",
+    "Schmidt Spiele",
+    "Devir",
+    "GaGa Games",
+    "IELLO",
+    "Rexhry"
+   ],
+   "families": [
+    "Components: Dice with Icons",
+    "Series: Royal horror card games (Schmidt Spiele)",
+    "Theme: Cryptids"
+   ],
+   "desc": "In Mino Dice, first released as Skull King: Das W&uuml;rfelspiel, players try to predict the result of dice battles, and whoever predicts most accurately will come out the winner of the contest.\n\nThe game includes seven types of dice: minotaurs, griffins, mermaids, and four types of number dice. The game lasts 6-8 hands depending on the number of players, and in each round each player draws a number of dice from the bag equal to the current hand, e.g., five dice for the fifth hand, then places them behind their screen, keeping these dice a secret from all. After getting their dice, each player simultaneously bids the number of tricks they think they'll claim during the round by putting out fingers on their hand. Record these bids on the scoresheet.\n\nThe first player in a hand chooses a die from behind their screen, then rolls it in public. If they roll a number die, each other player must roll a number die of this color, if possible; otherwise they roll a die of their choice. Alternatively, a player can always roll a minotaur, griffin, or mermaid die. After each player has rolled, see who has the highest die and claims this trick. A rolled flag is a 0 and cannot win the trick. The minotaur beats the griffin, which beats the mermaid, which beats the minotaur — and all of these special characters beat numbers. If no one rolls a special character, the highest number rolled wins the trick, with a tie being broken in favor of whoever rolled later. The player who wins the trick…",
+   "expansions": [],
+   "bases": [],
+   "en": "Mythical Dice",
+   "ja": "",
+   "minp": 3,
+   "maxp": 6,
+   "time": 30,
+   "year": 2016,
+   "thumb": "https://cf.geekdo-images.com/RgAOz0_78OhnjASEVq-gTg__small/img/iqlnwdfMRn1pCR6Q3ZWmPpB5AuQ=/fit-in/200x150/filters:strip_icc()/pic8715055.png",
+   "image": "https://cf.geekdo-images.com/RgAOz0_78OhnjASEVq-gTg__original/img/_jlZv3I8UCE0VfZeLNQ4o88XtJ0=/0x0/filters:format(png)/pic8715055.png",
+   "box": [
+    23,
+    16,
+    5
+   ],
+   "versions": [
+    {
+     "id": "807292",
+     "name": "Russian edition",
+     "year": 2026,
+     "lang": "Russian",
+     "thumb": "https://cf.geekdo-images.com/t66WfThAR0yHryu7Vkfhqw__small/img/d1F0Pxn_CoFQy_lQWIllLqyUPJI=/fit-in/200x150/filters:strip_icc()/pic9735223.jpg",
+     "image": "https://cf.geekdo-images.com/t66WfThAR0yHryu7Vkfhqw__original/img/NaViy3z4ZOwtpP1I0rvd7IM1pfs=/0x0/filters:format(jpeg)/pic9735223.jpg",
+     "size": [
+      23,
+      16,
+      5
+     ]
+    },
+    {
+     "id": "760556",
+     "name": "Czech edition",
+     "year": 2025,
+     "lang": "Czech",
+     "thumb": "https://cf.geekdo-images.com/sVAlKdujK4Ko8Ze4HzpAPw__small/img/NTK10VBmL9rBOjlJc8Dywg8uPA8=/fit-in/200x150/filters:strip_icc()/pic8905636.jpg",
+     "image": "https://cf.geekdo-images.com/sVAlKdujK4Ko8Ze4HzpAPw__original/img/b09uT3S70WPSs9uOcsgZUyvSZ7A=/0x0/filters:format(jpeg)/pic8905636.jpg",
+     "size": null
+    },
+    {
+     "id": "719841",
+     "name": "English second edition",
+     "year": 2025,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/RgAOz0_78OhnjASEVq-gTg__small/img/iqlnwdfMRn1pCR6Q3ZWmPpB5AuQ=/fit-in/200x150/filters:strip_icc()/pic8715055.png",
+     "image": "https://cf.geekdo-images.com/RgAOz0_78OhnjASEVq-gTg__original/img/_jlZv3I8UCE0VfZeLNQ4o88XtJ0=/0x0/filters:format(png)/pic8715055.png",
+     "size": null
+    },
+    {
+     "id": "766651",
+     "name": "German edition",
+     "year": 2025,
+     "lang": "German",
+     "thumb": "https://cf.geekdo-images.com/n2tnC2LQTtINq8rb5j1baQ__small/img/-ywlPZsIjDbb-x7CKCybw5O1X8k=/fit-in/200x150/filters:strip_icc()/pic9008991.jpg",
+     "image": "https://cf.geekdo-images.com/n2tnC2LQTtINq8rb5j1baQ__original/img/lLEf8nND5f4lpmgnY9OeKK-OqXk=/0x0/filters:format(jpeg)/pic9008991.jpg",
+     "size": null
+    },
+    {
+     "id": "757423",
+     "name": "Iberian edition",
+     "year": 2025,
+     "lang": "Catalan・Portuguese・Spanish",
+     "thumb": "https://cf.geekdo-images.com/TE62DGOFxKKTb8gOMEx_CA__small/img/I9RUyJBWtQRCP0a3lbJk_Rv7DUU=/fit-in/200x150/filters:strip_icc()/pic8853068.jpg",
+     "image": "https://cf.geekdo-images.com/TE62DGOFxKKTb8gOMEx_CA__original/img/ofTkGrQy7WoKsoO002vbWS4MOfE=/0x0/filters:format(jpeg)/pic8853068.jpg",
+     "size": null
+    },
+    {
+     "id": "704488",
+     "name": "Traditional Chinese edtion",
+     "year": 2024,
+     "lang": "Chinese",
+     "thumb": "https://cf.geekdo-images.com/a4lxHPnWyRhPnDVoHp9yHw__small/img/oAuzM4DF_lUUXZpgCobqal7ybF0=/fit-in/200x150/filters:strip_icc()/pic8065027.jpg",
+     "image": "https://cf.geekdo-images.com/a4lxHPnWyRhPnDVoHp9yHw__original/img/mM-GTvEM51v8wS0FfZ8iVEt4MFo=/0x0/filters:format(jpeg)/pic8065027.jpg",
+     "size": null
+    },
+    {
+     "id": "648879",
+     "name": "French edition",
+     "year": 2023,
+     "lang": "French",
+     "thumb": "https://cf.geekdo-images.com/GBbTJHMNo-pnN7czgZdS3g__small/img/slu2sv_x2SdRzQPkoz6be2QV3IQ=/fit-in/200x150/filters:strip_icc()/pic7722120.png",
+     "image": "https://cf.geekdo-images.com/GBbTJHMNo-pnN7czgZdS3g__original/img/L8VnJKiMKARvRYNUfgtoXISBjfI=/0x0/filters:format(png)/pic7722120.png",
+     "size": null
+    },
+    {
+     "id": "585772",
+     "name": "English first edition",
+     "year": 2022,
+     "lang": "English",
+     "thumb": "https://cf.geekdo-images.com/BJm46zD35wNdB7eI1LBHFg__small/img/9rPItCa0qMqH2a5PRkJKTed23JQ=/fit-in/200x150/filters:strip_icc()/pic6474973.jpg",
+     "image": "https://cf.geekdo-images.com/BJm46zD35wNdB7eI1LBHFg__original/img/AV5RdtxfbVkl83wzLdBx2Z2KTvE=/0x0/filters:format(jpeg)/pic6474973.jpg",
+     "size": null
+    },
+    {
+     "id": "296107",
+     "name": "Multilingual edition",
+     "year": 2016,
+     "lang": "English・French・German・Italian",
+     "thumb": "https://cf.geekdo-images.com/jiBSBR9OtiadYYzx2tijHQ__small/img/qm7lYnfhFSbzexlQENQpnJ-05Js=/fit-in/200x150/filters:strip_icc()/pic2824776.jpg",
+     "image": "https://cf.geekdo-images.com/jiBSBR9OtiadYYzx2tijHQ__original/img/DGbftbi897Vn5t94DtfX-YHl6II=/0x0/filters:format(jpeg)/pic2824776.jpg",
+     "size": [
+      27.5,
+      19,
+      6.7
+     ]
+    }
+   ],
+   "at": "2026-11-28T13:11:10.265Z"
+  },
   "198507": {
    "v": 4,
    "id": "198507",
@@ -44658,7 +44808,7 @@
    "at": "2026-11-27T13:09:29.707Z"
   }
  },
- "updatedAt": "2026-11-28T13:08:57.823Z",
+ "updatedAt": "2026-11-28T13:11:14.418Z",
  "exps": {
   "453": {
    "id": "453",
@@ -55645,6 +55795,10 @@
    "at": "2026-11-27T13:11:30.623Z",
    "sets": []
   },
+  "191071": {
+   "at": "2026-11-28T13:11:12.917Z",
+   "sets": []
+  },
   "198507": {
    "at": "2026-11-27T13:10:52.499Z",
    "sets": [
@@ -58680,5 +58834,6 @@
    "at": "2026-11-27T13:11:21.270Z",
    "sets": []
   }
- }
+ },
+ "bodoge": {}
 }
