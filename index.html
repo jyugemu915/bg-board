@@ -9,7 +9,7 @@
 <script>
 // 新しい版が公開されていたら読み直す（ホーム画面アプリの古いページ対策）。版を上げたら version.json と下の V を同じ値に
 (() => {
-  const V = "20261128a";
+  const V = "20261128b";
   const check = () => fetch("version.json?" + Date.now(), { cache: "no-store" }).then((r) => r.json()).then((d) => {
     if (d.v && d.v !== V && sessionStorage.getItem("bgb.reload") !== d.v) {
       sessionStorage.setItem("bgb.reload", d.v);
@@ -22,14 +22,14 @@
 </script>
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
-<link rel="stylesheet" href="style.css?v=20261128a">
+<link rel="stylesheet" href="style.css?v=20261128b">
 </head>
 <body>
 <header class="top">
   <div class="brand">🎲 <b>ボドゲ情報ボード</b></div>
   <button id="editBtn" class="pill">並べ替え</button>
 </header>
-<nav class="tabs"><a href="#" data-pg="home">ホーム</a><a href="#owned" data-pg="owned">所持ゲーム</a></nav>
+<nav class="tabs"><a href="#" data-pg="home">ホーム</a><a href="#owned" data-pg="owned">所持ゲーム</a><a href="#sleeves" data-pg="sleeves">スリーブ</a></nav>
 <main>
   <div class="pagehead">
     <h1>ホーム</h1>
@@ -51,9 +51,10 @@
   </div>
   <div id="board" class="board"><div class="col" data-col="0"></div><div class="col" data-col="1"></div></div>
   <div id="ownedPage" class="opage"></div>
+  <div id="sleevePage" class="opage"></div>
   <p class="credit"><a href="https://boardgamegeek.com" target="_blank" rel="noopener">Powered by BGG</a></p>
 </main>
-<script src="app.js?v=20261128a"></script>
-<script src="owned.js?v=20261128a"></script>
+<script src="app.js?v=20261128b"></script>
+<script src="owned.js?v=20261128b"></script>
 </body>
 </html>

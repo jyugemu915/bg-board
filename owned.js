@@ -27,7 +27,7 @@ const FLAGS = [["unopened", "未開封"], ["untranslated", "未訳"], ["unplayed
 const flagTags = (g, cls = "tag flag") => (g.flags || []).map((f) => FLAGS.find((x) => x[0] === f)).filter(Boolean).map(([k, l]) => `<span class="${cls} f-${k}">${l}</span>`).join("");
 const LS_OVIEW = "bgb.ownedview.v1";
 const OS = { q: "", flag: "", players: 0, best: false, time: "", weight: "", cat: "", mech: "", n: 60, sheet: null, edit: false, adding: false, bulk: false, expN: 8, link: null,
-  sleeveEdit: false, sleeveSum: false, slvTab: "cat", slvOpen: null, slvBgg: false, slvUnopened: false, boxes: "size", ...store.get(LS_OVIEW, { view: "pack", sort: "added" }) };
+  sleeveEdit: false, slvTab: "cat", slvQ: "", slvGf: "all", slvOpen: null, slvBgg: false, slvUnopened: false, boxes: "size", ...store.get(LS_OVIEW, { view: "pack", sort: "added" }) };
 if (OS.view === "grid") OS.view = "pack";   // 旧設定（棚表示）→ 詰める表示を既定に
 // 箱絵の縦横比（読み込んだ画像から覚えておき、詰める表示の配置に使う）
 const aspects = store.get("bgb.aspect.v1", {});
@@ -67,7 +67,7 @@ fetch("config/sleeves.json?" + Date.now()).then((r) => r.json()).then((d) => {
     if (rm.has(it.id) || catById(it.id)) continue;
     sleeveCat.push({ id: it.id, brand: p.brand, name: [p.brand, p.line, it.label].filter(Boolean).join(" "), w: it.w, h: it.h, pack: p.pack, note: p.note, preset: 1, sz: 2 }); add++;
   }
-  if (add) { saveCat(); if (OS.sleeveSum) drawSleeveSum(); }
+  if (add) { saveCat(); drawSleeveSum(); }
 }).catch(() => {});
 const catById = (id) => sleeveCat.find((x) => x.id === id);
 const slvName = (r) => catById(r.sid)?.name || r.kind || "";
@@ -223,10 +223,9 @@ function buildOwnedPage(root) {
       <div class="seg sm" id="oView"><button data-v="pack" title="箱絵を詰めて表示">▦</button><button data-v="shelf" title="棚">棚</button><button data-v="list" title="リスト">☰</button></div></div>
     <div class="obar2"><span class="flbl">表記</span><div class="seg sm" id="oNm">${[["both", "両方"], ["ja", "日本語"], ["en", "English"]].map(([k, l]) => `<button data-v="${k}">${l}</button>`).join("")}</div>
       <span class="flbl">箱</span><div class="seg sm" id="oBox"><button data-v="size" title="大箱・中箱・小箱で大きさを変える">大中小</button><button data-v="same">そろえる</button></div></div>
-    <div id="oSleeves"></div>
     <div id="oList"></div>
-    <div class="foot"><button type="button" data-a="slv">スリーブ</button><button type="button" data-a="req" title="BGGの詳細が取れていないゲームを、チャットで登録を頼むための文章にしてコピー">未登録をコピー</button><button type="button" data-a="exp">書き出し</button><label>読み込み<input type="file" accept=".json" hidden></label></div>
-    <div id="oSheet" class="sheetwrap" hidden></div>`;
+    <div class="foot"><a href="#sleeves" class="btnlink">スリーブ管理へ</a><button type="button" data-a="req" title="BGGの詳細が取れていないゲームを、チャットで登録を頼むための文章にしてコピー">未登録をコピー</button><button type="button" data-a="exp">書き出し</button><label>読み込み<input type="file" accept=".json" hidden></label></div>
+`;
   const $ = (id) => root.querySelector("#" + id);
   const segs = [["oPl", "players", (v) => +v], ["oTime", "time"], ["oWt", "weight"], ["oFlag", "flag"], ["oView", "view"], ["oNm", null], ["oBox", "boxes"]];
   for (const [id, key, conv] of segs) $(id).onclick = (e) => {
@@ -253,7 +252,6 @@ function buildOwnedPage(root) {
     }
     flash(btn, `${txt.split("\n").length - 1}件コピーしました`);
   };
-  root.querySelector("[data-a=slv]").onclick = () => { OS.sleeveSum = !OS.sleeveSum; drawSleeveSum(); if (OS.sleeveSum) document.getElementById("oSleeves").scrollIntoView({ behavior: "smooth" }); };
   root.querySelector("[data-a=exp]").onclick = () => {
     const blob = new Blob([JSON.stringify({ owned, sleeves: sleeveCat }, null, 1)], { type: "application/json" });
     Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: "owned-games.json" }).click();
@@ -273,7 +271,7 @@ function buildOwnedPage(root) {
     } catch { alert("読み込めないファイルです"); }
   };
   // 戻る操作で詳細シートを閉じる
-  window.addEventListener("popstate", () => { if (OS.sheet && location.hash === "#owned") { OS.sheet = null; OS.edit = false; drawSheet(); } });
+  window.addEventListener("popstate", () => { if (OS.sheet && sheetPage()) { OS.sheet = null; OS.edit = false; drawSheet(); } });
   drawAdd();
 }
 // BGGの詳細（owned-info）が取れていないゲームを、チャットに貼る登録依頼の文章にする
@@ -334,7 +332,6 @@ function drawOwned() {
   if ($("oQ").value !== OS.q) $("oQ").value = OS.q;
   const on = (id, v) => $(id).querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.v === String(v)));
   on("oPl", OS.players); on("oTime", OS.time); on("oWt", OS.weight); on("oFlag", OS.flag); on("oView", OS.view); on("oNm", nameMode); on("oBox", OS.boxes);
-  drawSleeveSum();
   $("oBest").checked = OS.best; $("oBest").disabled = !OS.players; $("oSort").value = OS.sort;
   // カテゴリー・メカニクスの候補（多い順）
   const count = (f) => { const m = new Map(); for (const g of bases) for (const x of f(oinfo(g)) || []) m.set(x, (m.get(x) || 0) + 1); return [...m].sort((a, b) => b[1] - a[1]); };
@@ -410,7 +407,7 @@ function noteAspect(img) {
 }
 
 function openSheet(g) {
-  if (!OS.sheet) history.pushState({ sheet: 1 }, "", "#owned");
+  if (!OS.sheet) history.pushState({ sheet: 1 }, "", location.hash || "#owned");
   OS.sheet = g; OS.edit = false; OS.sleeveEdit = false; OS.memo = false; OS.expN = 8; OS.link = null; drawSheet();
 }
 function closeSheet() { if (history.state?.sheet) history.back(); else { OS.sheet = null; drawSheet(); } }
@@ -444,11 +441,13 @@ function listRow({ g, kids, kidHit }) {
 }
 
 // 詳細シート
+// 詳細シートは所持ゲームとスリーブのページで使う（body 直下に置く）
+const sheetPage = () => location.hash === "#owned" || location.hash === "#sleeves";
 function drawSheet() {
-  const w = document.getElementById("oSheet");
-  if (!w) return;
+  let w = document.getElementById("oSheet");
+  if (!w) { w = document.createElement("div"); w.id = "oSheet"; w.className = "sheetwrap"; w.hidden = true; document.body.appendChild(w); }
   const g = OS.sheet;
-  if (!g || !owned.includes(g) || location.hash !== "#owned") { w.hidden = true; w.innerHTML = ""; document.body.classList.remove("noscroll"); if (g && !owned.includes(g)) OS.sheet = null; return; }
+  if (!g || !owned.includes(g) || !sheetPage()) { w.hidden = true; w.innerHTML = ""; document.body.classList.remove("noscroll"); if (g && !owned.includes(g)) OS.sheet = null; return; }
   const keep = w.querySelector(".sheet")?.scrollTop || 0;
   const { kids, rootOf } = ownedGroups();
   const base = rootOf.get(g) || null, i = oinfo(g), t = ownedTitle(g, base), img = ownedImg(g);
@@ -713,18 +712,52 @@ function sleeveBlock(g) {
   return p;
 }
 
-// ページ下の「スリーブ」：手持ち（よく使うスリーブの登録・在庫・使っているゲーム）と集計（カードサイズ別）
+// ===== スリーブのページ（#sleeves）：手持ち／ゲーム別／集計 =====
+let spageBuilt = false;
+function renderSleevePage() {
+  const root = document.getElementById("sleevePage");
+  if (!spageBuilt) {
+    root.innerHTML = `<div class="ohead"><h1>スリーブ</h1><span id="sCount" class="muted"></span></div>
+      <div class="seg" id="slvTab"><button data-v="cat">手持ち</button><button data-v="games">ゲーム別</button><button data-v="sum">集計</button></div>
+      <div class="card ssum spage" id="slvBody"></div>`;
+    root.querySelectorAll("#slvTab button").forEach((b) => b.onclick = () => { OS.slvTab = b.dataset.v; OS.slvOpen = null; drawSleeveSum(); window.scrollTo(0, 0); });
+    spageBuilt = true;
+  }
+  drawSleeveSum();
+  drawSheet();
+}
 function drawSleeveSum() {
-  const box = document.getElementById("oSleeves");
-  if (!box) return;
-  document.querySelector("#ownedPage [data-a=slv]")?.classList.toggle("on", OS.sleeveSum);
-  if (!OS.sleeveSum) { box.innerHTML = ""; return; }
-  box.innerHTML = `<div class="card ssum"><div class="lbl">スリーブ<div class="seg sm" id="slvTab"><button data-v="cat">手持ち（${sleeveCat.length}）</button><button data-v="sum">集計</button></div><button class="mini" data-a="x">閉じる</button></div><div class="sbody2"></div></div>`;
-  box.querySelectorAll("#slvTab button").forEach((b) => { b.classList.toggle("on", b.dataset.v === OS.slvTab); b.onclick = () => { OS.slvTab = b.dataset.v; drawSleeveSum(); }; });
-  box.querySelector("[data-a=x]").onclick = () => { OS.sleeveSum = false; drawSleeveSum(); };
-  const body = box.querySelector(".sbody2");
-  if (OS.slvTab === "sum") sleeveTotals(body); else sleeveCatalog(body);
+  const root = document.getElementById("sleevePage");
+  if (!root || !spageBuilt || location.hash !== "#sleeves") return;
+  const reg = owned.filter((g) => g.sleeves?.length);
+  root.querySelector("#sCount").textContent = `手持ち ${sleeveCat.length}種類・登録 ${reg.length}ゲーム`;
+  root.querySelectorAll("#slvTab button").forEach((b) => b.classList.toggle("on", b.dataset.v === OS.slvTab));
+  const body = root.querySelector("#slvBody");
+  if (OS.slvTab === "sum") sleeveTotals(body); else if (OS.slvTab === "games") sleeveGames(body); else sleeveCatalog(body);
   body.querySelectorAll("[data-g]").forEach((b) => b.onclick = () => openSheet(owned[+b.dataset.g]));
+}
+
+// ゲーム別：名前で探して、どのスリーブを何枚使っているか（破れたときの確認・開封時の準備）
+function sleeveGames(body) {
+  const q = norm(OS.slvQ || "");
+  const st = (g) => { const l = g.sleeves || []; return !l.length ? (bggSleeveSets(g).length ? "bgg" : "none") : l.every((r) => r.done) ? "done" : "todo"; };
+  const FILTERS = [["all", "すべて"], ["todo", "未スリーブあり"], ["done", "スリーブ済み"], ["bgg", "未登録（BGGにデータあり）"]];
+  const cnt = Object.fromEntries(FILTERS.map(([k]) => [k, 0]));
+  for (const g of owned) { const s = st(g); if (s !== "none") cnt.all++; if (cnt[s] !== undefined && s !== "all") cnt[s]++; }
+  let list = owned.filter((g) => !q || hay(g).includes(q));
+  if (!q) list = list.filter((g) => OS.slvGf === "all" ? st(g) !== "none" : st(g) === OS.slvGf);
+  list.sort((a, b) => ownedTitle(a).main.localeCompare(ownedTitle(b).main, "ja"));
+  body.innerHTML = `<div class="osearch"><input id="sQ" type="search" placeholder="ゲーム名・スリーブ名で探す" value="${esc(OS.slvQ || "")}" autocomplete="off"></div>
+    ${q ? "" : `<div class="seg sm sfil">${FILTERS.map(([k, l]) => `<button data-f="${k}" class="${OS.slvGf === k ? "on" : ""}">${l} ${cnt[k]}</button>`).join("")}</div>`}
+    <div class="sgl">${list.slice(0, 200).map((g) => {
+      const rows = g.sleeves || [], s = st(g);
+      const sub = rows.length ? rows.map((r) => `<div class="sgr${r.done ? " done" : ""}"><span>${esc(r.name || "カード")} ${r.w ? esc(sizeKey(r)) : "?"}mm ${r.n ? `${r.n}枚` : ""}</span><span>${slvLine(r)}</span></div>`).join("")
+        : s === "bgg" ? `<div class="sgr"><span class="muted">BGG：${bggSleeveSets(g)[0].cards.map((c) => `${sizeKey(c)}mm ${c.n}枚`).join("、")}</span></div>` : `<div class="sgr"><span class="muted">登録なし</span></div>`;
+      return `<button class="sg" data-g="${owned.indexOf(g)}"><span class="sgn">${esc(ownedTitle(g).main)}${s === "done" ? ' <b class="ok">✓</b>' : ""}</span>${sub}</button>`;
+    }).join("") || `<div class="s">該当するゲームはありません。</div>`}${list.length > 200 ? `<div class="s">ほか ${list.length - 200} 件（検索で絞り込んでください）</div>` : ""}</div>`;
+  const inp = body.querySelector("#sQ");
+  inp.oninput = () => { OS.slvQ = inp.value; const pos = inp.selectionStart; drawSleeveSum(); const n = document.getElementById("sQ"); n.focus(); n.setSelectionRange(pos, pos); };
+  body.querySelectorAll("[data-f]").forEach((b) => b.onclick = () => { OS.slvGf = b.dataset.f; drawSleeveSum(); });
 }
 const gameChip = (g, extra = "") => `<button class="pchip" data-g="${owned.indexOf(g)}">${esc(ownedTitle(g).main)}${extra}</button>`;
 

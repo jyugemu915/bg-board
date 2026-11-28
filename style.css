@@ -121,8 +121,9 @@ form.oedit .lbl{font-size:11.5px;color:var(--muted)}
 .tabs{display:flex;gap:6px;justify-content:center;margin:0 10px}
 .tabs a{flex:1;max-width:200px;text-align:center;padding:7px 0;border-radius:999px;font-size:13.5px;color:var(--muted);border:1px solid transparent}
 .tabs a.on{background:var(--card);color:var(--ink);border-color:var(--line);font-weight:600}
-body[data-page=owned] .pagehead,body[data-page=owned] #board,body[data-page=owned] #addBar,body[data-page=owned] #editBtn{display:none!important}
+body:not([data-page=home]) .pagehead,body:not([data-page=home]) #board,body:not([data-page=home]) #addBar,body:not([data-page=home]) #editBtn{display:none!important}
 body:not([data-page=owned]) #ownedPage{display:none}
+body:not([data-page=sleeves]) #sleevePage{display:none}
 body.noscroll{overflow:hidden}
 .lbl2{font-size:11.5px;color:var(--muted);padding:2px 16px 4px}
 a.more{text-align:center;width:max-content}
@@ -298,3 +299,16 @@ form.sform .bggset select{flex:1;min-width:0;font:inherit;font-size:14px;padding
 form.sform select[name=sid]{flex:1;min-width:0;font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:#fff}
 .ssum .catg{margin-top:10px;font-weight:600;color:#5d594f}
 .ssum .cf{flex-basis:100%;font-size:11px;color:#6b8a5f}
+/* スリーブのページ */
+#sleevePage #slvTab{margin:6px 0 10px}
+.spage{padding:12px 14px}
+.spage .osearch{margin:0 0 8px}
+.sfil{flex-wrap:wrap;margin-bottom:8px}
+.sgl{display:flex;flex-direction:column}
+.sg{display:block;width:100%;text-align:left;border:0;border-top:1px solid var(--line);background:none;padding:8px 0;font:inherit;color:var(--ink)}
+.sgn{display:block;font-weight:600;font-size:14px;margin-bottom:2px}
+.sgn .ok{color:#4f7a4a}
+.sgr{display:flex;justify-content:space-between;gap:8px;font-size:12px;color:#5d594f;padding:1px 0}
+.sgr span:last-child{text-align:right}
+.sgr.done span:last-child{color:#4f7a4a}
+.foot .btnlink{display:inline-block;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:#fff;font-size:13px;color:#555}

@@ -125,13 +125,14 @@ async function loadData() {
 
 function saveLayout() { store.set(LS_LAYOUT, layout); }
 
-// ページ：ホーム（ボード）／所持ゲーム（#owned）
-const page = () => (location.hash === "#owned" ? "owned" : "home");
+// ページ：ホーム（ボード）／所持ゲーム（#owned）／スリーブ（#sleeves）
+const page = () => (location.hash === "#owned" ? "owned" : location.hash === "#sleeves" ? "sleeves" : "home");
 function render() {
   const pg = page();
   document.body.dataset.page = pg;
   document.querySelectorAll(".tabs a").forEach((a) => a.classList.toggle("on", a.dataset.pg === pg));
   if (pg === "owned") return renderOwnedPage();
+  if (pg === "sleeves") return renderSleevePage();
   drawSheet?.();
   const cols = document.querySelectorAll(".col");
   cols.forEach((c) => (c.innerHTML = ""));
